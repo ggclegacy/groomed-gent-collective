@@ -1,0 +1,1290 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D13",
+    "order": 13,
+    "title": "Advanced / Future Grooming Science",
+    "primaryLayer": "clinical-evidence",
+    "secondaryLayers": [],
+    "aliases": [
+      "frontier",
+      "peptides",
+      "exosomes",
+      "red light",
+      "microneedling",
+      "regenerative"
+    ],
+    "outcome": "Appraise frontier claims by mechanism, human outcomes, risks and regulatory status.",
+    "moduleIds": [
+      "D13-F",
+      "D13-M",
+      "D13-A",
+      "D13-R"
+    ],
+    "sourceSeedIds": [
+      "seed-aad-hair",
+      "seed-fda-claims"
+    ],
+    "coverageGaps": [
+      "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D13-F",
+      "domainId": "D13",
+      "level": "Foundation",
+      "title": "Advanced / Future Grooming Science — Foundation",
+      "prerequisiteModuleIds": [
+        "D02-F",
+        "D07-F",
+        "D18-F"
+      ],
+      "topicIds": [
+        "D13-F-01",
+        "D13-F-02",
+        "D13-F-03",
+        "D13-F-04",
+        "D13-F-05",
+        "D13-F-06",
+        "D13-F-07",
+        "D13-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D13-M",
+      "domainId": "D13",
+      "level": "Mastery",
+      "title": "Advanced / Future Grooming Science — Mastery",
+      "prerequisiteModuleIds": [
+        "D13-F"
+      ],
+      "topicIds": [
+        "D13-M-01",
+        "D13-M-02",
+        "D13-M-03",
+        "D13-M-04",
+        "D13-M-05",
+        "D13-M-06",
+        "D13-M-07",
+        "D13-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D13-A",
+      "domainId": "D13",
+      "level": "Advanced",
+      "title": "Advanced / Future Grooming Science — Advanced",
+      "prerequisiteModuleIds": [
+        "D13-M"
+      ],
+      "topicIds": [
+        "D13-A-01",
+        "D13-A-02",
+        "D13-A-03",
+        "D13-A-04",
+        "D13-A-05",
+        "D13-A-06",
+        "D13-A-07",
+        "D13-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D13-R",
+      "domainId": "D13",
+      "level": "Frontier",
+      "title": "Advanced / Future Grooming Science — Frontier",
+      "prerequisiteModuleIds": [
+        "D13-A"
+      ],
+      "topicIds": [
+        "D13-R-01",
+        "D13-R-02",
+        "D13-R-03",
+        "D13-R-04",
+        "D13-R-05",
+        "D13-R-06",
+        "D13-R-07",
+        "D13-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D13-F-01",
+      "domainId": "D13",
+      "moduleId": "D13-F",
+      "level": "Foundation",
+      "title": "Mechanism versus human benefit",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain mechanism versus human benefit, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D02-F",
+        "D07-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-F-02",
+      "domainId": "D13",
+      "moduleId": "D13-F",
+      "level": "Foundation",
+      "title": "In vitro animal and human evidence",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain in vitro animal and human evidence, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D02-F",
+        "D07-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-F-03",
+      "domainId": "D13",
+      "moduleId": "D13-F",
+      "level": "Foundation",
+      "title": "Peptide versus protein terminology",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain peptide versus protein terminology, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D02-F",
+        "D07-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-F-04",
+      "domainId": "D13",
+      "moduleId": "D13-F",
+      "level": "Foundation",
+      "title": "Delivery and skin penetration",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain delivery and skin penetration, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D02-F",
+        "D07-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-F-05",
+      "domainId": "D13",
+      "moduleId": "D13-F",
+      "level": "Foundation",
+      "title": "Dose wavelength and exposure concepts",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain dose wavelength and exposure concepts, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D02-F",
+        "D07-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-F-06",
+      "domainId": "D13",
+      "moduleId": "D13-F",
+      "level": "Foundation",
+      "title": "Cosmetic versus medical procedure boundaries",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain cosmetic versus medical procedure boundaries, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D02-F",
+        "D07-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-F-07",
+      "domainId": "D13",
+      "moduleId": "D13-F",
+      "level": "Foundation",
+      "title": "Surrogate versus meaningful outcomes",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain surrogate versus meaningful outcomes, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D02-F",
+        "D07-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-F-08",
+      "domainId": "D13",
+      "moduleId": "D13-F",
+      "level": "Foundation",
+      "title": "Conflicts of interest and hype language",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain conflicts of interest and hype language, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D02-F",
+        "D07-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-M-01",
+      "domainId": "D13",
+      "moduleId": "D13-M",
+      "level": "Mastery",
+      "title": "Copper and biomimetic peptide evidence",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about copper and biomimetic peptide evidence, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-M-02",
+      "domainId": "D13",
+      "moduleId": "D13-M",
+      "level": "Mastery",
+      "title": "Liposomes and encapsulation",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about liposomes and encapsulation, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-M-03",
+      "domainId": "D13",
+      "moduleId": "D13-M",
+      "level": "Mastery",
+      "title": "Ferments probiotics and postbiotics",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about ferments probiotics and postbiotics, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-M-04",
+      "domainId": "D13",
+      "moduleId": "D13-M",
+      "level": "Mastery",
+      "title": "Red and near-infrared light studies",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about red and near-infrared light studies, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-M-05",
+      "domainId": "D13",
+      "moduleId": "D13-M",
+      "level": "Mastery",
+      "title": "DHT biology overview",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about dht biology overview, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-M-06",
+      "domainId": "D13",
+      "moduleId": "D13-M",
+      "level": "Mastery",
+      "title": "Caffeine and rosemary comparisons",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about caffeine and rosemary comparisons, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-M-07",
+      "domainId": "D13",
+      "moduleId": "D13-M",
+      "level": "Mastery",
+      "title": "Growth-factor claim appraisal",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about growth-factor claim appraisal, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-M-08",
+      "domainId": "D13",
+      "moduleId": "D13-M",
+      "level": "Mastery",
+      "title": "Microneedling professional-scope overview",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about microneedling professional-scope overview, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-F"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-A-01",
+      "domainId": "D13",
+      "moduleId": "D13-A",
+      "level": "Advanced",
+      "title": "Nanodelivery characterization",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about nanodelivery characterization transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-M"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-A-02",
+      "domainId": "D13",
+      "moduleId": "D13-A",
+      "level": "Advanced",
+      "title": "LLLT trial quality",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about lllt trial quality transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-M"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-A-03",
+      "domainId": "D13",
+      "moduleId": "D13-A",
+      "level": "Advanced",
+      "title": "PRP protocol variability",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about prp protocol variability transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-M"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-A-04",
+      "domainId": "D13",
+      "moduleId": "D13-A",
+      "level": "Advanced",
+      "title": "Radiofrequency and ultrasound literacy",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about radiofrequency and ultrasound literacy transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-M"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-A-05",
+      "domainId": "D13",
+      "moduleId": "D13-A",
+      "level": "Advanced",
+      "title": "Exosome identity purity and cargo",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about exosome identity purity and cargo transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-M"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-A-06",
+      "domainId": "D13",
+      "moduleId": "D13-A",
+      "level": "Advanced",
+      "title": "Stem-cell-derived cosmetic provenance",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about stem-cell-derived cosmetic provenance transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-M"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-A-07",
+      "domainId": "D13",
+      "moduleId": "D13-A",
+      "level": "Advanced",
+      "title": "Combination therapy attribution",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about combination therapy attribution transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-M"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-A-08",
+      "domainId": "D13",
+      "moduleId": "D13-A",
+      "level": "Advanced",
+      "title": "Device clearance versus efficacy extrapolation",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about device clearance versus efficacy extrapolation transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-M"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-R-01",
+      "domainId": "D13",
+      "moduleId": "D13-R",
+      "level": "Frontier",
+      "title": "Follicular regeneration technologies",
+      "researchQuestions": [
+        "For follicular regeneration technologies, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-A"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-R-02",
+      "domainId": "D13",
+      "moduleId": "D13-R",
+      "level": "Frontier",
+      "title": "Cell-free regenerative approaches",
+      "researchQuestions": [
+        "For cell-free regenerative approaches, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-A"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-R-03",
+      "domainId": "D13",
+      "moduleId": "D13-R",
+      "level": "Frontier",
+      "title": "Personalized microbiome interventions",
+      "researchQuestions": [
+        "For personalized microbiome interventions, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-A"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-R-04",
+      "domainId": "D13",
+      "moduleId": "D13-R",
+      "level": "Frontier",
+      "title": "Senolytic cosmetic hypotheses",
+      "researchQuestions": [
+        "For senolytic cosmetic hypotheses, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-A"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-R-05",
+      "domainId": "D13",
+      "moduleId": "D13-R",
+      "level": "Frontier",
+      "title": "AI-guided treatment personalization",
+      "researchQuestions": [
+        "For ai-guided treatment personalization, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-A"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-R-06",
+      "domainId": "D13",
+      "moduleId": "D13-R",
+      "level": "Frontier",
+      "title": "Clinical trial registration surveillance",
+      "researchQuestions": [
+        "For clinical trial registration surveillance, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-A"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-R-07",
+      "domainId": "D13",
+      "moduleId": "D13-R",
+      "level": "Frontier",
+      "title": "First-in-human evidence interpretation",
+      "researchQuestions": [
+        "For first-in-human evidence interpretation, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-A"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D13-R-08",
+      "domainId": "D13",
+      "moduleId": "D13-R",
+      "level": "Frontier",
+      "title": "Negative findings and replication tracking",
+      "researchQuestions": [
+        "For negative findings and replication tracking, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D13-A"
+      ],
+      "relatedDomainIds": [
+        "D02",
+        "D07",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

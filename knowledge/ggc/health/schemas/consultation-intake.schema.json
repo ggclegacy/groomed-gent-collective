@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ggc:health:consultation-intake",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "area"
+  ],
+  "properties": {
+    "goal": {
+      "type": "string",
+      "minLength": 1
+    },
+    "currentHabits": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timeBudgetAccess": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lifeStage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "careTeamContext": {
+      "type": "string",
+      "minLength": 1
+    },
+    "area": {
+      "enum": [
+        "general",
+        "nutrition",
+        "fitness",
+        "sleep",
+        "mental-wellbeing",
+        "hormones",
+        "sexual-fertility",
+        "supplements",
+        "biomarkers",
+        "longevity-biohacking"
+      ]
+    },
+    "questionType": {
+      "enum": [
+        "education",
+        "care-navigation",
+        "personal-medical-decision"
+      ]
+    },
+    "reportedUrgency": {
+      "enum": [
+        "none",
+        "medical-emergency",
+        "immediate-self-harm-risk"
+      ]
+    },
+    "medicationOrLabDecisionRequested": {
+      "type": "boolean"
+    }
+  }
+}

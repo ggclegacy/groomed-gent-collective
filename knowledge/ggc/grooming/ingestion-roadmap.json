@@ -1,0 +1,146 @@
+{
+  "version": "1.0.0",
+  "ownerRoles": {
+    "researcher": "acquisition and extraction",
+    "domainReviewer": "trade/chemistry/clinical/history specialist as appropriate",
+    "evidenceReviewer": "methods and applicability review",
+    "regulatoryReviewer": "jurisdiction-specific claims review",
+    "brandOwner": "brand fit and product/marketing authorization",
+    "maintainer": "validation versioning and release"
+  },
+  "phases": [
+    {
+      "id": "P0",
+      "domainIds": [
+        "D18",
+        "D19"
+      ],
+      "dependsOn": [],
+      "goal": "Calibrate evidence, privacy, referral and consultation policy before releasing advice.",
+      "exitGate": "Adjudicated test cases; named review owners; source and claim templates accepted."
+    },
+    {
+      "id": "P1",
+      "domainIds": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D14",
+        "D16"
+      ],
+      "dependsOn": [
+        "P0"
+      ],
+      "goal": "Hair/scalp foundations then barbering, beard, shaving, skin and body practice.",
+      "exitGate": "Foundation and Mastery dossiers reviewed, inclusive consultation cases pass, safety boundaries tested."
+    },
+    {
+      "id": "P2",
+      "domainIds": [
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "dependsOn": [
+        "P1"
+      ],
+      "goal": "Ingredient dossiers, formula science, product categories, soap and fragrance.",
+      "exitGate": "Identity-specific dossiers and formulation applicability reviewed; no ingredient-to-product efficacy transfer."
+    },
+    {
+      "id": "P3",
+      "domainIds": [
+        "D17",
+        "D18",
+        "D19"
+      ],
+      "dependsOn": [
+        "P2"
+      ],
+      "goal": "Product development, jurisdiction-specific claims and reviewed catalog mapping.",
+      "exitGate": "Product Studio remains a distinct approval workflow; reviewed mapping and manufacturer evidence required."
+    },
+    {
+      "id": "P4",
+      "domainIds": [
+        "D15"
+      ],
+      "dependsOn": [
+        "P0"
+      ],
+      "goal": "Run heritage research alongside later phases with cultural-source specialists.",
+      "exitGate": "Primary provenance, permissions and cultural attribution reviewed; no traditional-practice medical claims."
+    },
+    {
+      "id": "P5",
+      "domainIds": [
+        "D13"
+      ],
+      "dependsOn": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "goal": "Frontier surveillance and advanced evidence synthesis.",
+      "exitGate": "Human/preclinical distinctions, contrary evidence and short review cycles enforced."
+    }
+  ],
+  "initialBatches": [
+    {
+      "id": "B01",
+      "moduleIds": [
+        "D18-F",
+        "D19-F"
+      ],
+      "deliverable": "Scope policy and consultation evaluation cases"
+    },
+    {
+      "id": "B02",
+      "moduleIds": [
+        "D01-F",
+        "D02-F",
+        "D06-F"
+      ],
+      "deliverable": "Hair scalp skin terminology and first source-grounded dossiers"
+    },
+    {
+      "id": "B03",
+      "moduleIds": [
+        "D03-F",
+        "D04-F",
+        "D05-F"
+      ],
+      "deliverable": "Professional practice and shaving-safety source packs"
+    },
+    {
+      "id": "B04",
+      "moduleIds": [
+        "D08-F",
+        "D12-F",
+        "D09-F"
+      ],
+      "deliverable": "Ingredient identity and category dossiers"
+    }
+  ],
+  "perTopicAcceptance": [
+    "At least one relevant authoritative source, plus independent corroboration or explicit single-source limitation",
+    "Capture publication version access date rights hash and exact locator",
+    "Extract atomic claims with study design sample comparator outcomes uncertainty funding and applicability",
+    "Record contrary evidence and mark unresolved conflicts",
+    "Domain review and evidence review completed; regulatory review when needed",
+    "Run structural and adversarial retrieval tests; publish only approved public summaries"
+  ],
+  "metrics": [
+    "Topics planned/acquired/reviewed by domain and level",
+    "Claims released and withheld by evidence state",
+    "Unresolved conflicts and expired reviews",
+    "Consultation abstention and escalation accuracy",
+    "Citation precision and product-evidence mismatch rate"
+  ]
+}

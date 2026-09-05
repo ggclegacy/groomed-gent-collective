@@ -1,0 +1,23 @@
+{
+  "id": "template-technique",
+  "kind": "technique",
+  "name": "Unfilled technique research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "Template only; all substantive information awaits source ingestion and qualified review."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "bodySites": [],
+    "professionalScope": "Qualified professional review required before procedural instruction.",
+    "tools": [],
+    "prerequisites": [],
+    "steps": [],
+    "contraindications": [],
+    "stopCriteria": [],
+    "aftercareClaimIds": [],
+    "sourceIds": []
+  }
+}

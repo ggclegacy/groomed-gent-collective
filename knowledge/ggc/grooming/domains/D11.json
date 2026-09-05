@@ -1,0 +1,1177 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D11",
+    "order": 11,
+    "title": "Fragrance & Masculine Scent",
+    "primaryLayer": "product-science",
+    "secondaryLayers": [
+      "clinical-evidence"
+    ],
+    "aliases": [
+      "fragrance",
+      "scent",
+      "fougere",
+      "sillage",
+      "perfumery",
+      "ifra"
+    ],
+    "outcome": "Describe scent preferences and formulation constraints without equating tradition with suitability.",
+    "moduleIds": [
+      "D11-F",
+      "D11-M",
+      "D11-A",
+      "D11-R"
+    ],
+    "sourceSeedIds": [
+      "seed-ifra"
+    ],
+    "coverageGaps": [
+      "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D11-F",
+      "domainId": "D11",
+      "level": "Foundation",
+      "title": "Fragrance & Masculine Scent — Foundation",
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "topicIds": [
+        "D11-F-01",
+        "D11-F-02",
+        "D11-F-03",
+        "D11-F-04",
+        "D11-F-05",
+        "D11-F-06",
+        "D11-F-07",
+        "D11-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D11-M",
+      "domainId": "D11",
+      "level": "Mastery",
+      "title": "Fragrance & Masculine Scent — Mastery",
+      "prerequisiteModuleIds": [
+        "D11-F"
+      ],
+      "topicIds": [
+        "D11-M-01",
+        "D11-M-02",
+        "D11-M-03",
+        "D11-M-04",
+        "D11-M-05",
+        "D11-M-06",
+        "D11-M-07",
+        "D11-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D11-A",
+      "domainId": "D11",
+      "level": "Advanced",
+      "title": "Fragrance & Masculine Scent — Advanced",
+      "prerequisiteModuleIds": [
+        "D11-M"
+      ],
+      "topicIds": [
+        "D11-A-01",
+        "D11-A-02",
+        "D11-A-03",
+        "D11-A-04",
+        "D11-A-05",
+        "D11-A-06",
+        "D11-A-07",
+        "D11-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D11-R",
+      "domainId": "D11",
+      "level": "Frontier",
+      "title": "Fragrance & Masculine Scent — Frontier",
+      "prerequisiteModuleIds": [
+        "D11-A"
+      ],
+      "topicIds": [
+        "D11-R-01",
+        "D11-R-02",
+        "D11-R-03",
+        "D11-R-04",
+        "D11-R-05",
+        "D11-R-06",
+        "D11-R-07",
+        "D11-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D11-F-01",
+      "domainId": "D11",
+      "moduleId": "D11-F",
+      "level": "Foundation",
+      "title": "Olfaction and adaptation",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain olfaction and adaptation, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-F-02",
+      "domainId": "D11",
+      "moduleId": "D11-F",
+      "level": "Foundation",
+      "title": "Top middle and base notes",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain top middle and base notes, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-F-03",
+      "domainId": "D11",
+      "moduleId": "D11-F",
+      "level": "Foundation",
+      "title": "Volatility diffusion and substantivity",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain volatility diffusion and substantivity, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-F-04",
+      "domainId": "D11",
+      "moduleId": "D11-F",
+      "level": "Foundation",
+      "title": "Projection sillage and longevity",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain projection sillage and longevity, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-F-05",
+      "domainId": "D11",
+      "moduleId": "D11-F",
+      "level": "Foundation",
+      "title": "Naturals and synthetics",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain naturals and synthetics, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-F-06",
+      "domainId": "D11",
+      "moduleId": "D11-F",
+      "level": "Foundation",
+      "title": "Citrus woody aromatic and amber families",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain citrus woody aromatic and amber families, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-F-07",
+      "domainId": "D11",
+      "moduleId": "D11-F",
+      "level": "Foundation",
+      "title": "Accords and fragrance concentration",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain accords and fragrance concentration, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-F-08",
+      "domainId": "D11",
+      "moduleId": "D11-F",
+      "level": "Foundation",
+      "title": "Personal preference and scent tolerance",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain personal preference and scent tolerance, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-M-01",
+      "domainId": "D11",
+      "moduleId": "D11-M",
+      "level": "Mastery",
+      "title": "Barbershop fougere heritage",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about barbershop fougere heritage, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-M-02",
+      "domainId": "D11",
+      "moduleId": "D11-M",
+      "level": "Mastery",
+      "title": "Leather tobacco spice and oud profiles",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about leather tobacco spice and oud profiles, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-M-03",
+      "domainId": "D11",
+      "moduleId": "D11-M",
+      "level": "Mastery",
+      "title": "Chypre aquatic and niche traditions",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about chypre aquatic and niche traditions, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-M-04",
+      "domainId": "D11",
+      "moduleId": "D11-M",
+      "level": "Mastery",
+      "title": "Grooming-base scent interaction",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about grooming-base scent interaction, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-M-05",
+      "domainId": "D11",
+      "moduleId": "D11-M",
+      "level": "Mastery",
+      "title": "Fragrance layering and restraint",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about fragrance layering and restraint, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-M-06",
+      "domainId": "D11",
+      "moduleId": "D11-M",
+      "level": "Mastery",
+      "title": "Scent evaluation and blotter methods",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about scent evaluation and blotter methods, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-M-07",
+      "domainId": "D11",
+      "moduleId": "D11-M",
+      "level": "Mastery",
+      "title": "Oxidation storage and packaging",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about oxidation storage and packaging, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-M-08",
+      "domainId": "D11",
+      "moduleId": "D11-M",
+      "level": "Mastery",
+      "title": "Fragrance-free versus unscented labels",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about fragrance-free versus unscented labels, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-A-01",
+      "domainId": "D11",
+      "moduleId": "D11-A",
+      "level": "Advanced",
+      "title": "IFRA category and exposure mapping",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about ifra category and exposure mapping transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-A-02",
+      "domainId": "D11",
+      "moduleId": "D11-A",
+      "level": "Advanced",
+      "title": "Material-specific restrictions research",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about material-specific restrictions research transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-A-03",
+      "domainId": "D11",
+      "moduleId": "D11-A",
+      "level": "Advanced",
+      "title": "Fragrance allergen disclosure research",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about fragrance allergen disclosure research transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-A-04",
+      "domainId": "D11",
+      "moduleId": "D11-A",
+      "level": "Advanced",
+      "title": "Supplier conformity documents",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about supplier conformity documents transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-A-05",
+      "domainId": "D11",
+      "moduleId": "D11-A",
+      "level": "Advanced",
+      "title": "Sensitization and phototoxicity literacy",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about sensitization and phototoxicity literacy transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-A-06",
+      "domainId": "D11",
+      "moduleId": "D11-A",
+      "level": "Advanced",
+      "title": "Substantivity in rinse-off products",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about substantivity in rinse-off products transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-A-07",
+      "domainId": "D11",
+      "moduleId": "D11-A",
+      "level": "Advanced",
+      "title": "Sensory panel bias control",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about sensory panel bias control transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-A-08",
+      "domainId": "D11",
+      "moduleId": "D11-A",
+      "level": "Advanced",
+      "title": "Accord translation across soap oil and balm",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about accord translation across soap oil and balm transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-R-01",
+      "domainId": "D11",
+      "moduleId": "D11-R",
+      "level": "Frontier",
+      "title": "Biotechnology aroma materials",
+      "researchQuestions": [
+        "For biotechnology aroma materials, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-R-02",
+      "domainId": "D11",
+      "moduleId": "D11-R",
+      "level": "Frontier",
+      "title": "Digital scent representation",
+      "researchQuestions": [
+        "For digital scent representation, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-R-03",
+      "domainId": "D11",
+      "moduleId": "D11-R",
+      "level": "Frontier",
+      "title": "AI accord generation",
+      "researchQuestions": [
+        "For ai accord generation, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-R-04",
+      "domainId": "D11",
+      "moduleId": "D11-R",
+      "level": "Frontier",
+      "title": "Olfactory receptor modeling",
+      "researchQuestions": [
+        "For olfactory receptor modeling, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-R-05",
+      "domainId": "D11",
+      "moduleId": "D11-R",
+      "level": "Frontier",
+      "title": "Microencapsulated fragrance release",
+      "researchQuestions": [
+        "For microencapsulated fragrance release, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-R-06",
+      "domainId": "D11",
+      "moduleId": "D11-R",
+      "level": "Frontier",
+      "title": "Low-impact fragrance solvent systems",
+      "researchQuestions": [
+        "For low-impact fragrance solvent systems, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-R-07",
+      "domainId": "D11",
+      "moduleId": "D11-R",
+      "level": "Frontier",
+      "title": "Personalized scent study validation",
+      "researchQuestions": [
+        "For personalized scent study validation, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D11-R-08",
+      "domainId": "D11",
+      "moduleId": "D11-R",
+      "level": "Frontier",
+      "title": "Standards amendment change tracking",
+      "researchQuestions": [
+        "For standards amendment change tracking, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D11-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

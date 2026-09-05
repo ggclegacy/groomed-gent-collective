@@ -1,0 +1,1250 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D04",
+    "order": 4,
+    "title": "Beard & Mustache Mastery",
+    "primaryLayer": "practice",
+    "secondaryLayers": [
+      "clinical-evidence"
+    ],
+    "aliases": [
+      "beard",
+      "mustache",
+      "moustache",
+      "beard oil",
+      "beard balm"
+    ],
+    "outcome": "Separate facial-hair conditioning, skin comfort and shape control.",
+    "moduleIds": [
+      "D04-F",
+      "D04-M",
+      "D04-A",
+      "D04-R"
+    ],
+    "sourceSeedIds": [
+      "seed-milady",
+      "seed-aad-shave"
+    ],
+    "coverageGaps": [
+      "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D04-F",
+      "domainId": "D04",
+      "level": "Foundation",
+      "title": "Beard & Mustache Mastery — Foundation",
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "topicIds": [
+        "D04-F-01",
+        "D04-F-02",
+        "D04-F-03",
+        "D04-F-04",
+        "D04-F-05",
+        "D04-F-06",
+        "D04-F-07",
+        "D04-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D04-M",
+      "domainId": "D04",
+      "level": "Mastery",
+      "title": "Beard & Mustache Mastery — Mastery",
+      "prerequisiteModuleIds": [
+        "D04-F"
+      ],
+      "topicIds": [
+        "D04-M-01",
+        "D04-M-02",
+        "D04-M-03",
+        "D04-M-04",
+        "D04-M-05",
+        "D04-M-06",
+        "D04-M-07",
+        "D04-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D04-A",
+      "domainId": "D04",
+      "level": "Advanced",
+      "title": "Beard & Mustache Mastery — Advanced",
+      "prerequisiteModuleIds": [
+        "D04-M"
+      ],
+      "topicIds": [
+        "D04-A-01",
+        "D04-A-02",
+        "D04-A-03",
+        "D04-A-04",
+        "D04-A-05",
+        "D04-A-06",
+        "D04-A-07",
+        "D04-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D04-R",
+      "domainId": "D04",
+      "level": "Frontier",
+      "title": "Beard & Mustache Mastery — Frontier",
+      "prerequisiteModuleIds": [
+        "D04-A"
+      ],
+      "topicIds": [
+        "D04-R-01",
+        "D04-R-02",
+        "D04-R-03",
+        "D04-R-04",
+        "D04-R-05",
+        "D04-R-06",
+        "D04-R-07",
+        "D04-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D04-F-01",
+      "domainId": "D04",
+      "moduleId": "D04-F",
+      "level": "Foundation",
+      "title": "Facial-hair growth biology",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain facial-hair growth biology, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-F-02",
+      "domainId": "D04",
+      "moduleId": "D04-F",
+      "level": "Foundation",
+      "title": "Density and patchiness variability",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain density and patchiness variability, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-F-03",
+      "domainId": "D04",
+      "moduleId": "D04-F",
+      "level": "Foundation",
+      "title": "Length texture and curl mapping",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain length texture and curl mapping, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-F-04",
+      "domainId": "D04",
+      "moduleId": "D04-F",
+      "level": "Foundation",
+      "title": "Skin underneath the beard",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain skin underneath the beard, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-F-05",
+      "domainId": "D04",
+      "moduleId": "D04-F",
+      "level": "Foundation",
+      "title": "Neckline and cheek-line landmarks",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain neckline and cheek-line landmarks, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-F-06",
+      "domainId": "D04",
+      "moduleId": "D04-F",
+      "level": "Foundation",
+      "title": "Comb and brush selection",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain comb and brush selection, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-F-07",
+      "domainId": "D04",
+      "moduleId": "D04-F",
+      "level": "Foundation",
+      "title": "Beard cleansing fundamentals",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain beard cleansing fundamentals, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-F-08",
+      "domainId": "D04",
+      "moduleId": "D04-F",
+      "level": "Foundation",
+      "title": "Fragrance tolerance history",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain fragrance tolerance history, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-M-01",
+      "domainId": "D04",
+      "moduleId": "D04-M",
+      "level": "Mastery",
+      "title": "Stubble short medium and long routines",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about stubble short medium and long routines, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-M-02",
+      "domainId": "D04",
+      "moduleId": "D04-M",
+      "level": "Mastery",
+      "title": "Neckline placement consultation",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about neckline placement consultation, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-M-03",
+      "domainId": "D04",
+      "moduleId": "D04-M",
+      "level": "Mastery",
+      "title": "Cheek-line shaping",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about cheek-line shaping, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-M-04",
+      "domainId": "D04",
+      "moduleId": "D04-M",
+      "level": "Mastery",
+      "title": "Beard taper and fade planning",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about beard taper and fade planning, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-M-05",
+      "domainId": "D04",
+      "moduleId": "D04-M",
+      "level": "Mastery",
+      "title": "Scissor shaping and symmetry",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about scissor shaping and symmetry, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-M-06",
+      "domainId": "D04",
+      "moduleId": "D04-M",
+      "level": "Mastery",
+      "title": "Mustache families and wax control",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about mustache families and wax control, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-M-07",
+      "domainId": "D04",
+      "moduleId": "D04-M",
+      "level": "Mastery",
+      "title": "Oil balm butter and conditioner roles",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about oil balm butter and conditioner roles, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-M-08",
+      "domainId": "D04",
+      "moduleId": "D04-M",
+      "level": "Mastery",
+      "title": "Detangling coarse and curly beards",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about detangling coarse and curly beards, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-A-01",
+      "domainId": "D04",
+      "moduleId": "D04-A",
+      "level": "Advanced",
+      "title": "Face-shape correction without rigid rules",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about face-shape correction without rigid rules transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-A-02",
+      "domainId": "D04",
+      "moduleId": "D04-A",
+      "level": "Advanced",
+      "title": "Beard dye and allergy assessment",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about beard dye and allergy assessment transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-A-03",
+      "domainId": "D04",
+      "moduleId": "D04-A",
+      "level": "Advanced",
+      "title": "Heated brush risk assessment",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about heated brush risk assessment transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-A-04",
+      "domainId": "D04",
+      "moduleId": "D04-A",
+      "level": "Advanced",
+      "title": "Flaking versus underlying skin disease",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about flaking versus underlying skin disease transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-A-05",
+      "domainId": "D04",
+      "moduleId": "D04-A",
+      "level": "Advanced",
+      "title": "Split ends and mechanical damage",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about split ends and mechanical damage transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-A-06",
+      "domainId": "D04",
+      "moduleId": "D04-A",
+      "level": "Advanced",
+      "title": "Patchiness camouflage versus growth claims",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about patchiness camouflage versus growth claims transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-A-07",
+      "domainId": "D04",
+      "moduleId": "D04-A",
+      "level": "Advanced",
+      "title": "Historic beard-style reconstruction",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about historic beard-style reconstruction transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-A-08",
+      "domainId": "D04",
+      "moduleId": "D04-A",
+      "level": "Advanced",
+      "title": "Product deposition and washout testing",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about product deposition and washout testing transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-R-01",
+      "domainId": "D04",
+      "moduleId": "D04-R",
+      "level": "Frontier",
+      "title": "Facial-hair peptide claims",
+      "researchQuestions": [
+        "For facial-hair peptide claims, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-R-02",
+      "domainId": "D04",
+      "moduleId": "D04-R",
+      "level": "Frontier",
+      "title": "Objective beard softness measurements",
+      "researchQuestions": [
+        "For objective beard softness measurements, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-R-03",
+      "domainId": "D04",
+      "moduleId": "D04-R",
+      "level": "Frontier",
+      "title": "Personalized shape simulation",
+      "researchQuestions": [
+        "For personalized shape simulation, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-R-04",
+      "domainId": "D04",
+      "moduleId": "D04-R",
+      "level": "Frontier",
+      "title": "Beard microbiome research",
+      "researchQuestions": [
+        "For beard microbiome research, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-R-05",
+      "domainId": "D04",
+      "moduleId": "D04-R",
+      "level": "Frontier",
+      "title": "New conditioning delivery systems",
+      "researchQuestions": [
+        "For new conditioning delivery systems, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-R-06",
+      "domainId": "D04",
+      "moduleId": "D04-R",
+      "level": "Frontier",
+      "title": "AI beard-density mapping bias",
+      "researchQuestions": [
+        "For ai beard-density mapping bias, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-R-07",
+      "domainId": "D04",
+      "moduleId": "D04-R",
+      "level": "Frontier",
+      "title": "Longitudinal beard-growth study design",
+      "researchQuestions": [
+        "For longitudinal beard-growth study design, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D04-R-08",
+      "domainId": "D04",
+      "moduleId": "D04-R",
+      "level": "Frontier",
+      "title": "Evidence transfer from scalp to beard",
+      "researchQuestions": [
+        "For evidence transfer from scalp to beard, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D04-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

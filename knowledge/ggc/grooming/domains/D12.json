@@ -1,0 +1,1240 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D12",
+    "order": 12,
+    "title": "Ingredient Intelligence",
+    "primaryLayer": "product-science",
+    "secondaryLayers": [],
+    "aliases": [
+      "inci",
+      "ingredient encyclopedia",
+      "carrier oil",
+      "essential oil",
+      "ingredient intelligence"
+    ],
+    "outcome": "Build identity-specific ingredient dossiers with traceable evidence and application limits.",
+    "moduleIds": [
+      "D12-F",
+      "D12-M",
+      "D12-A",
+      "D12-R"
+    ],
+    "sourceSeedIds": [
+      "seed-scc",
+      "seed-cir",
+      "seed-ifra"
+    ],
+    "coverageGaps": [
+      "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D12-F",
+      "domainId": "D12",
+      "level": "Foundation",
+      "title": "Ingredient Intelligence — Foundation",
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "topicIds": [
+        "D12-F-01",
+        "D12-F-02",
+        "D12-F-03",
+        "D12-F-04",
+        "D12-F-05",
+        "D12-F-06",
+        "D12-F-07",
+        "D12-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D12-M",
+      "domainId": "D12",
+      "level": "Mastery",
+      "title": "Ingredient Intelligence — Mastery",
+      "prerequisiteModuleIds": [
+        "D12-F"
+      ],
+      "topicIds": [
+        "D12-M-01",
+        "D12-M-02",
+        "D12-M-03",
+        "D12-M-04",
+        "D12-M-05",
+        "D12-M-06",
+        "D12-M-07",
+        "D12-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D12-A",
+      "domainId": "D12",
+      "level": "Advanced",
+      "title": "Ingredient Intelligence — Advanced",
+      "prerequisiteModuleIds": [
+        "D12-M"
+      ],
+      "topicIds": [
+        "D12-A-01",
+        "D12-A-02",
+        "D12-A-03",
+        "D12-A-04",
+        "D12-A-05",
+        "D12-A-06",
+        "D12-A-07",
+        "D12-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D12-R",
+      "domainId": "D12",
+      "level": "Frontier",
+      "title": "Ingredient Intelligence — Frontier",
+      "prerequisiteModuleIds": [
+        "D12-A"
+      ],
+      "topicIds": [
+        "D12-R-01",
+        "D12-R-02",
+        "D12-R-03",
+        "D12-R-04",
+        "D12-R-05",
+        "D12-R-06",
+        "D12-R-07",
+        "D12-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D12-F-01",
+      "domainId": "D12",
+      "moduleId": "D12-F",
+      "level": "Foundation",
+      "title": "INCI versus trade and common names",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain inci versus trade and common names, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-F-02",
+      "domainId": "D12",
+      "moduleId": "D12-F",
+      "level": "Foundation",
+      "title": "CAS identifiers and mixtures",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain cas identifiers and mixtures, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-F-03",
+      "domainId": "D12",
+      "moduleId": "D12-F",
+      "level": "Foundation",
+      "title": "Ingredient function taxonomy",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain ingredient function taxonomy, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-F-04",
+      "domainId": "D12",
+      "moduleId": "D12-F",
+      "level": "Foundation",
+      "title": "Source origin and processing",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain source origin and processing, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-F-05",
+      "domainId": "D12",
+      "moduleId": "D12-F",
+      "level": "Foundation",
+      "title": "Solubility and polarity fields",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain solubility and polarity fields, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-F-06",
+      "domainId": "D12",
+      "moduleId": "D12-F",
+      "level": "Foundation",
+      "title": "Supplier specification sheets",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain supplier specification sheets, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-F-07",
+      "domainId": "D12",
+      "moduleId": "D12-F",
+      "level": "Foundation",
+      "title": "COA versus independent testing",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain coa versus independent testing, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-F-08",
+      "domainId": "D12",
+      "moduleId": "D12-F",
+      "level": "Foundation",
+      "title": "Identity does not establish safety",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain identity does not establish safety, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-M-01",
+      "domainId": "D12",
+      "moduleId": "D12-M",
+      "level": "Mastery",
+      "title": "Carrier oil fatty-acid profiles",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about carrier oil fatty-acid profiles, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-M-02",
+      "domainId": "D12",
+      "moduleId": "D12-M",
+      "level": "Mastery",
+      "title": "Essential-oil constituent variability",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about essential-oil constituent variability, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-M-03",
+      "domainId": "D12",
+      "moduleId": "D12-M",
+      "level": "Mastery",
+      "title": "Botanical species part and extraction",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about botanical species part and extraction, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-M-04",
+      "domainId": "D12",
+      "moduleId": "D12-M",
+      "level": "Mastery",
+      "title": "Proteins and amino acids",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about proteins and amino acids, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-M-05",
+      "domainId": "D12",
+      "moduleId": "D12-M",
+      "level": "Mastery",
+      "title": "Preservative families",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about preservative families, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-M-06",
+      "domainId": "D12",
+      "moduleId": "D12-M",
+      "level": "Mastery",
+      "title": "Surfactant family dossiers",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about surfactant family dossiers, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-M-07",
+      "domainId": "D12",
+      "moduleId": "D12-M",
+      "level": "Mastery",
+      "title": "Silicone family dossiers",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about silicone family dossiers, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-M-08",
+      "domainId": "D12",
+      "moduleId": "D12-M",
+      "level": "Mastery",
+      "title": "Humectant and exfoliant dossiers",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about humectant and exfoliant dossiers, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-A-01",
+      "domainId": "D12",
+      "moduleId": "D12-A",
+      "level": "Advanced",
+      "title": "Peptide sequence and purity records",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about peptide sequence and purity records transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-A-02",
+      "domainId": "D12",
+      "moduleId": "D12-A",
+      "level": "Advanced",
+      "title": "Ceramide identity and mixture ratios",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about ceramide identity and mixture ratios transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-A-03",
+      "domainId": "D12",
+      "moduleId": "D12-A",
+      "level": "Advanced",
+      "title": "Impurity and contaminant specifications",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about impurity and contaminant specifications transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-A-04",
+      "domainId": "D12",
+      "moduleId": "D12-A",
+      "level": "Advanced",
+      "title": "Heat oxidation and pH sensitivity",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about heat oxidation and ph sensitivity transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-A-05",
+      "domainId": "D12",
+      "moduleId": "D12-A",
+      "level": "Advanced",
+      "title": "Compatibility and incompatibility evidence",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about compatibility and incompatibility evidence transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-A-06",
+      "domainId": "D12",
+      "moduleId": "D12-A",
+      "level": "Advanced",
+      "title": "CIR assessment applicability",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about cir assessment applicability transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-A-07",
+      "domainId": "D12",
+      "moduleId": "D12-A",
+      "level": "Advanced",
+      "title": "Read-across between ingredient variants",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about read-across between ingredient variants transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-A-08",
+      "domainId": "D12",
+      "moduleId": "D12-A",
+      "level": "Advanced",
+      "title": "Concentration route and exposure distinctions",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about concentration route and exposure distinctions transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-R-01",
+      "domainId": "D12",
+      "moduleId": "D12-R",
+      "level": "Frontier",
+      "title": "Biotechnology ingredient provenance",
+      "researchQuestions": [
+        "For biotechnology ingredient provenance, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-R-02",
+      "domainId": "D12",
+      "moduleId": "D12-R",
+      "level": "Frontier",
+      "title": "Ferment batch reproducibility",
+      "researchQuestions": [
+        "For ferment batch reproducibility, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-R-03",
+      "domainId": "D12",
+      "moduleId": "D12-R",
+      "level": "Frontier",
+      "title": "Nanomaterial characterization",
+      "researchQuestions": [
+        "For nanomaterial characterization, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-R-04",
+      "domainId": "D12",
+      "moduleId": "D12-R",
+      "level": "Frontier",
+      "title": "New INCI versus novel efficacy",
+      "researchQuestions": [
+        "For new inci versus novel efficacy, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-R-05",
+      "domainId": "D12",
+      "moduleId": "D12-R",
+      "level": "Frontier",
+      "title": "Supply-chain adulteration detection",
+      "researchQuestions": [
+        "For supply-chain adulteration detection, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-R-06",
+      "domainId": "D12",
+      "moduleId": "D12-R",
+      "level": "Frontier",
+      "title": "Machine-readable ingredient ontologies",
+      "researchQuestions": [
+        "For machine-readable ingredient ontologies, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-R-07",
+      "domainId": "D12",
+      "moduleId": "D12-R",
+      "level": "Frontier",
+      "title": "Computational toxicity model validation",
+      "researchQuestions": [
+        "For computational toxicity model validation, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D12-R-08",
+      "domainId": "D12",
+      "moduleId": "D12-R",
+      "level": "Frontier",
+      "title": "Emerging-material evidence surveillance",
+      "researchQuestions": [
+        "For emerging-material evidence surveillance, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D12-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "health-template-product-development",
+  "kind": "product-development",
+  "name": "Unfilled product-development research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "No source ingestion or qualified appraisal completed. Not a recommendation or protocol."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "consumerProblem": null,
+    "targetPopulation": null,
+    "intendedUse": null,
+    "productCategory": null,
+    "formulaVersion": null,
+    "targetClaimIds": [],
+    "qualityPlan": null,
+    "stabilityPlan": null,
+    "safetyPlan": null,
+    "clinicalStudyPlan": null,
+    "regulatoryReviewPlan": null,
+    "postMarketPlan": null,
+    "productStudioRecordId": null,
+    "sourceIds": []
+  }
+}

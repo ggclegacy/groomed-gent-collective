@@ -15,6 +15,7 @@ import {
   Sparkles,
   Trash2,
 } from 'lucide-react';
+import { CreativeStudio } from '@/components/creative-studio';
 import { LoadingSurface } from '@/components/materials';
 import { Checkbox } from '@/components/ui/checkbox';
 import {
@@ -92,11 +93,12 @@ export function StudioWorkspace({
     () => false,
   );
   return hydrated ? (
-    <StudioEditor
-      key={account?.userId ?? 'device'}
-      active={active}
-      account={account}
-    />
+    <>
+      <CreativeStudio key={account?.userId ?? 'device'} scope={account?.userId ?? 'device'} />
+      <details className="cs-legacy"><summary>Text drafts &amp; publishing review</summary>
+        <StudioEditor key={account?.userId ?? 'device'} active={active} account={account} />
+      </details>
+    </>
   ) : (
     <LoadingSurface label="Opening your Studio…" />
   );

@@ -1,0 +1,1177 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D16",
+    "order": 16,
+    "title": "Tools, Devices & Grooming Technology",
+    "primaryLayer": "practice",
+    "secondaryLayers": [
+      "clinical-evidence"
+    ],
+    "aliases": [
+      "tools",
+      "clippers",
+      "trimmer",
+      "shaver",
+      "device",
+      "scalp camera"
+    ],
+    "outcome": "Compare tools by mechanism, fit, maintenance and evidence rather than sponsorship.",
+    "moduleIds": [
+      "D16-F",
+      "D16-M",
+      "D16-A",
+      "D16-R"
+    ],
+    "sourceSeedIds": [
+      "seed-milady"
+    ],
+    "coverageGaps": [
+      "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D16-F",
+      "domainId": "D16",
+      "level": "Foundation",
+      "title": "Tools, Devices & Grooming Technology — Foundation",
+      "prerequisiteModuleIds": [
+        "D03-F"
+      ],
+      "topicIds": [
+        "D16-F-01",
+        "D16-F-02",
+        "D16-F-03",
+        "D16-F-04",
+        "D16-F-05",
+        "D16-F-06",
+        "D16-F-07",
+        "D16-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D16-M",
+      "domainId": "D16",
+      "level": "Mastery",
+      "title": "Tools, Devices & Grooming Technology — Mastery",
+      "prerequisiteModuleIds": [
+        "D16-F"
+      ],
+      "topicIds": [
+        "D16-M-01",
+        "D16-M-02",
+        "D16-M-03",
+        "D16-M-04",
+        "D16-M-05",
+        "D16-M-06",
+        "D16-M-07",
+        "D16-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D16-A",
+      "domainId": "D16",
+      "level": "Advanced",
+      "title": "Tools, Devices & Grooming Technology — Advanced",
+      "prerequisiteModuleIds": [
+        "D16-M"
+      ],
+      "topicIds": [
+        "D16-A-01",
+        "D16-A-02",
+        "D16-A-03",
+        "D16-A-04",
+        "D16-A-05",
+        "D16-A-06",
+        "D16-A-07",
+        "D16-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D16-R",
+      "domainId": "D16",
+      "level": "Frontier",
+      "title": "Tools, Devices & Grooming Technology — Frontier",
+      "prerequisiteModuleIds": [
+        "D16-A"
+      ],
+      "topicIds": [
+        "D16-R-01",
+        "D16-R-02",
+        "D16-R-03",
+        "D16-R-04",
+        "D16-R-05",
+        "D16-R-06",
+        "D16-R-07",
+        "D16-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D16-F-01",
+      "domainId": "D16",
+      "moduleId": "D16-F",
+      "level": "Foundation",
+      "title": "Rotary magnetic and pivot clipper motors",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain rotary magnetic and pivot clipper motors, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D03-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-F-02",
+      "domainId": "D16",
+      "moduleId": "D16-F",
+      "level": "Foundation",
+      "title": "Detachable blades and guard compatibility",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain detachable blades and guard compatibility, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D03-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-F-03",
+      "domainId": "D16",
+      "moduleId": "D16-F",
+      "level": "Foundation",
+      "title": "Trimmers foil and rotary shavers",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain trimmers foil and rotary shavers, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D03-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-F-04",
+      "domainId": "D16",
+      "moduleId": "D16-F",
+      "level": "Foundation",
+      "title": "Straight safety and cartridge razors",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain straight safety and cartridge razors, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D03-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-F-05",
+      "domainId": "D16",
+      "moduleId": "D16-F",
+      "level": "Foundation",
+      "title": "Cutting and texturizing shears",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain cutting and texturizing shears, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D03-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-F-06",
+      "domainId": "D16",
+      "moduleId": "D16-F",
+      "level": "Foundation",
+      "title": "Comb materials and tooth geometry",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain comb materials and tooth geometry, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D03-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-F-07",
+      "domainId": "D16",
+      "moduleId": "D16-F",
+      "level": "Foundation",
+      "title": "Brush bristle types",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain brush bristle types, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D03-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-F-08",
+      "domainId": "D16",
+      "moduleId": "D16-F",
+      "level": "Foundation",
+      "title": "Electrical water and heat precautions",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain electrical water and heat precautions, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D03-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-M-01",
+      "domainId": "D16",
+      "moduleId": "D16-M",
+      "level": "Mastery",
+      "title": "Blade alignment and maintenance",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about blade alignment and maintenance, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-M-02",
+      "domainId": "D16",
+      "moduleId": "D16-M",
+      "level": "Mastery",
+      "title": "Cleaning disinfection and contact-time labels",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about cleaning disinfection and contact-time labels, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-M-03",
+      "domainId": "D16",
+      "moduleId": "D16-M",
+      "level": "Mastery",
+      "title": "Ergonomics vibration and noise",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about ergonomics vibration and noise, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-M-04",
+      "domainId": "D16",
+      "moduleId": "D16-M",
+      "level": "Mastery",
+      "title": "Battery runtime and repairability",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about battery runtime and repairability, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-M-05",
+      "domainId": "D16",
+      "moduleId": "D16-M",
+      "level": "Mastery",
+      "title": "Dryers diffusers and airflow",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about dryers diffusers and airflow, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-M-06",
+      "domainId": "D16",
+      "moduleId": "D16-M",
+      "level": "Mastery",
+      "title": "Heated brush and iron controls",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about heated brush and iron controls, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-M-07",
+      "domainId": "D16",
+      "moduleId": "D16-M",
+      "level": "Mastery",
+      "title": "Travel and voltage compatibility",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about travel and voltage compatibility, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-M-08",
+      "domainId": "D16",
+      "moduleId": "D16-M",
+      "level": "Mastery",
+      "title": "Replacement parts and ownership cost",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about replacement parts and ownership cost, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-F"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-A-01",
+      "domainId": "D16",
+      "moduleId": "D16-A",
+      "level": "Advanced",
+      "title": "Scalp cameras and digital microscopes",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about scalp cameras and digital microscopes transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-M"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-A-02",
+      "domainId": "D16",
+      "moduleId": "D16-A",
+      "level": "Advanced",
+      "title": "Skin analyzer calibration",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about skin analyzer calibration transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-M"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-A-03",
+      "domainId": "D16",
+      "moduleId": "D16-A",
+      "level": "Advanced",
+      "title": "Moisture and sebum measurement limits",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about moisture and sebum measurement limits transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-M"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-A-04",
+      "domainId": "D16",
+      "moduleId": "D16-A",
+      "level": "Advanced",
+      "title": "LED and LLLT device specifications",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about led and lllt device specifications transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-M"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-A-05",
+      "domainId": "D16",
+      "moduleId": "D16-A",
+      "level": "Advanced",
+      "title": "IPL phototype and hair-color suitability literacy",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about ipl phototype and hair-color suitability literacy transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-M"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-A-06",
+      "domainId": "D16",
+      "moduleId": "D16-A",
+      "level": "Advanced",
+      "title": "Microcurrent radiofrequency and ultrasound categories",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about microcurrent radiofrequency and ultrasound categories transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-M"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-A-07",
+      "domainId": "D16",
+      "moduleId": "D16-A",
+      "level": "Advanced",
+      "title": "Microneedling device professional boundaries",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about microneedling device professional boundaries transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-M"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-A-08",
+      "domainId": "D16",
+      "moduleId": "D16-A",
+      "level": "Advanced",
+      "title": "Device certification and jurisdiction checks",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about device certification and jurisdiction checks transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-M"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-R-01",
+      "domainId": "D16",
+      "moduleId": "D16-R",
+      "level": "Frontier",
+      "title": "Pressure-sensing grooming tools",
+      "researchQuestions": [
+        "For pressure-sensing grooming tools, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-A"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-R-02",
+      "domainId": "D16",
+      "moduleId": "D16-R",
+      "level": "Frontier",
+      "title": "Computer-vision device feedback",
+      "researchQuestions": [
+        "For computer-vision device feedback, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-A"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-R-03",
+      "domainId": "D16",
+      "moduleId": "D16-R",
+      "level": "Frontier",
+      "title": "AI scalp analysis bias",
+      "researchQuestions": [
+        "For ai scalp analysis bias, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-A"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-R-04",
+      "domainId": "D16",
+      "moduleId": "D16-R",
+      "level": "Frontier",
+      "title": "Connected-device privacy and retention",
+      "researchQuestions": [
+        "For connected-device privacy and retention, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-A"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-R-05",
+      "domainId": "D16",
+      "moduleId": "D16-R",
+      "level": "Frontier",
+      "title": "Closed-loop heat control",
+      "researchQuestions": [
+        "For closed-loop heat control, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-A"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-R-06",
+      "domainId": "D16",
+      "moduleId": "D16-R",
+      "level": "Frontier",
+      "title": "Novel blade surface materials",
+      "researchQuestions": [
+        "For novel blade surface materials, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-A"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-R-07",
+      "domainId": "D16",
+      "moduleId": "D16-R",
+      "level": "Frontier",
+      "title": "Independent performance benchmark design",
+      "researchQuestions": [
+        "For independent performance benchmark design, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-A"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D16-R-08",
+      "domainId": "D16",
+      "moduleId": "D16-R",
+      "level": "Frontier",
+      "title": "Remote firmware and safety changes",
+      "researchQuestions": [
+        "For remote firmware and safety changes, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D16-A"
+      ],
+      "relatedDomainIds": [
+        "D03"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { answerKnowledge } from './cassius/retrieval.ts';
+import { askCassius } from './cassius/client.ts';
 export const sections = [
   'home',
   'identity',
@@ -241,10 +241,7 @@ export interface ContentAsset {
   usageRights: string;
 }
 
-/** Local sourced knowledge is independent of the still-disconnected AI and commerce services. */
+/** Cassius uses the server endpoint; commerce remains independently configured. */
 export const cassiusGateway: Pick<CollectiveGateway, 'askIntelligence'> = {
-  async askIntelligence(question) {
-    const answer = answerKnowledge(question);
-    return { state: 'ready', data: answer, source: `GGC knowledge ${answer.corpusVersion} / local evidence retrieval`, updatedAt: '2026-09-05T00:00:00Z' };
-  },
+  askIntelligence: askCassius,
 };

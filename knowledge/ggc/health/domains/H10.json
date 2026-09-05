@@ -1,0 +1,1433 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "H10",
+    "order": 10,
+    "title": "Mobility, Musculoskeletal Health & Injury Literacy",
+    "primaryLayer": "daily-practice",
+    "secondaryLayers": [],
+    "aliases": [
+      "mobility",
+      "joint health",
+      "injury",
+      "tendon",
+      "bone",
+      "back pain"
+    ],
+    "outcome": "Support movement literacy and rehabilitation conversations without diagnosing injuries.",
+    "moduleIds": [
+      "H10-F",
+      "H10-M",
+      "H10-A",
+      "H10-R"
+    ],
+    "sourceSeedIds": [
+      "health-seed-nia",
+      "health-seed-activity"
+    ],
+    "coverageGaps": [
+      "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+    ],
+    "groomingDomainIds": []
+  },
+  "modules": [
+    {
+      "id": "H10-F",
+      "domainId": "H10",
+      "level": "Foundation",
+      "title": "Mobility, Musculoskeletal Health & Injury Literacy — Foundation",
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "topicIds": [
+        "H10-F-01",
+        "H10-F-02",
+        "H10-F-03",
+        "H10-F-04",
+        "H10-F-05",
+        "H10-F-06",
+        "H10-F-07",
+        "H10-F-08"
+      ],
+      "assessment": "Define the concepts, distinguish common misconceptions and identify what requires clinical evaluation.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H10-M",
+      "domainId": "H10",
+      "level": "Mastery",
+      "title": "Mobility, Musculoskeletal Health & Injury Literacy — Mastery",
+      "prerequisiteModuleIds": [
+        "H10-F"
+      ],
+      "topicIds": [
+        "H10-M-01",
+        "H10-M-02",
+        "H10-M-03",
+        "H10-M-04",
+        "H10-M-05",
+        "H10-M-06",
+        "H10-M-07",
+        "H10-M-08"
+      ],
+      "assessment": "Compare practical questions and options using applicable reviewed evidence; include uncertainty and accessibility.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H10-A",
+      "domainId": "H10",
+      "level": "Advanced",
+      "title": "Mobility, Musculoskeletal Health & Injury Literacy — Advanced",
+      "prerequisiteModuleIds": [
+        "H10-M"
+      ],
+      "topicIds": [
+        "H10-A-01",
+        "H10-A-02",
+        "H10-A-03",
+        "H10-A-04",
+        "H10-A-05",
+        "H10-A-06",
+        "H10-A-07",
+        "H10-A-08"
+      ],
+      "assessment": "Critique a claim dossier for study design, effect size, harms, applicability and clinical scope.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H10-R",
+      "domainId": "H10",
+      "level": "Frontier",
+      "title": "Mobility, Musculoskeletal Health & Injury Literacy — Frontier",
+      "prerequisiteModuleIds": [
+        "H10-A"
+      ],
+      "topicIds": [
+        "H10-R-01",
+        "H10-R-02",
+        "H10-R-03",
+        "H10-R-04",
+        "H10-R-05",
+        "H10-R-06",
+        "H10-R-07",
+        "H10-R-08"
+      ],
+      "assessment": "Map human versus preclinical evidence, regulatory status and unanswered safety questions; do not produce a self-treatment protocol.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    }
+  ],
+  "topics": [
+    {
+      "id": "H10-F-01",
+      "domainId": "H10",
+      "moduleId": "H10-F",
+      "level": "Foundation",
+      "title": "Joint tendon ligament and bone anatomy",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain joint tendon ligament and bone anatomy, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-F-02",
+      "domainId": "H10",
+      "moduleId": "H10-F",
+      "level": "Foundation",
+      "title": "Mobility versus flexibility",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain mobility versus flexibility, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-F-03",
+      "domainId": "H10",
+      "moduleId": "H10-F",
+      "level": "Foundation",
+      "title": "Balance coordination and proprioception",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain balance coordination and proprioception, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-F-04",
+      "domainId": "H10",
+      "moduleId": "H10-F",
+      "level": "Foundation",
+      "title": "Pain versus tissue damage concepts",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain pain versus tissue damage concepts, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-F-05",
+      "domainId": "H10",
+      "moduleId": "H10-F",
+      "level": "Foundation",
+      "title": "Activity modification and pacing",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain activity modification and pacing, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-F-06",
+      "domainId": "H10",
+      "moduleId": "H10-F",
+      "level": "Foundation",
+      "title": "Basic ergonomics",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain basic ergonomics, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-F-07",
+      "domainId": "H10",
+      "moduleId": "H10-F",
+      "level": "Foundation",
+      "title": "Falls and fracture awareness",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain falls and fracture awareness, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-F-08",
+      "domainId": "H10",
+      "moduleId": "H10-F",
+      "level": "Foundation",
+      "title": "Acute injury assessment boundaries",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain acute injury assessment boundaries, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-M-01",
+      "domainId": "H10",
+      "moduleId": "H10-M",
+      "level": "Mastery",
+      "title": "Stretching and mobility evidence",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing stretching and mobility evidence, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-M-02",
+      "domainId": "H10",
+      "moduleId": "H10-M",
+      "level": "Mastery",
+      "title": "Low-back and neck pain literacy",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing low-back and neck pain literacy, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-M-03",
+      "domainId": "H10",
+      "moduleId": "H10-M",
+      "level": "Mastery",
+      "title": "Tendon load and recovery",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing tendon load and recovery, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-M-04",
+      "domainId": "H10",
+      "moduleId": "H10-M",
+      "level": "Mastery",
+      "title": "Shoulder hip and knee concerns",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing shoulder hip and knee concerns, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-M-05",
+      "domainId": "H10",
+      "moduleId": "H10-M",
+      "level": "Mastery",
+      "title": "Footwear and gait assessment limits",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing footwear and gait assessment limits, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-M-06",
+      "domainId": "H10",
+      "moduleId": "H10-M",
+      "level": "Mastery",
+      "title": "Bone loading and nutrition",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing bone loading and nutrition, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-M-07",
+      "domainId": "H10",
+      "moduleId": "H10-M",
+      "level": "Mastery",
+      "title": "Physical therapy referral and goals",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing physical therapy referral and goals, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-M-08",
+      "domainId": "H10",
+      "moduleId": "H10-M",
+      "level": "Mastery",
+      "title": "Return-to-activity planning with professionals",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing return-to-activity planning with professionals, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-A-01",
+      "domainId": "H10",
+      "moduleId": "H10-A",
+      "level": "Advanced",
+      "title": "Osteoporosis assessment in men",
+      "researchQuestions": [
+        "For osteoporosis assessment in men, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-A-02",
+      "domainId": "H10",
+      "moduleId": "H10-A",
+      "level": "Advanced",
+      "title": "Persistent pain biopsychosocial models",
+      "researchQuestions": [
+        "For persistent pain biopsychosocial models, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-A-03",
+      "domainId": "H10",
+      "moduleId": "H10-A",
+      "level": "Advanced",
+      "title": "Tendinopathy rehabilitation evidence",
+      "researchQuestions": [
+        "For tendinopathy rehabilitation evidence, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-A-04",
+      "domainId": "H10",
+      "moduleId": "H10-A",
+      "level": "Advanced",
+      "title": "Surgical versus conservative outcome studies",
+      "researchQuestions": [
+        "For surgical versus conservative outcome studies, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-A-05",
+      "domainId": "H10",
+      "moduleId": "H10-A",
+      "level": "Advanced",
+      "title": "Return-to-sport criteria",
+      "researchQuestions": [
+        "For return-to-sport criteria, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-A-06",
+      "domainId": "H10",
+      "moduleId": "H10-A",
+      "level": "Advanced",
+      "title": "Imaging findings versus symptoms",
+      "researchQuestions": [
+        "For imaging findings versus symptoms, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-A-07",
+      "domainId": "H10",
+      "moduleId": "H10-A",
+      "level": "Advanced",
+      "title": "Connective-tissue disorder awareness",
+      "researchQuestions": [
+        "For connective-tissue disorder awareness, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-A-08",
+      "domainId": "H10",
+      "moduleId": "H10-A",
+      "level": "Advanced",
+      "title": "Workplace and adaptive movement design",
+      "researchQuestions": [
+        "For workplace and adaptive movement design, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-R-01",
+      "domainId": "H10",
+      "moduleId": "H10-R",
+      "level": "Frontier",
+      "title": "Wearable movement screening validity",
+      "researchQuestions": [
+        "For wearable movement screening validity, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-R-02",
+      "domainId": "H10",
+      "moduleId": "H10-R",
+      "level": "Frontier",
+      "title": "AI injury prediction limits",
+      "researchQuestions": [
+        "For ai injury prediction limits, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-R-03",
+      "domainId": "H10",
+      "moduleId": "H10-R",
+      "level": "Frontier",
+      "title": "Digital physical therapy trials",
+      "researchQuestions": [
+        "For digital physical therapy trials, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-R-04",
+      "domainId": "H10",
+      "moduleId": "H10-R",
+      "level": "Frontier",
+      "title": "Cartilage regeneration research",
+      "researchQuestions": [
+        "For cartilage regeneration research, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-R-05",
+      "domainId": "H10",
+      "moduleId": "H10-R",
+      "level": "Frontier",
+      "title": "Tendon biologic treatment claims",
+      "researchQuestions": [
+        "For tendon biologic treatment claims, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-R-06",
+      "domainId": "H10",
+      "moduleId": "H10-R",
+      "level": "Frontier",
+      "title": "Novel bone therapies",
+      "researchQuestions": [
+        "For novel bone therapies, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-R-07",
+      "domainId": "H10",
+      "moduleId": "H10-R",
+      "level": "Frontier",
+      "title": "Smart prosthetic and assistive devices",
+      "researchQuestions": [
+        "For smart prosthetic and assistive devices, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H10-R-08",
+      "domainId": "H10",
+      "moduleId": "H10-R",
+      "level": "Frontier",
+      "title": "Remote biomechanics assessment",
+      "researchQuestions": [
+        "For remote biomechanics assessment, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H10-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    }
+  ]
+}

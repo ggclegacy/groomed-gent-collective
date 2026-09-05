@@ -1,0 +1,1422 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D19",
+    "order": 19,
+    "title": "The Cassius Consultation Intelligence",
+    "primaryLayer": "commercial",
+    "secondaryLayers": [
+      "clinical-evidence"
+    ],
+    "aliases": [
+      "consultation",
+      "routine",
+      "what should i use",
+      "help my beard",
+      "help my hair"
+    ],
+    "outcome": "Ask targeted questions, explain tradeoffs and abstain when supporting knowledge is missing.",
+    "moduleIds": [
+      "D19-F",
+      "D19-M",
+      "D19-A",
+      "D19-R"
+    ],
+    "sourceSeedIds": [
+      "seed-fda-claims"
+    ],
+    "coverageGaps": [
+      "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D19-F",
+      "domainId": "D19",
+      "level": "Foundation",
+      "title": "The Cassius Consultation Intelligence — Foundation",
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D02-F",
+        "D04-F",
+        "D05-F",
+        "D06-F",
+        "D09-F",
+        "D18-F"
+      ],
+      "topicIds": [
+        "D19-F-01",
+        "D19-F-02",
+        "D19-F-03",
+        "D19-F-04",
+        "D19-F-05",
+        "D19-F-06",
+        "D19-F-07",
+        "D19-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D19-M",
+      "domainId": "D19",
+      "level": "Mastery",
+      "title": "The Cassius Consultation Intelligence — Mastery",
+      "prerequisiteModuleIds": [
+        "D19-F"
+      ],
+      "topicIds": [
+        "D19-M-01",
+        "D19-M-02",
+        "D19-M-03",
+        "D19-M-04",
+        "D19-M-05",
+        "D19-M-06",
+        "D19-M-07",
+        "D19-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D19-A",
+      "domainId": "D19",
+      "level": "Advanced",
+      "title": "The Cassius Consultation Intelligence — Advanced",
+      "prerequisiteModuleIds": [
+        "D19-M"
+      ],
+      "topicIds": [
+        "D19-A-01",
+        "D19-A-02",
+        "D19-A-03",
+        "D19-A-04",
+        "D19-A-05",
+        "D19-A-06",
+        "D19-A-07",
+        "D19-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D19-R",
+      "domainId": "D19",
+      "level": "Frontier",
+      "title": "The Cassius Consultation Intelligence — Frontier",
+      "prerequisiteModuleIds": [
+        "D19-A"
+      ],
+      "topicIds": [
+        "D19-R-01",
+        "D19-R-02",
+        "D19-R-03",
+        "D19-R-04",
+        "D19-R-05",
+        "D19-R-06",
+        "D19-R-07",
+        "D19-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D19-F-01",
+      "domainId": "D19",
+      "moduleId": "D19-F",
+      "level": "Foundation",
+      "title": "Consent scope and goal clarification",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain consent scope and goal clarification, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D02-F",
+        "D04-F",
+        "D05-F",
+        "D06-F",
+        "D09-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-F-02",
+      "domainId": "D19",
+      "moduleId": "D19-F",
+      "level": "Foundation",
+      "title": "Hair length density texture and scalp intake",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain hair length density texture and scalp intake, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D02-F",
+        "D04-F",
+        "D05-F",
+        "D06-F",
+        "D09-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-F-03",
+      "domainId": "D19",
+      "moduleId": "D19-F",
+      "level": "Foundation",
+      "title": "Beard length density skin and styling intake",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain beard length density skin and styling intake, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D02-F",
+        "D04-F",
+        "D05-F",
+        "D06-F",
+        "D09-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-F-04",
+      "domainId": "D19",
+      "moduleId": "D19-F",
+      "level": "Foundation",
+      "title": "Skin sensitivity shaving and routine intake",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain skin sensitivity shaving and routine intake, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D02-F",
+        "D04-F",
+        "D05-F",
+        "D06-F",
+        "D09-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-F-05",
+      "domainId": "D19",
+      "moduleId": "D19-F",
+      "level": "Foundation",
+      "title": "Body-site and comfort intake",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain body-site and comfort intake, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D02-F",
+        "D04-F",
+        "D05-F",
+        "D06-F",
+        "D09-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-F-06",
+      "domainId": "D19",
+      "moduleId": "D19-F",
+      "level": "Foundation",
+      "title": "Budget time and complexity preferences",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain budget time and complexity preferences, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D02-F",
+        "D04-F",
+        "D05-F",
+        "D06-F",
+        "D09-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-F-07",
+      "domainId": "D19",
+      "moduleId": "D19-F",
+      "level": "Foundation",
+      "title": "Allergy fragrance and past-reaction history",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain allergy fragrance and past-reaction history, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D02-F",
+        "D04-F",
+        "D05-F",
+        "D06-F",
+        "D09-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-F-08",
+      "domainId": "D19",
+      "moduleId": "D19-F",
+      "level": "Foundation",
+      "title": "Urgent versus routine referral routing",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain urgent versus routine referral routing, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D02-F",
+        "D04-F",
+        "D05-F",
+        "D06-F",
+        "D09-F",
+        "D18-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-M-01",
+      "domainId": "D19",
+      "moduleId": "D19-M",
+      "level": "Mastery",
+      "title": "Climate lifestyle and wash frequency",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about climate lifestyle and wash frequency, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-M-02",
+      "domainId": "D19",
+      "moduleId": "D19-M",
+      "level": "Mastery",
+      "title": "Desired hold finish and feel",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about desired hold finish and feel, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-M-03",
+      "domainId": "D19",
+      "moduleId": "D19-M",
+      "level": "Mastery",
+      "title": "Minimum viable routine design",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about minimum viable routine design, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-M-04",
+      "domainId": "D19",
+      "moduleId": "D19-M",
+      "level": "Mastery",
+      "title": "Question prioritization and missing information",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about question prioritization and missing information, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-M-05",
+      "domainId": "D19",
+      "moduleId": "D19-M",
+      "level": "Mastery",
+      "title": "Category-first product matching",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about category-first product matching, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-M-06",
+      "domainId": "D19",
+      "moduleId": "D19-M",
+      "level": "Mastery",
+      "title": "Tradeoff explanations without pressure",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about tradeoff explanations without pressure, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-M-07",
+      "domainId": "D19",
+      "moduleId": "D19-M",
+      "level": "Mastery",
+      "title": "Brand identity and product disambiguation",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about brand identity and product disambiguation, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-M-08",
+      "domainId": "D19",
+      "moduleId": "D19-M",
+      "level": "Mastery",
+      "title": "Follow-up and tolerance tracking",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about follow-up and tolerance tracking, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-A-01",
+      "domainId": "D19",
+      "moduleId": "D19-A",
+      "level": "Advanced",
+      "title": "Multi-concern routine conflicts",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about multi-concern routine conflicts transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-A-02",
+      "domainId": "D19",
+      "moduleId": "D19-A",
+      "level": "Advanced",
+      "title": "Ingredient duplication and irritation burden",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about ingredient duplication and irritation burden transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-A-03",
+      "domainId": "D19",
+      "moduleId": "D19-A",
+      "level": "Advanced",
+      "title": "Evidence applicability to the individual",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about evidence applicability to the individual transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-A-04",
+      "domainId": "D19",
+      "moduleId": "D19-A",
+      "level": "Advanced",
+      "title": "Declining diagnosis dosing and clearance",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about declining diagnosis dosing and clearance transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-A-05",
+      "domainId": "D19",
+      "moduleId": "D19-A",
+      "level": "Advanced",
+      "title": "Explainable recommendation records",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about explainable recommendation records transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-A-06",
+      "domainId": "D19",
+      "moduleId": "D19-A",
+      "level": "Advanced",
+      "title": "Contradictions and uncertainty communication",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about contradictions and uncertainty communication transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-A-07",
+      "domainId": "D19",
+      "moduleId": "D19-A",
+      "level": "Advanced",
+      "title": "Product-specific evidence and claim gates",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about product-specific evidence and claim gates transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-A-08",
+      "domainId": "D19",
+      "moduleId": "D19-A",
+      "level": "Advanced",
+      "title": "Human escalation and handoff summaries",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about human escalation and handoff summaries transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-R-01",
+      "domainId": "D19",
+      "moduleId": "D19-R",
+      "level": "Frontier",
+      "title": "Retrieval evaluation across dialects",
+      "researchQuestions": [
+        "For retrieval evaluation across dialects, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-R-02",
+      "domainId": "D19",
+      "moduleId": "D19-R",
+      "level": "Frontier",
+      "title": "Fairness across textures ages and skin tones",
+      "researchQuestions": [
+        "For fairness across textures ages and skin tones, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-R-03",
+      "domainId": "D19",
+      "moduleId": "D19-R",
+      "level": "Frontier",
+      "title": "Confidence calibration and abstention",
+      "researchQuestions": [
+        "For confidence calibration and abstention, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-R-04",
+      "domainId": "D19",
+      "moduleId": "D19-R",
+      "level": "Frontier",
+      "title": "Privacy-preserving personalization",
+      "researchQuestions": [
+        "For privacy-preserving personalization, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-R-05",
+      "domainId": "D19",
+      "moduleId": "D19-R",
+      "level": "Frontier",
+      "title": "Longitudinal outcome attribution",
+      "researchQuestions": [
+        "For longitudinal outcome attribution, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-R-06",
+      "domainId": "D19",
+      "moduleId": "D19-R",
+      "level": "Frontier",
+      "title": "Adversarial consultation testing",
+      "researchQuestions": [
+        "For adversarial consultation testing, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-R-07",
+      "domainId": "D19",
+      "moduleId": "D19-R",
+      "level": "Frontier",
+      "title": "Versioned reasoning policy evaluation",
+      "researchQuestions": [
+        "For versioned reasoning policy evaluation, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D19-R-08",
+      "domainId": "D19",
+      "moduleId": "D19-R",
+      "level": "Frontier",
+      "title": "Human-in-the-loop learning governance",
+      "researchQuestions": [
+        "For human-in-the-loop learning governance, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D19-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D09",
+        "D18"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "health-template-condition",
+  "kind": "condition",
+  "name": "Unfilled condition research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "No source ingestion or qualified appraisal completed. Not a recommendation or protocol."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "definition": null,
+    "symptomLiteracy": null,
+    "assessmentPathway": null,
+    "careTeamRoles": null,
+    "redFlagSourceIds": [],
+    "screeningVersusDiagnosis": null,
+    "treatmentCategoryClaimIds": [],
+    "patientImportantOutcomes": null,
+    "sourceIds": []
+  }
+}

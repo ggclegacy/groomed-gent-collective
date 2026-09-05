@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ggc:grooming:consultation-intake",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "goal": {
+      "type": "string",
+      "minLength": 1
+    },
+    "texture": {
+      "type": "string",
+      "minLength": 1
+    },
+    "density": {
+      "type": "string",
+      "minLength": 1
+    },
+    "length": {
+      "type": "string",
+      "minLength": 1
+    },
+    "skinOrScalp": {
+      "type": "string",
+      "minLength": 1
+    },
+    "currentRoutine": {
+      "type": "string",
+      "minLength": 1
+    },
+    "allergyOrReactionHistory": {
+      "type": "string",
+      "minLength": 1
+    },
+    "fragranceTolerance": {
+      "type": "string",
+      "minLength": 1
+    },
+    "desiredFinish": {
+      "type": "string",
+      "minLength": 1
+    },
+    "climate": {
+      "type": "string",
+      "minLength": 1
+    },
+    "budget": {
+      "type": "string",
+      "minLength": 1
+    },
+    "routineComplexity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "bodySite": {
+      "type": "string",
+      "minLength": 1
+    },
+    "area": {
+      "enum": [
+        "hair",
+        "beard",
+        "shaving",
+        "skin",
+        "body",
+        "general"
+      ]
+    },
+    "redFlags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "urgent-symptoms",
+          "persistent-or-worsening",
+          "possible-infection",
+          "sudden-hair-loss",
+          "changing-lesion"
+        ]
+      }
+    },
+    "requestsMedicalDecision": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "area"
+  ]
+}

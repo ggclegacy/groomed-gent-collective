@@ -1,0 +1,3325 @@
+{
+  "version": "1.0.0",
+  "counts": {
+    "domains": 19,
+    "modules": 76,
+    "topics": 608,
+    "releasedClaims": 0
+  },
+  "domains": [
+    {
+      "id": "D01",
+      "title": "Hair Biology & Hair Science",
+      "aliases": [
+        "hair biology",
+        "hair science",
+        "hair texture",
+        "porosity",
+        "curl pattern"
+      ],
+      "outcome": "Explain the hair properties that change cutting, cleansing and conditioning decisions.",
+      "topics": [
+        {
+          "id": "D01-F-01",
+          "title": "Follicle anatomy",
+          "level": "Foundation"
+        },
+        {
+          "id": "D01-F-02",
+          "title": "Cuticle cortex and medulla",
+          "level": "Foundation"
+        },
+        {
+          "id": "D01-F-03",
+          "title": "Keratin and disulfide bonds",
+          "level": "Foundation"
+        },
+        {
+          "id": "D01-F-04",
+          "title": "Anagen catagen telogen and exogen",
+          "level": "Foundation"
+        },
+        {
+          "id": "D01-F-05",
+          "title": "Sebaceous function",
+          "level": "Foundation"
+        },
+        {
+          "id": "D01-F-06",
+          "title": "Hair diameter and density",
+          "level": "Foundation"
+        },
+        {
+          "id": "D01-F-07",
+          "title": "Straight wavy curly and coily patterns",
+          "level": "Foundation"
+        },
+        {
+          "id": "D01-F-08",
+          "title": "Melanin and graying",
+          "level": "Foundation"
+        },
+        {
+          "id": "D01-M-01",
+          "title": "Porosity assessment limitations",
+          "level": "Mastery"
+        },
+        {
+          "id": "D01-M-02",
+          "title": "Elasticity and tensile behavior",
+          "level": "Mastery"
+        },
+        {
+          "id": "D01-M-03",
+          "title": "Growth direction and cowlick mapping",
+          "level": "Mastery"
+        },
+        {
+          "id": "D01-M-04",
+          "title": "Curl shrinkage and length planning",
+          "level": "Mastery"
+        },
+        {
+          "id": "D01-M-05",
+          "title": "Fine hair versus low density",
+          "level": "Mastery"
+        },
+        {
+          "id": "D01-M-06",
+          "title": "Mechanical friction and detangling",
+          "level": "Mastery"
+        },
+        {
+          "id": "D01-M-07",
+          "title": "Heat exposure and shaft damage",
+          "level": "Mastery"
+        },
+        {
+          "id": "D01-M-08",
+          "title": "Conditioning virgin versus treated hair",
+          "level": "Mastery"
+        },
+        {
+          "id": "D01-A-01",
+          "title": "Cystine oxidation and bleaching",
+          "level": "Advanced"
+        },
+        {
+          "id": "D01-A-02",
+          "title": "Relaxer and perm chemistry",
+          "level": "Advanced"
+        },
+        {
+          "id": "D01-A-03",
+          "title": "Hair surface charge and deposition",
+          "level": "Advanced"
+        },
+        {
+          "id": "D01-A-04",
+          "title": "Water uptake and swelling fatigue",
+          "level": "Advanced"
+        },
+        {
+          "id": "D01-A-05",
+          "title": "Gray hair variability",
+          "level": "Advanced"
+        },
+        {
+          "id": "D01-A-06",
+          "title": "Microscopy of shaft defects",
+          "level": "Advanced"
+        },
+        {
+          "id": "D01-A-07",
+          "title": "Texture-inclusive measurement design",
+          "level": "Advanced"
+        },
+        {
+          "id": "D01-A-08",
+          "title": "Weathering across the hair length",
+          "level": "Advanced"
+        },
+        {
+          "id": "D01-R-01",
+          "title": "Follicle organoid models",
+          "level": "Frontier"
+        },
+        {
+          "id": "D01-R-02",
+          "title": "Hair fiber biomimetics",
+          "level": "Frontier"
+        },
+        {
+          "id": "D01-R-03",
+          "title": "Genomics of curl formation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D01-R-04",
+          "title": "Single-fiber testing technologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "D01-R-05",
+          "title": "Environmental exposure biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "D01-R-06",
+          "title": "Computational hair mechanics",
+          "level": "Frontier"
+        },
+        {
+          "id": "D01-R-07",
+          "title": "Age-related follicular signaling",
+          "level": "Frontier"
+        },
+        {
+          "id": "D01-R-08",
+          "title": "Translating laboratory fiber results to routines",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D02",
+      "title": "Scalp Science & Trichology",
+      "aliases": [
+        "scalp",
+        "dandruff",
+        "shedding",
+        "alopecia",
+        "trichology"
+      ],
+      "outcome": "Separate cosmetic scalp concerns from patterns requiring clinical assessment.",
+      "topics": [
+        {
+          "id": "D02-F-01",
+          "title": "Scalp anatomy and sebum",
+          "level": "Foundation"
+        },
+        {
+          "id": "D02-F-02",
+          "title": "Dry scalp versus flakes",
+          "level": "Foundation"
+        },
+        {
+          "id": "D02-F-03",
+          "title": "Breakage versus shedding",
+          "level": "Foundation"
+        },
+        {
+          "id": "D02-F-04",
+          "title": "Normal variation in hair cycling",
+          "level": "Foundation"
+        },
+        {
+          "id": "D02-F-05",
+          "title": "Scalp cleansing and buildup",
+          "level": "Foundation"
+        },
+        {
+          "id": "D02-F-06",
+          "title": "Scalp symptom history",
+          "level": "Foundation"
+        },
+        {
+          "id": "D02-F-07",
+          "title": "Limits of visual assessment",
+          "level": "Foundation"
+        },
+        {
+          "id": "D02-F-08",
+          "title": "Referral signs and scope",
+          "level": "Foundation"
+        },
+        {
+          "id": "D02-M-01",
+          "title": "Dandruff and seborrheic dermatitis literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "D02-M-02",
+          "title": "Psoriasis and eczema literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "D02-M-03",
+          "title": "Contact dermatitis history",
+          "level": "Mastery"
+        },
+        {
+          "id": "D02-M-04",
+          "title": "Folliculitis and fungal concerns",
+          "level": "Mastery"
+        },
+        {
+          "id": "D02-M-05",
+          "title": "Androgenetic alopecia overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "D02-M-06",
+          "title": "Alopecia areata overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "D02-M-07",
+          "title": "Telogen effluvium overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "D02-M-08",
+          "title": "Traction and protective-style tension",
+          "level": "Mastery"
+        },
+        {
+          "id": "D02-A-01",
+          "title": "Scarring alopecia referral pathways",
+          "level": "Advanced"
+        },
+        {
+          "id": "D02-A-02",
+          "title": "Trichoscopy interpretation boundaries",
+          "level": "Advanced"
+        },
+        {
+          "id": "D02-A-03",
+          "title": "Minoxidil evidence appraisal",
+          "level": "Advanced"
+        },
+        {
+          "id": "D02-A-04",
+          "title": "Finasteride evidence appraisal",
+          "level": "Advanced"
+        },
+        {
+          "id": "D02-A-05",
+          "title": "Hair transplant concepts",
+          "level": "Advanced"
+        },
+        {
+          "id": "D02-A-06",
+          "title": "PRP study heterogeneity",
+          "level": "Advanced"
+        },
+        {
+          "id": "D02-A-07",
+          "title": "Low-level light study endpoints",
+          "level": "Advanced"
+        },
+        {
+          "id": "D02-A-08",
+          "title": "Medication nutrition and systemic contributors",
+          "level": "Advanced"
+        },
+        {
+          "id": "D02-R-01",
+          "title": "Follicle regeneration trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "D02-R-02",
+          "title": "Hair cloning claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "D02-R-03",
+          "title": "Scalp microbiome causality",
+          "level": "Frontier"
+        },
+        {
+          "id": "D02-R-04",
+          "title": "Caffeine and rosemary trial appraisal",
+          "level": "Frontier"
+        },
+        {
+          "id": "D02-R-05",
+          "title": "Topical peptide hair claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "D02-R-06",
+          "title": "Stem-cell hair restoration claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "D02-R-07",
+          "title": "Emerging androgen-pathway treatments",
+          "level": "Frontier"
+        },
+        {
+          "id": "D02-R-08",
+          "title": "Digital shedding measurement validation",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "title": "Master Barbering",
+      "aliases": [
+        "barbering",
+        "haircut",
+        "fade",
+        "taper",
+        "clipper over comb"
+      ],
+      "outcome": "Explain technically sound haircut planning across textures without implying hands-on licensure.",
+      "topics": [
+        {
+          "id": "D03-F-01",
+          "title": "Consultation and consent",
+          "level": "Foundation"
+        },
+        {
+          "id": "D03-F-02",
+          "title": "Sanitation disinfection and sterilization distinctions",
+          "level": "Foundation"
+        },
+        {
+          "id": "D03-F-03",
+          "title": "Blood exposure and sharps workflow",
+          "level": "Foundation"
+        },
+        {
+          "id": "D03-F-04",
+          "title": "Clipper guards blades and levers",
+          "level": "Foundation"
+        },
+        {
+          "id": "D03-F-05",
+          "title": "Shear handling and ergonomics",
+          "level": "Foundation"
+        },
+        {
+          "id": "D03-F-06",
+          "title": "Sectioning and reference points",
+          "level": "Foundation"
+        },
+        {
+          "id": "D03-F-07",
+          "title": "Elevation overdirection and graduation",
+          "level": "Foundation"
+        },
+        {
+          "id": "D03-F-08",
+          "title": "Head shape and facial geometry",
+          "level": "Foundation"
+        },
+        {
+          "id": "D03-M-01",
+          "title": "Clipper-over-comb technique study",
+          "level": "Mastery"
+        },
+        {
+          "id": "D03-M-02",
+          "title": "Shear-over-comb technique study",
+          "level": "Mastery"
+        },
+        {
+          "id": "D03-M-03",
+          "title": "Taper and weight-line planning",
+          "level": "Mastery"
+        },
+        {
+          "id": "D03-M-04",
+          "title": "Low mid and high fades",
+          "level": "Mastery"
+        },
+        {
+          "id": "D03-M-05",
+          "title": "Drop burst and temple fades",
+          "level": "Mastery"
+        },
+        {
+          "id": "D03-M-06",
+          "title": "Crew cuts buzz cuts and flat tops",
+          "level": "Mastery"
+        },
+        {
+          "id": "D03-M-07",
+          "title": "Pompadours quiffs and side parts",
+          "level": "Mastery"
+        },
+        {
+          "id": "D03-M-08",
+          "title": "Textured crops and scissor cuts",
+          "level": "Mastery"
+        },
+        {
+          "id": "D03-A-01",
+          "title": "Skin-fade transitions across skin tones",
+          "level": "Advanced"
+        },
+        {
+          "id": "D03-A-02",
+          "title": "Freehand shaping on coily hair",
+          "level": "Advanced"
+        },
+        {
+          "id": "D03-A-03",
+          "title": "Long-hair layering and movement",
+          "level": "Advanced"
+        },
+        {
+          "id": "D03-A-04",
+          "title": "Mullets and hybrid silhouettes",
+          "level": "Advanced"
+        },
+        {
+          "id": "D03-A-05",
+          "title": "Receding-hairline design choices",
+          "level": "Advanced"
+        },
+        {
+          "id": "D03-A-06",
+          "title": "Color consultation and strand testing",
+          "level": "Advanced"
+        },
+        {
+          "id": "D03-A-07",
+          "title": "Chemical texture service boundaries",
+          "level": "Advanced"
+        },
+        {
+          "id": "D03-A-08",
+          "title": "Corrective cuts and client expectation repair",
+          "level": "Advanced"
+        },
+        {
+          "id": "D03-R-01",
+          "title": "Computer-vision haircut simulation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D03-R-02",
+          "title": "Robotic cutting limitations",
+          "level": "Frontier"
+        },
+        {
+          "id": "D03-R-03",
+          "title": "Inclusive hairstyle datasets",
+          "level": "Frontier"
+        },
+        {
+          "id": "D03-R-04",
+          "title": "Digital head-shape capture",
+          "level": "Frontier"
+        },
+        {
+          "id": "D03-R-05",
+          "title": "New blade coating performance",
+          "level": "Frontier"
+        },
+        {
+          "id": "D03-R-06",
+          "title": "Objective blend-quality measurement",
+          "level": "Frontier"
+        },
+        {
+          "id": "D03-R-07",
+          "title": "Virtual apprenticeship assessment",
+          "level": "Frontier"
+        },
+        {
+          "id": "D03-R-08",
+          "title": "Trend forecasting versus durable technique",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D04",
+      "title": "Beard & Mustache Mastery",
+      "aliases": [
+        "beard",
+        "mustache",
+        "moustache",
+        "beard oil",
+        "beard balm"
+      ],
+      "outcome": "Separate facial-hair conditioning, skin comfort and shape control.",
+      "topics": [
+        {
+          "id": "D04-F-01",
+          "title": "Facial-hair growth biology",
+          "level": "Foundation"
+        },
+        {
+          "id": "D04-F-02",
+          "title": "Density and patchiness variability",
+          "level": "Foundation"
+        },
+        {
+          "id": "D04-F-03",
+          "title": "Length texture and curl mapping",
+          "level": "Foundation"
+        },
+        {
+          "id": "D04-F-04",
+          "title": "Skin underneath the beard",
+          "level": "Foundation"
+        },
+        {
+          "id": "D04-F-05",
+          "title": "Neckline and cheek-line landmarks",
+          "level": "Foundation"
+        },
+        {
+          "id": "D04-F-06",
+          "title": "Comb and brush selection",
+          "level": "Foundation"
+        },
+        {
+          "id": "D04-F-07",
+          "title": "Beard cleansing fundamentals",
+          "level": "Foundation"
+        },
+        {
+          "id": "D04-F-08",
+          "title": "Fragrance tolerance history",
+          "level": "Foundation"
+        },
+        {
+          "id": "D04-M-01",
+          "title": "Stubble short medium and long routines",
+          "level": "Mastery"
+        },
+        {
+          "id": "D04-M-02",
+          "title": "Neckline placement consultation",
+          "level": "Mastery"
+        },
+        {
+          "id": "D04-M-03",
+          "title": "Cheek-line shaping",
+          "level": "Mastery"
+        },
+        {
+          "id": "D04-M-04",
+          "title": "Beard taper and fade planning",
+          "level": "Mastery"
+        },
+        {
+          "id": "D04-M-05",
+          "title": "Scissor shaping and symmetry",
+          "level": "Mastery"
+        },
+        {
+          "id": "D04-M-06",
+          "title": "Mustache families and wax control",
+          "level": "Mastery"
+        },
+        {
+          "id": "D04-M-07",
+          "title": "Oil balm butter and conditioner roles",
+          "level": "Mastery"
+        },
+        {
+          "id": "D04-M-08",
+          "title": "Detangling coarse and curly beards",
+          "level": "Mastery"
+        },
+        {
+          "id": "D04-A-01",
+          "title": "Face-shape correction without rigid rules",
+          "level": "Advanced"
+        },
+        {
+          "id": "D04-A-02",
+          "title": "Beard dye and allergy assessment",
+          "level": "Advanced"
+        },
+        {
+          "id": "D04-A-03",
+          "title": "Heated brush risk assessment",
+          "level": "Advanced"
+        },
+        {
+          "id": "D04-A-04",
+          "title": "Flaking versus underlying skin disease",
+          "level": "Advanced"
+        },
+        {
+          "id": "D04-A-05",
+          "title": "Split ends and mechanical damage",
+          "level": "Advanced"
+        },
+        {
+          "id": "D04-A-06",
+          "title": "Patchiness camouflage versus growth claims",
+          "level": "Advanced"
+        },
+        {
+          "id": "D04-A-07",
+          "title": "Historic beard-style reconstruction",
+          "level": "Advanced"
+        },
+        {
+          "id": "D04-A-08",
+          "title": "Product deposition and washout testing",
+          "level": "Advanced"
+        },
+        {
+          "id": "D04-R-01",
+          "title": "Facial-hair peptide claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "D04-R-02",
+          "title": "Objective beard softness measurements",
+          "level": "Frontier"
+        },
+        {
+          "id": "D04-R-03",
+          "title": "Personalized shape simulation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D04-R-04",
+          "title": "Beard microbiome research",
+          "level": "Frontier"
+        },
+        {
+          "id": "D04-R-05",
+          "title": "New conditioning delivery systems",
+          "level": "Frontier"
+        },
+        {
+          "id": "D04-R-06",
+          "title": "AI beard-density mapping bias",
+          "level": "Frontier"
+        },
+        {
+          "id": "D04-R-07",
+          "title": "Longitudinal beard-growth study design",
+          "level": "Frontier"
+        },
+        {
+          "id": "D04-R-08",
+          "title": "Evidence transfer from scalp to beard",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D05",
+      "title": "Shaving Science & Traditional Wet Shaving",
+      "aliases": [
+        "shaving",
+        "wet shaving",
+        "razor",
+        "lather",
+        "razor bumps"
+      ],
+      "outcome": "Match shave systems and rituals to texture, irritation history and practical constraints.",
+      "topics": [
+        {
+          "id": "D05-F-01",
+          "title": "Grain mapping",
+          "level": "Foundation"
+        },
+        {
+          "id": "D05-F-02",
+          "title": "Safety cartridge straight and electric systems",
+          "level": "Foundation"
+        },
+        {
+          "id": "D05-F-03",
+          "title": "Blade geometry and exposure",
+          "level": "Foundation"
+        },
+        {
+          "id": "D05-F-04",
+          "title": "Brush fiber types",
+          "level": "Foundation"
+        },
+        {
+          "id": "D05-F-05",
+          "title": "Shaving soap versus cream",
+          "level": "Foundation"
+        },
+        {
+          "id": "D05-F-06",
+          "title": "Lather water balance",
+          "level": "Foundation"
+        },
+        {
+          "id": "D05-F-07",
+          "title": "Shaving pressure and skin tension",
+          "level": "Foundation"
+        },
+        {
+          "id": "D05-F-08",
+          "title": "Post-shave barrier care",
+          "level": "Foundation"
+        },
+        {
+          "id": "D05-M-01",
+          "title": "With-grain across-grain and against-grain comparisons",
+          "level": "Mastery"
+        },
+        {
+          "id": "D05-M-02",
+          "title": "Single versus multiple passes",
+          "level": "Mastery"
+        },
+        {
+          "id": "D05-M-03",
+          "title": "Razor angle concepts",
+          "level": "Mastery"
+        },
+        {
+          "id": "D05-M-04",
+          "title": "Hot-towel comfort and burn prevention",
+          "level": "Mastery"
+        },
+        {
+          "id": "D05-M-05",
+          "title": "Soap loading and hard water",
+          "level": "Mastery"
+        },
+        {
+          "id": "D05-M-06",
+          "title": "Head shaving",
+          "level": "Mastery"
+        },
+        {
+          "id": "D05-M-07",
+          "title": "Alum splash and balm tradeoffs",
+          "level": "Mastery"
+        },
+        {
+          "id": "D05-M-08",
+          "title": "Cleaning and blade disposal",
+          "level": "Mastery"
+        },
+        {
+          "id": "D05-A-01",
+          "title": "Pseudofolliculitis barbae evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "D05-A-02",
+          "title": "Curly-hair shaving modifications",
+          "level": "Advanced"
+        },
+        {
+          "id": "D05-A-03",
+          "title": "Foil versus rotary irritation",
+          "level": "Advanced"
+        },
+        {
+          "id": "D05-A-04",
+          "title": "Straight-razor honing concepts",
+          "level": "Advanced"
+        },
+        {
+          "id": "D05-A-05",
+          "title": "Stropping and edge inspection",
+          "level": "Advanced"
+        },
+        {
+          "id": "D05-A-06",
+          "title": "Professional shave positions study",
+          "level": "Advanced"
+        },
+        {
+          "id": "D05-A-07",
+          "title": "Shave-related contact dermatitis",
+          "level": "Advanced"
+        },
+        {
+          "id": "D05-A-08",
+          "title": "Comparative blade performance testing",
+          "level": "Advanced"
+        },
+        {
+          "id": "D05-R-01",
+          "title": "Tribology of razor-skin contact",
+          "level": "Frontier"
+        },
+        {
+          "id": "D05-R-02",
+          "title": "Smart razors and pressure sensors",
+          "level": "Frontier"
+        },
+        {
+          "id": "D05-R-03",
+          "title": "Adaptive electric shave systems",
+          "level": "Frontier"
+        },
+        {
+          "id": "D05-R-04",
+          "title": "Shaving microbiome studies",
+          "level": "Frontier"
+        },
+        {
+          "id": "D05-R-05",
+          "title": "New lubricant film technologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "D05-R-06",
+          "title": "Instrumental lather stability measurements",
+          "level": "Frontier"
+        },
+        {
+          "id": "D05-R-07",
+          "title": "Inclusive razor trial design",
+          "level": "Frontier"
+        },
+        {
+          "id": "D05-R-08",
+          "title": "Modeling ingrown-hair pathways",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D06",
+      "title": "Men's Skin Science",
+      "aliases": [
+        "skin science",
+        "skin barrier",
+        "skin type",
+        "skincare",
+        "tewl"
+      ],
+      "outcome": "Explain barrier biology and tailor questions to observed concerns without diagnosis.",
+      "topics": [
+        {
+          "id": "D06-F-01",
+          "title": "Epidermis dermis and stratum corneum",
+          "level": "Foundation"
+        },
+        {
+          "id": "D06-F-02",
+          "title": "Barrier lipids and corneocytes",
+          "level": "Foundation"
+        },
+        {
+          "id": "D06-F-03",
+          "title": "Transepidermal water loss",
+          "level": "Foundation"
+        },
+        {
+          "id": "D06-F-04",
+          "title": "Sebum pH and hydration",
+          "level": "Foundation"
+        },
+        {
+          "id": "D06-F-05",
+          "title": "Melanocytes and pigmentation",
+          "level": "Foundation"
+        },
+        {
+          "id": "D06-F-06",
+          "title": "Collagen and elastin",
+          "level": "Foundation"
+        },
+        {
+          "id": "D06-F-07",
+          "title": "Dry oily combination and sensitive profiles",
+          "level": "Foundation"
+        },
+        {
+          "id": "D06-F-08",
+          "title": "Daily UV exposure and protection literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "D06-M-01",
+          "title": "Acne blackheads and sebaceous filaments",
+          "level": "Mastery"
+        },
+        {
+          "id": "D06-M-02",
+          "title": "Rosacea recognition boundaries",
+          "level": "Mastery"
+        },
+        {
+          "id": "D06-M-03",
+          "title": "Post-inflammatory hyperpigmentation",
+          "level": "Mastery"
+        },
+        {
+          "id": "D06-M-04",
+          "title": "Eczema and psoriasis literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "D06-M-05",
+          "title": "Shaving-compromised skin",
+          "level": "Mastery"
+        },
+        {
+          "id": "D06-M-06",
+          "title": "Skin of color and visible irritation",
+          "level": "Mastery"
+        },
+        {
+          "id": "D06-M-07",
+          "title": "Seasonal and climate effects",
+          "level": "Mastery"
+        },
+        {
+          "id": "D06-M-08",
+          "title": "Routine history and intolerance tracking",
+          "level": "Mastery"
+        },
+        {
+          "id": "D06-A-01",
+          "title": "Photoaging and intrinsic aging",
+          "level": "Advanced"
+        },
+        {
+          "id": "D06-A-02",
+          "title": "Wound healing phases",
+          "level": "Advanced"
+        },
+        {
+          "id": "D06-A-03",
+          "title": "Glycation evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "D06-A-04",
+          "title": "Microbiome association versus causation",
+          "level": "Advanced"
+        },
+        {
+          "id": "D06-A-05",
+          "title": "Hormonal influences without stereotypes",
+          "level": "Advanced"
+        },
+        {
+          "id": "D06-A-06",
+          "title": "Barrier function measurements",
+          "level": "Advanced"
+        },
+        {
+          "id": "D06-A-07",
+          "title": "Melasma and persistent pigmentation referral",
+          "level": "Advanced"
+        },
+        {
+          "id": "D06-A-08",
+          "title": "Changing lesions and nonhealing skin referral",
+          "level": "Advanced"
+        },
+        {
+          "id": "D06-R-01",
+          "title": "Skin organoids and reconstructed epidermis",
+          "level": "Frontier"
+        },
+        {
+          "id": "D06-R-02",
+          "title": "Multi-omics skin profiling",
+          "level": "Frontier"
+        },
+        {
+          "id": "D06-R-03",
+          "title": "Digital skin analysis validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D06-R-04",
+          "title": "Biological skin-age claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "D06-R-05",
+          "title": "Circadian skin biology",
+          "level": "Frontier"
+        },
+        {
+          "id": "D06-R-06",
+          "title": "Pollution and exposome models",
+          "level": "Frontier"
+        },
+        {
+          "id": "D06-R-07",
+          "title": "Senescence-targeting cosmetics claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "D06-R-08",
+          "title": "Long-term inclusive skincare trials",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D07",
+      "title": "Advanced Skincare Ingredients",
+      "aliases": [
+        "retinoid",
+        "vitamin c",
+        "niacinamide",
+        "acid",
+        "ceramide",
+        "skincare ingredients"
+      ],
+      "outcome": "Interpret active ingredients with concentration, vehicle and evidence limitations.",
+      "topics": [
+        {
+          "id": "D07-F-01",
+          "title": "Humectants emollients and occlusives",
+          "level": "Foundation"
+        },
+        {
+          "id": "D07-F-02",
+          "title": "Glycerin and hyaluronic acid",
+          "level": "Foundation"
+        },
+        {
+          "id": "D07-F-03",
+          "title": "Ceramides cholesterol and fatty acids",
+          "level": "Foundation"
+        },
+        {
+          "id": "D07-F-04",
+          "title": "Niacinamide claim families",
+          "level": "Foundation"
+        },
+        {
+          "id": "D07-F-05",
+          "title": "Retinoid family distinctions",
+          "level": "Foundation"
+        },
+        {
+          "id": "D07-F-06",
+          "title": "Vitamin C derivative distinctions",
+          "level": "Foundation"
+        },
+        {
+          "id": "D07-F-07",
+          "title": "AHA BHA and PHA families",
+          "level": "Foundation"
+        },
+        {
+          "id": "D07-F-08",
+          "title": "Ingredient list inference limits",
+          "level": "Foundation"
+        },
+        {
+          "id": "D07-M-01",
+          "title": "Azelaic acid product distinctions",
+          "level": "Mastery"
+        },
+        {
+          "id": "D07-M-02",
+          "title": "Urea hydration and keratolytic roles",
+          "level": "Mastery"
+        },
+        {
+          "id": "D07-M-03",
+          "title": "Panthenol and allantoin",
+          "level": "Mastery"
+        },
+        {
+          "id": "D07-M-04",
+          "title": "Antioxidant study interpretation",
+          "level": "Mastery"
+        },
+        {
+          "id": "D07-M-05",
+          "title": "Botanical extract variability",
+          "level": "Mastery"
+        },
+        {
+          "id": "D07-M-06",
+          "title": "Silicones and sensory function",
+          "level": "Mastery"
+        },
+        {
+          "id": "D07-M-07",
+          "title": "Exfoliant irritation and sequencing",
+          "level": "Mastery"
+        },
+        {
+          "id": "D07-M-08",
+          "title": "Fragrance and essential-oil sensitization",
+          "level": "Mastery"
+        },
+        {
+          "id": "D07-A-01",
+          "title": "Retinoid stability and delivery",
+          "level": "Advanced"
+        },
+        {
+          "id": "D07-A-02",
+          "title": "Vitamin C pH and oxidation",
+          "level": "Advanced"
+        },
+        {
+          "id": "D07-A-03",
+          "title": "Peptide sequence specificity",
+          "level": "Advanced"
+        },
+        {
+          "id": "D07-A-04",
+          "title": "Barrier lipid formulation ratios",
+          "level": "Advanced"
+        },
+        {
+          "id": "D07-A-05",
+          "title": "Active compatibility versus internet rules",
+          "level": "Advanced"
+        },
+        {
+          "id": "D07-A-06",
+          "title": "Concentration and exposure-response evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "D07-A-07",
+          "title": "Vehicle-controlled ingredient trials",
+          "level": "Advanced"
+        },
+        {
+          "id": "D07-A-08",
+          "title": "Cumulative irritation in layered routines",
+          "level": "Advanced"
+        },
+        {
+          "id": "D07-R-01",
+          "title": "Biomimetic signaling peptides",
+          "level": "Frontier"
+        },
+        {
+          "id": "D07-R-02",
+          "title": "Fermented ingredient characterization",
+          "level": "Frontier"
+        },
+        {
+          "id": "D07-R-03",
+          "title": "Postbiotic cosmetic evidence",
+          "level": "Frontier"
+        },
+        {
+          "id": "D07-R-04",
+          "title": "Novel vitamin C delivery systems",
+          "level": "Frontier"
+        },
+        {
+          "id": "D07-R-05",
+          "title": "RNA-based cosmetic claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "D07-R-06",
+          "title": "Growth-factor topical claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "D07-R-07",
+          "title": "Personalized active selection studies",
+          "level": "Frontier"
+        },
+        {
+          "id": "D07-R-08",
+          "title": "AI-generated ingredient efficacy predictions",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D08",
+      "title": "Cosmetic Chemistry & Formulation",
+      "aliases": [
+        "cosmetic chemistry",
+        "formulation",
+        "emulsion",
+        "surfactant",
+        "preservative"
+      ],
+      "outcome": "Explain formula behavior and development tradeoffs with qualified laboratory review.",
+      "topics": [
+        {
+          "id": "D08-F-01",
+          "title": "Polarity and solubility",
+          "level": "Foundation"
+        },
+        {
+          "id": "D08-F-02",
+          "title": "pH and buffering",
+          "level": "Foundation"
+        },
+        {
+          "id": "D08-F-03",
+          "title": "Surfactant classes",
+          "level": "Foundation"
+        },
+        {
+          "id": "D08-F-04",
+          "title": "Micelles and cleansing",
+          "level": "Foundation"
+        },
+        {
+          "id": "D08-F-05",
+          "title": "Emulsion types",
+          "level": "Foundation"
+        },
+        {
+          "id": "D08-F-06",
+          "title": "HLB concepts and limits",
+          "level": "Foundation"
+        },
+        {
+          "id": "D08-F-07",
+          "title": "Humectants emollients and occlusives in systems",
+          "level": "Foundation"
+        },
+        {
+          "id": "D08-F-08",
+          "title": "Preservatives versus antioxidants",
+          "level": "Foundation"
+        },
+        {
+          "id": "D08-M-01",
+          "title": "Emulsifier selection",
+          "level": "Mastery"
+        },
+        {
+          "id": "D08-M-02",
+          "title": "Solubilizing fragrance",
+          "level": "Mastery"
+        },
+        {
+          "id": "D08-M-03",
+          "title": "Rheology modifiers",
+          "level": "Mastery"
+        },
+        {
+          "id": "D08-M-04",
+          "title": "Polymers and styling films",
+          "level": "Mastery"
+        },
+        {
+          "id": "D08-M-05",
+          "title": "Silicones esters waxes and butters",
+          "level": "Mastery"
+        },
+        {
+          "id": "D08-M-06",
+          "title": "Chelation and water quality",
+          "level": "Mastery"
+        },
+        {
+          "id": "D08-M-07",
+          "title": "Oxidation and hydrolysis",
+          "level": "Mastery"
+        },
+        {
+          "id": "D08-M-08",
+          "title": "Manufacturing order and temperature sensitivity",
+          "level": "Mastery"
+        },
+        {
+          "id": "D08-A-01",
+          "title": "Emulsion failure investigation",
+          "level": "Advanced"
+        },
+        {
+          "id": "D08-A-02",
+          "title": "Electrolyte effects on viscosity",
+          "level": "Advanced"
+        },
+        {
+          "id": "D08-A-03",
+          "title": "Water activity and preservation strategy",
+          "level": "Advanced"
+        },
+        {
+          "id": "D08-A-04",
+          "title": "Preservative efficacy testing design",
+          "level": "Advanced"
+        },
+        {
+          "id": "D08-A-05",
+          "title": "Scale-up shear and heat transfer",
+          "level": "Advanced"
+        },
+        {
+          "id": "D08-A-06",
+          "title": "pH drift and ingredient interactions",
+          "level": "Advanced"
+        },
+        {
+          "id": "D08-A-07",
+          "title": "Packaging adsorption and migration",
+          "level": "Advanced"
+        },
+        {
+          "id": "D08-A-08",
+          "title": "Sensory tradeoffs and design of experiments",
+          "level": "Advanced"
+        },
+        {
+          "id": "D08-R-01",
+          "title": "Microfluidic emulsion manufacture",
+          "level": "Frontier"
+        },
+        {
+          "id": "D08-R-02",
+          "title": "Sustainable surfactant innovation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D08-R-03",
+          "title": "Biopolymer rheology systems",
+          "level": "Frontier"
+        },
+        {
+          "id": "D08-R-04",
+          "title": "AI formulation optimization",
+          "level": "Frontier"
+        },
+        {
+          "id": "D08-R-05",
+          "title": "High-throughput stability screening",
+          "level": "Frontier"
+        },
+        {
+          "id": "D08-R-06",
+          "title": "Encapsulated active release testing",
+          "level": "Frontier"
+        },
+        {
+          "id": "D08-R-07",
+          "title": "Digital formulation twins",
+          "level": "Frontier"
+        },
+        {
+          "id": "D08-R-08",
+          "title": "Alternative preservation technology validation",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D09",
+      "title": "Grooming Product Architecture",
+      "aliases": [
+        "product category",
+        "pomade",
+        "shampoo",
+        "conditioner",
+        "body wash",
+        "styling"
+      ],
+      "outcome": "Select product formats by function and use case before matching brand products.",
+      "topics": [
+        {
+          "id": "D09-F-01",
+          "title": "Shampoo and clarifying shampoo",
+          "level": "Foundation"
+        },
+        {
+          "id": "D09-F-02",
+          "title": "Rinse-out conditioner and masks",
+          "level": "Foundation"
+        },
+        {
+          "id": "D09-F-03",
+          "title": "Leave-in conditioner and oils",
+          "level": "Foundation"
+        },
+        {
+          "id": "D09-F-04",
+          "title": "Pomade clay paste and wax",
+          "level": "Foundation"
+        },
+        {
+          "id": "D09-F-05",
+          "title": "Gel mousse spray and cream",
+          "level": "Foundation"
+        },
+        {
+          "id": "D09-F-06",
+          "title": "Facial cleanser serum and moisturizer",
+          "level": "Foundation"
+        },
+        {
+          "id": "D09-F-07",
+          "title": "Sunscreen format literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "D09-F-08",
+          "title": "Soap body wash and lotion",
+          "level": "Foundation"
+        },
+        {
+          "id": "D09-M-01",
+          "title": "Texture powder and sea-salt spray",
+          "level": "Mastery"
+        },
+        {
+          "id": "D09-M-02",
+          "title": "Heat protectant claims",
+          "level": "Mastery"
+        },
+        {
+          "id": "D09-M-03",
+          "title": "Scalp serum versus hair oil",
+          "level": "Mastery"
+        },
+        {
+          "id": "D09-M-04",
+          "title": "Beard wash co-wash oil balm and butter",
+          "level": "Mastery"
+        },
+        {
+          "id": "D09-M-05",
+          "title": "Shave soap cream gel and pre-shave",
+          "level": "Mastery"
+        },
+        {
+          "id": "D09-M-06",
+          "title": "Aftershave splash versus balm",
+          "level": "Mastery"
+        },
+        {
+          "id": "D09-M-07",
+          "title": "Deodorant versus antiperspirant",
+          "level": "Mastery"
+        },
+        {
+          "id": "D09-M-08",
+          "title": "Hand foot and nail products",
+          "level": "Mastery"
+        },
+        {
+          "id": "D09-A-01",
+          "title": "Body acne and exfoliating product categories",
+          "level": "Advanced"
+        },
+        {
+          "id": "D09-A-02",
+          "title": "Body powders friction and exposure",
+          "level": "Advanced"
+        },
+        {
+          "id": "D09-A-03",
+          "title": "Eye products and sensitive-area claims",
+          "level": "Advanced"
+        },
+        {
+          "id": "D09-A-04",
+          "title": "Depilatory waxing and threading formats",
+          "level": "Advanced"
+        },
+        {
+          "id": "D09-A-05",
+          "title": "Intimate-area product suitability",
+          "level": "Advanced"
+        },
+        {
+          "id": "D09-A-06",
+          "title": "Oral-hygiene category boundaries",
+          "level": "Advanced"
+        },
+        {
+          "id": "D09-A-07",
+          "title": "Product layering and residue",
+          "level": "Advanced"
+        },
+        {
+          "id": "D09-A-08",
+          "title": "Cost-per-use and routine simplification",
+          "level": "Advanced"
+        },
+        {
+          "id": "D09-R-01",
+          "title": "Waterless and concentrated formats",
+          "level": "Frontier"
+        },
+        {
+          "id": "D09-R-02",
+          "title": "Refill systems and contamination",
+          "level": "Frontier"
+        },
+        {
+          "id": "D09-R-03",
+          "title": "Multifunctional product claim testing",
+          "level": "Frontier"
+        },
+        {
+          "id": "D09-R-04",
+          "title": "Adaptive-release styling systems",
+          "level": "Frontier"
+        },
+        {
+          "id": "D09-R-05",
+          "title": "Personalized product mixing",
+          "level": "Frontier"
+        },
+        {
+          "id": "D09-R-06",
+          "title": "Connected dispensing systems",
+          "level": "Frontier"
+        },
+        {
+          "id": "D09-R-07",
+          "title": "Novel solid cleansing formats",
+          "level": "Frontier"
+        },
+        {
+          "id": "D09-R-08",
+          "title": "Life-cycle comparisons across formats",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D10",
+      "title": "Soapmaking & Traditional Formulation",
+      "aliases": [
+        "soapmaking",
+        "soap",
+        "saponification",
+        "syndet",
+        "tallow"
+      ],
+      "outcome": "Explain soap systems and craft traditions while reserving production safety for qualified practice.",
+      "topics": [
+        {
+          "id": "D10-F-01",
+          "title": "Saponification reaction",
+          "level": "Foundation"
+        },
+        {
+          "id": "D10-F-02",
+          "title": "Sodium versus potassium soaps",
+          "level": "Foundation"
+        },
+        {
+          "id": "D10-F-03",
+          "title": "Fatty-acid profiles",
+          "level": "Foundation"
+        },
+        {
+          "id": "D10-F-04",
+          "title": "Saponification values and unit accuracy",
+          "level": "Foundation"
+        },
+        {
+          "id": "D10-F-05",
+          "title": "Cold-process and hot-process methods",
+          "level": "Foundation"
+        },
+        {
+          "id": "D10-F-06",
+          "title": "Melt-and-pour bases",
+          "level": "Foundation"
+        },
+        {
+          "id": "D10-F-07",
+          "title": "Soap versus syndet bars",
+          "level": "Foundation"
+        },
+        {
+          "id": "D10-F-08",
+          "title": "Caustic handling and laboratory supervision",
+          "level": "Foundation"
+        },
+        {
+          "id": "D10-M-01",
+          "title": "Superfat calculation concepts",
+          "level": "Mastery"
+        },
+        {
+          "id": "D10-M-02",
+          "title": "Water content and lye concentration concepts",
+          "level": "Mastery"
+        },
+        {
+          "id": "D10-M-03",
+          "title": "Cure time and water loss",
+          "level": "Mastery"
+        },
+        {
+          "id": "D10-M-04",
+          "title": "Hardness cleansing and lather",
+          "level": "Mastery"
+        },
+        {
+          "id": "D10-M-05",
+          "title": "Hard-water soap scum",
+          "level": "Mastery"
+        },
+        {
+          "id": "D10-M-06",
+          "title": "Tallow plant oils and provenance",
+          "level": "Mastery"
+        },
+        {
+          "id": "D10-M-07",
+          "title": "Shaving-soap structure",
+          "level": "Mastery"
+        },
+        {
+          "id": "D10-M-08",
+          "title": "Fragrance and color in alkaline systems",
+          "level": "Mastery"
+        },
+        {
+          "id": "D10-A-01",
+          "title": "Unsaponified matter analysis",
+          "level": "Advanced"
+        },
+        {
+          "id": "D10-A-02",
+          "title": "Free alkali testing",
+          "level": "Advanced"
+        },
+        {
+          "id": "D10-A-03",
+          "title": "Batch calculation verification",
+          "level": "Advanced"
+        },
+        {
+          "id": "D10-A-04",
+          "title": "Gel phase and heat management",
+          "level": "Advanced"
+        },
+        {
+          "id": "D10-A-05",
+          "title": "Soap defects and rancidity",
+          "level": "Advanced"
+        },
+        {
+          "id": "D10-A-06",
+          "title": "pH test method limitations",
+          "level": "Advanced"
+        },
+        {
+          "id": "D10-A-07",
+          "title": "Syndet blend optimization",
+          "level": "Advanced"
+        },
+        {
+          "id": "D10-A-08",
+          "title": "Microbiological assessment of added botanicals",
+          "level": "Advanced"
+        },
+        {
+          "id": "D10-R-01",
+          "title": "Low-water soap processing",
+          "level": "Frontier"
+        },
+        {
+          "id": "D10-R-02",
+          "title": "Novel sustainable feedstocks",
+          "level": "Frontier"
+        },
+        {
+          "id": "D10-R-03",
+          "title": "Instrumental lather characterization",
+          "level": "Frontier"
+        },
+        {
+          "id": "D10-R-04",
+          "title": "Artisan batch traceability tools",
+          "level": "Frontier"
+        },
+        {
+          "id": "D10-R-05",
+          "title": "Hybrid soap-syndet bars",
+          "level": "Frontier"
+        },
+        {
+          "id": "D10-R-06",
+          "title": "Upcycled oil quality assurance",
+          "level": "Frontier"
+        },
+        {
+          "id": "D10-R-07",
+          "title": "Biodegradability study interpretation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D10-R-08",
+          "title": "Consumer mildness trial design",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D11",
+      "title": "Fragrance & Masculine Scent",
+      "aliases": [
+        "fragrance",
+        "scent",
+        "fougere",
+        "sillage",
+        "perfumery",
+        "ifra"
+      ],
+      "outcome": "Describe scent preferences and formulation constraints without equating tradition with suitability.",
+      "topics": [
+        {
+          "id": "D11-F-01",
+          "title": "Olfaction and adaptation",
+          "level": "Foundation"
+        },
+        {
+          "id": "D11-F-02",
+          "title": "Top middle and base notes",
+          "level": "Foundation"
+        },
+        {
+          "id": "D11-F-03",
+          "title": "Volatility diffusion and substantivity",
+          "level": "Foundation"
+        },
+        {
+          "id": "D11-F-04",
+          "title": "Projection sillage and longevity",
+          "level": "Foundation"
+        },
+        {
+          "id": "D11-F-05",
+          "title": "Naturals and synthetics",
+          "level": "Foundation"
+        },
+        {
+          "id": "D11-F-06",
+          "title": "Citrus woody aromatic and amber families",
+          "level": "Foundation"
+        },
+        {
+          "id": "D11-F-07",
+          "title": "Accords and fragrance concentration",
+          "level": "Foundation"
+        },
+        {
+          "id": "D11-F-08",
+          "title": "Personal preference and scent tolerance",
+          "level": "Foundation"
+        },
+        {
+          "id": "D11-M-01",
+          "title": "Barbershop fougere heritage",
+          "level": "Mastery"
+        },
+        {
+          "id": "D11-M-02",
+          "title": "Leather tobacco spice and oud profiles",
+          "level": "Mastery"
+        },
+        {
+          "id": "D11-M-03",
+          "title": "Chypre aquatic and niche traditions",
+          "level": "Mastery"
+        },
+        {
+          "id": "D11-M-04",
+          "title": "Grooming-base scent interaction",
+          "level": "Mastery"
+        },
+        {
+          "id": "D11-M-05",
+          "title": "Fragrance layering and restraint",
+          "level": "Mastery"
+        },
+        {
+          "id": "D11-M-06",
+          "title": "Scent evaluation and blotter methods",
+          "level": "Mastery"
+        },
+        {
+          "id": "D11-M-07",
+          "title": "Oxidation storage and packaging",
+          "level": "Mastery"
+        },
+        {
+          "id": "D11-M-08",
+          "title": "Fragrance-free versus unscented labels",
+          "level": "Mastery"
+        },
+        {
+          "id": "D11-A-01",
+          "title": "IFRA category and exposure mapping",
+          "level": "Advanced"
+        },
+        {
+          "id": "D11-A-02",
+          "title": "Material-specific restrictions research",
+          "level": "Advanced"
+        },
+        {
+          "id": "D11-A-03",
+          "title": "Fragrance allergen disclosure research",
+          "level": "Advanced"
+        },
+        {
+          "id": "D11-A-04",
+          "title": "Supplier conformity documents",
+          "level": "Advanced"
+        },
+        {
+          "id": "D11-A-05",
+          "title": "Sensitization and phototoxicity literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "D11-A-06",
+          "title": "Substantivity in rinse-off products",
+          "level": "Advanced"
+        },
+        {
+          "id": "D11-A-07",
+          "title": "Sensory panel bias control",
+          "level": "Advanced"
+        },
+        {
+          "id": "D11-A-08",
+          "title": "Accord translation across soap oil and balm",
+          "level": "Advanced"
+        },
+        {
+          "id": "D11-R-01",
+          "title": "Biotechnology aroma materials",
+          "level": "Frontier"
+        },
+        {
+          "id": "D11-R-02",
+          "title": "Digital scent representation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D11-R-03",
+          "title": "AI accord generation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D11-R-04",
+          "title": "Olfactory receptor modeling",
+          "level": "Frontier"
+        },
+        {
+          "id": "D11-R-05",
+          "title": "Microencapsulated fragrance release",
+          "level": "Frontier"
+        },
+        {
+          "id": "D11-R-06",
+          "title": "Low-impact fragrance solvent systems",
+          "level": "Frontier"
+        },
+        {
+          "id": "D11-R-07",
+          "title": "Personalized scent study validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D11-R-08",
+          "title": "Standards amendment change tracking",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D12",
+      "title": "Ingredient Intelligence",
+      "aliases": [
+        "inci",
+        "ingredient encyclopedia",
+        "carrier oil",
+        "essential oil",
+        "ingredient intelligence"
+      ],
+      "outcome": "Build identity-specific ingredient dossiers with traceable evidence and application limits.",
+      "topics": [
+        {
+          "id": "D12-F-01",
+          "title": "INCI versus trade and common names",
+          "level": "Foundation"
+        },
+        {
+          "id": "D12-F-02",
+          "title": "CAS identifiers and mixtures",
+          "level": "Foundation"
+        },
+        {
+          "id": "D12-F-03",
+          "title": "Ingredient function taxonomy",
+          "level": "Foundation"
+        },
+        {
+          "id": "D12-F-04",
+          "title": "Source origin and processing",
+          "level": "Foundation"
+        },
+        {
+          "id": "D12-F-05",
+          "title": "Solubility and polarity fields",
+          "level": "Foundation"
+        },
+        {
+          "id": "D12-F-06",
+          "title": "Supplier specification sheets",
+          "level": "Foundation"
+        },
+        {
+          "id": "D12-F-07",
+          "title": "COA versus independent testing",
+          "level": "Foundation"
+        },
+        {
+          "id": "D12-F-08",
+          "title": "Identity does not establish safety",
+          "level": "Foundation"
+        },
+        {
+          "id": "D12-M-01",
+          "title": "Carrier oil fatty-acid profiles",
+          "level": "Mastery"
+        },
+        {
+          "id": "D12-M-02",
+          "title": "Essential-oil constituent variability",
+          "level": "Mastery"
+        },
+        {
+          "id": "D12-M-03",
+          "title": "Botanical species part and extraction",
+          "level": "Mastery"
+        },
+        {
+          "id": "D12-M-04",
+          "title": "Proteins and amino acids",
+          "level": "Mastery"
+        },
+        {
+          "id": "D12-M-05",
+          "title": "Preservative families",
+          "level": "Mastery"
+        },
+        {
+          "id": "D12-M-06",
+          "title": "Surfactant family dossiers",
+          "level": "Mastery"
+        },
+        {
+          "id": "D12-M-07",
+          "title": "Silicone family dossiers",
+          "level": "Mastery"
+        },
+        {
+          "id": "D12-M-08",
+          "title": "Humectant and exfoliant dossiers",
+          "level": "Mastery"
+        },
+        {
+          "id": "D12-A-01",
+          "title": "Peptide sequence and purity records",
+          "level": "Advanced"
+        },
+        {
+          "id": "D12-A-02",
+          "title": "Ceramide identity and mixture ratios",
+          "level": "Advanced"
+        },
+        {
+          "id": "D12-A-03",
+          "title": "Impurity and contaminant specifications",
+          "level": "Advanced"
+        },
+        {
+          "id": "D12-A-04",
+          "title": "Heat oxidation and pH sensitivity",
+          "level": "Advanced"
+        },
+        {
+          "id": "D12-A-05",
+          "title": "Compatibility and incompatibility evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "D12-A-06",
+          "title": "CIR assessment applicability",
+          "level": "Advanced"
+        },
+        {
+          "id": "D12-A-07",
+          "title": "Read-across between ingredient variants",
+          "level": "Advanced"
+        },
+        {
+          "id": "D12-A-08",
+          "title": "Concentration route and exposure distinctions",
+          "level": "Advanced"
+        },
+        {
+          "id": "D12-R-01",
+          "title": "Biotechnology ingredient provenance",
+          "level": "Frontier"
+        },
+        {
+          "id": "D12-R-02",
+          "title": "Ferment batch reproducibility",
+          "level": "Frontier"
+        },
+        {
+          "id": "D12-R-03",
+          "title": "Nanomaterial characterization",
+          "level": "Frontier"
+        },
+        {
+          "id": "D12-R-04",
+          "title": "New INCI versus novel efficacy",
+          "level": "Frontier"
+        },
+        {
+          "id": "D12-R-05",
+          "title": "Supply-chain adulteration detection",
+          "level": "Frontier"
+        },
+        {
+          "id": "D12-R-06",
+          "title": "Machine-readable ingredient ontologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "D12-R-07",
+          "title": "Computational toxicity model validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D12-R-08",
+          "title": "Emerging-material evidence surveillance",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D13",
+      "title": "Advanced / Future Grooming Science",
+      "aliases": [
+        "frontier",
+        "peptides",
+        "exosomes",
+        "red light",
+        "microneedling",
+        "regenerative"
+      ],
+      "outcome": "Appraise frontier claims by mechanism, human outcomes, risks and regulatory status.",
+      "topics": [
+        {
+          "id": "D13-F-01",
+          "title": "Mechanism versus human benefit",
+          "level": "Foundation"
+        },
+        {
+          "id": "D13-F-02",
+          "title": "In vitro animal and human evidence",
+          "level": "Foundation"
+        },
+        {
+          "id": "D13-F-03",
+          "title": "Peptide versus protein terminology",
+          "level": "Foundation"
+        },
+        {
+          "id": "D13-F-04",
+          "title": "Delivery and skin penetration",
+          "level": "Foundation"
+        },
+        {
+          "id": "D13-F-05",
+          "title": "Dose wavelength and exposure concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "D13-F-06",
+          "title": "Cosmetic versus medical procedure boundaries",
+          "level": "Foundation"
+        },
+        {
+          "id": "D13-F-07",
+          "title": "Surrogate versus meaningful outcomes",
+          "level": "Foundation"
+        },
+        {
+          "id": "D13-F-08",
+          "title": "Conflicts of interest and hype language",
+          "level": "Foundation"
+        },
+        {
+          "id": "D13-M-01",
+          "title": "Copper and biomimetic peptide evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "D13-M-02",
+          "title": "Liposomes and encapsulation",
+          "level": "Mastery"
+        },
+        {
+          "id": "D13-M-03",
+          "title": "Ferments probiotics and postbiotics",
+          "level": "Mastery"
+        },
+        {
+          "id": "D13-M-04",
+          "title": "Red and near-infrared light studies",
+          "level": "Mastery"
+        },
+        {
+          "id": "D13-M-05",
+          "title": "DHT biology overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "D13-M-06",
+          "title": "Caffeine and rosemary comparisons",
+          "level": "Mastery"
+        },
+        {
+          "id": "D13-M-07",
+          "title": "Growth-factor claim appraisal",
+          "level": "Mastery"
+        },
+        {
+          "id": "D13-M-08",
+          "title": "Microneedling professional-scope overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "D13-A-01",
+          "title": "Nanodelivery characterization",
+          "level": "Advanced"
+        },
+        {
+          "id": "D13-A-02",
+          "title": "LLLT trial quality",
+          "level": "Advanced"
+        },
+        {
+          "id": "D13-A-03",
+          "title": "PRP protocol variability",
+          "level": "Advanced"
+        },
+        {
+          "id": "D13-A-04",
+          "title": "Radiofrequency and ultrasound literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "D13-A-05",
+          "title": "Exosome identity purity and cargo",
+          "level": "Advanced"
+        },
+        {
+          "id": "D13-A-06",
+          "title": "Stem-cell-derived cosmetic provenance",
+          "level": "Advanced"
+        },
+        {
+          "id": "D13-A-07",
+          "title": "Combination therapy attribution",
+          "level": "Advanced"
+        },
+        {
+          "id": "D13-A-08",
+          "title": "Device clearance versus efficacy extrapolation",
+          "level": "Advanced"
+        },
+        {
+          "id": "D13-R-01",
+          "title": "Follicular regeneration technologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "D13-R-02",
+          "title": "Cell-free regenerative approaches",
+          "level": "Frontier"
+        },
+        {
+          "id": "D13-R-03",
+          "title": "Personalized microbiome interventions",
+          "level": "Frontier"
+        },
+        {
+          "id": "D13-R-04",
+          "title": "Senolytic cosmetic hypotheses",
+          "level": "Frontier"
+        },
+        {
+          "id": "D13-R-05",
+          "title": "AI-guided treatment personalization",
+          "level": "Frontier"
+        },
+        {
+          "id": "D13-R-06",
+          "title": "Clinical trial registration surveillance",
+          "level": "Frontier"
+        },
+        {
+          "id": "D13-R-07",
+          "title": "First-in-human evidence interpretation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D13-R-08",
+          "title": "Negative findings and replication tracking",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D14",
+      "title": "Men's Body Grooming & Grooming Beyond the Face",
+      "aliases": [
+        "body grooming",
+        "body hair",
+        "underarm",
+        "groin",
+        "nail",
+        "chafing"
+      ],
+      "outcome": "Build practical whole-body grooming consultations with sensitive-area boundaries.",
+      "topics": [
+        {
+          "id": "D14-F-01",
+          "title": "Body hair growth patterns",
+          "level": "Foundation"
+        },
+        {
+          "id": "D14-F-02",
+          "title": "Chest and back grooming goals",
+          "level": "Foundation"
+        },
+        {
+          "id": "D14-F-03",
+          "title": "Underarm cleansing and odor",
+          "level": "Foundation"
+        },
+        {
+          "id": "D14-F-04",
+          "title": "Sweat versus odor",
+          "level": "Foundation"
+        },
+        {
+          "id": "D14-F-05",
+          "title": "Friction and chafing",
+          "level": "Foundation"
+        },
+        {
+          "id": "D14-F-06",
+          "title": "Body skin hydration",
+          "level": "Foundation"
+        },
+        {
+          "id": "D14-F-07",
+          "title": "Nail anatomy and grooming",
+          "level": "Foundation"
+        },
+        {
+          "id": "D14-F-08",
+          "title": "Sensitive-area hygiene boundaries",
+          "level": "Foundation"
+        },
+        {
+          "id": "D14-M-01",
+          "title": "Guarded body trimming",
+          "level": "Mastery"
+        },
+        {
+          "id": "D14-M-02",
+          "title": "Body shaving preparation",
+          "level": "Mastery"
+        },
+        {
+          "id": "D14-M-03",
+          "title": "Nose and ear hair trimming",
+          "level": "Mastery"
+        },
+        {
+          "id": "D14-M-04",
+          "title": "Hand care and cuticles",
+          "level": "Mastery"
+        },
+        {
+          "id": "D14-M-05",
+          "title": "Foot cleansing drying and callus care",
+          "level": "Mastery"
+        },
+        {
+          "id": "D14-M-06",
+          "title": "Groin trimming comfort and privacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "D14-M-07",
+          "title": "Athletic clothing and friction",
+          "level": "Mastery"
+        },
+        {
+          "id": "D14-M-08",
+          "title": "Deodorant antiperspirant and powder selection",
+          "level": "Mastery"
+        },
+        {
+          "id": "D14-A-01",
+          "title": "Body acne and folliculitis recognition",
+          "level": "Advanced"
+        },
+        {
+          "id": "D14-A-02",
+          "title": "Keratosis pilaris literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "D14-A-03",
+          "title": "Ingrown body hair",
+          "level": "Advanced"
+        },
+        {
+          "id": "D14-A-04",
+          "title": "Depilatory label and site restrictions",
+          "level": "Advanced"
+        },
+        {
+          "id": "D14-A-05",
+          "title": "Waxing and threading contraindication literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "D14-A-06",
+          "title": "Laser and IPL professional consultation",
+          "level": "Advanced"
+        },
+        {
+          "id": "D14-A-07",
+          "title": "Persistent odor sweating or nail changes referral",
+          "level": "Advanced"
+        },
+        {
+          "id": "D14-A-08",
+          "title": "Accessibility and limited-mobility routines",
+          "level": "Advanced"
+        },
+        {
+          "id": "D14-R-01",
+          "title": "Body microbiome deodorant claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "D14-R-02",
+          "title": "Smart sweat sensors",
+          "level": "Frontier"
+        },
+        {
+          "id": "D14-R-03",
+          "title": "Novel odor-control materials",
+          "level": "Frontier"
+        },
+        {
+          "id": "D14-R-04",
+          "title": "Inclusive body-hair removal trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "D14-R-05",
+          "title": "Home IPL eligibility algorithms",
+          "level": "Frontier"
+        },
+        {
+          "id": "D14-R-06",
+          "title": "Textile-based grooming technologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "D14-R-07",
+          "title": "Barrier-supporting body serum studies",
+          "level": "Frontier"
+        },
+        {
+          "id": "D14-R-08",
+          "title": "Privacy in connected body devices",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D15",
+      "title": "Traditional, Historical & Global Men's Grooming",
+      "aliases": [
+        "grooming history",
+        "heritage",
+        "barbershop",
+        "global grooming",
+        "tradition"
+      ],
+      "outcome": "Explain grooming heritage with documented context and cultural respect.",
+      "topics": [
+        {
+          "id": "D15-F-01",
+          "title": "Ancient Egyptian grooming evidence",
+          "level": "Foundation"
+        },
+        {
+          "id": "D15-F-02",
+          "title": "Greek and Roman tonsorial culture",
+          "level": "Foundation"
+        },
+        {
+          "id": "D15-F-03",
+          "title": "Medieval barber-surgeon history",
+          "level": "Foundation"
+        },
+        {
+          "id": "D15-F-04",
+          "title": "European barbershop institutions",
+          "level": "Foundation"
+        },
+        {
+          "id": "D15-F-05",
+          "title": "Victorian and Edwardian styles",
+          "level": "Foundation"
+        },
+        {
+          "id": "D15-F-06",
+          "title": "Classic American barbershops",
+          "level": "Foundation"
+        },
+        {
+          "id": "D15-F-07",
+          "title": "Historical source criticism",
+          "level": "Foundation"
+        },
+        {
+          "id": "D15-F-08",
+          "title": "Tradition versus clinical evidence",
+          "level": "Foundation"
+        },
+        {
+          "id": "D15-M-01",
+          "title": "Black barbering and community history",
+          "level": "Mastery"
+        },
+        {
+          "id": "D15-M-02",
+          "title": "African hair traditions and diversity",
+          "level": "Mastery"
+        },
+        {
+          "id": "D15-M-03",
+          "title": "Caribbean barbering cultures",
+          "level": "Mastery"
+        },
+        {
+          "id": "D15-M-04",
+          "title": "Indian grooming and Ayurveda context",
+          "level": "Mastery"
+        },
+        {
+          "id": "D15-M-05",
+          "title": "Middle Eastern beard and fragrance traditions",
+          "level": "Mastery"
+        },
+        {
+          "id": "D15-M-06",
+          "title": "Turkish barbering rituals",
+          "level": "Mastery"
+        },
+        {
+          "id": "D15-M-07",
+          "title": "Japanese grooming traditions",
+          "level": "Mastery"
+        },
+        {
+          "id": "D15-M-08",
+          "title": "Straight-razor craft lineages",
+          "level": "Mastery"
+        },
+        {
+          "id": "D15-A-01",
+          "title": "Colonialism race and grooming standards",
+          "level": "Advanced"
+        },
+        {
+          "id": "D15-A-02",
+          "title": "Religious hair and beard practices",
+          "level": "Advanced"
+        },
+        {
+          "id": "D15-A-03",
+          "title": "Migration and diaspora style exchange",
+          "level": "Advanced"
+        },
+        {
+          "id": "D15-A-04",
+          "title": "Archival tool and recipe interpretation",
+          "level": "Advanced"
+        },
+        {
+          "id": "D15-A-05",
+          "title": "Oral histories and consent",
+          "level": "Advanced"
+        },
+        {
+          "id": "D15-A-06",
+          "title": "Museum object provenance",
+          "level": "Advanced"
+        },
+        {
+          "id": "D15-A-07",
+          "title": "Historical hygiene versus current practice",
+          "level": "Advanced"
+        },
+        {
+          "id": "D15-A-08",
+          "title": "Avoiding cultural essentialism in consultation",
+          "level": "Advanced"
+        },
+        {
+          "id": "D15-R-01",
+          "title": "Digitizing barbering archives",
+          "level": "Frontier"
+        },
+        {
+          "id": "D15-R-02",
+          "title": "Community-led knowledge preservation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D15-R-03",
+          "title": "Reconstructing lost scents responsibly",
+          "level": "Frontier"
+        },
+        {
+          "id": "D15-R-04",
+          "title": "AI bias in historical imagery",
+          "level": "Frontier"
+        },
+        {
+          "id": "D15-R-05",
+          "title": "Contemporary global barber networks",
+          "level": "Frontier"
+        },
+        {
+          "id": "D15-R-06",
+          "title": "Sustainable revival of craft practices",
+          "level": "Frontier"
+        },
+        {
+          "id": "D15-R-07",
+          "title": "Attribution and benefit-sharing models",
+          "level": "Frontier"
+        },
+        {
+          "id": "D15-R-08",
+          "title": "Trend diffusion across social platforms",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D16",
+      "title": "Tools, Devices & Grooming Technology",
+      "aliases": [
+        "tools",
+        "clippers",
+        "trimmer",
+        "shaver",
+        "device",
+        "scalp camera"
+      ],
+      "outcome": "Compare tools by mechanism, fit, maintenance and evidence rather than sponsorship.",
+      "topics": [
+        {
+          "id": "D16-F-01",
+          "title": "Rotary magnetic and pivot clipper motors",
+          "level": "Foundation"
+        },
+        {
+          "id": "D16-F-02",
+          "title": "Detachable blades and guard compatibility",
+          "level": "Foundation"
+        },
+        {
+          "id": "D16-F-03",
+          "title": "Trimmers foil and rotary shavers",
+          "level": "Foundation"
+        },
+        {
+          "id": "D16-F-04",
+          "title": "Straight safety and cartridge razors",
+          "level": "Foundation"
+        },
+        {
+          "id": "D16-F-05",
+          "title": "Cutting and texturizing shears",
+          "level": "Foundation"
+        },
+        {
+          "id": "D16-F-06",
+          "title": "Comb materials and tooth geometry",
+          "level": "Foundation"
+        },
+        {
+          "id": "D16-F-07",
+          "title": "Brush bristle types",
+          "level": "Foundation"
+        },
+        {
+          "id": "D16-F-08",
+          "title": "Electrical water and heat precautions",
+          "level": "Foundation"
+        },
+        {
+          "id": "D16-M-01",
+          "title": "Blade alignment and maintenance",
+          "level": "Mastery"
+        },
+        {
+          "id": "D16-M-02",
+          "title": "Cleaning disinfection and contact-time labels",
+          "level": "Mastery"
+        },
+        {
+          "id": "D16-M-03",
+          "title": "Ergonomics vibration and noise",
+          "level": "Mastery"
+        },
+        {
+          "id": "D16-M-04",
+          "title": "Battery runtime and repairability",
+          "level": "Mastery"
+        },
+        {
+          "id": "D16-M-05",
+          "title": "Dryers diffusers and airflow",
+          "level": "Mastery"
+        },
+        {
+          "id": "D16-M-06",
+          "title": "Heated brush and iron controls",
+          "level": "Mastery"
+        },
+        {
+          "id": "D16-M-07",
+          "title": "Travel and voltage compatibility",
+          "level": "Mastery"
+        },
+        {
+          "id": "D16-M-08",
+          "title": "Replacement parts and ownership cost",
+          "level": "Mastery"
+        },
+        {
+          "id": "D16-A-01",
+          "title": "Scalp cameras and digital microscopes",
+          "level": "Advanced"
+        },
+        {
+          "id": "D16-A-02",
+          "title": "Skin analyzer calibration",
+          "level": "Advanced"
+        },
+        {
+          "id": "D16-A-03",
+          "title": "Moisture and sebum measurement limits",
+          "level": "Advanced"
+        },
+        {
+          "id": "D16-A-04",
+          "title": "LED and LLLT device specifications",
+          "level": "Advanced"
+        },
+        {
+          "id": "D16-A-05",
+          "title": "IPL phototype and hair-color suitability literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "D16-A-06",
+          "title": "Microcurrent radiofrequency and ultrasound categories",
+          "level": "Advanced"
+        },
+        {
+          "id": "D16-A-07",
+          "title": "Microneedling device professional boundaries",
+          "level": "Advanced"
+        },
+        {
+          "id": "D16-A-08",
+          "title": "Device certification and jurisdiction checks",
+          "level": "Advanced"
+        },
+        {
+          "id": "D16-R-01",
+          "title": "Pressure-sensing grooming tools",
+          "level": "Frontier"
+        },
+        {
+          "id": "D16-R-02",
+          "title": "Computer-vision device feedback",
+          "level": "Frontier"
+        },
+        {
+          "id": "D16-R-03",
+          "title": "AI scalp analysis bias",
+          "level": "Frontier"
+        },
+        {
+          "id": "D16-R-04",
+          "title": "Connected-device privacy and retention",
+          "level": "Frontier"
+        },
+        {
+          "id": "D16-R-05",
+          "title": "Closed-loop heat control",
+          "level": "Frontier"
+        },
+        {
+          "id": "D16-R-06",
+          "title": "Novel blade surface materials",
+          "level": "Frontier"
+        },
+        {
+          "id": "D16-R-07",
+          "title": "Independent performance benchmark design",
+          "level": "Frontier"
+        },
+        {
+          "id": "D16-R-08",
+          "title": "Remote firmware and safety changes",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D17",
+      "title": "Product Development, Manufacturing & Quality",
+      "aliases": [
+        "product development",
+        "manufacturing",
+        "quality",
+        "gmp",
+        "stability",
+        "product brief"
+      ],
+      "outcome": "Translate a grooming need into a testable brief and governed development process.",
+      "topics": [
+        {
+          "id": "D17-F-01",
+          "title": "Consumer problem and market gap",
+          "level": "Foundation"
+        },
+        {
+          "id": "D17-F-02",
+          "title": "Target user and use occasion",
+          "level": "Foundation"
+        },
+        {
+          "id": "D17-F-03",
+          "title": "Product brief and intended claims",
+          "level": "Foundation"
+        },
+        {
+          "id": "D17-F-04",
+          "title": "Format and sensory target",
+          "level": "Foundation"
+        },
+        {
+          "id": "D17-F-05",
+          "title": "Raw-material specifications",
+          "level": "Foundation"
+        },
+        {
+          "id": "D17-F-06",
+          "title": "Prototype version control",
+          "level": "Foundation"
+        },
+        {
+          "id": "D17-F-07",
+          "title": "Safety substantiation responsibilities",
+          "level": "Foundation"
+        },
+        {
+          "id": "D17-F-08",
+          "title": "Development gate ownership",
+          "level": "Foundation"
+        },
+        {
+          "id": "D17-M-01",
+          "title": "Ingredient and supplier selection",
+          "level": "Mastery"
+        },
+        {
+          "id": "D17-M-02",
+          "title": "Bench prototype iteration",
+          "level": "Mastery"
+        },
+        {
+          "id": "D17-M-03",
+          "title": "Sensory evaluation panels",
+          "level": "Mastery"
+        },
+        {
+          "id": "D17-M-04",
+          "title": "Packaging compatibility",
+          "level": "Mastery"
+        },
+        {
+          "id": "D17-M-05",
+          "title": "Stability study design",
+          "level": "Mastery"
+        },
+        {
+          "id": "D17-M-06",
+          "title": "Microbial challenge testing",
+          "level": "Mastery"
+        },
+        {
+          "id": "D17-M-07",
+          "title": "Batch records and lot traceability",
+          "level": "Mastery"
+        },
+        {
+          "id": "D17-M-08",
+          "title": "Cost constraints and manufacturing feasibility",
+          "level": "Mastery"
+        },
+        {
+          "id": "D17-A-01",
+          "title": "Scale-up and process validation",
+          "level": "Advanced"
+        },
+        {
+          "id": "D17-A-02",
+          "title": "GMP gap assessment",
+          "level": "Advanced"
+        },
+        {
+          "id": "D17-A-03",
+          "title": "Release specifications and QC sampling",
+          "level": "Advanced"
+        },
+        {
+          "id": "D17-A-04",
+          "title": "Accelerated versus real-time stability",
+          "level": "Advanced"
+        },
+        {
+          "id": "D17-A-05",
+          "title": "Freeze-thaw and transport stress",
+          "level": "Advanced"
+        },
+        {
+          "id": "D17-A-06",
+          "title": "Oxidation viscosity color and odor drift",
+          "level": "Advanced"
+        },
+        {
+          "id": "D17-A-07",
+          "title": "Fill-weight and packaging integrity",
+          "level": "Advanced"
+        },
+        {
+          "id": "D17-A-08",
+          "title": "Complaint adverse-event and recall workflows",
+          "level": "Advanced"
+        },
+        {
+          "id": "D17-R-01",
+          "title": "Digital batch records and traceability",
+          "level": "Frontier"
+        },
+        {
+          "id": "D17-R-02",
+          "title": "Predictive stability models",
+          "level": "Frontier"
+        },
+        {
+          "id": "D17-R-03",
+          "title": "Continuous manufacturing concepts",
+          "level": "Frontier"
+        },
+        {
+          "id": "D17-R-04",
+          "title": "Process analytical technology",
+          "level": "Frontier"
+        },
+        {
+          "id": "D17-R-05",
+          "title": "Circular packaging validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D17-R-06",
+          "title": "AI-assisted formulation development governance",
+          "level": "Frontier"
+        },
+        {
+          "id": "D17-R-07",
+          "title": "Adaptive sensory testing",
+          "level": "Frontier"
+        },
+        {
+          "id": "D17-R-08",
+          "title": "Post-market signal detection",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D18",
+      "title": "Regulation, Claims & Evidence Intelligence",
+      "aliases": [
+        "regulation",
+        "claims",
+        "evidence",
+        "mocra",
+        "clinical study",
+        "substantiation"
+      ],
+      "outcome": "Keep scientific support, legal applicability and brand claim approval separate.",
+      "topics": [
+        {
+          "id": "D18-F-01",
+          "title": "Cosmetic OTC drug prescription device and supplement categories",
+          "level": "Foundation"
+        },
+        {
+          "id": "D18-F-02",
+          "title": "Intended use and claim wording",
+          "level": "Foundation"
+        },
+        {
+          "id": "D18-F-03",
+          "title": "Ingredient versus finished-product evidence",
+          "level": "Foundation"
+        },
+        {
+          "id": "D18-F-04",
+          "title": "Study design hierarchy and fit",
+          "level": "Foundation"
+        },
+        {
+          "id": "D18-F-05",
+          "title": "Source authority and provenance",
+          "level": "Foundation"
+        },
+        {
+          "id": "D18-F-06",
+          "title": "Unknown versus unsupported versus refuted",
+          "level": "Foundation"
+        },
+        {
+          "id": "D18-F-07",
+          "title": "Jurisdiction and effective dates",
+          "level": "Foundation"
+        },
+        {
+          "id": "D18-F-08",
+          "title": "Professional scope and licensure",
+          "level": "Foundation"
+        },
+        {
+          "id": "D18-M-01",
+          "title": "US cosmetic labeling research",
+          "level": "Mastery"
+        },
+        {
+          "id": "D18-M-02",
+          "title": "MoCRA obligations and exemptions research",
+          "level": "Mastery"
+        },
+        {
+          "id": "D18-M-03",
+          "title": "Cosmetic versus hair-regrowth claims",
+          "level": "Mastery"
+        },
+        {
+          "id": "D18-M-04",
+          "title": "Sunscreen antiperspirant and dandruff categories",
+          "level": "Mastery"
+        },
+        {
+          "id": "D18-M-05",
+          "title": "EU and UK cosmetic framework research",
+          "level": "Mastery"
+        },
+        {
+          "id": "D18-M-06",
+          "title": "FTC advertising substantiation research",
+          "level": "Mastery"
+        },
+        {
+          "id": "D18-M-07",
+          "title": "Randomization blinding and controls",
+          "level": "Mastery"
+        },
+        {
+          "id": "D18-M-08",
+          "title": "Effect size confidence intervals and relevance",
+          "level": "Mastery"
+        },
+        {
+          "id": "D18-A-01",
+          "title": "Systematic review and bias assessment",
+          "level": "Advanced"
+        },
+        {
+          "id": "D18-A-02",
+          "title": "Evidence applicability across populations",
+          "level": "Advanced"
+        },
+        {
+          "id": "D18-A-03",
+          "title": "Conflicting findings and certainty downgrades",
+          "level": "Advanced"
+        },
+        {
+          "id": "D18-A-04",
+          "title": "Adverse-event denominators",
+          "level": "Advanced"
+        },
+        {
+          "id": "D18-A-05",
+          "title": "Claim-to-source traceability",
+          "level": "Advanced"
+        },
+        {
+          "id": "D18-A-06",
+          "title": "Manufacturer study conflicts",
+          "level": "Advanced"
+        },
+        {
+          "id": "D18-A-07",
+          "title": "Regulatory change control",
+          "level": "Advanced"
+        },
+        {
+          "id": "D18-A-08",
+          "title": "Approval expiry withdrawal and audit trails",
+          "level": "Advanced"
+        },
+        {
+          "id": "D18-R-01",
+          "title": "Preprints and publication corrections",
+          "level": "Frontier"
+        },
+        {
+          "id": "D18-R-02",
+          "title": "Trial registries and unpublished results",
+          "level": "Frontier"
+        },
+        {
+          "id": "D18-R-03",
+          "title": "AI-generated citation verification",
+          "level": "Frontier"
+        },
+        {
+          "id": "D18-R-04",
+          "title": "Living evidence synthesis",
+          "level": "Frontier"
+        },
+        {
+          "id": "D18-R-05",
+          "title": "Emerging device classification changes",
+          "level": "Frontier"
+        },
+        {
+          "id": "D18-R-06",
+          "title": "Regenerative-product regulatory surveillance",
+          "level": "Frontier"
+        },
+        {
+          "id": "D18-R-07",
+          "title": "Real-world evidence bias",
+          "level": "Frontier"
+        },
+        {
+          "id": "D18-R-08",
+          "title": "Automated claim monitoring with human review",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "D19",
+      "title": "The Cassius Consultation Intelligence",
+      "aliases": [
+        "consultation",
+        "routine",
+        "what should i use",
+        "help my beard",
+        "help my hair"
+      ],
+      "outcome": "Ask targeted questions, explain tradeoffs and abstain when supporting knowledge is missing.",
+      "topics": [
+        {
+          "id": "D19-F-01",
+          "title": "Consent scope and goal clarification",
+          "level": "Foundation"
+        },
+        {
+          "id": "D19-F-02",
+          "title": "Hair length density texture and scalp intake",
+          "level": "Foundation"
+        },
+        {
+          "id": "D19-F-03",
+          "title": "Beard length density skin and styling intake",
+          "level": "Foundation"
+        },
+        {
+          "id": "D19-F-04",
+          "title": "Skin sensitivity shaving and routine intake",
+          "level": "Foundation"
+        },
+        {
+          "id": "D19-F-05",
+          "title": "Body-site and comfort intake",
+          "level": "Foundation"
+        },
+        {
+          "id": "D19-F-06",
+          "title": "Budget time and complexity preferences",
+          "level": "Foundation"
+        },
+        {
+          "id": "D19-F-07",
+          "title": "Allergy fragrance and past-reaction history",
+          "level": "Foundation"
+        },
+        {
+          "id": "D19-F-08",
+          "title": "Urgent versus routine referral routing",
+          "level": "Foundation"
+        },
+        {
+          "id": "D19-M-01",
+          "title": "Climate lifestyle and wash frequency",
+          "level": "Mastery"
+        },
+        {
+          "id": "D19-M-02",
+          "title": "Desired hold finish and feel",
+          "level": "Mastery"
+        },
+        {
+          "id": "D19-M-03",
+          "title": "Minimum viable routine design",
+          "level": "Mastery"
+        },
+        {
+          "id": "D19-M-04",
+          "title": "Question prioritization and missing information",
+          "level": "Mastery"
+        },
+        {
+          "id": "D19-M-05",
+          "title": "Category-first product matching",
+          "level": "Mastery"
+        },
+        {
+          "id": "D19-M-06",
+          "title": "Tradeoff explanations without pressure",
+          "level": "Mastery"
+        },
+        {
+          "id": "D19-M-07",
+          "title": "Brand identity and product disambiguation",
+          "level": "Mastery"
+        },
+        {
+          "id": "D19-M-08",
+          "title": "Follow-up and tolerance tracking",
+          "level": "Mastery"
+        },
+        {
+          "id": "D19-A-01",
+          "title": "Multi-concern routine conflicts",
+          "level": "Advanced"
+        },
+        {
+          "id": "D19-A-02",
+          "title": "Ingredient duplication and irritation burden",
+          "level": "Advanced"
+        },
+        {
+          "id": "D19-A-03",
+          "title": "Evidence applicability to the individual",
+          "level": "Advanced"
+        },
+        {
+          "id": "D19-A-04",
+          "title": "Declining diagnosis dosing and clearance",
+          "level": "Advanced"
+        },
+        {
+          "id": "D19-A-05",
+          "title": "Explainable recommendation records",
+          "level": "Advanced"
+        },
+        {
+          "id": "D19-A-06",
+          "title": "Contradictions and uncertainty communication",
+          "level": "Advanced"
+        },
+        {
+          "id": "D19-A-07",
+          "title": "Product-specific evidence and claim gates",
+          "level": "Advanced"
+        },
+        {
+          "id": "D19-A-08",
+          "title": "Human escalation and handoff summaries",
+          "level": "Advanced"
+        },
+        {
+          "id": "D19-R-01",
+          "title": "Retrieval evaluation across dialects",
+          "level": "Frontier"
+        },
+        {
+          "id": "D19-R-02",
+          "title": "Fairness across textures ages and skin tones",
+          "level": "Frontier"
+        },
+        {
+          "id": "D19-R-03",
+          "title": "Confidence calibration and abstention",
+          "level": "Frontier"
+        },
+        {
+          "id": "D19-R-04",
+          "title": "Privacy-preserving personalization",
+          "level": "Frontier"
+        },
+        {
+          "id": "D19-R-05",
+          "title": "Longitudinal outcome attribution",
+          "level": "Frontier"
+        },
+        {
+          "id": "D19-R-06",
+          "title": "Adversarial consultation testing",
+          "level": "Frontier"
+        },
+        {
+          "id": "D19-R-07",
+          "title": "Versioned reasoning policy evaluation",
+          "level": "Frontier"
+        },
+        {
+          "id": "D19-R-08",
+          "title": "Human-in-the-loop learning governance",
+          "level": "Frontier"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+[
+  {
+    "id": "health-seed-uspstf",
+    "title": "USPSTF Recommendation Topics",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics",
+    "kind": "regulator-guideline",
+    "domainIds": [
+      "H02",
+      "H03",
+      "H07",
+      "H20",
+      "H23",
+      "H32",
+      "H34"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Select exact current recommendation, population and publication version."
+  },
+  {
+    "id": "health-seed-niddk",
+    "title": "NIDDK Health Information",
+    "url": "https://www.niddk.nih.gov/health-information/",
+    "kind": "clinical-reference",
+    "domainIds": [
+      "H01",
+      "H04",
+      "H05",
+      "H06",
+      "H16",
+      "H18",
+      "H19"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "The discovery result notes information is not being updated regularly; corroborate currency at document level."
+  },
+  {
+    "id": "health-seed-endocrine-guideline",
+    "title": "Endocrine Society testosterone guideline",
+    "url": "https://www.endocrine.org/clinical-practice-guidelines/testosterone-therapy",
+    "kind": "specialty-guideline",
+    "domainIds": [
+      "H14",
+      "H15",
+      "H17",
+      "H22",
+      "H23"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Check guideline edition and subsequent updates; not a basis for prescribing by Cassius."
+  },
+  {
+    "id": "health-seed-endocrine-update",
+    "title": "Endocrine Society testosterone statement (2026)",
+    "url": "https://www.endocrine.org/news-and-advocacy/news-room/2026/statement-on-testosterone-replacement-therapy",
+    "kind": "specialty-update",
+    "domainIds": [
+      "H15",
+      "H36"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "A dated statement is not interchangeable with the full guideline or a product label."
+  },
+  {
+    "id": "health-seed-ods",
+    "title": "NIH ODS supplement fact sheets",
+    "url": "https://ods.od.nih.gov/factsheets/list-all/",
+    "kind": "clinical-reference",
+    "domainIds": [
+      "H04",
+      "H19",
+      "H21",
+      "H22",
+      "H36"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Acquire ingredient-specific and form-specific fact sheets and underlying trials."
+  },
+  {
+    "id": "health-seed-ods-performance",
+    "title": "NIH ODS exercise performance professional fact sheet",
+    "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+    "kind": "evidence-summary",
+    "domainIds": [
+      "H08",
+      "H09",
+      "H21",
+      "H25"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Study outcomes and population must match the proposed claim."
+  },
+  {
+    "id": "health-seed-nimh",
+    "title": "NIMH Men and Mental Health",
+    "url": "https://www.nimh.nih.gov/health/topics/men-and-mental-health",
+    "kind": "clinical-reference",
+    "domainIds": [
+      "H12",
+      "H13",
+      "H30",
+      "H31",
+      "H32"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Review underlying clinical resources and local care/crisis pathways."
+  },
+  {
+    "id": "health-seed-nia",
+    "title": "NIA Healthy Aging and Longevity",
+    "url": "https://www.nia.nih.gov/health/topics/healthy-aging-and-longevity",
+    "kind": "clinical-reference",
+    "domainIds": [
+      "H01",
+      "H10",
+      "H13",
+      "H26",
+      "H31",
+      "H35"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Separate functional outcomes from unvalidated age-clock or lifespan claims."
+  },
+  {
+    "id": "health-seed-nhlbi",
+    "title": "NHLBI lung health",
+    "url": "https://www.nhlbi.nih.gov/health/lungs/lung-health",
+    "kind": "clinical-reference",
+    "domainIds": [
+      "H07",
+      "H11",
+      "H29",
+      "H33"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Expand with condition-specific heart and sleep guidelines."
+  },
+  {
+    "id": "health-seed-activity",
+    "title": "Physical Activity Guidelines current overview",
+    "url": "https://odphp.health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines/current-guidelines/top-10-things-know",
+    "kind": "public-health-guideline",
+    "domainIds": [
+      "H08",
+      "H09",
+      "H10",
+      "H25",
+      "H31"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Acquire full guidance and applicability rather than prescribing from an overview."
+  },
+  {
+    "id": "health-seed-aua",
+    "title": "AUA clinical guidelines directory",
+    "url": "https://www.auanet.org/guidelines-and-quality/guidelines",
+    "kind": "specialty-guideline",
+    "domainIds": [
+      "H15",
+      "H16",
+      "H17"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Acquire relevant full guideline, amendment and access permissions."
+  },
+  {
+    "id": "health-seed-nci",
+    "title": "NCI Cancer Screening",
+    "url": "https://www.cancer.gov/about-cancer/screening",
+    "kind": "clinical-reference",
+    "domainIds": [
+      "H03",
+      "H34"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Check screening population, benefits, harms and current recommendation."
+  },
+  {
+    "id": "health-seed-fda-peptides",
+    "title": "FDA July 2026 Pharmacy Compounding Advisory Committee",
+    "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026",
+    "kind": "regulatory-meeting",
+    "domainIds": [
+      "H27",
+      "H28",
+      "H36"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Advisory materials or votes do not establish FDA approval, final legal status, safety or efficacy."
+  },
+  {
+    "id": "health-seed-fda-compounding",
+    "title": "FDA compounding safety-risk reference",
+    "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+    "kind": "regulatory-reference",
+    "domainIds": [
+      "H22",
+      "H27",
+      "H28",
+      "H36"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Verify substance, route, date, exact policy category and any subsequent actions before interpreting."
+  }
+]

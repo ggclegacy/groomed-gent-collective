@@ -1,0 +1,179 @@
+{
+  "version": "1.0.0",
+  "ownerRoles": [
+    "researcher",
+    "domain-specialist",
+    "evidence-reviewer",
+    "clinical-reviewer",
+    "regulatory-reviewer",
+    "brand-owner",
+    "maintainer"
+  ],
+  "phases": [
+    {
+      "id": "P0",
+      "domainIds": [
+        "H02",
+        "H32",
+        "H36"
+      ],
+      "dependsOn": [],
+      "goal": "Evidence rules, privacy, clinical scope and reviewer calibration",
+      "exitGate": "Applicable sources acquired; atomic claims and harms appraised; domain, evidence and clinical reviewers accept; no unresolved safety-critical conflicts."
+    },
+    {
+      "id": "P1",
+      "domainIds": [
+        "H01",
+        "H03",
+        "H04",
+        "H08",
+        "H09",
+        "H10",
+        "H11",
+        "H12",
+        "H31",
+        "H35"
+      ],
+      "dependsOn": [
+        "P0"
+      ],
+      "goal": "Human foundations, prevention and daily health practices",
+      "exitGate": "Applicable sources acquired; atomic claims and harms appraised; domain, evidence and clinical reviewers accept; no unresolved safety-critical conflicts."
+    },
+    {
+      "id": "P2",
+      "domainIds": [
+        "H05",
+        "H06",
+        "H07",
+        "H13",
+        "H18",
+        "H19",
+        "H20",
+        "H22",
+        "H33",
+        "H34"
+      ],
+      "dependsOn": [
+        "P1"
+      ],
+      "goal": "Clinical literacy and care navigation",
+      "exitGate": "Applicable sources acquired; atomic claims and harms appraised; domain, evidence and clinical reviewers accept; no unresolved safety-critical conflicts."
+    },
+    {
+      "id": "P3",
+      "domainIds": [
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H21",
+        "H23"
+      ],
+      "dependsOn": [
+        "P2"
+      ],
+      "goal": "Endocrine, reproductive, supplement and biomarker dossiers",
+      "exitGate": "Applicable sources acquired; atomic claims and harms appraised; domain, evidence and clinical reviewers accept; no unresolved safety-critical conflicts."
+    },
+    {
+      "id": "P4",
+      "domainIds": [
+        "H24",
+        "H25",
+        "H29",
+        "H30"
+      ],
+      "dependsOn": [
+        "P2",
+        "P3"
+      ],
+      "goal": "Measurement, recovery, exposure and substance-use evidence",
+      "exitGate": "Applicable sources acquired; atomic claims and harms appraised; domain, evidence and clinical reviewers accept; no unresolved safety-critical conflicts."
+    },
+    {
+      "id": "P5",
+      "domainIds": [
+        "H26",
+        "H27",
+        "H28"
+      ],
+      "dependsOn": [
+        "P3",
+        "P4"
+      ],
+      "goal": "Longevity, peptides and frontier appraisal",
+      "exitGate": "Applicable sources acquired; atomic claims and harms appraised; domain, evidence and clinical reviewers accept; no unresolved safety-critical conflicts."
+    },
+    {
+      "id": "P6",
+      "domainIds": [
+        "H32",
+        "H36"
+      ],
+      "dependsOn": [
+        "P5"
+      ],
+      "goal": "Reviewed health retrieval and exact-product commercial mapping",
+      "exitGate": "Applicable sources acquired; atomic claims and harms appraised; domain, evidence and clinical reviewers accept; no unresolved safety-critical conflicts."
+    }
+  ],
+  "initialBatches": [
+    {
+      "id": "HB01",
+      "moduleIds": [
+        "H02-F",
+        "H32-F",
+        "H36-F"
+      ],
+      "deliverable": "Policy and clinical-boundary calibration; prerequisite modules acquired first"
+    },
+    {
+      "id": "HB02",
+      "moduleIds": [
+        "H01-F",
+        "H03-F",
+        "H04-F",
+        "H11-F"
+      ],
+      "deliverable": "Human fundamentals prevention nutrition and sleep source packs"
+    },
+    {
+      "id": "HB03",
+      "moduleIds": [
+        "H14-F",
+        "H15-F",
+        "H16-F",
+        "H17-F"
+      ],
+      "deliverable": "Hormone and reproductive terminology and clinical-scope dossiers"
+    },
+    {
+      "id": "HB04",
+      "moduleIds": [
+        "H21-F",
+        "H22-F",
+        "H23-F"
+      ],
+      "deliverable": "Identity-specific supplement medication and biomarker evidence templates"
+    }
+  ],
+  "orderingRule": "Resolve module prerequisites before any batch or phase release; phase membership is a research grouping, not a waiver. P0 may acquire prerequisites from later groups for policy calibration.",
+  "perTopicAcceptance": [
+    "Document version, access date, rights, jurisdiction and correction/retraction check",
+    "Atomic claims with exact locators and short excerpts",
+    "Study design, population, comparator, exposure, outcomes, harms, uncertainty and funding",
+    "Counterevidence and applicability limitations",
+    "Real identified domain/evidence/clinical review; regulatory review where needed",
+    "Public summary and separate commercial approval; tests and review expiry gates"
+  ],
+  "metrics": [
+    "Coverage by domain and level",
+    "Released versus withheld claims",
+    "Expired reviews and unresolved conflicts",
+    "Citation correctness and outcome relevance",
+    "Clinical escalation and abstention accuracy",
+    "Commercial identity and formula mismatch rates"
+  ]
+}

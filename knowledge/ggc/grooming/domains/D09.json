@@ -1,0 +1,1282 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D09",
+    "order": 9,
+    "title": "Grooming Product Architecture",
+    "primaryLayer": "product-science",
+    "secondaryLayers": [],
+    "aliases": [
+      "product category",
+      "pomade",
+      "shampoo",
+      "conditioner",
+      "body wash",
+      "styling"
+    ],
+    "outcome": "Select product formats by function and use case before matching brand products.",
+    "moduleIds": [
+      "D09-F",
+      "D09-M",
+      "D09-A",
+      "D09-R"
+    ],
+    "sourceSeedIds": [
+      "seed-milady",
+      "seed-scc",
+      "seed-fda-claims"
+    ],
+    "coverageGaps": [
+      "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D09-F",
+      "domainId": "D09",
+      "level": "Foundation",
+      "title": "Grooming Product Architecture — Foundation",
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "topicIds": [
+        "D09-F-01",
+        "D09-F-02",
+        "D09-F-03",
+        "D09-F-04",
+        "D09-F-05",
+        "D09-F-06",
+        "D09-F-07",
+        "D09-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D09-M",
+      "domainId": "D09",
+      "level": "Mastery",
+      "title": "Grooming Product Architecture — Mastery",
+      "prerequisiteModuleIds": [
+        "D09-F"
+      ],
+      "topicIds": [
+        "D09-M-01",
+        "D09-M-02",
+        "D09-M-03",
+        "D09-M-04",
+        "D09-M-05",
+        "D09-M-06",
+        "D09-M-07",
+        "D09-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D09-A",
+      "domainId": "D09",
+      "level": "Advanced",
+      "title": "Grooming Product Architecture — Advanced",
+      "prerequisiteModuleIds": [
+        "D09-M"
+      ],
+      "topicIds": [
+        "D09-A-01",
+        "D09-A-02",
+        "D09-A-03",
+        "D09-A-04",
+        "D09-A-05",
+        "D09-A-06",
+        "D09-A-07",
+        "D09-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D09-R",
+      "domainId": "D09",
+      "level": "Frontier",
+      "title": "Grooming Product Architecture — Frontier",
+      "prerequisiteModuleIds": [
+        "D09-A"
+      ],
+      "topicIds": [
+        "D09-R-01",
+        "D09-R-02",
+        "D09-R-03",
+        "D09-R-04",
+        "D09-R-05",
+        "D09-R-06",
+        "D09-R-07",
+        "D09-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D09-F-01",
+      "domainId": "D09",
+      "moduleId": "D09-F",
+      "level": "Foundation",
+      "title": "Shampoo and clarifying shampoo",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain shampoo and clarifying shampoo, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-F-02",
+      "domainId": "D09",
+      "moduleId": "D09-F",
+      "level": "Foundation",
+      "title": "Rinse-out conditioner and masks",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain rinse-out conditioner and masks, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-F-03",
+      "domainId": "D09",
+      "moduleId": "D09-F",
+      "level": "Foundation",
+      "title": "Leave-in conditioner and oils",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain leave-in conditioner and oils, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-F-04",
+      "domainId": "D09",
+      "moduleId": "D09-F",
+      "level": "Foundation",
+      "title": "Pomade clay paste and wax",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain pomade clay paste and wax, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-F-05",
+      "domainId": "D09",
+      "moduleId": "D09-F",
+      "level": "Foundation",
+      "title": "Gel mousse spray and cream",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain gel mousse spray and cream, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-F-06",
+      "domainId": "D09",
+      "moduleId": "D09-F",
+      "level": "Foundation",
+      "title": "Facial cleanser serum and moisturizer",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain facial cleanser serum and moisturizer, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-F-07",
+      "domainId": "D09",
+      "moduleId": "D09-F",
+      "level": "Foundation",
+      "title": "Sunscreen format literacy",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain sunscreen format literacy, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-F-08",
+      "domainId": "D09",
+      "moduleId": "D09-F",
+      "level": "Foundation",
+      "title": "Soap body wash and lotion",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain soap body wash and lotion, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-M-01",
+      "domainId": "D09",
+      "moduleId": "D09-M",
+      "level": "Mastery",
+      "title": "Texture powder and sea-salt spray",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about texture powder and sea-salt spray, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-M-02",
+      "domainId": "D09",
+      "moduleId": "D09-M",
+      "level": "Mastery",
+      "title": "Heat protectant claims",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about heat protectant claims, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-M-03",
+      "domainId": "D09",
+      "moduleId": "D09-M",
+      "level": "Mastery",
+      "title": "Scalp serum versus hair oil",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about scalp serum versus hair oil, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-M-04",
+      "domainId": "D09",
+      "moduleId": "D09-M",
+      "level": "Mastery",
+      "title": "Beard wash co-wash oil balm and butter",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about beard wash co-wash oil balm and butter, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-M-05",
+      "domainId": "D09",
+      "moduleId": "D09-M",
+      "level": "Mastery",
+      "title": "Shave soap cream gel and pre-shave",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about shave soap cream gel and pre-shave, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-M-06",
+      "domainId": "D09",
+      "moduleId": "D09-M",
+      "level": "Mastery",
+      "title": "Aftershave splash versus balm",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about aftershave splash versus balm, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-M-07",
+      "domainId": "D09",
+      "moduleId": "D09-M",
+      "level": "Mastery",
+      "title": "Deodorant versus antiperspirant",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about deodorant versus antiperspirant, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-M-08",
+      "domainId": "D09",
+      "moduleId": "D09-M",
+      "level": "Mastery",
+      "title": "Hand foot and nail products",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about hand foot and nail products, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-A-01",
+      "domainId": "D09",
+      "moduleId": "D09-A",
+      "level": "Advanced",
+      "title": "Body acne and exfoliating product categories",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about body acne and exfoliating product categories transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-A-02",
+      "domainId": "D09",
+      "moduleId": "D09-A",
+      "level": "Advanced",
+      "title": "Body powders friction and exposure",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about body powders friction and exposure transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-A-03",
+      "domainId": "D09",
+      "moduleId": "D09-A",
+      "level": "Advanced",
+      "title": "Eye products and sensitive-area claims",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about eye products and sensitive-area claims transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-A-04",
+      "domainId": "D09",
+      "moduleId": "D09-A",
+      "level": "Advanced",
+      "title": "Depilatory waxing and threading formats",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about depilatory waxing and threading formats transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-A-05",
+      "domainId": "D09",
+      "moduleId": "D09-A",
+      "level": "Advanced",
+      "title": "Intimate-area product suitability",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about intimate-area product suitability transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-A-06",
+      "domainId": "D09",
+      "moduleId": "D09-A",
+      "level": "Advanced",
+      "title": "Oral-hygiene category boundaries",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about oral-hygiene category boundaries transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-A-07",
+      "domainId": "D09",
+      "moduleId": "D09-A",
+      "level": "Advanced",
+      "title": "Product layering and residue",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about product layering and residue transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-A-08",
+      "domainId": "D09",
+      "moduleId": "D09-A",
+      "level": "Advanced",
+      "title": "Cost-per-use and routine simplification",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about cost-per-use and routine simplification transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-R-01",
+      "domainId": "D09",
+      "moduleId": "D09-R",
+      "level": "Frontier",
+      "title": "Waterless and concentrated formats",
+      "researchQuestions": [
+        "For waterless and concentrated formats, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-R-02",
+      "domainId": "D09",
+      "moduleId": "D09-R",
+      "level": "Frontier",
+      "title": "Refill systems and contamination",
+      "researchQuestions": [
+        "For refill systems and contamination, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-R-03",
+      "domainId": "D09",
+      "moduleId": "D09-R",
+      "level": "Frontier",
+      "title": "Multifunctional product claim testing",
+      "researchQuestions": [
+        "For multifunctional product claim testing, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-R-04",
+      "domainId": "D09",
+      "moduleId": "D09-R",
+      "level": "Frontier",
+      "title": "Adaptive-release styling systems",
+      "researchQuestions": [
+        "For adaptive-release styling systems, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-R-05",
+      "domainId": "D09",
+      "moduleId": "D09-R",
+      "level": "Frontier",
+      "title": "Personalized product mixing",
+      "researchQuestions": [
+        "For personalized product mixing, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-R-06",
+      "domainId": "D09",
+      "moduleId": "D09-R",
+      "level": "Frontier",
+      "title": "Connected dispensing systems",
+      "researchQuestions": [
+        "For connected dispensing systems, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-R-07",
+      "domainId": "D09",
+      "moduleId": "D09-R",
+      "level": "Frontier",
+      "title": "Novel solid cleansing formats",
+      "researchQuestions": [
+        "For novel solid cleansing formats, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D09-R-08",
+      "domainId": "D09",
+      "moduleId": "D09-R",
+      "level": "Frontier",
+      "title": "Life-cycle comparisons across formats",
+      "researchQuestions": [
+        "For life-cycle comparisons across formats, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D09-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

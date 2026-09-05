@@ -1,6 +1,21 @@
 'use client';
 import { useEffect, useRef } from 'react';
 
+// Deterministic geometry avoids hydration variation; these are abstract signal nodes, not data.
+const NETWORK_POINTS = Array.from({ length: 30 }, (_, i) => {
+  const angle = i * 2.399963;
+  const radius = 23 + Math.sqrt(i / 29) * 80;
+  return [
+    Number((120 + Math.cos(angle) * radius).toFixed(2)),
+    Number((120 + Math.sin(angle) * radius).toFixed(2)),
+  ];
+});
+const NETWORK_EDGES: [number, number][] = NETWORK_POINTS.flatMap(([x, y], i) =>
+  NETWORK_POINTS.flatMap(([xx, yy], j): [number, number][] =>
+    j > i && Math.hypot(xx - x, yy - y) < 68 ? [[i, j]] : [],
+  ),
+);
+
 /** Ambient identity visualization, never a signal of service connectivity. */
 export function CassiusCore({ compact = false }: { compact?: boolean }) {
   const root = useRef<HTMLDivElement>(null);
@@ -68,34 +83,52 @@ export function CassiusCore({ compact = false }: { compact?: boolean }) {
       <div className="core-projection" />
       <div className="core-assembly">
         <div className="core-calibration" />
-        <div className="core-orbit orbit-one">
-          <div className="orbit-tracer" />
-        </div>
-        <div className="core-orbit orbit-two">
-          <div className="orbit-tracer" />
-        </div>
-        <div className="core-orbit orbit-three">
-          <div className="orbit-tracer" />
-        </div>
+        <div className="core-outer-rule" />
+        <div className="core-chassis" />
+        <div className="core-gold-bezel" />
+        <div className="core-bezel-cuts" />
+        <div className="core-inner-rim" />
         <div className="core-sphere">
           <div className="core-fluid fluid-one" />
           <div className="core-fluid fluid-two" />
+          <svg className="core-network" viewBox="0 0 240 240" fill="none">
+            {NETWORK_EDGES.map(([a, b]) => (
+              <path
+                key={`${a}-${b}`}
+                d={`M${NETWORK_POINTS[a][0]} ${NETWORK_POINTS[a][1]}L${NETWORK_POINTS[b][0]} ${NETWORK_POINTS[b][1]}`}
+              />
+            ))}
+            {NETWORK_POINTS.map(([x, y], i) => (
+              <circle key={i} cx={x} cy={y} r={i % 4 === 0 ? 1.5 : 0.8} />
+            ))}
+          </svg>
           <div className="core-heart" />
           <svg className="core-filaments" viewBox="0 0 240 240" fill="none">
-            <path d="M-10 148C50 10 174 224 250 73M-12 165C65 24 167 236 250 91M-10 129C50-5 174 207 250 56" />
-            <path d="M65-15C211 46 10 179 170 257M85-15C228 62 30 181 190 257" />
+            <path d="M57 118C74 41 185 65 161 138S79 176 92 103S188 151 128 173S56 91 131 81S172 196 91 147S141 37 158 123" />
+            <path d="M69 136C37 82 128 41 155 94S184 180 113 155S100 49 161 117S62 185 82 110S169 92 138 158" />
             <path
               className="filament-signal"
-              d="M-10 148C50 10 174 224 250 73M65-15C211 46 10 179 170 257"
+              d="M57 118C74 41 185 65 161 138S79 176 92 103S188 151 128 173S56 91 131 81S172 196 91 147S141 37 158 123"
             />
           </svg>
-          <div className="core-latitude latitude-one" />
-          <div className="core-latitude latitude-two" />
           <div className="core-shell" />
           <div className="core-specular" />
         </div>
-        <div className="core-pole pole-north" />
-        <div className="core-pole pole-south" />
+        <div className="core-signal-track">
+          <span />
+        </div>
+        <div className="core-crest">
+          <span>C</span>
+        </div>
+        <div className="core-lock lock-west">
+          <span />
+        </div>
+        <div className="core-lock lock-east">
+          <span />
+        </div>
+        <div className="core-lock lock-south">
+          <span />
+        </div>
       </div>
     </div>
   );

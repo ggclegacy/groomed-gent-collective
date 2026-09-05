@@ -1,0 +1,1433 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "H16",
+    "order": 16,
+    "title": "Sexual Health, Urology & Prostate Health",
+    "primaryLayer": "clinical-literacy",
+    "secondaryLayers": [],
+    "aliases": [
+      "sexual health",
+      "erectile dysfunction",
+      "libido",
+      "prostate",
+      "urology",
+      "pelvic health"
+    ],
+    "outcome": "Support private, nonjudgmental literacy and care navigation for sexual and urinary concerns.",
+    "moduleIds": [
+      "H16-F",
+      "H16-M",
+      "H16-A",
+      "H16-R"
+    ],
+    "sourceSeedIds": [
+      "health-seed-niddk",
+      "health-seed-aua"
+    ],
+    "coverageGaps": [
+      "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+    ],
+    "groomingDomainIds": []
+  },
+  "modules": [
+    {
+      "id": "H16-F",
+      "domainId": "H16",
+      "level": "Foundation",
+      "title": "Sexual Health, Urology & Prostate Health — Foundation",
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "topicIds": [
+        "H16-F-01",
+        "H16-F-02",
+        "H16-F-03",
+        "H16-F-04",
+        "H16-F-05",
+        "H16-F-06",
+        "H16-F-07",
+        "H16-F-08"
+      ],
+      "assessment": "Define the concepts, distinguish common misconceptions and identify what requires clinical evaluation.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H16-M",
+      "domainId": "H16",
+      "level": "Mastery",
+      "title": "Sexual Health, Urology & Prostate Health — Mastery",
+      "prerequisiteModuleIds": [
+        "H16-F"
+      ],
+      "topicIds": [
+        "H16-M-01",
+        "H16-M-02",
+        "H16-M-03",
+        "H16-M-04",
+        "H16-M-05",
+        "H16-M-06",
+        "H16-M-07",
+        "H16-M-08"
+      ],
+      "assessment": "Compare practical questions and options using applicable reviewed evidence; include uncertainty and accessibility.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H16-A",
+      "domainId": "H16",
+      "level": "Advanced",
+      "title": "Sexual Health, Urology & Prostate Health — Advanced",
+      "prerequisiteModuleIds": [
+        "H16-M"
+      ],
+      "topicIds": [
+        "H16-A-01",
+        "H16-A-02",
+        "H16-A-03",
+        "H16-A-04",
+        "H16-A-05",
+        "H16-A-06",
+        "H16-A-07",
+        "H16-A-08"
+      ],
+      "assessment": "Critique a claim dossier for study design, effect size, harms, applicability and clinical scope.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H16-R",
+      "domainId": "H16",
+      "level": "Frontier",
+      "title": "Sexual Health, Urology & Prostate Health — Frontier",
+      "prerequisiteModuleIds": [
+        "H16-A"
+      ],
+      "topicIds": [
+        "H16-R-01",
+        "H16-R-02",
+        "H16-R-03",
+        "H16-R-04",
+        "H16-R-05",
+        "H16-R-06",
+        "H16-R-07",
+        "H16-R-08"
+      ],
+      "assessment": "Map human versus preclinical evidence, regulatory status and unanswered safety questions; do not produce a self-treatment protocol.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    }
+  ],
+  "topics": [
+    {
+      "id": "H16-F-01",
+      "domainId": "H16",
+      "moduleId": "H16-F",
+      "level": "Foundation",
+      "title": "Sexual anatomy and response",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain sexual anatomy and response, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-F-02",
+      "domainId": "H16",
+      "moduleId": "H16-F",
+      "level": "Foundation",
+      "title": "Libido arousal and erection distinctions",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain libido arousal and erection distinctions, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-F-03",
+      "domainId": "H16",
+      "moduleId": "H16-F",
+      "level": "Foundation",
+      "title": "Urinary tract anatomy",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain urinary tract anatomy, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-F-04",
+      "domainId": "H16",
+      "moduleId": "H16-F",
+      "level": "Foundation",
+      "title": "Prostate function",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain prostate function, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-F-05",
+      "domainId": "H16",
+      "moduleId": "H16-F",
+      "level": "Foundation",
+      "title": "Consent communication and comfort",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain consent communication and comfort, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-F-06",
+      "domainId": "H16",
+      "moduleId": "H16-F",
+      "level": "Foundation",
+      "title": "STI prevention literacy",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain sti prevention literacy, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-F-07",
+      "domainId": "H16",
+      "moduleId": "H16-F",
+      "level": "Foundation",
+      "title": "Sexual function variability",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain sexual function variability, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-F-08",
+      "domainId": "H16",
+      "moduleId": "H16-F",
+      "level": "Foundation",
+      "title": "Acute genital or urinary symptom referral",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain acute genital or urinary symptom referral, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-M-01",
+      "domainId": "H16",
+      "moduleId": "H16-M",
+      "level": "Mastery",
+      "title": "Erectile dysfunction evaluation overview",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing erectile dysfunction evaluation overview, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-M-02",
+      "domainId": "H16",
+      "moduleId": "H16-M",
+      "level": "Mastery",
+      "title": "Cardiometabolic links and referral",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing cardiometabolic links and referral, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-M-03",
+      "domainId": "H16",
+      "moduleId": "H16-M",
+      "level": "Mastery",
+      "title": "Lower urinary tract symptoms",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing lower urinary tract symptoms, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-M-04",
+      "domainId": "H16",
+      "moduleId": "H16-M",
+      "level": "Mastery",
+      "title": "Prostatitis and pelvic pain literacy",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing prostatitis and pelvic pain literacy, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-M-05",
+      "domainId": "H16",
+      "moduleId": "H16-M",
+      "level": "Mastery",
+      "title": "Premature and delayed ejaculation literacy",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing premature and delayed ejaculation literacy, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-M-06",
+      "domainId": "H16",
+      "moduleId": "H16-M",
+      "level": "Mastery",
+      "title": "Medication and substance sexual effects",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing medication and substance sexual effects, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-M-07",
+      "domainId": "H16",
+      "moduleId": "H16-M",
+      "level": "Mastery",
+      "title": "Safer sex and partner communication",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing safer sex and partner communication, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-M-08",
+      "domainId": "H16",
+      "moduleId": "H16-M",
+      "level": "Mastery",
+      "title": "Pelvic-floor therapy overview",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing pelvic-floor therapy overview, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-A-01",
+      "domainId": "H16",
+      "moduleId": "H16-A",
+      "level": "Advanced",
+      "title": "ED medication mechanisms and interaction literacy",
+      "researchQuestions": [
+        "For ed medication mechanisms and interaction literacy, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-A-02",
+      "domainId": "H16",
+      "moduleId": "H16-A",
+      "level": "Advanced",
+      "title": "PSA screening shared decisions",
+      "researchQuestions": [
+        "For psa screening shared decisions, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-A-03",
+      "domainId": "H16",
+      "moduleId": "H16-A",
+      "level": "Advanced",
+      "title": "Benign prostatic enlargement treatment categories",
+      "researchQuestions": [
+        "For benign prostatic enlargement treatment categories, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-A-04",
+      "domainId": "H16",
+      "moduleId": "H16-A",
+      "level": "Advanced",
+      "title": "Peyronie's disease overview",
+      "researchQuestions": [
+        "For peyronie's disease overview, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-A-05",
+      "domainId": "H16",
+      "moduleId": "H16-A",
+      "level": "Advanced",
+      "title": "Sexual rehabilitation after treatment",
+      "researchQuestions": [
+        "For sexual rehabilitation after treatment, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-A-06",
+      "domainId": "H16",
+      "moduleId": "H16-A",
+      "level": "Advanced",
+      "title": "Sex therapy and relational factors",
+      "researchQuestions": [
+        "For sex therapy and relational factors, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-A-07",
+      "domainId": "H16",
+      "moduleId": "H16-A",
+      "level": "Advanced",
+      "title": "Urinary incontinence assessment pathways",
+      "researchQuestions": [
+        "For urinary incontinence assessment pathways, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-A-08",
+      "domainId": "H16",
+      "moduleId": "H16-A",
+      "level": "Advanced",
+      "title": "Commercial sexual enhancement adulteration risks",
+      "researchQuestions": [
+        "For commercial sexual enhancement adulteration risks, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-R-01",
+      "domainId": "H16",
+      "moduleId": "H16-R",
+      "level": "Frontier",
+      "title": "Shockwave ED treatment research",
+      "researchQuestions": [
+        "For shockwave ed treatment research, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-R-02",
+      "domainId": "H16",
+      "moduleId": "H16-R",
+      "level": "Frontier",
+      "title": "Regenerative sexual-health claims",
+      "researchQuestions": [
+        "For regenerative sexual-health claims, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-R-03",
+      "domainId": "H16",
+      "moduleId": "H16-R",
+      "level": "Frontier",
+      "title": "Novel prostate biomarkers",
+      "researchQuestions": [
+        "For novel prostate biomarkers, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-R-04",
+      "domainId": "H16",
+      "moduleId": "H16-R",
+      "level": "Frontier",
+      "title": "Telehealth sexual-care quality",
+      "researchQuestions": [
+        "For telehealth sexual-care quality, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-R-05",
+      "domainId": "H16",
+      "moduleId": "H16-R",
+      "level": "Frontier",
+      "title": "Wearable sexual metrics privacy",
+      "researchQuestions": [
+        "For wearable sexual metrics privacy, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-R-06",
+      "domainId": "H16",
+      "moduleId": "H16-R",
+      "level": "Frontier",
+      "title": "New ED drug and device trials",
+      "researchQuestions": [
+        "For new ed drug and device trials, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-R-07",
+      "domainId": "H16",
+      "moduleId": "H16-R",
+      "level": "Frontier",
+      "title": "AI prostate assessment validation",
+      "researchQuestions": [
+        "For ai prostate assessment validation, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H16-R-08",
+      "domainId": "H16",
+      "moduleId": "H16-R",
+      "level": "Frontier",
+      "title": "Patient-reported sexual outcome research",
+      "researchQuestions": [
+        "For patient-reported sexual outcome research, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H16-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    }
+  ]
+}

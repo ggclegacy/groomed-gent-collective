@@ -1,0 +1,1406 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "H14",
+    "order": 14,
+    "title": "Endocrinology & Hormone Systems",
+    "primaryLayer": "fundamentals",
+    "secondaryLayers": [
+      "clinical-literacy"
+    ],
+    "aliases": [
+      "hormones",
+      "endocrine",
+      "thyroid",
+      "cortisol",
+      "insulin",
+      "estrogen"
+    ],
+    "outcome": "Explain hormone feedback, measurement context and the limits of optimization claims.",
+    "moduleIds": [
+      "H14-F",
+      "H14-M",
+      "H14-A",
+      "H14-R"
+    ],
+    "sourceSeedIds": [
+      "health-seed-endocrine-guideline"
+    ],
+    "coverageGaps": [
+      "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+    ],
+    "groomingDomainIds": [
+      "D01",
+      "D02",
+      "D06"
+    ]
+  },
+  "modules": [
+    {
+      "id": "H14-F",
+      "domainId": "H14",
+      "level": "Foundation",
+      "title": "Endocrinology & Hormone Systems — Foundation",
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "topicIds": [
+        "H14-F-01",
+        "H14-F-02",
+        "H14-F-03",
+        "H14-F-04",
+        "H14-F-05",
+        "H14-F-06",
+        "H14-F-07",
+        "H14-F-08"
+      ],
+      "assessment": "Define the concepts, distinguish common misconceptions and identify what requires clinical evaluation.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H14-M",
+      "domainId": "H14",
+      "level": "Mastery",
+      "title": "Endocrinology & Hormone Systems — Mastery",
+      "prerequisiteModuleIds": [
+        "H14-F"
+      ],
+      "topicIds": [
+        "H14-M-01",
+        "H14-M-02",
+        "H14-M-03",
+        "H14-M-04",
+        "H14-M-05",
+        "H14-M-06",
+        "H14-M-07",
+        "H14-M-08"
+      ],
+      "assessment": "Compare practical questions and options using applicable reviewed evidence; include uncertainty and accessibility.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H14-A",
+      "domainId": "H14",
+      "level": "Advanced",
+      "title": "Endocrinology & Hormone Systems — Advanced",
+      "prerequisiteModuleIds": [
+        "H14-M"
+      ],
+      "topicIds": [
+        "H14-A-01",
+        "H14-A-02",
+        "H14-A-03",
+        "H14-A-04",
+        "H14-A-05",
+        "H14-A-06",
+        "H14-A-07",
+        "H14-A-08"
+      ],
+      "assessment": "Critique a claim dossier for study design, effect size, harms, applicability and clinical scope.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H14-R",
+      "domainId": "H14",
+      "level": "Frontier",
+      "title": "Endocrinology & Hormone Systems — Frontier",
+      "prerequisiteModuleIds": [
+        "H14-A"
+      ],
+      "topicIds": [
+        "H14-R-01",
+        "H14-R-02",
+        "H14-R-03",
+        "H14-R-04",
+        "H14-R-05",
+        "H14-R-06",
+        "H14-R-07",
+        "H14-R-08"
+      ],
+      "assessment": "Map human versus preclinical evidence, regulatory status and unanswered safety questions; do not produce a self-treatment protocol.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    }
+  ],
+  "topics": [
+    {
+      "id": "H14-F-01",
+      "domainId": "H14",
+      "moduleId": "H14-F",
+      "level": "Foundation",
+      "title": "Hypothalamus pituitary and target glands",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain hypothalamus pituitary and target glands, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-F-02",
+      "domainId": "H14",
+      "moduleId": "H14-F",
+      "level": "Foundation",
+      "title": "Negative feedback and pulsatility",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain negative feedback and pulsatility, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-F-03",
+      "domainId": "H14",
+      "moduleId": "H14-F",
+      "level": "Foundation",
+      "title": "Hormone receptors and signaling",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain hormone receptors and signaling, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-F-04",
+      "domainId": "H14",
+      "moduleId": "H14-F",
+      "level": "Foundation",
+      "title": "Bound versus free hormones",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain bound versus free hormones, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-F-05",
+      "domainId": "H14",
+      "moduleId": "H14-F",
+      "level": "Foundation",
+      "title": "Thyroid hormone physiology",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain thyroid hormone physiology, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-F-06",
+      "domainId": "H14",
+      "moduleId": "H14-F",
+      "level": "Foundation",
+      "title": "Cortisol and adrenal physiology",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain cortisol and adrenal physiology, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-F-07",
+      "domainId": "H14",
+      "moduleId": "H14-F",
+      "level": "Foundation",
+      "title": "Insulin glucagon and growth signals",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain insulin glucagon and growth signals, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-F-08",
+      "domainId": "H14",
+      "moduleId": "H14-F",
+      "level": "Foundation",
+      "title": "Sex steroids and individual variation",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain sex steroids and individual variation, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-M-01",
+      "domainId": "H14",
+      "moduleId": "H14-M",
+      "level": "Mastery",
+      "title": "Time-of-day and illness effects on tests",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing time-of-day and illness effects on tests, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-M-02",
+      "domainId": "H14",
+      "moduleId": "H14-M",
+      "level": "Mastery",
+      "title": "Thyroid disorder assessment literacy",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing thyroid disorder assessment literacy, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-M-03",
+      "domainId": "H14",
+      "moduleId": "H14-M",
+      "level": "Mastery",
+      "title": "Prolactin and pituitary evaluation literacy",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing prolactin and pituitary evaluation literacy, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-M-04",
+      "domainId": "H14",
+      "moduleId": "H14-M",
+      "level": "Mastery",
+      "title": "Cortisol testing indications",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing cortisol testing indications, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-M-05",
+      "domainId": "H14",
+      "moduleId": "H14-M",
+      "level": "Mastery",
+      "title": "Estradiol roles in male physiology",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing estradiol roles in male physiology, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-M-06",
+      "domainId": "H14",
+      "moduleId": "H14-M",
+      "level": "Mastery",
+      "title": "Growth hormone and IGF-1 context",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing growth hormone and igf-1 context, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-M-07",
+      "domainId": "H14",
+      "moduleId": "H14-M",
+      "level": "Mastery",
+      "title": "Medication and supplement assay interference",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing medication and supplement assay interference, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-M-08",
+      "domainId": "H14",
+      "moduleId": "H14-M",
+      "level": "Mastery",
+      "title": "Symptoms versus biochemical diagnoses",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing symptoms versus biochemical diagnoses, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-A-01",
+      "domainId": "H14",
+      "moduleId": "H14-A",
+      "level": "Advanced",
+      "title": "Primary versus secondary endocrine dysfunction",
+      "researchQuestions": [
+        "For primary versus secondary endocrine dysfunction, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-A-02",
+      "domainId": "H14",
+      "moduleId": "H14-A",
+      "level": "Advanced",
+      "title": "Dynamic endocrine testing overview",
+      "researchQuestions": [
+        "For dynamic endocrine testing overview, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-A-03",
+      "domainId": "H14",
+      "moduleId": "H14-A",
+      "level": "Advanced",
+      "title": "Assay method differences",
+      "researchQuestions": [
+        "For assay method differences, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-A-04",
+      "domainId": "H14",
+      "moduleId": "H14-A",
+      "level": "Advanced",
+      "title": "Endocrine effects of underfueling and overtraining",
+      "researchQuestions": [
+        "For endocrine effects of underfueling and overtraining, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-A-05",
+      "domainId": "H14",
+      "moduleId": "H14-A",
+      "level": "Advanced",
+      "title": "Hormones obesity and sleep interactions",
+      "researchQuestions": [
+        "For hormones obesity and sleep interactions, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-A-06",
+      "domainId": "H14",
+      "moduleId": "H14-A",
+      "level": "Advanced",
+      "title": "Exogenous hormone feedback suppression",
+      "researchQuestions": [
+        "For exogenous hormone feedback suppression, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-A-07",
+      "domainId": "H14",
+      "moduleId": "H14-A",
+      "level": "Advanced",
+      "title": "Endocrine disruptor evidence appraisal",
+      "researchQuestions": [
+        "For endocrine disruptor evidence appraisal, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-A-08",
+      "domainId": "H14",
+      "moduleId": "H14-A",
+      "level": "Advanced",
+      "title": "Adrenal fatigue claim evaluation",
+      "researchQuestions": [
+        "For adrenal fatigue claim evaluation, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-R-01",
+      "domainId": "H14",
+      "moduleId": "H14-R",
+      "level": "Frontier",
+      "title": "Continuous hormone sensor research",
+      "researchQuestions": [
+        "For continuous hormone sensor research, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-R-02",
+      "domainId": "H14",
+      "moduleId": "H14-R",
+      "level": "Frontier",
+      "title": "Endocrine multi-omics",
+      "researchQuestions": [
+        "For endocrine multi-omics, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-R-03",
+      "domainId": "H14",
+      "moduleId": "H14-R",
+      "level": "Frontier",
+      "title": "Tissue-specific hormone action",
+      "researchQuestions": [
+        "For tissue-specific hormone action, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-R-04",
+      "domainId": "H14",
+      "moduleId": "H14-R",
+      "level": "Frontier",
+      "title": "Novel hormone receptor therapies",
+      "researchQuestions": [
+        "For novel hormone receptor therapies, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-R-05",
+      "domainId": "H14",
+      "moduleId": "H14-R",
+      "level": "Frontier",
+      "title": "AI endocrine diagnostic models",
+      "researchQuestions": [
+        "For ai endocrine diagnostic models, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-R-06",
+      "domainId": "H14",
+      "moduleId": "H14-R",
+      "level": "Frontier",
+      "title": "Chronotherapy evidence",
+      "researchQuestions": [
+        "For chronotherapy evidence, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-R-07",
+      "domainId": "H14",
+      "moduleId": "H14-R",
+      "level": "Frontier",
+      "title": "Hormonal aging biomarkers",
+      "researchQuestions": [
+        "For hormonal aging biomarkers, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H14-R-08",
+      "domainId": "H14",
+      "moduleId": "H14-R",
+      "level": "Frontier",
+      "title": "Precision endocrinology validation",
+      "researchQuestions": [
+        "For precision endocrinology validation, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    }
+  ]
+}

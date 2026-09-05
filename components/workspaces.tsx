@@ -192,11 +192,12 @@ function PerformanceWorkspace() {
     </>
   );
 }
-function IntelligenceWorkspace() {
+function IntelligenceWorkspace({ initialQuestion }: { initialQuestion?: string }) {
   const saved = useLocalText(storageKeys.question);
   const brief = useLocalText(storageKeys.brief);
   const [edited, setQuestion] = useState<string | null>(null);
-  const question = edited ?? (brief || saved).slice(0, 10000);
+  const question = edited ?? (initialQuestion || brief || saved).slice(0, 10000);
+  const [pending, setPending] = useState(false);
   const [answer, setAnswer] = useState<IntelligenceAnswer | null>(null);
   const [message, setMessage] = useState('');
   return (
@@ -219,12 +220,13 @@ function IntelligenceWorkspace() {
             <span className="eyebrow">SOURCED KNOWLEDGE</span>
             <p>
               Search the Groomed Gent knowledge reviewed September 5, 2026.
-              Answers show website evidence, unresolved differences and unknowns.
-              Generative AI remains disconnected; product claims are not automatically approved.
+              Explore product evidence, grooming and health curricula, and consultation questions.
+              Responses are generated with OpenAI using this knowledge. Product claims still require approval.
             </p>
           </div>
           <p className="small-note">
-            For future wellness conversations: education, tracking and preparing
+            Your question is sent to OpenAI for a response. Avoid sharing private client information.
+            For wellness conversations: education and preparing
             questions for a qualified clinician. No diagnosis or treatment
             direction.
           </p>
@@ -232,7 +234,7 @@ function IntelligenceWorkspace() {
             <div className="connection-banner">
               <p>
                 A brief from Creator Studio is open. Your previously saved
-                question is preserved until you save this one.
+                question is preserved. New questions are sent to OpenAI to generate responses and are not saved to this device.
               </p>
               <button
                 className="outline-button"
@@ -256,7 +258,9 @@ function IntelligenceWorkspace() {
             {[
               'Help me introduce the brand at the chair.',
               'What should I verify before recommending a product?',
-              'Help me prepare a grooming routine for travel.',
+              'Show the Cassius grooming curriculum.',
+              'Show the Cassius health and wellness curriculum.',
+              'What should I use on my beard?',
             ].map((prompt) => (
               <button
                 key={prompt}
@@ -273,15 +277,11 @@ function IntelligenceWorkspace() {
           <form
             onSubmit={async (e) => {
               e.preventDefault();
-              if (!question.trim()) return;
+              if (!question.trim() || pending) return;
+              setPending(true);
+              setMessage("Cassius is considering your question…");
               setAnswer(null);
-              let storageNote = 'Question saved on this device.';
-              try {
-                saveLocal(storageKeys.question, question.trim());
-                saveLocal(storageKeys.brief, '');
-              } catch {
-                storageNote = 'Device storage is unavailable; your answer can still be read below.';
-              }
+              const storageNote = 'This submission was not saved to this device.';
               try {
                 const result = await cassiusGateway.askIntelligence(question);
                 if (result.state === 'ready') {
@@ -289,7 +289,9 @@ function IntelligenceWorkspace() {
                   setMessage(storageNote);
                 } else setMessage(result.message);
               } catch {
-                setMessage('Knowledge could not be loaded. Try again; no unsupported answer has been generated.');
+                setMessage('Cassius could not respond. Please try again.');
+              } finally {
+                setPending(false);
               }
             }}
           >
@@ -307,23 +309,23 @@ function IntelligenceWorkspace() {
             <button
               type="submit"
               className="gold-button"
-              disabled={!question.trim()}
+              disabled={!question.trim() || pending}
             >
-              Ask Cassius <ArrowRight size={16} />
+              {pending ? 'Considering…' : 'Ask Cassius'} <ArrowRight size={16} />
             </button>
             <output className="form-status">{message}</output>
           </form>
           {answer && (
             <section aria-label="Cassius sourced answer" aria-live="polite" className="pending-panel">
-              <h3>From the knowledge library</h3>
+              <h3>Cassius</h3>
               <p style={{ whiteSpace: 'pre-wrap', overflowWrap: 'anywhere' }}>{answer.text}</p>
-              <h4>Sources</h4>
+              <h4>{answer.citations.length ? 'Reference sources supplied to Cassius' : 'Evidence status'}</h4>
               <ul>
                 {answer.citations.filter((c, i, all) => all.findIndex(x => x.url === c.url) === i).map(c => (
                   <li key={c.url}>{c.url.startsWith('https://') ? <a href={c.url} target="_blank" rel="noreferrer">{c.title}</a> : c.title}</li>
                 ))}
               </ul>
-              <p className="small-note">Source observations are dated September 5, 2026. Website facts are not manufacturer certification or approved advertising claims.</p>
+              <p className="small-note">{answer.citations.length ? 'Source observations are dated September 5, 2026. Website facts are not manufacturer certification or approved advertising claims.' : 'Curriculum and consultation guidance are editorial. Scientific grooming and health sources are awaiting ingestion and review.'}</p>
             </section>
           )}
         </div>
@@ -445,12 +447,12 @@ function StatusWorkspace() {
 function FingerprintIcon() {
   return <span className="empty-dot" />;
 }
-export function Workspace({ view }: { view: Section }) {
+export function Workspace({ view, initialQuestion }: { view: Section; initialQuestion?: string }) {
   switch (view) {
     case 'performance':
       return <PerformanceWorkspace />;
     case 'intelligence':
-      return <IntelligenceWorkspace />;
+      return <IntelligenceWorkspace initialQuestion={initialQuestion} />;
     case 'knowledge':
       return <KnowledgeWorkspace />;
     case 'status':

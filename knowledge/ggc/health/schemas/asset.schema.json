@@ -1,0 +1,788 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ggc:health:asset",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "condition",
+        "hormone",
+        "supplement",
+        "intervention",
+        "biomarker",
+        "device",
+        "product-development"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "topicIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "workflowState": {
+      "enum": [
+        "PLANNED",
+        "ACQUIRED",
+        "EXTRACTED",
+        "APPRAISED",
+        "REVIEWED",
+        "RELEASED",
+        "STALE",
+        "RETRACTED"
+      ]
+    },
+    "claimIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "visibility": {
+      "enum": [
+        "PUBLIC",
+        "INTERNAL",
+        "CONFIDENTIAL"
+      ]
+    },
+    "details": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "id",
+    "kind",
+    "name",
+    "topicIds",
+    "workflowState",
+    "claimIds",
+    "unknowns",
+    "visibility",
+    "details"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "condition"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "definition": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "symptomLiteracy": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "assessmentPathway": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "careTeamRoles": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "redFlagSourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "screeningVersusDiagnosis": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "treatmentCategoryClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "patientImportantOutcomes": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "definition",
+              "symptomLiteracy",
+              "assessmentPathway",
+              "careTeamRoles",
+              "redFlagSourceIds",
+              "screeningVersusDiagnosis",
+              "treatmentCategoryClaimIds",
+              "patientImportantOutcomes",
+              "sourceIds"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "hormone"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "identity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "physiology": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "measurementContext": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "assayMethod": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "referenceIntervalLimits": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "feedbackMechanisms": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fertilityContext": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "clinicalAssessmentScope": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "therapyClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "identity",
+              "physiology",
+              "measurementContext",
+              "assayMethod",
+              "referenceIntervalLimits",
+              "feedbackMechanisms",
+              "fertilityContext",
+              "clinicalAssessmentScope",
+              "therapyClaimIds",
+              "sourceIds"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "supplement"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "ingredientIdentity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "speciesExtractOrChemicalForm": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "labelVersion": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "productId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "formulaVersion": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "qualitySpecifications": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "contaminantTesting": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "studiedExposureContext": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "interactionClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "efficacyClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "ingredientIdentity",
+              "speciesExtractOrChemicalForm",
+              "labelVersion",
+              "productId",
+              "formulaVersion",
+              "qualitySpecifications",
+              "contaminantTesting",
+              "studiedExposureContext",
+              "interactionClaimIds",
+              "efficacyClaimIds",
+              "sourceIds"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "intervention"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "identity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "indication": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "route": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "regulatoryStatus": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "jurisdiction": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "statusCheckedAt": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "humanEvidenceClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "preclinicalClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "contraindicationClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "harmsClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "monitoringScope": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "identity",
+              "indication",
+              "route",
+              "regulatoryStatus",
+              "jurisdiction",
+              "statusCheckedAt",
+              "humanEvidenceClaimIds",
+              "preclinicalClaimIds",
+              "contraindicationClaimIds",
+              "harmsClaimIds",
+              "monitoringScope",
+              "sourceIds"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "biomarker"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "analyte": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "specimen": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "unit": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "method": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "referencePopulation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "collectionTiming": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "referenceIntervalLimits": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "clinicalUtilityClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "falsePositiveLimits": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "analyte",
+              "specimen",
+              "unit",
+              "method",
+              "referencePopulation",
+              "collectionTiming",
+              "referenceIntervalLimits",
+              "clinicalUtilityClaimIds",
+              "falsePositiveLimits",
+              "sourceIds"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "device"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "technology": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "model": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "manufacturer": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "intendedUse": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "jurisdiction": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "regulatoryStatus": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "validationPopulation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "accuracyClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "algorithmVersion": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "privacyConstraints": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "technology",
+              "model",
+              "manufacturer",
+              "intendedUse",
+              "jurisdiction",
+              "regulatoryStatus",
+              "validationPopulation",
+              "accuracyClaimIds",
+              "algorithmVersion",
+              "privacyConstraints",
+              "sourceIds"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "product-development"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "consumerProblem": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "targetPopulation": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "intendedUse": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "productCategory": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "formulaVersion": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "targetClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "qualityPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "stabilityPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "safetyPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "clinicalStudyPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "regulatoryReviewPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "postMarketPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "productStudioRecordId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "consumerProblem",
+              "targetPopulation",
+              "intendedUse",
+              "productCategory",
+              "formulaVersion",
+              "targetClaimIds",
+              "qualityPlan",
+              "stabilityPlan",
+              "safetyPlan",
+              "clinicalStudyPlan",
+              "regulatoryReviewPlan",
+              "postMarketPlan",
+              "productStudioRecordId",
+              "sourceIds"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

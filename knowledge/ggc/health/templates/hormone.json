@@ -1,0 +1,24 @@
+{
+  "id": "health-template-hormone",
+  "kind": "hormone",
+  "name": "Unfilled hormone research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "No source ingestion or qualified appraisal completed. Not a recommendation or protocol."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "identity": null,
+    "physiology": null,
+    "measurementContext": null,
+    "assayMethod": null,
+    "referenceIntervalLimits": null,
+    "feedbackMechanisms": null,
+    "fertilityContext": null,
+    "clinicalAssessmentScope": null,
+    "therapyClaimIds": [],
+    "sourceIds": []
+  }
+}

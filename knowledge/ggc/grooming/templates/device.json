@@ -1,0 +1,26 @@
+{
+  "id": "template-device",
+  "kind": "device",
+  "name": "Unfilled device research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "Template only; all substantive information awaits source ingestion and qualified review."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "technology": null,
+    "manufacturer": null,
+    "model": null,
+    "jurisdiction": null,
+    "regulatoryStatus": null,
+    "specifications": [],
+    "mechanismClaimIds": [],
+    "useCaseClaimIds": [],
+    "contraindications": [],
+    "maintenance": null,
+    "validationLimits": [],
+    "sourceIds": []
+  }
+}

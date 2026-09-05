@@ -1,0 +1,1026 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D15",
+    "order": 15,
+    "title": "Traditional, Historical & Global Men's Grooming",
+    "primaryLayer": "culture-heritage",
+    "secondaryLayers": [],
+    "aliases": [
+      "grooming history",
+      "heritage",
+      "barbershop",
+      "global grooming",
+      "tradition"
+    ],
+    "outcome": "Explain grooming heritage with documented context and cultural respect.",
+    "moduleIds": [
+      "D15-F",
+      "D15-M",
+      "D15-A",
+      "D15-R"
+    ],
+    "sourceSeedIds": [],
+    "coverageGaps": [
+      "Locate community-led archives, primary historical documents and licensed oral histories; no historical source has been ingested."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D15-F",
+      "domainId": "D15",
+      "level": "Foundation",
+      "title": "Traditional, Historical & Global Men's Grooming — Foundation",
+      "prerequisiteModuleIds": [],
+      "topicIds": [
+        "D15-F-01",
+        "D15-F-02",
+        "D15-F-03",
+        "D15-F-04",
+        "D15-F-05",
+        "D15-F-06",
+        "D15-F-07",
+        "D15-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D15-M",
+      "domainId": "D15",
+      "level": "Mastery",
+      "title": "Traditional, Historical & Global Men's Grooming — Mastery",
+      "prerequisiteModuleIds": [
+        "D15-F"
+      ],
+      "topicIds": [
+        "D15-M-01",
+        "D15-M-02",
+        "D15-M-03",
+        "D15-M-04",
+        "D15-M-05",
+        "D15-M-06",
+        "D15-M-07",
+        "D15-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D15-A",
+      "domainId": "D15",
+      "level": "Advanced",
+      "title": "Traditional, Historical & Global Men's Grooming — Advanced",
+      "prerequisiteModuleIds": [
+        "D15-M"
+      ],
+      "topicIds": [
+        "D15-A-01",
+        "D15-A-02",
+        "D15-A-03",
+        "D15-A-04",
+        "D15-A-05",
+        "D15-A-06",
+        "D15-A-07",
+        "D15-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D15-R",
+      "domainId": "D15",
+      "level": "Frontier",
+      "title": "Traditional, Historical & Global Men's Grooming — Frontier",
+      "prerequisiteModuleIds": [
+        "D15-A"
+      ],
+      "topicIds": [
+        "D15-R-01",
+        "D15-R-02",
+        "D15-R-03",
+        "D15-R-04",
+        "D15-R-05",
+        "D15-R-06",
+        "D15-R-07",
+        "D15-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D15-F-01",
+      "domainId": "D15",
+      "moduleId": "D15-F",
+      "level": "Foundation",
+      "title": "Ancient Egyptian grooming evidence",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain ancient egyptian grooming evidence, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-F-02",
+      "domainId": "D15",
+      "moduleId": "D15-F",
+      "level": "Foundation",
+      "title": "Greek and Roman tonsorial culture",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain greek and roman tonsorial culture, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-F-03",
+      "domainId": "D15",
+      "moduleId": "D15-F",
+      "level": "Foundation",
+      "title": "Medieval barber-surgeon history",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain medieval barber-surgeon history, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-F-04",
+      "domainId": "D15",
+      "moduleId": "D15-F",
+      "level": "Foundation",
+      "title": "European barbershop institutions",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain european barbershop institutions, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-F-05",
+      "domainId": "D15",
+      "moduleId": "D15-F",
+      "level": "Foundation",
+      "title": "Victorian and Edwardian styles",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain victorian and edwardian styles, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-F-06",
+      "domainId": "D15",
+      "moduleId": "D15-F",
+      "level": "Foundation",
+      "title": "Classic American barbershops",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain classic american barbershops, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-F-07",
+      "domainId": "D15",
+      "moduleId": "D15-F",
+      "level": "Foundation",
+      "title": "Historical source criticism",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain historical source criticism, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-F-08",
+      "domainId": "D15",
+      "moduleId": "D15-F",
+      "level": "Foundation",
+      "title": "Tradition versus clinical evidence",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain tradition versus clinical evidence, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-M-01",
+      "domainId": "D15",
+      "moduleId": "D15-M",
+      "level": "Mastery",
+      "title": "Black barbering and community history",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about black barbering and community history, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-M-02",
+      "domainId": "D15",
+      "moduleId": "D15-M",
+      "level": "Mastery",
+      "title": "African hair traditions and diversity",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about african hair traditions and diversity, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-M-03",
+      "domainId": "D15",
+      "moduleId": "D15-M",
+      "level": "Mastery",
+      "title": "Caribbean barbering cultures",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about caribbean barbering cultures, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-M-04",
+      "domainId": "D15",
+      "moduleId": "D15-M",
+      "level": "Mastery",
+      "title": "Indian grooming and Ayurveda context",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about indian grooming and ayurveda context, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-M-05",
+      "domainId": "D15",
+      "moduleId": "D15-M",
+      "level": "Mastery",
+      "title": "Middle Eastern beard and fragrance traditions",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about middle eastern beard and fragrance traditions, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-M-06",
+      "domainId": "D15",
+      "moduleId": "D15-M",
+      "level": "Mastery",
+      "title": "Turkish barbering rituals",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about turkish barbering rituals, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-M-07",
+      "domainId": "D15",
+      "moduleId": "D15-M",
+      "level": "Mastery",
+      "title": "Japanese grooming traditions",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about japanese grooming traditions, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-M-08",
+      "domainId": "D15",
+      "moduleId": "D15-M",
+      "level": "Mastery",
+      "title": "Straight-razor craft lineages",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about straight-razor craft lineages, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-A-01",
+      "domainId": "D15",
+      "moduleId": "D15-A",
+      "level": "Advanced",
+      "title": "Colonialism race and grooming standards",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about colonialism race and grooming standards transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-A-02",
+      "domainId": "D15",
+      "moduleId": "D15-A",
+      "level": "Advanced",
+      "title": "Religious hair and beard practices",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about religious hair and beard practices transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-A-03",
+      "domainId": "D15",
+      "moduleId": "D15-A",
+      "level": "Advanced",
+      "title": "Migration and diaspora style exchange",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about migration and diaspora style exchange transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-A-04",
+      "domainId": "D15",
+      "moduleId": "D15-A",
+      "level": "Advanced",
+      "title": "Archival tool and recipe interpretation",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about archival tool and recipe interpretation transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-A-05",
+      "domainId": "D15",
+      "moduleId": "D15-A",
+      "level": "Advanced",
+      "title": "Oral histories and consent",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about oral histories and consent transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-A-06",
+      "domainId": "D15",
+      "moduleId": "D15-A",
+      "level": "Advanced",
+      "title": "Museum object provenance",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about museum object provenance transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-A-07",
+      "domainId": "D15",
+      "moduleId": "D15-A",
+      "level": "Advanced",
+      "title": "Historical hygiene versus current practice",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about historical hygiene versus current practice transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-A-08",
+      "domainId": "D15",
+      "moduleId": "D15-A",
+      "level": "Advanced",
+      "title": "Avoiding cultural essentialism in consultation",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about avoiding cultural essentialism in consultation transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-R-01",
+      "domainId": "D15",
+      "moduleId": "D15-R",
+      "level": "Frontier",
+      "title": "Digitizing barbering archives",
+      "researchQuestions": [
+        "For digitizing barbering archives, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-R-02",
+      "domainId": "D15",
+      "moduleId": "D15-R",
+      "level": "Frontier",
+      "title": "Community-led knowledge preservation",
+      "researchQuestions": [
+        "For community-led knowledge preservation, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-R-03",
+      "domainId": "D15",
+      "moduleId": "D15-R",
+      "level": "Frontier",
+      "title": "Reconstructing lost scents responsibly",
+      "researchQuestions": [
+        "For reconstructing lost scents responsibly, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-R-04",
+      "domainId": "D15",
+      "moduleId": "D15-R",
+      "level": "Frontier",
+      "title": "AI bias in historical imagery",
+      "researchQuestions": [
+        "For ai bias in historical imagery, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-R-05",
+      "domainId": "D15",
+      "moduleId": "D15-R",
+      "level": "Frontier",
+      "title": "Contemporary global barber networks",
+      "researchQuestions": [
+        "For contemporary global barber networks, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-R-06",
+      "domainId": "D15",
+      "moduleId": "D15-R",
+      "level": "Frontier",
+      "title": "Sustainable revival of craft practices",
+      "researchQuestions": [
+        "For sustainable revival of craft practices, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-R-07",
+      "domainId": "D15",
+      "moduleId": "D15-R",
+      "level": "Frontier",
+      "title": "Attribution and benefit-sharing models",
+      "researchQuestions": [
+        "For attribution and benefit-sharing models, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D15-R-08",
+      "domainId": "D15",
+      "moduleId": "D15-R",
+      "level": "Frontier",
+      "title": "Trend diffusion across social platforms",
+      "researchQuestions": [
+        "For trend diffusion across social platforms, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D15-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

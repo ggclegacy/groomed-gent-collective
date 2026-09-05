@@ -1,0 +1,1473 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "H17",
+    "order": 17,
+    "title": "Fertility, Reproductive Planning & Fatherhood",
+    "primaryLayer": "clinical-literacy",
+    "secondaryLayers": [],
+    "aliases": [
+      "fertility",
+      "sperm",
+      "reproductive health",
+      "fatherhood",
+      "vasectomy"
+    ],
+    "outcome": "Explain reproductive-health evidence and referral pathways without promising fertility outcomes.",
+    "moduleIds": [
+      "H17-F",
+      "H17-M",
+      "H17-A",
+      "H17-R"
+    ],
+    "sourceSeedIds": [
+      "health-seed-endocrine-guideline",
+      "health-seed-aua"
+    ],
+    "coverageGaps": [
+      "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+    ],
+    "groomingDomainIds": []
+  },
+  "modules": [
+    {
+      "id": "H17-F",
+      "domainId": "H17",
+      "level": "Foundation",
+      "title": "Fertility, Reproductive Planning & Fatherhood — Foundation",
+      "prerequisiteModuleIds": [
+        "H14-F",
+        "H16-F"
+      ],
+      "topicIds": [
+        "H17-F-01",
+        "H17-F-02",
+        "H17-F-03",
+        "H17-F-04",
+        "H17-F-05",
+        "H17-F-06",
+        "H17-F-07",
+        "H17-F-08"
+      ],
+      "assessment": "Define the concepts, distinguish common misconceptions and identify what requires clinical evaluation.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H17-M",
+      "domainId": "H17",
+      "level": "Mastery",
+      "title": "Fertility, Reproductive Planning & Fatherhood — Mastery",
+      "prerequisiteModuleIds": [
+        "H17-F"
+      ],
+      "topicIds": [
+        "H17-M-01",
+        "H17-M-02",
+        "H17-M-03",
+        "H17-M-04",
+        "H17-M-05",
+        "H17-M-06",
+        "H17-M-07",
+        "H17-M-08"
+      ],
+      "assessment": "Compare practical questions and options using applicable reviewed evidence; include uncertainty and accessibility.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H17-A",
+      "domainId": "H17",
+      "level": "Advanced",
+      "title": "Fertility, Reproductive Planning & Fatherhood — Advanced",
+      "prerequisiteModuleIds": [
+        "H17-M"
+      ],
+      "topicIds": [
+        "H17-A-01",
+        "H17-A-02",
+        "H17-A-03",
+        "H17-A-04",
+        "H17-A-05",
+        "H17-A-06",
+        "H17-A-07",
+        "H17-A-08"
+      ],
+      "assessment": "Critique a claim dossier for study design, effect size, harms, applicability and clinical scope.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H17-R",
+      "domainId": "H17",
+      "level": "Frontier",
+      "title": "Fertility, Reproductive Planning & Fatherhood — Frontier",
+      "prerequisiteModuleIds": [
+        "H17-A"
+      ],
+      "topicIds": [
+        "H17-R-01",
+        "H17-R-02",
+        "H17-R-03",
+        "H17-R-04",
+        "H17-R-05",
+        "H17-R-06",
+        "H17-R-07",
+        "H17-R-08"
+      ],
+      "assessment": "Map human versus preclinical evidence, regulatory status and unanswered safety questions; do not produce a self-treatment protocol.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    }
+  ],
+  "topics": [
+    {
+      "id": "H17-F-01",
+      "domainId": "H17",
+      "moduleId": "H17-F",
+      "level": "Foundation",
+      "title": "Spermatogenesis and reproductive anatomy",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain spermatogenesis and reproductive anatomy, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F",
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-F-02",
+      "domainId": "H17",
+      "moduleId": "H17-F",
+      "level": "Foundation",
+      "title": "Fertility versus testosterone level",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain fertility versus testosterone level, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F",
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-F-03",
+      "domainId": "H17",
+      "moduleId": "H17-F",
+      "level": "Foundation",
+      "title": "Conception timing literacy",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain conception timing literacy, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F",
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-F-04",
+      "domainId": "H17",
+      "moduleId": "H17-F",
+      "level": "Foundation",
+      "title": "Male-factor infertility overview",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain male-factor infertility overview, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F",
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-F-05",
+      "domainId": "H17",
+      "moduleId": "H17-F",
+      "level": "Foundation",
+      "title": "Reproductive goals and consent",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain reproductive goals and consent, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F",
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-F-06",
+      "domainId": "H17",
+      "moduleId": "H17-F",
+      "level": "Foundation",
+      "title": "Preconception health history",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain preconception health history, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F",
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-F-07",
+      "domainId": "H17",
+      "moduleId": "H17-F",
+      "level": "Foundation",
+      "title": "Paternal age concepts",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain paternal age concepts, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F",
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-F-08",
+      "domainId": "H17",
+      "moduleId": "H17-F",
+      "level": "Foundation",
+      "title": "Partner-centered care",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain partner-centered care, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H14-F",
+        "H16-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-M-01",
+      "domainId": "H17",
+      "moduleId": "H17-M",
+      "level": "Mastery",
+      "title": "Semen analysis variability and context",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing semen analysis variability and context, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-M-02",
+      "domainId": "H17",
+      "moduleId": "H17-M",
+      "level": "Mastery",
+      "title": "Heat illness and exposure research",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing heat illness and exposure research, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-M-03",
+      "domainId": "H17",
+      "moduleId": "H17-M",
+      "level": "Mastery",
+      "title": "Smoking alcohol and fertility evidence",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing smoking alcohol and fertility evidence, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-M-04",
+      "domainId": "H17",
+      "moduleId": "H17-M",
+      "level": "Mastery",
+      "title": "Medication and hormone effects on fertility",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing medication and hormone effects on fertility, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-M-05",
+      "domainId": "H17",
+      "moduleId": "H17-M",
+      "level": "Mastery",
+      "title": "Varicocele evaluation literacy",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing varicocele evaluation literacy, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-M-06",
+      "domainId": "H17",
+      "moduleId": "H17-M",
+      "level": "Mastery",
+      "title": "Genetic counseling pathways",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing genetic counseling pathways, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-M-07",
+      "domainId": "H17",
+      "moduleId": "H17-M",
+      "level": "Mastery",
+      "title": "Vasectomy and reversibility counseling literacy",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing vasectomy and reversibility counseling literacy, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-M-08",
+      "domainId": "H17",
+      "moduleId": "H17-M",
+      "level": "Mastery",
+      "title": "Infertility distress and support",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing infertility distress and support, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-F"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-A-01",
+      "domainId": "H17",
+      "moduleId": "H17-A",
+      "level": "Advanced",
+      "title": "Sperm DNA fragmentation evidence",
+      "researchQuestions": [
+        "For sperm dna fragmentation evidence, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-M"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-A-02",
+      "domainId": "H17",
+      "moduleId": "H17-A",
+      "level": "Advanced",
+      "title": "Assisted reproduction overview",
+      "researchQuestions": [
+        "For assisted reproduction overview, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-M"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-A-03",
+      "domainId": "H17",
+      "moduleId": "H17-A",
+      "level": "Advanced",
+      "title": "Fertility preservation before treatment",
+      "researchQuestions": [
+        "For fertility preservation before treatment, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-M"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-A-04",
+      "domainId": "H17",
+      "moduleId": "H17-A",
+      "level": "Advanced",
+      "title": "Azoospermia evaluation categories",
+      "researchQuestions": [
+        "For azoospermia evaluation categories, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-M"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-A-05",
+      "domainId": "H17",
+      "moduleId": "H17-A",
+      "level": "Advanced",
+      "title": "Endocrine fertility treatment literacy",
+      "researchQuestions": [
+        "For endocrine fertility treatment literacy, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-M"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-A-06",
+      "domainId": "H17",
+      "moduleId": "H17-A",
+      "level": "Advanced",
+      "title": "Antioxidant supplement trial quality",
+      "researchQuestions": [
+        "For antioxidant supplement trial quality, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-M"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-A-07",
+      "domainId": "H17",
+      "moduleId": "H17-A",
+      "level": "Advanced",
+      "title": "Occupational reproductive risk",
+      "researchQuestions": [
+        "For occupational reproductive risk, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-M"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-A-08",
+      "domainId": "H17",
+      "moduleId": "H17-A",
+      "level": "Advanced",
+      "title": "Pregnancy and live-birth versus semen endpoints",
+      "researchQuestions": [
+        "For pregnancy and live-birth versus semen endpoints, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-M"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-R-01",
+      "domainId": "H17",
+      "moduleId": "H17-R",
+      "level": "Frontier",
+      "title": "Home sperm test validation",
+      "researchQuestions": [
+        "For home sperm test validation, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-A"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-R-02",
+      "domainId": "H17",
+      "moduleId": "H17-R",
+      "level": "Frontier",
+      "title": "Male contraception research",
+      "researchQuestions": [
+        "For male contraception research, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-A"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-R-03",
+      "domainId": "H17",
+      "moduleId": "H17-R",
+      "level": "Frontier",
+      "title": "Spermatogonial stem-cell research",
+      "researchQuestions": [
+        "For spermatogonial stem-cell research, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-A"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-R-04",
+      "domainId": "H17",
+      "moduleId": "H17-R",
+      "level": "Frontier",
+      "title": "Reproductive aging biomarkers",
+      "researchQuestions": [
+        "For reproductive aging biomarkers, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-A"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-R-05",
+      "domainId": "H17",
+      "moduleId": "H17-R",
+      "level": "Frontier",
+      "title": "AI sperm analysis",
+      "researchQuestions": [
+        "For ai sperm analysis, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-A"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-R-06",
+      "domainId": "H17",
+      "moduleId": "H17-R",
+      "level": "Frontier",
+      "title": "Paternal epigenetic inheritance claims",
+      "researchQuestions": [
+        "For paternal epigenetic inheritance claims, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-A"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-R-07",
+      "domainId": "H17",
+      "moduleId": "H17-R",
+      "level": "Frontier",
+      "title": "Novel fertility-preservation methods",
+      "researchQuestions": [
+        "For novel fertility-preservation methods, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-A"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H17-R-08",
+      "domainId": "H17",
+      "moduleId": "H17-R",
+      "level": "Frontier",
+      "title": "Long-term offspring outcome studies",
+      "researchQuestions": [
+        "For long-term offspring outcome studies, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H17-A"
+      ],
+      "relatedDomainIds": [
+        "H14",
+        "H16"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # Architecture and integration
 
+## Current runtime extension
+
+The evidence architecture below remains the retrieval foundation. The Intelligence UI now calls `/api/cassius`, whose server-only OpenAI Responses adapter reuses this evidence and policy. See [the current runtime architecture](openai-runtime.md). The original local-only gateway description below documents the preceding checkpoint.
+
 ## Inspected baseline
 
 The existing Vinext/React app exposed CollectiveGateway.askIntelligence and getProducts in lib/collective.ts. Both were disconnected placeholders. No vector database, embeddings, AI provider, retrieval service, context assembler or existing approved catalog existed at inspection. The question workspace only saved a local question. Account/invitation/Studio storage and the new visual material system already existed and are preserved. A concurrent Product Studio implementation adds its own draft/concept and approval contracts. Those are not silently promoted.

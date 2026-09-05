@@ -1,0 +1,26 @@
+{
+  "id": "health-template-intervention",
+  "kind": "intervention",
+  "name": "Unfilled intervention research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "No source ingestion or qualified appraisal completed. Not a recommendation or protocol."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "identity": null,
+    "indication": null,
+    "route": null,
+    "regulatoryStatus": null,
+    "jurisdiction": null,
+    "statusCheckedAt": null,
+    "humanEvidenceClaimIds": [],
+    "preclinicalClaimIds": [],
+    "contraindicationClaimIds": [],
+    "harmsClaimIds": [],
+    "monitoringScope": null,
+    "sourceIds": []
+  }
+}

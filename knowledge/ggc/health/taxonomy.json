@@ -1,0 +1,1225 @@
+{
+  "version": "1.0.0",
+  "createdAt": "2026-09-05",
+  "origin": {
+    "conversationId": null,
+    "title": "Men’s Health, Wellness, Hormones & Biohacking extension",
+    "interpretation": "New 36-domain editorial mastery map responding to the request to extend the same curriculum and implementation approach beyond grooming.",
+    "scope": "Infrastructure and research assignments only; no scientific claim approval."
+  },
+  "levels": [
+    {
+      "id": "F",
+      "title": "Foundation",
+      "order": 1
+    },
+    {
+      "id": "M",
+      "title": "Mastery",
+      "order": 2
+    },
+    {
+      "id": "A",
+      "title": "Advanced",
+      "order": 3
+    },
+    {
+      "id": "R",
+      "title": "Frontier",
+      "order": 4
+    }
+  ],
+  "layers": [
+    {
+      "id": "fundamentals",
+      "title": "I — Human Biology & Evidence"
+    },
+    {
+      "id": "daily-practice",
+      "title": "II — Daily Health & Performance"
+    },
+    {
+      "id": "clinical-literacy",
+      "title": "III — Clinical Literacy & Care"
+    },
+    {
+      "id": "interventions",
+      "title": "IV — Nutrition, Products & Interventions"
+    },
+    {
+      "id": "measurement-frontier",
+      "title": "V — Measurement, Longevity & Frontier Research"
+    },
+    {
+      "id": "consultation-governance",
+      "title": "VI — Consultation, Quality & Governance"
+    }
+  ],
+  "domains": [
+    {
+      "id": "H01",
+      "order": 1,
+      "title": "Human Biology, Physiology & the Male Lifespan",
+      "primaryLayer": "fundamentals",
+      "secondaryLayers": [],
+      "aliases": [
+        "human physiology",
+        "male biology",
+        "anatomy",
+        "homeostasis"
+      ],
+      "outcome": "Explain interacting body systems and variation across men's lives without reducing health to testosterone.",
+      "moduleIds": [
+        "H01-F",
+        "H01-M",
+        "H01-A",
+        "H01-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-nia"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D01",
+        "D06"
+      ]
+    },
+    {
+      "id": "H02",
+      "order": 2,
+      "title": "Evidence, Statistics & Health Information Literacy",
+      "primaryLayer": "fundamentals",
+      "secondaryLayers": [],
+      "aliases": [
+        "health evidence",
+        "clinical evidence",
+        "study design",
+        "health misinformation"
+      ],
+      "outcome": "Judge a specific health claim by methods, applicability and meaningful outcomes.",
+      "moduleIds": [
+        "H02-F",
+        "H02-M",
+        "H02-A",
+        "H02-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D18"
+      ]
+    },
+    {
+      "id": "H03",
+      "order": 3,
+      "title": "Preventive Care, Primary Care & Screening",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "preventive care",
+        "screening",
+        "primary care",
+        "checkup",
+        "vaccines"
+      ],
+      "outcome": "Help men prepare for prevention discussions using age, risk, history and current jurisdiction-specific guidance.",
+      "moduleIds": [
+        "H03-F",
+        "H03-M",
+        "H03-A",
+        "H03-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nci"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D18"
+      ]
+    },
+    {
+      "id": "H04",
+      "order": 4,
+      "title": "Nutrition, Food Literacy & Dietary Patterns",
+      "primaryLayer": "daily-practice",
+      "secondaryLayers": [],
+      "aliases": [
+        "nutrition",
+        "diet",
+        "protein",
+        "fiber",
+        "food",
+        "nutrients"
+      ],
+      "outcome": "Build food literacy around adequacy, preferences, affordability and sustainable eating.",
+      "moduleIds": [
+        "H04-F",
+        "H04-M",
+        "H04-A",
+        "H04-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H05",
+      "order": 5,
+      "title": "Body Composition, Weight & Metabolic Health",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "body composition",
+        "weight management",
+        "obesity",
+        "body fat",
+        "metabolic health"
+      ],
+      "outcome": "Explain weight-related measurements and treatment categories without stigma or individualized prescribing.",
+      "moduleIds": [
+        "H05-F",
+        "H05-M",
+        "H05-A",
+        "H05-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H06",
+      "order": 6,
+      "title": "Glucose, Insulin & Diabetes Literacy",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "glucose",
+        "insulin",
+        "diabetes",
+        "hba1c",
+        "blood sugar",
+        "cgm"
+      ],
+      "outcome": "Explain glucose physiology and measurement limits while reserving diagnosis and treatment decisions for clinicians.",
+      "moduleIds": [
+        "H06-F",
+        "H06-M",
+        "H06-A",
+        "H06-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H07",
+      "order": 7,
+      "title": "Cardiovascular, Vascular & Blood Health",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "heart health",
+        "cardiovascular",
+        "blood pressure",
+        "cholesterol",
+        "lipids",
+        "vascular"
+      ],
+      "outcome": "Explain cardiovascular risk, common measurements and clinical care navigation.",
+      "moduleIds": [
+        "H07-F",
+        "H07-M",
+        "H07-A",
+        "H07-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nhlbi"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H08",
+      "order": 8,
+      "title": "Strength, Muscle & Resistance Training",
+      "primaryLayer": "daily-practice",
+      "secondaryLayers": [],
+      "aliases": [
+        "strength training",
+        "resistance training",
+        "muscle",
+        "hypertrophy",
+        "lifting"
+      ],
+      "outcome": "Explain progressive training principles with adaptation, recovery and individual constraints.",
+      "moduleIds": [
+        "H08-F",
+        "H08-M",
+        "H08-A",
+        "H08-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-ods-performance",
+        "health-seed-activity"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D14"
+      ]
+    },
+    {
+      "id": "H09",
+      "order": 9,
+      "title": "Aerobic Fitness, Endurance & Conditioning",
+      "primaryLayer": "daily-practice",
+      "secondaryLayers": [],
+      "aliases": [
+        "cardio",
+        "aerobic",
+        "vo2 max",
+        "endurance",
+        "zone 2",
+        "conditioning"
+      ],
+      "outcome": "Explain conditioning principles and measurement limits across beginner and athletic goals.",
+      "moduleIds": [
+        "H09-F",
+        "H09-M",
+        "H09-A",
+        "H09-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-ods-performance",
+        "health-seed-activity"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H10",
+      "order": 10,
+      "title": "Mobility, Musculoskeletal Health & Injury Literacy",
+      "primaryLayer": "daily-practice",
+      "secondaryLayers": [],
+      "aliases": [
+        "mobility",
+        "joint health",
+        "injury",
+        "tendon",
+        "bone",
+        "back pain"
+      ],
+      "outcome": "Support movement literacy and rehabilitation conversations without diagnosing injuries.",
+      "moduleIds": [
+        "H10-F",
+        "H10-M",
+        "H10-A",
+        "H10-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H11",
+      "order": 11,
+      "title": "Sleep, Circadian Rhythm & Fatigue",
+      "primaryLayer": "daily-practice",
+      "secondaryLayers": [],
+      "aliases": [
+        "sleep",
+        "circadian",
+        "insomnia",
+        "fatigue",
+        "sleep apnea"
+      ],
+      "outcome": "Explain sleep fundamentals and persistent-fatigue assessment without substituting a supplement for diagnosis.",
+      "moduleIds": [
+        "H11-F",
+        "H11-M",
+        "H11-A",
+        "H11-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D19"
+      ]
+    },
+    {
+      "id": "H12",
+      "order": 12,
+      "title": "Stress, Mental Health & Emotional Wellbeing",
+      "primaryLayer": "daily-practice",
+      "secondaryLayers": [],
+      "aliases": [
+        "mental health",
+        "stress",
+        "anxiety",
+        "depression",
+        "burnout",
+        "emotional health"
+      ],
+      "outcome": "Provide respectful health literacy and care navigation without stigma or psychotherapy claims.",
+      "moduleIds": [
+        "H12-F",
+        "H12-M",
+        "H12-A",
+        "H12-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nimh"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H13",
+      "order": 13,
+      "title": "Cognition, Neurological Health & Brain Performance",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "cognition",
+        "brain health",
+        "memory",
+        "focus",
+        "nootropics",
+        "neurology"
+      ],
+      "outcome": "Separate cognitive performance claims from neurological assessment and clinically meaningful outcomes.",
+      "moduleIds": [
+        "H13-F",
+        "H13-M",
+        "H13-A",
+        "H13-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nimh",
+        "health-seed-nia"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H14",
+      "order": 14,
+      "title": "Endocrinology & Hormone Systems",
+      "primaryLayer": "fundamentals",
+      "secondaryLayers": [
+        "clinical-literacy"
+      ],
+      "aliases": [
+        "hormones",
+        "endocrine",
+        "thyroid",
+        "cortisol",
+        "insulin",
+        "estrogen"
+      ],
+      "outcome": "Explain hormone feedback, measurement context and the limits of optimization claims.",
+      "moduleIds": [
+        "H14-F",
+        "H14-M",
+        "H14-A",
+        "H14-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D01",
+        "D02",
+        "D06"
+      ]
+    },
+    {
+      "id": "H15",
+      "order": 15,
+      "title": "Testosterone, Hypogonadism & Men's Hormone Care",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "testosterone",
+        "low t",
+        "trt",
+        "hypogonadism",
+        "androgens"
+      ],
+      "outcome": "Explain testosterone-care evidence and clinician-led evaluation without diagnosing deficiency or designing cycles.",
+      "moduleIds": [
+        "H15-F",
+        "H15-M",
+        "H15-A",
+        "H15-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-endocrine-update",
+        "health-seed-aua"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D02",
+        "D13"
+      ]
+    },
+    {
+      "id": "H16",
+      "order": 16,
+      "title": "Sexual Health, Urology & Prostate Health",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "sexual health",
+        "erectile dysfunction",
+        "libido",
+        "prostate",
+        "urology",
+        "pelvic health"
+      ],
+      "outcome": "Support private, nonjudgmental literacy and care navigation for sexual and urinary concerns.",
+      "moduleIds": [
+        "H16-F",
+        "H16-M",
+        "H16-A",
+        "H16-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-aua"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H17",
+      "order": 17,
+      "title": "Fertility, Reproductive Planning & Fatherhood",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "fertility",
+        "sperm",
+        "reproductive health",
+        "fatherhood",
+        "vasectomy"
+      ],
+      "outcome": "Explain reproductive-health evidence and referral pathways without promising fertility outcomes.",
+      "moduleIds": [
+        "H17-F",
+        "H17-M",
+        "H17-A",
+        "H17-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-aua"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H18",
+      "order": 18,
+      "title": "Digestive, Gut Microbiome & Liver Health",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "gut health",
+        "microbiome",
+        "digestion",
+        "liver",
+        "ibs",
+        "probiotics"
+      ],
+      "outcome": "Explain digestive-health and microbiome claims with symptom, strain and disease-specific limits.",
+      "moduleIds": [
+        "H18-F",
+        "H18-M",
+        "H18-A",
+        "H18-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D12"
+      ]
+    },
+    {
+      "id": "H19",
+      "order": 19,
+      "title": "Kidney Health, Hydration & Electrolytes",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "kidney",
+        "hydration",
+        "electrolytes",
+        "sodium",
+        "potassium",
+        "dehydration"
+      ],
+      "outcome": "Explain fluid and electrolyte physiology without universal targets or unsafe personalized replacement plans.",
+      "moduleIds": [
+        "H19-F",
+        "H19-M",
+        "H19-A",
+        "H19-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H20",
+      "order": 20,
+      "title": "Immune, Inflammatory & Infectious Health",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "immune health",
+        "inflammation",
+        "infection",
+        "vaccination",
+        "allergy",
+        "autoimmune"
+      ],
+      "outcome": "Distinguish immune function, infection prevention and unsupported immune-boosting claims.",
+      "moduleIds": [
+        "H20-F",
+        "H20-M",
+        "H20-A",
+        "H20-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H21",
+      "order": 21,
+      "title": "Supplements, Botanicals & Nutraceuticals",
+      "primaryLayer": "interventions",
+      "secondaryLayers": [],
+      "aliases": [
+        "supplements",
+        "nutraceuticals",
+        "botanicals",
+        "creatine",
+        "ashwagandha",
+        "magnesium"
+      ],
+      "outcome": "Evaluate identity-specific supplement claims, quality and exposure without assuming natural means safe.",
+      "moduleIds": [
+        "H21-F",
+        "H21-M",
+        "H21-A",
+        "H21-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-ods",
+        "health-seed-ods-performance"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D12",
+        "D18"
+      ]
+    },
+    {
+      "id": "H22",
+      "order": 22,
+      "title": "Medication Literacy, Interactions & Treatment Safety",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "medications",
+        "drug interactions",
+        "pharmacology",
+        "drug safety",
+        "prescriptions"
+      ],
+      "outcome": "Help organize treatment questions while reserving prescribing and interaction clearance for clinicians and pharmacists.",
+      "moduleIds": [
+        "H22-F",
+        "H22-M",
+        "H22-A",
+        "H22-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-guideline",
+        "health-seed-ods",
+        "health-seed-fda-compounding"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D18"
+      ]
+    },
+    {
+      "id": "H23",
+      "order": 23,
+      "title": "Laboratories, Biomarkers & Diagnostic Literacy",
+      "primaryLayer": "measurement-frontier",
+      "secondaryLayers": [
+        "clinical-literacy"
+      ],
+      "aliases": [
+        "labs",
+        "lab results",
+        "biomarkers",
+        "blood tests",
+        "diagnostics",
+        "reference range"
+      ],
+      "outcome": "Explain measurement context without diagnosing from isolated values or inventing optimal ranges.",
+      "moduleIds": [
+        "H23-F",
+        "H23-M",
+        "H23-A",
+        "H23-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-endocrine-guideline"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D18"
+      ]
+    },
+    {
+      "id": "H24",
+      "order": 24,
+      "title": "Wearables, Self-Tracking & Personal Experiments",
+      "primaryLayer": "measurement-frontier",
+      "secondaryLayers": [],
+      "aliases": [
+        "wearables",
+        "self tracking",
+        "hrv",
+        "quantified self",
+        "n of 1"
+      ],
+      "outcome": "Evaluate devices and personal observations without confusing correlation or precision with clinical validity.",
+      "moduleIds": [
+        "H24-F",
+        "H24-M",
+        "H24-A",
+        "H24-R"
+      ],
+      "sourceSeedIds": [],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested.",
+        "No source seed discovered for this domain; identify specialty guidelines and primary research."
+      ],
+      "groomingDomainIds": [
+        "D16"
+      ]
+    },
+    {
+      "id": "H25",
+      "order": 25,
+      "title": "Recovery, Heat, Cold & Breath Practices",
+      "primaryLayer": "interventions",
+      "secondaryLayers": [],
+      "aliases": [
+        "recovery",
+        "sauna",
+        "cold plunge",
+        "breathwork",
+        "heat therapy",
+        "cold exposure"
+      ],
+      "outcome": "Compare recovery practices by goal, evidence, exposure and contraindication awareness.",
+      "moduleIds": [
+        "H25-F",
+        "H25-M",
+        "H25-A",
+        "H25-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-ods-performance",
+        "health-seed-activity"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D16"
+      ]
+    },
+    {
+      "id": "H26",
+      "order": 26,
+      "title": "Longevity, Aging & Geroscience",
+      "primaryLayer": "measurement-frontier",
+      "secondaryLayers": [],
+      "aliases": [
+        "longevity",
+        "anti aging",
+        "healthspan",
+        "geroscience",
+        "aging"
+      ],
+      "outcome": "Separate healthy-aging practice from mechanistic longevity hypotheses and unproven lifespan claims.",
+      "moduleIds": [
+        "H26-F",
+        "H26-M",
+        "H26-A",
+        "H26-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D13"
+      ]
+    },
+    {
+      "id": "H27",
+      "order": 27,
+      "title": "Peptides, Biologics & Regenerative Medicine",
+      "primaryLayer": "measurement-frontier",
+      "secondaryLayers": [
+        "clinical-literacy"
+      ],
+      "aliases": [
+        "peptides",
+        "bpc 157",
+        "tb 500",
+        "exosomes",
+        "regenerative medicine",
+        "stem cells"
+      ],
+      "outcome": "Appraise specific investigational interventions with route, identity, regulatory and human-evidence boundaries.",
+      "moduleIds": [
+        "H27-F",
+        "H27-M",
+        "H27-A",
+        "H27-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D13"
+      ]
+    },
+    {
+      "id": "H28",
+      "order": 28,
+      "title": "Biohacking, Enhancement & Experimental Interventions",
+      "primaryLayer": "measurement-frontier",
+      "secondaryLayers": [
+        "clinical-literacy"
+      ],
+      "aliases": [
+        "biohacking",
+        "enhancement",
+        "experimental health",
+        "optimization",
+        "hormesis"
+      ],
+      "outcome": "Map emerging practices rigorously without offering risky self-experiment protocols or sourcing.",
+      "moduleIds": [
+        "H28-F",
+        "H28-M",
+        "H28-A",
+        "H28-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D13",
+        "D16"
+      ]
+    },
+    {
+      "id": "H29",
+      "order": 29,
+      "title": "Environmental, Occupational & Exposure Health",
+      "primaryLayer": "daily-practice",
+      "secondaryLayers": [],
+      "aliases": [
+        "environmental health",
+        "occupational health",
+        "exposure",
+        "endocrine disruptors",
+        "air quality"
+      ],
+      "outcome": "Explain exposure pathways and practical care navigation without exaggerated detox claims.",
+      "moduleIds": [
+        "H29-F",
+        "H29-M",
+        "H29-A",
+        "H29-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D06",
+        "D14"
+      ]
+    },
+    {
+      "id": "H30",
+      "order": 30,
+      "title": "Substances, Addiction & Harm Reduction",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "substance use",
+        "addiction",
+        "alcohol",
+        "nicotine",
+        "cannabis",
+        "harm reduction"
+      ],
+      "outcome": "Support nonjudgmental literacy and professional help-seeking without unsafe withdrawal or drug-use instructions.",
+      "moduleIds": [
+        "H30-F",
+        "H30-M",
+        "H30-A",
+        "H30-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nimh"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H31",
+      "order": 31,
+      "title": "Life Stages, Relationships, Identity & Health Access",
+      "primaryLayer": "daily-practice",
+      "secondaryLayers": [],
+      "aliases": [
+        "life stages",
+        "men aging",
+        "relationships",
+        "health access",
+        "mens wellbeing"
+      ],
+      "outcome": "Make health education useful across ages, identities, disability, culture and real-world constraints.",
+      "moduleIds": [
+        "H31-F",
+        "H31-M",
+        "H31-A",
+        "H31-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nimh",
+        "health-seed-nia",
+        "health-seed-activity"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D15",
+        "D19"
+      ]
+    },
+    {
+      "id": "H32",
+      "order": 32,
+      "title": "Cassius Health Consultation & Care Navigation",
+      "primaryLayer": "consultation-governance",
+      "secondaryLayers": [
+        "clinical-literacy"
+      ],
+      "aliases": [
+        "health consultation",
+        "wellness consultation",
+        "health plan",
+        "wellness plan",
+        "care navigation"
+      ],
+      "outcome": "Ask useful questions, explain uncertainty and prepare clinical conversations while preserving privacy and autonomy.",
+      "moduleIds": [
+        "H32-F",
+        "H32-M",
+        "H32-A",
+        "H32-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D19"
+      ]
+    },
+    {
+      "id": "H33",
+      "order": 33,
+      "title": "Respiratory, Lung & Breathing Health",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "lung health",
+        "respiratory",
+        "asthma",
+        "breathing",
+        "copd"
+      ],
+      "outcome": "Explain lung-health literacy and care pathways without interpreting symptoms as fitness limitations alone.",
+      "moduleIds": [
+        "H33-F",
+        "H33-M",
+        "H33-A",
+        "H33-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H34",
+      "order": 34,
+      "title": "Cancer Literacy, Risk & Survivorship",
+      "primaryLayer": "clinical-literacy",
+      "secondaryLayers": [],
+      "aliases": [
+        "cancer",
+        "oncology",
+        "survivorship",
+        "cancer screening",
+        "prostate cancer"
+      ],
+      "outcome": "Explain risk and care-navigation concepts without screening promises, diagnosis or treatment substitution.",
+      "moduleIds": [
+        "H34-F",
+        "H34-M",
+        "H34-A",
+        "H34-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nci"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": []
+    },
+    {
+      "id": "H35",
+      "order": 35,
+      "title": "Oral, Dental, Vision & Hearing Health",
+      "primaryLayer": "daily-practice",
+      "secondaryLayers": [],
+      "aliases": [
+        "oral health",
+        "dental",
+        "vision",
+        "hearing",
+        "eye health",
+        "sensory health"
+      ],
+      "outcome": "Include neglected oral and sensory health in whole-person prevention and function.",
+      "moduleIds": [
+        "H35-F",
+        "H35-M",
+        "H35-A",
+        "H35-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nia"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D09",
+        "D14"
+      ]
+    },
+    {
+      "id": "H36",
+      "order": 36,
+      "title": "Health Product Development, Quality, Regulation & Claims",
+      "primaryLayer": "consultation-governance",
+      "secondaryLayers": [
+        "clinical-literacy"
+      ],
+      "aliases": [
+        "health product development",
+        "supplement quality",
+        "health claims",
+        "regulation",
+        "gmp"
+      ],
+      "outcome": "Translate health-product ideas into governed research briefs without implying medical or advertising approval.",
+      "moduleIds": [
+        "H36-F",
+        "H36-M",
+        "H36-A",
+        "H36-R"
+      ],
+      "sourceSeedIds": [
+        "health-seed-endocrine-update",
+        "health-seed-ods",
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "coverageGaps": [
+        "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+      ],
+      "groomingDomainIds": [
+        "D17",
+        "D18"
+      ]
+    }
+  ],
+  "crossCuttingFacets": {
+    "lifeStage": [
+      "adolescent-context",
+      "adult",
+      "midlife",
+      "older-adult",
+      "unknown"
+    ],
+    "populationContext": [
+      "general",
+      "athlete",
+      "chronic-condition",
+      "disability",
+      "fertility-goals",
+      "anatomy-specific",
+      "unknown"
+    ],
+    "outcomeType": [
+      "patient-important",
+      "clinical-event",
+      "function",
+      "quality-of-life",
+      "surrogate",
+      "mechanistic"
+    ],
+    "useSetting": [
+      "education",
+      "clinical-literacy",
+      "clinician-supervised",
+      "research-only"
+    ],
+    "knowledgeKind": [
+      "physiology",
+      "condition",
+      "hormone",
+      "supplement",
+      "medication",
+      "intervention",
+      "biomarker",
+      "device",
+      "claim",
+      "consultation"
+    ],
+    "jurisdictionPolicy": "Exact market, indication, product, route, rule version and effective date required; advisory votes are not approval."
+  },
+  "counts": {
+    "domains": 36,
+    "modules": 144,
+    "topics": 1152,
+    "releasedClaims": 0
+  }
+}

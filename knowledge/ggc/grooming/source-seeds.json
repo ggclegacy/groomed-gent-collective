@@ -1,0 +1,164 @@
+[
+  {
+    "id": "seed-milady",
+    "title": "Milady Standard Barbering curriculum",
+    "url": "https://www.milady.com/catalog/milady-standard-barbering-6th-edition",
+    "kind": "professional-education",
+    "domainIds": [
+      "D01",
+      "D03",
+      "D04",
+      "D05",
+      "D09",
+      "D16"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Discovery pointer only. Retrieve the exact document/edition, inspect applicability and rights, and extract claim-level evidence before use."
+  },
+  {
+    "id": "seed-scc",
+    "title": "SCC Beginning Cosmetic Chemistry",
+    "url": "https://www.scconline.org/Education/Certificate-Program/2024-Skin-Care-Required/Beginning-Cosmetic-Chemistry",
+    "kind": "professional-education",
+    "domainIds": [
+      "D06",
+      "D07",
+      "D08",
+      "D09",
+      "D10",
+      "D12",
+      "D17"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Discovery pointer only. Retrieve the exact document/edition, inspect applicability and rights, and extract claim-level evidence before use."
+  },
+  {
+    "id": "seed-aad-hair",
+    "title": "AAD Hair Loss Resource Center",
+    "url": "https://www.aad.org/public/diseases/hair-loss",
+    "kind": "clinical-guidance",
+    "domainIds": [
+      "D01",
+      "D02",
+      "D13"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Discovery pointer only. Retrieve the exact document/edition, inspect applicability and rights, and extract claim-level evidence before use."
+  },
+  {
+    "id": "seed-aad-shave",
+    "title": "AAD razor bump prevention",
+    "url": "https://www.aad.org/news/how-to-prevent-razor-bumps",
+    "kind": "clinical-guidance",
+    "domainIds": [
+      "D04",
+      "D05",
+      "D06",
+      "D14"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Discovery pointer only. Retrieve the exact document/edition, inspect applicability and rights, and extract claim-level evidence before use."
+  },
+  {
+    "id": "seed-cir",
+    "title": "Cosmetic Ingredient Review",
+    "url": "https://www.cir-safety.org/",
+    "kind": "ingredient-assessment",
+    "domainIds": [
+      "D07",
+      "D08",
+      "D10",
+      "D12"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Discovery pointer only. Retrieve the exact document/edition, inspect applicability and rights, and extract claim-level evidence before use."
+  },
+  {
+    "id": "seed-ifra",
+    "title": "IFRA Standards Library",
+    "url": "https://ifrafragrance.org/standards-library",
+    "kind": "industry-standard",
+    "domainIds": [
+      "D11",
+      "D12",
+      "D17",
+      "D18"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Discovery pointer only. Retrieve the exact document/edition, inspect applicability and rights, and extract claim-level evidence before use."
+  },
+  {
+    "id": "seed-fda-mocra",
+    "title": "FDA MoCRA overview",
+    "url": "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra",
+    "kind": "regulator",
+    "domainIds": [
+      "D17",
+      "D18"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Discovery pointer only. Retrieve the exact document/edition, inspect applicability and rights, and extract claim-level evidence before use."
+  },
+  {
+    "id": "seed-fda-claims",
+    "title": "FDA Cosmetics Labeling Claims",
+    "url": "https://www.fda.gov/cosmetics/cosmetics-labeling/cosmetics-labeling-claims",
+    "kind": "regulator",
+    "domainIds": [
+      "D09",
+      "D13",
+      "D18",
+      "D19"
+    ],
+    "discoveredAt": "2026-09-05",
+    "discoveryMethod": "web-search",
+    "state": "DISCOVERED",
+    "fullTextReviewed": false,
+    "claimSupport": false,
+    "snapshot": null,
+    "sha256": null,
+    "note": "Discovery pointer only. Retrieve the exact document/edition, inspect applicability and rights, and extract claim-level evidence before use."
+  }
+]

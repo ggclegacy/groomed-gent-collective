@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ggc:health:consultation-plan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "state",
+    "domainIds",
+    "missingFields",
+    "questions",
+    "reason",
+    "recommendation",
+    "diagnosis",
+    "persistence"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "enum": [
+        "clarify",
+        "research-needed",
+        "clinical-handoff",
+        "urgent-handoff"
+      ]
+    },
+    "domainIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "missingFields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "maxItems": 3
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recommendation": {
+      "type": "null"
+    },
+    "diagnosis": {
+      "type": "null"
+    },
+    "persistence": {
+      "const": "none"
+    }
+  }
+}

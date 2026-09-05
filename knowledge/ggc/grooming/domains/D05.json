@@ -1,0 +1,1250 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D05",
+    "order": 5,
+    "title": "Shaving Science & Traditional Wet Shaving",
+    "primaryLayer": "practice",
+    "secondaryLayers": [
+      "clinical-evidence"
+    ],
+    "aliases": [
+      "shaving",
+      "wet shaving",
+      "razor",
+      "lather",
+      "razor bumps"
+    ],
+    "outcome": "Match shave systems and rituals to texture, irritation history and practical constraints.",
+    "moduleIds": [
+      "D05-F",
+      "D05-M",
+      "D05-A",
+      "D05-R"
+    ],
+    "sourceSeedIds": [
+      "seed-milady",
+      "seed-aad-shave"
+    ],
+    "coverageGaps": [
+      "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D05-F",
+      "domainId": "D05",
+      "level": "Foundation",
+      "title": "Shaving Science & Traditional Wet Shaving — Foundation",
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "topicIds": [
+        "D05-F-01",
+        "D05-F-02",
+        "D05-F-03",
+        "D05-F-04",
+        "D05-F-05",
+        "D05-F-06",
+        "D05-F-07",
+        "D05-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D05-M",
+      "domainId": "D05",
+      "level": "Mastery",
+      "title": "Shaving Science & Traditional Wet Shaving — Mastery",
+      "prerequisiteModuleIds": [
+        "D05-F"
+      ],
+      "topicIds": [
+        "D05-M-01",
+        "D05-M-02",
+        "D05-M-03",
+        "D05-M-04",
+        "D05-M-05",
+        "D05-M-06",
+        "D05-M-07",
+        "D05-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D05-A",
+      "domainId": "D05",
+      "level": "Advanced",
+      "title": "Shaving Science & Traditional Wet Shaving — Advanced",
+      "prerequisiteModuleIds": [
+        "D05-M"
+      ],
+      "topicIds": [
+        "D05-A-01",
+        "D05-A-02",
+        "D05-A-03",
+        "D05-A-04",
+        "D05-A-05",
+        "D05-A-06",
+        "D05-A-07",
+        "D05-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D05-R",
+      "domainId": "D05",
+      "level": "Frontier",
+      "title": "Shaving Science & Traditional Wet Shaving — Frontier",
+      "prerequisiteModuleIds": [
+        "D05-A"
+      ],
+      "topicIds": [
+        "D05-R-01",
+        "D05-R-02",
+        "D05-R-03",
+        "D05-R-04",
+        "D05-R-05",
+        "D05-R-06",
+        "D05-R-07",
+        "D05-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D05-F-01",
+      "domainId": "D05",
+      "moduleId": "D05-F",
+      "level": "Foundation",
+      "title": "Grain mapping",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain grain mapping, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-F-02",
+      "domainId": "D05",
+      "moduleId": "D05-F",
+      "level": "Foundation",
+      "title": "Safety cartridge straight and electric systems",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain safety cartridge straight and electric systems, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-F-03",
+      "domainId": "D05",
+      "moduleId": "D05-F",
+      "level": "Foundation",
+      "title": "Blade geometry and exposure",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain blade geometry and exposure, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-F-04",
+      "domainId": "D05",
+      "moduleId": "D05-F",
+      "level": "Foundation",
+      "title": "Brush fiber types",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain brush fiber types, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-F-05",
+      "domainId": "D05",
+      "moduleId": "D05-F",
+      "level": "Foundation",
+      "title": "Shaving soap versus cream",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain shaving soap versus cream, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-F-06",
+      "domainId": "D05",
+      "moduleId": "D05-F",
+      "level": "Foundation",
+      "title": "Lather water balance",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain lather water balance, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-F-07",
+      "domainId": "D05",
+      "moduleId": "D05-F",
+      "level": "Foundation",
+      "title": "Shaving pressure and skin tension",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain shaving pressure and skin tension, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-F-08",
+      "domainId": "D05",
+      "moduleId": "D05-F",
+      "level": "Foundation",
+      "title": "Post-shave barrier care",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain post-shave barrier care, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D01-F",
+        "D06-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-M-01",
+      "domainId": "D05",
+      "moduleId": "D05-M",
+      "level": "Mastery",
+      "title": "With-grain across-grain and against-grain comparisons",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about with-grain across-grain and against-grain comparisons, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-M-02",
+      "domainId": "D05",
+      "moduleId": "D05-M",
+      "level": "Mastery",
+      "title": "Single versus multiple passes",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about single versus multiple passes, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-M-03",
+      "domainId": "D05",
+      "moduleId": "D05-M",
+      "level": "Mastery",
+      "title": "Razor angle concepts",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about razor angle concepts, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-M-04",
+      "domainId": "D05",
+      "moduleId": "D05-M",
+      "level": "Mastery",
+      "title": "Hot-towel comfort and burn prevention",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about hot-towel comfort and burn prevention, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-M-05",
+      "domainId": "D05",
+      "moduleId": "D05-M",
+      "level": "Mastery",
+      "title": "Soap loading and hard water",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about soap loading and hard water, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-M-06",
+      "domainId": "D05",
+      "moduleId": "D05-M",
+      "level": "Mastery",
+      "title": "Head shaving",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about head shaving, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-M-07",
+      "domainId": "D05",
+      "moduleId": "D05-M",
+      "level": "Mastery",
+      "title": "Alum splash and balm tradeoffs",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about alum splash and balm tradeoffs, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-M-08",
+      "domainId": "D05",
+      "moduleId": "D05-M",
+      "level": "Mastery",
+      "title": "Cleaning and blade disposal",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about cleaning and blade disposal, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-F"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-A-01",
+      "domainId": "D05",
+      "moduleId": "D05-A",
+      "level": "Advanced",
+      "title": "Pseudofolliculitis barbae evidence",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about pseudofolliculitis barbae evidence transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-A-02",
+      "domainId": "D05",
+      "moduleId": "D05-A",
+      "level": "Advanced",
+      "title": "Curly-hair shaving modifications",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about curly-hair shaving modifications transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-A-03",
+      "domainId": "D05",
+      "moduleId": "D05-A",
+      "level": "Advanced",
+      "title": "Foil versus rotary irritation",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about foil versus rotary irritation transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-A-04",
+      "domainId": "D05",
+      "moduleId": "D05-A",
+      "level": "Advanced",
+      "title": "Straight-razor honing concepts",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about straight-razor honing concepts transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-A-05",
+      "domainId": "D05",
+      "moduleId": "D05-A",
+      "level": "Advanced",
+      "title": "Stropping and edge inspection",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about stropping and edge inspection transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-A-06",
+      "domainId": "D05",
+      "moduleId": "D05-A",
+      "level": "Advanced",
+      "title": "Professional shave positions study",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about professional shave positions study transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-A-07",
+      "domainId": "D05",
+      "moduleId": "D05-A",
+      "level": "Advanced",
+      "title": "Shave-related contact dermatitis",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about shave-related contact dermatitis transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-A-08",
+      "domainId": "D05",
+      "moduleId": "D05-A",
+      "level": "Advanced",
+      "title": "Comparative blade performance testing",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about comparative blade performance testing transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-M"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-R-01",
+      "domainId": "D05",
+      "moduleId": "D05-R",
+      "level": "Frontier",
+      "title": "Tribology of razor-skin contact",
+      "researchQuestions": [
+        "For tribology of razor-skin contact, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-R-02",
+      "domainId": "D05",
+      "moduleId": "D05-R",
+      "level": "Frontier",
+      "title": "Smart razors and pressure sensors",
+      "researchQuestions": [
+        "For smart razors and pressure sensors, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-R-03",
+      "domainId": "D05",
+      "moduleId": "D05-R",
+      "level": "Frontier",
+      "title": "Adaptive electric shave systems",
+      "researchQuestions": [
+        "For adaptive electric shave systems, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-R-04",
+      "domainId": "D05",
+      "moduleId": "D05-R",
+      "level": "Frontier",
+      "title": "Shaving microbiome studies",
+      "researchQuestions": [
+        "For shaving microbiome studies, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-R-05",
+      "domainId": "D05",
+      "moduleId": "D05-R",
+      "level": "Frontier",
+      "title": "New lubricant film technologies",
+      "researchQuestions": [
+        "For new lubricant film technologies, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-R-06",
+      "domainId": "D05",
+      "moduleId": "D05-R",
+      "level": "Frontier",
+      "title": "Instrumental lather stability measurements",
+      "researchQuestions": [
+        "For instrumental lather stability measurements, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-R-07",
+      "domainId": "D05",
+      "moduleId": "D05-R",
+      "level": "Frontier",
+      "title": "Inclusive razor trial design",
+      "researchQuestions": [
+        "For inclusive razor trial design, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D05-R-08",
+      "domainId": "D05",
+      "moduleId": "D05-R",
+      "level": "Frontier",
+      "title": "Modeling ingrown-hair pathways",
+      "researchQuestions": [
+        "For modeling ingrown-hair pathways, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D05-A"
+      ],
+      "relatedDomainIds": [
+        "D01",
+        "D06"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

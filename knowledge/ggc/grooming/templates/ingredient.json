@@ -1,0 +1,37 @@
+{
+  "id": "template-ingredient",
+  "kind": "ingredient",
+  "name": "Unfilled ingredient research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "Template only; all substantive information awaits source ingestion and qualified review."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "inciName": null,
+    "commonNames": [],
+    "casIds": [],
+    "tradeNames": [],
+    "classes": [],
+    "originAndProcessing": null,
+    "chemicalCharacteristics": null,
+    "functions": [],
+    "mechanismClaimIds": [],
+    "applications": [],
+    "concentrationConsiderations": null,
+    "solubility": null,
+    "heatSensitivity": null,
+    "oxidationSensitivity": null,
+    "pHConsiderations": null,
+    "compatibilities": [],
+    "incompatibilities": [],
+    "skinHairScalpImplications": null,
+    "irritationAllergenNotes": null,
+    "regulatoryNotes": null,
+    "marketingClaimIds": [],
+    "formulationNotes": null,
+    "sourceIds": []
+  }
+}

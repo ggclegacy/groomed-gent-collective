@@ -1,0 +1,1127 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D06",
+    "order": 6,
+    "title": "Men's Skin Science",
+    "primaryLayer": "fundamentals",
+    "secondaryLayers": [
+      "clinical-evidence"
+    ],
+    "aliases": [
+      "skin science",
+      "skin barrier",
+      "skin type",
+      "skincare",
+      "tewl"
+    ],
+    "outcome": "Explain barrier biology and tailor questions to observed concerns without diagnosis.",
+    "moduleIds": [
+      "D06-F",
+      "D06-M",
+      "D06-A",
+      "D06-R"
+    ],
+    "sourceSeedIds": [
+      "seed-scc",
+      "seed-aad-shave"
+    ],
+    "coverageGaps": [
+      "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D06-F",
+      "domainId": "D06",
+      "level": "Foundation",
+      "title": "Men's Skin Science — Foundation",
+      "prerequisiteModuleIds": [],
+      "topicIds": [
+        "D06-F-01",
+        "D06-F-02",
+        "D06-F-03",
+        "D06-F-04",
+        "D06-F-05",
+        "D06-F-06",
+        "D06-F-07",
+        "D06-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D06-M",
+      "domainId": "D06",
+      "level": "Mastery",
+      "title": "Men's Skin Science — Mastery",
+      "prerequisiteModuleIds": [
+        "D06-F"
+      ],
+      "topicIds": [
+        "D06-M-01",
+        "D06-M-02",
+        "D06-M-03",
+        "D06-M-04",
+        "D06-M-05",
+        "D06-M-06",
+        "D06-M-07",
+        "D06-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D06-A",
+      "domainId": "D06",
+      "level": "Advanced",
+      "title": "Men's Skin Science — Advanced",
+      "prerequisiteModuleIds": [
+        "D06-M"
+      ],
+      "topicIds": [
+        "D06-A-01",
+        "D06-A-02",
+        "D06-A-03",
+        "D06-A-04",
+        "D06-A-05",
+        "D06-A-06",
+        "D06-A-07",
+        "D06-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D06-R",
+      "domainId": "D06",
+      "level": "Frontier",
+      "title": "Men's Skin Science — Frontier",
+      "prerequisiteModuleIds": [
+        "D06-A"
+      ],
+      "topicIds": [
+        "D06-R-01",
+        "D06-R-02",
+        "D06-R-03",
+        "D06-R-04",
+        "D06-R-05",
+        "D06-R-06",
+        "D06-R-07",
+        "D06-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D06-F-01",
+      "domainId": "D06",
+      "moduleId": "D06-F",
+      "level": "Foundation",
+      "title": "Epidermis dermis and stratum corneum",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain epidermis dermis and stratum corneum, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-F-02",
+      "domainId": "D06",
+      "moduleId": "D06-F",
+      "level": "Foundation",
+      "title": "Barrier lipids and corneocytes",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain barrier lipids and corneocytes, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-F-03",
+      "domainId": "D06",
+      "moduleId": "D06-F",
+      "level": "Foundation",
+      "title": "Transepidermal water loss",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain transepidermal water loss, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-F-04",
+      "domainId": "D06",
+      "moduleId": "D06-F",
+      "level": "Foundation",
+      "title": "Sebum pH and hydration",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain sebum ph and hydration, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-F-05",
+      "domainId": "D06",
+      "moduleId": "D06-F",
+      "level": "Foundation",
+      "title": "Melanocytes and pigmentation",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain melanocytes and pigmentation, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-F-06",
+      "domainId": "D06",
+      "moduleId": "D06-F",
+      "level": "Foundation",
+      "title": "Collagen and elastin",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain collagen and elastin, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-F-07",
+      "domainId": "D06",
+      "moduleId": "D06-F",
+      "level": "Foundation",
+      "title": "Dry oily combination and sensitive profiles",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain dry oily combination and sensitive profiles, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-F-08",
+      "domainId": "D06",
+      "moduleId": "D06-F",
+      "level": "Foundation",
+      "title": "Daily UV exposure and protection literacy",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain daily uv exposure and protection literacy, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-M-01",
+      "domainId": "D06",
+      "moduleId": "D06-M",
+      "level": "Mastery",
+      "title": "Acne blackheads and sebaceous filaments",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about acne blackheads and sebaceous filaments, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-M-02",
+      "domainId": "D06",
+      "moduleId": "D06-M",
+      "level": "Mastery",
+      "title": "Rosacea recognition boundaries",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about rosacea recognition boundaries, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-M-03",
+      "domainId": "D06",
+      "moduleId": "D06-M",
+      "level": "Mastery",
+      "title": "Post-inflammatory hyperpigmentation",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about post-inflammatory hyperpigmentation, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-M-04",
+      "domainId": "D06",
+      "moduleId": "D06-M",
+      "level": "Mastery",
+      "title": "Eczema and psoriasis literacy",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about eczema and psoriasis literacy, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-M-05",
+      "domainId": "D06",
+      "moduleId": "D06-M",
+      "level": "Mastery",
+      "title": "Shaving-compromised skin",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about shaving-compromised skin, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-M-06",
+      "domainId": "D06",
+      "moduleId": "D06-M",
+      "level": "Mastery",
+      "title": "Skin of color and visible irritation",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about skin of color and visible irritation, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-M-07",
+      "domainId": "D06",
+      "moduleId": "D06-M",
+      "level": "Mastery",
+      "title": "Seasonal and climate effects",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about seasonal and climate effects, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-M-08",
+      "domainId": "D06",
+      "moduleId": "D06-M",
+      "level": "Mastery",
+      "title": "Routine history and intolerance tracking",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about routine history and intolerance tracking, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-F"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-A-01",
+      "domainId": "D06",
+      "moduleId": "D06-A",
+      "level": "Advanced",
+      "title": "Photoaging and intrinsic aging",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about photoaging and intrinsic aging transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-A-02",
+      "domainId": "D06",
+      "moduleId": "D06-A",
+      "level": "Advanced",
+      "title": "Wound healing phases",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about wound healing phases transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-A-03",
+      "domainId": "D06",
+      "moduleId": "D06-A",
+      "level": "Advanced",
+      "title": "Glycation evidence",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about glycation evidence transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-A-04",
+      "domainId": "D06",
+      "moduleId": "D06-A",
+      "level": "Advanced",
+      "title": "Microbiome association versus causation",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about microbiome association versus causation transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-A-05",
+      "domainId": "D06",
+      "moduleId": "D06-A",
+      "level": "Advanced",
+      "title": "Hormonal influences without stereotypes",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about hormonal influences without stereotypes transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-A-06",
+      "domainId": "D06",
+      "moduleId": "D06-A",
+      "level": "Advanced",
+      "title": "Barrier function measurements",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about barrier function measurements transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-A-07",
+      "domainId": "D06",
+      "moduleId": "D06-A",
+      "level": "Advanced",
+      "title": "Melasma and persistent pigmentation referral",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about melasma and persistent pigmentation referral transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-A-08",
+      "domainId": "D06",
+      "moduleId": "D06-A",
+      "level": "Advanced",
+      "title": "Changing lesions and nonhealing skin referral",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about changing lesions and nonhealing skin referral transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-M"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-R-01",
+      "domainId": "D06",
+      "moduleId": "D06-R",
+      "level": "Frontier",
+      "title": "Skin organoids and reconstructed epidermis",
+      "researchQuestions": [
+        "For skin organoids and reconstructed epidermis, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-R-02",
+      "domainId": "D06",
+      "moduleId": "D06-R",
+      "level": "Frontier",
+      "title": "Multi-omics skin profiling",
+      "researchQuestions": [
+        "For multi-omics skin profiling, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-R-03",
+      "domainId": "D06",
+      "moduleId": "D06-R",
+      "level": "Frontier",
+      "title": "Digital skin analysis validation",
+      "researchQuestions": [
+        "For digital skin analysis validation, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-R-04",
+      "domainId": "D06",
+      "moduleId": "D06-R",
+      "level": "Frontier",
+      "title": "Biological skin-age claims",
+      "researchQuestions": [
+        "For biological skin-age claims, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-R-05",
+      "domainId": "D06",
+      "moduleId": "D06-R",
+      "level": "Frontier",
+      "title": "Circadian skin biology",
+      "researchQuestions": [
+        "For circadian skin biology, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-R-06",
+      "domainId": "D06",
+      "moduleId": "D06-R",
+      "level": "Frontier",
+      "title": "Pollution and exposome models",
+      "researchQuestions": [
+        "For pollution and exposome models, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-R-07",
+      "domainId": "D06",
+      "moduleId": "D06-R",
+      "level": "Frontier",
+      "title": "Senescence-targeting cosmetics claims",
+      "researchQuestions": [
+        "For senescence-targeting cosmetics claims, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D06-R-08",
+      "domainId": "D06",
+      "moduleId": "D06-R",
+      "level": "Frontier",
+      "title": "Long-term inclusive skincare trials",
+      "researchQuestions": [
+        "For long-term inclusive skincare trials, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D06-A"
+      ],
+      "relatedDomainIds": [],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

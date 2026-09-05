@@ -1,0 +1,6291 @@
+{
+  "version": "1.0.0",
+  "counts": {
+    "domains": 36,
+    "modules": 144,
+    "topics": 1152,
+    "releasedClaims": 0
+  },
+  "domains": [
+    {
+      "id": "H01",
+      "title": "Human Biology, Physiology & the Male Lifespan",
+      "aliases": [
+        "human physiology",
+        "male biology",
+        "anatomy",
+        "homeostasis"
+      ],
+      "outcome": "Explain interacting body systems and variation across men's lives without reducing health to testosterone.",
+      "topics": [
+        {
+          "id": "H01-F-01",
+          "title": "Cells tissues and organ systems",
+          "level": "Foundation"
+        },
+        {
+          "id": "H01-F-02",
+          "title": "Homeostasis and feedback loops",
+          "level": "Foundation"
+        },
+        {
+          "id": "H01-F-03",
+          "title": "Energy metabolism and ATP",
+          "level": "Foundation"
+        },
+        {
+          "id": "H01-F-04",
+          "title": "Nervous and endocrine signaling",
+          "level": "Foundation"
+        },
+        {
+          "id": "H01-F-05",
+          "title": "Circulation and oxygen transport",
+          "level": "Foundation"
+        },
+        {
+          "id": "H01-F-06",
+          "title": "Sex-related biology and individual variation",
+          "level": "Foundation"
+        },
+        {
+          "id": "H01-F-07",
+          "title": "Growth development and aging",
+          "level": "Foundation"
+        },
+        {
+          "id": "H01-F-08",
+          "title": "Genetics environment and behavior",
+          "level": "Foundation"
+        },
+        {
+          "id": "H01-M-01",
+          "title": "Stress adaptation and allostasis",
+          "level": "Mastery"
+        },
+        {
+          "id": "H01-M-02",
+          "title": "Inflammation and tissue repair",
+          "level": "Mastery"
+        },
+        {
+          "id": "H01-M-03",
+          "title": "Body composition compartments",
+          "level": "Mastery"
+        },
+        {
+          "id": "H01-M-04",
+          "title": "Circadian coordination across organs",
+          "level": "Mastery"
+        },
+        {
+          "id": "H01-M-05",
+          "title": "Fluid acid-base and electrolyte balance",
+          "level": "Mastery"
+        },
+        {
+          "id": "H01-M-06",
+          "title": "Autonomic nervous system literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H01-M-07",
+          "title": "Sex versus gender in study interpretation",
+          "level": "Mastery"
+        },
+        {
+          "id": "H01-M-08",
+          "title": "Anatomy-aware inclusive men's health",
+          "level": "Mastery"
+        },
+        {
+          "id": "H01-A-01",
+          "title": "Mitochondrial function and measurement",
+          "level": "Advanced"
+        },
+        {
+          "id": "H01-A-02",
+          "title": "Inter-organ metabolic signaling",
+          "level": "Advanced"
+        },
+        {
+          "id": "H01-A-03",
+          "title": "Epigenetics and exposure",
+          "level": "Advanced"
+        },
+        {
+          "id": "H01-A-04",
+          "title": "Immune-endocrine interactions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H01-A-05",
+          "title": "Physiological reserve and frailty",
+          "level": "Advanced"
+        },
+        {
+          "id": "H01-A-06",
+          "title": "Comparative physiology study limits",
+          "level": "Advanced"
+        },
+        {
+          "id": "H01-A-07",
+          "title": "Biological variability and reference populations",
+          "level": "Advanced"
+        },
+        {
+          "id": "H01-A-08",
+          "title": "Systems models versus clinical utility",
+          "level": "Advanced"
+        },
+        {
+          "id": "H01-R-01",
+          "title": "Single-cell atlases of aging",
+          "level": "Frontier"
+        },
+        {
+          "id": "H01-R-02",
+          "title": "Human organoid research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H01-R-03",
+          "title": "Multi-omics systems biology",
+          "level": "Frontier"
+        },
+        {
+          "id": "H01-R-04",
+          "title": "Digital physiological twins",
+          "level": "Frontier"
+        },
+        {
+          "id": "H01-R-05",
+          "title": "Sex-specific precision medicine",
+          "level": "Frontier"
+        },
+        {
+          "id": "H01-R-06",
+          "title": "Computational disease trajectories",
+          "level": "Frontier"
+        },
+        {
+          "id": "H01-R-07",
+          "title": "Novel aging mechanisms",
+          "level": "Frontier"
+        },
+        {
+          "id": "H01-R-08",
+          "title": "Translating animal models to human health",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H02",
+      "title": "Evidence, Statistics & Health Information Literacy",
+      "aliases": [
+        "health evidence",
+        "clinical evidence",
+        "study design",
+        "health misinformation"
+      ],
+      "outcome": "Judge a specific health claim by methods, applicability and meaningful outcomes.",
+      "topics": [
+        {
+          "id": "H02-F-01",
+          "title": "Hypothesis mechanism and demonstrated benefit",
+          "level": "Foundation"
+        },
+        {
+          "id": "H02-F-02",
+          "title": "Randomized trials and observational studies",
+          "level": "Foundation"
+        },
+        {
+          "id": "H02-F-03",
+          "title": "Absolute versus relative risk",
+          "level": "Foundation"
+        },
+        {
+          "id": "H02-F-04",
+          "title": "Correlation and confounding",
+          "level": "Foundation"
+        },
+        {
+          "id": "H02-F-05",
+          "title": "Surrogate versus clinical outcomes",
+          "level": "Foundation"
+        },
+        {
+          "id": "H02-F-06",
+          "title": "Anecdotes placebo and expectancy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H02-F-07",
+          "title": "Source authority and conflicts of interest",
+          "level": "Foundation"
+        },
+        {
+          "id": "H02-F-08",
+          "title": "Uncertainty and justified abstention",
+          "level": "Foundation"
+        },
+        {
+          "id": "H02-M-01",
+          "title": "Effect sizes and confidence intervals",
+          "level": "Mastery"
+        },
+        {
+          "id": "H02-M-02",
+          "title": "Baseline risk and number needed to treat",
+          "level": "Mastery"
+        },
+        {
+          "id": "H02-M-03",
+          "title": "Randomization blinding and controls",
+          "level": "Mastery"
+        },
+        {
+          "id": "H02-M-04",
+          "title": "Selection attrition and reporting bias",
+          "level": "Mastery"
+        },
+        {
+          "id": "H02-M-05",
+          "title": "Systematic reviews and meta-analysis",
+          "level": "Mastery"
+        },
+        {
+          "id": "H02-M-06",
+          "title": "Publication bias and trial registration",
+          "level": "Mastery"
+        },
+        {
+          "id": "H02-M-07",
+          "title": "Generalizability to the individual",
+          "level": "Mastery"
+        },
+        {
+          "id": "H02-M-08",
+          "title": "Statistical significance versus meaningful change",
+          "level": "Mastery"
+        },
+        {
+          "id": "H02-A-01",
+          "title": "GRADE certainty concepts",
+          "level": "Advanced"
+        },
+        {
+          "id": "H02-A-02",
+          "title": "Noninferiority and equivalence designs",
+          "level": "Advanced"
+        },
+        {
+          "id": "H02-A-03",
+          "title": "Causal inference and target trials",
+          "level": "Advanced"
+        },
+        {
+          "id": "H02-A-04",
+          "title": "Subgroup multiplicity and interaction tests",
+          "level": "Advanced"
+        },
+        {
+          "id": "H02-A-05",
+          "title": "Network meta-analysis assumptions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H02-A-06",
+          "title": "Diagnostic sensitivity specificity and predictive value",
+          "level": "Advanced"
+        },
+        {
+          "id": "H02-A-07",
+          "title": "Harms reporting and missing denominators",
+          "level": "Advanced"
+        },
+        {
+          "id": "H02-A-08",
+          "title": "Evidence synthesis with conflicting results",
+          "level": "Advanced"
+        },
+        {
+          "id": "H02-R-01",
+          "title": "Living systematic reviews",
+          "level": "Frontier"
+        },
+        {
+          "id": "H02-R-02",
+          "title": "AI evidence extraction audit",
+          "level": "Frontier"
+        },
+        {
+          "id": "H02-R-03",
+          "title": "Preprint correction and retraction surveillance",
+          "level": "Frontier"
+        },
+        {
+          "id": "H02-R-04",
+          "title": "Real-world data quality",
+          "level": "Frontier"
+        },
+        {
+          "id": "H02-R-05",
+          "title": "Adaptive trial designs",
+          "level": "Frontier"
+        },
+        {
+          "id": "H02-R-06",
+          "title": "Synthetic control limitations",
+          "level": "Frontier"
+        },
+        {
+          "id": "H02-R-07",
+          "title": "Individual response prediction validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H02-R-08",
+          "title": "Detecting fabricated citations and data",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H03",
+      "title": "Preventive Care, Primary Care & Screening",
+      "aliases": [
+        "preventive care",
+        "screening",
+        "primary care",
+        "checkup",
+        "vaccines"
+      ],
+      "outcome": "Help men prepare for prevention discussions using age, risk, history and current jurisdiction-specific guidance.",
+      "topics": [
+        {
+          "id": "H03-F-01",
+          "title": "Primary secondary and tertiary prevention",
+          "level": "Foundation"
+        },
+        {
+          "id": "H03-F-02",
+          "title": "Personal and family history",
+          "level": "Foundation"
+        },
+        {
+          "id": "H03-F-03",
+          "title": "Shared decision-making",
+          "level": "Foundation"
+        },
+        {
+          "id": "H03-F-04",
+          "title": "Screening versus diagnostic testing",
+          "level": "Foundation"
+        },
+        {
+          "id": "H03-F-05",
+          "title": "Vaccination record literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H03-F-06",
+          "title": "Routine primary-care navigation",
+          "level": "Foundation"
+        },
+        {
+          "id": "H03-F-07",
+          "title": "Risk factors versus destiny",
+          "level": "Foundation"
+        },
+        {
+          "id": "H03-F-08",
+          "title": "Emergency urgent and routine care settings",
+          "level": "Foundation"
+        },
+        {
+          "id": "H03-M-01",
+          "title": "Blood pressure screening research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H03-M-02",
+          "title": "Lipid and cardiometabolic screening research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H03-M-03",
+          "title": "Diabetes screening eligibility research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H03-M-04",
+          "title": "Cancer screening eligibility research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H03-M-05",
+          "title": "Vaccination schedule research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H03-M-06",
+          "title": "Sexual-health screening conversations",
+          "level": "Mastery"
+        },
+        {
+          "id": "H03-M-07",
+          "title": "Dental vision and hearing prevention",
+          "level": "Mastery"
+        },
+        {
+          "id": "H03-M-08",
+          "title": "Access cost and insurance navigation",
+          "level": "Mastery"
+        },
+        {
+          "id": "H03-A-01",
+          "title": "Overdiagnosis and overtreatment",
+          "level": "Advanced"
+        },
+        {
+          "id": "H03-A-02",
+          "title": "Screening intervals and competing risks",
+          "level": "Advanced"
+        },
+        {
+          "id": "H03-A-03",
+          "title": "Family-history-driven evaluation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H03-A-04",
+          "title": "Genetic counseling referral literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H03-A-05",
+          "title": "Preventive care with chronic illness",
+          "level": "Advanced"
+        },
+        {
+          "id": "H03-A-06",
+          "title": "Occupational and travel prevention",
+          "level": "Advanced"
+        },
+        {
+          "id": "H03-A-07",
+          "title": "Decision aids and informed preferences",
+          "level": "Advanced"
+        },
+        {
+          "id": "H03-A-08",
+          "title": "Conflicting guideline reconciliation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H03-R-01",
+          "title": "Risk-adapted screening models",
+          "level": "Frontier"
+        },
+        {
+          "id": "H03-R-02",
+          "title": "Polygenic risk in prevention",
+          "level": "Frontier"
+        },
+        {
+          "id": "H03-R-03",
+          "title": "Multicancer detection evidence",
+          "level": "Frontier"
+        },
+        {
+          "id": "H03-R-04",
+          "title": "Whole-body imaging tradeoffs",
+          "level": "Frontier"
+        },
+        {
+          "id": "H03-R-05",
+          "title": "Remote preventive-care delivery",
+          "level": "Frontier"
+        },
+        {
+          "id": "H03-R-06",
+          "title": "AI risk scoring fairness",
+          "level": "Frontier"
+        },
+        {
+          "id": "H03-R-07",
+          "title": "Digital prevention adherence studies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H03-R-08",
+          "title": "Guideline update surveillance",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H04",
+      "title": "Nutrition, Food Literacy & Dietary Patterns",
+      "aliases": [
+        "nutrition",
+        "diet",
+        "protein",
+        "fiber",
+        "food",
+        "nutrients"
+      ],
+      "outcome": "Build food literacy around adequacy, preferences, affordability and sustainable eating.",
+      "topics": [
+        {
+          "id": "H04-F-01",
+          "title": "Energy intake and expenditure",
+          "level": "Foundation"
+        },
+        {
+          "id": "H04-F-02",
+          "title": "Protein carbohydrate and fat",
+          "level": "Foundation"
+        },
+        {
+          "id": "H04-F-03",
+          "title": "Vitamins minerals and deficiency",
+          "level": "Foundation"
+        },
+        {
+          "id": "H04-F-04",
+          "title": "Fiber and food structure",
+          "level": "Foundation"
+        },
+        {
+          "id": "H04-F-05",
+          "title": "Food labels and serving sizes",
+          "level": "Foundation"
+        },
+        {
+          "id": "H04-F-06",
+          "title": "Dietary patterns versus single foods",
+          "level": "Foundation"
+        },
+        {
+          "id": "H04-F-07",
+          "title": "Food safety and storage",
+          "level": "Foundation"
+        },
+        {
+          "id": "H04-F-08",
+          "title": "Hunger satiety and eating context",
+          "level": "Foundation"
+        },
+        {
+          "id": "H04-M-01",
+          "title": "Mediterranean-style pattern evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H04-M-02",
+          "title": "DASH-style pattern evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H04-M-03",
+          "title": "Plant-forward and vegetarian adequacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H04-M-04",
+          "title": "Protein quality and distribution research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H04-M-05",
+          "title": "Saturated unsaturated and trans fats",
+          "level": "Mastery"
+        },
+        {
+          "id": "H04-M-06",
+          "title": "Added sugars and liquid calories",
+          "level": "Mastery"
+        },
+        {
+          "id": "H04-M-07",
+          "title": "Meal planning on a budget",
+          "level": "Mastery"
+        },
+        {
+          "id": "H04-M-08",
+          "title": "Cultural foods and dietary adherence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H04-A-01",
+          "title": "Sports nutrition and periodization",
+          "level": "Advanced"
+        },
+        {
+          "id": "H04-A-02",
+          "title": "Nutrition in kidney or liver disease referral",
+          "level": "Advanced"
+        },
+        {
+          "id": "H04-A-03",
+          "title": "Food allergy versus intolerance",
+          "level": "Advanced"
+        },
+        {
+          "id": "H04-A-04",
+          "title": "Eating-disorder-aware nutrition",
+          "level": "Advanced"
+        },
+        {
+          "id": "H04-A-05",
+          "title": "Ultra-processed food classification limits",
+          "level": "Advanced"
+        },
+        {
+          "id": "H04-A-06",
+          "title": "Dietary assessment measurement error",
+          "level": "Advanced"
+        },
+        {
+          "id": "H04-A-07",
+          "title": "Nutrient bioavailability and interactions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H04-A-08",
+          "title": "Diet trials with realistic comparators",
+          "level": "Advanced"
+        },
+        {
+          "id": "H04-R-01",
+          "title": "Precision nutrition studies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H04-R-02",
+          "title": "Metabolomics and dietary response",
+          "level": "Frontier"
+        },
+        {
+          "id": "H04-R-03",
+          "title": "Microbiome-guided diets",
+          "level": "Frontier"
+        },
+        {
+          "id": "H04-R-04",
+          "title": "Continuous-glucose-guided eating claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H04-R-05",
+          "title": "Novel proteins and food technologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H04-R-06",
+          "title": "AI meal planning bias",
+          "level": "Frontier"
+        },
+        {
+          "id": "H04-R-07",
+          "title": "Sustainable diet-health tradeoffs",
+          "level": "Frontier"
+        },
+        {
+          "id": "H04-R-08",
+          "title": "Nutrigenomics commercial test validity",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H05",
+      "title": "Body Composition, Weight & Metabolic Health",
+      "aliases": [
+        "body composition",
+        "weight management",
+        "obesity",
+        "body fat",
+        "metabolic health"
+      ],
+      "outcome": "Explain weight-related measurements and treatment categories without stigma or individualized prescribing.",
+      "topics": [
+        {
+          "id": "H05-F-01",
+          "title": "BMI uses and limitations",
+          "level": "Foundation"
+        },
+        {
+          "id": "H05-F-02",
+          "title": "Waist circumference and central adiposity",
+          "level": "Foundation"
+        },
+        {
+          "id": "H05-F-03",
+          "title": "Lean mass fat mass and water",
+          "level": "Foundation"
+        },
+        {
+          "id": "H05-F-04",
+          "title": "Energy balance and adaptive responses",
+          "level": "Foundation"
+        },
+        {
+          "id": "H05-F-05",
+          "title": "Weight stigma and care avoidance",
+          "level": "Foundation"
+        },
+        {
+          "id": "H05-F-06",
+          "title": "Weight history and life context",
+          "level": "Foundation"
+        },
+        {
+          "id": "H05-F-07",
+          "title": "Metabolic health beyond scale weight",
+          "level": "Foundation"
+        },
+        {
+          "id": "H05-F-08",
+          "title": "Realistic outcome selection",
+          "level": "Foundation"
+        },
+        {
+          "id": "H05-M-01",
+          "title": "Behavioral weight-management components",
+          "level": "Mastery"
+        },
+        {
+          "id": "H05-M-02",
+          "title": "Satiety sleep and activity interactions",
+          "level": "Mastery"
+        },
+        {
+          "id": "H05-M-03",
+          "title": "Resistance training during weight change",
+          "level": "Mastery"
+        },
+        {
+          "id": "H05-M-04",
+          "title": "Weight maintenance and regain",
+          "level": "Mastery"
+        },
+        {
+          "id": "H05-M-05",
+          "title": "Body-image and disordered-eating concerns",
+          "level": "Mastery"
+        },
+        {
+          "id": "H05-M-06",
+          "title": "Body composition measurement methods",
+          "level": "Mastery"
+        },
+        {
+          "id": "H05-M-07",
+          "title": "Clinical obesity assessment literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H05-M-08",
+          "title": "Medication and surgery category overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H05-A-01",
+          "title": "DXA bioimpedance and measurement error",
+          "level": "Advanced"
+        },
+        {
+          "id": "H05-A-02",
+          "title": "Visceral versus subcutaneous fat evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H05-A-03",
+          "title": "GLP-1 and related medication trial appraisal",
+          "level": "Advanced"
+        },
+        {
+          "id": "H05-A-04",
+          "title": "Bariatric procedure outcomes literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H05-A-05",
+          "title": "Lean mass preservation research",
+          "level": "Advanced"
+        },
+        {
+          "id": "H05-A-06",
+          "title": "Adaptive thermogenesis and appetite",
+          "level": "Advanced"
+        },
+        {
+          "id": "H05-A-07",
+          "title": "Cardiometabolic endpoints beyond weight loss",
+          "level": "Advanced"
+        },
+        {
+          "id": "H05-A-08",
+          "title": "Long-term adverse-event and adherence data",
+          "level": "Advanced"
+        },
+        {
+          "id": "H05-R-01",
+          "title": "Dual and triple agonist research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H05-R-02",
+          "title": "Muscle-preserving weight-loss therapies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H05-R-03",
+          "title": "Digital phenotype-based weight care",
+          "level": "Frontier"
+        },
+        {
+          "id": "H05-R-04",
+          "title": "Personalized appetite interventions",
+          "level": "Frontier"
+        },
+        {
+          "id": "H05-R-05",
+          "title": "Metabolic surgery mechanism studies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H05-R-06",
+          "title": "Novel obesity drug safety surveillance",
+          "level": "Frontier"
+        },
+        {
+          "id": "H05-R-07",
+          "title": "Body composition imaging algorithms",
+          "level": "Frontier"
+        },
+        {
+          "id": "H05-R-08",
+          "title": "Equity in obesity technology access",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H06",
+      "title": "Glucose, Insulin & Diabetes Literacy",
+      "aliases": [
+        "glucose",
+        "insulin",
+        "diabetes",
+        "hba1c",
+        "blood sugar",
+        "cgm"
+      ],
+      "outcome": "Explain glucose physiology and measurement limits while reserving diagnosis and treatment decisions for clinicians.",
+      "topics": [
+        {
+          "id": "H06-F-01",
+          "title": "Glucose homeostasis",
+          "level": "Foundation"
+        },
+        {
+          "id": "H06-F-02",
+          "title": "Insulin secretion and action",
+          "level": "Foundation"
+        },
+        {
+          "id": "H06-F-03",
+          "title": "Type 1 type 2 and other diabetes categories",
+          "level": "Foundation"
+        },
+        {
+          "id": "H06-F-04",
+          "title": "Prediabetes terminology",
+          "level": "Foundation"
+        },
+        {
+          "id": "H06-F-05",
+          "title": "Fasting versus post-meal glucose",
+          "level": "Foundation"
+        },
+        {
+          "id": "H06-F-06",
+          "title": "HbA1c overview",
+          "level": "Foundation"
+        },
+        {
+          "id": "H06-F-07",
+          "title": "Hypoglycemia and hyperglycemia literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H06-F-08",
+          "title": "Clinical assessment versus wearable readings",
+          "level": "Foundation"
+        },
+        {
+          "id": "H06-M-01",
+          "title": "Food activity sleep and glucose variation",
+          "level": "Mastery"
+        },
+        {
+          "id": "H06-M-02",
+          "title": "Diabetes complication prevention literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H06-M-03",
+          "title": "Glucose monitoring types",
+          "level": "Mastery"
+        },
+        {
+          "id": "H06-M-04",
+          "title": "HbA1c confounders and population differences",
+          "level": "Mastery"
+        },
+        {
+          "id": "H06-M-05",
+          "title": "Insulin resistance measurement limitations",
+          "level": "Mastery"
+        },
+        {
+          "id": "H06-M-06",
+          "title": "Foot eye and kidney care navigation",
+          "level": "Mastery"
+        },
+        {
+          "id": "H06-M-07",
+          "title": "Medication class overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H06-M-08",
+          "title": "Exercise planning with diabetes clinician input",
+          "level": "Mastery"
+        },
+        {
+          "id": "H06-A-01",
+          "title": "Time-in-range endpoints",
+          "level": "Advanced"
+        },
+        {
+          "id": "H06-A-02",
+          "title": "CGM lag and sensor artifacts",
+          "level": "Advanced"
+        },
+        {
+          "id": "H06-A-03",
+          "title": "Oral glucose tolerance testing context",
+          "level": "Advanced"
+        },
+        {
+          "id": "H06-A-04",
+          "title": "Diabetes remission definitions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H06-A-05",
+          "title": "Cardiorenal outcome trial interpretation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H06-A-06",
+          "title": "Medication-associated hypoglycemia risk",
+          "level": "Advanced"
+        },
+        {
+          "id": "H06-A-07",
+          "title": "Sick-day planning with a care team",
+          "level": "Advanced"
+        },
+        {
+          "id": "H06-A-08",
+          "title": "Continuous monitoring in people without diabetes",
+          "level": "Advanced"
+        },
+        {
+          "id": "H06-R-01",
+          "title": "Automated insulin delivery research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H06-R-02",
+          "title": "Noninvasive glucose sensor validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H06-R-03",
+          "title": "Beta-cell replacement research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H06-R-04",
+          "title": "Precision diabetes subtyping",
+          "level": "Frontier"
+        },
+        {
+          "id": "H06-R-05",
+          "title": "AI prediction of glucose response",
+          "level": "Frontier"
+        },
+        {
+          "id": "H06-R-06",
+          "title": "Metabolic flexibility claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H06-R-07",
+          "title": "Digital therapeutics for diabetes",
+          "level": "Frontier"
+        },
+        {
+          "id": "H06-R-08",
+          "title": "New incretin and insulin-sensitizing therapies",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H07",
+      "title": "Cardiovascular, Vascular & Blood Health",
+      "aliases": [
+        "heart health",
+        "cardiovascular",
+        "blood pressure",
+        "cholesterol",
+        "lipids",
+        "vascular"
+      ],
+      "outcome": "Explain cardiovascular risk, common measurements and clinical care navigation.",
+      "topics": [
+        {
+          "id": "H07-F-01",
+          "title": "Heart and vascular anatomy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H07-F-02",
+          "title": "Blood pressure physiology",
+          "level": "Foundation"
+        },
+        {
+          "id": "H07-F-03",
+          "title": "Lipoprotein and cholesterol basics",
+          "level": "Foundation"
+        },
+        {
+          "id": "H07-F-04",
+          "title": "Atherosclerosis and thrombosis concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H07-F-05",
+          "title": "Resting heart rate context",
+          "level": "Foundation"
+        },
+        {
+          "id": "H07-F-06",
+          "title": "Smoking activity and vascular risk",
+          "level": "Foundation"
+        },
+        {
+          "id": "H07-F-07",
+          "title": "Anemia overview",
+          "level": "Foundation"
+        },
+        {
+          "id": "H07-F-08",
+          "title": "Emergency cardiac and stroke symptom literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H07-M-01",
+          "title": "Home blood-pressure measurement research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H07-M-02",
+          "title": "LDL HDL triglycerides and non-HDL literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H07-M-03",
+          "title": "Family history and inherited risk",
+          "level": "Mastery"
+        },
+        {
+          "id": "H07-M-04",
+          "title": "Diet movement and cardiovascular prevention",
+          "level": "Mastery"
+        },
+        {
+          "id": "H07-M-05",
+          "title": "Arrhythmia and palpitations referral",
+          "level": "Mastery"
+        },
+        {
+          "id": "H07-M-06",
+          "title": "Venous disease and clot-risk literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H07-M-07",
+          "title": "Medication class and adherence literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H07-M-08",
+          "title": "Cardiac rehabilitation overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H07-A-01",
+          "title": "ApoB and lipoprotein(a) evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H07-A-02",
+          "title": "Coronary calcium score interpretation limits",
+          "level": "Advanced"
+        },
+        {
+          "id": "H07-A-03",
+          "title": "Risk calculators and population fit",
+          "level": "Advanced"
+        },
+        {
+          "id": "H07-A-04",
+          "title": "Lipid-lowering outcome trials",
+          "level": "Advanced"
+        },
+        {
+          "id": "H07-A-05",
+          "title": "Hypertension treatment evidence overview",
+          "level": "Advanced"
+        },
+        {
+          "id": "H07-A-06",
+          "title": "Endothelial function surrogate claims",
+          "level": "Advanced"
+        },
+        {
+          "id": "H07-A-07",
+          "title": "Erythrocytosis and hormone therapy monitoring literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H07-A-08",
+          "title": "Anemia iron studies and clinician interpretation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H07-R-01",
+          "title": "Novel lipid-lowering mechanisms",
+          "level": "Frontier"
+        },
+        {
+          "id": "H07-R-02",
+          "title": "Wearable arrhythmia detection accuracy",
+          "level": "Frontier"
+        },
+        {
+          "id": "H07-R-03",
+          "title": "AI electrocardiography risk prediction",
+          "level": "Frontier"
+        },
+        {
+          "id": "H07-R-04",
+          "title": "Vascular aging measures",
+          "level": "Frontier"
+        },
+        {
+          "id": "H07-R-05",
+          "title": "Inflammation-targeting prevention trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H07-R-06",
+          "title": "Gene-based lipid therapies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H07-R-07",
+          "title": "Cuffless blood pressure device validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H07-R-08",
+          "title": "Personalized cardiovascular risk modeling",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H08",
+      "title": "Strength, Muscle & Resistance Training",
+      "aliases": [
+        "strength training",
+        "resistance training",
+        "muscle",
+        "hypertrophy",
+        "lifting"
+      ],
+      "outcome": "Explain progressive training principles with adaptation, recovery and individual constraints.",
+      "topics": [
+        {
+          "id": "H08-F-01",
+          "title": "Muscle anatomy and contraction",
+          "level": "Foundation"
+        },
+        {
+          "id": "H08-F-02",
+          "title": "Movement patterns and exercise selection",
+          "level": "Foundation"
+        },
+        {
+          "id": "H08-F-03",
+          "title": "Progressive overload concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H08-F-04",
+          "title": "Sets repetitions load and effort",
+          "level": "Foundation"
+        },
+        {
+          "id": "H08-F-05",
+          "title": "Technique and range of motion",
+          "level": "Foundation"
+        },
+        {
+          "id": "H08-F-06",
+          "title": "Rest and recovery fundamentals",
+          "level": "Foundation"
+        },
+        {
+          "id": "H08-F-07",
+          "title": "Training age and starting capacity",
+          "level": "Foundation"
+        },
+        {
+          "id": "H08-F-08",
+          "title": "Exercise symptoms requiring assessment",
+          "level": "Foundation"
+        },
+        {
+          "id": "H08-M-01",
+          "title": "Hypertrophy versus strength outcomes",
+          "level": "Mastery"
+        },
+        {
+          "id": "H08-M-02",
+          "title": "Volume frequency and intensity tradeoffs",
+          "level": "Mastery"
+        },
+        {
+          "id": "H08-M-03",
+          "title": "Proximity to failure and fatigue",
+          "level": "Mastery"
+        },
+        {
+          "id": "H08-M-04",
+          "title": "Periodization fundamentals",
+          "level": "Mastery"
+        },
+        {
+          "id": "H08-M-05",
+          "title": "Protein and energy availability",
+          "level": "Mastery"
+        },
+        {
+          "id": "H08-M-06",
+          "title": "Home gym and minimal-equipment routines",
+          "level": "Mastery"
+        },
+        {
+          "id": "H08-M-07",
+          "title": "Tracking progress beyond appearance",
+          "level": "Mastery"
+        },
+        {
+          "id": "H08-M-08",
+          "title": "Accessible resistance exercise",
+          "level": "Mastery"
+        },
+        {
+          "id": "H08-A-01",
+          "title": "Concurrent training interference evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H08-A-02",
+          "title": "Velocity-based training",
+          "level": "Advanced"
+        },
+        {
+          "id": "H08-A-03",
+          "title": "Autoregulation and readiness measures",
+          "level": "Advanced"
+        },
+        {
+          "id": "H08-A-04",
+          "title": "Training through plateaus",
+          "level": "Advanced"
+        },
+        {
+          "id": "H08-A-05",
+          "title": "Sarcopenia and older-adult training evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H08-A-06",
+          "title": "Tendon adaptation and load management",
+          "level": "Advanced"
+        },
+        {
+          "id": "H08-A-07",
+          "title": "Muscle biopsy and imaging endpoints",
+          "level": "Advanced"
+        },
+        {
+          "id": "H08-A-08",
+          "title": "Sex age and responder variability",
+          "level": "Advanced"
+        },
+        {
+          "id": "H08-R-01",
+          "title": "Individualized volume prediction",
+          "level": "Frontier"
+        },
+        {
+          "id": "H08-R-02",
+          "title": "AI technique feedback validity",
+          "level": "Frontier"
+        },
+        {
+          "id": "H08-R-03",
+          "title": "Blood-flow-restriction evidence and supervision",
+          "level": "Frontier"
+        },
+        {
+          "id": "H08-R-04",
+          "title": "Electrical stimulation claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H08-R-05",
+          "title": "Muscle-preserving therapeutics research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H08-R-06",
+          "title": "Genetic predictors of strength response",
+          "level": "Frontier"
+        },
+        {
+          "id": "H08-R-07",
+          "title": "Digital resistance devices",
+          "level": "Frontier"
+        },
+        {
+          "id": "H08-R-08",
+          "title": "Long-term injury and adherence datasets",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H09",
+      "title": "Aerobic Fitness, Endurance & Conditioning",
+      "aliases": [
+        "cardio",
+        "aerobic",
+        "vo2 max",
+        "endurance",
+        "zone 2",
+        "conditioning"
+      ],
+      "outcome": "Explain conditioning principles and measurement limits across beginner and athletic goals.",
+      "topics": [
+        {
+          "id": "H09-F-01",
+          "title": "Aerobic and anaerobic energy systems",
+          "level": "Foundation"
+        },
+        {
+          "id": "H09-F-02",
+          "title": "Heart rate breathing and perceived effort",
+          "level": "Foundation"
+        },
+        {
+          "id": "H09-F-03",
+          "title": "Walking cycling swimming and running",
+          "level": "Foundation"
+        },
+        {
+          "id": "H09-F-04",
+          "title": "Training frequency duration and intensity",
+          "level": "Foundation"
+        },
+        {
+          "id": "H09-F-05",
+          "title": "Warm-up and gradual progression",
+          "level": "Foundation"
+        },
+        {
+          "id": "H09-F-06",
+          "title": "Sedentary time and daily movement",
+          "level": "Foundation"
+        },
+        {
+          "id": "H09-F-07",
+          "title": "Fitness versus competitive performance",
+          "level": "Foundation"
+        },
+        {
+          "id": "H09-F-08",
+          "title": "Symptoms and exercise-clearance literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H09-M-01",
+          "title": "Talk test and intensity zones",
+          "level": "Mastery"
+        },
+        {
+          "id": "H09-M-02",
+          "title": "Steady-state and interval training",
+          "level": "Mastery"
+        },
+        {
+          "id": "H09-M-03",
+          "title": "VO2 max testing overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H09-M-04",
+          "title": "Endurance fueling and hydration",
+          "level": "Mastery"
+        },
+        {
+          "id": "H09-M-05",
+          "title": "Recovery between hard sessions",
+          "level": "Mastery"
+        },
+        {
+          "id": "H09-M-06",
+          "title": "Concurrent endurance and strength planning",
+          "level": "Mastery"
+        },
+        {
+          "id": "H09-M-07",
+          "title": "Environmental heat cold and altitude",
+          "level": "Mastery"
+        },
+        {
+          "id": "H09-M-08",
+          "title": "Adherence and enjoyable activity selection",
+          "level": "Mastery"
+        },
+        {
+          "id": "H09-A-01",
+          "title": "Lactate and ventilatory thresholds",
+          "level": "Advanced"
+        },
+        {
+          "id": "H09-A-02",
+          "title": "Heart-rate drift and device error",
+          "level": "Advanced"
+        },
+        {
+          "id": "H09-A-03",
+          "title": "Polarized versus pyramidal training",
+          "level": "Advanced"
+        },
+        {
+          "id": "H09-A-04",
+          "title": "Running economy research",
+          "level": "Advanced"
+        },
+        {
+          "id": "H09-A-05",
+          "title": "Overreaching and overtraining concerns",
+          "level": "Advanced"
+        },
+        {
+          "id": "H09-A-06",
+          "title": "Cardiopulmonary exercise testing literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H09-A-07",
+          "title": "Endurance training with chronic conditions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H09-A-08",
+          "title": "Race preparation and clinical considerations",
+          "level": "Advanced"
+        },
+        {
+          "id": "H09-R-01",
+          "title": "Wearable VO2 estimate validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H09-R-02",
+          "title": "Adaptive training algorithms",
+          "level": "Frontier"
+        },
+        {
+          "id": "H09-R-03",
+          "title": "Metabolic cart miniaturization",
+          "level": "Frontier"
+        },
+        {
+          "id": "H09-R-04",
+          "title": "Altitude-simulation claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H09-R-05",
+          "title": "Genomic endurance prediction",
+          "level": "Frontier"
+        },
+        {
+          "id": "H09-R-06",
+          "title": "Digital coaching trial design",
+          "level": "Frontier"
+        },
+        {
+          "id": "H09-R-07",
+          "title": "Novel endurance biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "H09-R-08",
+          "title": "Personalized exercise-response models",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H10",
+      "title": "Mobility, Musculoskeletal Health & Injury Literacy",
+      "aliases": [
+        "mobility",
+        "joint health",
+        "injury",
+        "tendon",
+        "bone",
+        "back pain"
+      ],
+      "outcome": "Support movement literacy and rehabilitation conversations without diagnosing injuries.",
+      "topics": [
+        {
+          "id": "H10-F-01",
+          "title": "Joint tendon ligament and bone anatomy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H10-F-02",
+          "title": "Mobility versus flexibility",
+          "level": "Foundation"
+        },
+        {
+          "id": "H10-F-03",
+          "title": "Balance coordination and proprioception",
+          "level": "Foundation"
+        },
+        {
+          "id": "H10-F-04",
+          "title": "Pain versus tissue damage concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H10-F-05",
+          "title": "Activity modification and pacing",
+          "level": "Foundation"
+        },
+        {
+          "id": "H10-F-06",
+          "title": "Basic ergonomics",
+          "level": "Foundation"
+        },
+        {
+          "id": "H10-F-07",
+          "title": "Falls and fracture awareness",
+          "level": "Foundation"
+        },
+        {
+          "id": "H10-F-08",
+          "title": "Acute injury assessment boundaries",
+          "level": "Foundation"
+        },
+        {
+          "id": "H10-M-01",
+          "title": "Stretching and mobility evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H10-M-02",
+          "title": "Low-back and neck pain literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H10-M-03",
+          "title": "Tendon load and recovery",
+          "level": "Mastery"
+        },
+        {
+          "id": "H10-M-04",
+          "title": "Shoulder hip and knee concerns",
+          "level": "Mastery"
+        },
+        {
+          "id": "H10-M-05",
+          "title": "Footwear and gait assessment limits",
+          "level": "Mastery"
+        },
+        {
+          "id": "H10-M-06",
+          "title": "Bone loading and nutrition",
+          "level": "Mastery"
+        },
+        {
+          "id": "H10-M-07",
+          "title": "Physical therapy referral and goals",
+          "level": "Mastery"
+        },
+        {
+          "id": "H10-M-08",
+          "title": "Return-to-activity planning with professionals",
+          "level": "Mastery"
+        },
+        {
+          "id": "H10-A-01",
+          "title": "Osteoporosis assessment in men",
+          "level": "Advanced"
+        },
+        {
+          "id": "H10-A-02",
+          "title": "Persistent pain biopsychosocial models",
+          "level": "Advanced"
+        },
+        {
+          "id": "H10-A-03",
+          "title": "Tendinopathy rehabilitation evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H10-A-04",
+          "title": "Surgical versus conservative outcome studies",
+          "level": "Advanced"
+        },
+        {
+          "id": "H10-A-05",
+          "title": "Return-to-sport criteria",
+          "level": "Advanced"
+        },
+        {
+          "id": "H10-A-06",
+          "title": "Imaging findings versus symptoms",
+          "level": "Advanced"
+        },
+        {
+          "id": "H10-A-07",
+          "title": "Connective-tissue disorder awareness",
+          "level": "Advanced"
+        },
+        {
+          "id": "H10-A-08",
+          "title": "Workplace and adaptive movement design",
+          "level": "Advanced"
+        },
+        {
+          "id": "H10-R-01",
+          "title": "Wearable movement screening validity",
+          "level": "Frontier"
+        },
+        {
+          "id": "H10-R-02",
+          "title": "AI injury prediction limits",
+          "level": "Frontier"
+        },
+        {
+          "id": "H10-R-03",
+          "title": "Digital physical therapy trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H10-R-04",
+          "title": "Cartilage regeneration research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H10-R-05",
+          "title": "Tendon biologic treatment claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H10-R-06",
+          "title": "Novel bone therapies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H10-R-07",
+          "title": "Smart prosthetic and assistive devices",
+          "level": "Frontier"
+        },
+        {
+          "id": "H10-R-08",
+          "title": "Remote biomechanics assessment",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H11",
+      "title": "Sleep, Circadian Rhythm & Fatigue",
+      "aliases": [
+        "sleep",
+        "circadian",
+        "insomnia",
+        "fatigue",
+        "sleep apnea"
+      ],
+      "outcome": "Explain sleep fundamentals and persistent-fatigue assessment without substituting a supplement for diagnosis.",
+      "topics": [
+        {
+          "id": "H11-F-01",
+          "title": "Sleep stages and sleep pressure",
+          "level": "Foundation"
+        },
+        {
+          "id": "H11-F-02",
+          "title": "Circadian timing and light",
+          "level": "Foundation"
+        },
+        {
+          "id": "H11-F-03",
+          "title": "Sleep opportunity and regularity",
+          "level": "Foundation"
+        },
+        {
+          "id": "H11-F-04",
+          "title": "Daytime sleepiness versus fatigue",
+          "level": "Foundation"
+        },
+        {
+          "id": "H11-F-05",
+          "title": "Bedroom environment",
+          "level": "Foundation"
+        },
+        {
+          "id": "H11-F-06",
+          "title": "Caffeine alcohol and sleep",
+          "level": "Foundation"
+        },
+        {
+          "id": "H11-F-07",
+          "title": "Snoring and breathing disturbance literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H11-F-08",
+          "title": "Sleep need variability",
+          "level": "Foundation"
+        },
+        {
+          "id": "H11-M-01",
+          "title": "Behavioral insomnia care overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H11-M-02",
+          "title": "Sleep apnea evaluation pathways",
+          "level": "Mastery"
+        },
+        {
+          "id": "H11-M-03",
+          "title": "Shift work and irregular schedules",
+          "level": "Mastery"
+        },
+        {
+          "id": "H11-M-04",
+          "title": "Jet lag and travel planning research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H11-M-05",
+          "title": "Napping tradeoffs",
+          "level": "Mastery"
+        },
+        {
+          "id": "H11-M-06",
+          "title": "Exercise meal timing and sleep",
+          "level": "Mastery"
+        },
+        {
+          "id": "H11-M-07",
+          "title": "Sleep diaries and symptom histories",
+          "level": "Mastery"
+        },
+        {
+          "id": "H11-M-08",
+          "title": "Caregiving stress and sleep constraints",
+          "level": "Mastery"
+        },
+        {
+          "id": "H11-A-01",
+          "title": "Polysomnography versus home testing",
+          "level": "Advanced"
+        },
+        {
+          "id": "H11-A-02",
+          "title": "Actigraphy and consumer sleep staging limits",
+          "level": "Advanced"
+        },
+        {
+          "id": "H11-A-03",
+          "title": "CBT-I evidence and clinical delivery",
+          "level": "Advanced"
+        },
+        {
+          "id": "H11-A-04",
+          "title": "Circadian rhythm disorder literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H11-A-05",
+          "title": "Sleep medication and melatonin evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H11-A-06",
+          "title": "Restless legs and iron assessment literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H11-A-07",
+          "title": "Sleep restriction risks and professional oversight",
+          "level": "Advanced"
+        },
+        {
+          "id": "H11-A-08",
+          "title": "Fatigue differential and medical referral",
+          "level": "Advanced"
+        },
+        {
+          "id": "H11-R-01",
+          "title": "Closed-loop sleep stimulation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H11-R-02",
+          "title": "Wearable apnea detection validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H11-R-03",
+          "title": "Personalized circadian biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "H11-R-04",
+          "title": "Sleep and glymphatic hypotheses",
+          "level": "Frontier"
+        },
+        {
+          "id": "H11-R-05",
+          "title": "Digital insomnia therapy trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H11-R-06",
+          "title": "Novel orexin-pathway treatments",
+          "level": "Frontier"
+        },
+        {
+          "id": "H11-R-07",
+          "title": "Sleep optimization algorithm bias",
+          "level": "Frontier"
+        },
+        {
+          "id": "H11-R-08",
+          "title": "Long-term sleep intervention outcomes",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H12",
+      "title": "Stress, Mental Health & Emotional Wellbeing",
+      "aliases": [
+        "mental health",
+        "stress",
+        "anxiety",
+        "depression",
+        "burnout",
+        "emotional health"
+      ],
+      "outcome": "Provide respectful health literacy and care navigation without stigma or psychotherapy claims.",
+      "topics": [
+        {
+          "id": "H12-F-01",
+          "title": "Stress response and perceived stress",
+          "level": "Foundation"
+        },
+        {
+          "id": "H12-F-02",
+          "title": "Mood versus mental health disorder",
+          "level": "Foundation"
+        },
+        {
+          "id": "H12-F-03",
+          "title": "Anxiety and depression literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H12-F-04",
+          "title": "Burnout and occupational context",
+          "level": "Foundation"
+        },
+        {
+          "id": "H12-F-05",
+          "title": "Social connection and loneliness",
+          "level": "Foundation"
+        },
+        {
+          "id": "H12-F-06",
+          "title": "Emotional vocabulary and help-seeking",
+          "level": "Foundation"
+        },
+        {
+          "id": "H12-F-07",
+          "title": "Mental-health crisis recognition",
+          "level": "Foundation"
+        },
+        {
+          "id": "H12-F-08",
+          "title": "Confidentiality and consent",
+          "level": "Foundation"
+        },
+        {
+          "id": "H12-M-01",
+          "title": "Psychotherapy approaches overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H12-M-02",
+          "title": "Exercise sleep and mental health evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H12-M-03",
+          "title": "Mindfulness and relaxation evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H12-M-04",
+          "title": "Work boundaries and recovery",
+          "level": "Mastery"
+        },
+        {
+          "id": "H12-M-05",
+          "title": "Grief life transitions and identity",
+          "level": "Mastery"
+        },
+        {
+          "id": "H12-M-06",
+          "title": "Peer support and professional support",
+          "level": "Mastery"
+        },
+        {
+          "id": "H12-M-07",
+          "title": "Trauma-informed communication",
+          "level": "Mastery"
+        },
+        {
+          "id": "H12-M-08",
+          "title": "Stigma and masculine norms",
+          "level": "Mastery"
+        },
+        {
+          "id": "H12-A-01",
+          "title": "Validated questionnaires and diagnostic limits",
+          "level": "Advanced"
+        },
+        {
+          "id": "H12-A-02",
+          "title": "Medication benefits harms and shared decisions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H12-A-03",
+          "title": "Bipolar disorder and psychosis literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H12-A-04",
+          "title": "PTSD and trauma care pathways",
+          "level": "Advanced"
+        },
+        {
+          "id": "H12-A-05",
+          "title": "Suicide-risk clinical assessment boundaries",
+          "level": "Advanced"
+        },
+        {
+          "id": "H12-A-06",
+          "title": "Men's depression presentation diversity",
+          "level": "Advanced"
+        },
+        {
+          "id": "H12-A-07",
+          "title": "Mental health and chronic disease",
+          "level": "Advanced"
+        },
+        {
+          "id": "H12-A-08",
+          "title": "Digital therapy quality evaluation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H12-R-01",
+          "title": "Ketamine and psychedelic therapy research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H12-R-02",
+          "title": "Digital mental-health biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "H12-R-03",
+          "title": "AI mental-health companion risks",
+          "level": "Frontier"
+        },
+        {
+          "id": "H12-R-04",
+          "title": "Neuromodulation treatment research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H12-R-05",
+          "title": "Precision psychiatry limits",
+          "level": "Frontier"
+        },
+        {
+          "id": "H12-R-06",
+          "title": "Ecological momentary assessment",
+          "level": "Frontier"
+        },
+        {
+          "id": "H12-R-07",
+          "title": "Novel prevention and outreach models",
+          "level": "Frontier"
+        },
+        {
+          "id": "H12-R-08",
+          "title": "Long-term effectiveness and equity studies",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H13",
+      "title": "Cognition, Neurological Health & Brain Performance",
+      "aliases": [
+        "cognition",
+        "brain health",
+        "memory",
+        "focus",
+        "nootropics",
+        "neurology"
+      ],
+      "outcome": "Separate cognitive performance claims from neurological assessment and clinically meaningful outcomes.",
+      "topics": [
+        {
+          "id": "H13-F-01",
+          "title": "Attention memory and executive function",
+          "level": "Foundation"
+        },
+        {
+          "id": "H13-F-02",
+          "title": "Brain anatomy and neural signaling",
+          "level": "Foundation"
+        },
+        {
+          "id": "H13-F-03",
+          "title": "Normal forgetfulness versus concern",
+          "level": "Foundation"
+        },
+        {
+          "id": "H13-F-04",
+          "title": "Sleep stress and concentration",
+          "level": "Foundation"
+        },
+        {
+          "id": "H13-F-05",
+          "title": "Learning and cognitive practice",
+          "level": "Foundation"
+        },
+        {
+          "id": "H13-F-06",
+          "title": "Head injury and concussion literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H13-F-07",
+          "title": "Stroke symptom awareness",
+          "level": "Foundation"
+        },
+        {
+          "id": "H13-F-08",
+          "title": "Age and cognitive variability",
+          "level": "Foundation"
+        },
+        {
+          "id": "H13-M-01",
+          "title": "Exercise and cognitive outcomes",
+          "level": "Mastery"
+        },
+        {
+          "id": "H13-M-02",
+          "title": "Hearing vision and cognitive function",
+          "level": "Mastery"
+        },
+        {
+          "id": "H13-M-03",
+          "title": "Caffeine and alertness evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H13-M-04",
+          "title": "Cognitive testing limitations",
+          "level": "Mastery"
+        },
+        {
+          "id": "H13-M-05",
+          "title": "ADHD assessment pathway literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H13-M-06",
+          "title": "Migraine and headache referral literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H13-M-07",
+          "title": "Dementia and mild cognitive impairment overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H13-M-08",
+          "title": "Social engagement and brain health",
+          "level": "Mastery"
+        },
+        {
+          "id": "H13-A-01",
+          "title": "Nootropic trial quality",
+          "level": "Advanced"
+        },
+        {
+          "id": "H13-A-02",
+          "title": "Concussion recovery evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H13-A-03",
+          "title": "Neuropsychological testing scope",
+          "level": "Advanced"
+        },
+        {
+          "id": "H13-A-04",
+          "title": "Neurovascular risk and cognition",
+          "level": "Advanced"
+        },
+        {
+          "id": "H13-A-05",
+          "title": "Medication-induced cognitive effects",
+          "level": "Advanced"
+        },
+        {
+          "id": "H13-A-06",
+          "title": "Cognitive reserve versus training transfer",
+          "level": "Advanced"
+        },
+        {
+          "id": "H13-A-07",
+          "title": "Brain imaging indications and incidental findings",
+          "level": "Advanced"
+        },
+        {
+          "id": "H13-A-08",
+          "title": "Disease-modifying therapy evidence literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H13-R-01",
+          "title": "Neurofeedback validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H13-R-02",
+          "title": "Noninvasive brain stimulation research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H13-R-03",
+          "title": "Brain-computer interfaces",
+          "level": "Frontier"
+        },
+        {
+          "id": "H13-R-04",
+          "title": "Digital cognition biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "H13-R-05",
+          "title": "AI dementia prediction",
+          "level": "Frontier"
+        },
+        {
+          "id": "H13-R-06",
+          "title": "Psychedelic cognition claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H13-R-07",
+          "title": "Novel neuroprotective compounds",
+          "level": "Frontier"
+        },
+        {
+          "id": "H13-R-08",
+          "title": "Cognitive enhancement ethics",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H14",
+      "title": "Endocrinology & Hormone Systems",
+      "aliases": [
+        "hormones",
+        "endocrine",
+        "thyroid",
+        "cortisol",
+        "insulin",
+        "estrogen"
+      ],
+      "outcome": "Explain hormone feedback, measurement context and the limits of optimization claims.",
+      "topics": [
+        {
+          "id": "H14-F-01",
+          "title": "Hypothalamus pituitary and target glands",
+          "level": "Foundation"
+        },
+        {
+          "id": "H14-F-02",
+          "title": "Negative feedback and pulsatility",
+          "level": "Foundation"
+        },
+        {
+          "id": "H14-F-03",
+          "title": "Hormone receptors and signaling",
+          "level": "Foundation"
+        },
+        {
+          "id": "H14-F-04",
+          "title": "Bound versus free hormones",
+          "level": "Foundation"
+        },
+        {
+          "id": "H14-F-05",
+          "title": "Thyroid hormone physiology",
+          "level": "Foundation"
+        },
+        {
+          "id": "H14-F-06",
+          "title": "Cortisol and adrenal physiology",
+          "level": "Foundation"
+        },
+        {
+          "id": "H14-F-07",
+          "title": "Insulin glucagon and growth signals",
+          "level": "Foundation"
+        },
+        {
+          "id": "H14-F-08",
+          "title": "Sex steroids and individual variation",
+          "level": "Foundation"
+        },
+        {
+          "id": "H14-M-01",
+          "title": "Time-of-day and illness effects on tests",
+          "level": "Mastery"
+        },
+        {
+          "id": "H14-M-02",
+          "title": "Thyroid disorder assessment literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H14-M-03",
+          "title": "Prolactin and pituitary evaluation literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H14-M-04",
+          "title": "Cortisol testing indications",
+          "level": "Mastery"
+        },
+        {
+          "id": "H14-M-05",
+          "title": "Estradiol roles in male physiology",
+          "level": "Mastery"
+        },
+        {
+          "id": "H14-M-06",
+          "title": "Growth hormone and IGF-1 context",
+          "level": "Mastery"
+        },
+        {
+          "id": "H14-M-07",
+          "title": "Medication and supplement assay interference",
+          "level": "Mastery"
+        },
+        {
+          "id": "H14-M-08",
+          "title": "Symptoms versus biochemical diagnoses",
+          "level": "Mastery"
+        },
+        {
+          "id": "H14-A-01",
+          "title": "Primary versus secondary endocrine dysfunction",
+          "level": "Advanced"
+        },
+        {
+          "id": "H14-A-02",
+          "title": "Dynamic endocrine testing overview",
+          "level": "Advanced"
+        },
+        {
+          "id": "H14-A-03",
+          "title": "Assay method differences",
+          "level": "Advanced"
+        },
+        {
+          "id": "H14-A-04",
+          "title": "Endocrine effects of underfueling and overtraining",
+          "level": "Advanced"
+        },
+        {
+          "id": "H14-A-05",
+          "title": "Hormones obesity and sleep interactions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H14-A-06",
+          "title": "Exogenous hormone feedback suppression",
+          "level": "Advanced"
+        },
+        {
+          "id": "H14-A-07",
+          "title": "Endocrine disruptor evidence appraisal",
+          "level": "Advanced"
+        },
+        {
+          "id": "H14-A-08",
+          "title": "Adrenal fatigue claim evaluation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H14-R-01",
+          "title": "Continuous hormone sensor research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H14-R-02",
+          "title": "Endocrine multi-omics",
+          "level": "Frontier"
+        },
+        {
+          "id": "H14-R-03",
+          "title": "Tissue-specific hormone action",
+          "level": "Frontier"
+        },
+        {
+          "id": "H14-R-04",
+          "title": "Novel hormone receptor therapies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H14-R-05",
+          "title": "AI endocrine diagnostic models",
+          "level": "Frontier"
+        },
+        {
+          "id": "H14-R-06",
+          "title": "Chronotherapy evidence",
+          "level": "Frontier"
+        },
+        {
+          "id": "H14-R-07",
+          "title": "Hormonal aging biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "H14-R-08",
+          "title": "Precision endocrinology validation",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H15",
+      "title": "Testosterone, Hypogonadism & Men's Hormone Care",
+      "aliases": [
+        "testosterone",
+        "low t",
+        "trt",
+        "hypogonadism",
+        "androgens"
+      ],
+      "outcome": "Explain testosterone-care evidence and clinician-led evaluation without diagnosing deficiency or designing cycles.",
+      "topics": [
+        {
+          "id": "H15-F-01",
+          "title": "Testicular testosterone production",
+          "level": "Foundation"
+        },
+        {
+          "id": "H15-F-02",
+          "title": "HPG axis feedback",
+          "level": "Foundation"
+        },
+        {
+          "id": "H15-F-03",
+          "title": "Total free and bioavailable testosterone",
+          "level": "Foundation"
+        },
+        {
+          "id": "H15-F-04",
+          "title": "SHBG and albumin context",
+          "level": "Foundation"
+        },
+        {
+          "id": "H15-F-05",
+          "title": "Symptoms and alternative explanations",
+          "level": "Foundation"
+        },
+        {
+          "id": "H15-F-06",
+          "title": "Age illness and energy balance effects",
+          "level": "Foundation"
+        },
+        {
+          "id": "H15-F-07",
+          "title": "Clinical deficiency versus performance enhancement",
+          "level": "Foundation"
+        },
+        {
+          "id": "H15-F-08",
+          "title": "Reproductive consequences of exogenous hormones",
+          "level": "Foundation"
+        },
+        {
+          "id": "H15-M-01",
+          "title": "Repeated properly timed measurement research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H15-M-02",
+          "title": "Primary and secondary hypogonadism literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H15-M-03",
+          "title": "LH FSH prolactin and clinician workup",
+          "level": "Mastery"
+        },
+        {
+          "id": "H15-M-04",
+          "title": "Sleep obesity and medication contributors",
+          "level": "Mastery"
+        },
+        {
+          "id": "H15-M-05",
+          "title": "Treatment formulation categories",
+          "level": "Mastery"
+        },
+        {
+          "id": "H15-M-06",
+          "title": "Fertility goals in hormone conversations",
+          "level": "Mastery"
+        },
+        {
+          "id": "H15-M-07",
+          "title": "Shared decision-making and follow-up",
+          "level": "Mastery"
+        },
+        {
+          "id": "H15-M-08",
+          "title": "Over-the-counter testosterone booster claims",
+          "level": "Mastery"
+        },
+        {
+          "id": "H15-A-01",
+          "title": "Testosterone outcome trial appraisal",
+          "level": "Advanced"
+        },
+        {
+          "id": "H15-A-02",
+          "title": "Hematocrit monitoring literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H15-A-03",
+          "title": "Cardiovascular and prostate evidence limits",
+          "level": "Advanced"
+        },
+        {
+          "id": "H15-A-04",
+          "title": "Sleep apnea and treatment assessment",
+          "level": "Advanced"
+        },
+        {
+          "id": "H15-A-05",
+          "title": "Fertility-preserving clinical approaches overview",
+          "level": "Advanced"
+        },
+        {
+          "id": "H15-A-06",
+          "title": "Estradiol and aromatase inhibitor claims",
+          "level": "Advanced"
+        },
+        {
+          "id": "H15-A-07",
+          "title": "Compounded versus approved formulation distinctions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H15-A-08",
+          "title": "Stopping or changing treatment with a clinician",
+          "level": "Advanced"
+        },
+        {
+          "id": "H15-R-01",
+          "title": "Selective androgen receptor modulator research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H15-R-02",
+          "title": "Novel delivery systems",
+          "level": "Frontier"
+        },
+        {
+          "id": "H15-R-03",
+          "title": "Long-term registry evidence",
+          "level": "Frontier"
+        },
+        {
+          "id": "H15-R-04",
+          "title": "Individual response prediction",
+          "level": "Frontier"
+        },
+        {
+          "id": "H15-R-05",
+          "title": "Age-related prescribing policy debate",
+          "level": "Frontier"
+        },
+        {
+          "id": "H15-R-06",
+          "title": "Androgen receptor biology",
+          "level": "Frontier"
+        },
+        {
+          "id": "H15-R-07",
+          "title": "Testosterone assay standardization advances",
+          "level": "Frontier"
+        },
+        {
+          "id": "H15-R-08",
+          "title": "Hormone clinic marketing and evidence surveillance",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H16",
+      "title": "Sexual Health, Urology & Prostate Health",
+      "aliases": [
+        "sexual health",
+        "erectile dysfunction",
+        "libido",
+        "prostate",
+        "urology",
+        "pelvic health"
+      ],
+      "outcome": "Support private, nonjudgmental literacy and care navigation for sexual and urinary concerns.",
+      "topics": [
+        {
+          "id": "H16-F-01",
+          "title": "Sexual anatomy and response",
+          "level": "Foundation"
+        },
+        {
+          "id": "H16-F-02",
+          "title": "Libido arousal and erection distinctions",
+          "level": "Foundation"
+        },
+        {
+          "id": "H16-F-03",
+          "title": "Urinary tract anatomy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H16-F-04",
+          "title": "Prostate function",
+          "level": "Foundation"
+        },
+        {
+          "id": "H16-F-05",
+          "title": "Consent communication and comfort",
+          "level": "Foundation"
+        },
+        {
+          "id": "H16-F-06",
+          "title": "STI prevention literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H16-F-07",
+          "title": "Sexual function variability",
+          "level": "Foundation"
+        },
+        {
+          "id": "H16-F-08",
+          "title": "Acute genital or urinary symptom referral",
+          "level": "Foundation"
+        },
+        {
+          "id": "H16-M-01",
+          "title": "Erectile dysfunction evaluation overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H16-M-02",
+          "title": "Cardiometabolic links and referral",
+          "level": "Mastery"
+        },
+        {
+          "id": "H16-M-03",
+          "title": "Lower urinary tract symptoms",
+          "level": "Mastery"
+        },
+        {
+          "id": "H16-M-04",
+          "title": "Prostatitis and pelvic pain literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H16-M-05",
+          "title": "Premature and delayed ejaculation literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H16-M-06",
+          "title": "Medication and substance sexual effects",
+          "level": "Mastery"
+        },
+        {
+          "id": "H16-M-07",
+          "title": "Safer sex and partner communication",
+          "level": "Mastery"
+        },
+        {
+          "id": "H16-M-08",
+          "title": "Pelvic-floor therapy overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H16-A-01",
+          "title": "ED medication mechanisms and interaction literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H16-A-02",
+          "title": "PSA screening shared decisions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H16-A-03",
+          "title": "Benign prostatic enlargement treatment categories",
+          "level": "Advanced"
+        },
+        {
+          "id": "H16-A-04",
+          "title": "Peyronie's disease overview",
+          "level": "Advanced"
+        },
+        {
+          "id": "H16-A-05",
+          "title": "Sexual rehabilitation after treatment",
+          "level": "Advanced"
+        },
+        {
+          "id": "H16-A-06",
+          "title": "Sex therapy and relational factors",
+          "level": "Advanced"
+        },
+        {
+          "id": "H16-A-07",
+          "title": "Urinary incontinence assessment pathways",
+          "level": "Advanced"
+        },
+        {
+          "id": "H16-A-08",
+          "title": "Commercial sexual enhancement adulteration risks",
+          "level": "Advanced"
+        },
+        {
+          "id": "H16-R-01",
+          "title": "Shockwave ED treatment research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H16-R-02",
+          "title": "Regenerative sexual-health claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H16-R-03",
+          "title": "Novel prostate biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "H16-R-04",
+          "title": "Telehealth sexual-care quality",
+          "level": "Frontier"
+        },
+        {
+          "id": "H16-R-05",
+          "title": "Wearable sexual metrics privacy",
+          "level": "Frontier"
+        },
+        {
+          "id": "H16-R-06",
+          "title": "New ED drug and device trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H16-R-07",
+          "title": "AI prostate assessment validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H16-R-08",
+          "title": "Patient-reported sexual outcome research",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H17",
+      "title": "Fertility, Reproductive Planning & Fatherhood",
+      "aliases": [
+        "fertility",
+        "sperm",
+        "reproductive health",
+        "fatherhood",
+        "vasectomy"
+      ],
+      "outcome": "Explain reproductive-health evidence and referral pathways without promising fertility outcomes.",
+      "topics": [
+        {
+          "id": "H17-F-01",
+          "title": "Spermatogenesis and reproductive anatomy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H17-F-02",
+          "title": "Fertility versus testosterone level",
+          "level": "Foundation"
+        },
+        {
+          "id": "H17-F-03",
+          "title": "Conception timing literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H17-F-04",
+          "title": "Male-factor infertility overview",
+          "level": "Foundation"
+        },
+        {
+          "id": "H17-F-05",
+          "title": "Reproductive goals and consent",
+          "level": "Foundation"
+        },
+        {
+          "id": "H17-F-06",
+          "title": "Preconception health history",
+          "level": "Foundation"
+        },
+        {
+          "id": "H17-F-07",
+          "title": "Paternal age concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H17-F-08",
+          "title": "Partner-centered care",
+          "level": "Foundation"
+        },
+        {
+          "id": "H17-M-01",
+          "title": "Semen analysis variability and context",
+          "level": "Mastery"
+        },
+        {
+          "id": "H17-M-02",
+          "title": "Heat illness and exposure research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H17-M-03",
+          "title": "Smoking alcohol and fertility evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H17-M-04",
+          "title": "Medication and hormone effects on fertility",
+          "level": "Mastery"
+        },
+        {
+          "id": "H17-M-05",
+          "title": "Varicocele evaluation literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H17-M-06",
+          "title": "Genetic counseling pathways",
+          "level": "Mastery"
+        },
+        {
+          "id": "H17-M-07",
+          "title": "Vasectomy and reversibility counseling literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H17-M-08",
+          "title": "Infertility distress and support",
+          "level": "Mastery"
+        },
+        {
+          "id": "H17-A-01",
+          "title": "Sperm DNA fragmentation evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H17-A-02",
+          "title": "Assisted reproduction overview",
+          "level": "Advanced"
+        },
+        {
+          "id": "H17-A-03",
+          "title": "Fertility preservation before treatment",
+          "level": "Advanced"
+        },
+        {
+          "id": "H17-A-04",
+          "title": "Azoospermia evaluation categories",
+          "level": "Advanced"
+        },
+        {
+          "id": "H17-A-05",
+          "title": "Endocrine fertility treatment literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H17-A-06",
+          "title": "Antioxidant supplement trial quality",
+          "level": "Advanced"
+        },
+        {
+          "id": "H17-A-07",
+          "title": "Occupational reproductive risk",
+          "level": "Advanced"
+        },
+        {
+          "id": "H17-A-08",
+          "title": "Pregnancy and live-birth versus semen endpoints",
+          "level": "Advanced"
+        },
+        {
+          "id": "H17-R-01",
+          "title": "Home sperm test validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H17-R-02",
+          "title": "Male contraception research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H17-R-03",
+          "title": "Spermatogonial stem-cell research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H17-R-04",
+          "title": "Reproductive aging biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "H17-R-05",
+          "title": "AI sperm analysis",
+          "level": "Frontier"
+        },
+        {
+          "id": "H17-R-06",
+          "title": "Paternal epigenetic inheritance claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H17-R-07",
+          "title": "Novel fertility-preservation methods",
+          "level": "Frontier"
+        },
+        {
+          "id": "H17-R-08",
+          "title": "Long-term offspring outcome studies",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H18",
+      "title": "Digestive, Gut Microbiome & Liver Health",
+      "aliases": [
+        "gut health",
+        "microbiome",
+        "digestion",
+        "liver",
+        "ibs",
+        "probiotics"
+      ],
+      "outcome": "Explain digestive-health and microbiome claims with symptom, strain and disease-specific limits.",
+      "topics": [
+        {
+          "id": "H18-F-01",
+          "title": "Digestive anatomy and absorption",
+          "level": "Foundation"
+        },
+        {
+          "id": "H18-F-02",
+          "title": "Bowel habit variability",
+          "level": "Foundation"
+        },
+        {
+          "id": "H18-F-03",
+          "title": "Fiber and gut function",
+          "level": "Foundation"
+        },
+        {
+          "id": "H18-F-04",
+          "title": "Microbiome diversity concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H18-F-05",
+          "title": "Liver metabolic functions",
+          "level": "Foundation"
+        },
+        {
+          "id": "H18-F-06",
+          "title": "Gut-brain communication",
+          "level": "Foundation"
+        },
+        {
+          "id": "H18-F-07",
+          "title": "Food intolerance versus allergy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H18-F-08",
+          "title": "Digestive alarm symptom literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H18-M-01",
+          "title": "Reflux and dyspepsia overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H18-M-02",
+          "title": "Constipation and diarrhea assessment literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H18-M-03",
+          "title": "IBS versus inflammatory bowel disease",
+          "level": "Mastery"
+        },
+        {
+          "id": "H18-M-04",
+          "title": "Celiac disease evaluation literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H18-M-05",
+          "title": "Probiotic strain specificity",
+          "level": "Mastery"
+        },
+        {
+          "id": "H18-M-06",
+          "title": "Prebiotics fermented foods and postbiotics",
+          "level": "Mastery"
+        },
+        {
+          "id": "H18-M-07",
+          "title": "Metabolic liver disease overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H18-M-08",
+          "title": "Alcohol and medication liver effects",
+          "level": "Mastery"
+        },
+        {
+          "id": "H18-A-01",
+          "title": "Microbiome stool test utility limits",
+          "level": "Advanced"
+        },
+        {
+          "id": "H18-A-02",
+          "title": "Elimination diet and dietitian oversight",
+          "level": "Advanced"
+        },
+        {
+          "id": "H18-A-03",
+          "title": "Gut permeability and leaky-gut claims",
+          "level": "Advanced"
+        },
+        {
+          "id": "H18-A-04",
+          "title": "Fecal microbiota therapy scope",
+          "level": "Advanced"
+        },
+        {
+          "id": "H18-A-05",
+          "title": "Liver enzyme interpretation limitations",
+          "level": "Advanced"
+        },
+        {
+          "id": "H18-A-06",
+          "title": "Drug-induced liver injury literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H18-A-07",
+          "title": "Probiotic trial applicability",
+          "level": "Advanced"
+        },
+        {
+          "id": "H18-A-08",
+          "title": "Digestive surgery and nutrition contexts",
+          "level": "Advanced"
+        },
+        {
+          "id": "H18-R-01",
+          "title": "Engineered microbial therapeutics",
+          "level": "Frontier"
+        },
+        {
+          "id": "H18-R-02",
+          "title": "Phage therapies and microbiome research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H18-R-03",
+          "title": "Precision prebiotic trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H18-R-04",
+          "title": "Microbial metabolite interventions",
+          "level": "Frontier"
+        },
+        {
+          "id": "H18-R-05",
+          "title": "Gut-brain treatment claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H18-R-06",
+          "title": "Microbiome aging clocks",
+          "level": "Frontier"
+        },
+        {
+          "id": "H18-R-07",
+          "title": "Synthetic microbial communities",
+          "level": "Frontier"
+        },
+        {
+          "id": "H18-R-08",
+          "title": "Long-term microbiome safety outcomes",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H19",
+      "title": "Kidney Health, Hydration & Electrolytes",
+      "aliases": [
+        "kidney",
+        "hydration",
+        "electrolytes",
+        "sodium",
+        "potassium",
+        "dehydration"
+      ],
+      "outcome": "Explain fluid and electrolyte physiology without universal targets or unsafe personalized replacement plans.",
+      "topics": [
+        {
+          "id": "H19-F-01",
+          "title": "Kidney filtration and regulation",
+          "level": "Foundation"
+        },
+        {
+          "id": "H19-F-02",
+          "title": "Water balance and thirst",
+          "level": "Foundation"
+        },
+        {
+          "id": "H19-F-03",
+          "title": "Sodium potassium and magnesium roles",
+          "level": "Foundation"
+        },
+        {
+          "id": "H19-F-04",
+          "title": "Fluid intake versus fluid needs",
+          "level": "Foundation"
+        },
+        {
+          "id": "H19-F-05",
+          "title": "Sweat and environmental losses",
+          "level": "Foundation"
+        },
+        {
+          "id": "H19-F-06",
+          "title": "Dehydration and overhydration concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H19-F-07",
+          "title": "Urine color limitations",
+          "level": "Foundation"
+        },
+        {
+          "id": "H19-F-08",
+          "title": "Kidney-related symptom referral literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H19-M-01",
+          "title": "Exercise hydration research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H19-M-02",
+          "title": "Heat work and fluid planning",
+          "level": "Mastery"
+        },
+        {
+          "id": "H19-M-03",
+          "title": "Oral rehydration versus sports drinks",
+          "level": "Mastery"
+        },
+        {
+          "id": "H19-M-04",
+          "title": "Dietary sodium and blood pressure",
+          "level": "Mastery"
+        },
+        {
+          "id": "H19-M-05",
+          "title": "Kidney stone prevention literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H19-M-06",
+          "title": "eGFR and urine albumin overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H19-M-07",
+          "title": "Chronic kidney disease care navigation",
+          "level": "Mastery"
+        },
+        {
+          "id": "H19-M-08",
+          "title": "Medication and supplement renal risks",
+          "level": "Mastery"
+        },
+        {
+          "id": "H19-A-01",
+          "title": "Sweat rate testing limitations",
+          "level": "Advanced"
+        },
+        {
+          "id": "H19-A-02",
+          "title": "Hyponatremia and hyperkalemia literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H19-A-03",
+          "title": "Creatinine confounders and muscle mass",
+          "level": "Advanced"
+        },
+        {
+          "id": "H19-A-04",
+          "title": "Cystatin C and kidney assessment",
+          "level": "Advanced"
+        },
+        {
+          "id": "H19-A-05",
+          "title": "Electrolyte products and cumulative intake",
+          "level": "Advanced"
+        },
+        {
+          "id": "H19-A-06",
+          "title": "Fluid restriction requires clinical direction",
+          "level": "Advanced"
+        },
+        {
+          "id": "H19-A-07",
+          "title": "Creatine and renal marker interpretation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H19-A-08",
+          "title": "Acid-base disorders overview",
+          "level": "Advanced"
+        },
+        {
+          "id": "H19-R-01",
+          "title": "Wearable sweat sensor validity",
+          "level": "Frontier"
+        },
+        {
+          "id": "H19-R-02",
+          "title": "Personalized electrolyte algorithms",
+          "level": "Frontier"
+        },
+        {
+          "id": "H19-R-03",
+          "title": "Continuous hydration monitoring claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H19-R-04",
+          "title": "Novel kidney injury biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "H19-R-05",
+          "title": "Digital kidney care trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H19-R-06",
+          "title": "Climate-related renal risk research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H19-R-07",
+          "title": "New renoprotective treatment evidence",
+          "level": "Frontier"
+        },
+        {
+          "id": "H19-R-08",
+          "title": "AI renal function estimation bias",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H20",
+      "title": "Immune, Inflammatory & Infectious Health",
+      "aliases": [
+        "immune health",
+        "inflammation",
+        "infection",
+        "vaccination",
+        "allergy",
+        "autoimmune"
+      ],
+      "outcome": "Distinguish immune function, infection prevention and unsupported immune-boosting claims.",
+      "topics": [
+        {
+          "id": "H20-F-01",
+          "title": "Innate and adaptive immunity",
+          "level": "Foundation"
+        },
+        {
+          "id": "H20-F-02",
+          "title": "Inflammation acute versus chronic",
+          "level": "Foundation"
+        },
+        {
+          "id": "H20-F-03",
+          "title": "Immune memory and vaccination",
+          "level": "Foundation"
+        },
+        {
+          "id": "H20-F-04",
+          "title": "Infection transmission basics",
+          "level": "Foundation"
+        },
+        {
+          "id": "H20-F-05",
+          "title": "Allergy versus intolerance",
+          "level": "Foundation"
+        },
+        {
+          "id": "H20-F-06",
+          "title": "Autoimmunity overview",
+          "level": "Foundation"
+        },
+        {
+          "id": "H20-F-07",
+          "title": "Fever and systemic symptom literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H20-F-08",
+          "title": "Immune boosting marketing claims",
+          "level": "Foundation"
+        },
+        {
+          "id": "H20-M-01",
+          "title": "Respiratory infection prevention research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H20-M-02",
+          "title": "Vaccination risk-benefit literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H20-M-03",
+          "title": "Sleep nutrition and immune function",
+          "level": "Mastery"
+        },
+        {
+          "id": "H20-M-04",
+          "title": "HIV and STI testing navigation",
+          "level": "Mastery"
+        },
+        {
+          "id": "H20-M-05",
+          "title": "Allergic reaction assessment boundaries",
+          "level": "Mastery"
+        },
+        {
+          "id": "H20-M-06",
+          "title": "Autoimmune disease care coordination",
+          "level": "Mastery"
+        },
+        {
+          "id": "H20-M-07",
+          "title": "Immunosuppression and exposure precautions",
+          "level": "Mastery"
+        },
+        {
+          "id": "H20-M-08",
+          "title": "Antibiotic use and resistance literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H20-A-01",
+          "title": "Inflammatory biomarker specificity",
+          "level": "Advanced"
+        },
+        {
+          "id": "H20-A-02",
+          "title": "Post-viral syndromes and fatigue",
+          "level": "Advanced"
+        },
+        {
+          "id": "H20-A-03",
+          "title": "Vaccine efficacy versus effectiveness",
+          "level": "Advanced"
+        },
+        {
+          "id": "H20-A-04",
+          "title": "Immune supplement trial quality",
+          "level": "Advanced"
+        },
+        {
+          "id": "H20-A-05",
+          "title": "Anaphylaxis action-plan clinical oversight",
+          "level": "Advanced"
+        },
+        {
+          "id": "H20-A-06",
+          "title": "Chronic inflammation causal inference",
+          "level": "Advanced"
+        },
+        {
+          "id": "H20-A-07",
+          "title": "Immunomodulatory medication overview",
+          "level": "Advanced"
+        },
+        {
+          "id": "H20-A-08",
+          "title": "Travel and occupational infection prevention",
+          "level": "Advanced"
+        },
+        {
+          "id": "H20-R-01",
+          "title": "Personalized vaccines",
+          "level": "Frontier"
+        },
+        {
+          "id": "H20-R-02",
+          "title": "Immune aging interventions",
+          "level": "Frontier"
+        },
+        {
+          "id": "H20-R-03",
+          "title": "Trained immunity research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H20-R-04",
+          "title": "Microbiome-immune therapies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H20-R-05",
+          "title": "Long-COVID mechanism and treatment trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H20-R-06",
+          "title": "Immune profiling commercial utility",
+          "level": "Frontier"
+        },
+        {
+          "id": "H20-R-07",
+          "title": "Novel vaccine platforms",
+          "level": "Frontier"
+        },
+        {
+          "id": "H20-R-08",
+          "title": "Host-directed infection therapies",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H21",
+      "title": "Supplements, Botanicals & Nutraceuticals",
+      "aliases": [
+        "supplements",
+        "nutraceuticals",
+        "botanicals",
+        "creatine",
+        "ashwagandha",
+        "magnesium"
+      ],
+      "outcome": "Evaluate identity-specific supplement claims, quality and exposure without assuming natural means safe.",
+      "topics": [
+        {
+          "id": "H21-F-01",
+          "title": "Supplement categories and label literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H21-F-02",
+          "title": "Nutrient adequacy versus enhancement",
+          "level": "Foundation"
+        },
+        {
+          "id": "H21-F-03",
+          "title": "Dose form and bioavailability",
+          "level": "Foundation"
+        },
+        {
+          "id": "H21-F-04",
+          "title": "Proprietary blends and undisclosed amounts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H21-F-05",
+          "title": "Third-party testing and its limits",
+          "level": "Foundation"
+        },
+        {
+          "id": "H21-F-06",
+          "title": "Interactions and cumulative exposure",
+          "level": "Foundation"
+        },
+        {
+          "id": "H21-F-07",
+          "title": "Food-first versus supplementation rationale",
+          "level": "Foundation"
+        },
+        {
+          "id": "H21-F-08",
+          "title": "Ingredient versus finished-product evidence",
+          "level": "Foundation"
+        },
+        {
+          "id": "H21-M-01",
+          "title": "Creatine evidence by outcome",
+          "level": "Mastery"
+        },
+        {
+          "id": "H21-M-02",
+          "title": "Protein supplement quality",
+          "level": "Mastery"
+        },
+        {
+          "id": "H21-M-03",
+          "title": "Caffeine alertness and performance evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H21-M-04",
+          "title": "Magnesium salt distinctions",
+          "level": "Mastery"
+        },
+        {
+          "id": "H21-M-05",
+          "title": "Vitamin D testing and supplementation research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H21-M-06",
+          "title": "Omega-3 product and outcome distinctions",
+          "level": "Mastery"
+        },
+        {
+          "id": "H21-M-07",
+          "title": "Ashwagandha extract variability",
+          "level": "Mastery"
+        },
+        {
+          "id": "H21-M-08",
+          "title": "Melatonin product and use-context evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H21-A-01",
+          "title": "Zinc iron and unnecessary supplementation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H21-A-02",
+          "title": "Electrolyte blend evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H21-A-03",
+          "title": "Botanical species extract and standardization",
+          "level": "Advanced"
+        },
+        {
+          "id": "H21-A-04",
+          "title": "Probiotic strain and viability claims",
+          "level": "Advanced"
+        },
+        {
+          "id": "H21-A-05",
+          "title": "NAD precursors NMN and NR evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H21-A-06",
+          "title": "Contaminants adulterants and batch testing",
+          "level": "Advanced"
+        },
+        {
+          "id": "H21-A-07",
+          "title": "Supplement-induced liver injury surveillance",
+          "level": "Advanced"
+        },
+        {
+          "id": "H21-A-08",
+          "title": "Stack interaction and duplication assessment",
+          "level": "Advanced"
+        },
+        {
+          "id": "H21-R-01",
+          "title": "Novel longevity supplement trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H21-R-02",
+          "title": "Urolithin spermidine and ergothioneine research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H21-R-03",
+          "title": "Personalized supplement algorithms",
+          "level": "Frontier"
+        },
+        {
+          "id": "H21-R-04",
+          "title": "New delivery formats and absorption claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H21-R-05",
+          "title": "Metabolomic supplement response",
+          "level": "Frontier"
+        },
+        {
+          "id": "H21-R-06",
+          "title": "Postbiotic nutraceuticals",
+          "level": "Frontier"
+        },
+        {
+          "id": "H21-R-07",
+          "title": "Real-world adverse-event signal detection",
+          "level": "Frontier"
+        },
+        {
+          "id": "H21-R-08",
+          "title": "AI supplement claim auditing",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H22",
+      "title": "Medication Literacy, Interactions & Treatment Safety",
+      "aliases": [
+        "medications",
+        "drug interactions",
+        "pharmacology",
+        "drug safety",
+        "prescriptions"
+      ],
+      "outcome": "Help organize treatment questions while reserving prescribing and interaction clearance for clinicians and pharmacists.",
+      "topics": [
+        {
+          "id": "H22-F-01",
+          "title": "Drug indications and intended use",
+          "level": "Foundation"
+        },
+        {
+          "id": "H22-F-02",
+          "title": "Benefits harms and alternatives",
+          "level": "Foundation"
+        },
+        {
+          "id": "H22-F-03",
+          "title": "Prescription OTC and supplement distinctions",
+          "level": "Foundation"
+        },
+        {
+          "id": "H22-F-04",
+          "title": "Dose route and formulation concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H22-F-05",
+          "title": "Adherence and medication reconciliation",
+          "level": "Foundation"
+        },
+        {
+          "id": "H22-F-06",
+          "title": "Allergy and adverse-effect terminology",
+          "level": "Foundation"
+        },
+        {
+          "id": "H22-F-07",
+          "title": "Pharmacist and prescriber roles",
+          "level": "Foundation"
+        },
+        {
+          "id": "H22-F-08",
+          "title": "Do not stop medication without advice",
+          "level": "Foundation"
+        },
+        {
+          "id": "H22-M-01",
+          "title": "Pharmacokinetics and pharmacodynamics",
+          "level": "Mastery"
+        },
+        {
+          "id": "H22-M-02",
+          "title": "Liver enzymes and transporters",
+          "level": "Mastery"
+        },
+        {
+          "id": "H22-M-03",
+          "title": "Sedation and stimulant burden",
+          "level": "Mastery"
+        },
+        {
+          "id": "H22-M-04",
+          "title": "Anticoagulant and bleeding interaction literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H22-M-05",
+          "title": "Blood pressure and glucose medication classes",
+          "level": "Mastery"
+        },
+        {
+          "id": "H22-M-06",
+          "title": "Sexual and endocrine medication effects",
+          "level": "Mastery"
+        },
+        {
+          "id": "H22-M-07",
+          "title": "Alcohol and medication interactions",
+          "level": "Mastery"
+        },
+        {
+          "id": "H22-M-08",
+          "title": "Current-label verification",
+          "level": "Mastery"
+        },
+        {
+          "id": "H22-A-01",
+          "title": "Narrow therapeutic index concepts",
+          "level": "Advanced"
+        },
+        {
+          "id": "H22-A-02",
+          "title": "Renal and hepatic dose-adjustment scope",
+          "level": "Advanced"
+        },
+        {
+          "id": "H22-A-03",
+          "title": "Polypharmacy and deprescribing overview",
+          "level": "Advanced"
+        },
+        {
+          "id": "H22-A-04",
+          "title": "QT prolongation and arrhythmia risk literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H22-A-05",
+          "title": "Serotonergic and sympathomimetic interactions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H22-A-06",
+          "title": "Compounding and formulation equivalence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H22-A-07",
+          "title": "Pharmacogenomic test limits",
+          "level": "Advanced"
+        },
+        {
+          "id": "H22-A-08",
+          "title": "Adverse-event reporting pathways",
+          "level": "Advanced"
+        },
+        {
+          "id": "H22-R-01",
+          "title": "AI interaction checker validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H22-R-02",
+          "title": "Digital medication adherence tools",
+          "level": "Frontier"
+        },
+        {
+          "id": "H22-R-03",
+          "title": "Precision pharmacotherapy research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H22-R-04",
+          "title": "Real-world pharmacovigilance",
+          "level": "Frontier"
+        },
+        {
+          "id": "H22-R-05",
+          "title": "Drug repurposing evidence",
+          "level": "Frontier"
+        },
+        {
+          "id": "H22-R-06",
+          "title": "Novel drug-delivery technologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H22-R-07",
+          "title": "Model-informed prescribing research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H22-R-08",
+          "title": "Counterfeit online medicine surveillance",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H23",
+      "title": "Laboratories, Biomarkers & Diagnostic Literacy",
+      "aliases": [
+        "labs",
+        "lab results",
+        "biomarkers",
+        "blood tests",
+        "diagnostics",
+        "reference range"
+      ],
+      "outcome": "Explain measurement context without diagnosing from isolated values or inventing optimal ranges.",
+      "topics": [
+        {
+          "id": "H23-F-01",
+          "title": "Reference intervals versus decision thresholds",
+          "level": "Foundation"
+        },
+        {
+          "id": "H23-F-02",
+          "title": "Units methods and specimen types",
+          "level": "Foundation"
+        },
+        {
+          "id": "H23-F-03",
+          "title": "Preanalytical variation",
+          "level": "Foundation"
+        },
+        {
+          "id": "H23-F-04",
+          "title": "False positives and base rates",
+          "level": "Foundation"
+        },
+        {
+          "id": "H23-F-05",
+          "title": "Screening versus diagnostic panels",
+          "level": "Foundation"
+        },
+        {
+          "id": "H23-F-06",
+          "title": "Fasting time and collection timing",
+          "level": "Foundation"
+        },
+        {
+          "id": "H23-F-07",
+          "title": "Repeat testing and biological variation",
+          "level": "Foundation"
+        },
+        {
+          "id": "H23-F-08",
+          "title": "Clinician interpretation and history",
+          "level": "Foundation"
+        },
+        {
+          "id": "H23-M-01",
+          "title": "CBC terminology",
+          "level": "Mastery"
+        },
+        {
+          "id": "H23-M-02",
+          "title": "Comprehensive metabolic panel literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H23-M-03",
+          "title": "Lipids and cardiometabolic markers",
+          "level": "Mastery"
+        },
+        {
+          "id": "H23-M-04",
+          "title": "HbA1c and glucose context",
+          "level": "Mastery"
+        },
+        {
+          "id": "H23-M-05",
+          "title": "Thyroid and testosterone test context",
+          "level": "Mastery"
+        },
+        {
+          "id": "H23-M-06",
+          "title": "Iron B12 and vitamin D questions",
+          "level": "Mastery"
+        },
+        {
+          "id": "H23-M-07",
+          "title": "Kidney urine and liver markers",
+          "level": "Mastery"
+        },
+        {
+          "id": "H23-M-08",
+          "title": "Inflammatory marker limitations",
+          "level": "Mastery"
+        },
+        {
+          "id": "H23-A-01",
+          "title": "Analytical validity clinical validity and utility",
+          "level": "Advanced"
+        },
+        {
+          "id": "H23-A-02",
+          "title": "Reference change values",
+          "level": "Advanced"
+        },
+        {
+          "id": "H23-A-03",
+          "title": "Assay interference and biotin",
+          "level": "Advanced"
+        },
+        {
+          "id": "H23-A-04",
+          "title": "Calculated versus directly measured values",
+          "level": "Advanced"
+        },
+        {
+          "id": "H23-A-05",
+          "title": "Broad-panel incidental findings",
+          "level": "Advanced"
+        },
+        {
+          "id": "H23-A-06",
+          "title": "Lab-to-lab comparability",
+          "level": "Advanced"
+        },
+        {
+          "id": "H23-A-07",
+          "title": "Diagnostic cascades and overtesting",
+          "level": "Advanced"
+        },
+        {
+          "id": "H23-A-08",
+          "title": "Commercial optimal-range claims",
+          "level": "Advanced"
+        },
+        {
+          "id": "H23-R-01",
+          "title": "Multi-omics panels",
+          "level": "Frontier"
+        },
+        {
+          "id": "H23-R-02",
+          "title": "Proteomic aging signatures",
+          "level": "Frontier"
+        },
+        {
+          "id": "H23-R-03",
+          "title": "Epigenetic clock reliability",
+          "level": "Frontier"
+        },
+        {
+          "id": "H23-R-04",
+          "title": "Liquid biopsy evidence",
+          "level": "Frontier"
+        },
+        {
+          "id": "H23-R-05",
+          "title": "At-home collection validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H23-R-06",
+          "title": "Continuous biomarker sensors",
+          "level": "Frontier"
+        },
+        {
+          "id": "H23-R-07",
+          "title": "AI laboratory interpretation bias",
+          "level": "Frontier"
+        },
+        {
+          "id": "H23-R-08",
+          "title": "Regulatory oversight of emerging diagnostics",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H24",
+      "title": "Wearables, Self-Tracking & Personal Experiments",
+      "aliases": [
+        "wearables",
+        "self tracking",
+        "hrv",
+        "quantified self",
+        "n of 1"
+      ],
+      "outcome": "Evaluate devices and personal observations without confusing correlation or precision with clinical validity.",
+      "topics": [
+        {
+          "id": "H24-F-01",
+          "title": "Measurement accuracy precision and reliability",
+          "level": "Foundation"
+        },
+        {
+          "id": "H24-F-02",
+          "title": "Steps heart rate and sleep estimates",
+          "level": "Foundation"
+        },
+        {
+          "id": "H24-F-03",
+          "title": "Baseline variability",
+          "level": "Foundation"
+        },
+        {
+          "id": "H24-F-04",
+          "title": "Signal versus noise",
+          "level": "Foundation"
+        },
+        {
+          "id": "H24-F-05",
+          "title": "Device fit and sensor artifacts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H24-F-06",
+          "title": "Consent privacy and data ownership",
+          "level": "Foundation"
+        },
+        {
+          "id": "H24-F-07",
+          "title": "Goal-driven tracking",
+          "level": "Foundation"
+        },
+        {
+          "id": "H24-F-08",
+          "title": "Metrics versus lived wellbeing",
+          "level": "Foundation"
+        },
+        {
+          "id": "H24-M-01",
+          "title": "Heart-rate variability interpretation limits",
+          "level": "Mastery"
+        },
+        {
+          "id": "H24-M-02",
+          "title": "Training load and readiness scores",
+          "level": "Mastery"
+        },
+        {
+          "id": "H24-M-03",
+          "title": "Sleep score limitations",
+          "level": "Mastery"
+        },
+        {
+          "id": "H24-M-04",
+          "title": "CGM use-context distinctions",
+          "level": "Mastery"
+        },
+        {
+          "id": "H24-M-05",
+          "title": "Blood pressure and oxygen devices",
+          "level": "Mastery"
+        },
+        {
+          "id": "H24-M-06",
+          "title": "Symptom diaries and confounding",
+          "level": "Mastery"
+        },
+        {
+          "id": "H24-M-07",
+          "title": "Single-variable behavior experiments",
+          "level": "Mastery"
+        },
+        {
+          "id": "H24-M-08",
+          "title": "Avoiding compulsive tracking",
+          "level": "Mastery"
+        },
+        {
+          "id": "H24-A-01",
+          "title": "N-of-1 crossover study design",
+          "level": "Advanced"
+        },
+        {
+          "id": "H24-A-02",
+          "title": "Washout carryover and expectancy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H24-A-03",
+          "title": "Missing data and algorithm updates",
+          "level": "Advanced"
+        },
+        {
+          "id": "H24-A-04",
+          "title": "Validation across skin tones and body types",
+          "level": "Advanced"
+        },
+        {
+          "id": "H24-A-05",
+          "title": "Within-person versus population thresholds",
+          "level": "Advanced"
+        },
+        {
+          "id": "H24-A-06",
+          "title": "False alarms and missed events",
+          "level": "Advanced"
+        },
+        {
+          "id": "H24-A-07",
+          "title": "Data portability and security",
+          "level": "Advanced"
+        },
+        {
+          "id": "H24-A-08",
+          "title": "Self-experiment stopping rules",
+          "level": "Advanced"
+        },
+        {
+          "id": "H24-R-01",
+          "title": "Multisensor physiological models",
+          "level": "Frontier"
+        },
+        {
+          "id": "H24-R-02",
+          "title": "Continuous biochemical sensors",
+          "level": "Frontier"
+        },
+        {
+          "id": "H24-R-03",
+          "title": "Digital twins and response prediction",
+          "level": "Frontier"
+        },
+        {
+          "id": "H24-R-04",
+          "title": "Adaptive personal experiments ethics",
+          "level": "Frontier"
+        },
+        {
+          "id": "H24-R-05",
+          "title": "AI health coach validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H24-R-06",
+          "title": "Passive mental-health inference risks",
+          "level": "Frontier"
+        },
+        {
+          "id": "H24-R-07",
+          "title": "Federated health analytics",
+          "level": "Frontier"
+        },
+        {
+          "id": "H24-R-08",
+          "title": "Clinical integration of consumer devices",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H25",
+      "title": "Recovery, Heat, Cold & Breath Practices",
+      "aliases": [
+        "recovery",
+        "sauna",
+        "cold plunge",
+        "breathwork",
+        "heat therapy",
+        "cold exposure"
+      ],
+      "outcome": "Compare recovery practices by goal, evidence, exposure and contraindication awareness.",
+      "topics": [
+        {
+          "id": "H25-F-01",
+          "title": "Recovery versus performance adaptation",
+          "level": "Foundation"
+        },
+        {
+          "id": "H25-F-02",
+          "title": "Sleep food and workload foundations",
+          "level": "Foundation"
+        },
+        {
+          "id": "H25-F-03",
+          "title": "Heat and cold physiological responses",
+          "level": "Foundation"
+        },
+        {
+          "id": "H25-F-04",
+          "title": "Breathing mechanics",
+          "level": "Foundation"
+        },
+        {
+          "id": "H25-F-05",
+          "title": "Perceived soreness versus tissue recovery",
+          "level": "Foundation"
+        },
+        {
+          "id": "H25-F-06",
+          "title": "Exposure dose concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H25-F-07",
+          "title": "Hydration and environmental context",
+          "level": "Foundation"
+        },
+        {
+          "id": "H25-F-08",
+          "title": "Supervision and stop-signal literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H25-M-01",
+          "title": "Sauna observational versus intervention evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H25-M-02",
+          "title": "Cold-water immersion outcome differences",
+          "level": "Mastery"
+        },
+        {
+          "id": "H25-M-03",
+          "title": "Contrast therapy research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H25-M-04",
+          "title": "Massage and compression evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H25-M-05",
+          "title": "Slow breathing and relaxation research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H25-M-06",
+          "title": "Active recovery and mobility",
+          "level": "Mastery"
+        },
+        {
+          "id": "H25-M-07",
+          "title": "Heat acclimation overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H25-M-08",
+          "title": "Cold exposure and exercise adaptation tradeoffs",
+          "level": "Mastery"
+        },
+        {
+          "id": "H25-A-01",
+          "title": "Cardiovascular stress from thermal exposure",
+          "level": "Advanced"
+        },
+        {
+          "id": "H25-A-02",
+          "title": "Syncope and drowning risk literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H25-A-03",
+          "title": "Breath holding and hyperventilation hazards",
+          "level": "Advanced"
+        },
+        {
+          "id": "H25-A-04",
+          "title": "Recovery device trial quality",
+          "level": "Advanced"
+        },
+        {
+          "id": "H25-A-05",
+          "title": "Infrared versus traditional sauna claims",
+          "level": "Advanced"
+        },
+        {
+          "id": "H25-A-06",
+          "title": "Photobiomodulation performance research",
+          "level": "Advanced"
+        },
+        {
+          "id": "H25-A-07",
+          "title": "Altitude and hypoxic exposure literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H25-A-08",
+          "title": "Contraindications requiring clinician review",
+          "level": "Advanced"
+        },
+        {
+          "id": "H25-R-01",
+          "title": "Precision recovery algorithms",
+          "level": "Frontier"
+        },
+        {
+          "id": "H25-R-02",
+          "title": "Cryotherapy long-term evidence",
+          "level": "Frontier"
+        },
+        {
+          "id": "H25-R-03",
+          "title": "Closed-loop breath training",
+          "level": "Frontier"
+        },
+        {
+          "id": "H25-R-04",
+          "title": "Novel heat stress biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "H25-R-05",
+          "title": "Thermal hormesis longevity claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H25-R-06",
+          "title": "Recovery wearables and objective outcomes",
+          "level": "Frontier"
+        },
+        {
+          "id": "H25-R-07",
+          "title": "Combined-modality study design",
+          "level": "Frontier"
+        },
+        {
+          "id": "H25-R-08",
+          "title": "Personalized recovery-response validation",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H26",
+      "title": "Longevity, Aging & Geroscience",
+      "aliases": [
+        "longevity",
+        "anti aging",
+        "healthspan",
+        "geroscience",
+        "aging"
+      ],
+      "outcome": "Separate healthy-aging practice from mechanistic longevity hypotheses and unproven lifespan claims.",
+      "topics": [
+        {
+          "id": "H26-F-01",
+          "title": "Lifespan versus healthspan",
+          "level": "Foundation"
+        },
+        {
+          "id": "H26-F-02",
+          "title": "Chronological versus biological age",
+          "level": "Foundation"
+        },
+        {
+          "id": "H26-F-03",
+          "title": "Functional capacity and independence",
+          "level": "Foundation"
+        },
+        {
+          "id": "H26-F-04",
+          "title": "Cellular senescence concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H26-F-05",
+          "title": "DNA damage and repair",
+          "level": "Foundation"
+        },
+        {
+          "id": "H26-F-06",
+          "title": "Mitochondria and aging",
+          "level": "Foundation"
+        },
+        {
+          "id": "H26-F-07",
+          "title": "Frailty and resilience",
+          "level": "Foundation"
+        },
+        {
+          "id": "H26-F-08",
+          "title": "Animal longevity versus human outcomes",
+          "level": "Foundation"
+        },
+        {
+          "id": "H26-M-01",
+          "title": "Physical activity and healthy-aging evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H26-M-02",
+          "title": "Sleep diet and social connection",
+          "level": "Mastery"
+        },
+        {
+          "id": "H26-M-03",
+          "title": "Cardiovascular prevention across age",
+          "level": "Mastery"
+        },
+        {
+          "id": "H26-M-04",
+          "title": "Muscle bone and fall prevention",
+          "level": "Mastery"
+        },
+        {
+          "id": "H26-M-05",
+          "title": "Cognitive and sensory health",
+          "level": "Mastery"
+        },
+        {
+          "id": "H26-M-06",
+          "title": "Functional tests and their limits",
+          "level": "Mastery"
+        },
+        {
+          "id": "H26-M-07",
+          "title": "Multimorbidity and treatment burden",
+          "level": "Mastery"
+        },
+        {
+          "id": "H26-M-08",
+          "title": "Aging well without anti-aging pressure",
+          "level": "Mastery"
+        },
+        {
+          "id": "H26-A-01",
+          "title": "Hallmarks-of-aging framework appraisal",
+          "level": "Advanced"
+        },
+        {
+          "id": "H26-A-02",
+          "title": "Caloric restriction human trials",
+          "level": "Advanced"
+        },
+        {
+          "id": "H26-A-03",
+          "title": "mTOR AMPK and sirtuin pathways",
+          "level": "Advanced"
+        },
+        {
+          "id": "H26-A-04",
+          "title": "Rapamycin and metformin geroscience trials",
+          "level": "Advanced"
+        },
+        {
+          "id": "H26-A-05",
+          "title": "NAD-related human outcomes",
+          "level": "Advanced"
+        },
+        {
+          "id": "H26-A-06",
+          "title": "Biological age clock validation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H26-A-07",
+          "title": "Senolytic trial endpoints",
+          "level": "Advanced"
+        },
+        {
+          "id": "H26-A-08",
+          "title": "Competing risks and long follow-up",
+          "level": "Advanced"
+        },
+        {
+          "id": "H26-R-01",
+          "title": "Partial cellular reprogramming",
+          "level": "Frontier"
+        },
+        {
+          "id": "H26-R-02",
+          "title": "Epigenetic rejuvenation claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H26-R-03",
+          "title": "Tissue regeneration and organ replacement",
+          "level": "Frontier"
+        },
+        {
+          "id": "H26-R-04",
+          "title": "Young-plasma and plasma-exchange research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H26-R-05",
+          "title": "Gene therapy for aging hypotheses",
+          "level": "Frontier"
+        },
+        {
+          "id": "H26-R-06",
+          "title": "Immune rejuvenation trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H26-R-07",
+          "title": "Longevity trial endpoint development",
+          "level": "Frontier"
+        },
+        {
+          "id": "H26-R-08",
+          "title": "Commercial age-reversal claim surveillance",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H27",
+      "title": "Peptides, Biologics & Regenerative Medicine",
+      "aliases": [
+        "peptides",
+        "bpc 157",
+        "tb 500",
+        "exosomes",
+        "regenerative medicine",
+        "stem cells"
+      ],
+      "outcome": "Appraise specific investigational interventions with route, identity, regulatory and human-evidence boundaries.",
+      "topics": [
+        {
+          "id": "H27-F-01",
+          "title": "Peptide protein and biologic distinctions",
+          "level": "Foundation"
+        },
+        {
+          "id": "H27-F-02",
+          "title": "Approved medicine versus research material",
+          "level": "Foundation"
+        },
+        {
+          "id": "H27-F-03",
+          "title": "Sequence purity and identity",
+          "level": "Foundation"
+        },
+        {
+          "id": "H27-F-04",
+          "title": "Route and systemic exposure",
+          "level": "Foundation"
+        },
+        {
+          "id": "H27-F-05",
+          "title": "Mechanism versus clinical benefit",
+          "level": "Foundation"
+        },
+        {
+          "id": "H27-F-06",
+          "title": "Sterility endotoxin and immunogenicity concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H27-F-07",
+          "title": "Trial registration and informed consent",
+          "level": "Foundation"
+        },
+        {
+          "id": "H27-F-08",
+          "title": "Research labels do not authorize self-use",
+          "level": "Foundation"
+        },
+        {
+          "id": "H27-M-01",
+          "title": "BPC-157 evidence map",
+          "level": "Mastery"
+        },
+        {
+          "id": "H27-M-02",
+          "title": "Thymosin-related peptide evidence map",
+          "level": "Mastery"
+        },
+        {
+          "id": "H27-M-03",
+          "title": "Growth-hormone secretagogue evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H27-M-04",
+          "title": "GHK-Cu topical versus systemic claims",
+          "level": "Mastery"
+        },
+        {
+          "id": "H27-M-05",
+          "title": "PRP preparation variability",
+          "level": "Mastery"
+        },
+        {
+          "id": "H27-M-06",
+          "title": "Stem-cell product provenance",
+          "level": "Mastery"
+        },
+        {
+          "id": "H27-M-07",
+          "title": "Exosome identity and cargo",
+          "level": "Mastery"
+        },
+        {
+          "id": "H27-M-08",
+          "title": "Compounded product versus approved product",
+          "level": "Mastery"
+        },
+        {
+          "id": "H27-A-01",
+          "title": "Preclinical-to-human translation gaps",
+          "level": "Advanced"
+        },
+        {
+          "id": "H27-A-02",
+          "title": "Human trial design and adverse events",
+          "level": "Advanced"
+        },
+        {
+          "id": "H27-A-03",
+          "title": "Aggregation impurities and stability",
+          "level": "Advanced"
+        },
+        {
+          "id": "H27-A-04",
+          "title": "Indication-specific approval verification",
+          "level": "Advanced"
+        },
+        {
+          "id": "H27-A-05",
+          "title": "Long-term safety and tumor-related uncertainty",
+          "level": "Advanced"
+        },
+        {
+          "id": "H27-A-06",
+          "title": "Peptide clinic consent and advertising",
+          "level": "Advanced"
+        },
+        {
+          "id": "H27-A-07",
+          "title": "Sports eligibility and prohibited-list research",
+          "level": "Advanced"
+        },
+        {
+          "id": "H27-A-08",
+          "title": "Clinical trial participation navigation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H27-R-01",
+          "title": "Tissue-specific regenerative approaches",
+          "level": "Frontier"
+        },
+        {
+          "id": "H27-R-02",
+          "title": "Engineered extracellular vesicles",
+          "level": "Frontier"
+        },
+        {
+          "id": "H27-R-03",
+          "title": "Peptide discovery platforms",
+          "level": "Frontier"
+        },
+        {
+          "id": "H27-R-04",
+          "title": "Biologic delivery innovations",
+          "level": "Frontier"
+        },
+        {
+          "id": "H27-R-05",
+          "title": "Cell-free regenerative products",
+          "level": "Frontier"
+        },
+        {
+          "id": "H27-R-06",
+          "title": "First-in-human trial appraisal",
+          "level": "Frontier"
+        },
+        {
+          "id": "H27-R-07",
+          "title": "Regulatory and advisory-meeting surveillance",
+          "level": "Frontier"
+        },
+        {
+          "id": "H27-R-08",
+          "title": "Negative results and publication gap tracking",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H28",
+      "title": "Biohacking, Enhancement & Experimental Interventions",
+      "aliases": [
+        "biohacking",
+        "enhancement",
+        "experimental health",
+        "optimization",
+        "hormesis"
+      ],
+      "outcome": "Map emerging practices rigorously without offering risky self-experiment protocols or sourcing.",
+      "topics": [
+        {
+          "id": "H28-F-01",
+          "title": "Definition and scope of biohacking",
+          "level": "Foundation"
+        },
+        {
+          "id": "H28-F-02",
+          "title": "Optimization versus disease care",
+          "level": "Foundation"
+        },
+        {
+          "id": "H28-F-03",
+          "title": "Risk benefit cost and reversibility",
+          "level": "Foundation"
+        },
+        {
+          "id": "H28-F-04",
+          "title": "Hormesis and dose-response concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H28-F-05",
+          "title": "Placebo ritual and expectancy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H28-F-06",
+          "title": "Opportunity costs of elaborate routines",
+          "level": "Foundation"
+        },
+        {
+          "id": "H28-F-07",
+          "title": "Unapproved and off-label distinctions",
+          "level": "Foundation"
+        },
+        {
+          "id": "H28-F-08",
+          "title": "Ethics and informed consent",
+          "level": "Foundation"
+        },
+        {
+          "id": "H28-M-01",
+          "title": "Fasting and time-restricted eating evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H28-M-02",
+          "title": "Ketogenic diet and ketone products",
+          "level": "Mastery"
+        },
+        {
+          "id": "H28-M-03",
+          "title": "Nootropic and stimulant claims",
+          "level": "Mastery"
+        },
+        {
+          "id": "H28-M-04",
+          "title": "Red-light device evidence by indication",
+          "level": "Mastery"
+        },
+        {
+          "id": "H28-M-05",
+          "title": "Hyperbaric oxygen indication distinctions",
+          "level": "Mastery"
+        },
+        {
+          "id": "H28-M-06",
+          "title": "IV vitamin and NAD infusion claims",
+          "level": "Mastery"
+        },
+        {
+          "id": "H28-M-07",
+          "title": "Electrical stimulation enhancement claims",
+          "level": "Mastery"
+        },
+        {
+          "id": "H28-M-08",
+          "title": "Grounding detox and wellness marketing claims",
+          "level": "Mastery"
+        },
+        {
+          "id": "H28-A-01",
+          "title": "Prolonged fasting clinical risks",
+          "level": "Advanced"
+        },
+        {
+          "id": "H28-A-02",
+          "title": "SARMs anabolic agents and endocrine harm literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H28-A-03",
+          "title": "Psychedelic-assisted treatment versus unsupervised use",
+          "level": "Advanced"
+        },
+        {
+          "id": "H28-A-04",
+          "title": "Methylene blue interaction and evidence literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H28-A-05",
+          "title": "Ozone therapy claims and regulatory research",
+          "level": "Advanced"
+        },
+        {
+          "id": "H28-A-06",
+          "title": "Combined-intervention attribution problems",
+          "level": "Advanced"
+        },
+        {
+          "id": "H28-A-07",
+          "title": "Self-experiment exclusion and stopping criteria",
+          "level": "Advanced"
+        },
+        {
+          "id": "H28-A-08",
+          "title": "Experimental clinics and informed-consent quality",
+          "level": "Advanced"
+        },
+        {
+          "id": "H28-R-01",
+          "title": "Implantable biosensors",
+          "level": "Frontier"
+        },
+        {
+          "id": "H28-R-02",
+          "title": "Gene-editing enhancement hypotheses",
+          "level": "Frontier"
+        },
+        {
+          "id": "H28-R-03",
+          "title": "Synthetic biology personal health claims",
+          "level": "Frontier"
+        },
+        {
+          "id": "H28-R-04",
+          "title": "Brain-computer enhancement research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H28-R-05",
+          "title": "Personalized hormesis models",
+          "level": "Frontier"
+        },
+        {
+          "id": "H28-R-06",
+          "title": "Novel mitochondrial therapies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H28-R-07",
+          "title": "AI-designed intervention stacks critique",
+          "level": "Frontier"
+        },
+        {
+          "id": "H28-R-08",
+          "title": "Long-term experimental-intervention registries",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H29",
+      "title": "Environmental, Occupational & Exposure Health",
+      "aliases": [
+        "environmental health",
+        "occupational health",
+        "exposure",
+        "endocrine disruptors",
+        "air quality"
+      ],
+      "outcome": "Explain exposure pathways and practical care navigation without exaggerated detox claims.",
+      "topics": [
+        {
+          "id": "H29-F-01",
+          "title": "Hazard exposure dose and risk",
+          "level": "Foundation"
+        },
+        {
+          "id": "H29-F-02",
+          "title": "Air water and food exposure routes",
+          "level": "Foundation"
+        },
+        {
+          "id": "H29-F-03",
+          "title": "Occupational health history",
+          "level": "Foundation"
+        },
+        {
+          "id": "H29-F-04",
+          "title": "Noise and hearing protection",
+          "level": "Foundation"
+        },
+        {
+          "id": "H29-F-05",
+          "title": "Heat cold and physical workload",
+          "level": "Foundation"
+        },
+        {
+          "id": "H29-F-06",
+          "title": "Sun and ultraviolet exposure",
+          "level": "Foundation"
+        },
+        {
+          "id": "H29-F-07",
+          "title": "Indoor ventilation and air quality",
+          "level": "Foundation"
+        },
+        {
+          "id": "H29-F-08",
+          "title": "Smoking and secondhand exposure",
+          "level": "Foundation"
+        },
+        {
+          "id": "H29-M-01",
+          "title": "Radon and lung-health research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H29-M-02",
+          "title": "Lead mercury and exposure testing literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H29-M-03",
+          "title": "Solvents dust and workplace controls",
+          "level": "Mastery"
+        },
+        {
+          "id": "H29-M-04",
+          "title": "Shift work and health",
+          "level": "Mastery"
+        },
+        {
+          "id": "H29-M-05",
+          "title": "Endocrine-disrupting chemical evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H29-M-06",
+          "title": "Pesticide and reproductive health studies",
+          "level": "Mastery"
+        },
+        {
+          "id": "H29-M-07",
+          "title": "Mold concerns and assessment boundaries",
+          "level": "Mastery"
+        },
+        {
+          "id": "H29-M-08",
+          "title": "Protective equipment and hierarchy of controls",
+          "level": "Mastery"
+        },
+        {
+          "id": "H29-A-01",
+          "title": "Exposure biomarker interpretation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H29-A-02",
+          "title": "PFAS and microplastic study limitations",
+          "level": "Advanced"
+        },
+        {
+          "id": "H29-A-03",
+          "title": "Environmental confounding and causality",
+          "level": "Advanced"
+        },
+        {
+          "id": "H29-A-04",
+          "title": "Heat illness and occupational protocols",
+          "level": "Advanced"
+        },
+        {
+          "id": "H29-A-05",
+          "title": "Occupational cancer risk literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H29-A-06",
+          "title": "Heavy-metal chelation clinical scope",
+          "level": "Advanced"
+        },
+        {
+          "id": "H29-A-07",
+          "title": "Commercial toxin-panel validity",
+          "level": "Advanced"
+        },
+        {
+          "id": "H29-A-08",
+          "title": "Environmental justice and unequal exposure",
+          "level": "Advanced"
+        },
+        {
+          "id": "H29-R-01",
+          "title": "Wearable exposure sensors",
+          "level": "Frontier"
+        },
+        {
+          "id": "H29-R-02",
+          "title": "Exposomics",
+          "level": "Frontier"
+        },
+        {
+          "id": "H29-R-03",
+          "title": "Microplastic human-outcome research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H29-R-04",
+          "title": "Climate-related men's health risks",
+          "level": "Frontier"
+        },
+        {
+          "id": "H29-R-05",
+          "title": "New endocrine-disruptor assessments",
+          "level": "Frontier"
+        },
+        {
+          "id": "H29-R-06",
+          "title": "AI exposure-risk mapping",
+          "level": "Frontier"
+        },
+        {
+          "id": "H29-R-07",
+          "title": "Personalized environmental interventions",
+          "level": "Frontier"
+        },
+        {
+          "id": "H29-R-08",
+          "title": "Longitudinal occupational cohorts",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H30",
+      "title": "Substances, Addiction & Harm Reduction",
+      "aliases": [
+        "substance use",
+        "addiction",
+        "alcohol",
+        "nicotine",
+        "cannabis",
+        "harm reduction"
+      ],
+      "outcome": "Support nonjudgmental literacy and professional help-seeking without unsafe withdrawal or drug-use instructions.",
+      "topics": [
+        {
+          "id": "H30-F-01",
+          "title": "Use risky use and substance use disorder",
+          "level": "Foundation"
+        },
+        {
+          "id": "H30-F-02",
+          "title": "Dependence tolerance and withdrawal",
+          "level": "Foundation"
+        },
+        {
+          "id": "H30-F-03",
+          "title": "Alcohol nicotine cannabis and stimulants",
+          "level": "Foundation"
+        },
+        {
+          "id": "H30-F-04",
+          "title": "Overdose recognition and emergency support",
+          "level": "Foundation"
+        },
+        {
+          "id": "H30-F-05",
+          "title": "Addiction stigma and recovery",
+          "level": "Foundation"
+        },
+        {
+          "id": "H30-F-06",
+          "title": "Substance effects on sleep mood and performance",
+          "level": "Foundation"
+        },
+        {
+          "id": "H30-F-07",
+          "title": "Polysubstance use concepts",
+          "level": "Foundation"
+        },
+        {
+          "id": "H30-F-08",
+          "title": "Confidentiality and support options",
+          "level": "Foundation"
+        },
+        {
+          "id": "H30-M-01",
+          "title": "Alcohol screening and care pathways",
+          "level": "Mastery"
+        },
+        {
+          "id": "H30-M-02",
+          "title": "Smoking cessation treatment categories",
+          "level": "Mastery"
+        },
+        {
+          "id": "H30-M-03",
+          "title": "Vaping and nicotine pouch evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H30-M-04",
+          "title": "Cannabis benefit-risk evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H30-M-05",
+          "title": "Opioid treatment and naloxone literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H30-M-06",
+          "title": "Stimulant use and cardiovascular concerns",
+          "level": "Mastery"
+        },
+        {
+          "id": "H30-M-07",
+          "title": "Peer support and relapse prevention",
+          "level": "Mastery"
+        },
+        {
+          "id": "H30-M-08",
+          "title": "Family and partner support",
+          "level": "Mastery"
+        },
+        {
+          "id": "H30-A-01",
+          "title": "Withdrawal requiring medical supervision",
+          "level": "Advanced"
+        },
+        {
+          "id": "H30-A-02",
+          "title": "Medication treatment evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H30-A-03",
+          "title": "Substance-medication interactions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H30-A-04",
+          "title": "Performance-enhancing drug dependence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H30-A-05",
+          "title": "Liver brain and endocrine effects",
+          "level": "Advanced"
+        },
+        {
+          "id": "H30-A-06",
+          "title": "Harm reduction evidence appraisal",
+          "level": "Advanced"
+        },
+        {
+          "id": "H30-A-07",
+          "title": "Co-occurring mental illness",
+          "level": "Advanced"
+        },
+        {
+          "id": "H30-A-08",
+          "title": "Commercial detox program claims",
+          "level": "Advanced"
+        },
+        {
+          "id": "H30-R-01",
+          "title": "Digital addiction treatment trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H30-R-02",
+          "title": "Novel smoking-cessation research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H30-R-03",
+          "title": "Long-term vaping outcome studies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H30-R-04",
+          "title": "Cannabis potency and emerging products",
+          "level": "Frontier"
+        },
+        {
+          "id": "H30-R-05",
+          "title": "AI relapse prediction privacy",
+          "level": "Frontier"
+        },
+        {
+          "id": "H30-R-06",
+          "title": "Psychedelic addiction treatment trials",
+          "level": "Frontier"
+        },
+        {
+          "id": "H30-R-07",
+          "title": "New overdose-prevention technologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H30-R-08",
+          "title": "Recovery outcome measurement",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H31",
+      "title": "Life Stages, Relationships, Identity & Health Access",
+      "aliases": [
+        "life stages",
+        "men aging",
+        "relationships",
+        "health access",
+        "mens wellbeing"
+      ],
+      "outcome": "Make health education useful across ages, identities, disability, culture and real-world constraints.",
+      "topics": [
+        {
+          "id": "H31-F-01",
+          "title": "Adolescence young adulthood midlife and older age",
+          "level": "Foundation"
+        },
+        {
+          "id": "H31-F-02",
+          "title": "Sex anatomy gender and respectful language",
+          "level": "Foundation"
+        },
+        {
+          "id": "H31-F-03",
+          "title": "Disability and accessibility",
+          "level": "Foundation"
+        },
+        {
+          "id": "H31-F-04",
+          "title": "Social determinants of health",
+          "level": "Foundation"
+        },
+        {
+          "id": "H31-F-05",
+          "title": "Health literacy and numeracy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H31-F-06",
+          "title": "Relationships and social support",
+          "level": "Foundation"
+        },
+        {
+          "id": "H31-F-07",
+          "title": "Caregiving and fatherhood",
+          "level": "Foundation"
+        },
+        {
+          "id": "H31-F-08",
+          "title": "Autonomy preferences and consent",
+          "level": "Foundation"
+        },
+        {
+          "id": "H31-M-01",
+          "title": "Young-adult primary-care engagement",
+          "level": "Mastery"
+        },
+        {
+          "id": "H31-M-02",
+          "title": "Midlife health transitions",
+          "level": "Mastery"
+        },
+        {
+          "id": "H31-M-03",
+          "title": "Healthy aging and independence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H31-M-04",
+          "title": "Transgender and intersex men's care literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H31-M-05",
+          "title": "Cultural and religious health preferences",
+          "level": "Mastery"
+        },
+        {
+          "id": "H31-M-06",
+          "title": "Shift workers and limited-time routines",
+          "level": "Mastery"
+        },
+        {
+          "id": "H31-M-07",
+          "title": "Food housing and financial insecurity",
+          "level": "Mastery"
+        },
+        {
+          "id": "H31-M-08",
+          "title": "Partner communication and shared goals",
+          "level": "Mastery"
+        },
+        {
+          "id": "H31-A-01",
+          "title": "Care coordination across specialists",
+          "level": "Advanced"
+        },
+        {
+          "id": "H31-A-02",
+          "title": "Fertility family planning and identity",
+          "level": "Advanced"
+        },
+        {
+          "id": "H31-A-03",
+          "title": "Gender-affirming hormone care scope",
+          "level": "Advanced"
+        },
+        {
+          "id": "H31-A-04",
+          "title": "Chronic illness and disability adaptation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H31-A-05",
+          "title": "Trauma and medical mistrust",
+          "level": "Advanced"
+        },
+        {
+          "id": "H31-A-06",
+          "title": "Sexual orientation and inclusive prevention",
+          "level": "Advanced"
+        },
+        {
+          "id": "H31-A-07",
+          "title": "Caregiver burden and grief",
+          "level": "Advanced"
+        },
+        {
+          "id": "H31-A-08",
+          "title": "Avoiding population-average stereotypes",
+          "level": "Advanced"
+        },
+        {
+          "id": "H31-R-01",
+          "title": "Equity in precision health",
+          "level": "Frontier"
+        },
+        {
+          "id": "H31-R-02",
+          "title": "Digital access and algorithm bias",
+          "level": "Frontier"
+        },
+        {
+          "id": "H31-R-03",
+          "title": "Community-led men's health programs",
+          "level": "Frontier"
+        },
+        {
+          "id": "H31-R-04",
+          "title": "Remote care accessibility",
+          "level": "Frontier"
+        },
+        {
+          "id": "H31-R-05",
+          "title": "Inclusive clinical trial recruitment",
+          "level": "Frontier"
+        },
+        {
+          "id": "H31-R-06",
+          "title": "Participatory health research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H31-R-07",
+          "title": "Longitudinal social connection interventions",
+          "level": "Frontier"
+        },
+        {
+          "id": "H31-R-08",
+          "title": "Measuring wellbeing beyond biometrics",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H32",
+      "title": "Cassius Health Consultation & Care Navigation",
+      "aliases": [
+        "health consultation",
+        "wellness consultation",
+        "health plan",
+        "wellness plan",
+        "care navigation"
+      ],
+      "outcome": "Ask useful questions, explain uncertainty and prepare clinical conversations while preserving privacy and autonomy.",
+      "topics": [
+        {
+          "id": "H32-F-01",
+          "title": "Goal and scope clarification",
+          "level": "Foundation"
+        },
+        {
+          "id": "H32-F-02",
+          "title": "Immediate concern versus general education",
+          "level": "Foundation"
+        },
+        {
+          "id": "H32-F-03",
+          "title": "Minimal relevant intake",
+          "level": "Foundation"
+        },
+        {
+          "id": "H32-F-04",
+          "title": "Reported urgent symptoms and crisis routing",
+          "level": "Foundation"
+        },
+        {
+          "id": "H32-F-05",
+          "title": "Consent and sensitive-data boundaries",
+          "level": "Foundation"
+        },
+        {
+          "id": "H32-F-06",
+          "title": "Clinician pharmacist dietitian and trainer roles",
+          "level": "Foundation"
+        },
+        {
+          "id": "H32-F-07",
+          "title": "Values budget time and access",
+          "level": "Foundation"
+        },
+        {
+          "id": "H32-F-08",
+          "title": "No diagnosis prescribing or medical clearance",
+          "level": "Foundation"
+        },
+        {
+          "id": "H32-M-01",
+          "title": "Sleep nutrition movement and stress intake",
+          "level": "Mastery"
+        },
+        {
+          "id": "H32-M-02",
+          "title": "Medication and supplement reconciliation prompts",
+          "level": "Mastery"
+        },
+        {
+          "id": "H32-M-03",
+          "title": "Health history without oversharing",
+          "level": "Mastery"
+        },
+        {
+          "id": "H32-M-04",
+          "title": "Hormone and fertility goal clarification",
+          "level": "Mastery"
+        },
+        {
+          "id": "H32-M-05",
+          "title": "Preparing questions for a clinician",
+          "level": "Mastery"
+        },
+        {
+          "id": "H32-M-06",
+          "title": "Evidence-first option discussion",
+          "level": "Mastery"
+        },
+        {
+          "id": "H32-M-07",
+          "title": "Avoiding supplement-first sales",
+          "level": "Mastery"
+        },
+        {
+          "id": "H32-M-08",
+          "title": "Follow-up goals and usability feedback",
+          "level": "Mastery"
+        },
+        {
+          "id": "H32-A-01",
+          "title": "Conflicting goals and care plans",
+          "level": "Advanced"
+        },
+        {
+          "id": "H32-A-02",
+          "title": "Symptom and lab interpretation boundaries",
+          "level": "Advanced"
+        },
+        {
+          "id": "H32-A-03",
+          "title": "Multiple conditions and professional coordination",
+          "level": "Advanced"
+        },
+        {
+          "id": "H32-A-04",
+          "title": "Applicability filtering and evidence gaps",
+          "level": "Advanced"
+        },
+        {
+          "id": "H32-A-05",
+          "title": "Shared decision summaries",
+          "level": "Advanced"
+        },
+        {
+          "id": "H32-A-06",
+          "title": "Cumulative intervention burden",
+          "level": "Advanced"
+        },
+        {
+          "id": "H32-A-07",
+          "title": "Commercial conflict disclosure",
+          "level": "Advanced"
+        },
+        {
+          "id": "H32-A-08",
+          "title": "Adversarial safety and abstention evaluation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H32-R-01",
+          "title": "Privacy-preserving personalization",
+          "level": "Frontier"
+        },
+        {
+          "id": "H32-R-02",
+          "title": "AI care-navigation evaluation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H32-R-03",
+          "title": "Longitudinal outcome attribution",
+          "level": "Frontier"
+        },
+        {
+          "id": "H32-R-04",
+          "title": "Confidence calibration across groups",
+          "level": "Frontier"
+        },
+        {
+          "id": "H32-R-05",
+          "title": "Human-review feedback governance",
+          "level": "Frontier"
+        },
+        {
+          "id": "H32-R-06",
+          "title": "Multilingual health communication",
+          "level": "Frontier"
+        },
+        {
+          "id": "H32-R-07",
+          "title": "Clinical integration consent design",
+          "level": "Frontier"
+        },
+        {
+          "id": "H32-R-08",
+          "title": "Model and policy change surveillance",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H33",
+      "title": "Respiratory, Lung & Breathing Health",
+      "aliases": [
+        "lung health",
+        "respiratory",
+        "asthma",
+        "breathing",
+        "copd"
+      ],
+      "outcome": "Explain lung-health literacy and care pathways without interpreting symptoms as fitness limitations alone.",
+      "topics": [
+        {
+          "id": "H33-F-01",
+          "title": "Airways lungs and gas exchange",
+          "level": "Foundation"
+        },
+        {
+          "id": "H33-F-02",
+          "title": "Breathing mechanics",
+          "level": "Foundation"
+        },
+        {
+          "id": "H33-F-03",
+          "title": "Breathlessness versus normal exertion",
+          "level": "Foundation"
+        },
+        {
+          "id": "H33-F-04",
+          "title": "Asthma and COPD overview",
+          "level": "Foundation"
+        },
+        {
+          "id": "H33-F-05",
+          "title": "Smoking and inhaled exposures",
+          "level": "Foundation"
+        },
+        {
+          "id": "H33-F-06",
+          "title": "Respiratory infection literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H33-F-07",
+          "title": "Pulse oximetry limitations",
+          "level": "Foundation"
+        },
+        {
+          "id": "H33-F-08",
+          "title": "Urgent breathing symptom awareness",
+          "level": "Foundation"
+        },
+        {
+          "id": "H33-M-01",
+          "title": "Asthma assessment and inhaler literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H33-M-02",
+          "title": "COPD prevention and care navigation",
+          "level": "Mastery"
+        },
+        {
+          "id": "H33-M-03",
+          "title": "Allergy and upper-airway concerns",
+          "level": "Mastery"
+        },
+        {
+          "id": "H33-M-04",
+          "title": "Exercise-induced breathing symptoms",
+          "level": "Mastery"
+        },
+        {
+          "id": "H33-M-05",
+          "title": "Sleep-disordered breathing links",
+          "level": "Mastery"
+        },
+        {
+          "id": "H33-M-06",
+          "title": "Vaccination and respiratory prevention research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H33-M-07",
+          "title": "Pulmonary rehabilitation overview",
+          "level": "Mastery"
+        },
+        {
+          "id": "H33-M-08",
+          "title": "Workplace dust and fumes",
+          "level": "Mastery"
+        },
+        {
+          "id": "H33-A-01",
+          "title": "Spirometry and pulmonary function tests",
+          "level": "Advanced"
+        },
+        {
+          "id": "H33-A-02",
+          "title": "Oxygen therapy clinical scope",
+          "level": "Advanced"
+        },
+        {
+          "id": "H33-A-03",
+          "title": "Pulse-oximeter bias and artifacts",
+          "level": "Advanced"
+        },
+        {
+          "id": "H33-A-04",
+          "title": "Chronic cough evaluation literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H33-A-05",
+          "title": "Post-infectious breathlessness",
+          "level": "Advanced"
+        },
+        {
+          "id": "H33-A-06",
+          "title": "Altitude hypoxia and lung disease",
+          "level": "Advanced"
+        },
+        {
+          "id": "H33-A-07",
+          "title": "Breathing retraining evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H33-A-08",
+          "title": "Respiratory medication adherence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H33-R-01",
+          "title": "Wearable respiratory monitoring",
+          "level": "Frontier"
+        },
+        {
+          "id": "H33-R-02",
+          "title": "AI lung imaging",
+          "level": "Frontier"
+        },
+        {
+          "id": "H33-R-03",
+          "title": "Home spirometry validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H33-R-04",
+          "title": "Novel asthma biologics",
+          "level": "Frontier"
+        },
+        {
+          "id": "H33-R-05",
+          "title": "Lung regeneration research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H33-R-06",
+          "title": "Long-COVID pulmonary outcomes",
+          "level": "Frontier"
+        },
+        {
+          "id": "H33-R-07",
+          "title": "Digital inhaler technologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H33-R-08",
+          "title": "Air-quality personalized warning systems",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H34",
+      "title": "Cancer Literacy, Risk & Survivorship",
+      "aliases": [
+        "cancer",
+        "oncology",
+        "survivorship",
+        "cancer screening",
+        "prostate cancer"
+      ],
+      "outcome": "Explain risk and care-navigation concepts without screening promises, diagnosis or treatment substitution.",
+      "topics": [
+        {
+          "id": "H34-F-01",
+          "title": "Cancer biology overview",
+          "level": "Foundation"
+        },
+        {
+          "id": "H34-F-02",
+          "title": "Risk factors and inherited susceptibility",
+          "level": "Foundation"
+        },
+        {
+          "id": "H34-F-03",
+          "title": "Screening versus symptom evaluation",
+          "level": "Foundation"
+        },
+        {
+          "id": "H34-F-04",
+          "title": "Stage grade and prognosis terminology",
+          "level": "Foundation"
+        },
+        {
+          "id": "H34-F-05",
+          "title": "Biopsy and diagnosis scope",
+          "level": "Foundation"
+        },
+        {
+          "id": "H34-F-06",
+          "title": "Treatment category overview",
+          "level": "Foundation"
+        },
+        {
+          "id": "H34-F-07",
+          "title": "Supportive care and quality of life",
+          "level": "Foundation"
+        },
+        {
+          "id": "H34-F-08",
+          "title": "Misinformation and miracle-cure claims",
+          "level": "Foundation"
+        },
+        {
+          "id": "H34-M-01",
+          "title": "Prostate cancer screening conversations",
+          "level": "Mastery"
+        },
+        {
+          "id": "H34-M-02",
+          "title": "Colorectal cancer screening research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H34-M-03",
+          "title": "Lung cancer screening eligibility research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H34-M-04",
+          "title": "Skin cancer prevention and lesion referral",
+          "level": "Mastery"
+        },
+        {
+          "id": "H34-M-05",
+          "title": "Testicular symptom awareness",
+          "level": "Mastery"
+        },
+        {
+          "id": "H34-M-06",
+          "title": "Family-history genetic counseling",
+          "level": "Mastery"
+        },
+        {
+          "id": "H34-M-07",
+          "title": "Nutrition movement and cancer care",
+          "level": "Mastery"
+        },
+        {
+          "id": "H34-M-08",
+          "title": "Sexual and fertility effects of treatment",
+          "level": "Mastery"
+        },
+        {
+          "id": "H34-A-01",
+          "title": "Overdiagnosis lead-time and length bias",
+          "level": "Advanced"
+        },
+        {
+          "id": "H34-A-02",
+          "title": "Absolute benefits and harms of screening",
+          "level": "Advanced"
+        },
+        {
+          "id": "H34-A-03",
+          "title": "Active surveillance concepts",
+          "level": "Advanced"
+        },
+        {
+          "id": "H34-A-04",
+          "title": "Treatment trial endpoints",
+          "level": "Advanced"
+        },
+        {
+          "id": "H34-A-05",
+          "title": "Survivorship care plans",
+          "level": "Advanced"
+        },
+        {
+          "id": "H34-A-06",
+          "title": "Late treatment effects",
+          "level": "Advanced"
+        },
+        {
+          "id": "H34-A-07",
+          "title": "Supplement-treatment interaction literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H34-A-08",
+          "title": "Palliative care versus end-of-life assumptions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H34-R-01",
+          "title": "Multicancer early detection validation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H34-R-02",
+          "title": "Liquid biopsy applications",
+          "level": "Frontier"
+        },
+        {
+          "id": "H34-R-03",
+          "title": "Cancer vaccine research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H34-R-04",
+          "title": "Precision oncology biomarker limits",
+          "level": "Frontier"
+        },
+        {
+          "id": "H34-R-05",
+          "title": "AI cancer-risk prediction",
+          "level": "Frontier"
+        },
+        {
+          "id": "H34-R-06",
+          "title": "Cellular immunotherapy advances",
+          "level": "Frontier"
+        },
+        {
+          "id": "H34-R-07",
+          "title": "Minimal residual disease testing",
+          "level": "Frontier"
+        },
+        {
+          "id": "H34-R-08",
+          "title": "Survivorship digital support trials",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H35",
+      "title": "Oral, Dental, Vision & Hearing Health",
+      "aliases": [
+        "oral health",
+        "dental",
+        "vision",
+        "hearing",
+        "eye health",
+        "sensory health"
+      ],
+      "outcome": "Include neglected oral and sensory health in whole-person prevention and function.",
+      "topics": [
+        {
+          "id": "H35-F-01",
+          "title": "Teeth gums and oral hygiene",
+          "level": "Foundation"
+        },
+        {
+          "id": "H35-F-02",
+          "title": "Dental caries and periodontal disease literacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H35-F-03",
+          "title": "Vision and eye anatomy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H35-F-04",
+          "title": "Hearing and ear anatomy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H35-F-05",
+          "title": "Routine dental and sensory care",
+          "level": "Foundation"
+        },
+        {
+          "id": "H35-F-06",
+          "title": "Tobacco and oral health",
+          "level": "Foundation"
+        },
+        {
+          "id": "H35-F-07",
+          "title": "Protective eyewear and hearing protection",
+          "level": "Foundation"
+        },
+        {
+          "id": "H35-F-08",
+          "title": "Acute vision hearing or dental symptom referral",
+          "level": "Foundation"
+        },
+        {
+          "id": "H35-M-01",
+          "title": "Brushing flossing and interdental evidence",
+          "level": "Mastery"
+        },
+        {
+          "id": "H35-M-02",
+          "title": "Dental product claim literacy",
+          "level": "Mastery"
+        },
+        {
+          "id": "H35-M-03",
+          "title": "Dry mouth and medication effects",
+          "level": "Mastery"
+        },
+        {
+          "id": "H35-M-04",
+          "title": "Bruxism and jaw pain pathways",
+          "level": "Mastery"
+        },
+        {
+          "id": "H35-M-05",
+          "title": "Vision correction and eye-strain concerns",
+          "level": "Mastery"
+        },
+        {
+          "id": "H35-M-06",
+          "title": "Hearing testing and assistive devices",
+          "level": "Mastery"
+        },
+        {
+          "id": "H35-M-07",
+          "title": "Occupational noise and vision exposure",
+          "level": "Mastery"
+        },
+        {
+          "id": "H35-M-08",
+          "title": "Access and affordability of care",
+          "level": "Mastery"
+        },
+        {
+          "id": "H35-A-01",
+          "title": "Oral-systemic health association limits",
+          "level": "Advanced"
+        },
+        {
+          "id": "H35-A-02",
+          "title": "Periodontal treatment outcome evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H35-A-03",
+          "title": "Diabetes and oral/eye care coordination",
+          "level": "Advanced"
+        },
+        {
+          "id": "H35-A-04",
+          "title": "Retinal screening literacy",
+          "level": "Advanced"
+        },
+        {
+          "id": "H35-A-05",
+          "title": "Age-related sensory changes",
+          "level": "Advanced"
+        },
+        {
+          "id": "H35-A-06",
+          "title": "Hearing and cognitive health evidence",
+          "level": "Advanced"
+        },
+        {
+          "id": "H35-A-07",
+          "title": "Commercial oral microbiome tests",
+          "level": "Advanced"
+        },
+        {
+          "id": "H35-A-08",
+          "title": "Dental sleep-device professional scope",
+          "level": "Advanced"
+        },
+        {
+          "id": "H35-R-01",
+          "title": "Salivary diagnostic biomarkers",
+          "level": "Frontier"
+        },
+        {
+          "id": "H35-R-02",
+          "title": "AI dental imaging",
+          "level": "Frontier"
+        },
+        {
+          "id": "H35-R-03",
+          "title": "Smart hearing technologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H35-R-04",
+          "title": "Retinal biomarkers for systemic health",
+          "level": "Frontier"
+        },
+        {
+          "id": "H35-R-05",
+          "title": "Vision restoration research",
+          "level": "Frontier"
+        },
+        {
+          "id": "H35-R-06",
+          "title": "Digital eye-strain interventions",
+          "level": "Frontier"
+        },
+        {
+          "id": "H35-R-07",
+          "title": "Oral microbiome therapeutics",
+          "level": "Frontier"
+        },
+        {
+          "id": "H35-R-08",
+          "title": "Remote sensory screening validation",
+          "level": "Frontier"
+        }
+      ]
+    },
+    {
+      "id": "H36",
+      "title": "Health Product Development, Quality, Regulation & Claims",
+      "aliases": [
+        "health product development",
+        "supplement quality",
+        "health claims",
+        "regulation",
+        "gmp"
+      ],
+      "outcome": "Translate health-product ideas into governed research briefs without implying medical or advertising approval.",
+      "topics": [
+        {
+          "id": "H36-F-01",
+          "title": "Consumer need and intended use",
+          "level": "Foundation"
+        },
+        {
+          "id": "H36-F-02",
+          "title": "Supplement food drug and device categories",
+          "level": "Foundation"
+        },
+        {
+          "id": "H36-F-03",
+          "title": "Scientific claim versus approved marketing wording",
+          "level": "Foundation"
+        },
+        {
+          "id": "H36-F-04",
+          "title": "Ingredient and product identity",
+          "level": "Foundation"
+        },
+        {
+          "id": "H36-F-05",
+          "title": "Quality versus efficacy",
+          "level": "Foundation"
+        },
+        {
+          "id": "H36-F-06",
+          "title": "Manufacturer and reviewer responsibilities",
+          "level": "Foundation"
+        },
+        {
+          "id": "H36-F-07",
+          "title": "Jurisdiction and version dates",
+          "level": "Foundation"
+        },
+        {
+          "id": "H36-F-08",
+          "title": "Public versus confidential evidence",
+          "level": "Foundation"
+        },
+        {
+          "id": "H36-M-01",
+          "title": "Supplement formula brief",
+          "level": "Mastery"
+        },
+        {
+          "id": "H36-M-02",
+          "title": "Raw-material identity and specifications",
+          "level": "Mastery"
+        },
+        {
+          "id": "H36-M-03",
+          "title": "Contamination and adulteration testing",
+          "level": "Mastery"
+        },
+        {
+          "id": "H36-M-04",
+          "title": "Batch traceability and stability",
+          "level": "Mastery"
+        },
+        {
+          "id": "H36-M-05",
+          "title": "Label and allergen review research",
+          "level": "Mastery"
+        },
+        {
+          "id": "H36-M-06",
+          "title": "Third-party certification scope",
+          "level": "Mastery"
+        },
+        {
+          "id": "H36-M-07",
+          "title": "Claim substantiation dossiers",
+          "level": "Mastery"
+        },
+        {
+          "id": "H36-M-08",
+          "title": "Adverse-event and complaint processes",
+          "level": "Mastery"
+        },
+        {
+          "id": "H36-A-01",
+          "title": "GMP and quality-system research",
+          "level": "Advanced"
+        },
+        {
+          "id": "H36-A-02",
+          "title": "Clinical study design for finished products",
+          "level": "Advanced"
+        },
+        {
+          "id": "H36-A-03",
+          "title": "Bioavailability versus outcome substantiation",
+          "level": "Advanced"
+        },
+        {
+          "id": "H36-A-04",
+          "title": "Drug-device and software classification research",
+          "level": "Advanced"
+        },
+        {
+          "id": "H36-A-05",
+          "title": "FTC advertising evidence research",
+          "level": "Advanced"
+        },
+        {
+          "id": "H36-A-06",
+          "title": "Compounding rules and approved-drug distinctions",
+          "level": "Advanced"
+        },
+        {
+          "id": "H36-A-07",
+          "title": "Recall and safety-signal workflows",
+          "level": "Advanced"
+        },
+        {
+          "id": "H36-A-08",
+          "title": "Exact GGC product/formula evidence mapping",
+          "level": "Advanced"
+        },
+        {
+          "id": "H36-R-01",
+          "title": "Novel ingredient regulatory pathways",
+          "level": "Frontier"
+        },
+        {
+          "id": "H36-R-02",
+          "title": "AI health-claim monitoring",
+          "level": "Frontier"
+        },
+        {
+          "id": "H36-R-03",
+          "title": "Digital biomarker device regulation",
+          "level": "Frontier"
+        },
+        {
+          "id": "H36-R-04",
+          "title": "Personalized supplement manufacturing",
+          "level": "Frontier"
+        },
+        {
+          "id": "H36-R-05",
+          "title": "Post-market real-world evidence",
+          "level": "Frontier"
+        },
+        {
+          "id": "H36-R-06",
+          "title": "Supply-chain authenticity technologies",
+          "level": "Frontier"
+        },
+        {
+          "id": "H36-R-07",
+          "title": "Emerging biologic product oversight",
+          "level": "Frontier"
+        },
+        {
+          "id": "H36-R-08",
+          "title": "Living regulatory change registers",
+          "level": "Frontier"
+        }
+      ]
+    }
+  ]
+}

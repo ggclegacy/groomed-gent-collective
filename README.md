@@ -1,5 +1,9 @@
 # The Groomed Gent Collective
 
+## Current Cassius runtime
+
+Cassius now connects the existing Intelligence workspace to a server-only OpenAI Responses endpoint using `OPENAI_API_KEY`. It reuses the dated knowledge registry and grooming safety gates. See [runtime configuration and safeguards](docs/cassius/openai-runtime.md). Earlier checkpoint notes below describe prior disconnected states. No deployment was made by this integration task.
+
 ## Deploying this checkpoint on Vercel
 
 The default app now runs on **Next.js 16.3.4** with Node **24.x**. Import `ggclegacy/groomed-gent-collective`, choose `main`, root `.`, and the **Next.js** preset. Install with `npm ci`, build with `npm run build`, and leave the output directory at the framework default (`.next`). No environment variables or database migrations are needed to host the public, device-local preview.

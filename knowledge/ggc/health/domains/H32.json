@@ -1,0 +1,1518 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "H32",
+    "order": 32,
+    "title": "Cassius Health Consultation & Care Navigation",
+    "primaryLayer": "consultation-governance",
+    "secondaryLayers": [
+      "clinical-literacy"
+    ],
+    "aliases": [
+      "health consultation",
+      "wellness consultation",
+      "health plan",
+      "wellness plan",
+      "care navigation"
+    ],
+    "outcome": "Ask useful questions, explain uncertainty and prepare clinical conversations while preserving privacy and autonomy.",
+    "moduleIds": [
+      "H32-F",
+      "H32-M",
+      "H32-A",
+      "H32-R"
+    ],
+    "sourceSeedIds": [
+      "health-seed-uspstf",
+      "health-seed-nimh"
+    ],
+    "coverageGaps": [
+      "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+    ],
+    "groomingDomainIds": [
+      "D19"
+    ]
+  },
+  "modules": [
+    {
+      "id": "H32-F",
+      "domainId": "H32",
+      "level": "Foundation",
+      "title": "Cassius Health Consultation & Care Navigation — Foundation",
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H03-F",
+        "H22-F"
+      ],
+      "topicIds": [
+        "H32-F-01",
+        "H32-F-02",
+        "H32-F-03",
+        "H32-F-04",
+        "H32-F-05",
+        "H32-F-06",
+        "H32-F-07",
+        "H32-F-08"
+      ],
+      "assessment": "Define the concepts, distinguish common misconceptions and identify what requires clinical evaluation.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H32-M",
+      "domainId": "H32",
+      "level": "Mastery",
+      "title": "Cassius Health Consultation & Care Navigation — Mastery",
+      "prerequisiteModuleIds": [
+        "H32-F"
+      ],
+      "topicIds": [
+        "H32-M-01",
+        "H32-M-02",
+        "H32-M-03",
+        "H32-M-04",
+        "H32-M-05",
+        "H32-M-06",
+        "H32-M-07",
+        "H32-M-08"
+      ],
+      "assessment": "Compare practical questions and options using applicable reviewed evidence; include uncertainty and accessibility.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H32-A",
+      "domainId": "H32",
+      "level": "Advanced",
+      "title": "Cassius Health Consultation & Care Navigation — Advanced",
+      "prerequisiteModuleIds": [
+        "H32-M"
+      ],
+      "topicIds": [
+        "H32-A-01",
+        "H32-A-02",
+        "H32-A-03",
+        "H32-A-04",
+        "H32-A-05",
+        "H32-A-06",
+        "H32-A-07",
+        "H32-A-08"
+      ],
+      "assessment": "Critique a claim dossier for study design, effect size, harms, applicability and clinical scope.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H32-R",
+      "domainId": "H32",
+      "level": "Frontier",
+      "title": "Cassius Health Consultation & Care Navigation — Frontier",
+      "prerequisiteModuleIds": [
+        "H32-A"
+      ],
+      "topicIds": [
+        "H32-R-01",
+        "H32-R-02",
+        "H32-R-03",
+        "H32-R-04",
+        "H32-R-05",
+        "H32-R-06",
+        "H32-R-07",
+        "H32-R-08"
+      ],
+      "assessment": "Map human versus preclinical evidence, regulatory status and unanswered safety questions; do not produce a self-treatment protocol.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    }
+  ],
+  "topics": [
+    {
+      "id": "H32-F-01",
+      "domainId": "H32",
+      "moduleId": "H32-F",
+      "level": "Foundation",
+      "title": "Goal and scope clarification",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain goal and scope clarification, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H03-F",
+        "H22-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-F-02",
+      "domainId": "H32",
+      "moduleId": "H32-F",
+      "level": "Foundation",
+      "title": "Immediate concern versus general education",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain immediate concern versus general education, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H03-F",
+        "H22-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-F-03",
+      "domainId": "H32",
+      "moduleId": "H32-F",
+      "level": "Foundation",
+      "title": "Minimal relevant intake",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain minimal relevant intake, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H03-F",
+        "H22-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-F-04",
+      "domainId": "H32",
+      "moduleId": "H32-F",
+      "level": "Foundation",
+      "title": "Reported urgent symptoms and crisis routing",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain reported urgent symptoms and crisis routing, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H03-F",
+        "H22-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-F-05",
+      "domainId": "H32",
+      "moduleId": "H32-F",
+      "level": "Foundation",
+      "title": "Consent and sensitive-data boundaries",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain consent and sensitive-data boundaries, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H03-F",
+        "H22-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-F-06",
+      "domainId": "H32",
+      "moduleId": "H32-F",
+      "level": "Foundation",
+      "title": "Clinician pharmacist dietitian and trainer roles",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain clinician pharmacist dietitian and trainer roles, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H03-F",
+        "H22-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-F-07",
+      "domainId": "H32",
+      "moduleId": "H32-F",
+      "level": "Foundation",
+      "title": "Values budget time and access",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain values budget time and access, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H03-F",
+        "H22-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-F-08",
+      "domainId": "H32",
+      "moduleId": "H32-F",
+      "level": "Foundation",
+      "title": "No diagnosis prescribing or medical clearance",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain no diagnosis prescribing or medical clearance, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H03-F",
+        "H22-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-M-01",
+      "domainId": "H32",
+      "moduleId": "H32-M",
+      "level": "Mastery",
+      "title": "Sleep nutrition movement and stress intake",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing sleep nutrition movement and stress intake, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-M-02",
+      "domainId": "H32",
+      "moduleId": "H32-M",
+      "level": "Mastery",
+      "title": "Medication and supplement reconciliation prompts",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing medication and supplement reconciliation prompts, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-M-03",
+      "domainId": "H32",
+      "moduleId": "H32-M",
+      "level": "Mastery",
+      "title": "Health history without oversharing",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing health history without oversharing, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-M-04",
+      "domainId": "H32",
+      "moduleId": "H32-M",
+      "level": "Mastery",
+      "title": "Hormone and fertility goal clarification",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing hormone and fertility goal clarification, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-M-05",
+      "domainId": "H32",
+      "moduleId": "H32-M",
+      "level": "Mastery",
+      "title": "Preparing questions for a clinician",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing preparing questions for a clinician, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-M-06",
+      "domainId": "H32",
+      "moduleId": "H32-M",
+      "level": "Mastery",
+      "title": "Evidence-first option discussion",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing evidence-first option discussion, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-M-07",
+      "domainId": "H32",
+      "moduleId": "H32-M",
+      "level": "Mastery",
+      "title": "Avoiding supplement-first sales",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing avoiding supplement-first sales, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-M-08",
+      "domainId": "H32",
+      "moduleId": "H32-M",
+      "level": "Mastery",
+      "title": "Follow-up goals and usability feedback",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing follow-up goals and usability feedback, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-A-01",
+      "domainId": "H32",
+      "moduleId": "H32-A",
+      "level": "Advanced",
+      "title": "Conflicting goals and care plans",
+      "researchQuestions": [
+        "For conflicting goals and care plans, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-A-02",
+      "domainId": "H32",
+      "moduleId": "H32-A",
+      "level": "Advanced",
+      "title": "Symptom and lab interpretation boundaries",
+      "researchQuestions": [
+        "For symptom and lab interpretation boundaries, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-A-03",
+      "domainId": "H32",
+      "moduleId": "H32-A",
+      "level": "Advanced",
+      "title": "Multiple conditions and professional coordination",
+      "researchQuestions": [
+        "For multiple conditions and professional coordination, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-A-04",
+      "domainId": "H32",
+      "moduleId": "H32-A",
+      "level": "Advanced",
+      "title": "Applicability filtering and evidence gaps",
+      "researchQuestions": [
+        "For applicability filtering and evidence gaps, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-A-05",
+      "domainId": "H32",
+      "moduleId": "H32-A",
+      "level": "Advanced",
+      "title": "Shared decision summaries",
+      "researchQuestions": [
+        "For shared decision summaries, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-A-06",
+      "domainId": "H32",
+      "moduleId": "H32-A",
+      "level": "Advanced",
+      "title": "Cumulative intervention burden",
+      "researchQuestions": [
+        "For cumulative intervention burden, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-A-07",
+      "domainId": "H32",
+      "moduleId": "H32-A",
+      "level": "Advanced",
+      "title": "Commercial conflict disclosure",
+      "researchQuestions": [
+        "For commercial conflict disclosure, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-A-08",
+      "domainId": "H32",
+      "moduleId": "H32-A",
+      "level": "Advanced",
+      "title": "Adversarial safety and abstention evaluation",
+      "researchQuestions": [
+        "For adversarial safety and abstention evaluation, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-R-01",
+      "domainId": "H32",
+      "moduleId": "H32-R",
+      "level": "Frontier",
+      "title": "Privacy-preserving personalization",
+      "researchQuestions": [
+        "For privacy-preserving personalization, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-R-02",
+      "domainId": "H32",
+      "moduleId": "H32-R",
+      "level": "Frontier",
+      "title": "AI care-navigation evaluation",
+      "researchQuestions": [
+        "For ai care-navigation evaluation, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-R-03",
+      "domainId": "H32",
+      "moduleId": "H32-R",
+      "level": "Frontier",
+      "title": "Longitudinal outcome attribution",
+      "researchQuestions": [
+        "For longitudinal outcome attribution, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-R-04",
+      "domainId": "H32",
+      "moduleId": "H32-R",
+      "level": "Frontier",
+      "title": "Confidence calibration across groups",
+      "researchQuestions": [
+        "For confidence calibration across groups, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-R-05",
+      "domainId": "H32",
+      "moduleId": "H32-R",
+      "level": "Frontier",
+      "title": "Human-review feedback governance",
+      "researchQuestions": [
+        "For human-review feedback governance, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-R-06",
+      "domainId": "H32",
+      "moduleId": "H32-R",
+      "level": "Frontier",
+      "title": "Multilingual health communication",
+      "researchQuestions": [
+        "For multilingual health communication, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-R-07",
+      "domainId": "H32",
+      "moduleId": "H32-R",
+      "level": "Frontier",
+      "title": "Clinical integration consent design",
+      "researchQuestions": [
+        "For clinical integration consent design, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H32-R-08",
+      "domainId": "H32",
+      "moduleId": "H32-R",
+      "level": "Frontier",
+      "title": "Model and policy change surveillance",
+      "researchQuestions": [
+        "For model and policy change surveillance, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H32-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H03",
+        "H22"
+      ],
+      "sourceSeedIds": [
+        "health-seed-uspstf",
+        "health-seed-nimh"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    }
+  ]
+}

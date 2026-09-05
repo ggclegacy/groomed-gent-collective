@@ -1,0 +1,21 @@
+{
+  "id": "template-heritage",
+  "kind": "heritage",
+  "name": "Unfilled heritage research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "Template only; all substantive information awaits source ingestion and qualified review."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "regionCommunity": null,
+    "period": null,
+    "practice": null,
+    "primarySourceIds": [],
+    "provenanceLimits": [],
+    "attributionAndConsent": null,
+    "contemporaryApplicabilityLimits": []
+  }
+}

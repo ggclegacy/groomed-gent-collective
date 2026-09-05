@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ggc:grooming:consultation-plan",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "enum": [
+        "urgent-handoff",
+        "professional-handoff",
+        "clarify",
+        "research-needed"
+      ]
+    },
+    "domainIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "missingFields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "maxItems": 3
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "recommendation": {
+      "type": "null"
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "persistence": {
+      "const": "none"
+    }
+  },
+  "required": [
+    "version",
+    "state",
+    "domainIds",
+    "missingFields",
+    "questions",
+    "constraints",
+    "recommendation",
+    "reason",
+    "persistence"
+  ]
+}

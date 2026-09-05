@@ -1,0 +1,1401 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "H11",
+    "order": 11,
+    "title": "Sleep, Circadian Rhythm & Fatigue",
+    "primaryLayer": "daily-practice",
+    "secondaryLayers": [],
+    "aliases": [
+      "sleep",
+      "circadian",
+      "insomnia",
+      "fatigue",
+      "sleep apnea"
+    ],
+    "outcome": "Explain sleep fundamentals and persistent-fatigue assessment without substituting a supplement for diagnosis.",
+    "moduleIds": [
+      "H11-F",
+      "H11-M",
+      "H11-A",
+      "H11-R"
+    ],
+    "sourceSeedIds": [
+      "health-seed-nhlbi"
+    ],
+    "coverageGaps": [
+      "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+    ],
+    "groomingDomainIds": [
+      "D19"
+    ]
+  },
+  "modules": [
+    {
+      "id": "H11-F",
+      "domainId": "H11",
+      "level": "Foundation",
+      "title": "Sleep, Circadian Rhythm & Fatigue — Foundation",
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "topicIds": [
+        "H11-F-01",
+        "H11-F-02",
+        "H11-F-03",
+        "H11-F-04",
+        "H11-F-05",
+        "H11-F-06",
+        "H11-F-07",
+        "H11-F-08"
+      ],
+      "assessment": "Define the concepts, distinguish common misconceptions and identify what requires clinical evaluation.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H11-M",
+      "domainId": "H11",
+      "level": "Mastery",
+      "title": "Sleep, Circadian Rhythm & Fatigue — Mastery",
+      "prerequisiteModuleIds": [
+        "H11-F"
+      ],
+      "topicIds": [
+        "H11-M-01",
+        "H11-M-02",
+        "H11-M-03",
+        "H11-M-04",
+        "H11-M-05",
+        "H11-M-06",
+        "H11-M-07",
+        "H11-M-08"
+      ],
+      "assessment": "Compare practical questions and options using applicable reviewed evidence; include uncertainty and accessibility.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H11-A",
+      "domainId": "H11",
+      "level": "Advanced",
+      "title": "Sleep, Circadian Rhythm & Fatigue — Advanced",
+      "prerequisiteModuleIds": [
+        "H11-M"
+      ],
+      "topicIds": [
+        "H11-A-01",
+        "H11-A-02",
+        "H11-A-03",
+        "H11-A-04",
+        "H11-A-05",
+        "H11-A-06",
+        "H11-A-07",
+        "H11-A-08"
+      ],
+      "assessment": "Critique a claim dossier for study design, effect size, harms, applicability and clinical scope.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H11-R",
+      "domainId": "H11",
+      "level": "Frontier",
+      "title": "Sleep, Circadian Rhythm & Fatigue — Frontier",
+      "prerequisiteModuleIds": [
+        "H11-A"
+      ],
+      "topicIds": [
+        "H11-R-01",
+        "H11-R-02",
+        "H11-R-03",
+        "H11-R-04",
+        "H11-R-05",
+        "H11-R-06",
+        "H11-R-07",
+        "H11-R-08"
+      ],
+      "assessment": "Map human versus preclinical evidence, regulatory status and unanswered safety questions; do not produce a self-treatment protocol.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    }
+  ],
+  "topics": [
+    {
+      "id": "H11-F-01",
+      "domainId": "H11",
+      "moduleId": "H11-F",
+      "level": "Foundation",
+      "title": "Sleep stages and sleep pressure",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain sleep stages and sleep pressure, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-F-02",
+      "domainId": "H11",
+      "moduleId": "H11-F",
+      "level": "Foundation",
+      "title": "Circadian timing and light",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain circadian timing and light, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-F-03",
+      "domainId": "H11",
+      "moduleId": "H11-F",
+      "level": "Foundation",
+      "title": "Sleep opportunity and regularity",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain sleep opportunity and regularity, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-F-04",
+      "domainId": "H11",
+      "moduleId": "H11-F",
+      "level": "Foundation",
+      "title": "Daytime sleepiness versus fatigue",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain daytime sleepiness versus fatigue, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-F-05",
+      "domainId": "H11",
+      "moduleId": "H11-F",
+      "level": "Foundation",
+      "title": "Bedroom environment",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain bedroom environment, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-F-06",
+      "domainId": "H11",
+      "moduleId": "H11-F",
+      "level": "Foundation",
+      "title": "Caffeine alcohol and sleep",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain caffeine alcohol and sleep, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-F-07",
+      "domainId": "H11",
+      "moduleId": "H11-F",
+      "level": "Foundation",
+      "title": "Snoring and breathing disturbance literacy",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain snoring and breathing disturbance literacy, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-F-08",
+      "domainId": "H11",
+      "moduleId": "H11-F",
+      "level": "Foundation",
+      "title": "Sleep need variability",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain sleep need variability, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-M-01",
+      "domainId": "H11",
+      "moduleId": "H11-M",
+      "level": "Mastery",
+      "title": "Behavioral insomnia care overview",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing behavioral insomnia care overview, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-M-02",
+      "domainId": "H11",
+      "moduleId": "H11-M",
+      "level": "Mastery",
+      "title": "Sleep apnea evaluation pathways",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing sleep apnea evaluation pathways, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-M-03",
+      "domainId": "H11",
+      "moduleId": "H11-M",
+      "level": "Mastery",
+      "title": "Shift work and irregular schedules",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing shift work and irregular schedules, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-M-04",
+      "domainId": "H11",
+      "moduleId": "H11-M",
+      "level": "Mastery",
+      "title": "Jet lag and travel planning research",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing jet lag and travel planning research, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-M-05",
+      "domainId": "H11",
+      "moduleId": "H11-M",
+      "level": "Mastery",
+      "title": "Napping tradeoffs",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing napping tradeoffs, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-M-06",
+      "domainId": "H11",
+      "moduleId": "H11-M",
+      "level": "Mastery",
+      "title": "Exercise meal timing and sleep",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing exercise meal timing and sleep, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-M-07",
+      "domainId": "H11",
+      "moduleId": "H11-M",
+      "level": "Mastery",
+      "title": "Sleep diaries and symptom histories",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing sleep diaries and symptom histories, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-M-08",
+      "domainId": "H11",
+      "moduleId": "H11-M",
+      "level": "Mastery",
+      "title": "Caregiving stress and sleep constraints",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing caregiving stress and sleep constraints, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-A-01",
+      "domainId": "H11",
+      "moduleId": "H11-A",
+      "level": "Advanced",
+      "title": "Polysomnography versus home testing",
+      "researchQuestions": [
+        "For polysomnography versus home testing, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-A-02",
+      "domainId": "H11",
+      "moduleId": "H11-A",
+      "level": "Advanced",
+      "title": "Actigraphy and consumer sleep staging limits",
+      "researchQuestions": [
+        "For actigraphy and consumer sleep staging limits, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-A-03",
+      "domainId": "H11",
+      "moduleId": "H11-A",
+      "level": "Advanced",
+      "title": "CBT-I evidence and clinical delivery",
+      "researchQuestions": [
+        "For cbt-i evidence and clinical delivery, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-A-04",
+      "domainId": "H11",
+      "moduleId": "H11-A",
+      "level": "Advanced",
+      "title": "Circadian rhythm disorder literacy",
+      "researchQuestions": [
+        "For circadian rhythm disorder literacy, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-A-05",
+      "domainId": "H11",
+      "moduleId": "H11-A",
+      "level": "Advanced",
+      "title": "Sleep medication and melatonin evidence",
+      "researchQuestions": [
+        "For sleep medication and melatonin evidence, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-A-06",
+      "domainId": "H11",
+      "moduleId": "H11-A",
+      "level": "Advanced",
+      "title": "Restless legs and iron assessment literacy",
+      "researchQuestions": [
+        "For restless legs and iron assessment literacy, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-A-07",
+      "domainId": "H11",
+      "moduleId": "H11-A",
+      "level": "Advanced",
+      "title": "Sleep restriction risks and professional oversight",
+      "researchQuestions": [
+        "For sleep restriction risks and professional oversight, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-A-08",
+      "domainId": "H11",
+      "moduleId": "H11-A",
+      "level": "Advanced",
+      "title": "Fatigue differential and medical referral",
+      "researchQuestions": [
+        "For fatigue differential and medical referral, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-R-01",
+      "domainId": "H11",
+      "moduleId": "H11-R",
+      "level": "Frontier",
+      "title": "Closed-loop sleep stimulation",
+      "researchQuestions": [
+        "For closed-loop sleep stimulation, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-R-02",
+      "domainId": "H11",
+      "moduleId": "H11-R",
+      "level": "Frontier",
+      "title": "Wearable apnea detection validation",
+      "researchQuestions": [
+        "For wearable apnea detection validation, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-R-03",
+      "domainId": "H11",
+      "moduleId": "H11-R",
+      "level": "Frontier",
+      "title": "Personalized circadian biomarkers",
+      "researchQuestions": [
+        "For personalized circadian biomarkers, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-R-04",
+      "domainId": "H11",
+      "moduleId": "H11-R",
+      "level": "Frontier",
+      "title": "Sleep and glymphatic hypotheses",
+      "researchQuestions": [
+        "For sleep and glymphatic hypotheses, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-R-05",
+      "domainId": "H11",
+      "moduleId": "H11-R",
+      "level": "Frontier",
+      "title": "Digital insomnia therapy trials",
+      "researchQuestions": [
+        "For digital insomnia therapy trials, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-R-06",
+      "domainId": "H11",
+      "moduleId": "H11-R",
+      "level": "Frontier",
+      "title": "Novel orexin-pathway treatments",
+      "researchQuestions": [
+        "For novel orexin-pathway treatments, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-R-07",
+      "domainId": "H11",
+      "moduleId": "H11-R",
+      "level": "Frontier",
+      "title": "Sleep optimization algorithm bias",
+      "researchQuestions": [
+        "For sleep optimization algorithm bias, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H11-R-08",
+      "domainId": "H11",
+      "moduleId": "H11-R",
+      "level": "Frontier",
+      "title": "Long-term sleep intervention outcomes",
+      "researchQuestions": [
+        "For long-term sleep intervention outcomes, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H11-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-nhlbi"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    }
+  ]
+}

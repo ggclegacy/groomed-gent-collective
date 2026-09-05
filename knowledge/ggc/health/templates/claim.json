@@ -1,0 +1,53 @@
+{
+  "id": "health-template-claim",
+  "topicIds": [],
+  "statement": "Replace with one source-grounded, atomic claim before appraisal.",
+  "workflowState": "PLANNED",
+  "evidenceState": "UNASSESSED",
+  "provenanceStatus": "UNKNOWN",
+  "scope": "HEALTH_EDUCATION",
+  "applicability": {
+    "population": "Unknown; research required",
+    "bodySite": "Unknown; research required",
+    "materialIdentity": "Unknown; research required",
+    "concentration": null,
+    "vehicle": null,
+    "route": "Unknown; research required",
+    "frequency": null,
+    "duration": null,
+    "jurisdiction": null,
+    "limits": [],
+    "healthContext": "Unknown; research required",
+    "lifeStage": "Unknown",
+    "ageRange": null,
+    "sexAndAnatomy": null,
+    "baselineRisk": null,
+    "contraindications": null,
+    "interactionLimits": null
+  },
+  "studySummary": {
+    "design": "Unknown",
+    "sampleSize": null,
+    "comparator": null,
+    "outcomes": [],
+    "effectEstimate": null,
+    "uncertainty": "No evidence acquired",
+    "biasAndFunding": [],
+    "harms": []
+  },
+  "citations": [],
+  "conflictIds": [],
+  "reviews": [],
+  "publicSummary": null,
+  "visibility": "INTERNAL",
+  "supersedes": null,
+  "commercialApproval": {
+    "status": "NOT_REQUESTED",
+    "productId": null,
+    "formulaVersion": null,
+    "jurisdiction": null,
+    "approvedWording": null,
+    "approverId": null,
+    "expiresAt": null
+  }
+}

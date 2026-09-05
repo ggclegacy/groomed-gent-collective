@@ -1,0 +1,670 @@
+{
+  "version": "1.0.0",
+  "createdAt": "2026-09-05",
+  "origin": {
+    "conversationId": "6a9c82b2-f4f4-83ea-bf41-a4825ce0a2e1",
+    "title": "Research Cassius Grooming Expertise",
+    "interpretation": "The original response called the first 18 subject areas the mastery map, then added consultation intelligence as domain 19. All 19 are preserved in original order.",
+    "scope": "Editorial curriculum and infrastructure; no scientific claims certified by the originating conversation."
+  },
+  "levels": [
+    {
+      "id": "F",
+      "title": "Foundation",
+      "order": 1
+    },
+    {
+      "id": "M",
+      "title": "Mastery",
+      "order": 2
+    },
+    {
+      "id": "A",
+      "title": "Advanced",
+      "order": 3
+    },
+    {
+      "id": "R",
+      "title": "Frontier",
+      "order": 4
+    }
+  ],
+  "layers": [
+    {
+      "id": "fundamentals",
+      "title": "I — Fundamentals"
+    },
+    {
+      "id": "practice",
+      "title": "II — Practice"
+    },
+    {
+      "id": "product-science",
+      "title": "III — Product Science"
+    },
+    {
+      "id": "clinical-evidence",
+      "title": "IV — Clinical/Evidence Intelligence"
+    },
+    {
+      "id": "culture-heritage",
+      "title": "V — Culture & Heritage"
+    },
+    {
+      "id": "commercial",
+      "title": "VI — Commercial Intelligence"
+    }
+  ],
+  "domains": [
+    {
+      "id": "D01",
+      "order": 1,
+      "title": "Hair Biology & Hair Science",
+      "primaryLayer": "fundamentals",
+      "secondaryLayers": [],
+      "aliases": [
+        "hair biology",
+        "hair science",
+        "hair texture",
+        "porosity",
+        "curl pattern"
+      ],
+      "outcome": "Explain the hair properties that change cutting, cleansing and conditioning decisions.",
+      "moduleIds": [
+        "D01-F",
+        "D01-M",
+        "D01-A",
+        "D01-R"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-hair"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D02",
+      "order": 2,
+      "title": "Scalp Science & Trichology",
+      "primaryLayer": "clinical-evidence",
+      "secondaryLayers": [],
+      "aliases": [
+        "scalp",
+        "dandruff",
+        "shedding",
+        "alopecia",
+        "trichology"
+      ],
+      "outcome": "Separate cosmetic scalp concerns from patterns requiring clinical assessment.",
+      "moduleIds": [
+        "D02-F",
+        "D02-M",
+        "D02-A",
+        "D02-R"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D03",
+      "order": 3,
+      "title": "Master Barbering",
+      "primaryLayer": "practice",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "barbering",
+        "haircut",
+        "fade",
+        "taper",
+        "clipper over comb"
+      ],
+      "outcome": "Explain technically sound haircut planning across textures without implying hands-on licensure.",
+      "moduleIds": [
+        "D03-F",
+        "D03-M",
+        "D03-A",
+        "D03-R"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D04",
+      "order": 4,
+      "title": "Beard & Mustache Mastery",
+      "primaryLayer": "practice",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "beard",
+        "mustache",
+        "moustache",
+        "beard oil",
+        "beard balm"
+      ],
+      "outcome": "Separate facial-hair conditioning, skin comfort and shape control.",
+      "moduleIds": [
+        "D04-F",
+        "D04-M",
+        "D04-A",
+        "D04-R"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D05",
+      "order": 5,
+      "title": "Shaving Science & Traditional Wet Shaving",
+      "primaryLayer": "practice",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "shaving",
+        "wet shaving",
+        "razor",
+        "lather",
+        "razor bumps"
+      ],
+      "outcome": "Match shave systems and rituals to texture, irritation history and practical constraints.",
+      "moduleIds": [
+        "D05-F",
+        "D05-M",
+        "D05-A",
+        "D05-R"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-aad-shave"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D06",
+      "order": 6,
+      "title": "Men's Skin Science",
+      "primaryLayer": "fundamentals",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "skin science",
+        "skin barrier",
+        "skin type",
+        "skincare",
+        "tewl"
+      ],
+      "outcome": "Explain barrier biology and tailor questions to observed concerns without diagnosis.",
+      "moduleIds": [
+        "D06-F",
+        "D06-M",
+        "D06-A",
+        "D06-R"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-aad-shave"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D07",
+      "order": 7,
+      "title": "Advanced Skincare Ingredients",
+      "primaryLayer": "product-science",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "retinoid",
+        "vitamin c",
+        "niacinamide",
+        "acid",
+        "ceramide",
+        "skincare ingredients"
+      ],
+      "outcome": "Interpret active ingredients with concentration, vehicle and evidence limitations.",
+      "moduleIds": [
+        "D07-F",
+        "D07-M",
+        "D07-A",
+        "D07-R"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D08",
+      "order": 8,
+      "title": "Cosmetic Chemistry & Formulation",
+      "primaryLayer": "product-science",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "cosmetic chemistry",
+        "formulation",
+        "emulsion",
+        "surfactant",
+        "preservative"
+      ],
+      "outcome": "Explain formula behavior and development tradeoffs with qualified laboratory review.",
+      "moduleIds": [
+        "D08-F",
+        "D08-M",
+        "D08-A",
+        "D08-R"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D09",
+      "order": 9,
+      "title": "Grooming Product Architecture",
+      "primaryLayer": "product-science",
+      "secondaryLayers": [],
+      "aliases": [
+        "product category",
+        "pomade",
+        "shampoo",
+        "conditioner",
+        "body wash",
+        "styling"
+      ],
+      "outcome": "Select product formats by function and use case before matching brand products.",
+      "moduleIds": [
+        "D09-F",
+        "D09-M",
+        "D09-A",
+        "D09-R"
+      ],
+      "sourceSeedIds": [
+        "seed-milady",
+        "seed-scc",
+        "seed-fda-claims"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D10",
+      "order": 10,
+      "title": "Soapmaking & Traditional Formulation",
+      "primaryLayer": "product-science",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "soapmaking",
+        "soap",
+        "saponification",
+        "syndet",
+        "tallow"
+      ],
+      "outcome": "Explain soap systems and craft traditions while reserving production safety for qualified practice.",
+      "moduleIds": [
+        "D10-F",
+        "D10-M",
+        "D10-A",
+        "D10-R"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D11",
+      "order": 11,
+      "title": "Fragrance & Masculine Scent",
+      "primaryLayer": "product-science",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "fragrance",
+        "scent",
+        "fougere",
+        "sillage",
+        "perfumery",
+        "ifra"
+      ],
+      "outcome": "Describe scent preferences and formulation constraints without equating tradition with suitability.",
+      "moduleIds": [
+        "D11-F",
+        "D11-M",
+        "D11-A",
+        "D11-R"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D12",
+      "order": 12,
+      "title": "Ingredient Intelligence",
+      "primaryLayer": "product-science",
+      "secondaryLayers": [],
+      "aliases": [
+        "inci",
+        "ingredient encyclopedia",
+        "carrier oil",
+        "essential oil",
+        "ingredient intelligence"
+      ],
+      "outcome": "Build identity-specific ingredient dossiers with traceable evidence and application limits.",
+      "moduleIds": [
+        "D12-F",
+        "D12-M",
+        "D12-A",
+        "D12-R"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir",
+        "seed-ifra"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D13",
+      "order": 13,
+      "title": "Advanced / Future Grooming Science",
+      "primaryLayer": "clinical-evidence",
+      "secondaryLayers": [],
+      "aliases": [
+        "frontier",
+        "peptides",
+        "exosomes",
+        "red light",
+        "microneedling",
+        "regenerative"
+      ],
+      "outcome": "Appraise frontier claims by mechanism, human outcomes, risks and regulatory status.",
+      "moduleIds": [
+        "D13-F",
+        "D13-M",
+        "D13-A",
+        "D13-R"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-hair",
+        "seed-fda-claims"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D14",
+      "order": 14,
+      "title": "Men's Body Grooming & Grooming Beyond the Face",
+      "primaryLayer": "practice",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "body grooming",
+        "body hair",
+        "underarm",
+        "groin",
+        "nail",
+        "chafing"
+      ],
+      "outcome": "Build practical whole-body grooming consultations with sensitive-area boundaries.",
+      "moduleIds": [
+        "D14-F",
+        "D14-M",
+        "D14-A",
+        "D14-R"
+      ],
+      "sourceSeedIds": [
+        "seed-aad-shave"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D15",
+      "order": 15,
+      "title": "Traditional, Historical & Global Men's Grooming",
+      "primaryLayer": "culture-heritage",
+      "secondaryLayers": [],
+      "aliases": [
+        "grooming history",
+        "heritage",
+        "barbershop",
+        "global grooming",
+        "tradition"
+      ],
+      "outcome": "Explain grooming heritage with documented context and cultural respect.",
+      "moduleIds": [
+        "D15-F",
+        "D15-M",
+        "D15-A",
+        "D15-R"
+      ],
+      "sourceSeedIds": [],
+      "coverageGaps": [
+        "Locate community-led archives, primary historical documents and licensed oral histories; no historical source has been ingested."
+      ]
+    },
+    {
+      "id": "D16",
+      "order": 16,
+      "title": "Tools, Devices & Grooming Technology",
+      "primaryLayer": "practice",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "tools",
+        "clippers",
+        "trimmer",
+        "shaver",
+        "device",
+        "scalp camera"
+      ],
+      "outcome": "Compare tools by mechanism, fit, maintenance and evidence rather than sponsorship.",
+      "moduleIds": [
+        "D16-F",
+        "D16-M",
+        "D16-A",
+        "D16-R"
+      ],
+      "sourceSeedIds": [
+        "seed-milady"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D17",
+      "order": 17,
+      "title": "Product Development, Manufacturing & Quality",
+      "primaryLayer": "commercial",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "product development",
+        "manufacturing",
+        "quality",
+        "gmp",
+        "stability",
+        "product brief"
+      ],
+      "outcome": "Translate a grooming need into a testable brief and governed development process.",
+      "moduleIds": [
+        "D17-F",
+        "D17-M",
+        "D17-A",
+        "D17-R"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-ifra",
+        "seed-fda-mocra"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D18",
+      "order": 18,
+      "title": "Regulation, Claims & Evidence Intelligence",
+      "primaryLayer": "clinical-evidence",
+      "secondaryLayers": [],
+      "aliases": [
+        "regulation",
+        "claims",
+        "evidence",
+        "mocra",
+        "clinical study",
+        "substantiation"
+      ],
+      "outcome": "Keep scientific support, legal applicability and brand claim approval separate.",
+      "moduleIds": [
+        "D18-F",
+        "D18-M",
+        "D18-A",
+        "D18-R"
+      ],
+      "sourceSeedIds": [
+        "seed-ifra",
+        "seed-fda-mocra",
+        "seed-fda-claims"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    },
+    {
+      "id": "D19",
+      "order": 19,
+      "title": "The Cassius Consultation Intelligence",
+      "primaryLayer": "commercial",
+      "secondaryLayers": [
+        "clinical-evidence"
+      ],
+      "aliases": [
+        "consultation",
+        "routine",
+        "what should i use",
+        "help my beard",
+        "help my hair"
+      ],
+      "outcome": "Ask targeted questions, explain tradeoffs and abstain when supporting knowledge is missing.",
+      "moduleIds": [
+        "D19-F",
+        "D19-M",
+        "D19-A",
+        "D19-R"
+      ],
+      "sourceSeedIds": [
+        "seed-fda-claims"
+      ],
+      "coverageGaps": [
+        "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+      ]
+    }
+  ],
+  "crossCuttingFacets": {
+    "bodySite": [
+      "hair",
+      "scalp",
+      "beard",
+      "face",
+      "body",
+      "hands",
+      "feet",
+      "nails",
+      "sensitive-area"
+    ],
+    "hairPattern": [
+      "straight",
+      "wavy",
+      "curly",
+      "coily",
+      "unknown"
+    ],
+    "skinContext": [
+      "dry",
+      "oily",
+      "combination",
+      "sensitive",
+      "shaving-compromised",
+      "unknown"
+    ],
+    "useSetting": [
+      "consumer",
+      "licensed-professional",
+      "laboratory",
+      "clinical-referral"
+    ],
+    "knowledgeKind": [
+      "fundamental",
+      "technique",
+      "ingredient",
+      "device",
+      "formula",
+      "heritage",
+      "claim",
+      "consultation"
+    ],
+    "jurisdictionPolicy": "Record exact market and effective date for regulatory claims; no universal rule inferred from a US source."
+  },
+  "counts": {
+    "domains": 19,
+    "modules": 76,
+    "topics": 608,
+    "releasedClaims": 0
+  }
+}

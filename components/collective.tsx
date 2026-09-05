@@ -1,9 +1,10 @@
 'use client';
 import Link from 'next/link';
+import { CommandDashboard, type CommandHandoff } from '@/components/command-dashboard';
+import type { Action } from '@/lib/dashboard/model';
 import { useEffect, useRef, useState } from 'react';
 import {
   ArrowUpRight,
-  ArrowRight,
   Copy,
   Fingerprint,
   House,
@@ -23,19 +24,17 @@ import {
   SidebarTrigger,
   useSidebar,
 } from '@/components/ui/sidebar';
-import { CassiusCore, MembershipCard } from '@/components/materials';
+import { MembershipCard } from '@/components/materials';
 import { ProductStudio } from '@/components/product-studio';
 import { StudioWorkspace } from '@/components/studio-workspace';
 import { ProfileEditor, Workspace } from '@/components/workspaces';
 import {
   demoAmbassador,
-  disconnectedPerformance,
-  metricLabel,
   sections,
   type Section,
 } from '@/lib/collective';
 const navigation = [
-  ['home', 'The residence', House],
+  ['home', 'Command center', House],
   ['identity', 'Your identity', Fingerprint],
   ['performance', 'Your impact', ChartNoAxesCombined],
   ['intelligence', 'CASSIUS', Sparkles],
@@ -113,6 +112,12 @@ function Navigation({
 export default function Collective() {
   const [view, setView] = useState<Section>('home');
   const [notice, setNotice] = useState('');
+  const [handoff, setHandoff] = useState<CommandHandoff | null>(null);
+  function commandAction(action: Action) {
+    setHandoff(action.brief ? { destination: action.destination, brief: action.brief, productId: action.productId } : null);
+    window.location.assign(`#${action.destination}`);
+    navigate(action.destination);
+  }
   const previousView = useRef(view);
   useEffect(() => {
     if (previousView.current === view) return;
@@ -167,7 +172,7 @@ export default function Collective() {
             <span className="eyebrow">
               DEMO /{' '}
               {view === 'home'
-                ? 'RESIDENCE'
+                ? 'COMMAND CENTER'
                 : view === 'intelligence'
                   ? 'CASSIUS'
                   : view.toUpperCase()}
@@ -175,112 +180,7 @@ export default function Collective() {
             <span className="edition">EST. IN GOOD COMPANY</span>
           </div>
           {view === 'home' ? (
-            <>
-              <section className="hero">
-                <div className="hero-copy">
-                  <span className="eyebrow gold">YOUR PRIVATE COLLECTIVE</span>
-                  <h1>
-                    Your world.
-                    <br />
-                    <em>Elevated.</em>
-                  </h1>
-                  <p>
-                    A considered space to build your knowledge, shape your
-                    voice, and represent Groomed Gent with confidence.
-                  </p>
-                  <a
-                    className="gold-button"
-                    href="#intelligence"
-                    onClick={() => navigate('intelligence')}
-                  >
-                    Explore CASSIUS <ArrowUpRight size={18} />
-                  </a>
-                  <span className="small-note">
-                    Your brand companion. Local knowledge is available.
-                  </span>
-                </div>
-                <div className="cassius-preview">
-                  <CassiusCore />
-                  <div className="core-caption">
-                    <span className="eyebrow">CASSIUS</span>
-                    <p>Collective intelligence · Sourced knowledge</p>
-                  </div>
-                </div>
-              </section>
-              <section className="impact">
-                <div className="section-title">
-                  <h2>Your impact</h2>
-                  <a
-                    href="#performance"
-                    onClick={() => navigate('performance')}
-                  >
-                    View performance <ArrowUpRight size={16} />
-                  </a>
-                </div>
-                <div className="metrics">
-                  {[
-                    [
-                      'Tracked visits',
-                      metricLabel(disconnectedPerformance, 'clicks'),
-                    ],
-                    [
-                      'Attributed orders',
-                      metricLabel(disconnectedPerformance, 'orders'),
-                    ],
-                    ['Pending commission', '—'],
-                    ['Paid to date', '—'],
-                  ].map(([label, value]) => (
-                    <div key={label}>
-                      <span>{label}</span>
-                      <strong>{value}</strong>
-                      <small>Awaiting connection</small>
-                    </div>
-                  ))}
-                </div>
-                <p className="data-note">
-                  <span /> No live activity connected. Dashes indicate
-                  unavailable data, not zero earnings.
-                </p>
-              </section>
-              <section className="destinations">
-                <a href="#knowledge" onClick={() => navigate('knowledge')}>
-                  <span className="eyebrow">01 / KNOW THE DETAILS</span>
-                  <BookOpen />
-                  <h2>Product Studio</h2>
-                  <p>
-                    Know the ritual. Understand the details. Represent with
-                    confidence.
-                  </p>
-                  <span className="text-link">
-                    Enter Product Studio <ArrowRight size={18} />
-                  </span>
-                </a>
-                <a href="#studio" onClick={() => navigate('studio')}>
-                  <span className="eyebrow">02 / MAKE IT YOUR OWN</span>
-                  <Aperture />
-                  <h2>Creator Studio</h2>
-                  <p>
-                    Your voice, with a considered starting point. Prepare your
-                    next brand story.
-                  </p>
-                  <span className="text-link">
-                    Create a draft <ArrowRight size={18} />
-                  </span>
-                </a>
-                <a href="#status" onClick={() => navigate('status')}>
-                  <span className="eyebrow">03 / GROW WITH INTENTION</span>
-                  <Award />
-                  <h2>A place to progress</h2>
-                  <p>
-                    A foundation for recognition, meaningful milestones and
-                    future privileges.
-                  </p>
-                  <span className="text-link">
-                    Explore your status <ArrowRight size={18} />
-                  </span>
-                </a>
-              </section>
-            </>
+            <CommandDashboard onAction={commandAction} />
           ) : view !== 'studio' ? (
             <section className="detail-page">
               <span className="eyebrow gold">YOUR COLLECTIVE</span>
@@ -327,13 +227,14 @@ export default function Collective() {
                   </div>
                 </>
               ) : (
-                <Workspace view={view} />
+                <><CommandBrief handoff={handoff} view={view} dismiss={() => setHandoff(null)} /><Workspace view={view} initialQuestion={handoff?.destination === 'intelligence' ? handoff.brief : undefined} /></>
               )}
             </section>
           ) : null}
           <section className="detail-page" hidden={view !== 'studio'}>
             <span className="eyebrow gold">YOUR COLLECTIVE</span>
             <h1>Creator Studio</h1>
+            <CommandBrief handoff={handoff} view={view} dismiss={() => setHandoff(null)} />
             <StudioWorkspace active={view === 'studio'} />
           </section>
           <output className="notice">{notice}</output>
@@ -367,4 +268,9 @@ export default function Collective() {
       </nav>
     </SidebarProvider>
   );
+}
+
+function CommandBrief({ handoff, view, dismiss }: { handoff: CommandHandoff | null; view: Section; dismiss: () => void }) {
+  if (!handoff || handoff.destination !== view || view === "intelligence") return null;
+  return <aside className="command-handoff"><span className="eyebrow gold">YOUR GROWTH MOVE</span><p>{handoff.brief}</p><p className="small-note">Use this brief in your working draft below.</p><button className="outline-button" onClick={dismiss}>Dismiss brief</button></aside>;
 }

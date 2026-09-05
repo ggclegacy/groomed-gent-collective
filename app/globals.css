@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import './product-studio.css';
+@import './command-dashboard.css';
 @import 'shadcn/tailwind.css';
 @custom-variant dark (&:is(.dark *));
 @theme inline {
@@ -441,13 +442,13 @@ main {
   font-size: 13px;
   margin: 7px 0 0;
 }
-/* CASSIUS: a suspended optical intelligence core with independent material layers. */
+/* CASSIUS — gold instrument chassis around a living emerald optical chamber. */
 .cassius-core {
   position: relative;
-  width: min(100%, 330px);
+  width: min(100%, 380px);
   aspect-ratio: 1;
   isolation: isolate;
-  perspective: 900px;
+  perspective: 1100px;
   --core-x: 0deg;
   --core-y: 0deg;
 }
@@ -456,288 +457,347 @@ main {
   inset: 0;
   transform-style: preserve-3d;
   transform: rotateX(var(--core-x)) rotateY(var(--core-y));
-  transition: transform 0.65s cubic-bezier(0.2, 0.7, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 .core-aura {
   position: absolute;
-  inset: 15%;
+  inset: 9%;
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    #3b805d35,
-    #17402a18 55%,
-    transparent 72%
+    #173c2835,
+    #c4912f0c 55%,
+    transparent 73%
   );
-  filter: blur(18px);
+  filter: blur(14px);
 }
 .core-projection {
   position: absolute;
-  left: 23%;
-  right: 23%;
-  bottom: 6%;
-  height: 8%;
+  left: 15%;
+  right: 15%;
+  bottom: 3%;
+  height: 10%;
   border-radius: 50%;
-  background: radial-gradient(
-    ellipse,
-    #c4912f22,
-    #39855b14 36%,
-    transparent 70%
-  );
-  filter: blur(6px);
+  background: radial-gradient(ellipse, #c4912f2c, transparent 70%);
+  filter: blur(8px);
 }
 .core-calibration {
   position: absolute;
-  inset: 5%;
+  inset: 1%;
   border-radius: 50%;
-  opacity: 0.5;
   background: repeating-conic-gradient(
-    from 0deg,
-    #c4912f65 0deg 1deg,
-    transparent 1deg 12deg
+    #c4912f90 0deg 0.65deg,
+    transparent 0.65deg 10deg
   );
   mask-image: radial-gradient(
     circle,
-    transparent 68%,
-    #000 69% 70%,
+    transparent 67%,
+    #000 68% 70%,
     transparent 71%
   );
-  transform: rotate(-12deg);
+  opacity: 0.6;
+}
+.core-outer-rule {
+  position: absolute;
+  inset: 2%;
+  border: 1px solid #c4912f40;
+  border-radius: 50%;
+}
+.core-chassis {
+  position: absolute;
+  inset: 8%;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 10deg,
+    #11130f,
+    #42433b 12%,
+    #10110f 24%,
+    #77766a 35%,
+    #141511 46%,
+    #090c09 62%,
+    #6a6c60 78%,
+    #11130f 94%
+  );
+  box-shadow:
+    inset 0 1px #fff3,
+    0 13px 30px #000b,
+    0 0 30px #c4912f09;
+}
+.core-gold-bezel {
+  position: absolute;
+  inset: 12%;
+  border-radius: 50%;
+  background: conic-gradient(
+    from -28deg,
+    #89601c,
+    #f0d88e 8%,
+    #c4912f 17%,
+    #6d4b15 24%,
+    #e4bd61 33%,
+    #fff0b8 38%,
+    #a87624 48%,
+    #e0b34f 58%,
+    #705020 64%,
+    #f5d894 76%,
+    #c4912f 87%,
+    #89601c
+  );
+  mask-image: radial-gradient(circle, transparent 63%, #000 64%);
+  box-shadow: inset 0 0 0 1px #f9de96;
+}
+.core-bezel-cuts {
+  position: absolute;
+  inset: 11.8%;
+  border-radius: 50%;
+  background: repeating-conic-gradient(
+    from 43deg,
+    #0a0c0b 0deg 5deg,
+    transparent 5deg 90deg
+  );
+  mask-image: radial-gradient(circle, transparent 62%, #000 63%);
+}
+.core-inner-rim {
+  position: absolute;
+  inset: 17%;
+  border-radius: 50%;
+  border: 1px solid #e1bd6980;
+  background: radial-gradient(circle, #020705 56%, #172418 66%, #0a0f0b 70%);
+  box-shadow:
+    0 0 0 3px #050805,
+    0 0 0 5px #c4912f45,
+    inset 0 0 0 3px #c4912f20,
+    inset 0 0 25px #000;
 }
 .core-sphere {
   position: absolute;
-  inset: 20%;
+  inset: 22%;
   border-radius: 50%;
   overflow: hidden;
   background: radial-gradient(
     circle at 35% 27%,
-    #244938,
-    #091a12 44%,
-    #020504 77%
+    #112a1d,
+    #060e09 43%,
+    #020504 78%
   );
-  border: 1px solid #b9c7a259;
+  border: 1px solid #709e6d30;
   box-shadow:
-    inset -12px -17px 25px #000e,
-    inset 2px 2px 7px #c9e7c36b,
-    0 16px 35px #000b,
-    0 0 22px #3f9c6230;
-  transform: translateZ(12px);
+    inset -12px -17px 25px #000c,
+    inset 1px 2px 10px #a3c59515,
+    0 0 14px #72a25016;
+  transform: translateZ(6px);
 }
 .core-fluid {
   position: absolute;
-  inset: -28%;
-  border-radius: 46%;
-  filter: blur(11px);
+  inset: -15%;
+  border-radius: 50%;
+  filter: blur(15px);
   mix-blend-mode: screen;
+  opacity: 0.48;
 }
 .fluid-one {
   background: conic-gradient(
     from 40deg,
     transparent 8%,
-    #1f764941 19%,
-    #90c69170 24%,
+    #1f764929 19%,
+    #75c08f55 24%,
     transparent 34%,
-    #1d5e3920 57%,
-    #559a5b65 66%,
+    #1d5e3910 57%,
+    #559a5b40 66%,
     transparent 77%
   );
 }
 .fluid-two {
-  inset: -10%;
+  inset: 5%;
   background: conic-gradient(
     from 160deg,
     transparent 12%,
-    #78b69350 26%,
+    #78b69330 26%,
     transparent 36%,
-    #c4912f30 48%,
+    #c4912f20 48%,
     transparent 62%,
-    #2c7c5755 74%,
+    #2c7c5735 74%,
     transparent 90%
   );
-  opacity: 0.7;
 }
 .core-heart {
   position: absolute;
-  inset: 32%;
+  left: 31%;
+  top: 30%;
+  width: 24%;
+  height: 24%;
   border-radius: 50%;
   background: radial-gradient(
-    circle at 42% 40%,
-    #d6e7bf,
-    #8ec99b 8%,
-    #398a59 24%,
-    #12382460 52%,
-    transparent 70%
+    circle,
+    #e2f2cf 0,
+    #9bdfad 8%,
+    #46b476 24%,
+    #23734760 48%,
+    transparent 72%
   );
-  filter: blur(4px);
-  opacity: 0.75;
-  box-shadow: 0 0 27px #71ba7920;
+  filter: blur(5px);
+  box-shadow: 0 0 22px #71ba7920;
 }
+.core-network,
 .core-filaments {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  stroke: #89c69b;
+}
+.core-network {
+  stroke: #7bb38c;
+  stroke-width: 0.4;
+  opacity: 0.23;
+}
+.core-network circle {
+  fill: #a4cc9b;
+  stroke: none;
+}
+.core-network circle:nth-of-type(4n) {
+  fill: #ddbc74;
+}
+.core-filaments {
+  stroke: #8fd5a5;
   stroke-width: 0.65;
-  opacity: 0.55;
-  transform: rotate(-15deg);
+  opacity: 0.65;
+  filter: drop-shadow(0 0 2px #43976455);
 }
 .core-filaments path:nth-child(2) {
-  stroke: #d0ae65;
-  opacity: 0.5;
+  stroke: #c4912f;
+  opacity: 0.4;
 }
 .core-filaments .filament-signal {
-  stroke: #e9e4b3;
-  stroke-width: 1.5;
-  stroke-dasharray: 3 57 9 103;
-  filter: drop-shadow(0 0 3px #a4dca1);
-}
-.core-latitude {
-  position: absolute;
-  inset: 25% -9%;
-  border: 1px solid #90c5a12e;
-  border-radius: 50%;
-  transform: rotate(-26deg);
-}
-.latitude-two {
-  inset: -14% 30%;
-  transform: rotate(35deg);
-  border-color: #c4912f30;
+  stroke: #d9efc4;
+  stroke-width: 1;
+  stroke-dasharray: 2 42 6 97;
 }
 .core-shell {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  background:
-    radial-gradient(circle at 30% 22%, #e4f5e119, transparent 35%),
-    radial-gradient(circle at 50% 50%, transparent 40%, #000b 88%);
+  background: radial-gradient(circle at 50% 50%, transparent 35%, #000a 88%);
   box-shadow:
-    inset 0 0 0 5px #0003,
-    inset -7px -9px 18px #000a,
-    inset 1px 2px 3px #d5ecc14a;
+    inset 0 0 0 4px #0002,
+    inset -6px -8px 18px #000a;
 }
 .core-specular {
   position: absolute;
-  width: 42%;
+  width: 50%;
   height: 15%;
-  left: 16%;
-  top: 12%;
+  left: 13%;
+  top: 10%;
   border-radius: 50%;
   transform: rotate(-35deg);
-  background: linear-gradient(#efffe15c, #d0efc005);
-  filter: blur(5px);
+  background: linear-gradient(#efffe125, #d0efc000);
+  filter: blur(6px);
 }
-.core-orbit {
+.core-signal-track {
   position: absolute;
-  inset: 11%;
-  border-radius: 50%;
-  border: 2px solid #c4912f;
-  border-top-color: #f4dca1;
-  border-right-color: #d1a443;
-  border-bottom-color: #6c4c1e;
-  box-shadow:
-    inset 0 1px 2px #ffeabc85,
-    0 1px 2px #000,
-    0 0 15px #c4912f15;
-  transform-style: preserve-3d;
-}
-.orbit-one {
-  transform: rotateZ(-28deg) rotateX(66deg);
-}
-.orbit-two {
-  inset: 10%;
-  transform: rotateZ(46deg) rotateY(68deg);
-  border-width: 1px;
-  opacity: 0.72;
-}
-.orbit-three {
-  inset: 16%;
-  transform: rotateZ(-18deg) rotateY(-56deg);
-  border-width: 1px;
-  opacity: 0.38;
-}
-.orbit-tracer {
-  position: absolute;
-  inset: -2px;
+  inset: 19%;
   border-radius: 50%;
 }
-.orbit-tracer::before {
-  content: '';
+.core-signal-track span {
   position: absolute;
-  top: 12%;
-  left: 13%;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: #f9e5af;
-  box-shadow:
-    0 0 5px #ffe8aa,
-    0 0 14px #c4912f;
-}
-.orbit-two .orbit-tracer::before {
+  left: 49%;
+  top: 0;
   width: 3px;
   height: 3px;
-  background: #93d0a5;
-  box-shadow: 0 0 8px #73c293;
+  border-radius: 50%;
+  background: #e8d297;
+  box-shadow: 0 0 7px #e8d297;
 }
-.core-pole {
+.core-crest {
   position: absolute;
-  left: calc(50% - 2px);
-  width: 4px;
-  height: 11px;
-  border-radius: 2px;
-  background: linear-gradient(#f3db98, #a57524);
-  box-shadow: 0 0 8px #c4912f44;
+  top: 4%;
+  left: 43%;
+  width: 14%;
+  height: 14%;
+  display: grid;
+  place-items: center;
+  border: 1px solid #e9c979;
+  border-radius: 38% 38% 45% 45%;
+  background: linear-gradient(140deg, #b48a354d, #0b100deb 65%, #c4912f45);
+  box-shadow:
+    inset 0 0 0 3px #c4912f24,
+    0 4px 12px #0009;
+  transform: translateZ(16px);
 }
-.pole-north {
-  top: 11%;
+.core-crest span {
+  font: 500 clamp(20px, 2.5vw, 34px)/1 var(--font-display);
+  color: #f1d592;
+  text-shadow: 0 1px 4px #000;
 }
-.pole-south {
-  bottom: 11%;
-  height: 7px;
-  opacity: 0.65;
+.core-lock {
+  position: absolute;
+  width: 7%;
+  height: 12%;
+  background: linear-gradient(140deg, #f2d28a, #8d6526 55%, #dcb259);
+  clip-path: polygon(50% 0, 100% 22%, 100% 78%, 50% 100%, 0 78%, 0 22%);
+  display: grid;
+  place-items: center;
+  transform: translateZ(10px);
 }
-.cassius-core:hover .core-aura,
-.intelligence-stage:focus-within .core-aura {
-  opacity: 1;
-  filter: blur(12px);
+.core-lock::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: linear-gradient(130deg, #3b3c2d, #10160f);
+  clip-path: inherit;
 }
-.cassius-core:hover .core-heart,
-.intelligence-stage:focus-within .core-heart {
-  filter: blur(3px);
+.core-lock span {
+  z-index: 1;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #edcf83;
+  box-shadow: 0 0 6px #c4912f80;
+}
+.lock-west {
+  left: 9%;
+  top: 44%;
+}
+.lock-east {
+  right: 9%;
+  top: 44%;
+}
+.lock-south {
+  left: 46.5%;
+  bottom: 7%;
+  transform: translateZ(10px) rotate(90deg);
 }
 .core-aura,
 .core-heart {
   transition: filter 1s ease;
 }
+.cassius-core:hover .core-heart,
+.intelligence-stage:focus-within .core-heart {
+  filter: blur(3px);
+}
 @media (prefers-reduced-motion: no-preference) {
   .core-fluid {
-    animation: cassius-flow 24s linear infinite;
+    animation: cassius-flow 28s linear infinite;
   }
   .fluid-two {
     animation-direction: reverse;
-    animation-duration: 31s;
+    animation-duration: 37s;
   }
   .core-heart {
-    animation: cassius-breathe 6s ease-in-out infinite;
+    animation: cassius-breathe 7s ease-in-out infinite;
   }
   .core-aura {
-    animation: cassius-aura 8s ease-in-out infinite;
+    animation: cassius-aura 9s ease-in-out infinite;
   }
-  .orbit-tracer {
-    animation: cassius-flow 12s linear infinite;
+  .core-signal-track {
+    animation: cassius-flow 20s linear infinite;
   }
-  .orbit-two .orbit-tracer {
-    animation-duration: 19s;
-    animation-direction: reverse;
-  }
-  .orbit-three .orbit-tracer {
-    animation-duration: 27s;
+  .core-filaments {
+    animation: cassius-flow 55s linear infinite;
   }
   .filament-signal {
-    animation: cassius-signal 16s linear infinite;
+    animation: cassius-signal 19s linear infinite;
   }
-  .core-calibration {
-    animation: cassius-flow 100s linear infinite;
+  .core-network {
+    animation: cassius-flow 130s linear infinite reverse;
   }
   .cassius-core[data-paused='true'] * {
     animation-play-state: paused;
@@ -750,28 +810,26 @@ main {
   @keyframes cassius-breathe {
     0%,
     100% {
-      transform: scale(0.87);
-      opacity: 0.6;
+      transform: translate(0, 0) scale(0.87);
+      opacity: 0.65;
     }
     50% {
-      transform: scale(1.12);
-      opacity: 0.9;
+      transform: translate(9%, 8%) scale(1.12);
+      opacity: 0.95;
     }
   }
   @keyframes cassius-aura {
     0%,
     100% {
       opacity: 0.55;
-      transform: scale(0.96);
     }
     50% {
       opacity: 0.95;
-      transform: scale(1.07);
     }
   }
   @keyframes cassius-signal {
     to {
-      stroke-dashoffset: -344;
+      stroke-dashoffset: -294;
     }
   }
 }
@@ -1914,7 +1972,7 @@ main {
     padding: 0 0 22px;
   }
   .cassius-preview .cassius-core {
-    width: 250px;
+    width: min(100%, 290px);
   }
   .section-title h2 {
     font-size: 27px;
@@ -2011,7 +2069,7 @@ main {
     padding-bottom: 0;
   }
   .intelligence-presence .cassius-core {
-    width: 235px;
+    width: min(100%, 280px);
   }
   .intelligence-presence h2 {
     font-size: 34px;

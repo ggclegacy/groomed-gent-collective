@@ -1,0 +1,1519 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "H28",
+    "order": 28,
+    "title": "Biohacking, Enhancement & Experimental Interventions",
+    "primaryLayer": "measurement-frontier",
+    "secondaryLayers": [
+      "clinical-literacy"
+    ],
+    "aliases": [
+      "biohacking",
+      "enhancement",
+      "experimental health",
+      "optimization",
+      "hormesis"
+    ],
+    "outcome": "Map emerging practices rigorously without offering risky self-experiment protocols or sourcing.",
+    "moduleIds": [
+      "H28-F",
+      "H28-M",
+      "H28-A",
+      "H28-R"
+    ],
+    "sourceSeedIds": [
+      "health-seed-fda-peptides",
+      "health-seed-fda-compounding"
+    ],
+    "coverageGaps": [
+      "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+    ],
+    "groomingDomainIds": [
+      "D13",
+      "D16"
+    ]
+  },
+  "modules": [
+    {
+      "id": "H28-F",
+      "domainId": "H28",
+      "level": "Foundation",
+      "title": "Biohacking, Enhancement & Experimental Interventions — Foundation",
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H22-F",
+        "H24-F"
+      ],
+      "topicIds": [
+        "H28-F-01",
+        "H28-F-02",
+        "H28-F-03",
+        "H28-F-04",
+        "H28-F-05",
+        "H28-F-06",
+        "H28-F-07",
+        "H28-F-08"
+      ],
+      "assessment": "Define the concepts, distinguish common misconceptions and identify what requires clinical evaluation.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H28-M",
+      "domainId": "H28",
+      "level": "Mastery",
+      "title": "Biohacking, Enhancement & Experimental Interventions — Mastery",
+      "prerequisiteModuleIds": [
+        "H28-F"
+      ],
+      "topicIds": [
+        "H28-M-01",
+        "H28-M-02",
+        "H28-M-03",
+        "H28-M-04",
+        "H28-M-05",
+        "H28-M-06",
+        "H28-M-07",
+        "H28-M-08"
+      ],
+      "assessment": "Compare practical questions and options using applicable reviewed evidence; include uncertainty and accessibility.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H28-A",
+      "domainId": "H28",
+      "level": "Advanced",
+      "title": "Biohacking, Enhancement & Experimental Interventions — Advanced",
+      "prerequisiteModuleIds": [
+        "H28-M"
+      ],
+      "topicIds": [
+        "H28-A-01",
+        "H28-A-02",
+        "H28-A-03",
+        "H28-A-04",
+        "H28-A-05",
+        "H28-A-06",
+        "H28-A-07",
+        "H28-A-08"
+      ],
+      "assessment": "Critique a claim dossier for study design, effect size, harms, applicability and clinical scope.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H28-R",
+      "domainId": "H28",
+      "level": "Frontier",
+      "title": "Biohacking, Enhancement & Experimental Interventions — Frontier",
+      "prerequisiteModuleIds": [
+        "H28-A"
+      ],
+      "topicIds": [
+        "H28-R-01",
+        "H28-R-02",
+        "H28-R-03",
+        "H28-R-04",
+        "H28-R-05",
+        "H28-R-06",
+        "H28-R-07",
+        "H28-R-08"
+      ],
+      "assessment": "Map human versus preclinical evidence, regulatory status and unanswered safety questions; do not produce a self-treatment protocol.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    }
+  ],
+  "topics": [
+    {
+      "id": "H28-F-01",
+      "domainId": "H28",
+      "moduleId": "H28-F",
+      "level": "Foundation",
+      "title": "Definition and scope of biohacking",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain definition and scope of biohacking, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H22-F",
+        "H24-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-F-02",
+      "domainId": "H28",
+      "moduleId": "H28-F",
+      "level": "Foundation",
+      "title": "Optimization versus disease care",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain optimization versus disease care, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H22-F",
+        "H24-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-F-03",
+      "domainId": "H28",
+      "moduleId": "H28-F",
+      "level": "Foundation",
+      "title": "Risk benefit cost and reversibility",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain risk benefit cost and reversibility, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H22-F",
+        "H24-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-F-04",
+      "domainId": "H28",
+      "moduleId": "H28-F",
+      "level": "Foundation",
+      "title": "Hormesis and dose-response concepts",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain hormesis and dose-response concepts, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H22-F",
+        "H24-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-F-05",
+      "domainId": "H28",
+      "moduleId": "H28-F",
+      "level": "Foundation",
+      "title": "Placebo ritual and expectancy",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain placebo ritual and expectancy, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H22-F",
+        "H24-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-F-06",
+      "domainId": "H28",
+      "moduleId": "H28-F",
+      "level": "Foundation",
+      "title": "Opportunity costs of elaborate routines",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain opportunity costs of elaborate routines, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H22-F",
+        "H24-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-F-07",
+      "domainId": "H28",
+      "moduleId": "H28-F",
+      "level": "Foundation",
+      "title": "Unapproved and off-label distinctions",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain unapproved and off-label distinctions, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H22-F",
+        "H24-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-F-08",
+      "domainId": "H28",
+      "moduleId": "H28-F",
+      "level": "Foundation",
+      "title": "Ethics and informed consent",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain ethics and informed consent, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H02-F",
+        "H22-F",
+        "H24-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "CLINICAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-M-01",
+      "domainId": "H28",
+      "moduleId": "H28-M",
+      "level": "Mastery",
+      "title": "Fasting and time-restricted eating evidence",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing fasting and time-restricted eating evidence, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-M-02",
+      "domainId": "H28",
+      "moduleId": "H28-M",
+      "level": "Mastery",
+      "title": "Ketogenic diet and ketone products",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing ketogenic diet and ketone products, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-M-03",
+      "domainId": "H28",
+      "moduleId": "H28-M",
+      "level": "Mastery",
+      "title": "Nootropic and stimulant claims",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing nootropic and stimulant claims, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-M-04",
+      "domainId": "H28",
+      "moduleId": "H28-M",
+      "level": "Mastery",
+      "title": "Red-light device evidence by indication",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing red-light device evidence by indication, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-M-05",
+      "domainId": "H28",
+      "moduleId": "H28-M",
+      "level": "Mastery",
+      "title": "Hyperbaric oxygen indication distinctions",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing hyperbaric oxygen indication distinctions, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-M-06",
+      "domainId": "H28",
+      "moduleId": "H28-M",
+      "level": "Mastery",
+      "title": "IV vitamin and NAD infusion claims",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing iv vitamin and nad infusion claims, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-M-07",
+      "domainId": "H28",
+      "moduleId": "H28-M",
+      "level": "Mastery",
+      "title": "Electrical stimulation enhancement claims",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing electrical stimulation enhancement claims, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-M-08",
+      "domainId": "H28",
+      "moduleId": "H28-M",
+      "level": "Mastery",
+      "title": "Grounding detox and wellness marketing claims",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing grounding detox and wellness marketing claims, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-F"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-A-01",
+      "domainId": "H28",
+      "moduleId": "H28-A",
+      "level": "Advanced",
+      "title": "Prolonged fasting clinical risks",
+      "researchQuestions": [
+        "For prolonged fasting clinical risks, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-A-02",
+      "domainId": "H28",
+      "moduleId": "H28-A",
+      "level": "Advanced",
+      "title": "SARMs anabolic agents and endocrine harm literacy",
+      "researchQuestions": [
+        "For sarms anabolic agents and endocrine harm literacy, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-A-03",
+      "domainId": "H28",
+      "moduleId": "H28-A",
+      "level": "Advanced",
+      "title": "Psychedelic-assisted treatment versus unsupervised use",
+      "researchQuestions": [
+        "For psychedelic-assisted treatment versus unsupervised use, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-A-04",
+      "domainId": "H28",
+      "moduleId": "H28-A",
+      "level": "Advanced",
+      "title": "Methylene blue interaction and evidence literacy",
+      "researchQuestions": [
+        "For methylene blue interaction and evidence literacy, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-A-05",
+      "domainId": "H28",
+      "moduleId": "H28-A",
+      "level": "Advanced",
+      "title": "Ozone therapy claims and regulatory research",
+      "researchQuestions": [
+        "For ozone therapy claims and regulatory research, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-A-06",
+      "domainId": "H28",
+      "moduleId": "H28-A",
+      "level": "Advanced",
+      "title": "Combined-intervention attribution problems",
+      "researchQuestions": [
+        "For combined-intervention attribution problems, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-A-07",
+      "domainId": "H28",
+      "moduleId": "H28-A",
+      "level": "Advanced",
+      "title": "Self-experiment exclusion and stopping criteria",
+      "researchQuestions": [
+        "For self-experiment exclusion and stopping criteria, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-A-08",
+      "domainId": "H28",
+      "moduleId": "H28-A",
+      "level": "Advanced",
+      "title": "Experimental clinics and informed-consent quality",
+      "researchQuestions": [
+        "For experimental clinics and informed-consent quality, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-M"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-R-01",
+      "domainId": "H28",
+      "moduleId": "H28-R",
+      "level": "Frontier",
+      "title": "Implantable biosensors",
+      "researchQuestions": [
+        "For implantable biosensors, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-R-02",
+      "domainId": "H28",
+      "moduleId": "H28-R",
+      "level": "Frontier",
+      "title": "Gene-editing enhancement hypotheses",
+      "researchQuestions": [
+        "For gene-editing enhancement hypotheses, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-R-03",
+      "domainId": "H28",
+      "moduleId": "H28-R",
+      "level": "Frontier",
+      "title": "Synthetic biology personal health claims",
+      "researchQuestions": [
+        "For synthetic biology personal health claims, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-R-04",
+      "domainId": "H28",
+      "moduleId": "H28-R",
+      "level": "Frontier",
+      "title": "Brain-computer enhancement research",
+      "researchQuestions": [
+        "For brain-computer enhancement research, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-R-05",
+      "domainId": "H28",
+      "moduleId": "H28-R",
+      "level": "Frontier",
+      "title": "Personalized hormesis models",
+      "researchQuestions": [
+        "For personalized hormesis models, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-R-06",
+      "domainId": "H28",
+      "moduleId": "H28-R",
+      "level": "Frontier",
+      "title": "Novel mitochondrial therapies",
+      "researchQuestions": [
+        "For novel mitochondrial therapies, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-R-07",
+      "domainId": "H28",
+      "moduleId": "H28-R",
+      "level": "Frontier",
+      "title": "AI-designed intervention stacks critique",
+      "researchQuestions": [
+        "For ai-designed intervention stacks critique, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H28-R-08",
+      "domainId": "H28",
+      "moduleId": "H28-R",
+      "level": "Frontier",
+      "title": "Long-term experimental-intervention registries",
+      "researchQuestions": [
+        "For long-term experimental-intervention registries, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H28-A"
+      ],
+      "relatedDomainIds": [
+        "H02",
+        "H22",
+        "H24"
+      ],
+      "sourceSeedIds": [
+        "health-seed-fda-peptides",
+        "health-seed-fda-compounding"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    }
+  ]
+}

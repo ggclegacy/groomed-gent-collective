@@ -1,0 +1,25 @@
+{
+  "id": "health-template-device",
+  "kind": "device",
+  "name": "Unfilled device research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "No source ingestion or qualified appraisal completed. Not a recommendation or protocol."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "technology": null,
+    "model": null,
+    "manufacturer": null,
+    "intendedUse": null,
+    "jurisdiction": null,
+    "regulatoryStatus": null,
+    "validationPopulation": null,
+    "accuracyClaimIds": [],
+    "algorithmVersion": null,
+    "privacyConstraints": null,
+    "sourceIds": []
+  }
+}

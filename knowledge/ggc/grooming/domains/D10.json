@@ -1,0 +1,1209 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "D10",
+    "order": 10,
+    "title": "Soapmaking & Traditional Formulation",
+    "primaryLayer": "product-science",
+    "secondaryLayers": [
+      "clinical-evidence"
+    ],
+    "aliases": [
+      "soapmaking",
+      "soap",
+      "saponification",
+      "syndet",
+      "tallow"
+    ],
+    "outcome": "Explain soap systems and craft traditions while reserving production safety for qualified practice.",
+    "moduleIds": [
+      "D10-F",
+      "D10-M",
+      "D10-A",
+      "D10-R"
+    ],
+    "sourceSeedIds": [
+      "seed-scc",
+      "seed-cir"
+    ],
+    "coverageGaps": [
+      "Acquire authoritative primary evidence and qualified review; topic enumeration is not expertise."
+    ]
+  },
+  "modules": [
+    {
+      "id": "D10-F",
+      "domainId": "D10",
+      "level": "Foundation",
+      "title": "Soapmaking & Traditional Formulation — Foundation",
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "topicIds": [
+        "D10-F-01",
+        "D10-F-02",
+        "D10-F-03",
+        "D10-F-04",
+        "D10-F-05",
+        "D10-F-06",
+        "D10-F-07",
+        "D10-F-08"
+      ],
+      "assessment": "Define core terms, distinguish commonly confused concepts, and identify scope boundaries in a case.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D10-M",
+      "domainId": "D10",
+      "level": "Mastery",
+      "title": "Soapmaking & Traditional Formulation — Mastery",
+      "prerequisiteModuleIds": [
+        "D10-F"
+      ],
+      "topicIds": [
+        "D10-M-01",
+        "D10-M-02",
+        "D10-M-03",
+        "D10-M-04",
+        "D10-M-05",
+        "D10-M-06",
+        "D10-M-07",
+        "D10-M-08"
+      ],
+      "assessment": "Explain two practical options, ask for missing context, and justify tradeoffs with reviewed sources.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D10-A",
+      "domainId": "D10",
+      "level": "Advanced",
+      "title": "Soapmaking & Traditional Formulation — Advanced",
+      "prerequisiteModuleIds": [
+        "D10-M"
+      ],
+      "topicIds": [
+        "D10-A-01",
+        "D10-A-02",
+        "D10-A-03",
+        "D10-A-04",
+        "D10-A-05",
+        "D10-A-06",
+        "D10-A-07",
+        "D10-A-08"
+      ],
+      "assessment": "Critique methods, applicability, conflicting findings and implementation constraints in a sourced dossier.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    },
+    {
+      "id": "D10-R",
+      "domainId": "D10",
+      "level": "Frontier",
+      "title": "Soapmaking & Traditional Formulation — Frontier",
+      "prerequisiteModuleIds": [
+        "D10-A"
+      ],
+      "topicIds": [
+        "D10-R-01",
+        "D10-R-02",
+        "D10-R-03",
+        "D10-R-04",
+        "D10-R-05",
+        "D10-R-06",
+        "D10-R-07",
+        "D10-R-08"
+      ],
+      "assessment": "Produce an evidence gap map separating mechanism, preclinical findings, human outcomes and marketing; no automatic recommendation.",
+      "completionGate": "All topic dossiers reviewed; domain specialist accepts the assessment; no unresolved safety-critical contradictions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "D10-F-01",
+      "domainId": "D10",
+      "moduleId": "D10-F",
+      "level": "Foundation",
+      "title": "Saponification reaction",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain saponification reaction, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-F-02",
+      "domainId": "D10",
+      "moduleId": "D10-F",
+      "level": "Foundation",
+      "title": "Sodium versus potassium soaps",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain sodium versus potassium soaps, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-F-03",
+      "domainId": "D10",
+      "moduleId": "D10-F",
+      "level": "Foundation",
+      "title": "Fatty-acid profiles",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain fatty-acid profiles, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-F-04",
+      "domainId": "D10",
+      "moduleId": "D10-F",
+      "level": "Foundation",
+      "title": "Saponification values and unit accuracy",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain saponification values and unit accuracy, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-F-05",
+      "domainId": "D10",
+      "moduleId": "D10-F",
+      "level": "Foundation",
+      "title": "Cold-process and hot-process methods",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain cold-process and hot-process methods, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-F-06",
+      "domainId": "D10",
+      "moduleId": "D10-F",
+      "level": "Foundation",
+      "title": "Melt-and-pour bases",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain melt-and-pour bases, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-F-07",
+      "domainId": "D10",
+      "moduleId": "D10-F",
+      "level": "Foundation",
+      "title": "Soap versus syndet bars",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain soap versus syndet bars, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-F-08",
+      "domainId": "D10",
+      "moduleId": "D10-F",
+      "level": "Foundation",
+      "title": "Caustic handling and laboratory supervision",
+      "researchQuestions": [
+        "What definitions, anatomy or mechanisms are necessary to explain caustic handling and laboratory supervision, and what common misconception needs correction?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D08-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-M-01",
+      "domainId": "D10",
+      "moduleId": "D10-M",
+      "level": "Mastery",
+      "title": "Superfat calculation concepts",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about superfat calculation concepts, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-M-02",
+      "domainId": "D10",
+      "moduleId": "D10-M",
+      "level": "Mastery",
+      "title": "Water content and lye concentration concepts",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about water content and lye concentration concepts, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-M-03",
+      "domainId": "D10",
+      "moduleId": "D10-M",
+      "level": "Mastery",
+      "title": "Cure time and water loss",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about cure time and water loss, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-M-04",
+      "domainId": "D10",
+      "moduleId": "D10-M",
+      "level": "Mastery",
+      "title": "Hardness cleansing and lather",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about hardness cleansing and lather, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-M-05",
+      "domainId": "D10",
+      "moduleId": "D10-M",
+      "level": "Mastery",
+      "title": "Hard-water soap scum",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about hard-water soap scum, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-M-06",
+      "domainId": "D10",
+      "moduleId": "D10-M",
+      "level": "Mastery",
+      "title": "Tallow plant oils and provenance",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about tallow plant oils and provenance, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-M-07",
+      "domainId": "D10",
+      "moduleId": "D10-M",
+      "level": "Mastery",
+      "title": "Shaving-soap structure",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about shaving-soap structure, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-M-08",
+      "domainId": "D10",
+      "moduleId": "D10-M",
+      "level": "Mastery",
+      "title": "Fragrance and color in alkaline systems",
+      "researchQuestions": [
+        "Which observations and user constraints change practical decisions about fragrance and color in alkaline systems, and how do options compare?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-F"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-A-01",
+      "domainId": "D10",
+      "moduleId": "D10-A",
+      "level": "Advanced",
+      "title": "Unsaponified matter analysis",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about unsaponified matter analysis transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-A-02",
+      "domainId": "D10",
+      "moduleId": "D10-A",
+      "level": "Advanced",
+      "title": "Free alkali testing",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about free alkali testing transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-A-03",
+      "domainId": "D10",
+      "moduleId": "D10-A",
+      "level": "Advanced",
+      "title": "Batch calculation verification",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about batch calculation verification transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-A-04",
+      "domainId": "D10",
+      "moduleId": "D10-A",
+      "level": "Advanced",
+      "title": "Gel phase and heat management",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about gel phase and heat management transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-A-05",
+      "domainId": "D10",
+      "moduleId": "D10-A",
+      "level": "Advanced",
+      "title": "Soap defects and rancidity",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about soap defects and rancidity transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-A-06",
+      "domainId": "D10",
+      "moduleId": "D10-A",
+      "level": "Advanced",
+      "title": "pH test method limitations",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about ph test method limitations transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-A-07",
+      "domainId": "D10",
+      "moduleId": "D10-A",
+      "level": "Advanced",
+      "title": "Syndet blend optimization",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about syndet blend optimization transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-A-08",
+      "domainId": "D10",
+      "moduleId": "D10-A",
+      "level": "Advanced",
+      "title": "Microbiological assessment of added botanicals",
+      "researchQuestions": [
+        "Which measurements, study limitations and application conditions determine whether evidence about microbiological assessment of added botanicals transfers to a real use case?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-M"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-R-01",
+      "domainId": "D10",
+      "moduleId": "D10-R",
+      "level": "Frontier",
+      "title": "Low-water soap processing",
+      "researchQuestions": [
+        "For low-water soap processing, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-R-02",
+      "domainId": "D10",
+      "moduleId": "D10-R",
+      "level": "Frontier",
+      "title": "Novel sustainable feedstocks",
+      "researchQuestions": [
+        "For novel sustainable feedstocks, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-R-03",
+      "domainId": "D10",
+      "moduleId": "D10-R",
+      "level": "Frontier",
+      "title": "Instrumental lather characterization",
+      "researchQuestions": [
+        "For instrumental lather characterization, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-R-04",
+      "domainId": "D10",
+      "moduleId": "D10-R",
+      "level": "Frontier",
+      "title": "Artisan batch traceability tools",
+      "researchQuestions": [
+        "For artisan batch traceability tools, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-R-05",
+      "domainId": "D10",
+      "moduleId": "D10-R",
+      "level": "Frontier",
+      "title": "Hybrid soap-syndet bars",
+      "researchQuestions": [
+        "For hybrid soap-syndet bars, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-R-06",
+      "domainId": "D10",
+      "moduleId": "D10-R",
+      "level": "Frontier",
+      "title": "Upcycled oil quality assurance",
+      "researchQuestions": [
+        "For upcycled oil quality assurance, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-R-07",
+      "domainId": "D10",
+      "moduleId": "D10-R",
+      "level": "Frontier",
+      "title": "Biodegradability study interpretation",
+      "researchQuestions": [
+        "For biodegradability study interpretation, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    },
+    {
+      "id": "D10-R-08",
+      "domainId": "D10",
+      "moduleId": "D10-R",
+      "level": "Frontier",
+      "title": "Consumer mildness trial design",
+      "researchQuestions": [
+        "For consumer mildness trial design, what is demonstrated in humans, what remains preclinical or hypothetical, and what result would change confidence?",
+        "Which primary sources support or contradict each specific claim, for which population, material, route, concentration and duration?",
+        "What are the safety, cultural, jurisdictional and professional-scope limits relevant to this topic?"
+      ],
+      "deliverables": [
+        "Terminology and misconception notes",
+        "Claim-level evidence table with applicability and uncertainty",
+        "One consultation or development case with justified abstention where needed"
+      ],
+      "prerequisiteModuleIds": [
+        "D10-A"
+      ],
+      "relatedDomainIds": [
+        "D08"
+      ],
+      "sourceSeedIds": [
+        "seed-scc",
+        "seed-cir"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false
+    }
+  ]
+}

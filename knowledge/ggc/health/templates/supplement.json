@@ -1,0 +1,25 @@
+{
+  "id": "health-template-supplement",
+  "kind": "supplement",
+  "name": "Unfilled supplement research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "No source ingestion or qualified appraisal completed. Not a recommendation or protocol."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "ingredientIdentity": null,
+    "speciesExtractOrChemicalForm": null,
+    "labelVersion": null,
+    "productId": null,
+    "formulaVersion": null,
+    "qualitySpecifications": null,
+    "contaminantTesting": null,
+    "studiedExposureContext": null,
+    "interactionClaimIds": [],
+    "efficacyClaimIds": [],
+    "sourceIds": []
+  }
+}

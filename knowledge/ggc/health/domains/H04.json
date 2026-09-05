@@ -1,0 +1,1433 @@
+{
+  "version": "1.0.0",
+  "domain": {
+    "id": "H04",
+    "order": 4,
+    "title": "Nutrition, Food Literacy & Dietary Patterns",
+    "primaryLayer": "daily-practice",
+    "secondaryLayers": [],
+    "aliases": [
+      "nutrition",
+      "diet",
+      "protein",
+      "fiber",
+      "food",
+      "nutrients"
+    ],
+    "outcome": "Build food literacy around adequacy, preferences, affordability and sustainable eating.",
+    "moduleIds": [
+      "H04-F",
+      "H04-M",
+      "H04-A",
+      "H04-R"
+    ],
+    "sourceSeedIds": [
+      "health-seed-niddk",
+      "health-seed-ods"
+    ],
+    "coverageGaps": [
+      "Acquire topic-specific authoritative sources and qualified reviews; no scientific evidence ingested."
+    ],
+    "groomingDomainIds": []
+  },
+  "modules": [
+    {
+      "id": "H04-F",
+      "domainId": "H04",
+      "level": "Foundation",
+      "title": "Nutrition, Food Literacy & Dietary Patterns — Foundation",
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "topicIds": [
+        "H04-F-01",
+        "H04-F-02",
+        "H04-F-03",
+        "H04-F-04",
+        "H04-F-05",
+        "H04-F-06",
+        "H04-F-07",
+        "H04-F-08"
+      ],
+      "assessment": "Define the concepts, distinguish common misconceptions and identify what requires clinical evaluation.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H04-M",
+      "domainId": "H04",
+      "level": "Mastery",
+      "title": "Nutrition, Food Literacy & Dietary Patterns — Mastery",
+      "prerequisiteModuleIds": [
+        "H04-F"
+      ],
+      "topicIds": [
+        "H04-M-01",
+        "H04-M-02",
+        "H04-M-03",
+        "H04-M-04",
+        "H04-M-05",
+        "H04-M-06",
+        "H04-M-07",
+        "H04-M-08"
+      ],
+      "assessment": "Compare practical questions and options using applicable reviewed evidence; include uncertainty and accessibility.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H04-A",
+      "domainId": "H04",
+      "level": "Advanced",
+      "title": "Nutrition, Food Literacy & Dietary Patterns — Advanced",
+      "prerequisiteModuleIds": [
+        "H04-M"
+      ],
+      "topicIds": [
+        "H04-A-01",
+        "H04-A-02",
+        "H04-A-03",
+        "H04-A-04",
+        "H04-A-05",
+        "H04-A-06",
+        "H04-A-07",
+        "H04-A-08"
+      ],
+      "assessment": "Critique a claim dossier for study design, effect size, harms, applicability and clinical scope.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    },
+    {
+      "id": "H04-R",
+      "domainId": "H04",
+      "level": "Frontier",
+      "title": "Nutrition, Food Literacy & Dietary Patterns — Frontier",
+      "prerequisiteModuleIds": [
+        "H04-A"
+      ],
+      "topicIds": [
+        "H04-R-01",
+        "H04-R-02",
+        "H04-R-03",
+        "H04-R-04",
+        "H04-R-05",
+        "H04-R-06",
+        "H04-R-07",
+        "H04-R-08"
+      ],
+      "assessment": "Map human versus preclinical evidence, regulatory status and unanswered safety questions; do not produce a self-treatment protocol.",
+      "completionGate": "Topic dossiers appraised; domain and evidence reviewers accept the case assessment; clinical reviewer accepts scope and health claims."
+    }
+  ],
+  "topics": [
+    {
+      "id": "H04-F-01",
+      "domainId": "H04",
+      "moduleId": "H04-F",
+      "level": "Foundation",
+      "title": "Energy intake and expenditure",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain energy intake and expenditure, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-F-02",
+      "domainId": "H04",
+      "moduleId": "H04-F",
+      "level": "Foundation",
+      "title": "Protein carbohydrate and fat",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain protein carbohydrate and fat, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-F-03",
+      "domainId": "H04",
+      "moduleId": "H04-F",
+      "level": "Foundation",
+      "title": "Vitamins minerals and deficiency",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain vitamins minerals and deficiency, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-F-04",
+      "domainId": "H04",
+      "moduleId": "H04-F",
+      "level": "Foundation",
+      "title": "Fiber and food structure",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain fiber and food structure, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-F-05",
+      "domainId": "H04",
+      "moduleId": "H04-F",
+      "level": "Foundation",
+      "title": "Food labels and serving sizes",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain food labels and serving sizes, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-F-06",
+      "domainId": "H04",
+      "moduleId": "H04-F",
+      "level": "Foundation",
+      "title": "Dietary patterns versus single foods",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain dietary patterns versus single foods, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-F-07",
+      "domainId": "H04",
+      "moduleId": "H04-F",
+      "level": "Foundation",
+      "title": "Food safety and storage",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain food safety and storage, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-F-08",
+      "domainId": "H04",
+      "moduleId": "H04-F",
+      "level": "Foundation",
+      "title": "Hunger satiety and eating context",
+      "researchQuestions": [
+        "What definitions and physiological concepts explain hunger satiety and eating context, and which misconception should be corrected?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H01-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-M-01",
+      "domainId": "H04",
+      "moduleId": "H04-M",
+      "level": "Mastery",
+      "title": "Mediterranean-style pattern evidence",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing mediterranean-style pattern evidence, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-M-02",
+      "domainId": "H04",
+      "moduleId": "H04-M",
+      "level": "Mastery",
+      "title": "DASH-style pattern evidence",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing dash-style pattern evidence, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-M-03",
+      "domainId": "H04",
+      "moduleId": "H04-M",
+      "level": "Mastery",
+      "title": "Plant-forward and vegetarian adequacy",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing plant-forward and vegetarian adequacy, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-M-04",
+      "domainId": "H04",
+      "moduleId": "H04-M",
+      "level": "Mastery",
+      "title": "Protein quality and distribution research",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing protein quality and distribution research, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-M-05",
+      "domainId": "H04",
+      "moduleId": "H04-M",
+      "level": "Mastery",
+      "title": "Saturated unsaturated and trans fats",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing saturated unsaturated and trans fats, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-M-06",
+      "domainId": "H04",
+      "moduleId": "H04-M",
+      "level": "Mastery",
+      "title": "Added sugars and liquid calories",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing added sugars and liquid calories, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-M-07",
+      "domainId": "H04",
+      "moduleId": "H04-M",
+      "level": "Mastery",
+      "title": "Meal planning on a budget",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing meal planning on a budget, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-M-08",
+      "domainId": "H04",
+      "moduleId": "H04-M",
+      "level": "Mastery",
+      "title": "Cultural foods and dietary adherence",
+      "researchQuestions": [
+        "Which goals, context and alternatives matter when discussing cultural foods and dietary adherence, and what directly applicable evidence is needed?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-F"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-A-01",
+      "domainId": "H04",
+      "moduleId": "H04-A",
+      "level": "Advanced",
+      "title": "Sports nutrition and periodization",
+      "researchQuestions": [
+        "For sports nutrition and periodization, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-A-02",
+      "domainId": "H04",
+      "moduleId": "H04-A",
+      "level": "Advanced",
+      "title": "Nutrition in kidney or liver disease referral",
+      "researchQuestions": [
+        "For nutrition in kidney or liver disease referral, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-A-03",
+      "domainId": "H04",
+      "moduleId": "H04-A",
+      "level": "Advanced",
+      "title": "Food allergy versus intolerance",
+      "researchQuestions": [
+        "For food allergy versus intolerance, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-A-04",
+      "domainId": "H04",
+      "moduleId": "H04-A",
+      "level": "Advanced",
+      "title": "Eating-disorder-aware nutrition",
+      "researchQuestions": [
+        "For eating-disorder-aware nutrition, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-A-05",
+      "domainId": "H04",
+      "moduleId": "H04-A",
+      "level": "Advanced",
+      "title": "Ultra-processed food classification limits",
+      "researchQuestions": [
+        "For ultra-processed food classification limits, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-A-06",
+      "domainId": "H04",
+      "moduleId": "H04-A",
+      "level": "Advanced",
+      "title": "Dietary assessment measurement error",
+      "researchQuestions": [
+        "For dietary assessment measurement error, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-A-07",
+      "domainId": "H04",
+      "moduleId": "H04-A",
+      "level": "Advanced",
+      "title": "Nutrient bioavailability and interactions",
+      "researchQuestions": [
+        "For nutrient bioavailability and interactions, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-A-08",
+      "domainId": "H04",
+      "moduleId": "H04-A",
+      "level": "Advanced",
+      "title": "Diet trials with realistic comparators",
+      "researchQuestions": [
+        "For diet trials with realistic comparators, how do design, population, effect sizes, harms and uncertainty constrain interpretation?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-M"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "HEALTH_EDUCATION",
+      "riskClass": "GENERAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-R-01",
+      "domainId": "H04",
+      "moduleId": "H04-R",
+      "level": "Frontier",
+      "title": "Precision nutrition studies",
+      "researchQuestions": [
+        "For precision nutrition studies, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-R-02",
+      "domainId": "H04",
+      "moduleId": "H04-R",
+      "level": "Frontier",
+      "title": "Metabolomics and dietary response",
+      "researchQuestions": [
+        "For metabolomics and dietary response, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-R-03",
+      "domainId": "H04",
+      "moduleId": "H04-R",
+      "level": "Frontier",
+      "title": "Microbiome-guided diets",
+      "researchQuestions": [
+        "For microbiome-guided diets, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-R-04",
+      "domainId": "H04",
+      "moduleId": "H04-R",
+      "level": "Frontier",
+      "title": "Continuous-glucose-guided eating claims",
+      "researchQuestions": [
+        "For continuous-glucose-guided eating claims, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-R-05",
+      "domainId": "H04",
+      "moduleId": "H04-R",
+      "level": "Frontier",
+      "title": "Novel proteins and food technologies",
+      "researchQuestions": [
+        "For novel proteins and food technologies, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-R-06",
+      "domainId": "H04",
+      "moduleId": "H04-R",
+      "level": "Frontier",
+      "title": "AI meal planning bias",
+      "researchQuestions": [
+        "For ai meal planning bias, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-R-07",
+      "domainId": "H04",
+      "moduleId": "H04-R",
+      "level": "Frontier",
+      "title": "Sustainable diet-health tradeoffs",
+      "researchQuestions": [
+        "For sustainable diet-health tradeoffs, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    },
+    {
+      "id": "H04-R-08",
+      "domainId": "H04",
+      "moduleId": "H04-R",
+      "level": "Frontier",
+      "title": "Nutrigenomics commercial test validity",
+      "researchQuestions": [
+        "For nutrigenomics commercial test validity, what has been demonstrated in humans, what remains mechanistic or preclinical, and which findings would change confidence?",
+        "What population, life stage, condition, intervention identity, route, exposure, duration and meaningful outcome does each source actually address?",
+        "What contraindications, interactions, access constraints, regulatory changes and professional-review requirements must be recorded?"
+      ],
+      "deliverables": [
+        "Definitions and misconception notes",
+        "Atomic claim table with exact citations, harms, uncertainty and applicability",
+        "One health-education or care-navigation case with justified abstention"
+      ],
+      "prerequisiteModuleIds": [
+        "H04-A"
+      ],
+      "relatedDomainIds": [
+        "H01"
+      ],
+      "sourceSeedIds": [
+        "health-seed-niddk",
+        "health-seed-ods"
+      ],
+      "workflowState": "PLANNED",
+      "evidenceState": "UNASSESSED",
+      "provenanceStatus": "EDITORIAL",
+      "reviewedAt": null,
+      "reviewer": null,
+      "claimIds": [],
+      "answerEligible": false,
+      "scope": "CLINICAL_LITERACY",
+      "riskClass": "EXPERIMENTAL",
+      "reviewRoles": [
+        "domain-specialist",
+        "evidence-reviewer",
+        "clinical-reviewer"
+      ]
+    }
+  ]
+}

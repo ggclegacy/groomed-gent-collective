@@ -1,0 +1,103 @@
+{
+  "version": "1.0.0",
+  "evidenceStates": {
+    "UNASSESSED": "No completed evidence appraisal; never answer as knowledge.",
+    "ESTABLISHED": "Strong convergent evidence or applicable authoritative consensus; not absolute certainty.",
+    "SUPPORTED": "Reasonable directly applicable evidence with stated limits.",
+    "EMERGING": "Interesting but incomplete human evidence.",
+    "TRADITIONAL": "Documented historical or community practice; not proof of clinical benefit.",
+    "ANECDOTAL": "Practitioner or consumer report; cannot establish efficacy.",
+    "MARKETING_CLAIM": "Commercial assertion with insufficient reviewed substantiation.",
+    "REFUTED": "Specific claim contradicted by applicable reliable evidence; not synonymous with unstudied.",
+    "MECHANISTIC_RATIONALE": "Plausible biological mechanism or surrogate finding; not proof of health benefit."
+  },
+  "scopeStates": [
+    "HEALTH_EDUCATION",
+    "CLINICAL_LITERACY",
+    "MEDICAL_REFERRAL",
+    "RESEARCH_ONLY"
+  ],
+  "medicalReferralCompatibility": "Clinical scope, scientific certainty and legal approval are separate. Established treatment evidence never authorizes Cassius to prescribe.",
+  "workflowStates": [
+    "PLANNED",
+    "ACQUIRED",
+    "EXTRACTED",
+    "APPRAISED",
+    "REVIEWED",
+    "RELEASED",
+    "STALE",
+    "RETRACTED"
+  ],
+  "allowedTransitions": {
+    "PLANNED": [
+      "ACQUIRED"
+    ],
+    "ACQUIRED": [
+      "EXTRACTED"
+    ],
+    "EXTRACTED": [
+      "APPRAISED"
+    ],
+    "APPRAISED": [
+      "REVIEWED"
+    ],
+    "REVIEWED": [
+      "RELEASED",
+      "APPRAISED"
+    ],
+    "RELEASED": [
+      "STALE",
+      "RETRACTED"
+    ],
+    "STALE": [
+      "APPRAISED",
+      "RETRACTED"
+    ],
+    "RETRACTED": []
+  },
+  "legacyStatusMapping": {
+    "CANONICAL": "Adopted identity/architecture only; no automatic scientific grade.",
+    "VERIFIED": "Observed source statement only; no automatic scientific grade.",
+    "DISPUTED": "Unresolved conflict blocks answer release.",
+    "UNKNOWN": "No usable claim value.",
+    "EDITORIAL": "Curriculum, voice or policy authored for this release; not clinical evidence."
+  },
+  "releaseRequirements": [
+    "Claim-specific excerpt/locator and resolvable source ID",
+    "Exact applicability and counterevidence recorded",
+    "Qualified reviewer ID, role, date and next review date",
+    "No unresolved conflicts or withdrawn sources",
+    "Public approved summary; no private source text in browser",
+    "Evidence state and use scope allowed by answer policy",
+    "Separate product/claim approval before commercial use",
+    "Clinical reviewer accepts every released health claim",
+    "Contraindications, interactions, life stage and patient-important outcomes recorded",
+    "No private health profiles or raw lab reports in static bundles"
+  ],
+  "defaultReviewDays": {
+    "fundamentals": 365,
+    "daily-practice": 180,
+    "clinical-literacy": 90,
+    "interventions": 90,
+    "measurement-frontier": 30,
+    "consultation-governance": 90
+  },
+  "frontierReviewDays": 30,
+  "eventTriggers": [
+    "Retraction/correction",
+    "New safety alert",
+    "Regulatory or standards amendment",
+    "Changed product formula or label",
+    "Material contradictory study",
+    "Adverse-event signal"
+  ],
+  "ranking": "Evidence states are descriptive categories, not a single numerical ladder. Source quality, applicability, consistency and scope are assessed independently.",
+  "forbiddenOutputs": [
+    "Diagnosis from symptoms or isolated labs",
+    "Individualized hormone or medication dosing",
+    "Injection reconstitution or cycle protocols",
+    "Unapproved compound sourcing",
+    "Medical clearance or assurance of interaction safety",
+    "Treating advisory votes, registry entries or research labels as approval"
+  ]
+}

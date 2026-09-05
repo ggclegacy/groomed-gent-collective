@@ -1,0 +1,24 @@
+{
+  "id": "health-template-biomarker",
+  "kind": "biomarker",
+  "name": "Unfilled biomarker research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "No source ingestion or qualified appraisal completed. Not a recommendation or protocol."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "analyte": null,
+    "specimen": null,
+    "unit": null,
+    "method": null,
+    "referencePopulation": null,
+    "collectionTiming": null,
+    "referenceIntervalLimits": null,
+    "clinicalUtilityClaimIds": [],
+    "falsePositiveLimits": null,
+    "sourceIds": []
+  }
+}

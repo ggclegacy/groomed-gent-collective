@@ -1,0 +1,713 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ggc:grooming:asset",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "ingredient",
+        "technique",
+        "device",
+        "product-development",
+        "heritage"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "topicIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "workflowState": {
+      "enum": [
+        "PLANNED",
+        "ACQUIRED",
+        "EXTRACTED",
+        "APPRAISED",
+        "REVIEWED",
+        "RELEASED",
+        "STALE",
+        "RETRACTED"
+      ]
+    },
+    "claimIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "visibility": {
+      "enum": [
+        "PUBLIC",
+        "INTERNAL",
+        "CONFIDENTIAL"
+      ]
+    },
+    "details": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "id",
+    "kind",
+    "name",
+    "topicIds",
+    "workflowState",
+    "claimIds",
+    "unknowns",
+    "visibility",
+    "details"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "ingredient"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "inciName": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "commonNames": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "casIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "tradeNames": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "classes": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "originAndProcessing": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "chemicalCharacteristics": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "functions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "mechanismClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "applications": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "concentrationConsiderations": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "solubility": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "heatSensitivity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "oxidationSensitivity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "pHConsiderations": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "compatibilities": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "incompatibilities": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "skinHairScalpImplications": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "irritationAllergenNotes": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "regulatoryNotes": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "marketingClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "formulationNotes": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "inciName",
+              "commonNames",
+              "casIds",
+              "tradeNames",
+              "classes",
+              "originAndProcessing",
+              "chemicalCharacteristics",
+              "functions",
+              "mechanismClaimIds",
+              "applications",
+              "concentrationConsiderations",
+              "solubility",
+              "heatSensitivity",
+              "oxidationSensitivity",
+              "pHConsiderations",
+              "compatibilities",
+              "incompatibilities",
+              "skinHairScalpImplications",
+              "irritationAllergenNotes",
+              "regulatoryNotes",
+              "marketingClaimIds",
+              "formulationNotes",
+              "sourceIds"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "technique"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "bodySites": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "professionalScope": {
+                "type": "string",
+                "minLength": 1
+              },
+              "tools": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "prerequisites": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "steps": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "contraindications": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "stopCriteria": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "aftercareClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "bodySites",
+              "professionalScope",
+              "tools",
+              "prerequisites",
+              "steps",
+              "contraindications",
+              "stopCriteria",
+              "aftercareClaimIds",
+              "sourceIds"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "device"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "technology": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "manufacturer": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "model": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "jurisdiction": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "regulatoryStatus": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "specifications": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "mechanismClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "useCaseClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "contraindications": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "maintenance": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "validationLimits": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "technology",
+              "manufacturer",
+              "model",
+              "jurisdiction",
+              "regulatoryStatus",
+              "specifications",
+              "mechanismClaimIds",
+              "useCaseClaimIds",
+              "contraindications",
+              "maintenance",
+              "validationLimits",
+              "sourceIds"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "product-development"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "consumerProblem": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "targetUser": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "intendedUse": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "format": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sensoryTargets": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "targetClaimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "formulaVersion": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "manufacturer": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "ingredientStrategy": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "prototypeHistory": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "packagingPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "stabilityPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "microbiologyPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "safetySubstantiationPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "scaleUpPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "releaseSpecifications": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "batchAndLotPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "labelReviewPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "postMarketPlan": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "productStudioRecordId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "consumerProblem",
+              "targetUser",
+              "intendedUse",
+              "format",
+              "sensoryTargets",
+              "targetClaimIds",
+              "formulaVersion",
+              "manufacturer",
+              "ingredientStrategy",
+              "prototypeHistory",
+              "packagingPlan",
+              "stabilityPlan",
+              "microbiologyPlan",
+              "safetySubstantiationPlan",
+              "scaleUpPlan",
+              "releaseSpecifications",
+              "batchAndLotPlan",
+              "labelReviewPlan",
+              "postMarketPlan",
+              "productStudioRecordId"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "heritage"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "regionCommunity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "period": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "practice": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "primarySourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "provenanceLimits": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "attributionAndConsent": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "contemporaryApplicabilityLimits": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "regionCommunity",
+              "period",
+              "practice",
+              "primarySourceIds",
+              "provenanceLimits",
+              "attributionAndConsent",
+              "contemporaryApplicabilityLimits"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

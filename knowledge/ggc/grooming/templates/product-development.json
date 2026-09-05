@@ -1,0 +1,34 @@
+{
+  "id": "template-product-development",
+  "kind": "product-development",
+  "name": "Unfilled product-development research dossier",
+  "topicIds": [],
+  "workflowState": "PLANNED",
+  "claimIds": [],
+  "unknowns": [
+    "Template only; all substantive information awaits source ingestion and qualified review."
+  ],
+  "visibility": "INTERNAL",
+  "details": {
+    "consumerProblem": null,
+    "targetUser": null,
+    "intendedUse": null,
+    "format": null,
+    "sensoryTargets": [],
+    "targetClaimIds": [],
+    "formulaVersion": null,
+    "manufacturer": null,
+    "ingredientStrategy": null,
+    "prototypeHistory": [],
+    "packagingPlan": null,
+    "stabilityPlan": null,
+    "microbiologyPlan": null,
+    "safetySubstantiationPlan": null,
+    "scaleUpPlan": null,
+    "releaseSpecifications": [],
+    "batchAndLotPlan": null,
+    "labelReviewPlan": null,
+    "postMarketPlan": null,
+    "productStudioRecordId": null
+  }
+}

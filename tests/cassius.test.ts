@@ -66,10 +66,8 @@ void test('captured evidence integrity and label transcriptions match retained s
  for(const s of corpus.sources)if(s.snapshot && s.sha256){const bytes=fs.readFileSync(new URL('../'+s.snapshot,import.meta.url));assert.equal(createHash('sha256').update(bytes).digest('hex'),s.sha256);}
  for(const p of corpus.products)for(const row of p.supplementFacts.value??[]){const s=corpus.sources.find(s=>s.id===row.sourceId)!;const text=fs.readFileSync(new URL('../'+s.snapshot,import.meta.url),'utf8');assert.ok(text.includes(row.name+'\n'+row.amountText),`${p.id}: ${row.name}`);}
 });
-void test('existing Cassius gateway returns sourced evidence without enabling demo commerce',async()=>{
- const {cassiusGateway,demoGateway}=await import('../lib/collective.ts');
- const answer=await cassiusGateway.askIntelligence('Restoria ingredients');assert.equal(answer.state,'ready');
- if(answer.state==='ready'){assert.match(answer.data.text,/275 mg/);assert.ok(answer.data.citations.length);assert.match(answer.source,/local evidence/);}
+void test('Cassius integration does not enable demo commerce',async()=>{
+ const {demoGateway}=await import('../lib/collective.ts');
  assert.equal((await demoGateway.getPerformance('demo-member')).state,'disconnected');
 });
 void test('unavailable policies and CFU lifetime are not silently asserted',()=>{
