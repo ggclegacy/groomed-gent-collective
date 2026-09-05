@@ -113,14 +113,14 @@ export function PerformanceChart({
                   axisLine={false}
                   tickLine={false}
                   minTickGap={42}
-                  tick={{ fill: '#92978b', fontSize: 12 }}
+                  tick={{ fill: '#a4a09a', fontSize: 12 }}
                   tickMargin={12}
                 />
                 <YAxis
                   axisLine={false}
                   tickLine={false}
                   tickCount={4}
-                  tick={{ fill: '#92978b', fontSize: 12 }}
+                  tick={{ fill: '#a4a09a', fontSize: 12 }}
                   tickFormatter={(value) =>
                     new Intl.NumberFormat('en-US', {
                       notation: 'compact',
@@ -166,7 +166,7 @@ export function PerformanceChart({
                     dataKey="previous"
                     type="monotone"
                     fill="none"
-                    stroke="#849082"
+                    stroke="#9b9281"
                     strokeDasharray="4 6"
                     strokeWidth={1.4}
                     isAnimationActive={false}
@@ -178,7 +178,7 @@ export function PerformanceChart({
                   dataKey="amount"
                   type="monotone"
                   fill={`url(#${id})`}
-                  stroke="#d8b76e"
+                  stroke="#e4b75d"
                   strokeWidth={2.2}
                   dot={false}
                   activeDot={{
