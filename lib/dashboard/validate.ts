@@ -130,7 +130,13 @@ export function parseDashboard(value: unknown): Dashboard | null {
     !str(p.period.to) ||
     !list(
       p.trend,
-      (point) => record(point) && str(point.date) && money(point.earnings),
+      (point) =>
+        record(point) &&
+        str(point.date) &&
+        money(point.earnings) &&
+        ['sales', 'previousEarnings', 'previousSales'].every(
+          (key) => point[key] === undefined || money(point[key]),
+        ),
     ) ||
     !list(
       p.products,
@@ -150,6 +156,20 @@ export function parseDashboard(value: unknown): Dashboard | null {
         count(channel.orders) &&
         count(channel.clicks),
     )
+  )
+    return null;
+  if (
+    p.previous !== undefined &&
+    (!record(p.previous) ||
+      !money(p.previous.revenue) ||
+      !count(p.previous.orders) ||
+      !optionalMoney(p.previous.averageOrder) ||
+      !(
+        p.previous.conversionRate === null ||
+        (typeof p.previous.conversionRate === 'number' &&
+          Number.isFinite(p.previous.conversionRate) &&
+          p.previous.conversionRate >= 0)
+      ))
   )
     return null;
   return value as unknown as Dashboard;

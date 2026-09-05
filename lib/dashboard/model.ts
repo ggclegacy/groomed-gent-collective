@@ -38,7 +38,19 @@ export interface DashboardPerformance extends Performance {
   availableCommission: Money | null;
   nextPayout: string | null;
   conversionRate: number | null;
-  trend: { date: string; earnings: Money }[];
+  trend: {
+    date: string;
+    earnings: Money;
+    sales?: Money;
+    previousEarnings?: Money;
+    previousSales?: Money;
+  }[];
+  previous?: {
+    revenue: Money;
+    orders: number;
+    conversionRate: number | null;
+    averageOrder: Money | null;
+  };
   products: {
     productId: string;
     name: string;

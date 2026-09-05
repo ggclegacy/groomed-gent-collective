@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import './creative-studio.css';
+import './command-dashboard.css';
 export const metadata: Metadata = {
   title: 'The Collective | Groomed Gent Co.',
   description:

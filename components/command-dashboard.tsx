@@ -9,20 +9,34 @@ import {
   Sparkles,
   ChartNoAxesCombined,
   RefreshCw,
-  Target,
+  ShoppingBag,
+  MousePointer2,
+  Wallet,
+  LockKeyhole,
+  ChevronRight,
+  CircleCheck,
 } from 'lucide-react';
 import { parseProfile, storageKeys } from '@/lib/collective';
 import type { Section } from '@/lib/collective';
-import {
-  bestMove,
-  change,
-  currency,
-  periods,
-  visiblePulse,
-} from '@/lib/dashboard/model';
+import { bestMove, currency, visiblePulse } from '@/lib/dashboard/model';
 import type { Action, Dashboard, Period } from '@/lib/dashboard/model';
 import { parseDashboard } from '@/lib/dashboard/validate';
 import { sampleDashboard } from '@/lib/dashboard/sample';
+import {
+  GlassSurface,
+  StatusChip,
+  PeriodSelector,
+  TrendIndicator,
+  Sparkline,
+  MetricTile,
+  ProgressRing,
+  CassiusGlyph,
+  RankedBar,
+  PulseItem,
+  CommandAction,
+  SectionTitle,
+} from '@/components/dashboard/primitives';
+import { PerformanceChart } from '@/components/dashboard/performance-chart';
 export interface CommandHandoff {
   destination: Section;
   brief: string;
@@ -40,7 +54,12 @@ export function CommandDashboard(props: {
   return hydrated ? (
     <CommandDashboardEditor {...props} />
   ) : (
-    <output className="command-skeleton">Preparing your command center…</output>
+    <output className="vd-loading">
+      <span>Preparing your command center…</span>
+      <i />
+      <i />
+      <i />
+    </output>
   );
 }
 function localValue(key: string) {
@@ -126,15 +145,25 @@ function CommandDashboardEditor({
   const move = dashboard ? bestMove(dashboard) : null;
   const monthlyGoal = sample ? dashboard?.goal?.minorUnits : personalGoal;
   const earned = performance?.earnedCommission;
+  const sampleMonth = sample && data ? sampleDashboard(data, 'Month') : null;
+  const monthlyEarned =
+    sampleMonth?.performance.state === 'ready'
+      ? sampleMonth.performance.data.earnedCommission
+      : period === 'Month'
+        ? earned
+        : null;
   const goalProgress =
-    period === 'Month' && earned?.currency === 'USD' && monthlyGoal
-      ? Math.min(100, Math.max(0, (earned.minorUnits / monthlyGoal) * 100))
+    monthlyEarned?.currency === 'USD' && monthlyGoal
+      ? Math.min(
+          100,
+          Math.max(0, (monthlyEarned.minorUnits / monthlyGoal) * 100),
+        )
       : null;
   async function findMove() {
     if (!dashboard || thinking) return;
     if (sample) {
       setAnswer(
-        'This sample illustrates a product-led move. Switch to your dashboard to ask Cassius about the context currently available.',
+        `Sample analysis: ${move?.rationale ?? 'Prepare one thoughtful product story.'} This is an illustrative scenario, not an income forecast.`,
       );
       return;
     }
@@ -181,48 +210,90 @@ function CommandDashboardEditor({
       if (request.current === controller) setThinking(false);
     }
   }
+  const p = performance;
+  const delta = (
+    current: number | undefined | null,
+    previous: number | undefined | null,
+  ) =>
+    current != null && previous != null && previous !== 0
+      ? ((current - previous) / Math.abs(previous)) * 100
+      : null;
+  const topSalesProduct = p
+    ? [...p.products].sort(
+        (a, b) => b.revenue.minorUnits - a.revenue.minorUnits,
+      )[0]
+    : null;
+  const topProduct =
+    p?.products.find(
+      (product) => product.productId === move?.action.productId,
+    ) ?? null;
+  const productShare =
+    p &&
+    topProduct &&
+    p.revenue.minorUnits > 0 &&
+    p.revenue.currency === topProduct.revenue.currency
+      ? (topProduct.revenue.minorUnits / p.revenue.minorUnits) * 100
+      : null;
+  const pulse = dashboard
+    ? visiblePulse(
+        dashboard.pulse,
+        dashboard.membership.tierId,
+        dashboard.ambassador?.kind ?? null,
+        new Date(),
+      )
+    : [];
+  const goalAmount = monthlyGoal
+    ? { minorUnits: monthlyGoal, currency: 'USD' }
+    : null;
+  const remaining =
+    goalAmount && monthlyEarned?.currency === 'USD'
+      ? Math.max(0, goalAmount.minorUnits - monthlyEarned.minorUnits)
+      : null;
+  const topChannels = p
+    ? [...p.channels].sort((a, b) => b.orders - a.orders)
+    : [];
+  const totalChannelOrders = topChannels.reduce((sum, c) => sum + c.orders, 0);
+  const channelStops = topChannels.reduce<{ stops: string[]; end: number }>(
+    (acc, c, i) => {
+      const next =
+        acc.end +
+        (totalChannelOrders ? (c.orders / totalChannelOrders) * 100 : 0);
+      acc.stops.push(
+        `${['#d6b370', '#748677', '#3d5145', '#a3a391'][i % 4]} ${acc.end}% ${next}%`,
+      );
+      acc.end = next;
+      return acc;
+    },
+    { stops: [], end: 0 },
+  );
   return (
-    <div className="command-dashboard">
-      <header className="command-heading">
+    <div className="vd-root">
+      <header className="vd-welcome">
         <div>
-          <span className="eyebrow gold">YOUR COMMAND CENTER</span>
+          <span className="vd-overline">AMBASSADOR COMMAND</span>
           <h1>
-            {name ? `Welcome back, ${name.split(' ')[0]}.` : 'Welcome, Gent.'}
+            {name
+              ? `${name.split(' ')[0]}’s command center`
+              : 'Your command center'}
           </h1>
-          <p>
-            {dashboard?.membership.label ?? 'The Collective'} <span> / </span>{' '}
-            {sample
-              ? 'Illustrative performance'
-              : 'A considered view of your business'}
-          </p>
         </div>
-        <fieldset className="command-periods" aria-label="Performance period">
-          {periods.map((value) => (
-            <button
-              key={value}
-              aria-pressed={period === value}
-              onClick={() => {
-                if (value !== period) {
-                  refresh();
-                  setPeriod(value);
-                }
-              }}
-            >
-              {value}
-            </button>
-          ))}
-        </fieldset>
+        <StatusChip tone="gold">
+          {dashboard?.membership.label ?? 'The Collective'}
+        </StatusChip>
       </header>
-      <div className="command-data-status">
-        <span>
-          <i />
-          {sample
-            ? 'SAMPLE DATA · Not your earnings or account activity'
-            : dashboard?.mode === 'live'
-              ? 'ACCOUNT REPORTING'
-              : 'PREVIEW · Commerce reporting awaiting connection'}
-        </span>
+      <div className="vd-control-bar">
+        <PeriodSelector
+          value={period}
+          onChange={(value) => {
+            if (value !== period) {
+              refresh();
+              setPeriod(value);
+            }
+          }}
+        />
         <button
+          className="vd-preview-toggle"
+          aria-pressed={sample}
           onClick={() => {
             setSample(!sample);
             setAnswer('');
@@ -232,478 +303,645 @@ function CommandDashboardEditor({
             setThinking(false);
           }}
         >
-          {sample ? 'Return to my dashboard' : 'Explore sample performance'}{' '}
-          <ArrowUpRight size={14} />
+          {sample ? (
+            <>
+              <CircleCheck size={14} />
+              Sample on <span>· Return to my data</span>
+            </>
+          ) : (
+            <>
+              <Sparkles size={14} />
+              Explore sample performance
+            </>
+          )}
         </button>
       </div>
+      {sample && (
+        <div className="vd-sample-banner">
+          <StatusChip tone="gold">SAMPLE</StatusChip>
+          <span>Illustrative data. Not your earnings, offers or status.</span>
+        </div>
+      )}
       {loading ? (
-        <output
-          className="command-skeleton"
-          aria-label="Loading command center"
-        >
+        <output className="vd-loading">
           <span>Preparing your command center…</span>
-          <div />
-          <div />
-          <div />
+          <i />
+          <i />
+          <i />
         </output>
       ) : error ? (
-        <div className="command-error" role="alert">
+        <GlassSurface className="vd-error">
+          <LockKeyhole size={28} />
           <h2>A moment to reconnect.</h2>
-          <p>{error}</p>
+          <p role="alert">{error}</p>
           <button
-            className="gold-button"
+            className="vd-gold-button"
             onClick={() => {
               refresh();
               setRetry((n) => n + 1);
             }}
           >
-            Try again <RefreshCw size={16} />
+            Refresh dashboard <RefreshCw size={16} />
           </button>
-        </div>
+        </GlassSurface>
       ) : (
         dashboard &&
         move && (
           <>
-            <div className="command-primary">
-              <section
-                className="command-earnings"
-                aria-labelledby="earnings-title"
-              >
-                <div className="command-section-label">
-                  <h2 id="earnings-title">
-                    {period === 'Month'
-                      ? 'This month'
-                      : period === 'Today'
-                        ? 'Today'
-                        : `Last ${period === '7D' ? '7' : '30'} days`}
-                  </h2>
-                  <span>PERFORMANCE / 01</span>
+            <div className="vd-command-grid">
+              <GlassSurface className="vd-earnings">
+                <div className="vd-module-header">
+                  <span className="vd-overline">COMMISSION EARNED</span>
+                  <StatusChip tone={p ? 'green' : 'muted'}>
+                    {p
+                      ? period === 'Month'
+                        ? 'THIS MONTH'
+                        : period.toUpperCase()
+                      : 'AWAITING DATA'}
+                  </StatusChip>
                 </div>
-                <p className="command-earnings-label">Commission earned</p>
-                <div className="command-money">{currency(earned)}</div>
-                <p className={`command-change ${earned ? 'has-value' : ''}`}>
-                  {performance
-                    ? change(earned ?? null, performance.previousEarnings)
-                    : 'Your earnings will appear when reporting is connected.'}
-                </p>
-                <div className="command-balances">
+                <div className="vd-earnings-main">
                   <div>
-                    <span>Available</span>
+                    <strong
+                      key={period + String(sample)}
+                      className="vd-earnings-number"
+                    >
+                      {currency(earned)}
+                    </strong>
+                    {p ? (
+                      <TrendIndicator
+                        value={delta(
+                          earned?.minorUnits,
+                          p.previousEarnings?.currency === earned?.currency
+                            ? p.previousEarnings?.minorUnits
+                            : null,
+                        )}
+                      />
+                    ) : (
+                      <span className="vd-connection-label">
+                        <LockKeyhole size={13} />
+                        Commerce not connected
+                      </span>
+                    )}
+                  </div>
+                  <div className="vd-hero-spark">
+                    <Sparkline
+                      values={
+                        p?.trend.map((point) => point.earnings.minorUnits) ?? []
+                      }
+                      ghost={!p}
+                    />
+                    <span>{p ? 'EARNINGS PULSE' : 'SIGNAL PENDING'}</span>
+                  </div>
+                </div>
+                <div className="vd-balances">
+                  <div>
+                    <span>
+                      <i className="vd-status-dot" />
+                      AVAILABLE
+                    </span>
+                    <strong>{currency(p?.availableCommission)}</strong>
+                  </div>
+                  <div>
+                    <span>
+                      <i className="vd-status-dot vd-dot-pending" />
+                      PENDING
+                    </span>
+                    <strong>{currency(p?.pendingCommission)}</strong>
+                  </div>
+                  <div>
+                    <span>NEXT PAYOUT</span>
                     <strong>
-                      {currency(performance?.availableCommission)}
+                      {p?.nextPayout
+                        ? new Date(p.nextPayout).toLocaleDateString('en-US', {
+                            month: 'short',
+                            day: 'numeric',
+                            timeZone: 'UTC',
+                          })
+                        : 'Unscheduled'}
                     </strong>
                   </div>
-                  <div>
-                    <span>Pending</span>
-                    <strong>{currency(performance?.pendingCommission)}</strong>
-                  </div>
-                  <div>
-                    <span>Next payout</span>
-                    <strong>
-                      {performance?.nextPayout
-                        ? new Date(performance.nextPayout).toLocaleDateString(
-                            'en-US',
-                            { month: 'short', day: 'numeric', timeZone: 'UTC' },
-                          )
-                        : 'Not scheduled'}
-                    </strong>
-                  </div>
                 </div>
-                <dl className="command-metrics">
-                  {[
-                    ['Sales generated', currency(performance?.revenue)],
-                    ['Orders', performance ? String(performance.orders) : '—'],
-                    [
-                      'Conversion',
-                      performance?.conversionRate != null
-                        ? `${(performance.conversionRate * 100).toFixed(1)}%`
-                        : '—',
-                    ],
-                    [
-                      'Avg. order',
-                      performance && performance.orders > 0
+                <div className="vd-metrics">
+                  <MetricTile
+                    label="SALES"
+                    value={currency(p?.revenue)}
+                    icon={ChartNoAxesCombined}
+                    trend={delta(
+                      p?.revenue.minorUnits,
+                      p?.previous?.revenue.currency === p?.revenue.currency
+                        ? p?.previous?.revenue.minorUnits
+                        : null,
+                    )}
+                  />
+                  <MetricTile
+                    label="ORDERS"
+                    value={p ? String(p.orders) : '—'}
+                    icon={ShoppingBag}
+                    detail={
+                      p?.previous
+                        ? `${p.orders - p.previous.orders >= 0 ? '+' : ''}${p.orders - p.previous.orders} vs prior period`
+                        : undefined
+                    }
+                  />
+                  <MetricTile
+                    label="CONVERSION"
+                    value={
+                      p?.conversionRate != null
+                        ? `${(p.conversionRate * 100).toFixed(1)}%`
+                        : '—'
+                    }
+                    icon={MousePointer2}
+                    detail={
+                      p?.conversionRate != null &&
+                      p.previous?.conversionRate != null
+                        ? `${p.conversionRate >= p.previous.conversionRate ? '+' : ''}${((p.conversionRate - p.previous.conversionRate) * 100).toFixed(1)} percentage points`
+                        : undefined
+                    }
+                  />
+                  <MetricTile
+                    label="AVG. ORDER"
+                    value={
+                      p && p.orders
                         ? currency({
-                            ...performance.revenue,
+                            ...p.revenue,
                             minorUnits: Math.round(
-                              performance.revenue.minorUnits /
-                                performance.orders,
+                              p.revenue.minorUnits / p.orders,
                             ),
                           })
-                        : '—',
-                    ],
-                  ].map(([label, value]) => (
-                    <div key={label}>
-                      <dt>{label}</dt>
-                      <dd>{value}</dd>
-                    </div>
-                  ))}
-                </dl>
-                <a className="command-text-link" href="#performance">
-                  View your performance ledger <ArrowUpRight size={16} />
+                        : '—'
+                    }
+                    icon={Wallet}
+                    trend={delta(
+                      p && p.orders ? p.revenue.minorUnits / p.orders : null,
+                      p?.previous?.averageOrder?.currency ===
+                        p?.revenue.currency
+                        ? p?.previous?.averageOrder?.minorUnits
+                        : null,
+                    )}
+                  />
+                </div>
+                <a className="vd-ledger-link" href="#performance">
+                  Performance ledger <ArrowUpRight size={14} />
                 </a>
-              </section>
-              <section
-                className="command-intelligence"
-                aria-labelledby="move-title"
-              >
-                <div className="command-section-label">
-                  <span className="gold">CASSIUS INTELLIGENCE</span>
-                  <div className="command-sigil" aria-hidden="true">
-                    <Sparkles size={22} />
+              </GlassSurface>
+              <GlassSurface className="vd-cassius">
+                <div className="vd-module-header">
+                  <span className="vd-cassius-wordmark">
+                    CASSIUS<span>COLLECTIVE INTELLIGENCE</span>
+                  </span>
+                  <StatusChip tone="gold">
+                    {sample
+                      ? 'SAMPLE INSIGHT'
+                      : thinking
+                        ? 'ANALYZING'
+                        : 'NEXT BEST MOVE'}
+                  </StatusChip>
+                </div>
+                <div className="vd-intelligence-body">
+                  <CassiusGlyph active={thinking} />
+                  <div>
+                    <span className="vd-overline">
+                      {topProduct
+                        ? 'THE STRONGEST SIGNAL'
+                        : 'BUILD YOUR FOUNDATION'}
+                    </span>
+                    <h2>
+                      {topProduct
+                        ? `Lead with ${topProduct.name}.`
+                        : 'Confidence is your first advantage.'}
+                    </h2>
                   </div>
                 </div>
-                <span className="command-kicker">YOUR NEXT BEST ACTION</span>
-                <h2 id="move-title">{move.title}</h2>
-                <p>{move.rationale}</p>
-                <span className="command-evidence">{move.evidence}</span>
+                <div className="vd-opportunity">
+                  <div>
+                    <strong>
+                      {productShare !== null ? (
+                        `${productShare.toFixed(0)}%`
+                      ) : (
+                        <BookOpen size={25} strokeWidth={1.2} />
+                      )}
+                    </strong>
+                    <span>
+                      {productShare !== null
+                        ? 'OF RECORDED SALES'
+                        : 'PRODUCT CONFIDENCE'}
+                    </span>
+                  </div>
+                  <p>
+                    {topProduct
+                      ? 'Turn your leading product into your next story.'
+                      : 'One product. One informed recommendation. One personal story.'}
+                  </p>
+                </div>
                 <button
-                  className="gold-button command-find"
+                  className="vd-gold-button"
                   disabled={thinking}
                   onClick={findMove}
                 >
-                  {thinking
-                    ? 'Considering your next move…'
-                    : 'Find my best move'}{' '}
-                  <ArrowRight size={18} />
+                  {thinking ? 'Reading the signal…' : 'Find my best move'}
+                  <ArrowRight size={17} />
                 </button>
-                <div className="command-ai-result" aria-live="polite">
-                  {answer && <p>{answer}</p>}
+                <div className="vd-cassius-links">
+                  <button onClick={() => onAction(move.action)}>
+                    {topProduct
+                      ? 'Create a product story'
+                      : 'Prepare my first story'}
+                    <ArrowUpRight size={14} />
+                  </button>
+                  <button
+                    onClick={() =>
+                      onAction({
+                        label: 'Why this?',
+                        destination: 'intelligence',
+                        brief: `Explain this suggested action: ${move.title} ${move.rationale} ${sample ? 'This is explicitly sample performance.' : 'Use only available evidence; do not infer missing earnings.'}`,
+                      })
+                    }
+                  >
+                    Why this? <ChevronRight size={14} />
+                  </button>
+                </div>
+                <div className="vd-ai-response" aria-live="polite">
+                  {answer && (
+                    <div>
+                      <span className="vd-overline">
+                        {sample ? 'SAMPLE ANALYSIS' : 'CASSIUS ANALYSIS'}
+                      </span>
+                      <p>{answer}</p>
+                    </div>
+                  )}
                   {aiError && (
                     <p role="alert">
-                      {aiError} Your foundation action remains available below.
+                      {aiError} Your suggested action remains available.
                     </p>
                   )}
                 </div>
-                <button
-                  className="command-text-link"
-                  onClick={() => onAction(move.action)}
-                >
-                  {move.action.label} <ArrowUpRight size={16} />
-                </button>
-                <button
-                  className="command-text-link command-why"
-                  onClick={() =>
-                    onAction({
-                      label: 'Ask Cassius why',
-                      destination: 'intelligence',
-                      brief: `Explain this suggested action: ${move.title} ${move.rationale} ${sample ? 'This is an illustrative sample, not real performance.' : 'Performance is not connected; do not infer earnings.'}`,
-                    })
-                  }
-                >
-                  Ask Cassius why
-                </button>
-              </section>
-            </div>
-            <section className="command-actions" aria-label="Command actions">
-              {[
-                {
-                  label: 'Create content',
-                  destination: 'studio',
-                  Icon: Aperture,
-                },
-                {
-                  label: 'Find opportunity',
-                  destination: 'intelligence',
-                  Icon: Sparkles,
-                  brief:
-                    'Give me one practical sales idea grounded in Groomed Gent knowledge. Do not invent campaigns or offers.',
-                },
-                { label: 'Share my code', destination: 'identity', Icon: Copy },
-                {
-                  label: 'Learn a product',
-                  destination: 'knowledge',
-                  Icon: BookOpen,
-                },
-                {
-                  label: 'Your performance',
-                  destination: 'performance',
-                  Icon: ChartNoAxesCombined,
-                },
-              ].map(({ Icon, ...action }) => (
-                <button
-                  key={action.label}
-                  onClick={() => onAction(action as Action)}
-                >
-                  <Icon size={20} strokeWidth={1.5} />
-                  <span>{action.label}</span>
-                  <ArrowUpRight size={14} />
-                </button>
-              ))}
-            </section>
-            <div className="command-secondary">
-              <section className="command-momentum">
-                <div className="command-section-label">
-                  <h2>Your momentum</h2>
-                  <Target size={18} />
-                </div>
-                <div className="command-goal-copy">
-                  <span>MONTHLY EARNINGS GOAL</span>
-                  <strong>
-                    {monthlyGoal
-                      ? currency({ minorUnits: monthlyGoal, currency: 'USD' })
-                      : 'Set your intention.'}
-                  </strong>
-                </div>
-                <progress
-                  className="command-progress"
-                  aria-label="Monthly earnings goal"
-                  max={100}
-                  value={goalProgress ?? undefined}
-                  aria-valuetext={
-                    goalProgress === null
-                      ? 'Progress unavailable until monthly earnings are connected'
-                      : `${goalProgress.toFixed(0)} percent`
+              </GlassSurface>
+              <GlassSurface className="vd-chart-panel">
+                <SectionTitle
+                  index="01"
+                  title="Performance"
+                  action={
+                    <StatusChip>
+                      {sample ? 'SAMPLE' : p ? 'CONNECTED' : 'NOT CONNECTED'}
+                    </StatusChip>
                   }
                 />
-                <p>
-                  {goalProgress !== null
-                    ? `${goalProgress.toFixed(0)}% of your ${sample ? 'sample ' : ''}monthly goal`
-                    : period !== 'Month'
-                      ? 'Select Month to see goal progress.'
-                      : 'Progress begins when monthly earnings are connected.'}
-                </p>
+                <PerformanceChart
+                  performance={p}
+                  period={period}
+                  sample={sample}
+                />
+              </GlassSurface>
+              <section className="vd-launcher">
+                <SectionTitle index="02" title="Make your move" />
+                <div className="vd-launcher-grid">
+                  <CommandAction
+                    title="Create"
+                    subtitle="Creator Studio"
+                    icon={Aperture}
+                    onClick={() =>
+                      onAction({ label: 'Create', destination: 'studio' })
+                    }
+                  />
+                  <CommandAction
+                    title="Grow"
+                    subtitle="Find opportunity"
+                    icon={ChartNoAxesCombined}
+                    onClick={() =>
+                      onAction({
+                        label: 'Find opportunity',
+                        destination: 'intelligence',
+                        brief:
+                          'Give me one practical sales idea grounded in Groomed Gent knowledge. Do not invent campaigns or offers.',
+                      })
+                    }
+                  />
+                  <CommandAction
+                    title="Share"
+                    subtitle="My signature code"
+                    icon={Copy}
+                    onClick={() =>
+                      onAction({
+                        label: 'Share my code',
+                        destination: 'identity',
+                      })
+                    }
+                  />
+                  <CommandAction
+                    title="Learn"
+                    subtitle="Product Studio"
+                    icon={BookOpen}
+                    onClick={() =>
+                      onAction({
+                        label: 'Learn a product',
+                        destination: 'knowledge',
+                      })
+                    }
+                  />
+                  <CommandAction
+                    title="Ask Cassius"
+                    subtitle="A clearer next move"
+                    icon={Sparkles}
+                    primary
+                    onClick={() =>
+                      onAction({
+                        label: 'Ask Cassius',
+                        destination: 'intelligence',
+                      })
+                    }
+                  />
+                </div>
+              </section>
+              <GlassSurface className="vd-momentum">
+                <SectionTitle index="03" title="Momentum" />
+                <div className="vd-momentum-main">
+                  <ProgressRing
+                    value={goalProgress}
+                    label={
+                      goalProgress !== null
+                        ? `${goalProgress.toFixed(0)}%`
+                        : 'Your goal'
+                    }
+                    subtext={
+                      goalProgress !== null
+                        ? 'OF MONTHLY GOAL'
+                        : 'AWAITING SIGNAL'
+                    }
+                  />
+                  <div className="vd-goal-summary">
+                    <span className="vd-overline">MONTHLY EARNINGS</span>
+                    <strong>
+                      {monthlyEarned
+                        ? currency(monthlyEarned)
+                        : period === 'Month'
+                          ? '—'
+                          : 'Month view'}
+                    </strong>
+                    <span>
+                      of{' '}
+                      {goalAmount ? currency(goalAmount) : 'your personal goal'}
+                    </span>
+                    <small>
+                      {remaining !== null
+                        ? `${currency({ minorUnits: remaining, currency: 'USD' })} to go`
+                        : period !== 'Month'
+                          ? 'Select Month for progress'
+                          : 'Set your intention below'}
+                    </small>
+                  </div>
+                </div>
                 {!sample && (
-                  <form
-                    className="command-goal-form"
-                    onSubmit={(event) => {
-                      event.preventDefault();
-                      const amount = Math.round(Number(goalInput) * 100);
-                      if (
-                        !Number.isSafeInteger(amount) ||
-                        amount <= 0 ||
-                        amount > 100000000
-                      ) {
-                        setGoalMessage(
-                          'Enter a goal between $0.01 and $1,000,000.',
-                        );
-                        return;
-                      }
-                      setPersonalGoal(amount);
-                      try {
-                        localStorage.setItem(
-                          'ggc.preview.dashboard-goal.v1',
-                          String(amount),
-                        );
-                        setGoalMessage('Personal goal saved on this device.');
-                      } catch {
-                        setGoalMessage(
-                          'Goal set for this visit. Device storage is unavailable.',
-                        );
-                      }
-                    }}
-                  >
-                    <label htmlFor="command-goal">Personal goal · USD</label>
-                    <div>
-                      <input
-                        id="command-goal"
-                        type="number"
-                        min="0.01"
-                        max="1000000"
-                        step="0.01"
-                        inputMode="decimal"
-                        value={goalInput}
-                        onChange={(event) => setGoalInput(event.target.value)}
-                        required
-                        placeholder="e.g. 500"
-                      />
-                      <button type="submit">Save goal</button>
-                    </div>
-                    <output>{goalMessage}</output>
-                  </form>
+                  <details className="vd-goal-editor">
+                    <summary>
+                      {personalGoal
+                        ? 'Edit personal goal'
+                        : 'Set a personal goal'}
+                      <ArrowUpRight size={14} />
+                    </summary>
+                    <form
+                      onSubmit={(event) => {
+                        event.preventDefault();
+                        const amount = Math.round(Number(goalInput) * 100);
+                        if (
+                          !Number.isSafeInteger(amount) ||
+                          amount <= 0 ||
+                          amount > 100000000
+                        ) {
+                          setGoalMessage(
+                            'Enter a goal between $0.01 and $1,000,000.',
+                          );
+                          return;
+                        }
+                        setPersonalGoal(amount);
+                        try {
+                          localStorage.setItem(
+                            'ggc.preview.dashboard-goal.v1',
+                            String(amount),
+                          );
+                          setGoalMessage('Goal saved on this device.');
+                        } catch {
+                          setGoalMessage(
+                            'Goal set for this visit. Storage is unavailable.',
+                          );
+                        }
+                      }}
+                    >
+                      <label htmlFor="vd-goal">Personal goal · USD</label>
+                      <div>
+                        <input
+                          id="vd-goal"
+                          type="number"
+                          min="0.01"
+                          max="1000000"
+                          step="0.01"
+                          inputMode="decimal"
+                          required
+                          value={goalInput}
+                          onChange={(event) => setGoalInput(event.target.value)}
+                          placeholder="500"
+                        />
+                        <button type="submit">Save goal</button>
+                      </div>
+                      <output>{goalMessage}</output>
+                    </form>
+                  </details>
                 )}
-                <div className="command-tier">
-                  <span>COLLECTIVE STATUS</span>
-                  <h3>{dashboard.membership.label}</h3>
-                  {dashboard.membership.next ? (
-                    <p>
-                      Next: {dashboard.membership.next.label} ·{' '}
-                      {performance &&
-                      performance.revenue.currency ===
-                        dashboard.membership.next.threshold.currency
-                        ? currency({
-                            ...dashboard.membership.next.threshold,
-                            minorUnits: Math.max(
-                              0,
-                              dashboard.membership.next.threshold.minorUnits -
-                                performance.revenue.minorUnits,
-                            ),
-                          }) + ' in qualifying sales to go. '
-                        : currency(dashboard.membership.next.threshold) +
-                          ' qualifying sales required. '}
-                      {dashboard.membership.next.benefit}
-                    </p>
-                  ) : (
-                    <p>Tier criteria and privileges are awaiting approval.</p>
-                  )}
+                <div className="vd-tier">
+                  <div className="vd-tier-rail" aria-hidden="true">
+                    <i />
+                    <span />
+                    <i />
+                    <span />
+                    <i />
+                  </div>
+                  <div className="vd-tier-labels">
+                    <strong>
+                      {sample
+                        ? 'Ambassador'
+                        : dashboard.membership.tierId
+                          ? dashboard.membership.label
+                          : 'Your status'}
+                    </strong>
+                    <span>
+                      {dashboard.membership.next?.label ?? 'Next chapter'}
+                    </span>
+                    <LockKeyhole size={12} />
+                  </div>
+                  <div className="vd-next-benefit">
+                    <LockKeyhole size={16} />
+                    <span>
+                      {dashboard.membership.next
+                        ? dashboard.membership.next.benefit
+                        : 'Tier benefits awaiting approval'}
+                    </span>
+                  </div>
                   <a href="#status">
-                    Explore status <ArrowUpRight size={14} />
+                    Status & privileges
+                    <ArrowUpRight size={14} />
                   </a>
                 </div>
-              </section>
-              <section className="command-pulse">
-                <div className="command-section-label">
-                  <h2>Collective pulse</h2>
-                  <span>IN YOUR CIRCLE</span>
-                </div>
-                <p className="command-muted">
-                  {dashboard.feedConnected
-                    ? 'Selected for your Collective.'
-                    : 'Available in your workspace. Live announcements are not connected.'}
-                </p>
-                {visiblePulse(
-                  dashboard.pulse,
-                  dashboard.membership.tierId,
-                  dashboard.ambassador?.kind ?? null,
-                  new Date(),
-                ).map((item) => (
-                  <button
-                    key={item.id}
-                    className="command-pulse-item"
-                    onClick={() => onAction(item.action)}
-                  >
-                    <span className="command-pulse-kind">{item.kind}</span>
-                    <strong>{item.title}</strong>
-                    <p>{item.detail}</p>
-                    <span className="command-text-link">
-                      {item.action.label} <ArrowUpRight size={16} />
-                    </span>
-                  </button>
-                ))}
-              </section>
-            </div>
-            <section className="command-trends">
-              <div className="command-section-label">
-                <h2>Performance intelligence</h2>
-                <span>THE SIGNAL / NOT THE NOISE</span>
-              </div>
-              {performance && performance.trend.length > 1 ? (
-                <div className="command-trend-grid">
-                  <div>
-                    <span className="command-kicker">
-                      EARNINGS TREND {sample ? '· SAMPLE' : ''}
-                    </span>
-                    <svg
-                      viewBox="0 0 600 160"
-                      aria-label={`Earnings trend across ${performance.trend.length} observations; exact values below`}
-                    >
-                      <defs>
-                        <linearGradient
-                          id="command-chart-fill"
-                          x1="0"
-                          y1="0"
-                          x2="0"
-                          y2="1"
-                        >
-                          <stop
-                            offset="0%"
-                            stopColor="#c4912f"
-                            stopOpacity=".22"
-                          />
-                          <stop
-                            offset="100%"
-                            stopColor="#c4912f"
-                            stopOpacity="0"
-                          />
-                        </linearGradient>
-                      </defs>
-                      {(() => {
-                        const values = performance.trend.map(
-                          (point) => point.earnings.minorUnits,
-                        );
-                        const min = Math.min(0, ...values),
-                          max = Math.max(1, ...values);
-                        const points = values
-                          .map(
-                            (v, i) =>
-                              `${10 + (i * 580) / (values.length - 1)},${140 - ((v - min) / (max - min)) * 120}`,
-                          )
-                          .join(' ');
-                        return (
-                          <>
-                            <path
-                              d="M10 40 H590 M10 90 H590 M10 140 H590"
-                              stroke="#ffffff10"
-                              fill="none"
-                            />
-                            <polygon
-                              points={`10,155 ${points} 590,155`}
-                              fill="url(#command-chart-fill)"
-                            />
-                            <polyline
-                              points={points}
-                              stroke="#dfbc73"
-                              strokeWidth="2.5"
-                              strokeLinejoin="round"
-                              fill="none"
-                            />
-                          </>
-                        );
-                      })()}
-                    </svg>
-                    <details>
-                      <summary>View exact trend values</summary>
-                      <table>
-                        <thead>
-                          <tr>
-                            <th>Observation</th>
-                            <th>Earnings</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {performance.trend.map((point) => (
-                            <tr key={point.date}>
-                              <td>{point.date}</td>
-                              <td>{currency(point.earnings)}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </details>
+              </GlassSurface>
+              <GlassSurface className="vd-pulse">
+                <SectionTitle
+                  index="04"
+                  title="Collective pulse"
+                  action={
+                    <StatusChip tone={sample ? 'gold' : 'muted'}>
+                      {sample ? 'SAMPLE' : 'WORKSPACE'}
+                    </StatusChip>
+                  }
+                />
+                {pulse.length ? (
+                  pulse.map((item) => (
+                    <PulseItem
+                      key={item.id}
+                      item={item}
+                      onAction={onAction}
+                      sample={sample}
+                    />
+                  ))
+                ) : (
+                  <div className="vd-feed-empty">
+                    <LayersIcon />
+                    <p>You’re up to date.</p>
                   </div>
-                  <div>
-                    <h3>Where interest becomes action</h3>
-                    {performance.channels.length ? (
-                      performance.channels.map((channel) => (
-                        <div className="command-channel" key={channel.id}>
-                          <span>{channel.name}</span>
-                          <strong>{channel.orders} orders</strong>
-                          <small>
-                            {channel.clicks > 0
-                              ? `${((channel.orders / channel.clicks) * 100).toFixed(1)}% conversion`
-                              : 'Conversion unavailable'}
-                          </small>
+                )}
+                {!sample && !dashboard.feedConnected && (
+                  <p className="vd-footnote">
+                    Live announcements awaiting connection
+                  </p>
+                )}
+              </GlassSurface>
+              <GlassSurface className="vd-products">
+                <SectionTitle index="05" title="Product intelligence" />
+                <div className="vd-ranking-head">
+                  <span>TOP PRODUCTS</span>
+                  <span>SALES MIX</span>
+                </div>
+                {p?.products.length ? (
+                  [...p.products]
+                    .sort((a, b) => b.revenue.minorUnits - a.revenue.minorUnits)
+                    .slice(0, 4)
+                    .map((product, index) => (
+                      <RankedBar
+                        key={product.productId}
+                        index={index}
+                        name={product.name}
+                        value={
+                          p.revenue.minorUnits > 0 &&
+                          p.revenue.currency === product.revenue.currency
+                            ? (product.revenue.minorUnits /
+                                p.revenue.minorUnits) *
+                              100
+                            : null
+                        }
+                        detail={`${product.orders} orders · ${currency(product.revenue)}`}
+                      />
+                    ))
+                ) : (
+                  <div
+                    className="vd-empty-ranking"
+                    aria-label="Product ranking awaiting attributed sales"
+                  >
+                    {[76, 54, 32].map((width, index) => (
+                      <div key={width}>
+                        <span>0{index + 1}</span>
+                        <i style={{ width: `${width}%` }} />
+                      </div>
+                    ))}
+                    <p>Product leaders appear with attributed sales.</p>
+                  </div>
+                )}
+                <div className="vd-inline-insight">
+                  <Sparkles size={15} />
+                  <p>
+                    {topSalesProduct
+                      ? `${topSalesProduct.name} leads your recorded product sales.`
+                      : 'Know the product. Create the opportunity.'}
+                  </p>
+                </div>
+              </GlassSurface>
+              <GlassSurface className="vd-channels">
+                <SectionTitle index="06" title="Channel intelligence" />
+                <div className="vd-channel-composition">
+                  <div
+                    className={`vd-channel-donut ${totalChannelOrders ? '' : 'vd-channel-empty'}`}
+                    style={
+                      totalChannelOrders
+                        ? {
+                            background: `conic-gradient(${channelStops.stops.join(',')})`,
+                          }
+                        : undefined
+                    }
+                  >
+                    <div>
+                      <strong>
+                        {p?.channels.length ? totalChannelOrders : '—'}
+                      </strong>
+                      <span>ORDERS</span>
+                    </div>
+                  </div>
+                  <div className="vd-channel-list">
+                    {topChannels.length ? (
+                      topChannels.slice(0, 4).map((channel, i) => (
+                        <div key={channel.id}>
+                          <i
+                            style={{
+                              background: [
+                                '#d6b370',
+                                '#748677',
+                                '#3d5145',
+                                '#a3a391',
+                              ][i % 4],
+                            }}
+                          />
+                          <span>
+                            <strong>{channel.name}</strong>
+                            <small>
+                              {channel.clicks > 0
+                                ? `${((channel.orders / channel.clicks) * 100).toFixed(1)}% conversion`
+                                : 'Conversion unavailable'}
+                            </small>
+                          </span>
+                          <b>{channel.orders}</b>
                         </div>
                       ))
                     ) : (
-                      <p>Channel attribution is not available yet.</p>
+                      <>
+                        <span className="vd-overline">
+                          AWAITING ATTRIBUTION
+                        </span>
+                        <p>Your channel mix will appear here.</p>
+                      </>
                     )}
-                    <p className="command-muted">{move.rationale}</p>
                   </div>
                 </div>
-              ) : (
-                <div className="command-no-trend">
-                  <ChartNoAxesCombined size={30} />
-                  <div>
-                    <h3>
-                      {performance?.orders === 0
-                        ? 'A clear starting point.'
-                        : 'Your signal is taking shape.'}
-                    </h3>
-                    <p>
-                      {performance?.orders === 0
-                        ? 'No attributed orders in this period. Your next move is ready above.'
-                        : 'Trends, leading products and channel insights will appear as attributed activity becomes available. Missing data is never shown as zero.'}
-                    </p>
-                  </div>
-                  <a href="#performance">
-                    Reporting details <ArrowUpRight size={16} />
-                  </a>
+                <div className="vd-inline-insight">
+                  <Sparkles size={15} />
+                  <p>
+                    {topChannels[0]
+                      ? `${topChannels[0].name} leads your recorded channel orders.`
+                      : 'Every connection starts with a conversation.'}
+                  </p>
                 </div>
-              )}
-            </section>
+              </GlassSurface>
+            </div>
+            <div className="vd-system-footer">
+              <StatusChip tone={sample ? 'gold' : 'muted'}>
+                {sample ? 'SAMPLE ENVIRONMENT' : 'PRIVATE PREVIEW'}
+              </StatusChip>
+              <span>GROOMED GENT / THE COLLECTIVE</span>
+              <a href="#performance">
+                Reporting details <ArrowUpRight size={14} />
+              </a>
+            </div>
           </>
         )
       )}
     </div>
   );
+}
+function LayersIcon() {
+  return <BookOpen size={26} strokeWidth={1} />;
 }

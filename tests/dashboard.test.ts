@@ -101,6 +101,7 @@ void test('no sales and partial performance do not manufacture a product winner'
   if (d.performance.state !== 'ready') throw new Error();
   d.performance.data.orders = 0;
   d.performance.data.products = [];
+  d.pulse = [];
   d.performance.data.earnedCommission = null;
   assert.equal(bestMove(d).id, 'foundation');
   assert.ok(parseDashboard(d));

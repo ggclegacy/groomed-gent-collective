@@ -1069,3 +1069,4 @@ Prerequisites: D19-A. Assessment: Produce an evidence gap map separating mechani
 - **D19-R-06** — Adversarial consultation testing
 - **D19-R-07** — Versioned reasoning policy evaluation
 - **D19-R-08** — Human-in-the-loop learning governance
+
