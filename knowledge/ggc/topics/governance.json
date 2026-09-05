@@ -1,0 +1,41 @@
+{
+  "id": "governance",
+  "title": "Knowledge governance and unknowns",
+  "tags": [
+    "unknown",
+    "source",
+    "evidence",
+    "manufacturer",
+    "inci",
+    "research",
+    "approval",
+    "verify"
+  ],
+  "version": "1.0.0",
+  "facts": [
+    {
+      "id": "governance-1",
+      "value": "CANONICAL records establish adopted brand/product identity. VERIFIED means observed in the cited source, not manufacturer-certified or clinically proven. DISPUTED facts preserve competing statements. UNKNOWN means no usable evidence. EDITORIAL material is guidance, not a product fact or claim approval.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Knowledge governance and unknowns"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "governance-2",
+      "value": "New manufacturer labels, complete INCI, research, training and future products must retain stable product IDs, formula versions, source metadata, review history and field-level evidence. Never infer a missing formula from a similar product or another flavor. Conflicts remain open until a recorded review resolves them.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Knowledge governance and unknowns"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

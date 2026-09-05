@@ -1,0 +1,173 @@
+{
+  "id": "ggc-peptide-moisturizer",
+  "handle": "peptide-moisturizer",
+  "shopifyProductId": "9228689572066",
+  "name": "Luminis",
+  "catalogTitle": "LUMINIS — Peptide Moisturizer",
+  "aliases": [
+    "Luminis",
+    "LUMINIS — Peptide Moisturizer",
+    "peptide moisturizer"
+  ],
+  "familyId": "peptide-moisturizer",
+  "flavor": null,
+  "line": "Legacy Reserve",
+  "kind": "cosmetic",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Luminis",
+      "shopifyProductId": "9228689572066"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "peptide-moisturizer",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for daily facial hydration and a smoother-looking finish.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "peptide-moisturizer",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Aqua, Sorbitan Olivate, Cetearyl Olivate, Caprylic/Capric Triglyceride, Coco-Caprylate/Caprate, Cetyl Alcohol, Stearyl Alcohol, Methylglucoside Phosphate, Copper Lysinate/Prolinate, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Eclipta Prostrata Extract, Moringa Oleifera Seed Extract, Melia Azadirachta (Neem) Leaf Extract, Glycerin, Aloe Barbadensis Leaf Juice, Tocopheryl Acetate, Totarol, Hamamelis Virginiana (Witch Hazel) Water, Xanthan Gum, Alcohol, Phenoxyethanol, Ethylhexylglycerin, Sodium Benzoate, Potassium Sorbate, Maltodextrin, Syringa Vulgaris (Lilac) Leaf Cell Culture Extract.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "peptide-moisturizer / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "serving": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "otherIngredients": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Other ingredients not separately stated in rendered label; consult website ingredient declaration."
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "Apply a dime-sized amount to face and neck and gently massage until fully absorbed.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "peptide-moisturizer / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "1\nCleanse first with Obsidian Ritual.\n2\nApply a small amount of Luminis to clean, dry skin.\n3\nMassage evenly over the face and neck.\n4\nUse daily in the morning or anytime the skin needs lightweight hydration.\nFor the full daily face standard, use after Obsidian Ritual. For night recovery, cleanse first, then use Renova when a richer finish is needed.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "peptide-moisturizer",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "This product is for external use only and is not intended to be ingested. Avoid contact with eyes. In case of irritation, discontinue use. Keep out of reach of children. Store in a cool, dry place.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "peptide-moisturizer / body_html / Warning"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905670758626",
+        "title": "Default Title",
+        "price": "34.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "peptide-moisturizer / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [],
+  "pairings": [
+    {
+      "value": {
+        "productId": "ggc-charcoal-facial-cleanser",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "peptide-moisturizer",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    },
+    {
+      "value": {
+        "productId": "ggc-renova-tallow-cream",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "peptide-moisturizer",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

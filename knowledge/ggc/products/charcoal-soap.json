@@ -1,0 +1,173 @@
+{
+  "id": "ggc-charcoal-soap",
+  "handle": "charcoal-soap",
+  "shopifyProductId": "9228690129122",
+  "name": "Obsidian Noir",
+  "catalogTitle": "OBSIDIAN NOIR — Charcoal Body Bar",
+  "aliases": [
+    "Obsidian Noir",
+    "OBSIDIAN NOIR — Charcoal Body Bar",
+    "charcoal soap"
+  ],
+  "familyId": "charcoal-soap",
+  "flavor": null,
+  "line": "Legacy Reserve",
+  "kind": "cosmetic",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Obsidian Noir",
+      "shopifyProductId": "9228690129122"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "charcoal-soap",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for charcoal body cleansing.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "charcoal-soap",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Saponified Oils (Organic Palm Oil**, Organic Coconut Oil*, Organic Sunflower Oil, Organic Extra Virgin Olive Oil), Peppermint Essential Oil, Tea Tree Essential Oil, Activated Charcoal. **Fair Trade Sustainable Palm, *Fair Trade",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "charcoal-soap / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "serving": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "otherIngredients": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Other ingredients not separately stated in rendered label; consult website ingredient declaration."
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "Add warm water for a thick lather. Keep dry between uses for extended longevity.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "charcoal-soap / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "1\nWet skin and bar with warm water.\n2\nLather directly in hands or with a washcloth.\n3\nMassage over the body.\n4\nRinse thoroughly and store the bar in a dry place between uses.\nUse daily in the shower as the body-cleansing step of the Legacy Reserve standard.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "charcoal-soap",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "In case of accidental contact with eyes, immediately rinse thoroughly with clean water. If irritation persists, discontinue use.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "charcoal-soap / body_html / Warning"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905672691938",
+        "title": "Default Title",
+        "price": "17.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "charcoal-soap / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [],
+  "pairings": [
+    {
+      "value": {
+        "productId": "ggc-rich-sandalwood-soap",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "charcoal-soap",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    },
+    {
+      "value": {
+        "productId": "ggc-barbers-blend-grooming-oil",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "charcoal-soap",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

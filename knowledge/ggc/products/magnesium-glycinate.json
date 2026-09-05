@@ -1,0 +1,209 @@
+{
+  "id": "ggc-magnesium-glycinate",
+  "handle": "magnesium-glycinate",
+  "shopifyProductId": "9228690161890",
+  "name": "Restoria",
+  "catalogTitle": "RESTORIA — Magnesium Glycinate",
+  "aliases": [
+    "Restoria",
+    "RESTORIA — Magnesium Glycinate",
+    "magnesium glycinate"
+  ],
+  "familyId": "magnesium-glycinate",
+  "flavor": null,
+  "line": "Legacy Sanctum",
+  "kind": "supplement",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Restoria",
+      "shopifyProductId": "9228690161890"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "magnesium-glycinate",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for magnesium intake, muscle function and relaxation support.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "magnesium-glycinate",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Magnesium (from 2,500mg Magnesium Glycinate) 275mg, Hypromellose (capsule), Magnesium Stearate, Silicon Dioxide, Rice Flour.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "magnesium-glycinate / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": [
+      {
+        "name": "Magnesium (from 2,500 mg Magnesium Glycinate)",
+        "amountText": "275 mg — 65% DV",
+        "sourceId": "magnesium-glycinate",
+        "locator": "Supplement Facts / Magnesium (from 2,500 mg Magnesium Glycinate)"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "magnesium-glycinate",
+        "locator": "Supplement Facts"
+      }
+    ],
+    "note": null
+  },
+  "serving": {
+    "value": "Serving Size: 3 capsules. Servings Per Container: 30.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "magnesium-glycinate",
+        "locator": "Supplement Facts / Serving Size"
+      }
+    ],
+    "note": null
+  },
+  "otherIngredients": {
+    "value": "Hypromellose (capsule), Magnesium Stearate, Silicon Dioxide, Rice Flour.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "magnesium-glycinate",
+        "locator": "Supplement Facts / Other Ingredients"
+      }
+    ],
+    "note": null
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "As a dietary supplement, take three (3) capsules once daily or as directed by your healthcare professional.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "magnesium-glycinate / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "Take 3 capsules daily. Use as part of your evening restoration routine.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "magnesium-glycinate",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "Do not exceed recommended dose. Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement. Warning: Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "magnesium-glycinate / body_html / Warning"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905672757474",
+        "title": "Default Title",
+        "price": "34.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "magnesium-glycinate / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [],
+  "pairings": [
+    {
+      "value": {
+        "productId": "ggc-sleep-support",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "magnesium-glycinate",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    },
+    {
+      "value": {
+        "productId": "ggc-hydration-powder-passion-fruit",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "magnesium-glycinate",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    },
+    {
+      "value": {
+        "productId": "ggc-creatine-hydration-powder",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "magnesium-glycinate",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

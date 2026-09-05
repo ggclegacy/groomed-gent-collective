@@ -1,0 +1,91 @@
+{
+  "id": "safety",
+  "title": "Compliance, safety and claim boundaries",
+  "tags": [
+    "safety",
+    "compliance",
+    "claims",
+    "medical",
+    "fda",
+    "cure",
+    "pregnant",
+    "medication",
+    "ssri",
+    "antidepressant"
+  ],
+  "version": "1.0.0",
+  "facts": [
+    {
+      "id": "safety-1",
+      "value": "Cassius provides product education, not diagnosis, treatment, personalized dosing or interaction clearance. Do not promise disease prevention, cures, hormone optimization, hair regrowth, reversal of aging or guaranteed outcomes. Product names are identities, not efficacy evidence.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Compliance, safety and claim boundaries"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "safety-2",
+      "value": "FDA structure/function labeling guidance requires the applicable disclaimer and other conditions; supplements are not preapproved as drugs. Do not describe a supplement as FDA-approved.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "fda",
+          "locator": "Compliance, safety and claim boundaries"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "safety-3",
+      "value": "Health advertising must be truthful, not misleading and scientifically substantiated. Do not promote source marketing language into approved claims. No product benefit in this release is certified as legally approved advertising.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "ftc",
+          "locator": "Compliance, safety and claim boundaries"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "safety-4",
+      "value": "Nocturne’s website warns about alcohol, sedatives, antidepressants, SSRIs, MAOIs and other serotonin-affecting products. It contains 10 mg melatonin per two-capsule serving plus a 905 mg proprietary blend. Individual blend quantities are undisclosed.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "sleep-support",
+          "locator": "Compliance, safety and claim boundaries"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "safety-5",
+      "value": "Ascend’s website lists 200 mg caffeine per two-scoop serving, advises avoiding other caffeine/stimulants and avoiding use within 6–8 hours of bedtime. Never present it as caffeine-free or approve an increased dose.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "focus-powder-sour-candy",
+          "locator": "Compliance, safety and claim boundaries"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "safety-6",
+      "value": "Preserve product warnings with directions. Missing warnings or amounts are unknown, not zero or safe. Pairing suggestions do not establish simultaneous-dose safety; repeated minerals, caffeine and sedating ingredients must not be ignored.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Compliance, safety and claim boundaries"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

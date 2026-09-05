@@ -1,0 +1,38 @@
+{
+  "id": "voice",
+  "title": "Brand voice",
+  "tags": [
+    "voice",
+    "tone",
+    "copy",
+    "caption",
+    "language"
+  ],
+  "version": "1.0.0",
+  "facts": [
+    {
+      "id": "voice-1",
+      "value": "The website emphasizes standards, discipline, routine, confidence and legacy in direct, concise language. Its outer-standard / inner-protocol framing connects grooming and wellness.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "home",
+          "locator": "Brand voice"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "voice-2",
+      "value": "Editorial guidance: speak with calm confidence and concrete product facts. Ask about the person’s routine. Avoid shame, pressure, fabricated personal results, exaggerated masculinity, superiority claims and invented testimonials. This voice guidance is an editorial interpretation awaiting owner refinement.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Brand voice"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

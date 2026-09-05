@@ -1,0 +1,51 @@
+{
+  "id": "brand",
+  "title": "Master brand identity and positioning",
+  "tags": [
+    "brand",
+    "groomed gent",
+    "gcc",
+    "ggc",
+    "introduce",
+    "chair"
+  ],
+  "version": "1.0.0",
+  "facts": [
+    {
+      "id": "brand-1",
+      "value": "Groomed Gent Co. is the master brand, rooted in Lafayette, Louisiana and barbershop culture. Its positioning connects premium grooming with wellness, discipline and the whole man.",
+      "status": "CANONICAL",
+      "evidence": [
+        {
+          "sourceId": "home",
+          "locator": "Master brand identity and positioning"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "brand-2",
+      "value": "Legacy Reserve is the outer grooming line. Legacy Sanctum is the supplement and performance line; the same Sanctum name also describes a future digital and physical wellness vision. Distinguish products available on the retail site from future services.",
+      "status": "CANONICAL",
+      "evidence": [
+        {
+          "sourceId": "home",
+          "locator": "Master brand identity and positioning"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "brand-3",
+      "value": "Groomed Gent Collective is the existing ambassador project; CASSIUS is its intelligence identity. Commission rates, customer discounts and payout promises remain unapproved.",
+      "status": "CANONICAL",
+      "evidence": [
+        {
+          "sourceId": "project-brief",
+          "locator": "Master brand identity and positioning"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

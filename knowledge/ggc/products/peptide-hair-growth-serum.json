@@ -1,0 +1,173 @@
+{
+  "id": "ggc-peptide-hair-growth-serum",
+  "handle": "peptide-hair-growth-serum",
+  "shopifyProductId": "9228690260194",
+  "name": "Reneuva",
+  "catalogTitle": "RENEUVA — Peptide Hair Growth Serum",
+  "aliases": [
+    "Reneuva",
+    "RENEUVA — Peptide Hair Growth Serum",
+    "peptide hair growth serum"
+  ],
+  "familyId": "peptide-hair-growth-serum",
+  "flavor": null,
+  "line": "Legacy Reserve",
+  "kind": "cosmetic",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Reneuva",
+      "shopifyProductId": "9228690260194"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "peptide-hair-growth-serum",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for cosmetic scalp care and fuller-looking hair.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "peptide-hair-growth-serum",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Water, Glycerin, Lecithin, Propanediol, Arginine, Caprylyl Glycol, Citric Acid, Eucalyptus Globulus Leaf Extract, Tocopherol, sh-Polypeptide-11, sh-Polypeptide-1, sh-Oligopeptide-2, sh-Oligopeptide-10, sh-Polypeptide-9, Lactic Acid, Glycine Soja (Soybean) Germ Extract, Triticum Vulgare (Wheat) Germ Extract, Scutellaria Baicalensis Root Extract, Sodium Benzoate, Gluconolactone, Calcium Gluconate, Potassium Sorbate, Rosmarinus Officinalis (Rosemary) Extract, Xanthan Gum, Sodium Gluconate, Serenoa Repens (Saw Palmetto) Extract",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "peptide-hair-growth-serum / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "serving": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "otherIngredients": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Other ingredients not separately stated in rendered label; consult website ingredient declaration."
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "Apply a few drops of serum directly to the scalp. Gently massage the serum into the scalp using your fingertips for 1-2 minutes to ensure even distribution and stimulate circulation.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "peptide-hair-growth-serum / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "1\nApply Reneuva directly to the scalp in the desired areas.\n2\nMassage in with fingertips until evenly distributed.\n3\nAllow it to absorb before applying styling products.\n4\nUse consistently as part of the daily hair standard.\nUse Reneuva first for scalp support. Finish with Barber's Blend when the hair or beard needs softness, control, and a refined finish.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "peptide-hair-growth-serum",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "For external use only. Keep out of reach from children. Store in a cool, dry place.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "peptide-hair-growth-serum / body_html / Warning"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905672888546",
+        "title": "Default Title",
+        "price": "49.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "peptide-hair-growth-serum / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [],
+  "pairings": [
+    {
+      "value": {
+        "productId": "ggc-barbers-blend-grooming-oil",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "peptide-hair-growth-serum",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    },
+    {
+      "value": {
+        "productId": "ggc-charcoal-facial-cleanser",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "peptide-hair-growth-serum",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "sales",
+  "title": "Sales education and discovery",
+  "tags": [
+    "sales",
+    "sell",
+    "recommend",
+    "education",
+    "chair",
+    "travel",
+    "training"
+  ],
+  "version": "1.0.0",
+  "facts": [
+    {
+      "id": "sales-1",
+      "value": "Ask about routine, goals, texture or scent preferences, and which product the person means. Explain its category and website-described purpose with a source. Offer one understandable next step; accept a no. Do not infer suitability from occupation or appearance.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Sales education and discovery"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "sales-2",
+      "value": "For supplement recommendations, do not clear medication interactions or calculate a stack. Offer source-listed ingredients and label directions for discussion with a qualified clinician. For travel, verify actual container size and destination rules; do not infer carry-on eligibility.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Sales education and discovery"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "sales-3",
+      "value": "Use product-specific evidence, not ingredient research alone, before making outcome claims. A structure/function disclaimer does not substitute for substantiation.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "ftc",
+          "locator": "Sales education and discovery"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

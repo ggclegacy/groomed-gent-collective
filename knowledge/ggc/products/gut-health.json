@@ -1,0 +1,186 @@
+{
+  "id": "ggc-gut-health",
+  "handle": "gut-health",
+  "shopifyProductId": "9228689965282",
+  "name": "Genesis",
+  "catalogTitle": "GENESIS — Gut Health & Microbiome Formula",
+  "aliases": [
+    "Genesis",
+    "GENESIS — Gut Health & Microbiome Formula",
+    "gut health"
+  ],
+  "familyId": "gut-health",
+  "flavor": null,
+  "line": "Legacy Sanctum",
+  "kind": "supplement",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Genesis",
+      "shopifyProductId": "9228689965282"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "gut-health",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for digestion and microbiome support.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "gut-health",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Organic Apple Cider Vinegar Powder (fruit), Inulin (Helianthus tuberosus) (Jerusalem artichoke root), Lactobacillus acidophilus LA85 (Inulin carrier), DigeZyme®.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "gut-health / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": [
+      {
+        "name": "Organic Apple Cider Vinegar Powder (fruit)",
+        "amountText": "1,000 mg †",
+        "sourceId": "gut-health",
+        "locator": "Supplement Facts / Organic Apple Cider Vinegar Powder (fruit)"
+      },
+      {
+        "name": "Inulin (Helianthus tuberosus) Jerusalem artichoke root",
+        "amountText": "200 mg †",
+        "sourceId": "gut-health",
+        "locator": "Supplement Facts / Inulin (Helianthus tuberosus) Jerusalem artichoke root"
+      },
+      {
+        "name": "DigeZyme®",
+        "amountText": "100 mg †",
+        "sourceId": "gut-health",
+        "locator": "Supplement Facts / DigeZyme®"
+      },
+      {
+        "name": "Lactobacillus acidophilus LA85",
+        "amountText": "10 mg / 1 Billion CFU ‡",
+        "sourceId": "gut-health",
+        "locator": "Supplement Facts / Lactobacillus acidophilus LA85"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "gut-health",
+        "locator": "Supplement Facts"
+      }
+    ],
+    "note": "CFU is specified at time of manufacture, not guaranteed at expiry. Individual DigeZyme enzyme activities are unknown."
+  },
+  "serving": {
+    "value": "Serving Size: 2 Capsules. Servings Per Container: 30.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "gut-health",
+        "locator": "Supplement Facts / Serving Size"
+      }
+    ],
+    "note": null
+  },
+  "otherIngredients": {
+    "value": "HPMC vegetable capsule, Brown Rice Flour, Magnesium Stearate, Olive Oil, Silicon Dioxide.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "gut-health",
+        "locator": "Supplement Facts / Other Ingredients"
+      }
+    ],
+    "note": null
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "As a dietary supplement, adults take two (2) capsules daily. For best results, take with 6-8 oz (177-236ml) of water or as directed by a healthcare professional.",
+    "status": "DISPUTED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "gut-health / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "Take 2 capsules daily. Use as part of a consistent digestive support routine. If you are immunocompromised, seriously ill, pregnant, nursing, taking medication, or managing a medical condition, consult a healthcare professional before use.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "gut-health",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "Genesis contains apple cider vinegar powder, prebiotic inulin, DigeZyme®, and Lactobacillus acidophilus LA85. Probiotic products may not be appropriate for everyone. Consult a healthcare professional before use if you are immunocompromised, seriously ill, pregnant, nursing, taking medication, managing a medical condition, or preparing for surgery.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "gut-health",
+        "locator": "Smart Use"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905671708898",
+        "title": "Default Title",
+        "price": "39.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "gut-health / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [
+    "genesis-directions"
+  ],
+  "pairings": []
+}

@@ -1,0 +1,15 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"knowledge://ggc/schemas/fact",
+ "title":"Evidence-bearing field, version 1",
+ "type":"object",
+ "required":["value","status","evidence","note"],
+ "properties":{
+  "value":{},
+  "status":{"enum":["CANONICAL","VERIFIED","DISPUTED","UNKNOWN","EDITORIAL"]},
+  "note":{"type":["string","null"]},
+  "evidence":{"type":"array","items":{"type":"object","required":["sourceId","locator"],"properties":{"sourceId":{"type":"string","minLength":1},"locator":{"type":"string","minLength":1}}}},
+  "revision":{"type":"object","properties":{"version":{"type":"string"},"formulaVersion":{"type":"string"},"effectiveFrom":{"type":"string","format":"date-time"},"supersedes":{"type":"string"},"reviewedBy":{"type":"string"},"reviewedAt":{"type":"string","format":"date-time"},"visibility":{"enum":["public","internal","confidential"]}}}
+ },
+ "allOf":[{"if":{"properties":{"status":{"const":"UNKNOWN"}}},"then":{"properties":{"value":{"type":"null"},"note":{"type":"string","minLength":1}}},"else":{"properties":{"evidence":{"minItems":1},"value":{"not":{"type":"null"}}}}}]
+}

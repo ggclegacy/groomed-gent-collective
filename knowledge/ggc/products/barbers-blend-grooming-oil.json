@@ -1,0 +1,137 @@
+{
+  "id": "ggc-barbers-blend-grooming-oil",
+  "handle": "barbers-blend-grooming-oil",
+  "shopifyProductId": "9219005513954",
+  "name": "Barber's Blend",
+  "catalogTitle": "Barber's Blend Grooming Oil",
+  "aliases": [
+    "Barber's Blend",
+    "Barber's Blend Grooming Oil",
+    "barbers blend grooming oil"
+  ],
+  "familyId": "barbers-blend-grooming-oil",
+  "flavor": null,
+  "line": "Legacy Reserve",
+  "kind": "cosmetic",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Barber's Blend",
+      "shopifyProductId": "9219005513954"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "barbers-blend-grooming-oil",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for conditioning and finishing hair and beard.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "barbers-blend-grooming-oil",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Sea buckthorn CO2, marula oil, rosehip fruit oil, tamanu seed oil, argan kernel oil, broccoli seed oil, jojoba seed oil, avocado oil, sunflower seed oil, sweet almond oil, tocopherol, fragrance (Santal Noir).",
+    "status": "DISPUTED",
+    "evidence": [
+      {
+        "sourceId": "barbers-blend-grooming-oil",
+        "locator": "12 PRECISION INGREDIENTS section"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "serving": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "otherIngredients": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Other ingredients not separately stated in rendered label; consult website ingredient declaration."
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "Warm 2–4 drops between palms and work through damp or dry hair and beard. Style as usual. Use morning or night, or both.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "barbers-blend-grooming-oil / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Separate timing protocol not transcribed."
+  },
+  "safety": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Product-specific warning text not located; absence is not assurance of safety."
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47865997230306",
+        "title": "Default Title",
+        "price": "30.00",
+        "currency": "USD"
+      }
+    ],
+    "status": "DISPUTED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "barbers-blend-grooming-oil / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [
+    "barbers-price-size",
+    "barbers-formula-scent"
+  ],
+  "pairings": []
+}

@@ -1,0 +1,195 @@
+{
+  "id": "ggc-sleep-support",
+  "handle": "sleep-support",
+  "shopifyProductId": "9228690620642",
+  "name": "Nocturne",
+  "catalogTitle": "NOCTURNE — Sleep Support Formula",
+  "aliases": [
+    "Nocturne",
+    "NOCTURNE — Sleep Support Formula",
+    "sleep support"
+  ],
+  "familyId": "sleep-support",
+  "flavor": null,
+  "line": "Legacy Sanctum",
+  "kind": "supplement",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Nocturne",
+      "shopifyProductId": "9228690620642"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "sleep-support",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for evening sleep and relaxation support.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "sleep-support",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Magnesium citrate, Pyridoxine HCl Powder (Vitamin B6), Calcium carbonate, Melatonin, Sleep Formula Proprietary Blend (L-Tryptophan, Lycium (Lycium barbarum L.) (fruit), Chamomile (Matricaria chamomilla L.) (flower), Lemon Balm (Melissa officinalis) (aerial), Passion Flower (Passiflora incarnata) (flower), L-Taurine, Hops (Humulus lupulus) (flower), St. John’s Wort (Hypericum perforatum) (aerial), Gamma-Aminobutyric Acid (GABA), Chinese Skullcap (Scutellaria baicalensis) (root), L-Theanine, Ashwagandha (Withania somnifera) (root), Inositol, 5-HTP (Griffonia simplicifolia) (seed)), Hypromellose (Vegatable Capsule), Silicon Dioxide (Sipernat 22), Magnesium Stearate.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "sleep-support / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": [
+      {
+        "name": "Vitamin B6 (Pyridoxine HCl)",
+        "amountText": "1.8 mg - 106% DV",
+        "sourceId": "sleep-support",
+        "locator": "Supplement Facts / Vitamin B6 (Pyridoxine HCl)"
+      },
+      {
+        "name": "Calcium (as Calcium Carbonate)",
+        "amountText": "17 mg - 1% DV",
+        "sourceId": "sleep-support",
+        "locator": "Supplement Facts / Calcium (as Calcium Carbonate)"
+      },
+      {
+        "name": "Magnesium (as Magnesium Citrate)",
+        "amountText": "13 mg - 3% DV",
+        "sourceId": "sleep-support",
+        "locator": "Supplement Facts / Magnesium (as Magnesium Citrate)"
+      },
+      {
+        "name": "Melatonin",
+        "amountText": "10 mg",
+        "sourceId": "sleep-support",
+        "locator": "Supplement Facts / Melatonin"
+      },
+      {
+        "name": "Sleep Formula Proprietary Blend",
+        "amountText": "905 mg",
+        "sourceId": "sleep-support",
+        "locator": "Supplement Facts / Sleep Formula Proprietary Blend"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "sleep-support",
+        "locator": "Supplement Facts"
+      }
+    ],
+    "note": null
+  },
+  "serving": {
+    "value": "Serving Size: 2 Capsules. Servings Per Container: 30.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "sleep-support",
+        "locator": "Supplement Facts / Serving Size"
+      }
+    ],
+    "note": null
+  },
+  "otherIngredients": {
+    "value": "Hypromellose (vegetable capsule), Magnesium Stearate (vegetable), Silicon Dioxide.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "sleep-support",
+        "locator": "Supplement Facts / Other Ingredients"
+      }
+    ],
+    "note": null
+  },
+  "proprietaryBlend": {
+    "value": "L-Tryptophan, Lycium (Lycium barbarum L.) fruit, Chamomile (Matricaria chamomilla L.) flower, Lemon Balm (Melissa officinalis) aerial, Passion Flower (Passiflora incarnata) flower, L-Taurine, Hops (Humulus lupulus) flower, St. John's Wort (Hypericum perforatum) aerial, Gamma-Aminobutyric Acid (GABA), Chinese Skullcap (Scutellaria baicalensis) root, L-Theanine, Ashwagandha (Withania somnifera) root, Inositol, 5-HTP (Griffonia simplicifolia) seed.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "sleep-support",
+        "locator": "Supplement Facts / blend includes"
+      }
+    ],
+    "note": null
+  },
+  "directions": {
+    "value": "As a dietary supplement, take two (2) capsules once a day. For best results, take 20-30 min before bedtime with an 8oz (237ml) glass of water or as directed by your healthcare professional.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "sleep-support / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "Take 2 capsules as part of your evening routine. Do not combine with alcohol, sedatives, antidepressants, or other serotonin-affecting products unless directed by a healthcare professional.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "sleep-support",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "Nocturne contains melatonin, St. John's Wort, 5-HTP, L-tryptophan, GABA, botanicals, and amino acids. Do not use with antidepressants, SSRIs, MAOIs, sedatives, alcohol, or other serotonin-affecting products unless directed by a healthcare professional. Consult a healthcare professional before use if pregnant, nursing, taking medication, managing a medical condition, or preparing for surgery.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "sleep-support",
+        "locator": "Smart Use"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905673674978",
+        "title": "Default Title",
+        "price": "34.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "sleep-support / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [],
+  "pairings": []
+}

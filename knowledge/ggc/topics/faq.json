@@ -1,0 +1,80 @@
+{
+  "id": "faq",
+  "title": "Customer FAQs and objections",
+  "tags": [
+    "faq",
+    "objection",
+    "expensive",
+    "price",
+    "works",
+    "results",
+    "allergy",
+    "vegan",
+    "natural",
+    "guarantee",
+    "refund"
+  ],
+  "version": "1.0.0",
+  "facts": [
+    {
+      "id": "faq-1",
+      "value": "Why this price? Explain the published product format and purpose; do not invent competitor comparisons or superiority. Check current checkout pricing, especially the unresolved Fortius Aqua and Barber’s Blend differences.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Customer FAQs and objections"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "faq-2",
+      "value": "Will it work for me, and how soon? No individual result or timeline is guaranteed. No product-specific clinical substantiation dossier is loaded. Website descriptions are not proof of an individual outcome.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Customer FAQs and objections"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "faq-3",
+      "value": "Is it allergen-free, vegan, safe for sensitive skin, or safe with my medications? Do not infer any of these from a partial ingredient list. Manufacturer and current label verification are required, and medication/suitability questions belong with a qualified clinician. Renova’s website declaration includes beef tallow.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Customer FAQs and objections"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "faq-4",
+      "value": "What is the return policy? The linked refund and terms endpoints returned HTTP 404 during capture. Ask brand support for the current policy. Do not promise a blanket refund or decide eligibility.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "2026-09-05 capture failures in source manifest"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "faq-5",
+      "value": "Can I get the full formula? Website ingredient declarations and supplement rows are available where captured; percentages, fragrance composition, proprietary-blend individual amounts and manufacturer-certified completeness remain unknown.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Customer FAQs and objections"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

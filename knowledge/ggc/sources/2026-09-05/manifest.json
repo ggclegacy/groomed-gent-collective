@@ -1,0 +1,266 @@
+[
+  {
+    "id": "home",
+    "url": "https://groomedgentco.com/",
+    "resolvedUrl": "https://groomedgentco.com/",
+    "retrievedAt": "2026-09-05T20:23:01.957221+00:00",
+    "sha256": "ecd4f38b0df4df47ad7bcc8d67c43eacff49812fb0e745483d6a28dac8ddd0bc",
+    "snapshot": "home.txt",
+    "status": "captured"
+  },
+  {
+    "id": "catalog",
+    "url": "https://groomedgentco.com/collections/all",
+    "resolvedUrl": "https://groomedgentco.com/collections/all",
+    "retrievedAt": "2026-09-05T20:23:02.221591+00:00",
+    "sha256": "cf09074d7e9808d1aef786b8d135067e2abd1a0dbafe49f462bb766d826f83be",
+    "snapshot": "catalog.txt",
+    "status": "captured"
+  },
+  {
+    "id": "vision",
+    "url": "https://groomedgentco.com/pages/the-vision",
+    "resolvedUrl": "https://groomedgentco.com/pages/vision",
+    "retrievedAt": "2026-09-05T20:23:02.280878+00:00",
+    "sha256": "59ff7297f2b640b7b343b96d8d3acb4953a03541272c520653ff3741fa83d30b",
+    "snapshot": "vision.txt",
+    "status": "captured"
+  },
+  {
+    "id": "story",
+    "url": "https://groomedgentco.com/pages/our-story",
+    "resolvedUrl": "https://groomedgentco.com/pages/about",
+    "retrievedAt": "2026-09-05T20:23:02.332535+00:00",
+    "sha256": "2aebf888cb42b1e5a6b629114213022000ab7821f7070a00b17b876626d36bd0",
+    "snapshot": "story.txt",
+    "status": "captured"
+  },
+  {
+    "id": "wholesale",
+    "url": "https://groomedgentco.com/pages/wholesale",
+    "resolvedUrl": "https://groomedgentco.com/pages/wholesale",
+    "retrievedAt": "2026-09-05T20:23:01.772347+00:00",
+    "sha256": "d782d8fa0afb79f251627cf9c2ac4a284c0eeef2154688713c0b831361f49795",
+    "snapshot": "wholesale.txt",
+    "status": "captured"
+  },
+  {
+    "id": "wellness",
+    "url": "https://groomedgentco.com/pages/wellness-network",
+    "resolvedUrl": "https://groomedgentco.com/pages/wellness-network",
+    "retrievedAt": "2026-09-05T20:23:01.855160+00:00",
+    "sha256": "7ad15e1835dde1595f9c6354b955296a2758a17e32f15c7af6e014f7b7c32680",
+    "snapshot": "wellness.txt",
+    "status": "captured"
+  },
+  {
+    "id": "reserve",
+    "url": "https://groomedgentco.com/collections/legacy-reserve",
+    "resolvedUrl": "https://groomedgentco.com/collections/legacy-reserve",
+    "retrievedAt": "2026-09-05T20:23:02.595586+00:00",
+    "sha256": "9a7a2f1153895498d4bb3bcd584e3a8e727156c79c5c67996624e8bc16d17120",
+    "snapshot": "reserve.txt",
+    "status": "captured"
+  },
+  {
+    "id": "sanctum",
+    "url": "https://groomedgentco.com/collections/legacy-sanctum",
+    "resolvedUrl": "https://groomedgentco.com/collections/legacy-sanctum",
+    "retrievedAt": "2026-09-05T20:23:02.915736+00:00",
+    "sha256": "8275342f367c9abfb3a5dd3fbe888ac2c9b056b36f8279407498abf70904c4a1",
+    "snapshot": "sanctum.txt",
+    "status": "captured"
+  },
+  {
+    "id": "contact",
+    "url": "https://groomedgentco.com/pages/contact",
+    "resolvedUrl": "https://groomedgentco.com/pages/contact",
+    "retrievedAt": "2026-09-05T20:23:02.539875+00:00",
+    "sha256": "9018e47d5afe770bbaa41794959adb0011e11810303796110ec1f395735d5716",
+    "snapshot": "contact.txt",
+    "status": "captured"
+  },
+  {
+    "id": "privacy",
+    "url": "https://groomedgentco.com/policies/privacy-policy",
+    "resolvedUrl": "https://groomedgentco.com/policies/privacy-policy",
+    "retrievedAt": "2026-09-05T20:23:02.984556+00:00",
+    "sha256": "4de6e7357eb1840e8c26ac89c0d4875a997280e37ce0ecb6d7a0a8cf9ca88d04",
+    "snapshot": "privacy.txt",
+    "status": "captured"
+  },
+  {
+    "id": "terms",
+    "url": "https://groomedgentco.com/policies/terms-of-service",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "refund",
+    "url": "https://groomedgentco.com/policies/refund-policy",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "nad",
+    "url": "https://groomedgentco.com/products/nad",
+    "resolvedUrl": "https://groomedgentco.com/products/nad",
+    "retrievedAt": "2026-09-05T20:23:03.506526+00:00",
+    "sha256": "9c458892fb7d4756825e62eb59ab5a83df928777507e34df72ebc96fd0b64554",
+    "snapshot": "nad.txt",
+    "status": "captured"
+  },
+  {
+    "id": "renova-tallow-cream",
+    "url": "https://groomedgentco.com/products/renova-tallow-cream",
+    "resolvedUrl": "https://groomedgentco.com/products/renova-tallow-cream",
+    "retrievedAt": "2026-09-05T20:23:03.313594+00:00",
+    "sha256": "0aa750f4d5133daf0c6f043d53398921b06567223ac8c0d5bded2ad996741670",
+    "snapshot": "renova-tallow-cream.txt",
+    "status": "captured"
+  },
+  {
+    "id": "charcoal-soap",
+    "url": "https://groomedgentco.com/products/charcoal-soap",
+    "resolvedUrl": "https://groomedgentco.com/products/charcoal-soap",
+    "retrievedAt": "2026-09-05T20:23:03.585474+00:00",
+    "sha256": "6cf32bf38af1a6194e4a80bc3323b1a65d32ce8a52318cd674117acfa57abe59",
+    "snapshot": "charcoal-soap.txt",
+    "status": "captured"
+  },
+  {
+    "id": "hydration-powder-passion-fruit",
+    "url": "https://groomedgentco.com/products/hydration-powder-passion-fruit",
+    "resolvedUrl": "https://groomedgentco.com/products/hydration-powder-passion-fruit",
+    "retrievedAt": "2026-09-05T20:23:03.734420+00:00",
+    "sha256": "36da17e878a257241dcea7981df495c763b57d307bf24abd40ba710d2666b209",
+    "snapshot": "hydration-powder-passion-fruit.txt",
+    "status": "captured"
+  },
+  {
+    "id": "ashwagandha-plus",
+    "url": "https://groomedgentco.com/products/ashwagandha-plus",
+    "resolvedUrl": "https://groomedgentco.com/products/ashwagandha-plus",
+    "retrievedAt": "2026-09-05T20:23:03.733584+00:00",
+    "sha256": "709d30c0c4eef629252ac986db4d6567796c9f58a0a884b07604676774e1aa64",
+    "snapshot": "ashwagandha-plus.txt",
+    "status": "captured"
+  },
+  {
+    "id": "sleep-support",
+    "url": "https://groomedgentco.com/products/sleep-support",
+    "resolvedUrl": "https://groomedgentco.com/products/sleep-support",
+    "retrievedAt": "2026-09-05T20:23:03.765433+00:00",
+    "sha256": "4fb3b121dc48d110037e8a52a49e2ba3d5d24f02043d212bcf454ca34e0cb130",
+    "snapshot": "sleep-support.txt",
+    "status": "captured"
+  },
+  {
+    "id": "hydration-powder-peach-mango",
+    "url": "https://groomedgentco.com/products/hydration-powder-peach-mango",
+    "resolvedUrl": "https://groomedgentco.com/products/hydration-powder-peach-mango",
+    "retrievedAt": "2026-09-05T20:23:04.165239+00:00",
+    "sha256": "db9755cbe057576247a5359afe5721c586a0a2e78bd37f78f75754b6199a7c96",
+    "snapshot": "hydration-powder-peach-mango.txt",
+    "status": "captured"
+  },
+  {
+    "id": "peptide-hair-growth-serum",
+    "url": "https://groomedgentco.com/products/peptide-hair-growth-serum",
+    "resolvedUrl": "https://groomedgentco.com/products/peptide-hair-growth-serum",
+    "retrievedAt": "2026-09-05T20:23:04.227729+00:00",
+    "sha256": "4089a90ad13cb580f8af384732219dd52a0593f967bd754d840aea56d12cffc5",
+    "snapshot": "peptide-hair-growth-serum.txt",
+    "status": "captured"
+  },
+  {
+    "id": "magnesium-glycinate",
+    "url": "https://groomedgentco.com/products/magnesium-glycinate",
+    "resolvedUrl": "https://groomedgentco.com/products/magnesium-glycinate",
+    "retrievedAt": "2026-09-05T20:23:04.297224+00:00",
+    "sha256": "175cb9929337cfd61ac928c109cc4fe1e1f7b27c2ef6e0bb20b63c8569e6914e",
+    "snapshot": "magnesium-glycinate.txt",
+    "status": "captured"
+  },
+  {
+    "id": "charcoal-facial-cleanser",
+    "url": "https://groomedgentco.com/products/charcoal-facial-cleanser",
+    "resolvedUrl": "https://groomedgentco.com/products/charcoal-facial-cleanser",
+    "retrievedAt": "2026-09-05T20:23:04.755374+00:00",
+    "sha256": "b9e6677983907c94206e1c7e94ce233f929760dba6b8e7607ffbcfd5a80b4248",
+    "snapshot": "charcoal-facial-cleanser.txt",
+    "status": "captured"
+  },
+  {
+    "id": "gut-health",
+    "url": "https://groomedgentco.com/products/gut-health",
+    "resolvedUrl": "https://groomedgentco.com/products/gut-health",
+    "retrievedAt": "2026-09-05T20:23:04.662652+00:00",
+    "sha256": "4b04e3043798ecd80bd2abd390084e1343e748cc4f24b1dbcb27349651113d03",
+    "snapshot": "gut-health.txt",
+    "status": "captured"
+  },
+  {
+    "id": "rich-sandalwood-soap",
+    "url": "https://groomedgentco.com/products/rich-sandalwood-soap",
+    "resolvedUrl": "https://groomedgentco.com/products/rich-sandalwood-soap",
+    "retrievedAt": "2026-09-05T20:23:04.622828+00:00",
+    "sha256": "3ecfdaea5e93b95d53071cc4328e7a9a27e0a9c2ed41628aac6c46901dfb836f",
+    "snapshot": "rich-sandalwood-soap.txt",
+    "status": "captured"
+  },
+  {
+    "id": "hydration-powder-lychee",
+    "url": "https://groomedgentco.com/products/hydration-powder-lychee",
+    "resolvedUrl": "https://groomedgentco.com/products/hydration-powder-lychee",
+    "retrievedAt": "2026-09-05T20:23:04.817683+00:00",
+    "sha256": "51a99e03e7697f576d553fa72ff19fd5a5467eddea6b28bfd6687889589a4c64",
+    "snapshot": "hydration-powder-lychee.txt",
+    "status": "captured"
+  },
+  {
+    "id": "nmn",
+    "url": "https://groomedgentco.com/products/nmn",
+    "resolvedUrl": "https://groomedgentco.com/products/nmn",
+    "retrievedAt": "2026-09-05T20:23:04.996350+00:00",
+    "sha256": "034fe83289a4080d15719ef7ca025ed706039e1cb156c1112e4f1563f1cdd46d",
+    "snapshot": "nmn.txt",
+    "status": "captured"
+  },
+  {
+    "id": "peptide-moisturizer",
+    "url": "https://groomedgentco.com/products/peptide-moisturizer",
+    "resolvedUrl": "https://groomedgentco.com/products/peptide-moisturizer",
+    "retrievedAt": "2026-09-05T20:23:04.912583+00:00",
+    "sha256": "f6932624caaadfac8e8e2ba2ed54f9bd512b79c79045abe6c45aeb96a778ccae",
+    "snapshot": "peptide-moisturizer.txt",
+    "status": "captured"
+  },
+  {
+    "id": "focus-powder-sour-candy",
+    "url": "https://groomedgentco.com/products/focus-powder-sour-candy",
+    "resolvedUrl": "https://groomedgentco.com/products/focus-powder-sour-candy",
+    "retrievedAt": "2026-09-05T20:23:05.303319+00:00",
+    "sha256": "ae446d3329d5a2d04e04606f7e33a30000999587924a65e31f4c0e916baf60c9",
+    "snapshot": "focus-powder-sour-candy.txt",
+    "status": "captured"
+  },
+  {
+    "id": "creatine-hydration-powder",
+    "url": "https://groomedgentco.com/products/creatine-hydration-powder",
+    "resolvedUrl": "https://groomedgentco.com/products/creatine-hydration-powder",
+    "retrievedAt": "2026-09-05T20:23:05.324797+00:00",
+    "sha256": "7de86ceabe6cbb5f5ed23d01413549e6e92a1b9d85d9159a9df46765d947030f",
+    "snapshot": "creatine-hydration-powder.txt",
+    "status": "captured"
+  },
+  {
+    "id": "barbers-blend-grooming-oil",
+    "url": "https://groomedgentco.com/products/barbers-blend-grooming-oil",
+    "resolvedUrl": "https://groomedgentco.com/products/barbers-blend-grooming-oil",
+    "retrievedAt": "2026-09-05T20:23:05.677079+00:00",
+    "sha256": "907900b41bf74c5d72574204aee0f073859e8118f1eba2b4c961604fee9c1495",
+    "snapshot": "barbers-blend-grooming-oil.txt",
+    "status": "captured"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "wellness",
+  "title": "Website wellness network",
+  "tags": [
+    "network",
+    "provider",
+    "clinic",
+    "wellness",
+    "peptides"
+  ],
+  "version": "1.0.0",
+  "facts": [
+    {
+      "id": "wellness-1",
+      "value": "The site presents a directory across health, mental health, fitness, recovery and mindset. Directory inclusion is a publisher statement, not independently verified credentials, medical advice or proof of partnership.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "wellness",
+          "locator": "Website wellness network"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "wellness-2",
+      "value": "Do not turn research-chemical listings or directory promotions into recommendations for human use. Provider credentials, current locations, commercial relationships and referral codes require verification before making a referral.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Website wellness network"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "ggc-focus-powder-sour-candy",
+  "handle": "focus-powder-sour-candy",
+  "shopifyProductId": "9228688294114",
+  "name": "Ascend",
+  "catalogTitle": "ASCEND — Cognitive Performance Formula(Sour Candy)",
+  "aliases": [
+    "Ascend",
+    "ASCEND — Cognitive Performance Formula(Sour Candy)",
+    "focus powder sour candy"
+  ],
+  "familyId": "focus-powder-sour-candy",
+  "flavor": "Sour Candy",
+  "line": "Legacy Sanctum",
+  "kind": "supplement",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Ascend",
+      "shopifyProductId": "9228688294114"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for alertness and focus support.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "L-Arginine HCl, Inositol, Alpha-GPC, Natural Caffeine (from Green Tea), L-Theanine, Asian Ginseng Extract, Black Pepper Extract, Thiamin (as Thiamine HCl), Riboflavin (Vitamin B2), Niacin (Vitamin B3), Vitamin B6 (as Pyridoxine HCl), Folate (as Folic Acid), Vitamin B12 (as Methylcobalamin), Pantothenic Acid (as D-Calcium Pantothenate), Citric Acid, Polydextrose, Natural & Artificial",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "focus-powder-sour-candy / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": [
+      {
+        "name": "Calories",
+        "amountText": "10 kcal",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Calories"
+      },
+      {
+        "name": "Total Carbohydrates",
+        "amountText": "2 g — <1% DV",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Total Carbohydrates"
+      },
+      {
+        "name": "Thiamin (as Thiamine HCl)",
+        "amountText": "0.40 mg — 33% DV",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Thiamin (as Thiamine HCl)"
+      },
+      {
+        "name": "Riboflavin (Vitamin B2)",
+        "amountText": "0.43 mg — 33% DV",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Riboflavin (Vitamin B2)"
+      },
+      {
+        "name": "Niacin (Vitamin B3)",
+        "amountText": "5.20 mg NE — 33% DV",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Niacin (Vitamin B3)"
+      },
+      {
+        "name": "Vitamin B6 (as Pyridoxine HCl)",
+        "amountText": "0.56 mg — 33% DV",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Vitamin B6 (as Pyridoxine HCl)"
+      },
+      {
+        "name": "Folate (as Folic Acid)",
+        "amountText": "133 mcg DFE — 33% DV",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Folate (as Folic Acid)"
+      },
+      {
+        "name": "Vitamin B12 (as Methylcobalamin)",
+        "amountText": "0.80 mcg — 33% DV",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Vitamin B12 (as Methylcobalamin)"
+      },
+      {
+        "name": "Pantothenic Acid (as D-Calcium Pantothenate)",
+        "amountText": "1.66 mg — 33% DV",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Pantothenic Acid (as D-Calcium Pantothenate)"
+      },
+      {
+        "name": "L-Arginine HCl",
+        "amountText": "1,000 mg †",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / L-Arginine HCl"
+      },
+      {
+        "name": "Inositol",
+        "amountText": "600 mg †",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Inositol"
+      },
+      {
+        "name": "Alpha GPC",
+        "amountText": "300 mg †",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Alpha GPC"
+      },
+      {
+        "name": "Natural Caffeine (from Green Tea)",
+        "amountText": "200 mg †",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Natural Caffeine (from Green Tea)"
+      },
+      {
+        "name": "L-Theanine",
+        "amountText": "100 mg †",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / L-Theanine"
+      },
+      {
+        "name": "Asian Ginseng Extract",
+        "amountText": "50 mg †",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Asian Ginseng Extract"
+      },
+      {
+        "name": "Black Pepper Extract",
+        "amountText": "5 mg †",
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Black Pepper Extract"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts"
+      }
+    ],
+    "note": null
+  },
+  "serving": {
+    "value": "Serving Size: 2 Scoops (8 g). Servings Per Container: 20.",
+    "status": "DISPUTED",
+    "evidence": [
+      {
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Supplement Facts / Serving Size"
+      }
+    ],
+    "note": null
+  },
+  "otherIngredients": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Other ingredients not separately stated in rendered label; consult website ingredient declaration."
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "Mix 2 scoops (8 g) with 16 fl oz (480 mL) of water or adjust to taste.",
+    "status": "DISPUTED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "focus-powder-sour-candy / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "Contains 200 mg caffeine per serving. Use earlier in the day or before a focused output window. Avoid use within 6–8 hours of bedtime. Do not combine with other caffeine or stimulant products.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "Ascend contains 200 mg caffeine per serving from green tea, plus Alpha GPC, L-theanine, Asian ginseng, L-arginine, inositol, B vitamins, and black pepper extract. Do not combine with other caffeine or stimulant products. Avoid use within 6–8 hours of bedtime. Consult a healthcare professional before use if pregnant, nursing, caffeine-sensitive, taking medication, managing a medical condition, or preparing for surgery.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Smart Use"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905667547362",
+        "title": "Default Title",
+        "price": "45.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "focus-powder-sour-candy / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [
+    "ascend-serving-count"
+  ],
+  "pairings": []
+}

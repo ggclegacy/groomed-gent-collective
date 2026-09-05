@@ -1,0 +1,168 @@
+{
+  "id": "ggc-renova-tallow-cream",
+  "handle": "renova-tallow-cream",
+  "shopifyProductId": "9230059929826",
+  "name": "Renova",
+  "catalogTitle": "RENOVA — Tallow Night Recovery Cream",
+  "aliases": [
+    "Renova",
+    "RENOVA — Tallow Night Recovery Cream",
+    "renova tallow cream"
+  ],
+  "familyId": "renova-tallow-cream",
+  "flavor": null,
+  "line": "Legacy Reserve",
+  "kind": "cosmetic",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Renova",
+      "shopifyProductId": "9230059929826"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "renova-tallow-cream",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for rich nighttime skin conditioning.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "renova-tallow-cream",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Beef Tallow, Olea Europaea (Olive) Fruit Oil*, Simmondsia Chinensis (Jojoba) Seed Oil*, Citrus Aurantium Dulcis (Orange) Peel Oil*, Citrus Aurantium Bergamia (Bergamot) Peel Oil* *Organic",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "renova-tallow-cream / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "serving": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "otherIngredients": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Other ingredients not separately stated in rendered label; consult website ingredient declaration."
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "Apply to fingertips and gently massage into skin. Product will absorb fully after a few minutes. Store in a cool location away from direct sunlight or heat.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "renova-tallow-cream / body_html / Suggested use"
+      }
+    ],
+    "note": "Universal safety language in catalog copy is excluded pending substantiation; retained in the raw source and marketing-claims issue."
+  },
+  "protocol": {
+    "value": "1\nCleanse first with Obsidian Ritual.\n2\nApply a small amount of Renova to clean, dry skin.\n3\nMassage evenly over the face and neck.\n4\nUse at night when the skin needs a richer recovery step.\nUse Luminis for lighter daily hydration. Use Renova at night when the skin needs a richer, more conditioned finish.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "renova-tallow-cream",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Product-specific warning text not located; absence is not assurance of safety."
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47910070092002",
+        "title": "Default Title",
+        "price": "32.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "renova-tallow-cream / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [],
+  "pairings": [
+    {
+      "value": {
+        "productId": "ggc-charcoal-facial-cleanser",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "renova-tallow-cream",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    },
+    {
+      "value": {
+        "productId": "ggc-peptide-moisturizer",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "renova-tallow-cream",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

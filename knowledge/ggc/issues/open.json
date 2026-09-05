@@ -1,0 +1,266 @@
+[
+  {
+    "id": "price-fortius",
+    "status": "OPEN",
+    "productIds": [
+      "ggc-creatine-hydration-powder"
+    ],
+    "fields": [
+      "price"
+    ],
+    "summary": "Rendered product page shows $52.99; catalog and product JSON show $49.99. No price chosen.",
+    "evidence": [
+      {
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "Product content / related section"
+      }
+    ],
+    "resolutionNeeded": "Owner must reconcile page and checkout price."
+  },
+  {
+    "id": "barbers-price-size",
+    "status": "OPEN",
+    "productIds": [
+      "ggc-barbers-blend-grooming-oil"
+    ],
+    "fields": [
+      "price",
+      "size"
+    ],
+    "summary": "Page founder rate is $38 for 2 oz (comparison $50), catalog is $30; catalog description mentions transition to 1 oz. Active offer and fulfilled size unresolved.",
+    "evidence": [
+      {
+        "sourceId": "barbers-blend-grooming-oil",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "Product content / related section"
+      }
+    ],
+    "resolutionNeeded": "Confirm current SKU, size and offer dates."
+  },
+  {
+    "id": "barbers-formula-scent",
+    "status": "OPEN",
+    "productIds": [
+      "ggc-barbers-blend-grooming-oil"
+    ],
+    "fields": [
+      "ingredients",
+      "fragrance"
+    ],
+    "summary": "One section lists 12 ingredients including broccoli oil and amber scent notes; another lists 11, omits broccoli and describes vanilla. Full INCI and fragrance composition unknown.",
+    "evidence": [
+      {
+        "sourceId": "barbers-blend-grooming-oil",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "home",
+        "locator": "Product content / related section"
+      }
+    ],
+    "resolutionNeeded": "Obtain signed current formula and scent specification."
+  },
+  {
+    "id": "hydros-formula",
+    "status": "OPEN",
+    "productIds": [
+      "ggc-hydration-powder-passion-fruit",
+      "ggc-hydration-powder-peach-mango",
+      "ggc-hydration-powder-lychee"
+    ],
+    "fields": [
+      "ingredients",
+      "supplementFacts",
+      "otherIngredients"
+    ],
+    "summary": "Rendered label lists B6 as pyridoxine HCl, pantothenic acid and beet juice powder; catalog declares pyridoxal 5 phosphate, omits B5, and says fruit/vegetable blend. Each flavor requires its own current label.",
+    "evidence": [
+      {
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "hydration-powder-peach-mango",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "hydration-powder-lychee",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "Product content / related section"
+      }
+    ],
+    "resolutionNeeded": "Manufacturer reconciliation; do not merge declarations into a single formula."
+  },
+  {
+    "id": "genesis-directions",
+    "status": "OPEN",
+    "productIds": [
+      "ggc-gut-health"
+    ],
+    "fields": [
+      "directions"
+    ],
+    "summary": "Catalog marketing says 1–2 servings daily, but Suggested use and page say 2 capsules daily. Higher intake is not approved.",
+    "evidence": [
+      {
+        "sourceId": "gut-health",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "Product content / related section"
+      }
+    ],
+    "resolutionNeeded": "Confirm label instructions before recommending a dose."
+  },
+  {
+    "id": "ascend-serving-count",
+    "status": "OPEN",
+    "productIds": [
+      "ggc-focus-powder-sour-candy"
+    ],
+    "fields": [
+      "serving",
+      "directions"
+    ],
+    "summary": "Rendered page says 20 servings at 8 g; catalog net weight is 150 g. Catalog also states a 5-scoop maximum whereas page warns against other caffeine; no higher-dose recommendation is authorized.",
+    "evidence": [
+      {
+        "sourceId": "focus-powder-sour-candy",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "Product content / related section"
+      }
+    ],
+    "resolutionNeeded": "Reconcile net weight, serving count and maximum intake with label."
+  },
+  {
+    "id": "wholesale-stale",
+    "status": "OPEN",
+    "productIds": [],
+    "fields": [
+      "availability",
+      "brandArchitecture"
+    ],
+    "summary": "Wholesale page calls supplements Legacy Reserve Wellness and marks supplements/skincare coming soon, despite live retail listing under Sanctum/Reserve. Wholesale availability is separate and unconfirmed.",
+    "evidence": [
+      {
+        "sourceId": "wholesale",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "home",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "catalog",
+        "locator": "Product content / related section"
+      }
+    ],
+    "resolutionNeeded": "Confirm wholesale launch, assortment and naming."
+  },
+  {
+    "id": "marketing-claims",
+    "status": "OPEN",
+    "productIds": [],
+    "fields": [
+      "claims"
+    ],
+    "summary": "Website includes tissue healing, damage reversal, chemical-free, universal safety and superiority language. Website presence is not substantiation or claim approval.",
+    "evidence": [
+      {
+        "sourceId": "home",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "barbers-blend-grooming-oil",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "Product content / related section"
+      }
+    ],
+    "resolutionNeeded": "Review each intended claim against product-specific substantiation; keep approvedClaims empty."
+  },
+  {
+    "id": "nexus-name",
+    "status": "OPEN",
+    "productIds": [
+      "ggc-nad"
+    ],
+    "fields": [
+      "identity"
+    ],
+    "summary": "Catalog title NAD+ maps to Nexus on the same /products/nad page. Preserve both aliases; do not confuse with Vitalis NMN.",
+    "evidence": [
+      {
+        "sourceId": "nad",
+        "locator": "Product content / related section"
+      },
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "Product content / related section"
+      }
+    ],
+    "resolutionNeeded": "Owner may align display names; stable Shopify identity retained."
+  },
+  {
+    "id": "policy-links-unavailable",
+    "status": "OPEN",
+    "productIds": [],
+    "fields": [
+      "refund",
+      "terms"
+    ],
+    "summary": "Linked refund-policy and terms-of-service endpoints returned HTTP 404 on 2026-09-05. No commercial terms inferred.",
+    "evidence": [
+      {
+        "sourceId": "refund",
+        "locator": "HTTP 404 capture result"
+      },
+      {
+        "sourceId": "terms",
+        "locator": "HTTP 404 capture result"
+      }
+    ],
+    "resolutionNeeded": "Provide current approved refund and terms documents and repair website links."
+  },
+  {
+    "id": "hydros-unlisted-flavor",
+    "status": "OPEN",
+    "productIds": [
+      "ggc-hydration-powder-passion-fruit",
+      "ggc-hydration-powder-peach-mango",
+      "ggc-hydration-powder-lychee"
+    ],
+    "fields": [
+      "availability",
+      "identity"
+    ],
+    "summary": "Hydros product-page flavor menus include Lemonade, but the captured 18-product catalog has no Lemonade listing. No SKU, formula or availability is inferred for it.",
+    "evidence": [
+      {
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Choose Your Flavor"
+      },
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "Entire 18-product catalog"
+      }
+    ],
+    "resolutionNeeded": "Confirm whether Lemonade is a future, hidden, removed or erroneous option and supply its own label before indexing as a live product."
+  }
+]

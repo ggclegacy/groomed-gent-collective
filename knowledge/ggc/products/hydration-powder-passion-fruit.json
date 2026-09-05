@@ -1,0 +1,246 @@
+{
+  "id": "ggc-hydration-powder-passion-fruit",
+  "handle": "hydration-powder-passion-fruit",
+  "shopifyProductId": "9228690882786",
+  "name": "Hydros Passion Fruit",
+  "catalogTitle": "HYDROS— Advanced Hydration Powder (Passion Fruit)",
+  "aliases": [
+    "Hydros Passion Fruit",
+    "HYDROS— Advanced Hydration Powder (Passion Fruit)",
+    "hydration powder passion fruit",
+    "Hydros"
+  ],
+  "familyId": "hydros",
+  "flavor": "Passion Fruit",
+  "line": "Legacy Sanctum",
+  "kind": "supplement",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Hydros Passion Fruit",
+      "shopifyProductId": "9228690882786"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for daily electrolyte hydration support.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Vitamin B1 (Thiamin), Vitamin B2 (Riboflavin), Vitamin B3 (Niacin), Vitamin B6 (Pyridoxal 5 Phosphate), Vitamin B9 (Folate), Vitamin B12 (Methylcobalamin), Calcium (Calcium Citrate), Magnesium (Magnesium Citrate), Sodium (Sodium Citrate), Potassium (Potassium Citrate), Polydextrose, Citric Acid, Natural & Artificial",
+    "status": "DISPUTED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "hydration-powder-passion-fruit / body_html / Ingredients"
+      },
+      {
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Product introduction / without caffeine"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification. The website explicitly describes this Hydros formula as caffeine-free; this is a website statement, not a batch assay."
+  },
+  "supplementFacts": {
+    "value": [
+      {
+        "name": "Calories",
+        "amountText": "10 kcal",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Calories"
+      },
+      {
+        "name": "Total Carbohydrates",
+        "amountText": "2 g — <1% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Total Carbohydrates"
+      },
+      {
+        "name": "Thiamin (as Thiamine HCl)",
+        "amountText": "0.40 mg — 33% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Thiamin (as Thiamine HCl)"
+      },
+      {
+        "name": "Riboflavin (Vitamin B2)",
+        "amountText": "0.43 mg — 33% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Riboflavin (Vitamin B2)"
+      },
+      {
+        "name": "Niacin (Vitamin B3)",
+        "amountText": "5.20 mg NE — 33% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Niacin (Vitamin B3)"
+      },
+      {
+        "name": "Vitamin B6 (as Pyridoxine HCl)",
+        "amountText": "0.56 mg — 33% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Vitamin B6 (as Pyridoxine HCl)"
+      },
+      {
+        "name": "Folate",
+        "amountText": "133 mcg DFE (78 mcg Folic Acid) — 33% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Folate"
+      },
+      {
+        "name": "Vitamin B12 (as Methylcobalamin)",
+        "amountText": "0.80 mcg — 33% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Vitamin B12 (as Methylcobalamin)"
+      },
+      {
+        "name": "Pantothenic acid (as D-Calcium Pantothenate)",
+        "amountText": "1.66 mg — 33% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Pantothenic acid (as D-Calcium Pantothenate)"
+      },
+      {
+        "name": "Calcium (as Calcium Citrate)",
+        "amountText": "40 mg — 3% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Calcium (as Calcium Citrate)"
+      },
+      {
+        "name": "Magnesium (as Magnesium Citrate)",
+        "amountText": "20 mg — 5% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Magnesium (as Magnesium Citrate)"
+      },
+      {
+        "name": "Sodium (as Sodium Citrate)",
+        "amountText": "100 mg — 4% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Sodium (as Sodium Citrate)"
+      },
+      {
+        "name": "Potassium (as Potassium Citrate)",
+        "amountText": "200 mg — 4% DV",
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Potassium (as Potassium Citrate)"
+      }
+    ],
+    "status": "DISPUTED",
+    "evidence": [
+      {
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts"
+      }
+    ],
+    "note": null
+  },
+  "serving": {
+    "value": "Serving Size: 1 scoop (5.4 g). Servings Per Container: 30.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Serving Size"
+      }
+    ],
+    "note": null
+  },
+  "otherIngredients": {
+    "value": "Polydextrose, Citric acid, N&A Flavors, Sucralose, Calcium Silicate, Beet Juice Powder (for color).",
+    "status": "DISPUTED",
+    "evidence": [
+      {
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Supplement Facts / Other Ingredients"
+      }
+    ],
+    "note": null
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "Measuring with the scooper located inside the jar, mix each scoop, to desired taste, with 14-20 ounces (414-591 ml) of water (2 scoops with 28-40 ounces (828 ml-1.2 1) of water).",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "hydration-powder-passion-fruit / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "The website describes use in morning, around training or heat/sweat, during workdays, and in the evening as a caffeine-free hydration option. This is published timing guidance, not individual intake advice.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "hydration-powder-passion-fruit",
+        "locator": "Daily Hydration Protocol"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "Recommended to not exceed more than 5 scoops within a 24 hour period. Not intended for use by persons with a medical condition. Consult your physician before using this product if you are pregnant of nursing or taking any medication. Manufactured in a facility that produces Milk, Eggs, Fish, Shellfish, Tree Nuts, Peanuts, Wheat, Soybeans, and Sesame. Store in a cool dry place, keep out of reach of children. Do not use if safety seal is broken or missing. Contents sold by weight not volume, some settling may occur. Secure lid tightly when not in use. Consume within 90 days. This product is intended to supplement a balanced diet and active lifestyle. Consult with a healthcare professional before starting any new dietary supplement, especially if you are pregnant, nursing, have any medical conditions, or are taking any medications.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "hydration-powder-passion-fruit / body_html / Warning"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905674133730",
+        "title": "Default Title",
+        "price": "39.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "hydration-powder-passion-fruit / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [
+    "hydros-formula",
+    "hydros-unlisted-flavor"
+  ],
+  "pairings": []
+}

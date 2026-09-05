@@ -1,0 +1,173 @@
+{
+  "id": "ggc-charcoal-facial-cleanser",
+  "handle": "charcoal-facial-cleanser",
+  "shopifyProductId": "9228690063586",
+  "name": "Obsidian Ritual",
+  "catalogTitle": "OBSIDIAN RITUAL — Charcoal • Tea Tree • Aloe Cleanser",
+  "aliases": [
+    "Obsidian Ritual",
+    "OBSIDIAN RITUAL — Charcoal • Tea Tree • Aloe Cleanser",
+    "charcoal facial cleanser"
+  ],
+  "familyId": "charcoal-facial-cleanser",
+  "flavor": null,
+  "line": "Legacy Reserve",
+  "kind": "cosmetic",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Obsidian Ritual",
+      "shopifyProductId": "9228690063586"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "charcoal-facial-cleanser",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for daily facial cleansing.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "charcoal-facial-cleanser",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Organic Aloe Barbadensis Leaf Juice, Vegetable Glycerin, Coconut Oil Ethers, Cocamidopropyl Betaine, Guar Gum, Activated Charcoal, Ethylhexylglycerin, Phenoxyethanol, Melaleuca Alternifolia (Tea Tree) Leaf Oil*, Tocopherol *Organic",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "charcoal-facial-cleanser / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "serving": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable to a cosmetic."
+  },
+  "otherIngredients": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Other ingredients not separately stated in rendered label; consult website ingredient declaration."
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "Wet skin with warm water and massage a small amount of gel onto face, working into a lather. Rinse well.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "charcoal-facial-cleanser / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "1\nWet face with warm water.\n2\nApply a small amount and massage over the face.\n3\nRinse thoroughly.\n4\nFollow with Luminis during the day or Renova at night.\nUse daily or as needed based on your skin and routine.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "charcoal-facial-cleanser",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "This product is for external use only and is not intended to be ingested. If you are pregnant or breastfeeding, please consult with a healthcare professional before use. Should any irritation occur, please discontinue use immediately.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "charcoal-facial-cleanser / body_html / Warning"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905671872738",
+        "title": "Default Title",
+        "price": "24.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "charcoal-facial-cleanser / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [],
+  "pairings": [
+    {
+      "value": {
+        "productId": "ggc-peptide-moisturizer",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "charcoal-facial-cleanser",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    },
+    {
+      "value": {
+        "productId": "ggc-renova-tallow-cream",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "charcoal-facial-cleanser",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

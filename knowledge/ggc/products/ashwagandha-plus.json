@@ -1,0 +1,208 @@
+{
+  "id": "ggc-ashwagandha-plus",
+  "handle": "ashwagandha-plus",
+  "shopifyProductId": "9228690784482",
+  "name": "Solaris",
+  "catalogTitle": "SOLARIS — Male Vitality Formula",
+  "aliases": [
+    "Solaris",
+    "SOLARIS — Male Vitality Formula",
+    "ashwagandha plus"
+  ],
+  "familyId": "ashwagandha-plus",
+  "flavor": null,
+  "line": "Legacy Sanctum",
+  "kind": "supplement",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Solaris",
+      "shopifyProductId": "9228690784482"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "ashwagandha-plus",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for daily vitality and stress-response support.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "ashwagandha-plus",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Vitamin D3 (as Cholecalciferol) (20 mcg), Vitamin B6 (as Pyridoxine Hydrochloride) (2.5 mg), Vitamin B12 (as Methylcobalamin 1%) (25 mcg), KSM-66® Ashwagandha Extract (standardized to 5% Withanolides) (600 mg), L-Arginine (300 mg), Maca Root Powder (Lepidium meyenii) (root) (150 mg), Panax Ginseng Powder (root) (100 mg), Shatavari Powder (Asparagus racemosus) (root) (50 mg), HPMC (vegetable capsule).",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "ashwagandha-plus / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": [
+      {
+        "name": "Vitamin D3 (as Cholecalciferol)",
+        "amountText": "20 mcg — 100% DV",
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts / Vitamin D3 (as Cholecalciferol)"
+      },
+      {
+        "name": "Vitamin B6 (as Pyridoxine Hydrochloride)",
+        "amountText": "2.5 mg — 147% DV",
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts / Vitamin B6 (as Pyridoxine Hydrochloride)"
+      },
+      {
+        "name": "Vitamin B12 (as Methylcobalamin 1%)",
+        "amountText": "25 mcg — 1,042% DV",
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts / Vitamin B12 (as Methylcobalamin 1%)"
+      },
+      {
+        "name": "KSM-66® Ashwagandha Extract (standardized to 5% Withanolides)",
+        "amountText": "600 mg",
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts / KSM-66® Ashwagandha Extract (standardized to 5% Withanolides)"
+      },
+      {
+        "name": "L-Arginine",
+        "amountText": "300 mg",
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts / L-Arginine"
+      },
+      {
+        "name": "Maca Root Powder (Lepidium meyenii) root",
+        "amountText": "150 mg",
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts / Maca Root Powder (Lepidium meyenii) root"
+      },
+      {
+        "name": "Panax Ginseng Powder root",
+        "amountText": "100 mg",
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts / Panax Ginseng Powder root"
+      },
+      {
+        "name": "Shatavari Powder (Asparagus racemosus) root",
+        "amountText": "50 mg",
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts / Shatavari Powder (Asparagus racemosus) root"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts"
+      }
+    ],
+    "note": null
+  },
+  "serving": {
+    "value": "Serving Size: 2 Capsules. Servings Per Container: 30.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts / Serving Size"
+      }
+    ],
+    "note": null
+  },
+  "otherIngredients": {
+    "value": "HPMC vegetable capsule.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "ashwagandha-plus",
+        "locator": "Supplement Facts / Other Ingredients"
+      }
+    ],
+    "note": null
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "As a dietary supplement, adults take two (2) capsules daily. For best results, take with 6-8 oz (177-237ml) of water or as directed by healthcare professional.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "ashwagandha-plus / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "Take 2 capsules daily. Use as part of a consistent daily vitality routine. Consult a healthcare professional before use if taking medication, managing a medical condition, pregnant, nursing, or preparing for surgery.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "ashwagandha-plus",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "Solaris contains KSM-66® Ashwagandha, Panax Ginseng, Maca, Shatavari, L-Arginine, Vitamin D3, B6, and B12. Consult a healthcare professional before use if you are taking medication, managing a medical condition, pregnant, nursing, or preparing for surgery. Do not use if you have been advised to avoid ashwagandha, ginseng, or arginine-containing products.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "ashwagandha-plus",
+        "locator": "Smart Use"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905673904354",
+        "title": "Default Title",
+        "price": "39.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "ashwagandha-plus / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [],
+  "pairings": []
+}

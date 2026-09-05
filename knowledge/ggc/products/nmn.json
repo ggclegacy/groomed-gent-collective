@@ -1,0 +1,168 @@
+{
+  "id": "ggc-nmn",
+  "handle": "nmn",
+  "shopifyProductId": "9228689768674",
+  "name": "Vitalis NMN",
+  "catalogTitle": "Vitalis NMN — Cellular Energy Formula",
+  "aliases": [
+    "Vitalis NMN",
+    "Vitalis NMN — Cellular Energy Formula",
+    "nmn",
+    "Vitalis",
+    "NMN"
+  ],
+  "familyId": "nmn",
+  "flavor": null,
+  "line": "Legacy Sanctum",
+  "kind": "supplement",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Vitalis NMN",
+      "shopifyProductId": "9228689768674"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "nmn",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for cellular energy and vitality support.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "nmn",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "β-Nicotinamide Mononucleotide (500 mg), HPMC (vegetable capsule), Microcrystalline Cellulose, Silicon Dioxide, Magnesium Stearate.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "nmn / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": [
+      {
+        "name": "β-Nicotinamide Mononucleotide",
+        "amountText": "500 mg †",
+        "sourceId": "nmn",
+        "locator": "Supplement Facts / β-Nicotinamide Mononucleotide"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "nmn",
+        "locator": "Supplement Facts"
+      }
+    ],
+    "note": null
+  },
+  "serving": {
+    "value": "Serving Size: 1 Capsule. Servings Per Container: 30.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "nmn",
+        "locator": "Supplement Facts / Serving Size"
+      }
+    ],
+    "note": null
+  },
+  "otherIngredients": {
+    "value": "HPMC vegetable capsule, Microcrystalline Cellulose, Silicon Dioxide, Magnesium Stearate.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "nmn",
+        "locator": "Supplement Facts / Other Ingredients"
+      }
+    ],
+    "note": null
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "As a dietary supplement, adults take one (1) capsule daily. For best results, take with 6-8 oz (177-237ml) of water or as directed by healthcare professional.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "nmn / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "Take 1 capsule daily. Use as part of a consistent healthy-aging and cellular-energy support routine. Consult a healthcare professional before use if pregnant, nursing, taking medication, managing a medical condition, or preparing for surgery.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "nmn",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "Vitalis contains 500 mg β-Nicotinamide Mononucleotide per serving. NMN is used as a precursor to support NAD+ production and cellular energy metabolism. Human research is still developing, so this product should be part of a disciplined wellness routine, not positioned as a treatment, cure, or guarantee of anti-aging results. Consult a healthcare professional before use if pregnant, nursing, taking medication, managing a medical condition, or preparing for surgery.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "nmn",
+        "locator": "Smart Use"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905671348450",
+        "title": "Default Title",
+        "price": "49.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "nmn / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [],
+  "pairings": []
+}

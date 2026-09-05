@@ -1,0 +1,39 @@
+{
+  "id": "founder",
+  "title": "Founder and brand story",
+  "tags": [
+    "founder",
+    "neil",
+    "stutes",
+    "story",
+    "lafayette",
+    "origin"
+  ],
+  "version": "1.0.0",
+  "facts": [
+    {
+      "id": "founder-1",
+      "value": "The official story names Neil Stutes as the founder behind Groomed Gent Co. and locates the brand in Lafayette, Louisiana. It describes a personal connection to the confidence and reset men experience in barbershop culture.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "story",
+          "locator": "Founder and brand story"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "founder-2",
+      "value": "The website describes experience in oil-field work, restaurant management and pharmaceutical delivery before building the brand. This is the brand’s account; exact career dates, legal entity history and independently validated biography are not supplied here.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "story",
+          "locator": "Founder and brand story"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

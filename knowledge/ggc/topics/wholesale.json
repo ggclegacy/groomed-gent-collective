@@ -1,0 +1,53 @@
+{
+  "id": "wholesale",
+  "title": "Wholesale and ambassador context",
+  "tags": [
+    "wholesale",
+    "ambassador",
+    "affiliate",
+    "commission",
+    "discount",
+    "payout",
+    "exclusivity",
+    "minimum"
+  ],
+  "version": "1.0.0",
+  "facts": [
+    {
+      "id": "wholesale-1",
+      "value": "The wholesale page invites interest from barbershops, men’s grooming boutiques, wellness studios and gym retail. It says wholesale orders are not yet being taken. Minimums and pricing are shared directly with approved partners; exclusivity is a conversation, not a promised right.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "wholesale",
+          "locator": "Wholesale and ambassador context"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "wholesale-2",
+      "value": "The wholesale page’s coming-soon product language conflicts with current retail listings. Retail availability does not prove wholesale launch or assortment. No approved ambassador commission, payout schedule, cookie window, discount or exclusivity terms are ingested.",
+      "status": "EDITORIAL",
+      "evidence": [
+        {
+          "sourceId": "editorial-policy",
+          "locator": "Wholesale and ambassador context"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "wholesale-3",
+      "value": "Ambassadors must clearly disclose material brand relationships, including relevant payment, gifts or discounts. Never fabricate a testimonial or claim personal experience that did not occur. Disclosure does not make an unsupported health claim acceptable.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "ftc",
+          "locator": "Wholesale and ambassador context"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

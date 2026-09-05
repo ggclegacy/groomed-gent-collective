@@ -1,0 +1,41 @@
+{
+  "id": "reserve",
+  "title": "Legacy Reserve",
+  "tags": [
+    "reserve",
+    "outer",
+    "grooming",
+    "line"
+  ],
+  "version": "1.0.0",
+  "facts": [
+    {
+      "id": "reserve-1",
+      "value": "Legacy Reserve covers Barber’s Blend grooming oil, Reneuva scalp serum, Luminis moisturizer, Renova night cream, Obsidian Ritual cleanser, Obsidian Noir charcoal body bar and Santal Noir sandalwood body bar. Legacy Reserve is a line, not the unique identity of a single oil.",
+      "status": "CANONICAL",
+      "evidence": [
+        {
+          "sourceId": "home",
+          "locator": "Legacy Reserve"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "reserve-2",
+      "value": "Website routines put Obsidian Ritual before Luminis for daytime facial care; richer Renova belongs after cleansing at night. Reneuva goes on the scalp before styling; Barber’s Blend finishes hair or beard. These are published routine descriptions, not individualized treatment plans.",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "peptide-moisturizer",
+          "locator": "Legacy Reserve"
+        },
+        {
+          "sourceId": "peptide-hair-growth-serum",
+          "locator": "The Method / The Routine"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

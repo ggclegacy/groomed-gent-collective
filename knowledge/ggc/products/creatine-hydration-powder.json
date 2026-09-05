@@ -1,0 +1,235 @@
+{
+  "id": "ggc-creatine-hydration-powder",
+  "handle": "creatine-hydration-powder",
+  "shopifyProductId": "9228620824802",
+  "name": "Fortius Aqua",
+  "catalogTitle": "FORTIUS AQUA\nCreatine + Electrolyte Performance Formula",
+  "aliases": [
+    "Fortius Aqua",
+    "FORTIUS AQUA\nCreatine + Electrolyte Performance Formula",
+    "creatine hydration powder"
+  ],
+  "familyId": "creatine-hydration-powder",
+  "flavor": null,
+  "line": "Legacy Sanctum",
+  "kind": "supplement",
+  "version": "1.0.0",
+  "lifecycle": "website_listed",
+  "identity": {
+    "value": {
+      "name": "Fortius Aqua",
+      "shopifyProductId": "9228620824802"
+    },
+    "status": "CANONICAL",
+    "evidence": [
+      {
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Product heading + catalog identity"
+      }
+    ],
+    "note": null
+  },
+  "purpose": {
+    "value": "The website positions this product for creatine and electrolyte support for training.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Product introduction"
+      }
+    ],
+    "note": "Positioning only; not an approved efficacy claim."
+  },
+  "ingredients": {
+    "value": "Creatine (as Creatine Monohydrate) 5,000 mg, Magnesium (as Magnesium Malate) 60 mg, Sodium (as Sea Salt) 1,000 mg, Potassium (as Potassium Chloride) 200 mg, Natural",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "creatine-hydration-powder / body_html / Ingredients"
+      }
+    ],
+    "note": "Website ingredient declaration only; no manufacturer attestation or batch verification."
+  },
+  "supplementFacts": {
+    "value": [
+      {
+        "name": "Calories",
+        "amountText": "22",
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Supplement Facts / Calories"
+      },
+      {
+        "name": "Magnesium as Magnesium Malate",
+        "amountText": "60 mg",
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Supplement Facts / Magnesium as Magnesium Malate"
+      },
+      {
+        "name": "Sodium as Sea Salt",
+        "amountText": "1,000 mg",
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Supplement Facts / Sodium as Sea Salt"
+      },
+      {
+        "name": "Potassium as Potassium Chloride",
+        "amountText": "200 mg",
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Supplement Facts / Potassium as Potassium Chloride"
+      },
+      {
+        "name": "Creatine as Creatine Monohydrate",
+        "amountText": "5,000 mg",
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Supplement Facts / Creatine as Creatine Monohydrate"
+      }
+    ],
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Supplement Facts"
+      }
+    ],
+    "note": null
+  },
+  "serving": {
+    "value": "Serving Size: 1 scoop (10 g). Servings Per Container: 30.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Supplement Facts / Serving Size"
+      }
+    ],
+    "note": null
+  },
+  "otherIngredients": {
+    "value": "Natural Flavors, Stevia Extract (Leaf), Silicon Dioxide.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Supplement Facts / Other Ingredients"
+      }
+    ],
+    "note": null
+  },
+  "proprietaryBlend": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Not applicable / no proprietary blend declared."
+  },
+  "directions": {
+    "value": "As a dietary supplement, adults mix one (1) scoop (10g) with 6-8 oz (177-237ml) of water or favorite beverage daily.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "creatine-hydration-powder / body_html / Suggested use"
+      }
+    ],
+    "note": null
+  },
+  "protocol": {
+    "value": "Mix 1 scoop with water. Use daily as part of your training, hydration, and nutrition routine.",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "creatine-hydration-powder",
+        "locator": "Protocol Note / The Method"
+      }
+    ],
+    "note": null
+  },
+  "safety": {
+    "value": "Do not exceed recommended dose. Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement. KEEP OUT OF THE REACH OF CHILDREN. DO NOT USE IF SAFETY SEAL IS DAMAGED OR MISSING. STORE IN A COOL, DRY PLACE",
+    "status": "VERIFIED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "creatine-hydration-powder / body_html / Warning"
+      }
+    ],
+    "note": null
+  },
+  "price": {
+    "value": [
+      {
+        "variantId": "47905450361058",
+        "title": "Default Title",
+        "price": "49.99",
+        "currency": "USD"
+      }
+    ],
+    "status": "DISPUTED",
+    "evidence": [
+      {
+        "sourceId": "shopify-catalog",
+        "locator": "creatine-hydration-powder / variants"
+      }
+    ],
+    "note": "Snapshot only; never a current checkout quote."
+  },
+  "approvedClaims": [],
+  "manufacturerFormula": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "Manufacturer-signed formula / INCI, current label artwork and batch documentation required."
+  },
+  "research": {
+    "value": null,
+    "status": "UNKNOWN",
+    "evidence": [],
+    "note": "No product-specific clinical evidence dossier ingested."
+  },
+  "issueIds": [
+    "price-fortius"
+  ],
+  "pairings": [
+    {
+      "value": {
+        "productId": "ggc-hydration-powder-passion-fruit",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "creatine-hydration-powder",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    },
+    {
+      "value": {
+        "productId": "ggc-magnesium-glycinate",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "creatine-hydration-powder",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    },
+    {
+      "value": {
+        "productId": "ggc-sleep-support",
+        "relationship": "website routine association; not a safety clearance or combined-dose instruction"
+      },
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "sourceId": "creatine-hydration-powder",
+          "locator": "Build the routine / stack"
+        }
+      ],
+      "note": null
+    }
+  ]
+}
