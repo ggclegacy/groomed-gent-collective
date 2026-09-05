@@ -1,44 +1,56 @@
-# GitHub checkpoint and Vercel handoff — September 5, 2026
+# Next.js / Vercel handoff — September 5, 2026
 
-## Status
+## Import settings
 
-This checkpoint preserves the complete existing application, assets, knowledge corpus, tests, and D1 migrations. The repository initially had no commits and the correct origin: https://github.com/ggclegacy/groomed-gent-collective.git. No application files were replaced, no history was reset, and no infrastructure was deployed.
+| Setting | Value |
+| --- | --- |
+| GitHub repository | `ggclegacy/groomed-gent-collective` |
+| Production branch | `main` |
+| Framework preset | **Next.js** |
+| Root directory | `.` (repository root) |
+| Node.js | **24.x** (also declared in package.json) |
+| Install command | `npm ci` |
+| Build command | `npm run build` (`next build`) |
+| Output directory | Framework default; `.next` (do not set `dist` or `dist/client`) |
+| Environment variables | None required for the public preview |
+| Database migrations | None required for the public preview |
 
-**The current build is Cloudflare-targeted, not yet a deployable Vercel build.** A fresh Vercel import alone will not make this checkpoint runnable. This handoff records the required platform work rather than silently changing the existing database or authentication behavior.
+`vercel.json` explicitly selects Next.js and the npm install/build commands. Next.js 16.3.4 is pinned in the npm lockfile. No deployment has been performed by this migration task. Neil can import the repository and deploy when ready.
 
-## Verified locally
+## What works on Vercel
 
-- Node 24.19.0 with the existing installed dependencies.
-- `npm run typecheck`: passed.
-- `npm test`: all 39 tests passed, including isolated SQLite migration/API integration tests.
-- `npm run lint:app`: passed.
-- `npm run build`: passed; produces Cloudflare Worker output under `dist/server` and client assets under `dist/client`.
-- `npm run lint`: 20 existing findings (19 scaffold/hook findings and an unused `path` import in `scripts/build-cassius-index.mjs`). No rules were suppressed.
-- Build warnings: future Vite JSON import-attribute compatibility, plugin timing diagnostics, and incomplete route classification.
-- This was not a clean dependency reinstall or a Vercel build. No phone/browser verification was performed in this checkpoint task.
+The existing public app, responsive visual design, Product Studio, knowledge corpus and Creator Studio use the standard Next.js App Router. Device-local drafts and preferences remain in browser storage. Each phone/browser has its own storage; export drafts to transfer them. The existing CSS and all knowledge/source files are retained.
 
-## New Vercel project requirements
+The `/membership` and `/members/studio` pages load, but production member authentication and account-backed persistence remain explicitly unconfigured. `/api/account` returns a private, noncached readiness response. Private account reads/writes return 503 rather than accepting unauthenticated data or claiming to save it. The Vercel runtime ignores client-supplied Sites identity headers and does not read Sites identity environment settings.
 
-Use repository `ggclegacy/groomed-gent-collective`, branch `main`, root directory `.` and Node 24.x. The lockfile is npm; the installation command is `npm ci`.
+A real identity provider and durable account database still need to be integrated before member accounts can operate on Vercel. The migration does not invent credentials, enable mock production sign-in, or store account records on Vercel's ephemeral filesystem. No AI model, checkout, commerce tracking, or email provider has been connected.
 
-The existing `npm run build` runs `vinext build` with the Cloudflare and Sites plugins. The presence of `next.config.ts` does **not** mean the Next.js preset is compatible. There is no current Vercel output directory or verified preset to select. Do not use `dist/client` as a static deployment: the application also has server routes.
+## Preserved Sites development path
 
-Before importing for a working phone preview, add and verify a Vercel-compatible build path. Vinext documents a Nitro Vite adapter for Vercel; alternatively, migrate the build to standard Next.js. Preserve the existing local Sites/Cloudflare path while doing so. The selected adapter determines the framework/output settings. With a standard Next.js migration, use the Next.js preset and `next build`; that migration has not been performed here.
+The Cloudflare implementation remains in `lib/account-runtime.sites.ts`. The Vite configuration substitutes that account runtime only for Sites builds. Use:
 
-References:
-- https://github.com/cloudflare/vinext (deployment targets and Nitro integration)
-- https://vercel.com/docs/builds/configure-a-build (framework/build settings)
+```sh
+npm run db:migrate:local
+npm run dev:sites
+# Optional Cloudflare build and local production preview:
+npm run build:sites
+npm run start:sites
+```
 
-## Database and identity
+The original D1 schema and `drizzle/0000_massive_captain_cross.sql` migration are preserved. `db:migrate:local` is local-only; no remote database was created or migrated. `.wrangler` state stays on this computer and is excluded from Git. The Sites-only `GGC_IDENTITY_MODE` and `GGC_OWNER_ID` settings are not Vercel authentication options.
 
-`lib/account-runtime.ts` directly imports `cloudflare:workers` and uses the `DB` D1 binding. Vercel does not supply that binding. A Vercel runtime/database adapter is required for account APIs; a database URL environment variable alone cannot fix this.
+## Validation
 
-The included schema is SQLite/D1, with migration `drizzle/0000_massive_captain_cross.sql`. `npm run db:migrate:local` only applies migrations to local Wrangler state. No production database was created or migrated. Local `.wrangler` database contents are intentionally ignored and remain on this computer. Do not apply the SQLite migration unchanged to a PostgreSQL database. Provision and migrate the chosen backend separately after adapting the database layer.
+- Clean isolated `npm ci`: passed, zero reported dependency vulnerabilities.
+- Clean Next.js production build, typecheck and all 41 tests: passed.
+- Application lint: passed. Full-project lint retains the same 20 existing findings (scaffold/hooks and an unused index-script import); no rules were suppressed.
+- Production HTTP checks: `/`, `/membership`, `/members/studio` and their generated assets return 200; unknown routes return 404.
+- Account readiness is private/noncached; forged Sites headers do not authenticate; unconfigured private reads/writes return 503.
+- Preserved Sites production build: passed; inspected output includes the original Worker bindings. Its existing Vite warnings remain.
+- Typecheck regenerates Next.js route types first, allowing checks after a Sites build without stale generated route declarations.
+- No Vercel deployment or browser/phone interaction test was performed.
 
-The only application identity configuration currently present is `GGC_IDENTITY_MODE` and `GGC_OWNER_ID`, supplied as Worker bindings. `sites-local` is a localhost-only simulation. `sites-dispatch` requires a trusted Sites dispatcher that strips user-supplied identity headers and prevents direct access. **Neither is a Vercel production sign-in setup.** Do not set these values in Vercel to bypass the missing authentication integration. Configure a real verified identity provider and server-side membership checks as part of the Vercel adaptation; provider-specific environment variable names depend on that choice.
+## References
 
-The root experience uses device-local demo storage. Production member services deliberately fail closed until their backend and identity are configured. No live AI, commerce, payment, or email credentials are required for the current demo. An AI model provider is not connected.
-
-## Preserved local files
-
-Dependencies, generated build output/caches, `.env*`, `.vercel`, and local Wrangler database state remain excluded by the existing `.gitignore`. All non-ignored project files, including new assets and knowledge files, belong in the checkpoint. Prior README phase reports describe historical states; this handoff records the current checkpoint verification.
+- [Next.js installation and standard commands](https://nextjs.org/docs/app/getting-started/installation)
+- [Vercel build configuration](https://vercel.com/docs/builds/configure-a-build)

@@ -1,14 +1,8 @@
-import { env } from 'cloudflare:workers';
-import { accountApi } from './account-service';
-interface Bindings {
-  DB?: D1Database;
-  GGC_IDENTITY_MODE?: string;
-  GGC_OWNER_ID?: string;
-}
+import { accountApi } from './account-service.ts';
+
+// Next.js/Vercel has no Sites dispatcher or D1 binding. Keep account services
+// unavailable until a verified identity provider and durable database are wired.
+// Never trust the Sites identity headers on a directly accessible Node server.
 export function handleAccount(request: Request) {
-  const bindings = env as unknown as Bindings;
-  return accountApi(request, bindings.DB, {
-    mode: bindings.GGC_IDENTITY_MODE,
-    ownerId: bindings.GGC_OWNER_ID,
-  });
+  return accountApi(request, undefined, {});
 }

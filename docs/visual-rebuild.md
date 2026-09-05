@@ -69,3 +69,11 @@ Complete a browser-led visual and interaction pass at phone, tablet, desktop, 20
 ## Color balance refinement
 
 Following user review, obsidian and masculine gold now dominate. Environment and panel bases are neutral black (#080808 / #121212); text is warm-neutral rather than green-tinted. Navigation, fields, member credentials, seals, popovers, and feedback surfaces use smoked black and gold. Emerald remains localized to the darker CASSIUS core, subtle nearby illumination, small indicators and focus states. The earlier forest-heavy palette description above records the first iteration and is superseded by this refinement. Layout and product behavior are unchanged.
+
+### Final material-balance pass
+
+A further user review requested more depth. Neutral obsidian remains the base, with forest reflections returned selectively to destination tiles, status, credentials, navigation depth and the CASSIUS environment. Gold now has stronger machined rims, light-catching icon housings, dimensional button highlights and richer orbital containment. Shared `--glass-signature` and `--gold-rim` recipes keep these accents consistent; reading text remains warm-neutral. Layout and functionality are unchanged.
+
+### CASSIUS identity refinement
+
+Replaced the original orb with an isolated client visualization: a pulsing optical nucleus, independently moving emerald layers, fine signal filaments, three gold containment rings with traveling nodes, calibration marks, specular shell and ground reflection. Pointer-driven parallax is restrained and only applies to mouse input. Animation pauses outside the viewport and when the document is hidden; reduced motion disables animation and parallax. Observers, listeners and animation-frame requests are cleaned up on unmount. The offline service disclosure remains unchanged. No other product surfaces were redesigned in this pass.

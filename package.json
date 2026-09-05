@@ -3,19 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=22.13.0"
+    "node": "24.x"
   },
   "scripts": {
-    "dev": "vinext dev",
-    "build": "vinext build",
-    "start": "wrangler dev --config dist/server/wrangler.json",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "oxlint",
     "format": "oxfmt",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "lint:app": "oxlint app components/collective.tsx components/workspaces.tsx components/studio-workspace.tsx components/product-studio.tsx lib tests components/member-access.tsx db",
     "db:generate": "drizzle-kit generate",
-    "db:migrate:local": "wrangler d1 migrations apply DB --local --config wrangler.local.jsonc"
+    "db:migrate:local": "wrangler d1 migrations apply DB --local --config wrangler.local.jsonc",
+    "dev:sites": "vinext dev",
+    "build:sites": "vinext build",
+    "start:sites": "wrangler dev --config dist/server/wrangler.json"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
@@ -28,6 +31,7 @@
     "embla-carousel-react": "8.5.2",
     "input-otp": "1.4.2",
     "lucide-react": "1.31.0",
+    "next": "16.3.4",
     "react": "19.2.8",
     "react-day-picker": "9.8.1",
     "react-dom": "19.2.8",

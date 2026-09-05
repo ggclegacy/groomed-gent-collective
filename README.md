@@ -1,5 +1,15 @@
 # The Groomed Gent Collective
 
+## Deploying this checkpoint on Vercel
+
+The default app now runs on **Next.js 16.3.4** with Node **24.x**. Import `ggclegacy/groomed-gent-collective`, choose `main`, root `.`, and the **Next.js** preset. Install with `npm ci`, build with `npm run build`, and leave the output directory at the framework default (`.next`). No environment variables or database migrations are needed to host the public, device-local preview.
+
+The public app, Product Studio, and local Creator Studio are available. Production member sign-in and account-backed storage are **not connected**: the Next.js API reports that state and rejects private operations. Do not configure Sites identity headers as production authentication. See [the current Vercel handoff](docs/vercel-handoff.md) for details.
+
+For Next.js locally, run `npm ci`, `npm run dev`; for a production check run `npm run build` then `npm start`. The original Sites/D1 workflow is retained as `npm run db:migrate:local` followed by `npm run dev:sites`; its build/start commands are `build:sites` and `start:sites`.
+
+The phase reports below are historical. Their Vinext-only commands and deployment status are superseded by this section.
+
 Local vertical slice for the invite-only Groomed Gent ambassador ecosystem. The current development phase preserves the previous session’s application, responsive shell, domain contracts, templates and demo boundaries. At inspection the Desktop repository contained the application as untracked files, had no commits, and pointed to ggclegacy/groomed-gent-collective on GitHub.
 
 ## Run

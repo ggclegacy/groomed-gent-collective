@@ -1,22 +1,7 @@
 import { Fingerprint, ShieldCheck } from 'lucide-react';
 
-/** Abstract material identity. Decorative energy never implies a live AI connection. */
-export function CassiusCore({ compact = false }: { compact?: boolean }) {
-  return (
-    <div
-      className={`cassius-core${compact ? ' is-compact' : ''}`}
-      aria-hidden="true"
-    >
-      <div className="core-orbit orbit-one" />
-      <div className="core-orbit orbit-two" />
-      <div className="core-sphere">
-        <span />
-        <i />
-      </div>
-      <div className="core-axis" />
-    </div>
-  );
-}
+export { CassiusCore } from '@/components/cassius-core';
+
 export function MembershipCard() {
   return (
     <div className="membership">

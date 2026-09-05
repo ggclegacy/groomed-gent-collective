@@ -29,15 +29,21 @@
   --muted: #1b1b19;
   --muted-foreground: #b2afa7;
   --primary: #c4912f;
-  --gold-light: #dfbd76;
+  --gold-light: #e7c681;
   --gold: #c4912f;
   --forest: #172418;
   --emerald: #70bb96;
   --glass:
-    linear-gradient(135deg, #ffffff0b, #ffffff02 42%, #c4912f05), #121212;
-  --glass-edge: #d3c8ae26;
+    linear-gradient(135deg, #ffffff0c, #ffffff02 40%, #20342038), #101211;
+  --glass-signature:
+    radial-gradient(ellipse at 95% 90%, #203e2a80, transparent 65%),
+    linear-gradient(130deg, #c4912f10, transparent 38%), #0c100e;
+  --gold-rim:
+    0 22px 50px #0006, inset 0 1px 0 #f3d49245, inset 1px 0 0 #c4912f18,
+    inset 0 -1px 0 #c4912f25;
+  --glass-edge: #d3c8ae30;
   --glass-shadow:
-    0 20px 50px #0004, inset 0 1px 0 #ffffff12, inset 0 -1px 0 #0008;
+    0 20px 50px #0005, inset 0 1px 0 #e7d7b51f, inset 0 -1px 0 #0008;
   --gold-metal: linear-gradient(
     115deg,
     #f0d7a0,
@@ -76,8 +82,8 @@ body::before {
   pointer-events: none;
   z-index: -1;
   background:
-    radial-gradient(ellipse at 88% 5%, #c4912f0c, transparent 42%),
-    radial-gradient(ellipse at 80% 32%, #17241814, transparent 35%);
+    radial-gradient(ellipse at 88% 5%, #c4912f16, transparent 42%),
+    radial-gradient(ellipse at 85% 32%, #2034204d, transparent 43%);
 }
 a {
   color: inherit;
@@ -142,7 +148,7 @@ em {
 .club-sidebar [data-slot='sidebar-inner'] {
   border: 1px solid var(--glass-edge);
   border-radius: 25px;
-  background: linear-gradient(155deg, #24232190, #0b0b0be8 55%);
+  background: linear-gradient(155deg, #25251f90, #0b0d0ce8 52%, #17241875);
   box-shadow: var(--glass-shadow);
   backdrop-filter: blur(24px);
 }
@@ -205,10 +211,11 @@ em {
 }
 .collective-nav a[aria-current] {
   border-color: #c4912f50;
-  background: linear-gradient(110deg, #c4912f20, #17161280);
+  background: linear-gradient(110deg, #c4912f30, #17241890);
   box-shadow:
-    inset 0 1px #f3d69720,
-    0 5px 20px #0003;
+    inset 0 1px #f3d69745,
+    inset 3px 0 #c4912f,
+    0 5px 20px #0005;
   color: var(--gold-light);
 }
 .nav-dot,
@@ -434,108 +441,345 @@ main {
   font-size: 13px;
   margin: 7px 0 0;
 }
+/* CASSIUS: a suspended optical intelligence core with independent material layers. */
 .cassius-core {
   position: relative;
   width: min(100%, 330px);
   aspect-ratio: 1;
   isolation: isolate;
+  perspective: 900px;
+  --core-x: 0deg;
+  --core-y: 0deg;
 }
-.cassius-core::before {
-  content: '';
+.core-assembly {
   position: absolute;
-  inset: 9%;
+  inset: 0;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--core-x)) rotateY(var(--core-y));
+  transition: transform 0.65s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.core-aura {
+  position: absolute;
+  inset: 15%;
   border-radius: 50%;
-  background: #215b3c18;
-  filter: blur(35px);
+  background: radial-gradient(
+    circle,
+    #3b805d35,
+    #17402a18 55%,
+    transparent 72%
+  );
+  filter: blur(18px);
+}
+.core-projection {
+  position: absolute;
+  left: 23%;
+  right: 23%;
+  bottom: 6%;
+  height: 8%;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    #c4912f22,
+    #39855b14 36%,
+    transparent 70%
+  );
+  filter: blur(6px);
+}
+.core-calibration {
+  position: absolute;
+  inset: 5%;
+  border-radius: 50%;
+  opacity: 0.5;
+  background: repeating-conic-gradient(
+    from 0deg,
+    #c4912f65 0deg 1deg,
+    transparent 1deg 12deg
+  );
+  mask-image: radial-gradient(
+    circle,
+    transparent 68%,
+    #000 69% 70%,
+    transparent 71%
+  );
+  transform: rotate(-12deg);
 }
 .core-sphere {
   position: absolute;
-  inset: 18%;
+  inset: 20%;
   border-radius: 50%;
   overflow: hidden;
-  border: 1px solid #a4cc9d40;
-  background:
-    radial-gradient(circle at 30% 22%, #c5deca30, transparent 23%),
-    radial-gradient(ellipse at 64% 78%, #57a97645, transparent 30%),
-    radial-gradient(circle at 43% 34%, #1c3023, #0a1610 48%, #030504 75%);
-  box-shadow:
-    inset -14px -18px 26px #000d,
-    inset 2px 2px 8px #d5efb54d,
-    inset 0 0 24px #67ba812b,
-    0 20px 35px #0009,
-    0 0 40px #438f5512;
-}
-.core-sphere::before,
-.core-sphere::after {
-  content: '';
-  position: absolute;
-  border-radius: 50%;
-  border: 1px solid #90c5a148;
-  inset: 18% -24%;
-  transform: rotate(-35deg);
-  box-shadow: 0 0 16px #8abc7333;
-}
-.core-sphere::after {
-  inset: -20% 20%;
-  transform: rotate(35deg);
-  border-color: #c6bc7145;
-}
-.core-sphere span {
-  position: absolute;
-  inset: 5%;
-  border-radius: 50%;
-  background: conic-gradient(
-    from 60deg,
-    transparent,
-    #9fca7f24,
-    transparent 38%,
-    #378f5e30,
-    transparent 80%
+  background: radial-gradient(
+    circle at 35% 27%,
+    #244938,
+    #091a12 44%,
+    #020504 77%
   );
-  filter: blur(9px);
+  border: 1px solid #b9c7a259;
+  box-shadow:
+    inset -12px -17px 25px #000e,
+    inset 2px 2px 7px #c9e7c36b,
+    0 16px 35px #000b,
+    0 0 22px #3f9c6230;
+  transform: translateZ(12px);
 }
-.core-sphere i {
+.core-fluid {
   position: absolute;
-  width: 38%;
-  height: 12%;
-  left: 20%;
-  top: 14%;
+  inset: -28%;
+  border-radius: 46%;
+  filter: blur(11px);
+  mix-blend-mode: screen;
+}
+.fluid-one {
+  background: conic-gradient(
+    from 40deg,
+    transparent 8%,
+    #1f764941 19%,
+    #90c69170 24%,
+    transparent 34%,
+    #1d5e3920 57%,
+    #559a5b65 66%,
+    transparent 77%
+  );
+}
+.fluid-two {
+  inset: -10%;
+  background: conic-gradient(
+    from 160deg,
+    transparent 12%,
+    #78b69350 26%,
+    transparent 36%,
+    #c4912f30 48%,
+    transparent 62%,
+    #2c7c5755 74%,
+    transparent 90%
+  );
+  opacity: 0.7;
+}
+.core-heart {
+  position: absolute;
+  inset: 32%;
   border-radius: 50%;
-  background: #d9f2dd2a;
-  transform: rotate(-30deg);
-  filter: blur(7px);
+  background: radial-gradient(
+    circle at 42% 40%,
+    #d6e7bf,
+    #8ec99b 8%,
+    #398a59 24%,
+    #12382460 52%,
+    transparent 70%
+  );
+  filter: blur(4px);
+  opacity: 0.75;
+  box-shadow: 0 0 27px #71ba7920;
+}
+.core-filaments {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  stroke: #89c69b;
+  stroke-width: 0.65;
+  opacity: 0.55;
+  transform: rotate(-15deg);
+}
+.core-filaments path:nth-child(2) {
+  stroke: #d0ae65;
+  opacity: 0.5;
+}
+.core-filaments .filament-signal {
+  stroke: #e9e4b3;
+  stroke-width: 1.5;
+  stroke-dasharray: 3 57 9 103;
+  filter: drop-shadow(0 0 3px #a4dca1);
+}
+.core-latitude {
+  position: absolute;
+  inset: 25% -9%;
+  border: 1px solid #90c5a12e;
+  border-radius: 50%;
+  transform: rotate(-26deg);
+}
+.latitude-two {
+  inset: -14% 30%;
+  transform: rotate(35deg);
+  border-color: #c4912f30;
+}
+.core-shell {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 22%, #e4f5e119, transparent 35%),
+    radial-gradient(circle at 50% 50%, transparent 40%, #000b 88%);
+  box-shadow:
+    inset 0 0 0 5px #0003,
+    inset -7px -9px 18px #000a,
+    inset 1px 2px 3px #d5ecc14a;
+}
+.core-specular {
+  position: absolute;
+  width: 42%;
+  height: 15%;
+  left: 16%;
+  top: 12%;
+  border-radius: 50%;
+  transform: rotate(-35deg);
+  background: linear-gradient(#efffe15c, #d0efc005);
+  filter: blur(5px);
 }
 .core-orbit {
   position: absolute;
-  inset: 9%;
+  inset: 11%;
   border-radius: 50%;
-  border: 1px solid #c4912f8a;
+  border: 2px solid #c4912f;
+  border-top-color: #f4dca1;
+  border-right-color: #d1a443;
+  border-bottom-color: #6c4c1e;
   box-shadow:
-    inset 0 1px 1px #fbe5aa66,
+    inset 0 1px 2px #ffeabc85,
     0 1px 2px #000,
-    0 0 14px #c4912f0c;
+    0 0 15px #c4912f15;
+  transform-style: preserve-3d;
 }
 .orbit-one {
-  transform: rotate(-28deg) scaleY(0.65);
-  z-index: 2;
-  border-width: 2px;
-  border-top-color: #e8d39b;
-  border-bottom-color: #75541c;
+  transform: rotateZ(-28deg) rotateX(66deg);
 }
 .orbit-two {
-  inset: 5%;
-  transform: rotate(48deg) scaleX(0.65);
-  opacity: 0.45;
+  inset: 10%;
+  transform: rotateZ(46deg) rotateY(68deg);
+  border-width: 1px;
+  opacity: 0.72;
 }
-.core-axis {
+.orbit-three {
+  inset: 16%;
+  transform: rotateZ(-18deg) rotateY(-56deg);
+  border-width: 1px;
+  opacity: 0.38;
+}
+.orbit-tracer {
   position: absolute;
-  width: 4px;
-  height: 4px;
-  top: 24%;
-  right: 20%;
+  inset: -2px;
   border-radius: 50%;
-  background: #e9d79b;
-  box-shadow: 0 0 12px #e9d79b;
+}
+.orbit-tracer::before {
+  content: '';
+  position: absolute;
+  top: 12%;
+  left: 13%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #f9e5af;
+  box-shadow:
+    0 0 5px #ffe8aa,
+    0 0 14px #c4912f;
+}
+.orbit-two .orbit-tracer::before {
+  width: 3px;
+  height: 3px;
+  background: #93d0a5;
+  box-shadow: 0 0 8px #73c293;
+}
+.core-pole {
+  position: absolute;
+  left: calc(50% - 2px);
+  width: 4px;
+  height: 11px;
+  border-radius: 2px;
+  background: linear-gradient(#f3db98, #a57524);
+  box-shadow: 0 0 8px #c4912f44;
+}
+.pole-north {
+  top: 11%;
+}
+.pole-south {
+  bottom: 11%;
+  height: 7px;
+  opacity: 0.65;
+}
+.cassius-core:hover .core-aura,
+.intelligence-stage:focus-within .core-aura {
+  opacity: 1;
+  filter: blur(12px);
+}
+.cassius-core:hover .core-heart,
+.intelligence-stage:focus-within .core-heart {
+  filter: blur(3px);
+}
+.core-aura,
+.core-heart {
+  transition: filter 1s ease;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .core-fluid {
+    animation: cassius-flow 24s linear infinite;
+  }
+  .fluid-two {
+    animation-direction: reverse;
+    animation-duration: 31s;
+  }
+  .core-heart {
+    animation: cassius-breathe 6s ease-in-out infinite;
+  }
+  .core-aura {
+    animation: cassius-aura 8s ease-in-out infinite;
+  }
+  .orbit-tracer {
+    animation: cassius-flow 12s linear infinite;
+  }
+  .orbit-two .orbit-tracer {
+    animation-duration: 19s;
+    animation-direction: reverse;
+  }
+  .orbit-three .orbit-tracer {
+    animation-duration: 27s;
+  }
+  .filament-signal {
+    animation: cassius-signal 16s linear infinite;
+  }
+  .core-calibration {
+    animation: cassius-flow 100s linear infinite;
+  }
+  .cassius-core[data-paused='true'] * {
+    animation-play-state: paused;
+  }
+  @keyframes cassius-flow {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes cassius-breathe {
+    0%,
+    100% {
+      transform: scale(0.87);
+      opacity: 0.6;
+    }
+    50% {
+      transform: scale(1.12);
+      opacity: 0.9;
+    }
+  }
+  @keyframes cassius-aura {
+    0%,
+    100% {
+      opacity: 0.55;
+      transform: scale(0.96);
+    }
+    50% {
+      opacity: 0.95;
+      transform: scale(1.07);
+    }
+  }
+  @keyframes cassius-signal {
+    to {
+      stroke-dashoffset: -344;
+    }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .core-assembly {
+    transform: none;
+    transition: none;
+  }
 }
 .is-compact {
   width: 68px;
@@ -550,7 +794,7 @@ main {
   padding: 25px;
   background:
     linear-gradient(120deg, #d9b56317, transparent 48%),
-    linear-gradient(145deg, #29261e, #0b0b0b 65%, #201e19);
+    linear-gradient(145deg, #302919, #0b0d0b 55%, #203420);
   box-shadow: var(--glass-shadow);
   display: flex;
   flex-direction: column;
@@ -910,7 +1154,7 @@ main {
   gap: 24px 40px;
   align-items: start;
   background:
-    radial-gradient(ellipse at 18% 25%, #17241838, transparent 36%),
+    radial-gradient(ellipse at 18% 25%, #203e2a75, transparent 45%),
     var(--glass);
 }
 .intelligence-presence {
@@ -1867,7 +2111,7 @@ main {
     padding: 7px;
     border: 1px solid #c4912f55;
     border-radius: 24px;
-    background: linear-gradient(150deg, #25231fdd, #0a0a0af5);
+    background: linear-gradient(150deg, #29261edd, #0a0d0bf5 55%, #172418ed);
     box-shadow:
       0 12px 35px #000a,
       inset 0 1px #fff2;
@@ -1888,7 +2132,7 @@ main {
   .mobile-dock a[aria-current] {
     color: var(--gold-light);
     border-color: #c4912f40;
-    background: linear-gradient(145deg, #c4912f22, #17161270);
+    background: linear-gradient(145deg, #c4912f35, #172418b0);
     box-shadow: inset 0 1px #f2dc9d20;
   }
   [data-mobile='true'][data-slot='sidebar'] {
@@ -1927,9 +2171,6 @@ main {
       border-color 0.2s ease,
       transform 0.2s ease,
       filter 0.2s ease;
-  }
-  .core-sphere span {
-    animation: core-drift 20s linear infinite;
   }
   .loading-ring {
     animation: core-drift 1.5s linear infinite;
@@ -1994,4 +2235,63 @@ main {
   .readiness .section-title {
     flex-wrap: wrap;
   }
+}
+
+/* Signature materials: selective forest depth, machined gold rims and light-catching controls. */
+.membership,
+.status-hero {
+  border-color: #c4912f85;
+  box-shadow: var(--gold-rim);
+}
+.status-hero {
+  background: var(--glass-signature);
+}
+.destinations > a {
+  background: var(--glass-signature);
+  border-top-color: #c4912f75;
+}
+.destinations > a > svg {
+  color: #f0d497;
+  border-color: #c4912f85;
+  background: linear-gradient(140deg, #c4912f50, #181b13 50%, #203420);
+  box-shadow:
+    inset 0 1px #ffe6af70,
+    inset 0 -1px #c4912f45,
+    0 8px 18px #0007;
+}
+.metrics > div {
+  border-top-color: #c4912f55;
+}
+.gold-button {
+  background: linear-gradient(
+    110deg,
+    #e4c278,
+    #c4912f 38%,
+    #dfb864 66%,
+    #efd599 82%,
+    #bc882d
+  );
+  box-shadow:
+    inset 0 1px #fff0c990,
+    inset 0 -2px #79531965,
+    0 7px 20px #0007,
+    0 0 24px #c4912f12;
+}
+.core-orbit {
+  box-shadow:
+    inset 0 1px 2px #fbe5aa90,
+    0 1px 2px #000,
+    0 0 18px #c4912f25;
+}
+.membership-seal {
+  box-shadow:
+    inset 0 2px 2px #ffe8b855,
+    0 20px 35px #0007,
+    0 0 0 8px #c4912f09,
+    0 0 30px #c4912f0c;
+}
+.outline-button:hover:not(:disabled) {
+  box-shadow:
+    inset 0 1px #f0d49730,
+    0 0 18px #c4912f10;
 }

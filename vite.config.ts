@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { sites } from '@openai/sites-vite-plugin';
 import tailwindcss from '@tailwindcss/postcss';
 import vinext from 'vinext';
@@ -50,6 +52,20 @@ export default defineConfig(async ({ command }) => {
       ? { watch: { useFsEvents: false, usePolling: true } }
       : undefined,
     plugins: [
+      {
+        name: 'ggc-sites-account-runtime',
+        enforce: 'pre',
+        // Vinext resolves tsconfig paths before ordinary aliases. Substitute
+        // this one module only in Vite; Next.js never loads this configuration.
+        transform(_code: string, id: string) {
+          const runtime = fileURLToPath(new URL('./lib/account-runtime.ts', import.meta.url));
+          if (id.split('?')[0] !== runtime) return;
+          return {
+            code: readFileSync(new URL('./lib/account-runtime.sites.ts', import.meta.url), 'utf8'),
+            map: null,
+          };
+        },
+      },
       vinext(),
       sites(),
       cloudflare({
