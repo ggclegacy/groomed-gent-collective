@@ -157,6 +157,6 @@ void test('conversation UI has no unconditional evidence footer and supports cle
     /Evidence status|Scientific grooming and health sources are awaiting/,
   );
   assert.match(ui, /answer.citations.length > 0 && <details>/);
-  assert.match(ui, /New conversation/);
-  assert.match(ui, /askIntelligence\(question, history\)/);
+  assert.match(ui, /New chat/);
+  assert.match(ui, /askIntelligence\(asked, history\)/);
 });

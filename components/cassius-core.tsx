@@ -17,7 +17,7 @@ const NETWORK_EDGES: [number, number][] = NETWORK_POINTS.flatMap(([x, y], i) =>
 );
 
 /** Ambient identity visualization, never a signal of service connectivity. */
-export function CassiusCore({ compact = false }: { compact?: boolean }) {
+export function CassiusCore({ compact = false, state = 'idle' }: { compact?: boolean; state?: 'idle' | 'attentive' | 'thinking' | 'answered' | 'error' }) {
   const root = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const element = root.current;
@@ -81,6 +81,7 @@ export function CassiusCore({ compact = false }: { compact?: boolean }) {
   return (
     <div
       ref={root}
+      data-state={state}
       className={`cassius-core${compact ? ' is-compact' : ''}`}
       aria-hidden="true"
     >

@@ -2352,3 +2352,91 @@ main {
     inset 0 1px #f0d49730,
     0 0 18px #c9a45c10;
 }
+
+/* Cassius: an everyday conversation workspace, September 2026. */
+body:has(.cassius-room) .page-heading,
+body:has(.cassius-room) .detail-page > .eyebrow,
+body:has(.cassius-room) .detail-page > h1,
+body:has(.cassius-room) .footer,
+body:has(.cassius-room) .gent-invoke,
+body:has(.cassius-room) .notice { display: none; }
+body:has(.cassius-room) .topbar { min-height: 62px; }
+main[data-view='intelligence'] { padding-top: 0; }
+main[data-view='intelligence'] .detail-page { margin: 0; padding: 0; }
+.cassius-room { height: var(--chat-height, calc(100dvh - 86px)); min-height: 200px; display: flex; flex-direction: column; max-width: 1080px; margin: 0 auto; color: #e7e2d6; background: radial-gradient(ellipse at 50% 38%, #b5974720, transparent 48%), #0b0e0de8; border: 1px solid #c9a45c26; border-radius: 24px; overflow: hidden; }
+.cassius-room-header { display: flex; flex: 0 0 auto; align-items: center; justify-content: space-between; padding: 20px 28px; border-bottom: 1px solid #c9a45c1f; gap: 12px; }
+.cassius-room-header > div { display: flex; gap: 14px; align-items: center; }
+.cassius-subtitle { color: #a8aca6; font-size: 12px; }
+.cassius-quiet-button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; color: #c9bea6; background: transparent; border: 0; padding: 10px; min-height: 44px; font-size: 12px; border-radius: 10px; cursor: pointer; }
+.cassius-quiet-button:hover { background: #c9a45c12; }
+.cassius-room button:disabled { opacity: .42; cursor: default; }
+.cassius-room button:focus-visible, .cassius-room summary:focus-visible { outline: 2px solid #d9b66b; outline-offset: 3px; }
+.cassius-transcript { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #71634b transparent; padding: 0 32px; }
+.cassius-welcome { min-height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 16px 0; }
+.cassius-welcome .cassius-core { width: clamp(160px, 27vh, 270px); height: clamp(160px, 27vh, 270px); margin: 0 0 10px; flex-shrink: 0; }
+.cassius-welcome > .eyebrow { font-size: 9px; letter-spacing: .21em; }
+.cassius-welcome h2 { font-family: var(--font-display); font-size: clamp(29px, 3.6vw, 45px); line-height: 1.15; font-weight: 400; letter-spacing: -.035em; margin: 14px 0 10px; }
+.cassius-welcome p { color: #a7aaa3; font-size: 14px; line-height: 1.65; margin: 0; }
+.cassius-compose-area { flex: 0 0 auto; width: 100%; max-width: 800px; margin: 0 auto; padding: 12px 24px 14px; }
+.cassius-composer { display: block; margin: 0; padding: 14px 12px 8px; border: 1px solid #c9a45c55; border-radius: 21px; background: linear-gradient(140deg, #20241ed9, #101512); box-shadow: 0 12px 32px #0003, inset 0 1px #eee2bc0a; transition: border-color .2s, box-shadow .2s; }
+.cassius-composer:focus-within { border-color: #d5b671; box-shadow: 0 0 0 3px #c9a45c0d; }
+.cassius-composer textarea { display: block; width: 100%; min-height: 32px; max-height: 112px; padding: 3px 8px; resize: none; background: transparent; color: #f2eee5; font-size: 16px; line-height: 1.5; border: 0; border-radius: 0; outline: none; box-shadow: none; }
+.cassius-composer textarea::placeholder { color: #adafa5; }
+.cassius-composer-tools { display: flex; align-items: center; gap: 10px; justify-content: space-between; }
+.cassius-composer-tools > span { color: #a4a699; font-size: 10px; margin-left: auto; }
+.cassius-send { width: 44px; height: 44px; flex-shrink: 0; display: grid; place-items: center; border: 1px solid #ead096; border-radius: 50%; color: #141a14; background: linear-gradient(135deg,#ecd49a,#b49249); cursor: pointer; }
+.cassius-chat-note { margin-top: 9px; font-size: 10px; color: #a6a89e; text-align: center; }
+.cassius-chat-note summary { cursor: pointer; padding: 5px; }
+.cassius-chat-note p { max-height: 70px; overflow-y: auto; font-size: 11px; margin: 8px 0 0; text-align: left; }
+.cassius-ideas { display: flex; gap: 8px; overflow-x: auto; padding: 0 0 10px; }
+.cassius-ideas button { display: flex; align-items: center; gap: 8px; min-height: 44px; white-space: nowrap; border: 1px solid #c9a45c33; border-radius: 12px; background: #151b17; color: #d8d2c3; padding: 8px 12px; font-size: 12px; }
+.cassius-presence-strip { position: sticky; top: 0; display: flex; align-items: center; gap: 6px; background: #0c100ff2; z-index: 1; font-size: 11px; color: #bdb399; border-bottom: 1px solid #c9a45c1a; }
+.cassius-presence-strip .cassius-core.is-compact { width: 66px; height: 66px; margin: 0; }
+.cassius-turn { max-width: 720px; margin: 22px auto 34px; font-size: 15px; line-height: 1.75; }
+.cassius-turn p { white-space: pre-wrap; overflow-wrap: anywhere; margin: 6px 0; }
+.cassius-user-message { margin: 0 0 25px auto; padding: 12px 18px; width: fit-content; max-width: 88%; background: #202820; border: 1px solid #c9a45c20; border-radius: 18px 18px 4px 18px; }
+.cassius-user-message > span { font-size: 10px; color: #acae9e; }
+.cassius-answer { padding: 0 4px; }
+.cassius-answer details { color: #c9b788; font-size: 12px; margin-top: 15px; }
+.cassius-answer summary { cursor: pointer; }
+.cassius-error, .cassius-brief { color: #e6c997; font-size: 12px; margin: 0 0 10px; }
+.cassius-brief { display: flex; justify-content: space-between; align-items: center; }
+.cassius-brief button { padding: 8px; text-decoration: underline; }
+.cassius-thinking { color: #cbb98c; font-size: 12px; display: flex; align-items: center; gap: 5px; }
+.cassius-thinking i { width: 4px; height: 4px; border-radius: 50%; background: #d9bb75; }
+.cassius-core[data-state='attentive'] .core-heart { filter: brightness(1.5); }
+.cassius-core[data-state='thinking'] .core-heart { filter: brightness(1.8); animation-duration: 2s; }
+.cassius-core[data-state='thinking'] .core-signal-track { animation-duration: 4s; }
+.cassius-core[data-state='answered'] .core-aura { filter: brightness(1.25); }
+.cassius-core[data-state='error'] .core-aura { opacity: .25; }
+@media (prefers-reduced-motion: no-preference) { .cassius-thinking i { animation: cassius-breathe 1.5s ease-in-out infinite; } .cassius-thinking i:nth-child(2) { animation-delay: .2s; } .cassius-thinking i:nth-child(3) { animation-delay: .4s; } }
+html[data-ambient-motion='paused'] .cassius-thinking i { animation-play-state: paused; }
+body:has(.cassius-room) .ambient-toggle { bottom: 18px; }
+@media (max-width: 760px) {
+  body:has(.cassius-room) .topbar { min-height: 50px; padding: 0 18px; }
+  body:has(.cassius-room) .top-title > span { font-size: 9px; letter-spacing: .08em; }
+  body:has(.cassius-room) .membership-entry, body:has(.cassius-room) .preview-badge { display: none; }
+  main[data-view='intelligence'] { padding: 0 10px; }
+  .cassius-room { border-radius: 20px; }
+  .cassius-room-header { padding: 9px 15px; }
+  .cassius-room-header > div { display: grid; gap: 4px; }
+  .cassius-room-header .eyebrow { font-size: 12px; }
+  .cassius-subtitle { font-size: 10px; }
+  .cassius-transcript { padding: 0 16px; }
+  .cassius-welcome .cassius-core { width: clamp(130px, 25vh, 210px); height: clamp(130px, 25vh, 210px); }
+  .cassius-welcome h2 { font-size: 31px; }
+  .cassius-welcome p { font-size: 13px; }
+  .cassius-compose-area { padding: 8px 12px 9px; }
+  .cassius-composer-tools > span { font-size: 9px; }
+  body:has(.cassius-room) .ambient-toggle { position: fixed; float: none; margin: 0; bottom: auto; top: var(--cassius-toolbar-top, 8px); right: 16px; padding: 7px 10px; min-height: 34px; }
+  body:has(.cassius-room) .mobile-dock { bottom: max(10px, env(safe-area-inset-bottom)); }
+  html[data-cassius-keyboard='true'] body:has(.cassius-room) .mobile-dock { display: none; }
+  html[data-cassius-keyboard='true'] .cassius-welcome .cassius-core { width: 90px; height: 90px; }
+  html[data-cassius-keyboard='true'] .cassius-welcome > .eyebrow, html[data-cassius-keyboard='true'] .cassius-welcome p { display: none; }
+}
+@media (max-height: 700px) {
+  .cassius-welcome p { display: none; }
+  .cassius-welcome .cassius-core { width: 96px; height: 96px; margin-bottom: 0; }
+  .cassius-welcome > .eyebrow { display: none; }
+  .cassius-welcome h2 { font-size: 26px; margin: 8px 0 0; }
+}

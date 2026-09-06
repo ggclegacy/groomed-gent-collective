@@ -1,6 +1,6 @@
 'use client';
-import { useCallback, useState, useSyncExternalStore } from 'react';
-import { ArrowRight, BookOpen, Check, LockKeyhole } from 'lucide-react';
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
+import { ArrowRight, ArrowUp, BookOpen, Check, LockKeyhole, Plus } from 'lucide-react';
 import { CassiusCore, MembershipSeal } from '@/components/materials';
 import { Empty, EmptyDescription, EmptyTitle } from '@/components/ui/empty';
 import {
@@ -198,148 +198,126 @@ function IntelligenceWorkspace({ initialQuestion }: { initialQuestion?: string }
   const [edited, setQuestion] = useState<string | null>(null);
   const question = edited ?? (initialQuestion || brief || saved).slice(0, 10000);
   const [pending, setPending] = useState(false);
+  const [submitted, setSubmitted] = useState('');
   const [conversation, setConversation] = useState<{ question: string; answer: IntelligenceAnswer }[]>([]);
   const [message, setMessage] = useState('');
+  const [focused, setFocused] = useState(false);
+  const [ideas, setIdeas] = useState(false);
+  const input = useRef<HTMLTextAreaElement>(null);
+  const transcript = useRef<HTMLDivElement>(null);
+  const shell = useRef<HTMLElement>(null);
+  const inFlight = useRef(false);
+  const follow = useRef(true);
+  useEffect(() => {
+    const viewport = window.visualViewport;
+    const update = () => {
+      if (!shell.current) return;
+      const keyboard = !!viewport && window.innerHeight - viewport.height > 140;
+      document.documentElement.dataset.cassiusKeyboard = String(keyboard);
+      document.documentElement.style.setProperty('--cassius-toolbar-top', `${Math.max(8, shell.current.getBoundingClientRect().top - 43)}px`);
+      shell.current.style.setProperty('--chat-height', `${Math.max(200, (viewport?.height ?? window.innerHeight) - Math.max(0, shell.current.getBoundingClientRect().top - (viewport?.offsetTop ?? 0)) - (window.innerWidth <= 760 && !keyboard ? 98 : 16))}px`);
+    };
+    update();
+    viewport?.addEventListener('resize', update);
+    viewport?.addEventListener('scroll', update);
+    window.addEventListener('resize', update);
+    return () => {
+      viewport?.removeEventListener('resize', update);
+      viewport?.removeEventListener('scroll', update);
+      window.removeEventListener('resize', update);
+      delete document.documentElement.dataset.cassiusKeyboard;
+      document.documentElement.style.removeProperty('--cassius-toolbar-top');
+    };
+  }, []);
+  useEffect(() => {
+    if (follow.current && transcript.current) transcript.current.scrollTop = transcript.current.scrollHeight;
+  }, [conversation, pending, message]);
+  useEffect(() => {
+    if (input.current) {
+      input.current.style.height = 'auto';
+      input.current.style.height = `${Math.min(input.current.scrollHeight, 112)}px`;
+    }
+  }, [question]);
+  async function send() {
+    if (!question.trim() || inFlight.current) return;
+    const asked = question.trim();
+    inFlight.current = true;
+    follow.current = true;
+    setPending(true);
+    setSubmitted(asked);
+    setMessage('');
+    setIdeas(false);
+    try {
+      const history = conversation.flatMap(turn => [
+        { role: 'user' as const, content: turn.question },
+        { role: 'assistant' as const, content: turn.answer.text },
+      ]).slice(-12);
+      while (history.reduce((n, turn) => n + turn.content.length, 0) > 24000 || history.some(turn => turn.content.length > 10000)) history.splice(0, 2);
+      const result = await cassiusGateway.askIntelligence(asked, history);
+      if (result.state === 'ready') {
+        setConversation(previous => [...previous, { question: asked, answer: result.data }]);
+        setQuestion('');
+      } else setMessage(result.message);
+    } catch {
+      setMessage('Cassius could not respond. Your question is still here. Try sending again.');
+    } finally {
+      inFlight.current = false;
+      setPending(false);
+      setSubmitted('');
+    }
+  }
+  const state = pending ? 'thinking' : message ? 'error' : focused ? 'attentive' : conversation.length ? 'answered' : 'idle';
   return (
-    <>
-      <p className="lede">
-        CASSIUS. Grounded in Groomed Gent, built for your world.
-      </p>
-      <div className="intelligence-stage">
-        <div className="intelligence-presence">
-          <CassiusCore />
-          <span className="eyebrow gold">CASSIUS</span>
-          <h2>Bring a better question.</h2>
-          <p>
-            A business idea. Your next journey. A thoughtful recommendation.
-            Whatever is on your mind, let’s work through it.
-          </p>
-        </div>
-        <div className="intelligence-console">
-          <div className="connection-banner">
-            <span className="eyebrow">YOUR GENTLEMAN ADVISOR</span>
-            <p>
-              Talk travel, business, everyday life, or Groomed Gent. Cassius brings
-              broad intelligence to the conversation and consults company sources
-              when the details matter.
-            </p>
-          </div>
-          <p className="small-note">
-            Your question is sent to OpenAI for a response. Avoid sharing private client information.
-            For wellness conversations: education and preparing
-            questions for a qualified clinician. No diagnosis or treatment
-            direction.
-          </p>
-          {brief && (
-            <div className="connection-banner">
-              <p>
-                A brief from Creator Studio is open. Your previously saved
-                question is preserved. New questions are sent to OpenAI to generate responses and are not saved to this device.
-              </p>
-              <button
-                className="outline-button"
-                onClick={() => {
-                  try {
-                    saveLocal(storageKeys.brief, '');
-                    setQuestion(null);
-                    setMessage(
-                      'Studio brief dismissed. Your saved question is restored.',
-                    );
-                  } catch {
-                    setMessage('Could not clear the local brief.');
-                  }
-                }}
-              >
-                Return to saved question
-              </button>
-            </div>
-          )}
-          <div className="prompt-options">
-            {[
-              'Help me introduce the brand at the chair.',
-              'What should I verify before recommending a product?',
-              'Help me plan a relaxed weekend in Chicago.',
-              'Brainstorm three ways to grow my business.',
-              'What should I use on my beard?',
-            ].map((prompt) => (
-              <button
-                key={prompt}
-                onClick={() => {
-                  setQuestion(prompt);
-                  setMessage('');
-                }}
-              >
-                {prompt}
-                <ArrowRight size={14} />
-              </button>
-            ))}
-          </div>
-          <form
-            onSubmit={async (e) => {
-              e.preventDefault();
-              if (!question.trim() || pending) return;
-              setPending(true);
-              setMessage("Cassius is considering your question…");
-
-              const storageNote = 'This submission was not saved to this device.';
-              try {
-                const history = conversation.flatMap(turn => [
-                  { role: 'user' as const, content: turn.question },
-                  { role: 'assistant' as const, content: turn.answer.text },
-                ]).slice(-12);
-                while (history.reduce((n, turn) => n + turn.content.length, 0) > 24000 || history.some(turn => turn.content.length > 10000)) history.splice(0, 2);
-                const result = await cassiusGateway.askIntelligence(question, history);
-                if (result.state === 'ready') {
-                  setConversation(previous => [...previous, { question, answer: result.data }]);
-                  setQuestion('');
-                  setMessage(storageNote);
-                } else setMessage(result.message);
-              } catch {
-                setMessage('Cassius could not respond. Please try again.');
-              } finally {
-                setPending(false);
-              }
-            }}
-          >
-            <label className="field">
-              Your question
-              <textarea
-                required
-                maxLength={10000}
-                rows={4}
-                placeholder="What would you like to work through?"
-                value={question}
-                onChange={(e) => setQuestion(e.target.value)}
-              />
-            </label>
-            <button
-              type="submit"
-              className="gold-button"
-              disabled={!question.trim() || pending}
-            >
-              {pending ? 'Considering…' : 'Ask Cassius'} <ArrowRight size={16} />
-            </button>
-            <output className="form-status">{message}</output>
-          </form>
-          {conversation.length > 0 && <button className="outline-button" disabled={pending} onClick={() => { setConversation([]); setQuestion(''); setMessage(''); }}>New conversation</button>}
-          {conversation.map(({ question: asked, answer }, index) => (
-            <section key={index} aria-label="Cassius conversation" aria-live="polite" className="pending-panel">
-              <h3>You</h3>
-              <p style={{ whiteSpace: 'pre-wrap', overflowWrap: 'anywhere' }}>{asked}</p>
-              <h3>Cassius</h3>
-              <p style={{ whiteSpace: 'pre-wrap', overflowWrap: 'anywhere' }}>{answer.text}</p>
-              {answer.citations.length > 0 && <details><summary>Sources</summary>
-              <ul>
-                {answer.citations.filter((c, i, all) => all.findIndex(x => x.url === c.url) === i).map(c => (
-                  <li key={c.url}>{c.url.startsWith('https://') ? <a href={c.url} target="_blank" rel="noreferrer">{c.title}</a> : c.title}</li>
-                ))}
-              </ul>
-              <p className="small-note">Dated source observations; product claims still require approval.</p></details>}
+    <section ref={shell} className="cassius-room" data-state={state} aria-label="Chat with Cassius">
+      <header className="cassius-room-header">
+        <div><span className="eyebrow gold">CASSIUS</span><span className="cassius-subtitle">Your personal intelligence</span></div>
+        <button className="cassius-quiet-button" disabled={pending || !conversation.length} onClick={() => {
+          setConversation([]); setQuestion(''); setMessage(''); input.current?.focus();
+        }}><Plus size={16} /> New chat</button>
+      </header>
+      <div ref={transcript} className="cassius-transcript" role="log" aria-label="Conversation" aria-live="polite" onScroll={e => {
+        const node = e.currentTarget;
+        follow.current = node.scrollHeight - node.scrollTop - node.clientHeight < 80;
+      }}>
+        {!conversation.length && !pending ? <div className="cassius-welcome">
+          <CassiusCore state={state} />
+          <span className="eyebrow gold">SPACE TO THINK. ROOM TO GROW.</span>
+          <h2>What’s on your mind?</h2>
+          <p>A sharper idea. Your next move.<br />Let’s work through it together.</p>
+        </div> : <>
+          <div className="cassius-presence-strip"><CassiusCore compact state={state} /><span>{pending ? 'Considering your question' : message ? 'Response unavailable' : 'Ready for your next thought'}</span></div>
+          {conversation.map(({ question: asked, answer }, index) => <div className="cassius-turn" key={index}>
+            <div className="cassius-user-message"><span>You</span><p>{asked}</p></div>
+            <section className="cassius-answer" aria-label="Cassius answer"><span className="eyebrow gold">CASSIUS</span><p>{answer.text}</p>
+              {answer.citations.length > 0 && <details><summary>View sources</summary><ul>{answer.citations.filter((c, i, all) => all.findIndex(x => x.url === c.url) === i).map(c => <li key={c.url}>{c.url.startsWith('https://') ? <a href={c.url} target="_blank" rel="noreferrer">{c.title}</a> : c.title}</li>)}</ul></details>}
             </section>
-          ))}
-        </div>
+          </div>)}
+          {pending && <div className="cassius-turn"><div className="cassius-user-message"><span>You</span><p>{submitted}</p></div><output className="cassius-thinking"><i /><i /><i /> Cassius is thinking…</output></div>}
+        </>}
       </div>
-    </>
+      <div className="cassius-compose-area">
+        {brief && <div className="cassius-brief">Studio brief loaded <button disabled={pending} onClick={() => {
+          try { saveLocal(storageKeys.brief, ''); setQuestion(null); } catch { setMessage('Could not clear the local brief.'); }
+        }}>Dismiss brief</button></div>}
+        {message && <p className="cassius-error" role="alert">{message}</p>}
+        {ideas && <div className="cassius-ideas" aria-label="Conversation starters">{[
+          ['Plan a trip', 'Help me plan a relaxed weekend in Chicago.'],
+          ['Build an idea', 'Help me think through a business idea.'],
+          ['Refine my routine', 'Help me build a grooming routine.'],
+        ].map(([label, prompt]) => <button key={label} disabled={pending} onClick={() => { setQuestion(prompt); setIdeas(false); input.current?.focus(); }}>{label}<ArrowRight size={13} /></button>)}</div>}
+        <form className="cassius-composer" onSubmit={e => { e.preventDefault(); void send(); }}>
+          <label className="sr-only" htmlFor="cassius-question">Message Cassius</label>
+          <textarea id="cassius-question" ref={input} required maxLength={10000} rows={1} placeholder="Ask Cassius anything…" value={question} readOnly={pending}
+            onFocus={() => setFocused(true)} onBlur={() => setFocused(false)} onChange={e => setQuestion(e.target.value)}
+            onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing && window.matchMedia('(pointer: fine)').matches) { e.preventDefault(); void send(); } }} />
+          <div className="cassius-composer-tools"><button type="button" className="cassius-quiet-button" aria-expanded={ideas} disabled={pending} onClick={() => setIdeas(!ideas)}><Plus size={15} /> Ideas</button>
+            <span>{pending ? 'Thinking…' : focused ? 'Let’s explore it' : 'Make room for a better thought'}</span>
+            <button type="submit" className="cassius-send" aria-label="Send message" disabled={!question.trim() || pending}><ArrowUp size={20} /></button>
+          </div>
+        </form>
+        <details className="cassius-chat-note"><summary>AI conversation · About your chat</summary><p>Questions are sent to OpenAI. This conversation is not saved to this device and clears when you leave this section. Avoid private client information. Wellness guidance is educational, not diagnosis or treatment. Verify important details.</p></details>
+      </div>
+    </section>
   );
 }
 function KnowledgeWorkspace() {
