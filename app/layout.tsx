@@ -8,6 +8,7 @@ import './living-materials.css';
 import './brand-materials.css';
 import './spatial-system.css';
 import './command-theatre.css';
+import './architectural-form.css';
 import { LivingMaterials } from '@/components/living-materials';
 export const metadata: Metadata = {
   title: 'The Collective | Groomed Gent Co.',

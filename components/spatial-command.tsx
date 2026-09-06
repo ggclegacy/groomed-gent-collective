@@ -9,6 +9,7 @@ import {
   ArrowRight,
 } from 'lucide-react';
 import { useGentleman } from '@/components/gentleman-context';
+import { ModuleSculpture } from '@/components/module-sculpture';
 import { commandContext } from '@/lib/spatial/model';
 export function SpatialCommand() {
   const { memory, ask } = useGentleman();
@@ -87,6 +88,11 @@ export function SpatialCommand() {
           aria-label="Open Cassius to prepare your day"
         >
           <span className="instrument-stage" aria-hidden="true">
+            <svg className="instrument-chassis" viewBox="0 0 300 290" fill="none" aria-hidden="true">
+              <path d="M78 18h144l59 59v136l-59 59H78l-59-59V77Z" />
+              <path d="M88 35h124l51 51v118l-51 51H88l-51-51V86Z" />
+              <path d="M150 18v14M150 258v14M19 145h14M267 145h14M61 59l10 10M229 221l10 10M61 231l10-10M229 69l10-10" />
+            </svg>
             <i className="instrument-shadow" />
             <span className="instrument-body">
               <i className="instrument-ring ring-one" />
@@ -142,11 +148,7 @@ export function SpatialCommand() {
             <span>01 / VOYAGE</span>
             <ArrowUpRight size={17} />
           </span>
-          <div className="world-contours" aria-hidden="true">
-            <i />
-            <i />
-            <i />
-          </div>
+          <ModuleSculpture variant="voyage" />
           <span className="spatial-card-body">
             <small>
               {context.trip ? 'YOUR NEXT DEPARTURE' : 'THE WORLD, CONSIDERED'}
@@ -166,11 +168,7 @@ export function SpatialCommand() {
             <span>02 / CIRCLE</span>
             <ArrowUpRight size={17} />
           </span>
-          <span className="world-nodes" aria-hidden="true">
-            <i />
-            <i />
-            <i />
-          </span>
+          <ModuleSculpture variant="circle" />
           <span className="spatial-card-body">
             <small>PEOPLE WORTH REMEMBERING</small>
             <strong>
@@ -190,7 +188,7 @@ export function SpatialCommand() {
             <span>03 / LIFE</span>
             <ArrowUpRight size={17} />
           </span>
-          <span className="world-monolith" aria-hidden="true" />
+          <ModuleSculpture variant="life" />
           <span className="spatial-card-body">
             <small>THE DETAILS THAT DEFINE YOU</small>
             <strong>

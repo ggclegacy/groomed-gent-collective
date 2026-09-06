@@ -42,7 +42,7 @@
   margin: 12px 0 38px;
   padding: 32px;
   border: 1px solid #967c5740;
-  border-radius: 22px;
+  border-radius: 6px;
   background:
     radial-gradient(ellipse at top right, #2c2a2785, transparent 75%),
     linear-gradient(130deg, #11110f, #090908);
@@ -103,7 +103,7 @@
   padding: 26px;
   margin: 24px 0;
   border: 1px solid #977c5740;
-  border-radius: 18px;
+  border-radius: 6px;
   background: linear-gradient(130deg, #1d1c1abb, #0c0c0bee);
   box-shadow: inset 0 1px #a5896213;
 }
@@ -125,7 +125,7 @@
 .gent-dialog textarea {
   width: 100%;
   padding: 12px 14px;
-  border-radius: 9px;
+  border-radius: 6px;
   border: 1px solid #b7adbf40;
   background: #080807;
   color: #eef0e8;
@@ -167,7 +167,7 @@
   min-width: 0;
   padding: 26px;
   border: 1px solid #8f765233;
-  border-radius: 18px;
+  border-radius: 6px;
   background: linear-gradient(130deg, #1a191799, #0c0b0be6);
   box-shadow: inset 0 1px #a589620d;
 }
@@ -202,7 +202,7 @@
   padding: 64px 24px;
   text-align: center;
   border: 1px solid #947a5528;
-  border-radius: 20px;
+  border-radius: 6px;
   margin-top: 28px;
   background: radial-gradient(ellipse at center, #24232070, transparent);
 }
@@ -233,7 +233,7 @@
 .gent-hub a {
   padding: 26px;
   border: 1px solid #947a5533;
-  border-radius: 18px;
+  border-radius: 6px;
   background: linear-gradient(120deg, #201f1d80, #0d0c0b);
   display: grid;
   gap: 12px;
@@ -257,7 +257,7 @@
   align-items: center;
   gap: 12px;
   padding: 15px 23px;
-  border-radius: 40px;
+  border-radius: 6px;
   border: 1px solid #9e825b88;
   background: linear-gradient(145deg, #271536, #11110f);
   color: #a78c67;
@@ -336,7 +336,7 @@
 .gent-generated {
   padding: 22px;
   border: 1px solid #967c5740;
-  border-radius: 12px;
+  border-radius: 6px;
   margin: 20px 0;
 }
 .gent-space button:focus-visible,
@@ -408,7 +408,7 @@
   gap: 15px;
   text-align: left;
   padding: 30px;
-  border-radius: 22px;
+  border-radius: 6px;
   border: 1px solid #967c5744;
   background:
     radial-gradient(ellipse at top right, #2a183a99, transparent), #0d0d0c;
@@ -432,7 +432,7 @@
   align-items: center;
   padding: 28px;
   border: 1px solid #997e5860;
-  border-radius: 20px;
+  border-radius: 6px;
   background: linear-gradient(120deg, #272623, #0f0f0e);
   box-shadow:
     0 15px 40px #0005,
@@ -463,7 +463,7 @@
 .voyage-tools details {
   flex: 1;
   border: 1px solid #967c5733;
-  border-radius: 14px;
+  border-radius: 6px;
   padding: 18px;
   background: #18181666;
 }
@@ -514,7 +514,7 @@
   padding: 22px;
   background: linear-gradient(120deg, #191917, #0c0c0b);
   border: 1px solid #93795433;
-  border-radius: 15px;
+  border-radius: 6px;
 }
 .voyage-event.next > div:last-child {
   border-color: #8f765277;
@@ -556,7 +556,7 @@
 }
 .voyage-aside > div {
   border: 1px solid #8f765233;
-  border-radius: 16px;
+  border-radius: 6px;
   padding: 25px;
   margin-top: 27px;
   background: #15141377;
@@ -578,7 +578,7 @@
 .voyage-conflicts {
   background: #2e261b88;
   border: 1px solid #79644677;
-  border-radius: 12px;
+  border-radius: 6px;
   padding: 20px;
   margin: 20px 0;
 }
@@ -673,7 +673,7 @@
   grid-template-columns: 1fr 1fr 1.3fr;
   background: linear-gradient(125deg, #1d1c1a99, #0a0909dd);
   border: 1px solid #997e5840;
-  border-radius: 22px;
+  border-radius: 6px;
   overflow: hidden;
 }
 .life-pulse > div {
@@ -705,7 +705,7 @@
 .life-preparation {
   margin-top: 20px;
   border: 1px solid #997e5835;
-  border-radius: 18px;
+  border-radius: 6px;
   padding: 24px;
   background: #100f0eaa;
 }
@@ -755,7 +755,7 @@
   align-items: center;
   gap: 12px;
   border: 1px solid #997e5830;
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 15px;
 }
 .life-choices small {
@@ -774,7 +774,7 @@
   padding: 20px;
   margin: 20px 0;
   background: #05050470;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 .life-preview ul,
 .life-rhythm ol {
@@ -819,7 +819,7 @@
 }
 .life-trip-packing {
   border: 1px solid #997e5835;
-  border-radius: 16px;
+  border-radius: 6px;
   padding: 22px;
 }
 .life-trip-packing h3 {
@@ -892,7 +892,7 @@
   margin: 32px 0;
   padding: 26px;
   border: 1px solid #a3875f35;
-  border-radius: 20px;
+  border-radius: 6px;
   background: linear-gradient(135deg, #1c1b1999, #0a0a09d9);
 }
 .desk-focus h2 {
@@ -907,7 +907,7 @@
 }
 .desk-buckets > div {
   border: 1px solid #a3875f25;
-  border-radius: 12px;
+  border-radius: 6px;
   padding: 20px;
   min-width: 0;
 }
