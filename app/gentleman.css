@@ -8,7 +8,7 @@
   padding: 10px 24px;
   background: #0f0e0d;
   color: #c0b7c7;
-  border-bottom: 1px solid #bca36730;
+  border-bottom: 1px solid #ba882c30;
   font-size: 13px;
 }
 .gent-memory-bar > span {
@@ -20,7 +20,7 @@
   flex-shrink: 0;
 }
 .gent-memory-bar button {
-  color: #dbc88c;
+  color: #d19d3d;
 }
 .gent-memory-bar button:disabled {
   opacity: 0.4;
@@ -41,13 +41,13 @@
   gap: 36px;
   margin: 12px 0 38px;
   padding: 32px;
-  border: 1px solid #c4ac6840;
+  border: 1px solid #c08d2d40;
   border-radius: 22px;
   background:
     radial-gradient(ellipse at top right, #2c2a2785, transparent 75%),
     linear-gradient(130deg, #11110f, #090908);
   box-shadow:
-    inset 0 1px #ffffff14,
+    inset 0 1px #c99a3e14,
     0 20px 55px #0005;
 }
 .gent-command h2 {
@@ -69,12 +69,12 @@
   grid-template-columns: 1fr auto;
   gap: 7px;
   padding: 16px 0;
-  border-bottom: 1px solid #c4ac6825;
+  border-bottom: 1px solid #c08d2d25;
 }
 .gent-priorities span {
   grid-column: 1/-1;
   font-size: 12px;
-  color: #baa771;
+  color: #bf8c2d;
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
@@ -102,10 +102,10 @@
   max-width: 860px;
   padding: 26px;
   margin: 24px 0;
-  border: 1px solid #bdab7040;
+  border: 1px solid #c18d2d40;
   border-radius: 18px;
   background: linear-gradient(130deg, #1d1c1abb, #0c0c0bee);
-  box-shadow: inset 0 1px #ffffff13;
+  box-shadow: inset 0 1px #c99a3e13;
 }
 .gent-editor h2 {
   font-size: 24px;
@@ -138,7 +138,7 @@
 .gent-editor textarea:focus,
 .gent-editor select:focus,
 .gent-dialog textarea:focus {
-  outline: 2px solid #c8b57a;
+  outline: 2px solid #ce9730;
   outline-offset: 2px;
 }
 .gent-fields {
@@ -155,7 +155,7 @@
 .gent-check input {
   width: 18px;
   height: 18px;
-  accent-color: #c4ad71;
+  accent-color: #c6912e;
   flex-shrink: 0;
 }
 .gent-records {
@@ -166,10 +166,10 @@
 .gent-record {
   min-width: 0;
   padding: 26px;
-  border: 1px solid #b6a36633;
+  border: 1px solid #b6852b33;
   border-radius: 18px;
   background: linear-gradient(130deg, #1a191799, #0c0b0be6);
-  box-shadow: inset 0 1px #ffffff0d;
+  box-shadow: inset 0 1px #c99a3e0d;
 }
 .gent-record h2 {
   font-size: 25px;
@@ -187,12 +187,12 @@
 }
 .gent-record small,
 .gent-date {
-  color: #b7ac83;
+  color: #c9932f;
   font-size: 13px;
 }
 .gent-record .gent-actions {
   font-size: 14px;
-  border-top: 1px solid #b6a36625;
+  border-top: 1px solid #b6852b25;
   padding-top: 16px;
 }
 .gent-record.is-complete {
@@ -201,7 +201,7 @@
 .gent-empty {
   padding: 64px 24px;
   text-align: center;
-  border: 1px solid #baa56e28;
+  border: 1px solid #bd8b2c28;
   border-radius: 20px;
   margin-top: 28px;
   background: radial-gradient(ellipse at center, #24232070, transparent);
@@ -216,13 +216,13 @@
 }
 .gent-orbit {
   display: inline-flex;
-  border: 1px solid #c9b47755;
+  border: 1px solid #cd963055;
   border-radius: 50%;
   padding: 24px;
-  color: #ccb879;
+  color: #cf9832;
   box-shadow:
     0 0 50px #81659820,
-    inset 0 0 24px #41285644;
+    inset 0 0 24px #2e1a3e44;
 }
 .gent-hub {
   display: grid;
@@ -232,7 +232,7 @@
 }
 .gent-hub a {
   padding: 26px;
-  border: 1px solid #baa56e33;
+  border: 1px solid #bd8b2c33;
   border-radius: 18px;
   background: linear-gradient(120deg, #201f1d80, #0d0c0b);
   display: grid;
@@ -246,7 +246,7 @@
   color: #beb8c3;
 }
 .gent-hub svg {
-  color: #c6ae70;
+  color: #c6912f;
 }
 .gent-invoke {
   position: fixed;
@@ -258,12 +258,12 @@
   gap: 12px;
   padding: 15px 23px;
   border-radius: 40px;
-  border: 1px solid #d0b66c88;
-  background: linear-gradient(145deg, #38204b, #11110f);
-  color: #e7d6a4;
+  border: 1px solid #ca942f88;
+  background: linear-gradient(145deg, #271536, #11110f);
+  color: #d19d3d;
   box-shadow:
     0 6px 30px #0008,
-    inset 0 1px #ffffff30;
+    inset 0 1px #c99a3e30;
   font-size: 14px;
   letter-spacing: 0.1em;
 }
@@ -284,7 +284,7 @@
   background: linear-gradient(160deg, #1b1a18, #0a0a09 65%);
   color: #eef0e8;
   border: 0;
-  border-left: 1px solid #c7ac6566;
+  border-left: 1px solid #c08d2d66;
   box-shadow: -30px 0 90px #0008;
   overflow: auto;
 }
@@ -316,7 +316,7 @@
 }
 .gent-dialog details {
   margin: 16px 0;
-  color: #c5b682;
+  color: #cf9933;
   font-size: 13px;
 }
 .gent-dialog pre {
@@ -335,14 +335,14 @@
 }
 .gent-generated {
   padding: 22px;
-  border: 1px solid #c4ac6840;
+  border: 1px solid #c08d2d40;
   border-radius: 12px;
   margin: 20px 0;
 }
 .gent-space button:focus-visible,
 .gent-invoke:focus-visible,
 .gent-dialog button:focus-visible {
-  outline: 2px solid #d4be80;
+  outline: 2px solid #d19d3b;
   outline-offset: 4px;
 }
 @media (max-width: 760px) {
@@ -385,7 +385,7 @@
   gap: 10px;
   align-items: center;
   margin: 20px 0;
-  color: #c8bb90;
+  color: #d19d3d;
 }
 .voyage-heading {
   display: flex;
@@ -409,10 +409,10 @@
   text-align: left;
   padding: 30px;
   border-radius: 22px;
-  border: 1px solid #bda96f44;
+  border: 1px solid #c08d2d44;
   background:
-    radial-gradient(ellipse at top right, #3c245099, transparent), #0d0d0c;
-  box-shadow: inset 0 1px #ffffff18;
+    radial-gradient(ellipse at top right, #2a183a99, transparent), #0d0d0c;
+  box-shadow: inset 0 1px #c99a3e18;
 }
 .voyage-journey h2 {
   font-size: 30px;
@@ -420,7 +420,7 @@
   letter-spacing: -0.04em;
 }
 .voyage-journey > svg {
-  color: #c5ac70;
+  color: #c6912e;
 }
 .voyage-journey p,
 .voyage-journey > span:last-of-type {
@@ -431,15 +431,15 @@
   gap: 25px;
   align-items: center;
   padding: 28px;
-  border: 1px solid #c8af6860;
+  border: 1px solid #c38e2e60;
   border-radius: 20px;
   background: linear-gradient(120deg, #272623, #0f0f0e);
   box-shadow:
     0 15px 40px #0005,
-    inset 0 1px #fff2;
+    inset 0 1px #c99a3e22;
 }
 .voyage-pulse > svg {
-  color: #d1b970;
+  color: #cd9630;
 }
 .voyage-pulse h2 {
   font-size: 27px;
@@ -449,7 +449,7 @@
 .voyage-pulse > span {
   margin-left: auto;
   font-size: 14px;
-  color: #c6b17c;
+  color: #ce9730;
 }
 .voyage-pulse p {
   color: #c1bac6;
@@ -462,14 +462,14 @@
 }
 .voyage-tools details {
   flex: 1;
-  border: 1px solid #bda96f33;
+  border: 1px solid #c08d2d33;
   border-radius: 14px;
   padding: 18px;
   background: #18181666;
 }
 .voyage-tools summary {
   cursor: pointer;
-  color: #d3c593;
+  color: #d19d3d;
 }
 .voyage-tools details p {
   margin: 15px 0;
@@ -484,7 +484,7 @@
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.05em;
-  color: #cabc8f;
+  color: #d19d3d;
   margin: 28px 0 20px;
 }
 .voyage-event {
@@ -492,7 +492,7 @@
   grid-template-columns: 74px minmax(0, 1fr);
   gap: 18px;
   position: relative;
-  border-left: 1px solid #b4a16755;
+  border-left: 1px solid #b5852a55;
   padding: 6px 0 18px 22px;
   margin-left: 10px;
 }
@@ -507,22 +507,22 @@
   background: #9d986f;
 }
 .voyage-event.next:before {
-  background: #d8be6c;
-  box-shadow: 0 0 15px #c8bc6faa;
+  background: #cf9831;
+  box-shadow: 0 0 15px #c7922faa;
 }
 .voyage-event > div:last-child {
   padding: 22px;
   background: linear-gradient(120deg, #191917, #0c0c0b);
-  border: 1px solid #b8a66c33;
+  border: 1px solid #bb892c33;
   border-radius: 15px;
 }
 .voyage-event.next > div:last-child {
-  border-color: #baa66377;
+  border-color: #b6862b77;
 }
 .voyage-time {
   font-size: 20px;
   padding-top: 17px;
-  color: #e1d2a6;
+  color: #d19d3d;
 }
 .voyage-time small {
   display: block;
@@ -549,13 +549,13 @@
 .voyage-event a {
   display: block;
   margin: 15px 0;
-  color: #cabc8f;
+  color: #d19d3d;
 }
 .voyage-event.done {
   opacity: 0.55;
 }
 .voyage-aside > div {
-  border: 1px solid #b7a36633;
+  border: 1px solid #b6862b33;
   border-radius: 16px;
   padding: 25px;
   margin-top: 27px;
@@ -577,7 +577,7 @@
 }
 .voyage-conflicts {
   background: #38271188;
-  border: 1px solid #ad8b4577;
+  border: 1px solid #9b712477;
   border-radius: 12px;
   padding: 20px;
   margin: 20px 0;
@@ -586,13 +586,13 @@
   margin-top: 10px;
 }
 .circle-details {
-  border-top: 1px solid #baa86b33;
+  border-top: 1px solid #bb892c33;
   margin-top: 20px;
   padding-top: 18px;
 }
 .circle-details summary {
   cursor: pointer;
-  color: #d1c093;
+  color: #d19d3d;
   font-size: 15px;
 }
 .circle-brief {
@@ -610,7 +610,7 @@
 .circle-brief a {
   display: block;
   margin: 10px 0;
-  color: #ceb97e;
+  color: #d09a36;
 }
 .circle-contact {
   margin-top: 25px;
@@ -622,8 +622,8 @@
 }
 .circle-contact input {
   background: #0c0c0b;
-  border: 1px solid #b8a66c55;
-  color: #eee8d2;
+  border: 1px solid #bb892c55;
+  color: #d19d3d;
   padding: 12px;
   border-radius: 8px;
   color-scheme: dark;
@@ -672,7 +672,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1.3fr;
   background: linear-gradient(125deg, #1d1c1a99, #0a0909dd);
-  border: 1px solid #bca87440;
+  border: 1px solid #c38e2e40;
   border-radius: 22px;
   overflow: hidden;
 }
@@ -683,12 +683,12 @@
   align-content: start;
 }
 .life-pulse > div + div {
-  border-left: 1px solid #bca87425;
+  border-left: 1px solid #c38e2e25;
 }
 .life-pulse strong {
   font-size: 44px;
   font-weight: 400;
-  color: #e2d4ab;
+  color: #d19d3d;
 }
 .life-pulse small {
   font-size: 20px;
@@ -700,11 +700,11 @@
 }
 .life-pulse a,
 .life-trip-packing a {
-  color: #dac68d;
+  color: #d19d3d;
 }
 .life-preparation {
   margin-top: 20px;
-  border: 1px solid #bca87435;
+  border: 1px solid #c38e2e35;
   border-radius: 18px;
   padding: 24px;
   background: #100f0eaa;
@@ -712,7 +712,7 @@
 .life-preparation summary {
   cursor: pointer;
   font-size: 20px;
-  color: #e4dcc6;
+  color: #d19d3d;
 }
 .life-preparation > p {
   margin: 18px 0;
@@ -739,8 +739,8 @@
   width: 100%;
   min-width: 0;
   background: #0a0a09;
-  border: 1px solid #a69a714d;
-  color: #eee8db;
+  border: 1px solid #b3832a4d;
+  color: #d19d3d;
   border-radius: 8px;
   padding: 12px;
   color-scheme: dark;
@@ -754,7 +754,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  border: 1px solid #bca87430;
+  border: 1px solid #c38e2e30;
   border-radius: 10px;
   padding: 15px;
 }
@@ -765,7 +765,7 @@
 }
 .life-choices input,
 .life-packing-row input {
-  accent-color: #c5b079;
+  accent-color: #cb9530;
   width: 18px;
   height: 18px;
   flex-shrink: 0;
@@ -783,7 +783,7 @@
   margin: 14px 0;
 }
 .life-record-details {
-  border-top: 1px solid #c9b57e30;
+  border-top: 1px solid #cf993330;
   margin-top: 20px;
   padding-top: 18px;
 }
@@ -797,7 +797,7 @@
   margin-bottom: 18px;
 }
 .life-garment strong {
-  color: #d2bd85;
+  color: #d19d3d;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -814,11 +814,11 @@
 .life-step button,
 .life-packing-row button {
   font-size: 12px;
-  color: #c8bc98;
+  color: #d19d3d;
   padding: 8px;
 }
 .life-trip-packing {
-  border: 1px solid #bca87435;
+  border: 1px solid #c38e2e35;
   border-radius: 16px;
   padding: 22px;
 }
@@ -839,7 +839,7 @@
   display: flex;
   align-items: start;
   gap: 10px;
-  border-bottom: 1px solid #bca87420;
+  border-bottom: 1px solid #c38e2e20;
   padding: 14px 0;
 }
 .life-packing-row label {
@@ -858,7 +858,7 @@
   .life-pulse > div:last-child {
     grid-column: 1/-1;
     border-left: 0;
-    border-top: 1px solid #bca87425;
+    border-top: 1px solid #c38e2e25;
   }
   .life-fields,
   .life-choices {
@@ -878,7 +878,7 @@
 }
 .capture-review {
   margin: 20px 0;
-  border-top: 1px solid #c9b57e30;
+  border-top: 1px solid #cf993330;
   padding-top: 20px;
 }
 .capture-review output,
@@ -886,12 +886,12 @@
   display: block;
   line-height: 1.6;
   margin-top: 12px;
-  color: #cabd96;
+  color: #d19d3d;
 }
 .desk-focus {
   margin: 32px 0;
   padding: 26px;
-  border: 1px solid #c9b57e35;
+  border: 1px solid #cf993335;
   border-radius: 20px;
   background: linear-gradient(135deg, #1c1b1999, #0a0a09d9);
 }
@@ -906,7 +906,7 @@
   margin-top: 24px;
 }
 .desk-buckets > div {
-  border: 1px solid #c9b57e25;
+  border: 1px solid #cf993325;
   border-radius: 12px;
   padding: 20px;
   min-width: 0;
@@ -917,11 +917,11 @@
   font-size: 18px;
 }
 .desk-buckets h3 span {
-  color: #d2bd85;
+  color: #d19d3d;
 }
 .desk-buckets article {
   padding: 18px 0;
-  border-bottom: 1px solid #c9b57e20;
+  border-bottom: 1px solid #cf993320;
   overflow-wrap: anywhere;
 }
 .desk-buckets article small {

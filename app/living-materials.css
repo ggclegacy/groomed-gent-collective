@@ -23,8 +23,8 @@ body::before {
   left: 5vw;
   background: radial-gradient(
     ellipse,
-    #c9a45c24,
-    #e9c8770b 40%,
+    #bb892c24,
+    #d19d3d0b 40%,
     transparent 68%
   );
   animation: ambient-drift 24s ease-in-out infinite alternate;
@@ -49,12 +49,12 @@ body::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #c9a45c2b,
+    #bb892c2b,
     #856b9b18,
     transparent
   );
   transform: rotate(-24deg);
-  box-shadow: 0 0 40px 10px #c9a45c05;
+  box-shadow: 0 0 40px 10px #bb892c05;
 }
 .ambient-toggle {
   position: fixed;
@@ -66,34 +66,34 @@ body::before {
   gap: 7px;
   min-height: 44px;
   padding: 0 13px;
-  border: 1px solid #c9a45c38;
+  border: 1px solid #bb892c38;
   border-radius: 22px;
-  color: #e0bf7a;
+  color: #d19d3d;
   background: #0c0c0be8;
   backdrop-filter: blur(16px);
   box-shadow:
     0 5px 20px #0008,
-    inset 0 1px #fff4;
+    inset 0 1px #c99a3e44;
   font-size: 12px;
 }
 .ambient-toggle:focus-visible {
-  outline: 2px solid #c9a45c;
+  outline: 2px solid #bb892c;
   outline-offset: 3px;
 }
 /* One coherent surface treatment from finance through product and creative work. */
 .vd-root {
-  --vd-gold: #c9a45c;
+  --vd-gold: #bb892c;
   --vd-white: #f5f5f2;
   --vd-muted: #b3aeb8;
-  --vd-edge: #e8c8772e;
+  --vd-edge: #d19d3d2e;
 }
 .product-studio {
-  --ps-gold: #c9a45c;
+  --ps-gold: #bb892c;
   --ps-muted: #95899f;
   --ps-amethyst: #131211;
 }
 .creative-studio {
-  --cs-gold: #c9a45c;
+  --cs-gold: #bb892c;
   --cs-dim: #958a9e;
 }
 .vd-glass,
@@ -111,12 +111,12 @@ body::before {
 .draft-library {
   position: relative;
   isolation: isolate;
-  border-color: #e0bf7a30;
+  border-color: #d19d3d30;
   background:
-    linear-gradient(135deg, #ffffff0b, transparent 36%, #856b9b05 100%), #0e0d0c;
+    linear-gradient(135deg, #c99a3e0b, transparent 36%, #856b9b05 100%), #0e0d0c;
   box-shadow:
     0 20px 50px #0008,
-    inset 0 1px #c9a45c2d,
+    inset 0 1px #bb892c2d,
     inset 0 -1px #856b9b14;
 }
 [data-material]::after {
@@ -129,8 +129,8 @@ body::before {
   background: linear-gradient(
     115deg,
     transparent 10%,
-    #c9a45c03 27%,
-    #c9a45c11 44%,
+    #bb892c03 27%,
+    #bb892c11 44%,
     #856b9b08 47%,
     transparent 65%
   );
@@ -152,37 +152,37 @@ body::before {
 .cs-canvas-panel,
 .intelligence-stage {
   background:
-    radial-gradient(ellipse at 0 0, #f4ce6c17, transparent 46%),
+    radial-gradient(ellipse at 0 0, #d19d3d17, transparent 46%),
     radial-gradient(ellipse at 100% 80%, #856b9b0b, transparent 50%), #0b0b0a;
-  border-color: #f2cc6e65;
+  border-color: #d19d3d65;
   box-shadow:
-    inset 0 1px #c9a45ca6,
-    inset 1px 0 #c9a45c20,
+    inset 0 1px #bb892ca6,
+    inset 1px 0 #bb892c20,
     0 22px 65px #000a,
-    0 0 28px #c9a45c06;
+    0 0 28px #bb892c06;
 }
 .vd-earnings::before,
 .vd-cassius::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #c9a45c 32%,
-    #eecb72 65%,
+    #bb892c 32%,
+    #d19d3d 65%,
     transparent
   );
-  box-shadow: 0 0 12px #c9a45c33;
+  box-shadow: 0 0 12px #bb892c33;
 }
 .vd-earnings-number,
 .membership .card-wordmark,
 .monogram,
 .cs-header em,
 .ps-intro em {
-  color: #c9a45c;
+  color: #bb892c;
   background: var(--gold-metal);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 32px #c9a45c14;
+  text-shadow: 0 0 32px #bb892c14;
 }
 .vd-gold-button,
 .gold-button,
@@ -193,11 +193,11 @@ body::before {
   overflow: hidden;
   color: #1a1918;
   background: var(--gold-metal);
-  border: 1px solid #c9a45cd9;
+  border: 1px solid #bb892cd9;
   box-shadow:
-    inset 0 2px #e0bf7ad0,
+    inset 0 2px #d19d3dd0,
     inset 0 -2px #ab832070,
-    0 8px 26px #f5ce6b1a,
+    0 8px 26px #d19d3d1a,
     0 2px 3px #0007;
   transition:
     transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
@@ -213,7 +213,7 @@ body::before {
   background: linear-gradient(
     110deg,
     transparent 40%,
-    #e0bf7a8c 49%,
+    #d19d3d8c 49%,
     transparent 57%
   );
   transform: translateX(-75%);
@@ -225,8 +225,8 @@ body::before {
 .cs-generate:hover {
   transform: translateY(-2px);
   box-shadow:
-    inset 0 2px #e0bf7a,
-    0 9px 35px #c9a45c35;
+    inset 0 2px #d19d3d,
+    0 9px 35px #bb892c35;
   filter: none;
 }
 .vd-command,
@@ -240,27 +240,27 @@ body::before {
     box-shadow 0.3s;
 }
 .vd-command {
-  background: linear-gradient(125deg, #c9a45c0c, #131211);
-  border-color: #e0bf7a40;
+  background: linear-gradient(125deg, #bb892c0c, #131211);
+  border-color: #d19d3d40;
 }
 .vd-command:hover,
 .ps-product:hover,
 .ps-daily:hover,
 .cs-starters button:hover {
   transform: translateY(-3px);
-  border-color: #c9a45ca0;
+  border-color: #bb892ca0;
   box-shadow:
     0 12px 32px #0008,
-    inset 0 1px #c9a45c60;
+    inset 0 1px #bb892c60;
 }
 .vd-command-icon,
 .vd-pulse-icon,
 .ps-product-mark {
-  background: linear-gradient(140deg, #c9a45c28, #161514 55%, #856b9b12);
-  color: #c9a45c;
-  border-color: #c9a45c65;
+  background: linear-gradient(140deg, #bb892c28, #161514 55%, #856b9b12);
+  color: #bb892c;
+  border-color: #bb892c65;
   box-shadow:
-    inset 0 1px #c9a45c4a,
+    inset 0 1px #bb892c4a,
     0 4px 12px #0006;
 }
 .vd-chip-gold,
@@ -273,27 +273,27 @@ body::before {
 .vd-module-header > .vd-overline,
 .vd-welcome .vd-overline,
 .vd-section-title h2 > span {
-  color: #e0bf7a;
+  color: #d19d3d;
 }
 .vd-chip-gold {
-  background: #efcb710b;
-  border-color: #e0bf7a3f;
+  background: #d19d3d0b;
+  border-color: #d19d3d3f;
 }
 .vd-metric {
-  background: linear-gradient(130deg, #ffffff08, #090908);
-  border-color: #c9a45c21;
-  box-shadow: inset 0 1px #c9a45c17;
+  background: linear-gradient(130deg, #c99a3e08, #090908);
+  border-color: #bb892c21;
+  box-shadow: inset 0 1px #bb892c17;
 }
 .vd-metric-label svg,
 .vd-section-title > svg {
-  color: #e0bf7a;
+  color: #d19d3d;
 }
 .vd-command-wide {
-  background: linear-gradient(110deg, #f6ce6a15, #0e0e0d 70%);
+  background: linear-gradient(110deg, #d19d3d15, #0e0e0d 70%);
 }
 .vd-tooltip {
   background: #121110f5;
-  border-color: #c9a45c6b;
+  border-color: #bb892c6b;
   box-shadow: 0 15px 30px #000b;
 }
 .vd-bar > span {
@@ -304,33 +304,33 @@ body::before {
 }
 /* Floating navigation picks up highlights from the luminous environment. */
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff0c, #0b0b0aed 50%, #856b9b0a);
-  border-color: #e0bf7a46;
+  background: linear-gradient(125deg, #c99a3e0c, #0b0b0aed 50%, #856b9b0a);
+  border-color: #d19d3d46;
   box-shadow:
-    inset 0 1px #c9a45c65,
+    inset 0 1px #bb892c65,
     0 15px 55px #0008;
 }
 .collective-nav a[aria-current],
 .mobile-dock a[aria-current] {
-  color: #c9a45c;
-  border-color: #f0cc6f75;
-  background: linear-gradient(115deg, #c9a45c22, #1a191799);
+  color: #bb892c;
+  border-color: #d19d3d75;
+  background: linear-gradient(115deg, #bb892c22, #1a191799);
   box-shadow:
-    inset 0 1px #c9a45c78,
-    inset 3px 0 #f8cf68,
-    0 0 20px #c9a45c0c;
+    inset 0 1px #bb892c78,
+    inset 3px 0 #d19d3d,
+    0 0 20px #bb892c0c;
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #c9a45c16, #0d0d0cf2 45%, #856b9b0d);
-  border-color: #c9a45c6b;
+  background: linear-gradient(120deg, #bb892c16, #0d0d0cf2 45%, #856b9b0d);
+  border-color: #bb892c6b;
   box-shadow:
-    inset 0 1px #c9a45c80,
+    inset 0 1px #bb892c80,
     0 10px 40px #000c;
 }
 .nav-dot,
 .cs-kicker > span {
-  background: #f2cc6e;
-  box-shadow: 0 0 12px #c9a45c8c;
+  background: #d19d3d;
+  box-shadow: 0 0 12px #bb892c8c;
 }
 /* Existing Cassius geometry becomes the active optical focal point. */
 .vd-cassius-glyph {
@@ -354,24 +354,24 @@ body::before {
 .core-gold-bezel {
   background: conic-gradient(
     from -28deg,
-    #deb651,
-    #c9a45c 9%,
-    #e0bf7a 19%,
+    #c28e2d,
+    #bb892c 9%,
+    #d19d3d 19%,
     #7e7b81 24%,
-    #c9a45c 34%,
-    #e0bf7a 40%,
-    #e5c574 50%,
-    #e0bf7a 60%,
+    #bb892c 34%,
+    #d19d3d 40%,
+    #d19d3d 50%,
+    #d19d3d 60%,
     #958a9e 66%,
-    #c9a45c 80%,
-    #e4c472 92%,
-    #deb651
+    #bb892c 80%,
+    #d19d3d 92%,
+    #c28e2d
   );
 }
 .core-aura {
   background: radial-gradient(
     circle,
-    #e0bf7a26,
+    #d19d3d26,
     #856b9b12 45%,
     transparent 70%
   );
@@ -380,8 +380,8 @@ body::before {
   background: conic-gradient(
     from 40deg,
     transparent 8%,
-    #c9a45c36 19%,
-    #c9a45c80 24%,
+    #bb892c36 19%,
+    #bb892c80 24%,
     transparent 34%,
     #856b9b20 57%,
     #856b9b55 66%,
@@ -394,36 +394,36 @@ body::before {
     transparent 12%,
     #856b9b60 26%,
     transparent 36%,
-    #c9a45c4d 48%,
+    #bb892c4d 48%,
     transparent 62%,
-    #e0bf7a55 74%,
+    #d19d3d55 74%,
     transparent 90%
   );
 }
 .core-heart {
   background: radial-gradient(
     circle,
-    #e0bf7a 0,
-    #c9a45c 10%,
-    #e0bf7a 25%,
+    #d19d3d 0,
+    #bb892c 10%,
+    #d19d3d 25%,
     #856b9b45 50%,
     transparent 72%
   );
 }
 .core-network path {
-  stroke: #ebc97550;
+  stroke: #d19d3d50;
 }
 .core-network circle {
-  fill: #c9a45c;
+  fill: #bb892c;
 }
 .core-filaments path {
-  stroke: #c9a45c84;
+  stroke: #bb892c84;
 }
 .core-filaments path:nth-child(2) {
   stroke: #856b9b85;
 }
 .core-filaments .filament-signal {
-  stroke: #c9a45c;
+  stroke: #bb892c;
 }
 .cs-sigil,
 .cs-orbit,
@@ -431,15 +431,15 @@ body::before {
   position: relative;
   background: radial-gradient(
     circle,
-    #c9a45c1c,
+    #bb892c1c,
     #856b9b0b 50%,
     transparent 70%
   );
-  color: #c9a45c;
+  color: #bb892c;
   box-shadow:
-    inset 0 1px #c9a45c5c,
-    0 0 55px #e8c87818;
-  border-color: #f7cf696b;
+    inset 0 1px #bb892c5c,
+    0 0 55px #d19d3d18;
+  border-color: #d19d3d6b;
 }
 .cs-sigil::before,
 .cs-orbit::before,
@@ -449,7 +449,7 @@ body::before {
   inset: -8px;
   border-radius: 50%;
   border: 1px solid transparent;
-  border-top-color: #c9a45cb0;
+  border-top-color: #bb892cb0;
   border-right-color: #856b9b50;
   animation: optical-orbit 18s linear infinite;
   pointer-events: none;
@@ -572,7 +572,7 @@ html[data-ambient-motion='paused'] [data-material]::after {
   .mobile-dock {
     background: #0b0b0a;
     backdrop-filter: none;
-    border-color: #e0bf7a;
+    border-color: #d19d3d;
   }
   .living-atmosphere {
     display: none;
@@ -599,9 +599,9 @@ html[data-ambient-motion='paused'] [data-material]::after {
 
 .cs-empty {
   background:
-    radial-gradient(ellipse at 50% 32%, #c9a45c14, transparent 55%),
+    radial-gradient(ellipse at 50% 32%, #bb892c14, transparent 55%),
     radial-gradient(ellipse at 100% 100%, #856b9b0a, transparent 60%), #0b0b0a;
-  border-color: #c9a45c2c;
+  border-color: #bb892c2c;
 }
 .vd-is-thinking .core-fluid {
   animation-duration: 8s;

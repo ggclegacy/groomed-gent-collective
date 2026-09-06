@@ -1,7 +1,7 @@
 /* Product Studio extends the Collective's obsidian, amethyst and gold tokens. */
 .product-studio {
   --ps-amethyst: #1a1918;
-  --ps-gold: #d9bc78;
+  --ps-gold: #d19c3a;
   --ps-muted: #b8b2bd;
   font-size: 16px;
 }
@@ -80,7 +80,7 @@
 .ps-daily strong {
   display: block;
   font-family: Georgia, serif;
-  color: #eeeae1;
+  color: #d19d3d;
   font-size: 22px;
   line-height: 1.35;
   font-weight: 400;
@@ -109,9 +109,9 @@
   font-size: 14px;
 }
 .ps-destinations button[aria-pressed='true'] {
-  color: #eddaa7;
-  background: linear-gradient(120deg, #393140, #1e1d1b);
-  box-shadow: inset 0 1px 0 #e5da9f35;
+  color: #d19d3d;
+  background: linear-gradient(120deg, #28222d, #1e1d1b);
+  box-shadow: inset 0 1px 0 #d19d3d35;
 }
 .ps-context {
   display: flex;
@@ -133,7 +133,7 @@
   display: inline-block;
   width: 6px;
   height: 6px;
-  background: #d8b76a;
+  background: #ce9730;
   border-radius: 50%;
   margin-right: 6px;
 }
@@ -166,7 +166,7 @@
   margin: 14px 0 22px;
 }
 .ps-chips button {
-  border: 1px solid #4e4456;
+  border: 1px solid #372f3d;
   border-radius: 8px;
   padding: 8px 12px;
   font-size: 14px;
@@ -177,9 +177,9 @@
 }
 .ps-chips button[aria-pressed='true'],
 .ps-chips button:hover {
-  background: #32263b;
-  color: #f0d89c;
-  border-color: #b99d57;
+  background: #231a2a;
+  color: #d19d3d;
+  border-color: #ae7f29;
 }
 .ps-vault {
   display: grid;
@@ -194,7 +194,7 @@
   border: 1px solid #5a496888;
   border-radius: 17px;
   background:
-    radial-gradient(ellipse at 60% 35%, #42285766, transparent 65%),
+    radial-gradient(ellipse at 60% 35%, #2e1a3f66, transparent 65%),
     linear-gradient(140deg, #1b1a18, #090908 70%);
   box-shadow:
     inset 0 1px 0 #c8bcd12b,
@@ -206,12 +206,12 @@
 }
 .ps-product:hover {
   transform: translateY(-3px);
-  border-color: #bda668;
+  border-color: #bb892c;
 }
 .ps-product-top {
   display: flex;
   justify-content: space-between;
-  color: #d9bc78;
+  color: #d19c3a;
   font-size: 12px;
   letter-spacing: 2px;
 }
@@ -226,7 +226,7 @@
 .ps-product-mark span {
   font-family: Georgia, serif;
   font-size: 70px;
-  color: #d8c795;
+  color: #d19d3d;
   letter-spacing: -6px;
   text-shadow:
     0 5px 0 #0003,
@@ -246,7 +246,7 @@
   margin-bottom: 20px;
 }
 .ps-product-action {
-  color: #d9bc78;
+  color: #d19c3a;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -269,13 +269,13 @@
   width: 76px;
   height: 76px;
   margin-bottom: 28px;
-  border: 1px solid #bdad6d80;
+  border: 1px solid #bf8c2d80;
   border-radius: 50%;
   box-shadow:
     0 0 0 9px #957ea710,
-    0 0 45px #4e366233,
+    0 0 45px #37244633,
     inset 0 0 30px #755d8811;
-  color: #d8bf7e;
+  color: #d19d3d;
 }
 .ps-atlas h3 {
   font-family: Georgia, serif;
@@ -288,11 +288,11 @@
   display: grid;
   gap: 8px;
   padding: 15px 0;
-  border-block: 1px solid #50425b3f;
+  border-block: 1px solid #382d413f;
   font-size: 14px;
 }
 .ps-atlas-context small {
-  color: #d8bf7e;
+  color: #d19d3d;
   font-size: 12px;
 }
 .ps-prompts {
@@ -307,7 +307,7 @@
   font-size: 14px;
   text-align: left;
   padding: 9px 0;
-  border-bottom: 1px solid #50425b3f;
+  border-bottom: 1px solid #382d413f;
 }
 .ps-atlas .gold-button {
   width: 100%;
@@ -318,7 +318,7 @@
   gap: 8px;
   align-items: center;
   font-size: 12px;
-  color: #cfb678;
+  color: #cf9933;
   margin-top: 24px;
 }
 .ps-atlas-toggle {
@@ -338,12 +338,12 @@
   gap: 14px;
   padding: 22px;
   margin: 20px 0;
-  border: 1px solid #af985b44;
+  border: 1px solid #aa7d2844;
   border-radius: 12px;
   background: #a0822310;
 }
 .ps-pending svg {
-  color: #d8bf7e;
+  color: #d19d3d;
 }
 .ps-pending p {
   margin-bottom: 0;
@@ -358,7 +358,7 @@
 .ps-ingredient summary {
   cursor: pointer;
   min-height: 44px;
-  color: #dec687;
+  color: #d19d3d;
   font-size: 14px;
 }
 .ps-evidence p {
@@ -380,7 +380,7 @@
 .ps-stamp {
   font-size: 12px;
   line-height: 1.8;
-  color: #cfba7c;
+  color: #d09a36;
   text-align: right;
 }
 .ps-room-layout {
@@ -398,15 +398,15 @@
   padding: 9px 7px;
   font-size: 14px;
   color: #bbb4c1;
-  border-bottom: 1px solid #433b4966;
+  border-bottom: 1px solid #2f293466;
 }
 .ps-room-nav button span {
   font-size: 12px;
-  color: #b9a466;
+  color: #b8862b;
 }
 .ps-room-nav button[aria-pressed='true'] {
   background: #292825;
-  color: #f1d99f;
+  color: #d19d3d;
   border-radius: 5px;
 }
 .ps-room-body {
@@ -418,7 +418,7 @@
 }
 .ps-ingredient details {
   padding-top: 12px;
-  border-top: 1px solid #56456455;
+  border-top: 1px solid #3c2f4755;
 }
 .ps-result {
   margin-top: 22px;
@@ -429,17 +429,17 @@
   overflow-wrap: anywhere;
 }
 .ps-transcript {
-  border-bottom: 1px solid #57476466;
+  border-bottom: 1px solid #3d314766;
   padding: 10px 0;
 }
 .ps-transcript strong {
-  color: #d9bc78;
+  color: #d19c3a;
   display: block;
 }
 .product-studio blockquote {
   margin: 24px 0;
   padding: 0 0 0 18px;
-  border-left: 2px solid #d9bc78;
+  border-left: 2px solid #d19c3a;
   font-family: Georgia, serif;
   font-size: 24px;
   line-height: 1.5;
@@ -449,7 +449,7 @@
 }
 .ps-report-row {
   padding: 15px 0;
-  border-bottom: 1px solid #57476466;
+  border-bottom: 1px solid #3d314766;
 }
 .ps-table-wrap {
   overflow-x: auto;
@@ -463,10 +463,10 @@
 .product-studio td {
   text-align: left;
   padding: 16px 12px;
-  border-bottom: 1px solid #57476466;
+  border-bottom: 1px solid #3d314766;
 }
 .product-studio th {
-  color: #d9bc78;
+  color: #d19c3a;
   font-weight: 400;
 }
 .product-studio caption {
@@ -478,7 +478,7 @@
   padding: 18px 0;
   margin: 22px 0;
   border: 0;
-  border-bottom: 1px solid #56456455;
+  border-bottom: 1px solid #3c2f4755;
 }
 .ps-question legend {
   line-height: 1.6;
@@ -494,7 +494,7 @@
 .ps-question input {
   width: 18px;
   height: 18px;
-  accent-color: #d9bc78;
+  accent-color: #d19c3a;
   flex-shrink: 0;
 }
 .ps-progression {
@@ -504,11 +504,11 @@
 .ps-progression li {
   display: flex;
   gap: 22px;
-  border-bottom: 1px solid #56456455;
+  border-bottom: 1px solid #3c2f4755;
   padding: 20px 0;
 }
 .ps-progression li > span {
-  color: #d9bc78;
+  color: #d19c3a;
   font-family: Georgia, serif;
   font-size: 28px;
 }
@@ -551,10 +551,10 @@
   margin-top: 12px;
 }
 .ps-gold {
-  border-left-color: #d9bc78;
+  border-left-color: #d19c3a;
 }
 .ps-gold > span {
-  color: #d9bc78;
+  color: #d19c3a;
 }
 .ps-red {
   border-left-color: #db9690;
@@ -597,7 +597,7 @@
     gap: 12px;
     width: 100%;
     padding: 18px 24px;
-    color: #dec687;
+    color: #d19d3d;
   }
   .ps-atlas-toggle span {
     margin-left: auto;
