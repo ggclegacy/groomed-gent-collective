@@ -15,6 +15,13 @@
       "when": 1788652736700,
       "tag": "0001_gentleman_memory",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1788717267960,
+      "tag": "0002_smart_crystal",
+      "breakpoints": true
     }
   ]
 }

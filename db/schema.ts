@@ -69,3 +69,16 @@ export const gentlemanMemories = sqliteTable('gentleman_memories', {
   revision: integer('revision').notNull().default(0),
   document: text('document').notNull(), savedAt: text('saved_at').notNull(),
 }, table => [check('memory_positive_revision', sql`${table.revision} >= 0`)]);
+
+export const productLearning = sqliteTable(
+  'product_learning',
+  {
+    ownerId: text('owner_id')
+      .primaryKey()
+      .references(() => members.userId),
+    revision: integer('revision').notNull().default(0),
+    document: text('document').notNull(),
+    savedAt: text('saved_at').notNull(),
+  },
+  (table) => [check('learning_positive_revision', sql`${table.revision} >= 0`)],
+);

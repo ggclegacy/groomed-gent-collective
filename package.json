@@ -13,7 +13,7 @@
     "format": "oxfmt",
     "typecheck": "next typegen && tsc --noEmit",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
-    "lint:app": "oxlint app components/living-materials.tsx components/cassius-core.tsx components/dashboard components/command-dashboard.tsx components/collective.tsx components/workspaces.tsx components/studio-workspace.tsx components/product-studio.tsx lib tests components/member-access.tsx db components/gentleman-context.tsx components/gentleman-os.tsx components/voyage components/relationship-details.tsx components/life components/capture components/spatial-command.tsx proxy.ts",
+    "lint:app": "oxlint app components/living-materials.tsx components/cassius-core.tsx components/dashboard components/command-dashboard.tsx components/collective.tsx components/workspaces.tsx components/studio-workspace.tsx components/product-studio.tsx components/product-mastery.tsx lib tests components/member-access.tsx db components/gentleman-context.tsx components/gentleman-os.tsx components/voyage components/relationship-details.tsx components/life components/capture components/spatial-command.tsx proxy.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate:local": "wrangler d1 migrations apply DB --local --config wrangler.local.jsonc",
     "dev:sites": "vinext dev",

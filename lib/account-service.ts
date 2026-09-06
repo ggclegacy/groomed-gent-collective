@@ -1,6 +1,12 @@
 import type { AccountDatabase } from './account-database.ts';
 import { emptyMemory, parseMemory } from './gentleman/model.ts';
 import {
+  applyLearning,
+  emptyLearning,
+  parseCommand,
+  type LearningState,
+} from './product-mastery/model.ts';
+import {
   AccountError,
   canonicalLibrary,
   normalizeEmail,
@@ -176,6 +182,19 @@ export async function accountApi(
         ).results,
       });
     }
+    if (path === '/api/account/learning' && request.method === 'GET') {
+      active();
+      const row = await db
+        .prepare(
+          'SELECT revision, document FROM product_learning WHERE owner_id = ?',
+        )
+        .bind(user.id)
+        .first<{ revision: number; document: string }>();
+      return json({
+        revision: row?.revision ?? 0,
+        learning: row ? JSON.parse(row.document) : emptyLearning(),
+      });
+    }
     if (path === '/api/account/library' && request.method === 'GET') {
       active();
       const row = await db
@@ -210,6 +229,67 @@ export async function accountApi(
       if (!result) throw new AccountError(409,'Memory changed or access was withdrawn. Export your working copy and reload before saving again.');
       return json({revision:result.revision,memory});
     }
+
+    if (path === '/api/account/learning' && request.method === 'POST') {
+      active();
+      if (!Number.isInteger(data.revision) || Number(data.revision) < 0)
+        throw new AccountError(400, 'Invalid learning revision.');
+      let command;
+      try {
+        command = parseCommand(data.command);
+      } catch {
+        throw new AccountError(400, 'Invalid learning action.');
+      }
+      const row = await db
+        .prepare(
+          'SELECT revision, document FROM product_learning WHERE owner_id = ?',
+        )
+        .bind(user.id)
+        .first<{ revision: number; document: string }>();
+      const current: LearningState = row
+        ? JSON.parse(row.document)
+        : emptyLearning();
+      // A network retry is idempotent even when the caller still has the old revision.
+      if (
+        command.action === 'answer' &&
+        current.attempts.some((a) => a.id === command.id)
+      )
+        return json({ revision: row?.revision ?? 0, learning: current });
+      if ((row?.revision ?? 0) !== data.revision)
+        throw new AccountError(
+          409,
+          'Progress changed on another device. Reload your progress and try again.',
+        );
+      let next: LearningState;
+      try {
+        next = applyLearning(current, command, now);
+      } catch (error) {
+        throw new AccountError(
+          409,
+          error instanceof Error ? error.message : 'Reload this lesson.',
+        );
+      }
+      const result = row
+        ? await db
+            .prepare(
+              "UPDATE product_learning SET revision=revision+1, document=?, saved_at=? WHERE owner_id=? AND revision=? AND EXISTS (SELECT 1 FROM members WHERE user_id=? AND status='active')",
+            )
+            .bind(JSON.stringify(next), now, user.id, row.revision, user.id)
+            .run()
+        : await db
+            .prepare(
+              "INSERT INTO product_learning (owner_id,revision,document,saved_at) SELECT ?,1,?,? WHERE EXISTS (SELECT 1 FROM members WHERE user_id=? AND status='active') ON CONFLICT(owner_id) DO NOTHING",
+            )
+            .bind(user.id, JSON.stringify(next), now, user.id)
+            .run();
+      if (!result.meta.changes)
+        throw new AccountError(
+          409,
+          'Progress changed or membership is unavailable. Reload before trying again.',
+        );
+      return json({ revision: (row?.revision ?? 0) + 1, learning: next });
+    }
+
     if (path === '/api/account/invitations' && request.method === 'POST') {
       owner();
       const email = normalizeEmail(data.email);

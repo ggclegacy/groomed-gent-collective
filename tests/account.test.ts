@@ -445,3 +445,92 @@ void test('private memory is isolated, revision protected, clearable and denied 
     f.sql.close();
   }
 });
+
+void test('learning is account-owned, server-graded, revision-checked and idempotent', async () => {
+  const { catalogCards } = await import('../lib/product-mastery/model.ts');
+  const f = fixture();
+  await f.join('learner-a', 'a@example.test');
+  await f.join('learner-b', 'b@example.test');
+  const card = catalogCards()[0];
+  const action = {
+    action: 'answer',
+    id: 'learning-answer-0001',
+    cardId: card.id,
+    version: card.version,
+    answer: 'not the answer',
+    confidence: 3,
+    mode: 'recall',
+    correct: true,
+  };
+  const saved = await f.call(
+    '/learning',
+    'POST',
+    { revision: 0, command: action },
+    'learner-a',
+    'a@example.test',
+  );
+  assert.equal(saved.status, 200);
+  const data = (await saved.json()) as {
+    revision: number;
+    learning: { attempts: { correct: boolean }[] };
+  };
+  assert.equal(data.learning.attempts[0].correct, false);
+  assert.equal(data.revision, 1);
+  const b = (await (
+    await f.call('/learning', 'GET', undefined, 'learner-b', 'b@example.test')
+  ).json()) as typeof data;
+  assert.equal(b.learning.attempts.length, 0);
+  const retry = await f.call(
+    '/learning',
+    'POST',
+    { revision: 0, command: action },
+    'learner-a',
+    'a@example.test',
+  );
+  assert.equal(retry.status, 200);
+  assert.equal(
+    ((await retry.json()) as typeof data).learning.attempts.length,
+    1,
+  );
+  assert.equal(
+    (
+      await f.call(
+        '/learning',
+        'POST',
+        { revision: 0, command: { action: 'goal', goal: 5 } },
+        'learner-a',
+        'a@example.test',
+      )
+    ).status,
+    409,
+  );
+  assert.equal(
+    (
+      await f.call(
+        '/learning',
+        'POST',
+        {
+          revision: 1,
+          command: { ...action, id: 'learning-answer-0002', version: 'old' },
+        },
+        'learner-a',
+        'a@example.test',
+      )
+    ).status,
+    409,
+  );
+  assert.equal(
+    (
+      await f.call(
+        '/learning',
+        'POST',
+        { revision: 1, command: { action: 'goal', goal: 5 } },
+        'learner-a',
+        'a@example.test',
+        'https://evil.test',
+      )
+    ).status,
+    403,
+  );
+  assert.equal((await f.call('/learning', 'GET', undefined, null)).status, 401);
+});

@@ -1,4 +1,5 @@
 'use client';
+import { resolveProductHandoff } from '@/lib/product-mastery/handoff';
 import {
   useCallback,
   useEffect,
@@ -94,9 +95,22 @@ export function StudioWorkspace({
   );
   return hydrated ? (
     <>
-      <CreativeStudio key={account?.userId ?? 'device'} scope={account?.userId ?? 'device'} />
-      <details className="cs-legacy"><summary>Text drafts &amp; publishing review</summary>
-        <StudioEditor key={account?.userId ?? 'device'} active={active} account={account} />
+      <CreativeStudio
+        key={account?.userId ?? 'device'}
+        scope={account?.userId ?? 'device'}
+      />
+      <details
+        className="cs-legacy"
+        open={Boolean(
+          new URLSearchParams(window.location.search).get('productBrief'),
+        )}
+      >
+        <summary>Text drafts &amp; publishing review</summary>
+        <StudioEditor
+          key={account?.userId ?? 'device'}
+          active={active}
+          account={account}
+        />
       </details>
     </>
   ) : (
@@ -158,6 +172,13 @@ function StudioEditor({
           raw: null,
         }
       : loadDevice(),
+  );
+  const [productHandoff] = useState(() =>
+    resolveProductHandoff(
+      window.location.search,
+      crypto.randomUUID(),
+      new Date().toISOString(),
+    ),
   );
   const revision = useRef(account?.revision ?? 0);
   const saving = useRef(false);
@@ -378,6 +399,23 @@ function StudioEditor({
   return (
     <div className="creator-workspace">
       <p className="lede">Make something that sounds like you.</p>
+      {productHandoff && (
+        <div className="studio-note">
+          <div>
+            <strong>A product brief is ready.</strong>
+            <p>
+              Open the current Product Brain brief in your editor. Your existing
+              draft is protected by the usual unsaved-work check.
+            </p>
+            <button
+              className="outline-button"
+              onClick={() => replace(productHandoff)}
+            >
+              Open product brief <ArrowRight size={16} />
+            </button>
+          </div>
+        </div>
+      )}
       <div className="studio-note">
         <Sparkles size={19} />
         <p>

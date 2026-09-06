@@ -98,6 +98,13 @@ void test('production SQL migrates and supports invitations, membership, isolate
       const { token } = (await invite.json()) as { token: string };
       assert.equal((await call('/accept', 'POST', { token }, id)).status, 200);
     }
+    const learning = await call('/learning', 'POST', { revision: 0, command: { action: 'goal', goal: 5 } }, 'alice');
+    assert.equal(learning.status, 200, JSON.stringify(await learning.clone().json()));
+    assert.equal(((await learning.json()) as { revision: number }).revision, 1);
+    assert.equal((await call('/learning', 'POST', { revision: 0, command: { action: 'goal', goal: 3 } }, 'alice')).status, 409);
+    const bobLearning = await call('/learning', 'GET', undefined, 'bob');
+    assert.equal(((await bobLearning.json()) as { revision: number }).revision, 0);
+    assert.equal((await call('/learning', 'GET', undefined, null)).status, 401);
     const m = emptyMemory();
     m.profile.name = 'Only Alice';
     const saved = await call(
