@@ -18,10 +18,10 @@
   --glass-edge: #c9a45c3d;
   --gold-metal: linear-gradient(118deg, #b18b43 0%, #d1af68 24%, #ead39d 46%, #c6a059 67%, #b18b43 100%);
   --glass: linear-gradient(135deg, #232018eb, #0b0b0af5);
-  --glass-signature: radial-gradient(ellipse at 12% 0%, #c9a45c24, transparent 65%), linear-gradient(130deg, #252015, #0c0c0a);
+  --glass-signature: radial-gradient(ellipse at 12% 0%, #49795b45, transparent 65%), linear-gradient(130deg, #214c37, #102b20);
   --brand-purple-quiet: var(--glass);
   --brand-purple-panel: var(--glass-signature);
-  --brand-gold-panel: radial-gradient(ellipse at 15% 0%, #e7ce9445, transparent 62%), linear-gradient(125deg, #59462a, #292217 48%, #11100d);
+  --brand-gold-panel: linear-gradient(125deg, #766039, #564426 48%, #392d1b);
   --brand-bevel: inset 0 1px #f7e3b627, inset 0 -1px #0008, 0 18px 40px #0005;
   --forest: #173b2b;
   --forest-light: #789c86;
@@ -56,7 +56,7 @@ body::before {
 .ambient-platinum {
   background: radial-gradient(
     ellipse,
-    #256d4e14,
+    #256d4e38,
     #26252225 40%,
     transparent 68%
   );
@@ -502,7 +502,7 @@ main {
   inset: 40px;
 }
 .world-circle {
-  background: linear-gradient(135deg, #1c1b19, #141311 55%, #0b0b0a);
+  background: linear-gradient(135deg, #28563e, #173c2b 55%, #10281e);
 }
 .world-nodes {
   position: absolute;
@@ -540,7 +540,7 @@ main {
   height: 18px;
 }
 .world-life {
-  background: linear-gradient(125deg, #2b2c1e, #191e14 40%, #0d0d0c);
+  background: var(--gold-metal);
 }
 .world-monolith {
   position: absolute;
@@ -707,6 +707,30 @@ main {
   outline: 2px solid #ead7a0;
   outline-offset: 4px;
 }
+/* 40/40/20 visual allocation: obsidian frame, two gold destination planes,
+   one forest plane; green signature panels carry the tertiary color throughout. */
+.spatial-card:not(.world-circle) {
+  background: var(--gold-metal);
+  border-color: #ead39d;
+  color: #17160f;
+}
+.spatial-card:not(.world-circle) :is(.spatial-card-head, .spatial-card-body small,
+.spatial-card-body strong, .spatial-card-body > span, .spatial-card-foot) {
+  color: #17160f;
+}
+.spatial-card:not(.world-circle) .spatial-card-foot { border-color: #30271955; }
+.spatial-card:not(.world-circle) .world-contours i { border-color: #514023; }
+.spatial-card:not(.world-circle)::before {
+  background: linear-gradient(transparent, #fff3d94a, transparent);
+}
+.gent-invoke {
+  background: linear-gradient(135deg, #28543b, #132f22);
+  border-color: #c9a45c88;
+}
+.life-pulse, .life-preparation, .desk-focus {
+  background: var(--glass-signature);
+  border-color: #c9a45c65;
+}
 @media (min-width: 900px) {
   main {
     padding-left: 36px;
@@ -857,6 +881,14 @@ main {
   }
 }
 @media (forced-colors: active) {
+  .spatial-card:not(.world-circle),
+  .spatial-card:not(.world-circle) :is(.spatial-card-head, .spatial-card-body small,
+  .spatial-card-body strong, .spatial-card-body > span, .spatial-card-foot) {
+    color: CanvasText;
+    background: Canvas;
+    border-color: CanvasText;
+  }
+
   .instrument-stage,
   .world-contours,
   .world-nodes,

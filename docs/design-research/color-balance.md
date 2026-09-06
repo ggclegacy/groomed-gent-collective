@@ -1,5 +1,5 @@
-# Gold-forward material balance
+# 40 / 40 / 20 composition
 
-Obsidian is the dominant field. Gold is the primary material accent: atmospheric illumination, card edges, signature panels, membership and financial cards, and the Cassius instrument. Forest green remains tertiary in restrained ambient light, sculptural accents and chart comparisons.
+Visual target: 40% obsidian, 40% gold, 20% forest green. This is a composition guide, not a pixel-count claim across responsive screens.
 
-Neutralized dark green surface literals across the shared, Product Studio, Creator Studio, Voyage and personal workspace styles. Preserved green signal colors and the existing motion, focus, contrast fallback and reduced-motion rules. No behavioral or data changes.
+Obsidian owns the surrounding frame and reading surfaces. Two Command destination cards use full metallic gold with dark text, and membership/financial/product surfaces use richer gold planes. Circle is a visible forest card. Cassius, studio signature panels, Life readiness and Desk focus restore substantial forest surfaces. Reduced-motion and forced-color overrides remain intact.
