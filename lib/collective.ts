@@ -1,6 +1,7 @@
 import { askCassius } from './cassius/client.ts';
 export const sections = [
   'home',
+  'collective', 'voyage', 'circle', 'life', 'desk', 'vault', 'logbook', 'profile',
   'identity',
   'performance',
   'intelligence',

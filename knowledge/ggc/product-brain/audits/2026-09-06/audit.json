@@ -1,0 +1,220 @@
+{
+  "retrievedDate": "2026-09-06",
+  "collectionUrl": "https://groomedgentco.com/collections/legacy-sanctum",
+  "membershipCount": 11,
+  "paginationComplete": true,
+  "products": [
+    {
+      "productId": "ggc-hydration-powder-peach-mango",
+      "handle": "hydration-powder-peach-mango",
+      "exactName": "HYDROS— Advanced Hydration Powder (Peach Mango)",
+      "url": "https://groomedgentco.com/products/hydration-powder-peach-mango",
+      "retrievedAt": "2026-09-06T13:22:24.270512+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 13,
+      "ingredientRecords": 17,
+      "issues": [
+        "Page Other Ingredients says Beet Juice Powder; Supplement Facts image says Beta Carotene; stored product description says Fruit & Vegetable Blend. Do not select a color ingredient without confirmation.",
+        "Page B6 is Pyridoxine HCl; stored description says Pyridoxal 5 Phosphate. Pantothenic acid is present in the page panel but omitted from the stored ingredients list.",
+        "Hero image is shared with Golden Lychee and depicts Golden Lychee, despite this being Peach Mango."
+      ],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied."
+      ]
+    },
+    {
+      "productId": "ggc-hydration-powder-lychee",
+      "handle": "hydration-powder-lychee",
+      "exactName": "Hydros — Advanced Hydration Powder (Golden Lychee)",
+      "url": "https://groomedgentco.com/products/hydration-powder-lychee",
+      "retrievedAt": "2026-09-06T13:22:24.118639+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 13,
+      "ingredientRecords": 17,
+      "issues": [
+        "Page Other Ingredients says Beet Juice Powder; stored description says Fruit & Vegetable Blend.",
+        "Page B6 is Pyridoxine HCl; stored description says Pyridoxal 5 Phosphate. Pantothenic acid is present in the page panel but omitted from the stored ingredients list."
+      ],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied."
+      ]
+    },
+    {
+      "productId": "ggc-hydration-powder-passion-fruit",
+      "handle": "hydration-powder-passion-fruit",
+      "exactName": "HYDROS— Advanced Hydration Powder (Passion Fruit)",
+      "url": "https://groomedgentco.com/products/hydration-powder-passion-fruit",
+      "retrievedAt": "2026-09-06T13:22:24.202436+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 13,
+      "ingredientRecords": 17,
+      "issues": [
+        "Page Other Ingredients says Beet Juice Powder; stored description says Fruit & Vegetable Blend.",
+        "Page B6 is Pyridoxine HCl; stored description says Pyridoxal 5 Phosphate. Pantothenic acid is present in the page panel but omitted from the stored ingredients list.",
+        "Hero image depicts Golden Lychee. The label image lists Beta Carotene, while the HTML table lists Beet Juice Powder."
+      ],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied."
+      ]
+    },
+    {
+      "productId": "ggc-nmn",
+      "handle": "nmn",
+      "exactName": "Vitalis NMN — Cellular Energy Formula",
+      "url": "https://groomedgentco.com/products/nmn",
+      "retrievedAt": "2026-09-06T13:22:24.698574+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 1,
+      "ingredientRecords": 5,
+      "issues": [],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied."
+      ]
+    },
+    {
+      "productId": "ggc-gut-health",
+      "handle": "gut-health",
+      "exactName": "GENESIS — Gut Health & Microbiome Formula",
+      "url": "https://groomedgentco.com/products/gut-health",
+      "retrievedAt": "2026-09-06T13:22:23.771082+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 4,
+      "ingredientRecords": 9,
+      "issues": [
+        "Stored description suggests 1–2 servings daily; page protocol and Suggested use specify 2 capsules daily. Confirm maximum daily use.",
+        "Stored net weight is 76 g but gross weight is 73 g. Confirm packaging weights.",
+        "Probiotic potency is 1 Billion CFU at manufacture, not a shelf-life guarantee. DigeZyme enzyme composition/activity units and shelf-life CFU are not disclosed."
+      ],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied."
+      ]
+    },
+    {
+      "productId": "ggc-magnesium-glycinate",
+      "handle": "magnesium-glycinate",
+      "exactName": "RESTORIA — Magnesium Glycinate",
+      "url": "https://groomedgentco.com/products/magnesium-glycinate",
+      "retrievedAt": "2026-09-06T13:22:24.494916+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 1,
+      "ingredientRecords": 5,
+      "issues": [
+        "Page and label: 275 mg magnesium from 2,500 mg magnesium glycinate per 3 capsules. Stored description says each capsule provides those amounts. Do not calculate a per-capsule or daily dose from the conflicting copy."
+      ],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied."
+      ]
+    },
+    {
+      "productId": "ggc-sleep-support",
+      "handle": "sleep-support",
+      "exactName": "NOCTURNE — Sleep Support Formula",
+      "url": "https://groomedgentco.com/products/sleep-support",
+      "retrievedAt": "2026-09-06T13:22:24.971042+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 5,
+      "ingredientRecords": 22,
+      "issues": [
+        "905 mg is the total proprietary blend. Individual amounts for its 14 members are not disclosed and must stay unknown.",
+        "Collection timing is 30–60 minutes before bed; stored Suggested use is 20–30 minutes. Preserve both and confirm current directions."
+      ],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied.",
+        "Individual amounts for all 14 proprietary-blend members."
+      ]
+    },
+    {
+      "productId": "ggc-ashwagandha-plus",
+      "handle": "ashwagandha-plus",
+      "exactName": "SOLARIS — Male Vitality Formula",
+      "url": "https://groomedgentco.com/products/ashwagandha-plus",
+      "retrievedAt": "2026-09-06T13:22:23.327369+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 8,
+      "ingredientRecords": 9,
+      "issues": [
+        "Botanical/amino-acid rows omit DV symbols although the panel includes a Daily Value not established footnote. Preserve this presentation; no numeric DV inferred."
+      ],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied."
+      ]
+    },
+    {
+      "productId": "ggc-focus-powder-sour-candy",
+      "handle": "focus-powder-sour-candy",
+      "exactName": "ASCEND — Cognitive Performance Formula(Sour Candy)",
+      "url": "https://groomedgentco.com/products/focus-powder-sour-candy",
+      "retrievedAt": "2026-09-06T13:22:23.821532+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 16,
+      "ingredientRecords": 20,
+      "issues": [
+        "Panel says 20 servings of 8 g, while stored net amount is 150 g. The implied 160 g is an audit calculation, not a replacement net weight. Confirm fill weight/servings.",
+        "Inactive ingredients appear in the stored product description, but are omitted from the page Supplement Facts panel and label image."
+      ],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied."
+      ]
+    },
+    {
+      "productId": "ggc-nad",
+      "handle": "nad",
+      "exactName": "NAD+",
+      "url": "https://groomedgentco.com/products/nad",
+      "retrievedAt": "2026-09-06T13:22:24.623210+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 3,
+      "ingredientRecords": 9,
+      "issues": [
+        "Catalog title is NAD+ while page hero and bottle say NEXUS. Preserve both; confirm preferred official name.",
+        "HTML and stored description: Japanese Knotweed Extract standardized to 98% resveratrol; label image: 96% resveratrol. Do not infer milligrams of pure resveratrol."
+      ],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied."
+      ]
+    },
+    {
+      "productId": "ggc-creatine-hydration-powder",
+      "handle": "creatine-hydration-powder",
+      "exactName": "FORTIUS AQUA\nCreatine + Electrolyte Performance Formula",
+      "url": "https://groomedgentco.com/products/creatine-hydration-powder",
+      "retrievedAt": "2026-09-06T13:22:23.354038+00:00",
+      "fullPageCaptured": true,
+      "supplementFactsCaptured": true,
+      "labelRows": 5,
+      "ingredientRecords": 7,
+      "issues": [
+        "Page hero price is $52.99; collection and public product data say $49.99. Confirm sellable price.",
+        "Daily Values are not shown in the available Supplement Facts table. Do not calculate them."
+      ],
+      "unknowns": [
+        "Formula revision, individual inactive ingredient amounts and suppliers are not supplied.",
+        "Percent Daily Values not shown."
+      ]
+    }
+  ],
+  "brokenLinks": [
+    {
+      "url": "https://groomedgentco.com/products/hydration-powder-lemonade",
+      "status": 404,
+      "formula": null,
+      "note": "Linked by collection and all Hydros flavor selectors, absent from membership feed; do not copy another flavor formula."
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://groomedgentco.com/products/barbers-blend-grooming-oil",
+      "reason": "Global footer/search link, not a Legacy Sanctum collection member; handled by separate Product Brain intake."
+    }
+  ]
+}

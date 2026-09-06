@@ -1,7 +1,7 @@
 /* Optical material layer shared by every Collective workspace.
    Rich metallic gold with deep amethyst reflections; preserve the optical depth and motion. */
 body::before {
-  background: radial-gradient(ellipse at 65% 0%, #2a0f4a0a, transparent 60%);
+  background: radial-gradient(ellipse at 65% 0%, #6c3fc70a, transparent 60%);
 }
 .living-atmosphere {
   position: fixed;
@@ -34,8 +34,8 @@ body::before {
   right: -40vw;
   background: radial-gradient(
     ellipse,
-    #2a0f4a16,
-    #2a0f4a06 45%,
+    #6c3fc716,
+    #6c3fc706 45%,
     transparent 65%
   );
   animation: ambient-drift 30s ease-in-out -12s infinite alternate-reverse;
@@ -50,7 +50,7 @@ body::before {
     90deg,
     transparent,
     #c4912f2b,
-    #2a0f4a18,
+    #6c3fc718,
     transparent
   );
   transform: rotate(-24deg);
@@ -113,11 +113,11 @@ body::before {
   isolation: isolate;
   border-color: #d9b66b30;
   background:
-    linear-gradient(135deg, #ffffff0b, transparent 36%, #2a0f4a05 100%), #0b0e13;
+    linear-gradient(135deg, #ffffff0b, transparent 36%, #6c3fc705 100%), #0b0e13;
   box-shadow:
     0 20px 50px #0008,
     inset 0 1px #c4912f2d,
-    inset 0 -1px #2a0f4a14;
+    inset 0 -1px #6c3fc714;
 }
 [data-material]::after {
   content: '';
@@ -131,7 +131,7 @@ body::before {
     transparent 10%,
     #c4912f03 27%,
     #c4912f11 44%,
-    #2a0f4a08 47%,
+    #6c3fc708 47%,
     transparent 65%
   );
   transform: translateX(var(--reflection-x, 0%));
@@ -153,7 +153,7 @@ body::before {
 .intelligence-stage {
   background:
     radial-gradient(ellipse at 0 0, #f4ce6c17, transparent 46%),
-    radial-gradient(ellipse at 100% 80%, #2a0f4a0b, transparent 50%), #080b10;
+    radial-gradient(ellipse at 100% 80%, #6c3fc70b, transparent 50%), #080b10;
   border-color: #f2cc6e65;
   box-shadow:
     inset 0 1px #c4912fa6,
@@ -256,7 +256,7 @@ body::before {
 .vd-command-icon,
 .vd-pulse-icon,
 .ps-product-mark {
-  background: linear-gradient(140deg, #c4912f28, #17121f 55%, #2a0f4a12);
+  background: linear-gradient(140deg, #c4912f28, #17121f 55%, #6c3fc712);
   color: #c4912f;
   border-color: #c4912f65;
   box-shadow:
@@ -304,7 +304,7 @@ body::before {
 }
 /* Floating navigation picks up highlights from the luminous environment. */
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff0c, #0c0910ed 50%, #2a0f4a0a);
+  background: linear-gradient(125deg, #ffffff0c, #0c0910ed 50%, #6c3fc70a);
   border-color: #d9b66b46;
   box-shadow:
     inset 0 1px #c4912f65,
@@ -321,7 +321,7 @@ body::before {
     0 0 20px #c4912f0c;
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #c4912f16, #0e0914f2 45%, #2a0f4a0d);
+  background: linear-gradient(120deg, #c4912f16, #0e0914f2 45%, #6c3fc70d);
   border-color: #c4912f6b;
   box-shadow:
     inset 0 1px #c4912f80,
@@ -372,7 +372,7 @@ body::before {
   background: radial-gradient(
     circle,
     #d9b66b26,
-    #2a0f4a12 45%,
+    #6c3fc712 45%,
     transparent 70%
   );
 }
@@ -383,8 +383,8 @@ body::before {
     #c4912f36 19%,
     #c4912f80 24%,
     transparent 34%,
-    #2a0f4a20 57%,
-    #2a0f4a55 66%,
+    #6c3fc720 57%,
+    #6c3fc755 66%,
     transparent 77%
   );
 }
@@ -392,7 +392,7 @@ body::before {
   background: conic-gradient(
     from 160deg,
     transparent 12%,
-    #2a0f4a60 26%,
+    #6c3fc760 26%,
     transparent 36%,
     #c4912f4d 48%,
     transparent 62%,
@@ -406,7 +406,7 @@ body::before {
     #d9b66b 0,
     #c4912f 10%,
     #d9b66b 25%,
-    #2a0f4a45 50%,
+    #6c3fc745 50%,
     transparent 72%
   );
 }
@@ -420,7 +420,7 @@ body::before {
   stroke: #c4912f84;
 }
 .core-filaments path:nth-child(2) {
-  stroke: #b9b3bf85;
+  stroke: #6c3fc785;
 }
 .core-filaments .filament-signal {
   stroke: #c4912f;
@@ -432,7 +432,7 @@ body::before {
   background: radial-gradient(
     circle,
     #c4912f1c,
-    #2a0f4a0b 50%,
+    #6c3fc70b 50%,
     transparent 70%
   );
   color: #c4912f;
@@ -450,7 +450,7 @@ body::before {
   border-radius: 50%;
   border: 1px solid transparent;
   border-top-color: #c4912fb0;
-  border-right-color: #2a0f4a50;
+  border-right-color: #6c3fc750;
   animation: optical-orbit 18s linear infinite;
   pointer-events: none;
 }
@@ -600,7 +600,7 @@ html[data-ambient-motion='paused'] [data-material]::after {
 .cs-empty {
   background:
     radial-gradient(ellipse at 50% 32%, #c4912f14, transparent 55%),
-    radial-gradient(ellipse at 100% 100%, #2a0f4a0a, transparent 60%), #0b0810;
+    radial-gradient(ellipse at 100% 100%, #6c3fc70a, transparent 60%), #0b0810;
   border-color: #c4912f2c;
 }
 .vd-is-thinking .core-fluid {

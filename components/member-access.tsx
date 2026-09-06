@@ -108,7 +108,7 @@ export function MemberAccess({ studio = false }: { studio?: boolean }) {
               <>
                 <span>{state.email}</span>
                 <a
-                  href="/signout-with-chatgpt?return_to=/membership"
+                  href={state.signOutPath ?? '/signout-with-chatgpt?return_to=/membership'}
                   target="_top"
                 >
                   Sign out
@@ -161,12 +161,12 @@ export function MemberAccess({ studio = false }: { studio?: boolean }) {
               ) : !state.signedIn ? (
                 <a
                   className="gold-button"
-                  href="/signin-with-chatgpt?return_to=/membership"
+                  href={state.signInPath ?? '/signin-with-chatgpt?return_to=/membership'}
                   target="_top"
                 >
                   {state.local
                     ? 'Sign in for local development'
-                    : 'Sign in with ChatGPT'}{' '}
+                    : state.signInPath ? 'Sign in to your account' : 'Sign in with ChatGPT'}{' '}
                   <ArrowRight size={16} />
                 </a>
               ) : state.member ? (

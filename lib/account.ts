@@ -11,6 +11,8 @@ export interface Member {
   joined_at: string;
 }
 export interface AccountAccess {
+  signInPath?: string;
+  signOutPath?: string;
   configured: boolean;
   local: boolean;
   signedIn: boolean;

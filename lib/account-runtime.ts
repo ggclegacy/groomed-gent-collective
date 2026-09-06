@@ -1,8 +1,10 @@
 import { accountApi } from './account-service.ts';
-
-// Next.js/Vercel has no Sites dispatcher or D1 binding. Keep account services
-// unavailable until a verified identity provider and durable database are wired.
-// Never trust the Sites identity headers on a directly accessible Node server.
-export function handleAccount(request: Request) {
-  return accountApi(request, undefined, {});
+export async function handleAccount(request: Request) {
+  if (process.env.GGC_ACCOUNT_PROVIDER !== 'clerk-neon' || !process.env.DATABASE_URL || !process.env.CLERK_SECRET_KEY || !process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY) return accountApi(request, undefined, {});
+  try {
+    const { handleVercelAccount } = await import('./account-runtime.vercel.ts');
+    return await handleVercelAccount(request);
+  } catch {
+    return Response.json({ error: 'Private member services are temporarily unavailable.' }, { status: 503, headers: { 'Cache-Control': 'private, no-store', 'X-Content-Type-Options': 'nosniff' } });
+  }
 }

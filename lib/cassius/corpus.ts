@@ -1,4 +1,5 @@
 // Generated import index. Edit knowledge/ggc records, not this file.
+import { mergeProductCorpus } from '../product-brain/runtime.ts';
 import type { Corpus } from './types.ts';
 import products0 from '../../knowledge/ggc/products/ashwagandha-plus.json' with { type: 'json' };
 import products1 from '../../knowledge/ggc/products/barbers-blend-grooming-oil.json' with { type: 'json' };
@@ -32,4 +33,44 @@ import topics10 from '../../knowledge/ggc/topics/wellness.json' with { type: 'js
 import topics11 from '../../knowledge/ggc/topics/wholesale.json' with { type: 'json' };
 import sources from '../../knowledge/ggc/sources/registry.json' with { type: 'json' };
 import issues from '../../knowledge/ggc/issues/open.json' with { type: 'json' };
-export const corpus = { version: '2026-09-05.1', reviewedAt: '2026-09-05', products: [products0,products1,products2,products3,products4,products5,products6,products7,products8,products9,products10,products11,products12,products13,products14,products15,products16,products17], topics: [topics0,topics1,topics2,topics3,topics4,topics5,topics6,topics7,topics8,topics9,topics10,topics11], sources, issues } as Corpus;
+const legacyCorpus = {
+  version: '2026-09-05.1',
+  reviewedAt: '2026-09-05',
+  products: [
+    products0,
+    products1,
+    products2,
+    products3,
+    products4,
+    products5,
+    products6,
+    products7,
+    products8,
+    products9,
+    products10,
+    products11,
+    products12,
+    products13,
+    products14,
+    products15,
+    products16,
+    products17,
+  ],
+  topics: [
+    topics0,
+    topics1,
+    topics2,
+    topics3,
+    topics4,
+    topics5,
+    topics6,
+    topics7,
+    topics8,
+    topics9,
+    topics10,
+    topics11,
+  ],
+  sources,
+  issues,
+} as Corpus;
+export const corpus = mergeProductCorpus(legacyCorpus);

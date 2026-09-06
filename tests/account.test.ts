@@ -382,3 +382,66 @@ void test('suspension blocks reads/writes and invitation replay cannot restore a
     f.sql.close();
   }
 });
+
+void test('private memory is isolated, revision protected, clearable and denied after suspension', async () => {
+  const { emptyMemory } = await import('../lib/gentleman/model.ts');
+  const f = fixture();
+  try {
+    await f.join('alice-memory', 'alice-memory@example.test');
+    await f.join('bob-memory', 'bob-memory@example.test');
+    const call = (method = 'GET', data?: unknown) =>
+      f.call(
+        '/memory',
+        method,
+        data,
+        'alice-memory',
+        'alice-memory@example.test',
+      );
+    assert.equal((await call()).status, 200);
+    const memory = emptyMemory();
+    memory.records.push({
+      id: 'ritual-account',
+      kind: 'ritual',
+      title: 'My morning',
+      detail: '',
+      date: '2026-09-05',
+      endDate: '',
+      mode: 'leisure',
+      completed: false,
+      shareWithCassius: false,
+      createdAt: '2026-09-05T12:00:00.000Z',
+      ritual: {
+        cadenceDays: 1,
+        timeOfDay: 'morning',
+        steps: [{ id: 'step-account', text: 'My own grooming step' }],
+        completions: ['2026-09-05'],
+      },
+    });
+    const saved = await call('PUT', { revision: 0, memory });
+    assert.equal(saved.status, 200);
+    assert.equal(((await saved.json()) as { revision: number }).revision, 1);
+    const loaded = (await (await call()).json()) as { memory: typeof memory };
+    assert.deepEqual(loaded.memory, memory);
+    assert.equal((await call('PUT', { revision: 0, memory })).status, 409);
+    const bob = await f.call(
+      '/memory',
+      'GET',
+      undefined,
+      'bob-memory',
+      'bob-memory@example.test',
+    );
+    assert.equal(((await bob.json()) as { revision: number }).revision, 0);
+    assert.equal(
+      (await call('PUT', { revision: 1, memory: emptyMemory() })).status,
+      200,
+    );
+    await f.call('/members/status', 'POST', {
+      id: 'alice-memory',
+      status: 'suspended',
+    });
+    assert.equal((await call()).status, 403);
+    assert.equal((await call('PUT', { revision: 2, memory })).status, 403);
+  } finally {
+    f.sql.close();
+  }
+});

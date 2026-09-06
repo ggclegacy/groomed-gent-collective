@@ -95,9 +95,11 @@ void test('retrieval cites verified evidence but does not fabricate a provider r
 void test('revoked, absent and planning-brief evidence fail closed', () => {
   for (const mutation of ['retired', 'missing', 'brief', 'unverified']) {
     const db = fixture();
-    if (mutation === 'retired') db.sources[1].status = 'retired';
+    if (mutation === 'retired')
+      db.sources.find((s) => s.id === 'spec')!.status = 'retired';
     if (mutation === 'missing') db.sources.pop();
-    if (mutation === 'brief') db.sources[1].kind = 'brief';
+    if (mutation === 'brief')
+      db.sources.find((s) => s.id === 'spec')!.kind = 'brief';
     if (mutation === 'unverified') db.products[0].lastVerifiedAt = null;
     assert.deepEqual(approvedFacts(db.products[0], db), []);
   }

@@ -1,0 +1,51 @@
+# Voyage — Cassius in the physical world
+
+Authoritative app: `gentleman-os-work/app`. Voyage is a daily location-intelligence mode, at home and away. It is not the primary trip-planning screen. Open `/voyage` or the existing Voyage navigation entry (`#voyage`). Existing Collective, account, Cassius, Studio, Circle, Life, Desk, Vault and Logbook behavior remains. The former Voyage workspace is preserved in `components/voyage/journeys.tsx`, accessible through **Journeys** with its existing memory, packing, itinerary, calendar export and AI-plan workflow.
+
+## Current implementation
+
+- Full-screen obsidian/forest/gold world with floating navigation, a prompt-led Cassius command, scrollable discovery filters, three destination cards, detail/why/photos affordances, session saves/dismissals, sharing and external navigation for real places. Narrow screens use horizontally scrolling cards. Keyboard focus, Escape-to-close, native controls, status announcements and reduced camera/CSS motion are supported.
+- Geolocation uses a deliberate permission request. A previously granted permission is reused on entry and window focus; no background tracking. Denied/unavailable location leaves the selected area usable. Four explicit city presets work offline. Known nearby city areas have an offline label; other coordinates remain visibly unlabelled until the authenticated reverse lookup supplies a city. Unknown time zones use the device setting and are disclosed. City/time-zone lookup beyond those defaults is a future provider enhancement.
+- Home is set explicitly and stored as part of device-local taste. Within 60 km is Home Territory; farther away is Away with a welcome state. A selected area is distinguished from a detected device location. The same map, taste and filters continue across both contexts.
+- Mapbox GL JS 3.29.0 is conditionally loaded from Mapbox's official CDN when `NEXT_PUBLIC_MAPBOX_TOKEN` exists. Standard style supplies supported 3D buildings, lighting and landmarks; terrain uses Mapbox DEM. Camera fly-to, an area-center marker and numbered gold/glass destination markers are implemented. Only real provider destinations are placed on the geographical map. No invented city buildings or fictional map pins. No key, blocked CDN, unsupported WebGL, timeouts and map failures leave the atmospheric fallback and list usable. Mapbox attribution remains visible.
+- `/api/voyage/discover` validates and bounds requests, checks same origin, reuses existing member authorization and the Cassius limiter, and calls Mapbox Search Box server-side. Forward search receives a normalized category and search coordinates, not the user's home/profile or raw prompt. It returns real provider names, categories, addresses and coordinates, then ranks up to three candidates within 35 km. `/api/voyage/area` performs an authenticated reverse lookup. Both use no-store responses and bounded timeouts.
+- Taste version 1 records quiet/ownership/budget/crowd/context/category preferences and optional home. Explicit controls cover quiet, ownership, budget and occasion; the remaining dimensions are in the contract. Ranking uses category, proximity, supplied tags, explicit preferences and known price/open status. Missing attributes earn no invented match bonus. Scores say **Heuristic fit**, never learned behavior. `TasteEvent` defines future explicit save/dismiss/visit signals; no behavioral learning or visit detection is active.
+- Provider contracts: `GeolocationProvider`, `WorldAdapter`, `PlacesProvider`, `ConciergeProvider`, `NavigationProvider`, `ContextProvider`, `ReservationProvider`. Existing universal Cassius remains available through its existing shortcut. Discovery currently uses deterministic intent/ranking, not an OpenAI generation. A future concierge adapter can produce structured category/constraints and explanations only over verified supplied results.
+
+## Real versus demo
+
+Without search credentials, the endpoint returns fictional names with `source: demo`. The UI labels the examples and sample prices. It does not fabricate real reviews, ratings, hours, photographs, travel times or reservations. Demo destinations cannot navigate or share as real places. The atmospheric preview is not a geographical map.
+
+With credentials and active member services, Search Box results are real, but this adapter does not supply rating, review count, opening state, ambience, ownership, photos or reservations. Those fields display unavailable. Distance is explicitly straight-line kilometres, never travel time. Match is a rules score, not a probability. New near you, Hidden gems, Tonight and Weekend are discovery lenses; actual newness, opening hours, events and editorial hidden-gem status are unverified, as disclosed in results.
+
+Place saves/dismissals live in component memory for the current Voyage visit. We do not persist temporary Mapbox result objects. Durable saves require a provider-approved storage strategy and member-owned records. Device-local preference storage has its own versioned key (`ggc-voyage-taste-v1`) and corrupt-data recovery; it is not an account-synced or learned profile. Setting home deliberately stores that area; ordinary location lookups do not store position history. No SQL migration is introduced.
+
+Voice UI is ready for keyboard dictation and explains that in-app recording/transcription is not connected. Photos show an honest unavailable state; no unlicensed image fetches. Apple Maps and Google Maps are explicit navigation handoffs, not embedded turn-by-turn guidance. Sharing uses the native share sheet or copies a real destination link.
+
+## Provider choice
+
+Use Mapbox Standard for the initial world. Google Places is not wired onto Mapbox: [Google Places policy](https://developers.google.com/maps/documentation/places/web-service/policies) requires mapped Places results to appear on a Google map. A future Google provider should bring a compatible Google map adapter, required attribution, Terms/Privacy pages and appropriate retention behavior. Do not combine Google Places coordinates/photos with Mapbox by changing only an API key.
+
+References: [Mapbox Standard](https://docs.mapbox.com/map-styles/reference/standard/), [Search Box API](https://docs.mapbox.com/api/search/search-box/). Search Box coverage and data richness vary. Review the applicable provider storage permissions before introducing account-persisted place data.
+
+## Neil's setup
+
+1. Use Node 24 and the existing npm lockfile. From this app directory, `npm ci` when dependencies are missing. No new package dependency is required: the optional map SDK loads only when configured. For development use `npm run dev -- --webpack`, then open `/voyage`.
+2. Copy the variable names from `.env.voyage.example` into ignored `.env.local` or the deployment environment:
+   - `NEXT_PUBLIC_MAPBOX_TOKEN`: a **public `pk.*` browser token**, URL restricted to your approved app origins. This is intentionally public. Never use an `sk.*` secret here. Rebuild after changing it.
+   - `MAPBOX_SEARCH_TOKEN`: server-only Mapbox token with Search Box access and billing configured. No `NEXT_PUBLIC_` prefix. It never appears in responses or client code.
+3. Live paid discovery requires the existing account adapter and an active membership. On Next.js, configure the existing `.env.accounts.example`: `GGC_ACCOUNT_PROVIDER=clerk-neon`, `CLERK_SECRET_KEY`, `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `DATABASE_URL`, and the established owner/member provisioning flow (`GGC_OWNER_ID`). Follow the existing Gentleman OS migration/setup docs rather than applying PostgreSQL migrations to D1. Sites builds retain the existing Sites/D1 account-runtime substitution; they require their corresponding deployment bindings and approved identity configuration.
+4. Existing optional AI itinerary planning uses `OPENAI_API_KEY`, `CASSIUS_ENABLED`, `CASSIUS_OPENAI_MODEL`. These do not enable learned spatial ranking and are not required for the demo or heuristic discovery.
+5. Use HTTPS outside localhost for geolocation. If a restrictive CSP is added, permit the Mapbox CDN/style/tile connections and required map workers according to Mapbox guidance. Neither secrets nor new production credentials were created in this change.
+
+## Next integrations
+
+1. Verify Mapbox rendering, reverse/forward coverage, attribution and budgets using a restricted token and a real active test member. Measure modern-phone frame rate, memory and touch interactions; live provider/browser QA remains outstanding.
+2. Add reliable time-zone lookup and user-selected city search beyond the four offline presets. Expand natural-language parsing through the existing server-side Cassius/OpenAI pattern, with structured schema validation, origin/member controls, bounded candidate IDs, cancellation and no invented venue facts.
+3. Add a compatible licensed rich-place source, freshness/attribution fields, photos with author attribution, hours, verified independent-ownership/ambience signals, and durable member saves using approved retention terms. Separate learned preferences from explicit settings and allow reset/export.
+4. Implement `ContextProvider` adapters for calendar, weather, hotel/flight/itinerary context, events and transportation; `ReservationProvider` for availability and explicit booking handoff. Keep one spatial mode and require user action for writes/bookings.
+5. Experiment behind a separate optional feature flag with CesiumJS/Google Photorealistic 3D Tiles in covered cities. Implement a second `WorldAdapter`, lazy-load its SDK, confirm tile licensing and attribution, restrict tokens, check WebGL/device support and mobile memory budgets, and fall back to Mapbox. Do not blend Google-derived Places data onto Mapbox. Keep this experiment independent of first-load rendering and the production discovery contract.
+
+## Verification
+
+See the final task report for current results. Provider credentials and real member sessions were not supplied; live map/venue results and paid provider behavior have not been end-to-end verified. No automated browser interaction or visual screenshots were requested/performed. Local HTTP rendering, typecheck, application lint, domain tests and production builds are the validation targets. No remote deployment is implied by the local source change.

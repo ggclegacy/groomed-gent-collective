@@ -166,7 +166,7 @@ export function PerformanceChart({
                     dataKey="previous"
                     type="monotone"
                     fill="none"
-                    stroke="#756d7c"
+                    stroke="#6C3FC7"
                     strokeDasharray="4 6"
                     strokeWidth={1.4}
                     isAnimationActive={false}

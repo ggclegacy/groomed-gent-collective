@@ -15,7 +15,7 @@
   --color-primary-foreground: #0a090b;
   --color-accent: #242119;
   --color-accent-foreground: var(--foreground);
-  --color-ring: #d9b66b;
+  --color-ring: #ab8dc5;
   --color-popover: #131313;
   --color-popover-foreground: var(--foreground);
 }
@@ -230,7 +230,7 @@ em {
 }
 .nav-dot {
   margin-left: auto;
-  background: #2a0f4a;
+  background: #8f7e9e;
 }
 .sidebar-note {
   display: flex;
@@ -578,11 +578,11 @@ main {
     #0a060e 43%,
     #040205 78%
   );
-  border: 1px solid #2a0f4a30;
+  border: 1px solid #876d9e30;
   box-shadow:
     inset -12px -17px 25px #000c,
-    inset 1px 2px 10px #2a0f4a15,
-    0 0 14px #2a0f4a16;
+    inset 1px 2px 10px #af95c515,
+    0 0 14px #7c50a216;
   transform: translateZ(6px);
 }
 .core-fluid {
@@ -597,11 +597,11 @@ main {
   background: conic-gradient(
     from 40deg,
     transparent 8%,
-    #2a0f4a29 19%,
-    #2a0f4a55 24%,
+    #4d1f7629 19%,
+    #9d75c055 24%,
     transparent 34%,
-    #2a0f4a10 57%,
-    #2a0f4a40 66%,
+    #401d5e10 57%,
+    #7a559a40 66%,
     transparent 77%
   );
 }
@@ -610,11 +610,11 @@ main {
   background: conic-gradient(
     from 160deg,
     transparent 12%,
-    #2a0f4a30 26%,
+    #9978b630 26%,
     transparent 36%,
     #c4912f20 48%,
     transparent 62%,
-    #2a0f4a35 74%,
+    #572c7c35 74%,
     transparent 90%
   );
 }
@@ -627,14 +627,14 @@ main {
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    #b9b3bf 0,
-    #b9b3bf 8%,
-    #2a0f4a 24%,
-    #2a0f4a60 48%,
+    #e2cff2 0,
+    #bf9bdf 8%,
+    #8146b4 24%,
+    #4e237360 48%,
     transparent 72%
   );
   filter: blur(5px);
-  box-shadow: 0 0 22px #2a0f4a20;
+  box-shadow: 0 0 22px #9871ba20;
 }
 .core-network,
 .core-filaments {
@@ -644,29 +644,29 @@ main {
   height: 100%;
 }
 .core-network {
-  stroke: #b9b3bf;
+  stroke: #997bb3;
   stroke-width: 0.4;
   opacity: 0.23;
 }
 .core-network circle {
-  fill: #b9b3bf;
+  fill: #b59bcc;
   stroke: none;
 }
 .core-network circle:nth-of-type(4n) {
   fill: #ddbc74;
 }
 .core-filaments {
-  stroke: #b9b3bf;
+  stroke: #b48fd5;
   stroke-width: 0.65;
   opacity: 0.65;
-  filter: drop-shadow(0 0 2px #2a0f4a55);
+  filter: drop-shadow(0 0 2px #70439755);
 }
 .core-filaments path:nth-child(2) {
   stroke: #c4912f;
   opacity: 0.4;
 }
 .core-filaments .filament-signal {
-  stroke: #b9b3bf;
+  stroke: #dbc4ef;
   stroke-width: 1;
   stroke-dasharray: 2 42 6 97;
 }
@@ -687,7 +687,7 @@ main {
   top: 10%;
   border-radius: 50%;
   transform: rotate(-35deg);
-  background: linear-gradient(#b9b3bf25, #b9b3bf00);
+  background: linear-gradient(#f1e6fa25, #d9c0ef00);
   filter: blur(6px);
 }
 .core-signal-track {
@@ -740,7 +740,7 @@ main {
   content: '';
   position: absolute;
   inset: 2px;
-  background: linear-gradient(130deg, #2a0f4a, #130f16);
+  background: linear-gradient(130deg, #352d3c, #130f16);
   clip-path: inherit;
 }
 .core-lock span {
@@ -1165,7 +1165,7 @@ main {
 }
 .connection-banner strong {
   font-size: 14px;
-  color: #b9b3bf;
+  color: #dfd8e5;
   font-weight: 500;
 }
 .connection-banner p {

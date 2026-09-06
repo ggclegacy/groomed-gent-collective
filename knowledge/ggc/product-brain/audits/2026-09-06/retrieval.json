@@ -1,0 +1,210 @@
+[
+  {
+    "file": "collection-members.json",
+    "url": "https://groomedgentco.com/collections/legacy-sanctum/products.json?limit=250&page=1",
+    "finalUrl": "https://groomedgentco.com/collections/legacy-sanctum/products.json?limit=250&page=1",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.293506+00:00",
+    "bytes": 74179
+  },
+  {
+    "file": "collection-members-page2.json",
+    "url": "https://groomedgentco.com/collections/legacy-sanctum/products.json?limit=250&page=2",
+    "finalUrl": "https://groomedgentco.com/collections/legacy-sanctum/products.json?limit=250&page=2",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.224732+00:00",
+    "bytes": 15
+  },
+  {
+    "file": "ashwagandha-plus.html",
+    "url": "https://groomedgentco.com/products/ashwagandha-plus",
+    "finalUrl": "https://groomedgentco.com/products/ashwagandha-plus",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.327369+00:00",
+    "bytes": 204508
+  },
+  {
+    "file": "ashwagandha-plus.json",
+    "url": "https://groomedgentco.com/products/ashwagandha-plus.js",
+    "finalUrl": "https://groomedgentco.com/products/ashwagandha-plus.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.244103+00:00",
+    "bytes": 6772
+  },
+  {
+    "file": "creatine-hydration-powder.html",
+    "url": "https://groomedgentco.com/products/creatine-hydration-powder",
+    "finalUrl": "https://groomedgentco.com/products/creatine-hydration-powder",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.354038+00:00",
+    "bytes": 212321
+  },
+  {
+    "file": "creatine-hydration-powder.json",
+    "url": "https://groomedgentco.com/products/creatine-hydration-powder.js",
+    "finalUrl": "https://groomedgentco.com/products/creatine-hydration-powder.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.260083+00:00",
+    "bytes": 5971
+  },
+  {
+    "file": "focus-powder-sour-candy.html",
+    "url": "https://groomedgentco.com/products/focus-powder-sour-candy",
+    "finalUrl": "https://groomedgentco.com/products/focus-powder-sour-candy",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.821532+00:00",
+    "bytes": 204884
+  },
+  {
+    "file": "focus-powder-sour-candy.json",
+    "url": "https://groomedgentco.com/products/focus-powder-sour-candy.js",
+    "finalUrl": "https://groomedgentco.com/products/focus-powder-sour-candy.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.580368+00:00",
+    "bytes": 7074
+  },
+  {
+    "file": "gut-health.html",
+    "url": "https://groomedgentco.com/products/gut-health",
+    "finalUrl": "https://groomedgentco.com/products/gut-health",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.771082+00:00",
+    "bytes": 203817
+  },
+  {
+    "file": "gut-health.json",
+    "url": "https://groomedgentco.com/products/gut-health.js",
+    "finalUrl": "https://groomedgentco.com/products/gut-health.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.620721+00:00",
+    "bytes": 5887
+  },
+  {
+    "file": "hydration-powder-lemonade.html",
+    "url": "https://groomedgentco.com/products/hydration-powder-lemonade",
+    "finalUrl": "https://groomedgentco.com/products/hydration-powder-lemonade",
+    "status": 404,
+    "capturedAt": "2026-09-06T13:22:23.836491+00:00",
+    "bytes": 235897
+  },
+  {
+    "file": "hydration-powder-lemonade.json",
+    "url": "https://groomedgentco.com/products/hydration-powder-lemonade.js",
+    "finalUrl": "https://groomedgentco.com/products/hydration-powder-lemonade.js",
+    "status": 404,
+    "capturedAt": "2026-09-06T13:22:23.681018+00:00",
+    "bytes": 0
+  },
+  {
+    "file": "hydration-powder-lychee.html",
+    "url": "https://groomedgentco.com/products/hydration-powder-lychee",
+    "finalUrl": "https://groomedgentco.com/products/hydration-powder-lychee",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.118639+00:00",
+    "bytes": 204917
+  },
+  {
+    "file": "hydration-powder-lychee.json",
+    "url": "https://groomedgentco.com/products/hydration-powder-lychee.js",
+    "finalUrl": "https://groomedgentco.com/products/hydration-powder-lychee.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:23.990213+00:00",
+    "bytes": 9467
+  },
+  {
+    "file": "hydration-powder-passion-fruit.html",
+    "url": "https://groomedgentco.com/products/hydration-powder-passion-fruit",
+    "finalUrl": "https://groomedgentco.com/products/hydration-powder-passion-fruit",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.202436+00:00",
+    "bytes": 204974
+  },
+  {
+    "file": "hydration-powder-passion-fruit.json",
+    "url": "https://groomedgentco.com/products/hydration-powder-passion-fruit.js",
+    "finalUrl": "https://groomedgentco.com/products/hydration-powder-passion-fruit.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.097937+00:00",
+    "bytes": 10042
+  },
+  {
+    "file": "hydration-powder-peach-mango.html",
+    "url": "https://groomedgentco.com/products/hydration-powder-peach-mango",
+    "finalUrl": "https://groomedgentco.com/products/hydration-powder-peach-mango",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.270512+00:00",
+    "bytes": 204926
+  },
+  {
+    "file": "hydration-powder-peach-mango.json",
+    "url": "https://groomedgentco.com/products/hydration-powder-peach-mango.js",
+    "finalUrl": "https://groomedgentco.com/products/hydration-powder-peach-mango.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.134936+00:00",
+    "bytes": 10086
+  },
+  {
+    "file": "magnesium-glycinate.html",
+    "url": "https://groomedgentco.com/products/magnesium-glycinate",
+    "finalUrl": "https://groomedgentco.com/products/magnesium-glycinate",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.494916+00:00",
+    "bytes": 206015
+  },
+  {
+    "file": "magnesium-glycinate.json",
+    "url": "https://groomedgentco.com/products/magnesium-glycinate.js",
+    "finalUrl": "https://groomedgentco.com/products/magnesium-glycinate.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.436770+00:00",
+    "bytes": 6922
+  },
+  {
+    "file": "nad.html",
+    "url": "https://groomedgentco.com/products/nad",
+    "finalUrl": "https://groomedgentco.com/products/nad",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.623210+00:00",
+    "bytes": 203911
+  },
+  {
+    "file": "nad.json",
+    "url": "https://groomedgentco.com/products/nad.js",
+    "finalUrl": "https://groomedgentco.com/products/nad.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.459650+00:00",
+    "bytes": 7400
+  },
+  {
+    "file": "nmn.html",
+    "url": "https://groomedgentco.com/products/nmn",
+    "finalUrl": "https://groomedgentco.com/products/nmn",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.698574+00:00",
+    "bytes": 203931
+  },
+  {
+    "file": "nmn.json",
+    "url": "https://groomedgentco.com/products/nmn.js",
+    "finalUrl": "https://groomedgentco.com/products/nmn.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.613389+00:00",
+    "bytes": 7266
+  },
+  {
+    "file": "sleep-support.html",
+    "url": "https://groomedgentco.com/products/sleep-support",
+    "finalUrl": "https://groomedgentco.com/products/sleep-support",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.971042+00:00",
+    "bytes": 204282
+  },
+  {
+    "file": "sleep-support.json",
+    "url": "https://groomedgentco.com/products/sleep-support.js",
+    "finalUrl": "https://groomedgentco.com/products/sleep-support.js",
+    "status": 200,
+    "capturedAt": "2026-09-06T13:22:24.785767+00:00",
+    "bytes": 6873
+  }
+]

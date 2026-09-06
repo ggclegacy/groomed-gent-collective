@@ -1,3 +1,4 @@
+import { studioKnowledge } from './product-brain/studio.ts';
 /** Canonical Product Studio contracts. No seed record is approved product knowledge. */
 export const categories = [
   'Hair',
@@ -119,7 +120,7 @@ const draft: Revision = {
   verifiedBy: null,
   sourceIds: ['product-studio-brief'],
 };
-export const knowledge: KnowledgeBase = {
+const conceptKnowledge: KnowledgeBase = {
   version: '2026-09-05.1-draft',
   products: [
     [
@@ -184,6 +185,7 @@ export const knowledge: KnowledgeBase = {
     policyVersion: 'unpublished',
   },
 };
+export const knowledge = studioKnowledge(conceptKnowledge, categories);
 export function isVerified(record: Revision, db: KnowledgeBase): boolean {
   return (
     record.status === 'approved' &&

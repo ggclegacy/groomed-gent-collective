@@ -1,14 +1,17 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import './gentleman.css';
+import './voyage.css';
 import './creative-studio.css';
 import './command-dashboard.css';
 import './living-materials.css';
 import './brand-materials.css';
+import './spatial-system.css';
 import { LivingMaterials } from '@/components/living-materials';
 export const metadata: Metadata = {
   title: 'The Collective | Groomed Gent Co.',
   description:
-    'The Groomed Gent Collective. A considered space for those who represent the brand.',
+    'Your private gentleman’s operating system. Powered by Cassius, connected through the Collective.',
   icons: { icon: '/favicon.svg' },
   robots: { index: false, follow: false },
 };

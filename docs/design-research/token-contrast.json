@@ -1,0 +1,29 @@
+{
+  "scope": "Solid token pairs only; not a rendered-composite WCAG audit",
+  "checks": [
+    {
+      "role": "Primary",
+      "foreground": "#eeeae0",
+      "background": "#1b2c22",
+      "ratio": 12.22
+    },
+    {
+      "role": "Muted",
+      "foreground": "#aebbb4",
+      "background": "#1b2c22",
+      "ratio": 7.39
+    },
+    {
+      "role": "Accent",
+      "foreground": "#d7bd80",
+      "background": "#1b2c22",
+      "ratio": 8.03
+    },
+    {
+      "role": "Action",
+      "foreground": "#12190f",
+      "background": "#b39962",
+      "ratio": 6.53
+    }
+  ]
+}

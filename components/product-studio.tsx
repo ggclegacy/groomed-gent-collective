@@ -1,4 +1,9 @@
 'use client';
+import {
+  getDossier,
+  productCoverage,
+  productBrain,
+} from '@/lib/product-brain/runtime';
 import { useState, useSyncExternalStore } from 'react';
 import {
   ArrowRight,
@@ -957,12 +962,139 @@ export function ProductStudio() {
   }
   return (
     <div className="product-studio">
+      {getDossier(product.id) && (
+        <details className="ps-glass" style={{ padding: '1.25rem' }}>
+          <summary>Product knowledge · {product.name}</summary>
+          <p>
+            Website statements remain unverified until reviewed. Conflicting
+            details are marked disputed; missing information is unknown.
+          </p>
+          <p>
+            {productCoverage(product.id)?.verified.length ?? 0} verified fields
+            · {productCoverage(product.id)?.disputed.length ?? 0} disputed
+            fields · {productCoverage(product.id)?.unknown.length ?? 0} unknown
+            fields
+          </p>
+          {getDossier(product.id)!.supplement && (
+            <details open>
+              <summary>Supplement Facts and first-party evidence</summary>
+              <p>
+                Amounts below are per the stated label serving. “Unknown” means
+                not disclosed. Website claims have not been approved for
+                advertising.
+              </p>
+              <table>
+                <caption>
+                  {getDossier(product.id)!.supplement!.fields.servingSize
+                    .value ?? 'Serving size unknown'}{' '}
+                  ·{' '}
+                  {getDossier(product.id)!.supplement!.fields
+                    .servingsPerContainer.value ?? 'Unknown'}{' '}
+                  servings per container
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Label ingredient / nutrient</th>
+                    <th scope="col">Amount per serving</th>
+                    <th scope="col">Daily Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {getDossier(product.id)!.supplement!.rows.map((row) => (
+                    <tr key={row.id}>
+                      <th scope="row">
+                        {row.name.value}
+                        {row.name.status === 'disputed' ? ' · disputed' : ''}
+                      </th>
+                      <td>
+                        {row.amount.value ?? 'Unknown'}
+                        {row.amount.status === 'disputed' ? ' · disputed' : ''}
+                      </td>
+                      <td>{row.dailyValue.value ?? 'Unknown / not shown'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              {Object.entries(getDossier(product.id)!.supplement!.fields).map(
+                ([name, field]) => (
+                  <details key={name}>
+                    <summary>
+                      {name.replace(/([A-Z])/g, ' $1')} · {field.status}
+                    </summary>
+                    <p style={{ whiteSpace: 'pre-wrap' }}>
+                      {field.value ?? 'Unknown: not disclosed.'}
+                    </p>
+                    {field.note && <p>{field.note}</p>}
+                    {field.evidence.map((e, i) => {
+                      const source = productBrain.products
+                        .find((p) => p.dossier.productId === product.id)
+                        ?.sources.find((s) => s.id === e.sourceId);
+                      return source ? (
+                        <p key={i}>
+                          <a
+                            href={source.locator}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            First-party source
+                          </a>{' '}
+                          · retrieved {source.capturedAt.slice(0, 10)} ·{' '}
+                          {e.locator}
+                        </p>
+                      ) : null;
+                    })}
+                  </details>
+                ),
+              )}
+              <details>
+                <summary>
+                  Every listed ingredient and undisclosed amounts
+                </summary>
+                <ul>
+                  {getDossier(product.id)!.ingredients.map((row) => (
+                    <li key={row.id}>
+                      {row.fields.name.value} ·{' '}
+                      {row.fields.concentration.value ?? 'Amount unknown'}
+                      {row.fields.name.note ? ' — ' + row.fields.name.note : ''}
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            </details>
+          )}
+          {Object.entries(getDossier(product.id)!.sections).map(
+            ([section, fields]) => (
+              <details key={section}>
+                <summary>{section}</summary>
+                <dl>
+                  {Object.entries(fields).map(([name, field]) => (
+                    <div key={name}>
+                      <dt>
+                        {name} · {field.status}
+                      </dt>
+                      <dd>
+                        {field.value ?? 'Not supplied'}
+                        {field.note ? ` — ${field.note}` : ''}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </details>
+            ),
+          )}
+        </details>
+      )}
       <div className="ps-intro">
         <div>
-          <span className="eyebrow gold">PRODUCT KNOWLEDGE & TRAINING</span>
-          <h2>Product intelligence</h2>
+          <span className="eyebrow gold">THE PRODUCT INTELLIGENCE ATELIER</span>
+          <h2>
+            Know it deeply.
+            <br />
+            <em>Represent it well.</em>
+          </h2>
           <p>
-            Review product evidence, build your knowledge, and prepare informed recommendations.
+            Review product evidence, build your knowledge, and prepare informed
+            recommendations.
           </p>
         </div>
         <button
@@ -1039,8 +1171,8 @@ export function ProductStudio() {
                     <h2>The collection, understood.</h2>
                   </div>
                   <span className="ps-meta">
-                    {filtered.length} of {knowledge.products.length} concept
-                    records
+                    {filtered.length} of {knowledge.products.length} product and
+                    concept records
                   </span>
                 </div>
                 <label className="field ps-search">

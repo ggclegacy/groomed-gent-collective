@@ -9,37 +9,37 @@
   --gold-light: #d9b66b;
   --gold-dim: #7b5218;
   --primary: #c4912f;
-  --purple: #2a0f4a;
+  --purple: #6c3fc7;
   --purple-light: #d9b66b;
   --amethyst: #1a0930;
-  --violet: #2a0f4a;
+  --violet: #6c3fc7;
   --border: #c4912f40;
   --muted: #141118;
   --muted-foreground: #b9b3bf;
-  --glass-edge: #c4912f33;
+  --glass-edge: #c4912f55;
   --gold-metal: linear-gradient(145deg, #6f4915 0%, #8a5e1b 16%, #a87522 32%, #c4912f 50%, #a77220 66%, #7b5218 82%, #4a300e 100%);
   --brand-gold-panel:
     radial-gradient(circle at 18% 12%, #debe643d 0%, transparent 54%),
     radial-gradient(circle at 82% 90%, #5030086b 0%, transparent 50%),
-    radial-gradient(circle at 62% 30%, #2a0f4a0d 0%, transparent 40%),
+    radial-gradient(circle at 62% 30%, #6c3fc70d 0%, transparent 40%),
     var(--gold-metal);
   --brand-purple-panel:
-    radial-gradient(ellipse at 85% 90%, #2a0f4a55, transparent 65%),
-    linear-gradient(145deg, #160d20 0%, #21112f 55%, #1a0930 100%);
+    radial-gradient(ellipse at 85% 90%, #6c3fc73d, transparent 65%),
+    linear-gradient(145deg, #130622 0%, #220b3c 28%, #2a0f4a 52%, #3d1f6b 72%, #180730 100%);
   --brand-purple-quiet: linear-gradient(145deg, #1a0930, #141118 75%);
-  --brand-bevel: inset 0 1px #d9b66b26, 0 12px 32px #0005;
+  --brand-bevel: inset 0 1px #e8c67070, inset 0 -1px #462a068a, 0 20px 50px #0009;
   --glass: var(--brand-purple-quiet);
   --glass-signature: var(--brand-purple-panel);
   --glass-shadow: var(--brand-bevel);
 }
-.vd-root { --vd-gold: var(--gold); --vd-muted: #b9b3bf; --vd-edge: #c4912f40; }
+.visual-dashboard { --vd-gold: var(--gold); --vd-muted: #b9b3bf; --vd-edge: #c4912f40; }
 .product-studio { --ps-gold: var(--gold); --ps-muted: #b9b3bf; --ps-amethyst: #1a0930; }
 .creative-studio { --cs-gold: var(--gold); --cs-dim: #b9b3bf; }
 body::before {
-  background: radial-gradient(ellipse at 14% 28%, #2a0f4a3d, transparent 56%), radial-gradient(ellipse at 86% 68%, #2a0f4a2e, transparent 50%), linear-gradient(160deg, #0a0a0a, #100820 38%, #0d0518 65%, #070310);
+  background: radial-gradient(ellipse at 14% 28%, #4b2e833d, transparent 56%), radial-gradient(ellipse at 86% 68%, #2a0f4a2e, transparent 50%), linear-gradient(160deg, #0a0a0a, #100820 38%, #0d0518 65%, #070310);
 }
 .ambient-gold { background: radial-gradient(ellipse, #c4912f26, #d9b66b0d 40%, transparent 68%); }
-.ambient-platinum { background: radial-gradient(ellipse, #2a0f4a38, #2a0f4a2e 45%, transparent 65%); }
+.ambient-platinum { background: radial-gradient(ellipse, #6c3fc738, #2a0f4a2e 45%, transparent 65%); }
 .vd-glass, .ps-glass, .panel, .pending-panel, .membership-record,
 .member-door, .draft-library, .studio-editor, .cs-director, .cs-canvas-panel {
   background: var(--brand-purple-quiet);
@@ -77,9 +77,9 @@ body::before {
   box-shadow: inset 0 1px #d9b66b33;
 }
 .vd-earnings .vd-balances { padding: 16px; border-radius: 12px; background: #1a0930ed; }
-.vd-earnings .vd-balances span { color: #b9b3bf; }
+.vd-earnings .vd-balances span { color: #d9cde3; }
 .vd-metric { background: var(--brand-purple-quiet); border-color: #d9b66b55; }
-.vd-metric-label, .vd-metric-detail { color: #b9b3bf; }
+.vd-metric-label, .vd-metric-detail { color: #c5bdcd; }
 .vd-metric-label svg, .vd-hero-spark { color: var(--gold-light); }
 .vd-section-title h2, .cs-section-title, .ps-section-heading h2,
 .section-title h2, .brand-sub, .vd-cassius-wordmark { color: var(--gold-light); }
@@ -134,280 +134,17 @@ body::before {
 .vd-chart-legend span:nth-child(2) i { background: var(--purple); }
 .vd-channel-donut > div { background: #1a0930; }
 .core-gold-bezel { background: conic-gradient(from -28deg, #7b5218, #c4912f 15%, #d9b66b 25%, #7b5218 38%, #c4912f 55%, #d9b66b 72%, #4a300e 90%, #7b5218); }
-.core-heart { background: radial-gradient(circle, #d9b66b, #c4912f 20%, #2a0f4a66 48%, transparent 72%); }
-.core-aura { background: radial-gradient(circle, #2a0f4a4d, #2a0f4a33 45%, transparent 70%); }
-.core-filaments path:nth-child(2) { stroke: #b9b3bfb3; }
+.core-heart { background: radial-gradient(circle, #d9b66b, #c4912f 20%, #6c3fc766 48%, transparent 72%); }
+.core-aura { background: radial-gradient(circle, #6c3fc74d, #2a0f4a33 45%, transparent 70%); }
+.core-filaments path:nth-child(2) { stroke: #6c3fc7b3; }
 .core-network circle { fill: var(--gold-light); }
 .cs-sigil, .cs-orbit, .ps-atlas-orbit { color: var(--gold-light); background: var(--brand-purple-panel); border-color: #c4912f80; }
 :where(button, a, input, textarea, select):focus-visible { outline: 2px solid var(--gold-light); outline-offset: 4px; }
-::selection { background: #2a0f4a; color: #f2f0eb; }
-/* Contrast corrections for the metallic financial surface. */
-.vd-earnings .vd-module-header .vd-chip { background: #1a0930; color: #d9b66b; border-color: #d9b66b55; }
-.vd-earnings .vd-module-header > .vd-overline { color: #1a0930; font-weight: 650; }
-.vd-earnings .vd-ledger-link { background: #1a0930; color: #d9b66b; padding: 10px 12px; border-radius: 6px; }
-.club-sidebar { padding: 0; }
-.club-sidebar [data-slot='sidebar-inner'] { border: 0; border-right: 1px solid #c4912f33; border-radius: 0; box-shadow: none; }
-.mobile-dock { border-radius: 10px; box-shadow: 0 8px 24px #0008; }
-/* Working-interface refinement: hierarchy and quiet materials over ornament. */
-:root, .dark {
-  --font-interface: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --radius-panel: 12px;
-  --radius: 0.5rem;
-}
-.topbar { background: #0a0a0af2; border-bottom-color: #c4912f26; }
-.top-title { letter-spacing: 0.1em; }
-.page-heading { border-bottom: 1px solid #c4912f26; padding-bottom: 16px; }
-.edition { display: none; }
-.detail-page > h1, .vd-welcome h1, .cs-header h2, .product-studio .ps-intro h2 {
-  font-family: var(--font-interface);
-  font-weight: 500;
-  font-style: normal;
-  font-size: clamp(28px, 3vw, 44px);
-  line-height: 1.16;
-  letter-spacing: -0.035em;
-}
-.cs-header em, .ps-intro em {
-  font-family: inherit;
-  font-style: normal;
-  color: var(--gold-light);
-  background: none;
-  -webkit-text-fill-color: currentColor;
-  text-shadow: none;
-}
-.vd-overline, .eyebrow, .cs-kicker, .cs-section-title, .ps-meta {
-  font-size: 12px;
-  font-weight: 550;
-  line-height: 1.5;
-  letter-spacing: 0.09em;
-}
-.vd-section-title h2, .section-title h2, .product-studio h2 {
-  font-family: var(--font-interface);
-  font-size: 19px;
-  font-weight: 550;
-  letter-spacing: -0.015em;
-}
-.vd-glass, .panel, .pending-panel, .ps-glass, .ps-product,
-.cs-director, .cs-canvas-panel, .cs-brands form, .member-door,
-.membership-record, .draft-library, .studio-editor, .status-hero {
-  border-radius: 12px;
-}
-.vd-chip, .preview-badge, .ps-chips button, .ps-destinations button {
-  border-radius: 5px;
-  letter-spacing: 0.035em;
-  box-shadow: none;
-}
-.vd-chip i, .preview-badge > span, .cs-kicker > span { display: none; }
-.vd-periods, .vd-chart-switch, .cs-modes { border-radius: 8px; box-shadow: none; }
-.vd-periods button, .vd-chart-switch button, .cs-modes button,
-.gold-button, .vd-gold-button, .cs-generate, .outline-button,
-.collective-nav a, .mobile-dock a { border-radius: 6px; }
-.collective-nav a[aria-current], .mobile-dock a[aria-current],
-.vd-periods button[aria-pressed='true'], .vd-chart-switch button[aria-pressed='true'],
-.cs-modes button[aria-pressed='true'] {
-  background: #21112f;
-  box-shadow: inset 2px 0 var(--gold);
-  border-color: #c4912f4d;
-}
-.vd-earnings-main { border-radius: 8px; box-shadow: none; }
-.vd-earnings-number { font-weight: 500; letter-spacing: -0.045em; text-shadow: none; }
-.vd-earnings .vd-balances { border-radius: 6px; }
-.vd-metrics { gap: 0; background: #160d20; border-radius: 6px; }
-.vd-metric { background: transparent; box-shadow: none; border: 0; border-radius: 0; }
-.vd-metric + .vd-metric { border-left: 1px solid #d9b66b26; }
-.vd-metric > strong { font-weight: 500; font-variant-numeric: tabular-nums; }
-.vd-command { border-radius: 8px; box-shadow: none; background: #160d20; border-color: #c4912f33; }
-.vd-command-icon, .vd-command:nth-child(even) .vd-command-icon, .vd-pulse-icon {
-  color: var(--gold-light);
-  background: none;
-  border: 0;
-  box-shadow: none;
-  border-radius: 0;
-}
-.vd-command-wide { background: var(--brand-gold-panel); }
-.vd-command-wide .vd-command-icon { background: #1a0930; border-radius: 6px; }
-.vd-command strong { font-size: 14px; font-weight: 550; letter-spacing: -0.01em; }
-.vd-command small { font-size: 13px; line-height: 1.5; }
-.vd-pulse-row { border-radius: 0; }
-.vd-pulse-row + .vd-pulse-row { border-top: 1px solid #c4912f20; }
-.vd-chart-legend span:nth-child(2) i { background: #756d7c; }
-.vd-bar, .vd-bar span { border-radius: 1px; }
-/* Product cards are catalog entries, with the gold material left intact. */
-.ps-product-mark { min-height: 76px; justify-content: flex-start; border: 0; background: none; box-shadow: none; }
-.ps-product-mark > svg { display: none; }
-.ps-product-mark span { font-family: var(--font-interface); font-size: 24px; font-weight: 600; letter-spacing: 0.03em; text-shadow: none; color: #f2f0eb; }
-.ps-product .ps-product-copy { border-radius: 6px; box-shadow: none; }
-.ps-product .ps-product-top { letter-spacing: 0.08em; }
-.ps-product .ps-product-copy h3 { font-weight: 550; letter-spacing: -0.02em; }
-.cs-header { padding: 24px 0 32px; }
-.cs-sigil { width: 60px; height: 60px; border-radius: 10px; margin-right: 0; box-shadow: none; }
-.cs-sigil::before, .cs-orbit::before, .ps-atlas-orbit::before { display: none; }
-.ps-atlas-orbit { width: 56px; height: 56px; border-radius: 10px; box-shadow: none; }
-/* One signature core; no perpetual light show across every control. */
-.ambient-horizon { display: none; }
-.ambient-platinum { opacity: 0.45; }
-.living-atmosphere i { animation: none; }
-[data-material-visible='true'].vd-earnings::after,
-[data-material-visible='true'].membership::after { animation: none; opacity: 0.12; }
-.vd-gold-button::after, .gold-button::after, .cs-generate::after { animation: none; opacity: 0; }
-.vd-gold-button:hover::after, .gold-button:hover::after, .cs-generate:hover::after { opacity: 0.1; }
-.core-calibration, .core-lock, .core-projection, .core-signal-track { display: none; }
-.core-fluid { animation-duration: 60s; opacity: 0.45; }
-.core-aura { animation: none; opacity: 0.35; }
-.core-heart { animation-duration: 14s; opacity: 0.6; }
-.vd-is-thinking .core-fluid { animation-duration: 8s; }
-.vd-command:hover, .ps-product:hover, .ps-daily:hover,
-.cs-starters button:hover, .vd-gold-button:hover, .gold-button:hover, .cs-generate:hover {
-  transform: none;
-  box-shadow: inset 0 1px #d9b66b33;
-}
-.vd-command, .ps-product, .ps-daily, .gold-button, .vd-gold-button, .cs-generate {
-  transition: border-color 160ms ease, background-color 160ms ease, box-shadow 160ms ease;
-}
-.ambient-toggle { border-radius: 6px; background: #0a0a0a; box-shadow: none; font-size: 12px; }
-/* Bring the working brief ahead of an empty canvas on smaller screens. */
-.cs-header { padding: 8px 0 18px; }
-.cs-header p { margin: 8px 0 0; }
-.product-studio .ps-intro h2 { font-size: 26px; margin: 8px 0 12px; }
-@media (max-width: 1050px) {
-  .cs-director { grid-row: 1; }
-  .cs-canvas-panel { grid-row: auto; }
-  .cs-empty { min-height: 240px; }
-}
-@media (max-width: 767px) {
-  .vd-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .vd-metric:nth-child(3) { border-left: 0; }
-  .vd-metric:nth-child(n+3) { border-top: 1px solid #d9b66b26; }
-  .cs-header h2, .product-studio .ps-intro h2 { font-size: 30px; }
-  .vd-command { min-height: 72px; }
-  .ps-product-mark { min-height: 56px; }
-}
-
+::selection { background: #4a1a78; color: #f2f0eb; }
 @media (max-width: 767px) {
   .vd-earnings-main { padding: 12px; gap: 10px; }
   .vd-earnings .vd-balances { padding: 12px; }
   .ps-product .ps-product-copy { padding: 16px; }
-}
-/* Dimensional workspace: obsidian structure, imperial depth, concentrated metal. */
-:root, .dark {
-  --brand-purple-quiet: linear-gradient(145deg, #17131b, #0d0c10 60%, #160d20);
-  --brand-purple-panel: radial-gradient(ellipse at 92% 80%, #2a0f4a99, transparent 68%), linear-gradient(145deg, #17131b, #100d15 52%, #1a0930);
-  --brand-bevel: inset 0 1px #d9b66b40, inset 1px 0 #d9b66b0d, inset 0 -1px #000c, 0 14px 32px #0008, 0 2px 4px #0008;
-}
-body::before {
-  background: radial-gradient(ellipse at 82% 16%, #1a093099, transparent 52%), #0a0a0a;
-}
-.living-atmosphere { z-index: -1; }
-.ambient-gold { background: radial-gradient(ellipse, #c4912f1f, transparent 65%); width: 70vw; height: 65vh; }
-.ambient-platinum { background: radial-gradient(ellipse, #2a0f4a99, #1a09304d 38%, transparent 68%); opacity: 0.85; }
-.topbar {
-  background: linear-gradient(100deg, #0a0a0af5, #141118e6);
-  box-shadow: 0 8px 30px #0005, inset 0 -1px #d9b66b1f;
-  backdrop-filter: blur(16px);
-}
-.club-sidebar [data-slot='sidebar-inner'] {
-  background: radial-gradient(ellipse at 0 0, #c4912f0d, transparent 50%), linear-gradient(180deg, #100f12, #0a0a0a 60%);
-  box-shadow: inset -1px 0 #d9b66b12, 12px 0 40px #0003;
-}
-.vd-glass, .ps-glass, .panel, .pending-panel, .cs-director, .cs-canvas-panel,
-.membership-record, .member-door, .studio-editor, .draft-library {
-  background: var(--brand-purple-quiet);
-  border-color: #d9b66b38;
-  box-shadow: var(--brand-bevel);
-}
-.vd-cassius, .ps-atlas, .intelligence-stage, .cs-director {
-  background: var(--brand-purple-panel);
-  border-color: #c4912f66;
-}
-.vd-earnings, .membership, .status-hero, .ps-product {
-  background: var(--brand-gold-panel);
-  border-color: #d9b66b99;
-  box-shadow: inset 0 1px #d9b66b99, inset 0 -2px #4a300e, 0 20px 48px #0008;
-}
-/* A single instrument inset, with the original full-depth gold around it. */
-.vd-earnings { padding: 0; overflow: hidden; }
-.vd-earnings > .vd-module-header { padding: 22px 24px; }
-.vd-earnings-main { margin: 0 16px; padding: 24px 20px; background: #100d15; border: 0; border-radius: 10px 10px 0 0; }
-.vd-earnings .vd-balances { margin: 0 16px; padding: 20px; background: #100d15; border-radius: 0; border-top: 1px solid #d9b66b26; border-bottom: 0; }
-.vd-earnings .vd-metrics { margin: 0 16px; padding: 8px; background: #100d15; border-radius: 0; border-top: 1px solid #d9b66b26; }
-.vd-earnings .vd-ledger-link { margin: 0 16px 16px; background: #100d15; border-radius: 0 0 10px 10px; padding: 16px 20px; border-top: 1px solid #d9b66b26; }
-.vd-earnings-number { letter-spacing: -0.05em; text-shadow: 0 3px 20px #0008; }
-.vd-cassius-glyph { width: 128px; height: 128px; flex-basis: 128px; }
-.vd-cassius .vd-intelligence-body { gap: 20px; }
-.vd-cassius .vd-opportunity { background: #0a0a0a55; border-radius: 8px; border-top: 1px solid #d9b66b26; border-bottom: 1px solid #d9b66b1a; padding: 18px 12px; }
-.vd-command { background: linear-gradient(130deg, #1b1620, #0e0d10 68%); border-color: #d9b66b33; box-shadow: inset 0 1px #d9b66b26, 0 6px 18px #0005; }
-.vd-command-wide { background: var(--brand-gold-panel); }
-.vd-command-icon { color: var(--gold-light); filter: drop-shadow(0 2px 5px #0008); }
-.vd-command:hover, .ps-product:hover, .ps-daily:hover { border-color: #d9b66b99; box-shadow: inset 0 1px #d9b66b66, 0 14px 32px #0008; }
-.vd-gold-button, .gold-button, .cs-generate {
-  box-shadow: inset 0 1px #d9b66b, inset 0 -2px #7b5218, 0 6px 16px #0008, 0 0 22px #c4912f18;
-}
-.collective-nav a[aria-current], .mobile-dock a[aria-current] {
-  background: linear-gradient(100deg, #21112f, #141118);
-  box-shadow: inset 2px 0 #c4912f, inset 0 1px #d9b66b33, 0 4px 12px #0005;
-}
-.mobile-dock { background: linear-gradient(145deg, #141118f5, #0a0a0af5); border-color: #d9b66b66; backdrop-filter: blur(18px); }
-/* The light layer moves independently; content and hit targets stay stable. */
-[data-material]::after {
-  inset: 0;
-  z-index: -1;
-  background: radial-gradient(ellipse at 50% 15%, #d9b66b1f, transparent 56%), linear-gradient(120deg, transparent 26%, #d9b66b0a 45%, transparent 64%);
-  clip-path: inset(0 round 12px);
-  transform: translate3d(var(--reflection-x, 0%), var(--reflection-y, 0%), 0);
-  opacity: 0.22;
-  transition: transform 480ms cubic-bezier(0.2, 0.7, 0.2, 1), opacity 220ms ease;
-}
-[data-material]:hover::after, [data-material]:focus-within::after { opacity: 0.8; }
-[data-material]:focus-within { border-color: #d9b66b99; }
-.core-aura { opacity: 0.65; background: radial-gradient(circle, #2a0f4a99, #1a093055 50%, transparent 70%); }
-.core-heart { opacity: 0.85; }
-.core-fluid { opacity: 0.65; }
-.core-gold-bezel { box-shadow: inset 0 1px #d9b66b99, 0 0 18px #c4912f26; }
-.vd-is-thinking .vd-cassius { border-color: #d9b66b; }
-@keyframes workspace-arrive {
-  from { opacity: 0.65; transform: translate3d(0, 10px, 0); }
-  to { opacity: 1; transform: translate3d(0, 0, 0); }
-}
-@keyframes atmosphere-orbit {
-  from { transform: translate3d(-3%, -2%, 0); opacity: 0.45; }
-  to { transform: translate3d(8%, 6%, 0); opacity: 0.85; }
-}
-@keyframes signature-light {
-  from { transform: translate3d(-12%, -3%, 0); opacity: 0.2; }
-  to { transform: translate3d(12%, 3%, 0); opacity: 0.55; }
-}
-@media (prefers-reduced-motion: no-preference) {
-  .vd-welcome, .detail-page > h1, .cs-header { animation: workspace-arrive 500ms cubic-bezier(0.2, 0.7, 0.2, 1) both; }
-  [data-material-entered='true'] { animation: workspace-arrive 600ms cubic-bezier(0.2, 0.7, 0.2, 1) backwards; }
-  .living-atmosphere .ambient-gold { animation: atmosphere-orbit 24s ease-in-out infinite alternate; }
-  .living-atmosphere .ambient-platinum { animation: atmosphere-orbit 32s ease-in-out -10s infinite alternate-reverse; }
-  [data-material-visible='true'].vd-earnings::after, [data-material-visible='true'].membership::after { animation: signature-light 14s ease-in-out infinite alternate; }
-  [data-material-visible='true'].vd-earnings:hover::after, [data-material-visible='true'].membership:hover::after { animation: none; }
-  .core-aura { animation: cassius-aura 12s ease-in-out infinite; }
-  .core-fluid { animation-duration: 38s; }
-  .vd-is-thinking .core-fluid { animation-duration: 8s; }
-  .vd-command:hover, .ps-product:hover { transform: translateY(-2px); }
-  .vd-command, .ps-product { transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease; }
-}
-@media (max-width: 767px) {
-  .vd-earnings > .vd-module-header { padding: 18px; }
-  .vd-earnings-main { margin: 0 10px; padding: 22px 16px; }
-  .vd-earnings .vd-balances { margin: 0 10px; padding: 16px; }
-  .vd-earnings .vd-metrics { margin: 0 10px; }
-  .vd-earnings .vd-ledger-link { margin: 0 10px 10px; }
-  .vd-cassius-glyph { width: 96px; height: 96px; flex-basis: 96px; }
-  .vd-cassius .vd-intelligence-body { gap: 14px; }
-}
-@media (prefers-reduced-motion: reduce) {
-  [data-material]::after { transform: none; transition: none; }
-}
-
-html[data-ambient-motion='paused'] [data-material-entered='true'] {
-  animation: none; opacity: 1; transform: none;
-}
-html[data-ambient-motion='paused'] .vd-command:hover,
-html[data-ambient-motion='paused'] .ps-product:hover { transform: none; }
-@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
-  .vd-earnings .vd-module-header > .vd-overline { color: #f2f0eb; }
 }
 @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
   .vd-glass, .ps-glass, .panel, .cs-director, .cs-canvas-panel, .member-door,

@@ -1,0 +1,342 @@
+[
+  {
+    "path": "audit.json",
+    "sha256": "761bd0dbe486dce9078260eb256867e49ac05d1a71c1f77713a6bdeb361276e4",
+    "bytes": 10108
+  },
+  {
+    "path": "nad-image-transcript.txt",
+    "sha256": "a6d52b41ec4aa58159bcf50fd56006ebabef85e10f2bbbb68ab5088f89bb0cc1",
+    "bytes": 118
+  },
+  {
+    "path": "hydration-powder-peach-mango-image-transcript.txt",
+    "sha256": "32ba12d8689b2f3f4cd5be229bbff7803385dd33cfd78d6d9f55e7c0360dcaad",
+    "bytes": 115
+  },
+  {
+    "path": "images.json",
+    "sha256": "d204c6baec24d8b09cb1f2e092e18ab8dcb73725231d1139be9ad4956160dd32",
+    "bytes": 4150
+  },
+  {
+    "path": "sleep-support-image-transcript.txt",
+    "sha256": "8eb68a37b16db28ea7d6b0092c30bf5c6e6df90c840ee736f88e3112c2854c57",
+    "bytes": 99
+  },
+  {
+    "path": "discovery-links.json",
+    "sha256": "9250a56523b2ae47b430181380f4abf4ed3eda9b4188768c452932989ef90870",
+    "bytes": 454
+  },
+  {
+    "path": "gut-health-image-transcript.txt",
+    "sha256": "e80ae13b4c3437ad592cfa27c0c049160f47580b66c57448da6a735fe7266a8e",
+    "bytes": 174
+  },
+  {
+    "path": "hydration-powder-passion-fruit-image-transcript.txt",
+    "sha256": "32ba12d8689b2f3f4cd5be229bbff7803385dd33cfd78d6d9f55e7c0360dcaad",
+    "bytes": 115
+  },
+  {
+    "path": "retrieval.json",
+    "sha256": "7fce0ab3e0fa1965af66a8ab4f781db1ccd34f898fa507ae2240456514de63df",
+    "bytes": 7514
+  },
+  {
+    "path": "images/hydration-powder-passion-fruit-1.png",
+    "sha256": "d5ce53d4ad950c49725ecb7cdd5ab9778bfaee7d7c8ab5acf9d51e67d50588ff",
+    "bytes": 48396
+  },
+  {
+    "path": "images/ashwagandha-plus-0.png",
+    "sha256": "0bd6d7bac01b74ae46ce4ea236709c0a2978ca6e4ca064ae205dcbd3c6e2a308",
+    "bytes": 552066
+  },
+  {
+    "path": "images/hydration-powder-passion-fruit-0.png",
+    "sha256": "07d04cca8228486a7af2517754f2fff840e0f68aff9ba82eb86befa2740f3243",
+    "bytes": 516454
+  },
+  {
+    "path": "images/creatine-hydration-powder-0.png",
+    "sha256": "a8c4e919ca1dd02419260d7d4b3ae0be2fd15f39fc9037f56727926f807d3eb4",
+    "bytes": 601660
+  },
+  {
+    "path": "images/hydration-powder-lychee-0.png",
+    "sha256": "07d04cca8228486a7af2517754f2fff840e0f68aff9ba82eb86befa2740f3243",
+    "bytes": 516454
+  },
+  {
+    "path": "images/nmn-1.png",
+    "sha256": "61b33159aa47a46e1a54efea242a86775e6ec4f7685a8fc2ec0b5cbd66ced79f",
+    "bytes": 46950
+  },
+  {
+    "path": "images/nmn-0.png",
+    "sha256": "86dc46bb72444de59e97b8ed303781560677c67aa2039ee45f09181f8d5e0e35",
+    "bytes": 847248
+  },
+  {
+    "path": "images/gut-health-1.png",
+    "sha256": "3828406617c091bc830dde088ce652d6372b5586b2fb394ace370e7cf0da6cc7",
+    "bytes": 36758
+  },
+  {
+    "path": "images/gut-health-0.png",
+    "sha256": "1e879dd9d9c964f118afa2075e93dd7e9900e5d3cdc06e3d4bec8b65e4fde00a",
+    "bytes": 833892
+  },
+  {
+    "path": "images/hydration-powder-peach-mango-0.png",
+    "sha256": "07d04cca8228486a7af2517754f2fff840e0f68aff9ba82eb86befa2740f3243",
+    "bytes": 516454
+  },
+  {
+    "path": "images/hydration-powder-peach-mango-1.png",
+    "sha256": "26bd575b1396bac03c0e83e6e17fed37af2f1827bb9e45940f979fa540d169f2",
+    "bytes": 41658
+  },
+  {
+    "path": "images/nad-0.png",
+    "sha256": "ff910dbdb89d037aa1290e46f6903db2556237ff4a1e013e0280447713159239",
+    "bytes": 1140606
+  },
+  {
+    "path": "images/nad-1.jpg",
+    "sha256": "9b5c5c6da8c7049977c5b92eb281f2035bc6d7c941f69bfaa9e48b31fc07bd67",
+    "bytes": 105258
+  },
+  {
+    "path": "images/magnesium-glycinate-0.png",
+    "sha256": "e1a8a0138a29f9372cf618cd334d3cc12cdafa159aa202099d22730cbe3d4bef",
+    "bytes": 849411
+  },
+  {
+    "path": "images/sleep-support-1.png",
+    "sha256": "4fc4c543552fabdcdc1b434ad816b09738338fa68e305f4e12c69bf3b3c9b913",
+    "bytes": 157464
+  },
+  {
+    "path": "images/sleep-support-0.jpg",
+    "sha256": "349399e1fa79820f74697b424397878eda096a5606572b18290d8314099dae25",
+    "bytes": 86627
+  },
+  {
+    "path": "images/magnesium-glycinate-1.png",
+    "sha256": "87c70e5035bc67c450adc0f65071f65d062278c231bfd1f12601ad160700a3db",
+    "bytes": 26393
+  },
+  {
+    "path": "images/focus-powder-sour-candy-0.png",
+    "sha256": "ad72df78d8a4f6e0498f4569e112a0196c99f66a9bcecc9d6be6ebeac3a9301c",
+    "bytes": 636076
+  },
+  {
+    "path": "images/focus-powder-sour-candy-1.png",
+    "sha256": "682c4b9c8bcf246679f9b380befc3d1eda7cb64f86b2c5a78e8af31f0915bed2",
+    "bytes": 53244
+  },
+  {
+    "path": "raw/sleep-support.html",
+    "sha256": "997bc05fc302d419e9ced620c1f9f1f3606013b4bc09c6dba104cc269e40e05f",
+    "bytes": 204282
+  },
+  {
+    "path": "raw/creatine-hydration-powder.json",
+    "sha256": "dd94db0f1f19624769220bf59c25e7f7e298b981a007c0b596e6a1b72eb5963d",
+    "bytes": 5971
+  },
+  {
+    "path": "raw/ashwagandha-plus.json",
+    "sha256": "d12d18b0634d83c77fac09dc05dfd8da5a1bef38f66e79903665afc86a8a29ed",
+    "bytes": 6772
+  },
+  {
+    "path": "raw/hydration-powder-lemonade.html",
+    "sha256": "8a447747e2c00fcf795e036497ecb3e4c694f5abb028162a13202ba0b6a637d6",
+    "bytes": 235897
+  },
+  {
+    "path": "raw/hydration-powder-peach-mango.txt",
+    "sha256": "446e997134283284a05c172e950e1bda35085e55efacba478b36a8988af59da2",
+    "bytes": 6303
+  },
+  {
+    "path": "raw/magnesium-glycinate.html",
+    "sha256": "176647c0414da85a0d98fb0c966bd00542cf1fa5758e2904a7e9e17391879bc2",
+    "bytes": 206015
+  },
+  {
+    "path": "raw/collection-members-page2.json",
+    "sha256": "86d8b086af0fc30d06856e218fcfdb6b803f91b45f50b1b753d8deac627fc054",
+    "bytes": 15
+  },
+  {
+    "path": "raw/nmn.html",
+    "sha256": "ab624156a3f1d9d5bbd1e14a4c3abab52691327a95eea3886214e949a3d8d679",
+    "bytes": 203931
+  },
+  {
+    "path": "raw/hydration-powder-passion-fruit.txt",
+    "sha256": "e559397adc70d38df6e36862a93c64a804f17278b32946ea327085a93154fdb5",
+    "bytes": 6307
+  },
+  {
+    "path": "raw/hydration-powder-lychee.html",
+    "sha256": "eb8afffc03115f27ca399727f3ea5a77136826da1a709be20af6d34863e4c4cc",
+    "bytes": 204917
+  },
+  {
+    "path": "raw/collection.html",
+    "sha256": "4445a36bb5116fa9f1f8363ac61b05339791665c8ad9258b447cd1e338324be0",
+    "bytes": 448980
+  },
+  {
+    "path": "raw/sleep-support.txt",
+    "sha256": "a1adb3024f860276edc6cea507334ffe4be2eae16288867ef3950960f8a560d5",
+    "bytes": 6710
+  },
+  {
+    "path": "raw/gut-health.html",
+    "sha256": "c6ca2a5bff043d48697978708ad1b8d7326084d1c1e97fdd361c412ffd259add",
+    "bytes": 203817
+  },
+  {
+    "path": "raw/creatine-hydration-powder.txt",
+    "sha256": "d1ede5861264e767751d68d85bb92ffd89e14b84b3a33ce7793a97a3c1c7aba1",
+    "bytes": 7420
+  },
+  {
+    "path": "raw/nad.txt",
+    "sha256": "42e637f815a173f3d1e4f43512316d90c4437e82ea034bc9187f2a71d95e9939",
+    "bytes": 7081
+  },
+  {
+    "path": "raw/hydration-powder-lemonade.txt",
+    "sha256": "7d8eaf9cee424e376cade57950887a8b20e400f4befc97c3dfe19fbf2488cac5",
+    "bytes": 2326
+  },
+  {
+    "path": "raw/collection-members.json",
+    "sha256": "a91978d5f9592e4d73397941092263e618517ee43433bd2edc9727b7a6896730",
+    "bytes": 74179
+  },
+  {
+    "path": "raw/hydration-powder-peach-mango.json",
+    "sha256": "a96c62cd0a623f135517c094abdd583baea1a8f18d3b70c4111e8c85e8f3d29f",
+    "bytes": 10086
+  },
+  {
+    "path": "raw/hydration-powder-passion-fruit.html",
+    "sha256": "107b41de4b17a31819d6696c6afcc2c2475da55b7c78260ac25f8e3b522b6d13",
+    "bytes": 204974
+  },
+  {
+    "path": "raw/nad.json",
+    "sha256": "df034fdb29b9e17c851bf4c941aed2c5e47e2410ddc631d7a49ca2459e90e1c5",
+    "bytes": 7400
+  },
+  {
+    "path": "raw/focus-powder-sour-candy.html",
+    "sha256": "814d2761baa696bdd75315d6ba2cd4c46c18681d4601a0804bd1469abd30772d",
+    "bytes": 204884
+  },
+  {
+    "path": "raw/focus-powder-sour-candy.json",
+    "sha256": "7ee72ebd9a0ed488af0aebf948236fa39a5de5f5c82ed279134f52ecbee10f39",
+    "bytes": 7074
+  },
+  {
+    "path": "raw/nad.html",
+    "sha256": "dccb3750f1a165e412b4541c621d4f85616275087aaa44f5fcabf52bd1260cdc",
+    "bytes": 203911
+  },
+  {
+    "path": "raw/collection.txt",
+    "sha256": "ef0935475b10fae2cd896070e398d345a44bceb97d047c5714134f4221e1a7ec",
+    "bytes": 16423
+  },
+  {
+    "path": "raw/hydration-powder-passion-fruit.json",
+    "sha256": "7a892e1530d14a035b7e49898b2ce7e83a94fa8717caa33888316b6ff348db26",
+    "bytes": 10042
+  },
+  {
+    "path": "raw/gut-health.txt",
+    "sha256": "3549ba2e1c1eaf01f9dd0abd53c9dfa72bf14da8bbc0322864c1fa962e1f3ac4",
+    "bytes": 6829
+  },
+  {
+    "path": "raw/hydration-powder-peach-mango.html",
+    "sha256": "62b71b5eb5f3a1e33a52d237fcf0ba0bf1f39c0dabdd7522b745b527f9879460",
+    "bytes": 204926
+  },
+  {
+    "path": "raw/nmn.txt",
+    "sha256": "51ab5f0dd314e5540240fb13c1e8d6707fef7388764a2d13128765f2083089e4",
+    "bytes": 6541
+  },
+  {
+    "path": "raw/gut-health.json",
+    "sha256": "215f03e9fd201eb0a6b1dddc215131cc020a5f12e12990cb16001932280e9d54",
+    "bytes": 5887
+  },
+  {
+    "path": "raw/nmn.json",
+    "sha256": "050257e6158c85c60493be1738ad937b4931280399795a22fa8e06f118c4e8c2",
+    "bytes": 7266
+  },
+  {
+    "path": "raw/hydration-powder-lychee.json",
+    "sha256": "4afa4f44109e4700df92daca4d6835a620a84d9ccca3ecfdeb524feeb6ebb5ad",
+    "bytes": 9467
+  },
+  {
+    "path": "raw/magnesium-glycinate.txt",
+    "sha256": "a1897c60aac829cbfba28aa9568148d26d498bba1b28e4133cf3b710249a7cc4",
+    "bytes": 6476
+  },
+  {
+    "path": "raw/magnesium-glycinate.json",
+    "sha256": "4ba9e63b0dff2f3d48a98ed8b4aa28d60b503ea21c3290c6cce154976b499d2b",
+    "bytes": 6922
+  },
+  {
+    "path": "raw/hydration-powder-lemonade.json",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "raw/ashwagandha-plus.html",
+    "sha256": "ee41bc28f85458846775398a3f2d34b4f51c119bbead3d262d6cc9c0689bec9f",
+    "bytes": 204508
+  },
+  {
+    "path": "raw/sleep-support.json",
+    "sha256": "db5d266ea787e13c24f134515d00f98407c478b76f57e080dd8d26876a29e622",
+    "bytes": 6873
+  },
+  {
+    "path": "raw/creatine-hydration-powder.html",
+    "sha256": "a74012360bca0c14e2420f986b55c0a93d75ec53d78ef5794dda3ac24570c8c3",
+    "bytes": 212321
+  },
+  {
+    "path": "raw/ashwagandha-plus.txt",
+    "sha256": "4523725286d877583c0ceab022866337e8b47d0513c2c30d02ae6695a88fa8f2",
+    "bytes": 6660
+  },
+  {
+    "path": "raw/hydration-powder-lychee.txt",
+    "sha256": "342ae48f592ee9ab2a9447f2229b49c011bf9d974ac155c06c84cae7ed95f8bd",
+    "bytes": 6308
+  },
+  {
+    "path": "raw/focus-powder-sour-candy.txt",
+    "sha256": "5c92e4eb3ff46500b0dbbdb4f0846a5e9e45b5e9f67d41da01701e84e2134b78",
+    "bytes": 7010
+  }
+]

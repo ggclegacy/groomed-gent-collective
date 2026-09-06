@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { GentlemanProvider, PersonalCommand, GentlemanWorkspace, GentlemanProfileEditor, CollectiveHub } from '@/components/gentleman-os';
 import { CommandDashboard, type CommandHandoff } from '@/components/command-dashboard';
 import type { Action } from '@/lib/dashboard/model';
 import { useEffect, useRef, useState } from 'react';
@@ -8,10 +9,8 @@ import {
   Copy,
   Fingerprint,
   House,
-  ChartNoAxesCombined,
+  Compass, Users, Leaf, Briefcase, LockKeyhole, NotebookPen,
   Sparkles,
-  BookOpen,
-  Aperture,
   Award,
   ShieldCheck,
 } from 'lucide-react';
@@ -34,13 +33,9 @@ import {
   type Section,
 } from '@/lib/collective';
 const navigation = [
-  ['home', 'Command center', House],
-  ['identity', 'Your identity', Fingerprint],
-  ['performance', 'Your impact', ChartNoAxesCombined],
-  ['intelligence', 'CASSIUS', Sparkles],
-  ['knowledge', 'Product Studio', BookOpen],
-  ['studio', 'Creator Studio', Aperture],
-  ['status', 'Status & privileges', Award],
+ ['home','COMMAND',House], ['collective','COLLECTIVE',Award], ['intelligence','CASSIUS',Sparkles],
+ ['voyage','VOYAGE',Compass], ['circle','CIRCLE',Users], ['life','LIFE',Leaf],
+ ['desk','DESK',Briefcase], ['vault','VAULT',LockKeyhole], ['logbook','LOGBOOK',NotebookPen], ['profile','Gentleman Profile',Fingerprint],
 ] as const;
 function Navigation({
   view,
@@ -109,8 +104,8 @@ function Navigation({
     </Sidebar>
   );
 }
-export default function Collective() {
-  const [view, setView] = useState<Section>('home');
+export default function Collective({ initialView = 'home' }: { initialView?: Section }) {
+  const [view, setView] = useState<Section>(initialView);
   const [notice, setNotice] = useState('');
   const [handoff, setHandoff] = useState<CommandHandoff | null>(null);
   function commandAction(action: Action) {
@@ -127,13 +122,13 @@ export default function Collective() {
   }, [view]);
   useEffect(() => {
     const sync = () => {
-      const key = window.location.hash.slice(1);
+      const key = window.location.hash.slice(1) || initialView;
       setView(sections.includes(key as Section) ? (key as Section) : 'home');
     };
     sync();
     window.addEventListener('hashchange', sync);
     return () => window.removeEventListener('hashchange', sync);
-  }, []);
+  }, [initialView]);
   const navigate = (key: Section) => {
     setView(key);
     setNotice('');
@@ -149,12 +144,12 @@ export default function Collective() {
     }
   }
   return (
-    <SidebarProvider>
+    <GentlemanProvider view={view}><SidebarProvider>
       <a className="skip-link" href="#main">
         Skip to content
       </a>
-      <Navigation view={view} navigate={navigate} />
-      <div className="app-main">
+      {view !== 'voyage' && <Navigation view={view} navigate={navigate} />}
+      <div className={`app-main ${view === 'voyage' ? 'voyage-active' : ''}`}>
         <header className="topbar">
           <div className="top-title">
             <SidebarTrigger />
@@ -180,11 +175,11 @@ export default function Collective() {
             <span className="edition">EST. IN GOOD COMPANY</span>
           </div>
           {view === 'home' ? (
-            <CommandDashboard onAction={commandAction} />
-          ) : view !== 'studio' ? (
+            <><PersonalCommand /><CommandDashboard onAction={commandAction} /></>
+          ) : view === 'collective' ? <CollectiveHub /> : view === 'profile' ? <GentlemanProfileEditor /> : ['voyage','circle','life','desk','vault','logbook'].includes(view) ? null : view !== 'studio' ? (
             <section className="detail-page">
               <span className="eyebrow gold">YOUR COLLECTIVE</span>
-              <h1>{navigation.find(([key]) => key === view)?.[1]}</h1>
+              <h1>{navigation.find(([key]) => key === view)?.[1] ?? ({identity:'Your identity',performance:'Your impact',knowledge:'Product Studio',status:'Status & privileges'} as Record<string,string>)[view]}</h1>
               {view === 'knowledge' ? (
                 <ProductStudio />
               ) : view === 'identity' ? (
@@ -231,6 +226,7 @@ export default function Collective() {
               )}
             </section>
           ) : null}
+          {['voyage','circle','life','desk','vault','logbook'].map(space => <div key={space} hidden={view !== space}>{space !== 'voyage' || view === 'voyage' ? <GentlemanWorkspace view={space} /> : null}</div>)}
           <section className="detail-page" hidden={view !== 'studio'}>
             <span className="eyebrow gold">YOUR COLLECTIVE</span>
             <h1>Creator Studio</h1>
@@ -246,13 +242,13 @@ export default function Collective() {
           </footer>
         </main>
       </div>
-      <nav className="mobile-dock" aria-label="Quick navigation">
+      <nav hidden={view === 'voyage'} className="mobile-dock" aria-label="Quick navigation">
         {(
           [
             ['home', 'Home', House],
             ['intelligence', 'CASSIUS', Sparkles],
-            ['studio', 'Create', Aperture],
-            ['status', 'Status', Award],
+            ['voyage', 'Voyage', Compass],
+            ['circle', 'Circle', Users],
           ] as const
         ).map(([key, label, Icon]) => (
           <a
@@ -266,7 +262,7 @@ export default function Collective() {
           </a>
         ))}
       </nav>
-    </SidebarProvider>
+    </SidebarProvider></GentlemanProvider>
   );
 }
 

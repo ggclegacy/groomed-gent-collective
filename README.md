@@ -1,3 +1,7 @@
+## Voyage — immersive location intelligence
+
+The existing Voyage entry and `/voyage` now open the full-screen daily discovery mode. Prior trip tools are preserved under **Journeys**. See [Voyage implementation and setup](docs/voyage.md) for providers, credentials, demo boundaries and verification.
+
 # The Groomed Gent Collective
 
 ## Current Cassius runtime

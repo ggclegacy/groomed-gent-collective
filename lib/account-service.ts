@@ -1,3 +1,5 @@
+import type { AccountDatabase } from './account-database.ts';
+import { emptyMemory, parseMemory } from './gentleman/model.ts';
 import {
   AccountError,
   canonicalLibrary,
@@ -7,6 +9,7 @@ import {
 } from './account.ts';
 export interface IdentityConfig {
   mode?: string;
+  verifiedIdentity?: Identity | null;
   ownerId?: string;
 }
 interface Identity {
@@ -19,6 +22,11 @@ export function getIdentity(
   request: Request,
   config: IdentityConfig,
 ): Identity | null {
+  if (config.mode === 'verified-provider') {
+    const identity = config.verifiedIdentity;
+    if (!identity || typeof identity.id !== 'string' || !identity.id || identity.id.length > 256) return null;
+    try { return { id: identity.id, email: normalizeEmail(identity.email) }; } catch { return null; }
+  }
   // Header authentication is allowed only behind the configured Sites dispatcher.
   // Local Vite middleware strips client identity headers and supplies its mock user.
   if (!['sites-local', 'sites-dispatch'].includes(config.mode ?? ''))
@@ -39,11 +47,11 @@ export function getIdentity(
 }
 export async function access(
   request: Request,
-  db: D1Database | undefined,
+  db: AccountDatabase | undefined,
   config: IdentityConfig,
 ): Promise<AccountAccess> {
   const configured = Boolean(
-    db && ['sites-local', 'sites-dispatch'].includes(config.mode ?? ''),
+    db && ['sites-local', 'sites-dispatch', 'verified-provider'].includes(config.mode ?? ''),
   );
   const user = configured ? getIdentity(request, config) : null;
   const member =
@@ -55,6 +63,7 @@ export async function access(
       : null;
   return {
     configured,
+    ...(config.mode === 'verified-provider' ? { signInPath: '/sign-in', signOutPath: '/member-session' } : {}),
     local: config.mode === 'sites-local',
     signedIn: Boolean(user),
     owner: Boolean(user && config.ownerId && user.id === config.ownerId),
@@ -124,7 +133,7 @@ async function body(request: Request): Promise<Record<string, unknown>> {
 }
 export async function accountApi(
   request: Request,
-  db: D1Database | undefined,
+  db: AccountDatabase | undefined,
   config: IdentityConfig,
 ): Promise<Response> {
   try {
@@ -182,8 +191,25 @@ export async function accountApi(
         library: canonicalLibrary(JSON.parse(row.document)),
       });
     }
+    if (path === '/api/account/memory' && request.method === 'GET') {
+      active();
+      const row = await db.prepare("SELECT revision,document FROM gentleman_memories WHERE owner_id=? AND EXISTS (SELECT 1 FROM members WHERE user_id=? AND status='active')").bind(user.id,user.id).first<{revision:number;document:string}>();
+      return json(row ? {revision:row.revision,memory:parseMemory(JSON.parse(row.document))} : {revision:0,memory:emptyMemory()});
+    }
     const data = await body(request);
     const now = new Date().toISOString();
+    if (path === '/api/account/memory' && request.method === 'PUT') {
+      active();
+      if (!Number.isSafeInteger(data.revision) || (data.revision as number) < 0) throw new AccountError(400,'A valid memory revision is required.');
+      let memory;
+      try { memory = parseMemory(data.memory); if (new TextEncoder().encode(JSON.stringify(memory)).byteLength > 1_500_000) throw new Error(); }
+      catch { throw new AccountError(400,'The memory document is invalid or too large.'); }
+      const document = JSON.stringify(memory);
+      let result = await db.prepare("INSERT INTO gentleman_memories (owner_id,revision,document,saved_at) SELECT ?,1,?,? WHERE ?=0 AND EXISTS (SELECT 1 FROM members WHERE user_id=? AND status='active') ON CONFLICT(owner_id) DO NOTHING RETURNING revision").bind(user.id,document,now,data.revision,user.id).first<{revision:number}>();
+      if (!result) result = await db.prepare("UPDATE gentleman_memories SET document=?,revision=revision+1,saved_at=? WHERE owner_id=? AND revision=? AND EXISTS (SELECT 1 FROM members WHERE user_id=? AND status='active') RETURNING revision").bind(document,now,user.id,data.revision,user.id).first<{revision:number}>();
+      if (!result) throw new AccountError(409,'Memory changed or access was withdrawn. Export your working copy and reload before saving again.');
+      return json({revision:result.revision,memory});
+    }
     if (path === '/api/account/invitations' && request.method === 'POST') {
       owner();
       const email = normalizeEmail(data.email);

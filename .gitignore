@@ -39,3 +39,7 @@ next-env.d.ts
 
 # TypeScript incremental cache
 *.tsbuildinfo
+
+# Checked-in setup templates contain names only.
+!.env.voyage.example
+!.env.accounts.example
