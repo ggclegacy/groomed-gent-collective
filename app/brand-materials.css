@@ -11,10 +11,10 @@
   --primary: #c9a45c;
   --purple: #6b9b85;
   --purple-light: #e0bf7a;
-  --amethyst: #12271e;
+  --amethyst: #1a1917;
   --violet: #6b9b85;
   --border: #c9a45c40;
-  --muted: #111815;
+  --muted: #131211;
   --muted-foreground: #b3bfba;
   --glass-edge: #c9a45c55;
   --gold-metal: linear-gradient(145deg, #6f4915 0%, #8a5e1b 16%, #a87522 32%, #c9a45c 50%, #a77220 66%, #7b5218 82%, #4a300e 100%);
@@ -25,21 +25,21 @@
     var(--gold-metal);
   --brand-purple-panel:
     radial-gradient(ellipse at 85% 90%, #6b9b853d, transparent 65%),
-    linear-gradient(145deg, #0c1c15 0%, #163125 28%, #1c3d2e 52%, #2b5f48 72%, #11261d 100%);
-  --brand-purple-quiet: linear-gradient(145deg, #12271e, #111815 75%);
+    linear-gradient(145deg, #121210 0%, #201f1d 28%, #282724 52%, #2b5f48 72%, #191816 100%);
+  --brand-purple-quiet: linear-gradient(145deg, #1a1917, #131211 75%);
   --brand-bevel: inset 0 1px #e8c67070, inset 0 -1px #462a068a, 0 20px 50px #0009;
   --glass: var(--brand-purple-quiet);
   --glass-signature: var(--brand-purple-panel);
   --glass-shadow: var(--brand-bevel);
 }
 .visual-dashboard { --vd-gold: var(--gold); --vd-muted: #b3bfba; --vd-edge: #c9a45c40; }
-.product-studio { --ps-gold: var(--gold); --ps-muted: #b3bfba; --ps-amethyst: #12271e; }
+.product-studio { --ps-gold: var(--gold); --ps-muted: #b3bfba; --ps-amethyst: #1a1917; }
 .creative-studio { --cs-gold: var(--gold); --cs-dim: #b3bfba; }
 body::before {
-  background: radial-gradient(ellipse at 14% 28%, #377a5c3d, transparent 56%), radial-gradient(ellipse at 86% 68%, #1c3d2e2e, transparent 50%), linear-gradient(160deg, #0a0a0a, #0c1c15 38%, #09140f 65%, #060d0a);
+  background: radial-gradient(ellipse at 14% 28%, #377a5c3d, transparent 56%), radial-gradient(ellipse at 86% 68%, #2827242e, transparent 50%), linear-gradient(160deg, #0a0a0a, #121210 38%, #0d0d0c 65%, #090808);
 }
 .ambient-gold { background: radial-gradient(ellipse, #c9a45c26, #e0bf7a0d 40%, transparent 68%); }
-.ambient-platinum { background: radial-gradient(ellipse, #6b9b8538, #1c3d2e2e 45%, transparent 65%); }
+.ambient-platinum { background: radial-gradient(ellipse, #6b9b8538, #2827242e 45%, transparent 65%); }
 .vd-glass, .ps-glass, .panel, .pending-panel, .membership-record,
 .member-door, .draft-library, .studio-editor, .cs-director, .cs-canvas-panel {
   background: var(--brand-purple-quiet);
@@ -54,11 +54,11 @@ body::before {
 .vd-earnings, .membership, .status-hero, .ps-product {
   background: var(--brand-gold-panel);
   border-color: #e0bf7a80;
-  box-shadow: var(--brand-bevel), 0 0 48px #1c3d2e24;
+  box-shadow: var(--brand-bevel), 0 0 48px #28272424;
 }
 .vd-earnings {
   --vd-muted: #f2f0eb;
-  --vd-edge: #12271e4d;
+  --vd-edge: #1a19174d;
   color: #f2f0eb;
 }
 .vd-earnings .vd-module-header > .vd-overline,
@@ -67,16 +67,16 @@ body::before {
   color: #f2f0eb;
   background: none;
   -webkit-text-fill-color: currentColor;
-  text-shadow: 0 2px 12px #12271e80;
+  text-shadow: 0 2px 12px #1a191780;
 }
 .vd-earnings-main {
   padding: 16px;
   border: 1px solid #e0bf7a55;
   border-radius: 16px;
-  background: #12271eed;
+  background: #1a1917ed;
   box-shadow: inset 0 1px #e0bf7a33;
 }
-.vd-earnings .vd-balances { padding: 16px; border-radius: 12px; background: #12271eed; }
+.vd-earnings .vd-balances { padding: 16px; border-radius: 12px; background: #1a1917ed; }
 .vd-earnings .vd-balances span { color: #d1dfd9; }
 .vd-metric { background: var(--brand-purple-quiet); border-color: #e0bf7a55; }
 .vd-metric-label, .vd-metric-detail { color: #bdcdc6; }
@@ -94,7 +94,7 @@ body::before {
 .vd-command-wide { background: var(--brand-gold-panel); color: #f2f0eb; }
 .vd-command-wide :is(span, small, strong, svg) { color: #f2f0eb; }
 .ps-product .ps-product-copy {
-  background: #12271eed;
+  background: #1a1917ed;
   border: 1px solid #e0bf7a55;
   border-radius: 16px;
   padding: 20px;
@@ -109,7 +109,7 @@ body::before {
 /* Gold controls retain a dark, stable text bed through the metallic range. */
 .vd-gold-button, .gold-button, .cs-generate, .member-door .gold-button {
   background: linear-gradient(145deg, #e0bf7a, #c9a45c 55%, #e0bf7a);
-  color: #12271e;
+  color: #1a1917;
   border-color: #e0bf7a;
   box-shadow: inset 0 1px #e0bf7a, inset 0 -2px #7b5218, 0 7px 24px #c9a45c26;
 }
@@ -127,15 +127,15 @@ body::before {
 }
 .cs-tabs button[aria-current], .ps-room-nav button[aria-pressed='true'] { color: var(--gold-light); border-color: var(--gold); }
 .club-sidebar [data-slot='sidebar-inner'], .mobile-dock { background: #0a0a0af5; border-color: #c9a45c66; }
-.vd-chip-gold, .vd-chip-green { color: #e0bf7a; background: #12271e; border-color: #c9a45c80; }
+.vd-chip-gold, .vd-chip-green { color: #e0bf7a; background: #1a1917; border-color: #c9a45c80; }
 .vd-command:hover, .ps-product:hover, .ps-daily:hover { border-color: var(--gold-light); box-shadow: var(--brand-bevel), 0 0 26px #c9a45c26; }
 .vd-bar > span { background: var(--gold-metal); }
 .vd-chart-legend i:first-child { background: var(--gold); }
 .vd-chart-legend span:nth-child(2) i { background: var(--purple); }
-.vd-channel-donut > div { background: #12271e; }
+.vd-channel-donut > div { background: #1a1917; }
 .core-gold-bezel { background: conic-gradient(from -28deg, #7b5218, #c9a45c 15%, #e0bf7a 25%, #7b5218 38%, #c9a45c 55%, #e0bf7a 72%, #4a300e 90%, #7b5218); }
 .core-heart { background: radial-gradient(circle, #e0bf7a, #c9a45c 20%, #6b9b8566 48%, transparent 72%); }
-.core-aura { background: radial-gradient(circle, #6b9b854d, #1c3d2e33 45%, transparent 70%); }
+.core-aura { background: radial-gradient(circle, #6b9b854d, #28272433 45%, transparent 70%); }
 .core-filaments path:nth-child(2) { stroke: #6b9b85b3; }
 .core-network circle { fill: var(--gold-light); }
 .cs-sigil, .cs-orbit, .ps-atlas-orbit { color: var(--gold-light); background: var(--brand-purple-panel); border-color: #c9a45c80; }
@@ -149,7 +149,7 @@ body::before {
 @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
   .vd-glass, .ps-glass, .panel, .cs-director, .cs-canvas-panel, .member-door,
   .membership, .status-hero, .ps-product, .vd-command, .mobile-dock {
-    background: #12271e; color: #f2f0eb; border-color: #e0bf7a; backdrop-filter: none;
+    background: #1a1917; color: #f2f0eb; border-color: #e0bf7a; backdrop-filter: none;
   }
 }
 @media (forced-colors: active) {

@@ -69,7 +69,7 @@ body::before {
   border: 1px solid #c9a45c38;
   border-radius: 22px;
   color: #e0bf7a;
-  background: #09120ee8;
+  background: #0c0c0be8;
   backdrop-filter: blur(16px);
   box-shadow:
     0 5px 20px #0008,
@@ -90,7 +90,7 @@ body::before {
 .product-studio {
   --ps-gold: #c9a45c;
   --ps-muted: #899f95;
-  --ps-amethyst: #0f1a15;
+  --ps-amethyst: #131211;
 }
 .creative-studio {
   --cs-gold: #c9a45c;
@@ -113,7 +113,7 @@ body::before {
   isolation: isolate;
   border-color: #e0bf7a30;
   background:
-    linear-gradient(135deg, #ffffff0b, transparent 36%, #6b9b8505 100%), #0b130f;
+    linear-gradient(135deg, #ffffff0b, transparent 36%, #6b9b8505 100%), #0e0d0c;
   box-shadow:
     0 20px 50px #0008,
     inset 0 1px #c9a45c2d,
@@ -153,7 +153,7 @@ body::before {
 .intelligence-stage {
   background:
     radial-gradient(ellipse at 0 0, #f4ce6c17, transparent 46%),
-    radial-gradient(ellipse at 100% 80%, #6b9b850b, transparent 50%), #08100c;
+    radial-gradient(ellipse at 100% 80%, #6b9b850b, transparent 50%), #0b0b0a;
   border-color: #f2cc6e65;
   box-shadow:
     inset 0 1px #c9a45ca6,
@@ -191,7 +191,7 @@ body::before {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  color: #18221e;
+  color: #1a1918;
   background: var(--gold-metal);
   border: 1px solid #c9a45cd9;
   box-shadow:
@@ -240,7 +240,7 @@ body::before {
     box-shadow 0.3s;
 }
 .vd-command {
-  background: linear-gradient(125deg, #c9a45c0c, #0f1a15);
+  background: linear-gradient(125deg, #c9a45c0c, #131211);
   border-color: #e0bf7a40;
 }
 .vd-command:hover,
@@ -256,7 +256,7 @@ body::before {
 .vd-command-icon,
 .vd-pulse-icon,
 .ps-product-mark {
-  background: linear-gradient(140deg, #c9a45c28, #121f19 55%, #6b9b8512);
+  background: linear-gradient(140deg, #c9a45c28, #161514 55%, #6b9b8512);
   color: #c9a45c;
   border-color: #c9a45c65;
   box-shadow:
@@ -280,7 +280,7 @@ body::before {
   border-color: #e0bf7a3f;
 }
 .vd-metric {
-  background: linear-gradient(130deg, #ffffff08, #060e0a);
+  background: linear-gradient(130deg, #ffffff08, #090908);
   border-color: #c9a45c21;
   box-shadow: inset 0 1px #c9a45c17;
 }
@@ -289,10 +289,10 @@ body::before {
   color: #e0bf7a;
 }
 .vd-command-wide {
-  background: linear-gradient(110deg, #f6ce6a15, #0a1510 70%);
+  background: linear-gradient(110deg, #f6ce6a15, #0e0e0d 70%);
 }
 .vd-tooltip {
-  background: #0e1914f5;
+  background: #121110f5;
   border-color: #c9a45c6b;
   box-shadow: 0 15px 30px #000b;
 }
@@ -300,11 +300,11 @@ body::before {
   background: var(--gold-metal);
 }
 .vd-channel-donut > div {
-  background: #0a1410;
+  background: #0e0d0c;
 }
 /* Floating navigation picks up highlights from the luminous environment. */
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff0c, #09100ded 50%, #6b9b850a);
+  background: linear-gradient(125deg, #ffffff0c, #0b0b0aed 50%, #6b9b850a);
   border-color: #e0bf7a46;
   box-shadow:
     inset 0 1px #c9a45c65,
@@ -314,14 +314,14 @@ body::before {
 .mobile-dock a[aria-current] {
   color: #c9a45c;
   border-color: #f0cc6f75;
-  background: linear-gradient(115deg, #c9a45c22, #14251d99);
+  background: linear-gradient(115deg, #c9a45c22, #1a191799);
   box-shadow:
     inset 0 1px #c9a45c78,
     inset 3px 0 #f8cf68,
     0 0 20px #c9a45c0c;
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #c9a45c16, #09140ff2 45%, #6b9b850d);
+  background: linear-gradient(120deg, #c9a45c16, #0d0d0cf2 45%, #6b9b850d);
   border-color: #c9a45c6b;
   box-shadow:
     inset 0 1px #c9a45c80,
@@ -570,7 +570,7 @@ html[data-ambient-motion='paused'] [data-material]::after {
   .cs-director,
   .cs-canvas-panel,
   .mobile-dock {
-    background: #08100c;
+    background: #0b0b0a;
     backdrop-filter: none;
     border-color: #e0bf7a;
   }
@@ -600,7 +600,7 @@ html[data-ambient-motion='paused'] [data-material]::after {
 .cs-empty {
   background:
     radial-gradient(ellipse at 50% 32%, #c9a45c14, transparent 55%),
-    radial-gradient(ellipse at 100% 100%, #6b9b850a, transparent 60%), #08100c;
+    radial-gradient(ellipse at 100% 100%, #6b9b850a, transparent 60%), #0b0b0a;
   border-color: #c9a45c2c;
 }
 .vd-is-thinking .core-fluid {

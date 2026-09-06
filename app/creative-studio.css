@@ -107,7 +107,7 @@
 .cs-director,
 .cs-canvas-panel,
 .cs-brands form {
-  background: linear-gradient(145deg, #ffffff06, #ffffff00 42%), #0d1310;
+  background: linear-gradient(145deg, #ffffff06, #ffffff00 42%), #0f0e0d;
   border: 1px solid #bfb39224;
   border-radius: 22px;
   padding: 24px;
@@ -160,7 +160,7 @@
   width: 100%;
   border: 1px solid #ffffff18;
   border-radius: 9px;
-  background: #060c09;
+  background: #080807;
   color: #ecece5;
   padding: 12px;
   font: inherit;
@@ -272,7 +272,7 @@
   border-radius: 14px;
   background:
     radial-gradient(ellipse at 50% 32%, #25493945, transparent 55%),
-    linear-gradient(145deg, #101814, #080b0a);
+    linear-gradient(145deg, #121210, #090808);
   padding: 30px;
 }
 .cs-orbit {
@@ -329,7 +329,7 @@
   width: 100%;
   max-height: 780px;
   overflow: hidden;
-  background: #040706;
+  background: #050504;
   border-radius: 12px;
 }
 .cs-canvas > img:first-child {
@@ -438,7 +438,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  background: #22332b;
+  background: #272523;
   color: #e0dfc5;
   border: 1px solid #d5c18433;
   border-radius: 10px;
@@ -460,7 +460,7 @@
 }
 .cs-thumbs img {
   object-fit: contain;
-  background: #1e2924;
+  background: #201f1d;
   border-radius: 5px;
 }
 .cs-thumbs button {
@@ -503,7 +503,7 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
-  background: #07100ccc;
+  background: #0a0a09cc;
   backdrop-filter: blur(8px);
   font-size: 12px;
 }
@@ -536,7 +536,7 @@
   border: 1px solid #ffffff16;
   border-radius: 15px;
   overflow: hidden;
-  background: #0d1310;
+  background: #0f0e0d;
 }
 .cs-gallery article > div {
   padding: 15px;

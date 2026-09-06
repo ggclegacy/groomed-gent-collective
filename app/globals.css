@@ -12,7 +12,7 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-primary: var(--primary);
-  --color-primary-foreground: #090b0a;
+  --color-primary-foreground: #090908;
   --color-accent: #242119;
   --color-accent-foreground: var(--foreground);
   --color-ring: #99b9ab;
@@ -31,13 +31,13 @@
   --primary: #c9a45c;
   --gold-light: #e7c681;
   --gold: #c9a45c;
-  --amethyst: #0e1210;
+  --amethyst: #0f0e0d;
   --violet: #cfab66;
   --glass:
-    linear-gradient(135deg, #ffffff0c, #ffffff02 40%, #c9a45c0d), #101211;
+    linear-gradient(135deg, #ffffff0c, #ffffff02 40%, #c9a45c0d), #0f0f0e;
   --glass-signature:
     radial-gradient(ellipse at 95% 90%, #c9a45c18, transparent 65%),
-    linear-gradient(130deg, #c9a45c10, transparent 38%), #0c100e;
+    linear-gradient(130deg, #c9a45c10, transparent 38%), #0d0c0b;
   --gold-rim:
     0 22px 50px #0006, inset 0 1px 0 #f3d49245, inset 1px 0 0 #c9a45c18,
     inset 0 -1px 0 #c9a45c25;
@@ -148,7 +148,7 @@ em {
 .club-sidebar [data-slot='sidebar-inner'] {
   border: 1px solid var(--glass-edge);
   border-radius: 25px;
-  background: linear-gradient(155deg, #25251f90, #0b0d0ce8 52%, #101011aa);
+  background: linear-gradient(155deg, #25251f90, #0b0b0ae8 52%, #101011aa);
   box-shadow: var(--glass-shadow);
   backdrop-filter: blur(24px);
 }
@@ -464,7 +464,7 @@ main {
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    #1a392b35,
+    #26242235,
     #c9a45c0c 55%,
     transparent 73%
   );
@@ -508,14 +508,14 @@ main {
   border-radius: 50%;
   background: conic-gradient(
     from 10deg,
-    #0f1311,
+    #0f0f0e,
     #3b433f 12%,
-    #0f1110 24%,
+    #0f0e0d 24%,
     #77766a 35%,
-    #111513 46%,
-    #090c0b 62%,
+    #11110f 46%,
+    #0a0909 62%,
     #606c67 78%,
-    #0f1311 94%
+    #0f0f0e 94%
   );
   box-shadow:
     inset 0 1px #fff3,
@@ -550,7 +550,7 @@ main {
   border-radius: 50%;
   background: repeating-conic-gradient(
     from 43deg,
-    #0a0c0b 0deg 5deg,
+    #0a0a09 0deg 5deg,
     transparent 5deg 90deg
   );
   mask-image: radial-gradient(circle, transparent 62%, #000 63%);
@@ -560,9 +560,9 @@ main {
   inset: 17%;
   border-radius: 50%;
   border: 1px solid #e1bd6980;
-  background: radial-gradient(circle, #030605 56%, #17241e 66%, #0a0f0d 70%);
+  background: radial-gradient(circle, #040404 56%, #1b1a18 66%, #0b0b0a 70%);
   box-shadow:
-    0 0 0 3px #050807,
+    0 0 0 3px #060605,
     0 0 0 5px #c9a45c45,
     inset 0 0 0 3px #c9a45c20,
     inset 0 0 25px #000;
@@ -574,9 +574,9 @@ main {
   overflow: hidden;
   background: radial-gradient(
     circle at 35% 27%,
-    #12291f,
-    #060e0a 43%,
-    #020504 78%
+    #1b1a18,
+    #090908 43%,
+    #030303 78%
   );
   border: 1px solid #6e9d8830;
   box-shadow:
@@ -715,7 +715,7 @@ main {
   place-items: center;
   border: 1px solid #e9c979;
   border-radius: 38% 38% 45% 45%;
-  background: linear-gradient(140deg, #b48a354d, #0b100eeb 65%, #c9a45c45);
+  background: linear-gradient(140deg, #b48a354d, #0c0c0beb 65%, #c9a45c45);
   box-shadow:
     inset 0 0 0 3px #c9a45c24,
     0 4px 12px #0009;
@@ -740,7 +740,7 @@ main {
   content: '';
   position: absolute;
   inset: 2px;
-  background: linear-gradient(130deg, #2d3c35, #0f1613);
+  background: linear-gradient(130deg, #2d3c35, #11100f);
   clip-path: inherit;
 }
 .core-lock span {
@@ -851,7 +851,7 @@ main {
   padding: 25px;
   background:
     linear-gradient(120deg, #d9b56317, transparent 48%),
-    linear-gradient(145deg, #302919, #0b0d0c 55%, #20342b);
+    linear-gradient(145deg, #302919, #0b0b0a 55%, #262522);
   box-shadow: var(--glass-shadow);
   display: flex;
   flex-direction: column;
@@ -1101,7 +1101,7 @@ main {
   left: 16px;
   z-index: 100;
   background: var(--gold-light);
-  color: #080b0a;
+  color: #090808;
   padding: 14px;
   border-radius: 12px;
 }
@@ -1211,7 +1211,7 @@ main {
   gap: 24px 40px;
   align-items: start;
   background:
-    radial-gradient(ellipse at 18% 25%, #203e3175, transparent 45%),
+    radial-gradient(ellipse at 18% 25%, #2b292675, transparent 45%),
     var(--glass);
 }
 .intelligence-presence {
@@ -2168,7 +2168,7 @@ main {
     padding: 7px;
     border: 1px solid #c9a45c55;
     border-radius: 24px;
-    background: linear-gradient(150deg, #29261edd, #0a0d0cf5 55%, #17241eed);
+    background: linear-gradient(150deg, #29261edd, #0a0a09f5 55%, #1b1a18ed);
     box-shadow:
       0 12px 35px #000a,
       inset 0 1px #fff2;
@@ -2189,7 +2189,7 @@ main {
   .mobile-dock a[aria-current] {
     color: var(--gold-light);
     border-color: #c9a45c40;
-    background: linear-gradient(145deg, #c9a45c35, #17241eb0);
+    background: linear-gradient(145deg, #c9a45c35, #1b1a18b0);
     box-shadow: inset 0 1px #f2dc9d20;
   }
   [data-mobile='true'][data-slot='sidebar'] {
@@ -2310,7 +2310,7 @@ main {
 .destinations > a > svg {
   color: #f0d497;
   border-color: #c9a45c85;
-  background: linear-gradient(140deg, #c9a45c50, #131b17 50%, #20342b);
+  background: linear-gradient(140deg, #c9a45c50, #151413 50%, #262522);
   box-shadow:
     inset 0 1px #ffe6af70,
     inset 0 -1px #c9a45c45,

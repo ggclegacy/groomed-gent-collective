@@ -1,6 +1,6 @@
 /* Product Studio extends the Collective's obsidian, amethyst and gold tokens. */
 .product-studio {
-  --ps-amethyst: #12281e;
+  --ps-amethyst: #1a1918;
   --ps-gold: #d9bc78;
   --ps-muted: #b2bdb8;
   font-size: 16px;
@@ -57,7 +57,7 @@
   margin: 0;
 }
 .ps-glass {
-  background: linear-gradient(135deg, #1a392b77, #0b130fee 60%), #0b100e;
+  background: linear-gradient(135deg, #26242277, #0e0d0cee 60%), #0c0c0b;
   border: 1px solid #6c8e7f40;
   border-top-color: #83ab9966;
   border-radius: 18px;
@@ -98,7 +98,7 @@
   overflow-x: auto;
   padding: 6px;
   border: 1px solid #60807244;
-  background: #080d0b;
+  background: #0a0909;
   border-radius: 12px;
 }
 .ps-destinations button {
@@ -110,7 +110,7 @@
 }
 .ps-destinations button[aria-pressed='true'] {
   color: #eddaa7;
-  background: linear-gradient(120deg, #314039, #1b2722);
+  background: linear-gradient(120deg, #314039, #1e1d1b);
   box-shadow: inset 0 1px 0 #e5da9f35;
 }
 .ps-context {
@@ -195,7 +195,7 @@
   border-radius: 17px;
   background:
     radial-gradient(ellipse at 60% 35%, #28574266, transparent 65%),
-    linear-gradient(140deg, #18231e, #070d0a 70%);
+    linear-gradient(140deg, #1b1a18, #090908 70%);
   box-shadow:
     inset 0 1px 0 #bcd1c82b,
     0 16px 28px #0004;
@@ -405,7 +405,7 @@
   color: #b9a466;
 }
 .ps-room-nav button[aria-pressed='true'] {
-  background: #24372e;
+  background: #292825;
   color: #f1d99f;
   border-radius: 5px;
 }
@@ -423,7 +423,7 @@
 .ps-result {
   margin-top: 22px;
   padding: 18px;
-  background: #050b0899;
+  background: #07070799;
   border: 1px solid #59827055;
   border-radius: 12px;
   overflow-wrap: anywhere;

@@ -6,7 +6,7 @@
   gap: 1rem;
   align-items: center;
   padding: 10px 24px;
-  background: #091712;
+  background: #0f0e0d;
   color: #b7c7be;
   border-bottom: 1px solid #bca36730;
   font-size: 13px;
@@ -44,8 +44,8 @@
   border: 1px solid #c4ac6840;
   border-radius: 22px;
   background:
-    radial-gradient(ellipse at top right, #18483685, transparent 75%),
-    linear-gradient(130deg, #0c1a15, #080c0b);
+    radial-gradient(ellipse at top right, #2c2a2785, transparent 75%),
+    linear-gradient(130deg, #11110f, #090908);
   box-shadow:
     inset 0 1px #ffffff14,
     0 20px 55px #0005;
@@ -104,7 +104,7 @@
   margin: 24px 0;
   border: 1px solid #bdab7040;
   border-radius: 18px;
-  background: linear-gradient(130deg, #152b22bb, #0b100fee);
+  background: linear-gradient(130deg, #1d1c1abb, #0c0c0bee);
   box-shadow: inset 0 1px #ffffff13;
 }
 .gent-editor h2 {
@@ -127,7 +127,7 @@
   padding: 12px 14px;
   border-radius: 9px;
   border: 1px solid #b1bfad40;
-  background: #060c09;
+  background: #080807;
   color: #eef0e8;
   font: inherit;
   font-size: 16px;
@@ -168,7 +168,7 @@
   padding: 26px;
   border: 1px solid #b6a36633;
   border-radius: 18px;
-  background: linear-gradient(130deg, #12271e99, #0a100de6);
+  background: linear-gradient(130deg, #1a191799, #0c0b0be6);
   box-shadow: inset 0 1px #ffffff0d;
 }
 .gent-record h2 {
@@ -204,7 +204,7 @@
   border: 1px solid #baa56e28;
   border-radius: 20px;
   margin-top: 28px;
-  background: radial-gradient(ellipse at center, #17382b70, transparent);
+  background: radial-gradient(ellipse at center, #24232070, transparent);
 }
 .gent-empty h2 {
   font-weight: 400;
@@ -234,7 +234,7 @@
   padding: 26px;
   border: 1px solid #baa56e33;
   border-radius: 18px;
-  background: linear-gradient(120deg, #14332680, #0b110e);
+  background: linear-gradient(120deg, #201f1d80, #0d0c0b);
   display: grid;
   gap: 12px;
 }
@@ -259,7 +259,7 @@
   padding: 15px 23px;
   border-radius: 40px;
   border: 1px solid #d0b66c88;
-  background: linear-gradient(145deg, #204b37, #0b1b13);
+  background: linear-gradient(145deg, #204b37, #11110f);
   color: #e7d6a4;
   box-shadow:
     0 6px 30px #0008,
@@ -281,7 +281,7 @@
   max-height: 100dvh;
   margin: 0;
   padding: 32px;
-  background: linear-gradient(160deg, #122a20, #080e0b 65%);
+  background: linear-gradient(160deg, #1b1a18, #0a0a09 65%);
   color: #eef0e8;
   border: 0;
   border-left: 1px solid #c7ac6566;
@@ -411,7 +411,7 @@
   border-radius: 22px;
   border: 1px solid #bda96f44;
   background:
-    radial-gradient(ellipse at top right, #24503999, transparent), #0a130f;
+    radial-gradient(ellipse at top right, #24503999, transparent), #0d0d0c;
   box-shadow: inset 0 1px #ffffff18;
 }
 .voyage-journey h2 {
@@ -433,7 +433,7 @@
   padding: 28px;
   border: 1px solid #c8af6860;
   border-radius: 20px;
-  background: linear-gradient(120deg, #183f2d, #0b1711);
+  background: linear-gradient(120deg, #272623, #0f0f0e);
   box-shadow:
     0 15px 40px #0005,
     inset 0 1px #fff2;
@@ -465,7 +465,7 @@
   border: 1px solid #bda96f33;
   border-radius: 14px;
   padding: 18px;
-  background: #11251c66;
+  background: #18181666;
 }
 .voyage-tools summary {
   cursor: pointer;
@@ -512,7 +512,7 @@
 }
 .voyage-event > div:last-child {
   padding: 22px;
-  background: linear-gradient(120deg, #11271d, #0a110e);
+  background: linear-gradient(120deg, #191917, #0c0c0b);
   border: 1px solid #b8a66c33;
   border-radius: 15px;
 }
@@ -559,7 +559,7 @@
   border-radius: 16px;
   padding: 25px;
   margin-top: 27px;
-  background: #101e1777;
+  background: #15141377;
 }
 .voyage-aside h2 {
   font-size: 24px;
@@ -621,7 +621,7 @@
   margin: 15px 0;
 }
 .circle-contact input {
-  background: #09120d;
+  background: #0c0c0b;
   border: 1px solid #b8a66c55;
   color: #eee8d2;
   padding: 12px;
@@ -671,7 +671,7 @@
 .life-pulse {
   display: grid;
   grid-template-columns: 1fr 1fr 1.3fr;
-  background: linear-gradient(125deg, #152c2399, #080d0cdd);
+  background: linear-gradient(125deg, #1d1c1a99, #0a0909dd);
   border: 1px solid #bca87440;
   border-radius: 22px;
   overflow: hidden;
@@ -707,7 +707,7 @@
   border: 1px solid #bca87435;
   border-radius: 18px;
   padding: 24px;
-  background: #0c1713aa;
+  background: #100f0eaa;
 }
 .life-preparation summary {
   cursor: pointer;
@@ -738,7 +738,7 @@
 .life-trip-packing form input {
   width: 100%;
   min-width: 0;
-  background: #080f0c;
+  background: #0a0a09;
   border: 1px solid #a69a714d;
   color: #eee8db;
   border-radius: 8px;
@@ -773,7 +773,7 @@
 .life-preview {
   padding: 20px;
   margin: 20px 0;
-  background: #03080670;
+  background: #05050470;
   border-radius: 10px;
 }
 .life-preview ul,
@@ -874,7 +874,7 @@
 }
 .capture-quick {
   margin: 30px 0;
-  background: linear-gradient(120deg, #162b22a0, #090e0bcc);
+  background: linear-gradient(120deg, #1d1c1aa0, #0a0a09cc);
 }
 .capture-review {
   margin: 20px 0;
@@ -893,7 +893,7 @@
   padding: 26px;
   border: 1px solid #c9b57e35;
   border-radius: 20px;
-  background: linear-gradient(135deg, #142a2099, #080e0bd9);
+  background: linear-gradient(135deg, #1c1b1999, #0a0a09d9);
 }
 .desk-focus h2 {
   font-size: 30px;
