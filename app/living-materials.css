@@ -1,31 +1,32 @@
 /* Optical material layer shared by every Collective workspace.
-   Champagne highlights + platinum reflections; gold is light, never a brown wash. */
+   Rich metallic gold with deep forest reflections; preserve the optical depth and motion. */
 :root,
 .dark {
-  --gold: #e5c578;
-  --gold-light: #fff0c5;
-  --primary: #e5c578;
-  --glass-edge: #f3e5bc38;
+  --gold: #e5c678;
+  --gold-light: #ffd261;
+  --primary: #e5c678;
+  --glass-edge: #e7c87938;
   --glass:
-    linear-gradient(135deg, #ffffff0d, #ffffff02 32%, #a7d6e608 85%), #0a0c10;
+    linear-gradient(135deg, #ffffff0d, #ffffff02 32%, #6fb89808 85%), #0a0c10;
   --glass-signature:
-    radial-gradient(ellipse at 20% 0, #fce5ae17, transparent 55%),
+    radial-gradient(ellipse at 20% 0, #f9d06717, transparent 55%),
     linear-gradient(140deg, #15171d, #07090d);
   --gold-metal: linear-gradient(
     115deg,
-    #fffdf0 0%,
-    #f9e5ae 21%,
-    #d7b96f 38%,
-    #fff9de 49%,
-    #f0d393 58%,
-    #e6c57f 79%,
-    #fff5d6
+    #efbe48 0%,
+    #d49b22 22%,
+    #b57f18 38%,
+    #ffdf80 47%,
+    #f5c64d 54%,
+    #cc941d 76%,
+    #ebbc48 90%,
+    #f8d26d
   );
   --glass-shadow:
-    0 22px 55px #0009, inset 0 1px #fff8dc38, inset 0 -1px #8bacb619;
+    0 22px 55px #0009, inset 0 1px #ffd26138, inset 0 -1px #7cac9619;
 }
 body::before {
-  background: radial-gradient(ellipse at 65% 0%, #c9dcff0a, transparent 60%);
+  background: radial-gradient(ellipse at 65% 0%, #6fb8980a, transparent 60%);
 }
 .living-atmosphere {
   position: fixed;
@@ -47,8 +48,8 @@ body::before {
   left: 5vw;
   background: radial-gradient(
     ellipse,
-    #fff0bf24,
-    #eac7800b 40%,
+    #ffd26124,
+    #e9c8770b 40%,
     transparent 68%
   );
   animation: ambient-drift 24s ease-in-out infinite alternate;
@@ -58,8 +59,8 @@ body::before {
   right: -40vw;
   background: radial-gradient(
     ellipse,
-    #93d9ef16,
-    #b1cfff06 45%,
+    #6fb89816,
+    #6fb89806 45%,
     transparent 65%
   );
   animation: ambient-drift 30s ease-in-out -12s infinite alternate-reverse;
@@ -73,12 +74,12 @@ body::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #ffedb22b,
-    #d5efff18,
+    #ffd2612b,
+    #6fb89818,
     transparent
   );
   transform: rotate(-24deg);
-  box-shadow: 0 0 40px 10px #ffe6a505;
+  box-shadow: 0 0 40px 10px #ffd26105;
 }
 .ambient-toggle {
   position: fixed;
@@ -90,9 +91,9 @@ body::before {
   gap: 7px;
   min-height: 44px;
   padding: 0 13px;
-  border: 1px solid #fff0c538;
+  border: 1px solid #ffd26138;
   border-radius: 22px;
-  color: #e9dfc6;
+  color: #e6c77a;
   background: #090c12e8;
   backdrop-filter: blur(16px);
   box-shadow:
@@ -101,24 +102,24 @@ body::before {
   font-size: 12px;
 }
 .ambient-toggle:focus-visible {
-  outline: 2px solid #fff1cb;
+  outline: 2px solid #ffd261;
   outline-offset: 3px;
 }
 /* One coherent surface treatment from finance through product and creative work. */
 .vd-root {
-  --vd-gold: #f1d697;
+  --vd-gold: #ecca74;
   --vd-white: #f5f5f2;
   --vd-muted: #aeb2b8;
-  --vd-edge: #f4e5bd2e;
+  --vd-edge: #e8c8772e;
 }
 .product-studio {
-  --ps-gold: #f1d697;
-  --ps-muted: #b7bec4;
-  --ps-forest: #11191e;
+  --ps-gold: #ecca74;
+  --ps-muted: #899f95;
+  --ps-forest: #111e18;
 }
 .creative-studio {
-  --cs-gold: #f2da9c;
-  --cs-dim: #b5bac2;
+  --cs-gold: #edca73;
+  --cs-dim: #8a9e95;
 }
 .vd-glass,
 .ps-glass,
@@ -135,13 +136,13 @@ body::before {
 .draft-library {
   position: relative;
   isolation: isolate;
-  border-color: #f3e5bc30;
+  border-color: #e7c87930;
   background:
-    linear-gradient(135deg, #ffffff0b, transparent 36%, #a9dfff05 100%), #0b0e13;
+    linear-gradient(135deg, #ffffff0b, transparent 36%, #6fb89805 100%), #0b0e13;
   box-shadow:
     0 20px 50px #0008,
-    inset 0 1px #fff9e42d,
-    inset 0 -1px #b6d5e314;
+    inset 0 1px #ffd2612d,
+    inset 0 -1px #6fb89814;
 }
 [data-material]::after {
   content: '';
@@ -153,9 +154,9 @@ body::before {
   background: linear-gradient(
     115deg,
     transparent 10%,
-    #fff4cf03 27%,
-    #fff9e811 44%,
-    #def4ff08 47%,
+    #ffd26103 27%,
+    #ffd26111 44%,
+    #6fb89808 47%,
     transparent 65%
   );
   transform: translateX(var(--reflection-x, 0%));
@@ -168,7 +169,7 @@ body::before {
 [data-material]:hover::after {
   opacity: 0.85;
 }
-/* Gold appears as a polished edge and pale specular crest, not a tinted whole card. */
+/* Saturated gold crests and edges carry the full material depth. */
 .vd-earnings,
 .vd-cassius,
 .ps-atlas,
@@ -176,37 +177,37 @@ body::before {
 .cs-canvas-panel,
 .intelligence-stage {
   background:
-    radial-gradient(ellipse at 0 0, #f9e4ac17, transparent 46%),
-    radial-gradient(ellipse at 100% 80%, #afd6ea0b, transparent 50%), #080b10;
-  border-color: #f6df9e65;
+    radial-gradient(ellipse at 0 0, #f4ce6c17, transparent 46%),
+    radial-gradient(ellipse at 100% 80%, #6fb8980b, transparent 50%), #080b10;
+  border-color: #f2cc6e65;
   box-shadow:
-    inset 0 1px #fffbeaa6,
-    inset 1px 0 #ffedbe20,
+    inset 0 1px #ffd261a6,
+    inset 1px 0 #ffd26120,
     0 22px 65px #000a,
-    0 0 28px #f1d39106;
+    0 0 28px #edca7306;
 }
 .vd-earnings::before,
 .vd-cassius::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #fffbea 32%,
-    #f1d48e 65%,
+    #ffd261 32%,
+    #eecb72 65%,
     transparent
   );
-  box-shadow: 0 0 12px #ffedb933;
+  box-shadow: 0 0 12px #ffd26133;
 }
 .vd-earnings-number,
 .membership .card-wordmark,
 .monogram,
 .cs-header em,
 .ps-intro em {
-  color: #fff0c5;
+  color: #ffd261;
   background: var(--gold-metal);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 32px #ffe6a514;
+  text-shadow: 0 0 32px #ffd26114;
 }
 .vd-gold-button,
 .gold-button,
@@ -217,11 +218,11 @@ body::before {
   overflow: hidden;
   color: #181b22;
   background: var(--gold-metal);
-  border: 1px solid #fff9e0d9;
+  border: 1px solid #ffd261d9;
   box-shadow:
     inset 0 2px #fffdf1d0,
-    inset 0 -2px #8f763c70,
-    0 8px 26px #f7d68a1a,
+    inset 0 -2px #ab832070,
+    0 8px 26px #f5ce6b1a,
     0 2px 3px #0007;
   transition:
     transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
@@ -237,7 +238,7 @@ body::before {
   background: linear-gradient(
     110deg,
     transparent 40%,
-    #ffffffc4 49%,
+    #ffe3a08c 49%,
     transparent 57%
   );
   transform: translateX(-75%);
@@ -249,8 +250,8 @@ body::before {
 .cs-generate:hover {
   transform: translateY(-2px);
   box-shadow:
-    inset 0 2px #fff,
-    0 9px 35px #ffe2a135;
+    inset 0 2px #ffe09a,
+    0 9px 35px #ffd26135;
   filter: none;
 }
 .vd-command,
@@ -264,27 +265,27 @@ body::before {
     box-shadow 0.3s;
 }
 .vd-command {
-  background: linear-gradient(125deg, #fff3c10c, #11161e);
-  border-color: #eadcba40;
+  background: linear-gradient(125deg, #ffd2610c, #111e18);
+  border-color: #e6c77a40;
 }
 .vd-command:hover,
 .ps-product:hover,
 .ps-daily:hover,
 .cs-starters button:hover {
   transform: translateY(-3px);
-  border-color: #fff1c5a0;
+  border-color: #ffd261a0;
   box-shadow:
     0 12px 32px #0008,
-    inset 0 1px #fff8dd60;
+    inset 0 1px #ffd26160;
 }
 .vd-command-icon,
 .vd-pulse-icon,
 .ps-product-mark {
-  background: linear-gradient(140deg, #fff0c528, #151b24 55%, #c8edff12);
-  color: #fff0c5;
-  border-color: #fff2ce65;
+  background: linear-gradient(140deg, #ffd26128, #15241d 55%, #6fb89812);
+  color: #ffd261;
+  border-color: #ffd26165;
   box-shadow:
-    inset 0 1px #fff8d74a,
+    inset 0 1px #ffd2614a,
     0 4px 12px #0006;
 }
 .vd-chip-gold,
@@ -297,27 +298,27 @@ body::before {
 .vd-module-header > .vd-overline,
 .vd-welcome .vd-overline,
 .vd-section-title h2 > span {
-  color: #f8e3b0;
+  color: #f2cd6e;
 }
 .vd-chip-gold {
-  background: #f6e6b00b;
-  border-color: #f8e3b03f;
+  background: #efcb710b;
+  border-color: #f2cd6e3f;
 }
 .vd-metric {
   background: linear-gradient(130deg, #ffffff08, #06090e);
-  border-color: #fff0c521;
-  box-shadow: inset 0 1px #fff7d917;
+  border-color: #ffd26121;
+  box-shadow: inset 0 1px #ffd26117;
 }
 .vd-metric-label svg,
 .vd-section-title > svg {
-  color: #e9d3a1;
+  color: #e6c77a;
 }
 .vd-command-wide {
-  background: linear-gradient(110deg, #fae6ac15, #0c1019 70%);
+  background: linear-gradient(110deg, #f6ce6a15, #0c1913 70%);
 }
 .vd-tooltip {
-  background: #10151df5;
-  border-color: #fff0c56b;
+  background: #101d17f5;
+  border-color: #ffd2616b;
   box-shadow: 0 15px 30px #000b;
 }
 .vd-bar > span {
@@ -328,33 +329,33 @@ body::before {
 }
 /* Floating navigation picks up highlights from the luminous environment. */
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff0c, #090d14ed 50%, #aec6e30a);
-  border-color: #f4e9c846;
+  background: linear-gradient(125deg, #ffffff0c, #0a130fed 50%, #6fb8980a);
+  border-color: #e6c77a46;
   box-shadow:
-    inset 0 1px #fff7d965,
+    inset 0 1px #ffd26165,
     0 15px 55px #0008;
 }
 .collective-nav a[aria-current],
 .mobile-dock a[aria-current] {
-  color: #fff2cc;
-  border-color: #f5dc9c75;
-  background: linear-gradient(115deg, #ffedb322, #171e2b99);
+  color: #ffd261;
+  border-color: #f0cc6f75;
+  background: linear-gradient(115deg, #ffd26122, #172b2299);
   box-shadow:
-    inset 0 1px #fffae478,
-    inset 3px 0 #fbe2a5,
-    0 0 20px #ffe5a90c;
+    inset 0 1px #ffd26178,
+    inset 3px 0 #f8cf68,
+    0 0 20px #ffd2610c;
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #fff0c516, #0a0f18f2 45%, #c4e4ff0d);
-  border-color: #fff0c56b;
+  background: linear-gradient(120deg, #ffd26116, #0b1712f2 45%, #6fb8980d);
+  border-color: #ffd2616b;
   box-shadow:
-    inset 0 1px #fffbea80,
+    inset 0 1px #ffd26180,
     0 10px 40px #000c;
 }
 .nav-dot,
 .cs-kicker > span {
-  background: #f8e4b4;
-  box-shadow: 0 0 12px #ffe7a78c;
+  background: #f2cc6e;
+  box-shadow: 0 0 12px #ffd2618c;
 }
 /* Existing Cassius geometry becomes the active optical focal point. */
 .vd-cassius-glyph {
@@ -378,25 +379,25 @@ body::before {
 .core-gold-bezel {
   background: conic-gradient(
     from -28deg,
-    #b4a27b,
-    #fffbea 9%,
-    #e9cf8f 19%,
+    #deb651,
+    #ffd261 9%,
+    #e6c77a 19%,
     #7b817f 24%,
-    #fff1c2 34%,
+    #ffd261 34%,
     #fffef3 40%,
-    #d5bd84 50%,
-    #f8e5af 60%,
-    #8d9ba0 66%,
-    #fff7d3 80%,
-    #cab78c 92%,
-    #b4a27b
+    #e5c574 50%,
+    #f2cd6e 60%,
+    #8a9e95 66%,
+    #ffd261 80%,
+    #e4c472 92%,
+    #deb651
   );
 }
 .core-aura {
   background: radial-gradient(
     circle,
-    #e6cc8826,
-    #9fcfe512 45%,
+    #e6c77a26,
+    #6fb89812 45%,
     transparent 70%
   );
 }
@@ -404,11 +405,11 @@ body::before {
   background: conic-gradient(
     from 40deg,
     transparent 8%,
-    #fff1bb36 19%,
-    #f1d69180 24%,
+    #ffd26136 19%,
+    #edca7380 24%,
     transparent 34%,
-    #a5e4ff20 57%,
-    #d4ecff55 66%,
+    #6fb89820 57%,
+    #6fb89855 66%,
     transparent 77%
   );
 }
@@ -416,11 +417,11 @@ body::before {
   background: conic-gradient(
     from 160deg,
     transparent 12%,
-    #c7eaff60 26%,
+    #6fb89860 26%,
     transparent 36%,
-    #fff0b34d 48%,
+    #ffd2614d 48%,
     transparent 62%,
-    #e1c78655 74%,
+    #e6c77a55 74%,
     transparent 90%
   );
 }
@@ -428,26 +429,26 @@ body::before {
   background: radial-gradient(
     circle,
     #fffefa 0,
-    #fff1c0 10%,
-    #e8d18c 25%,
-    #a9dfee45 50%,
+    #ffd261 10%,
+    #e6c77a 25%,
+    #6fb89845 50%,
     transparent 72%
   );
 }
 .core-network path {
-  stroke: #f2daa650;
+  stroke: #ebc97550;
 }
 .core-network circle {
-  fill: #fff3cf;
+  fill: #ffd261;
 }
 .core-filaments path {
-  stroke: #ffe6a884;
+  stroke: #ffd26184;
 }
 .core-filaments path:nth-child(2) {
-  stroke: #d5efff85;
+  stroke: #6fb89885;
 }
 .core-filaments .filament-signal {
-  stroke: #fffbed;
+  stroke: #ffd261;
 }
 .cs-sigil,
 .cs-orbit,
@@ -455,15 +456,15 @@ body::before {
   position: relative;
   background: radial-gradient(
     circle,
-    #fff1bd1c,
-    #b6e0ff0b 50%,
+    #ffd2611c,
+    #6fb8980b 50%,
     transparent 70%
   );
-  color: #ffedbe;
+  color: #ffd261;
   box-shadow:
-    inset 0 1px #fff5cf5c,
-    0 0 55px #efdca018;
-  border-color: #fbe6b66b;
+    inset 0 1px #ffd2615c,
+    0 0 55px #e8c87818;
+  border-color: #f7cf696b;
 }
 .cs-sigil::before,
 .cs-orbit::before,
@@ -473,8 +474,8 @@ body::before {
   inset: -8px;
   border-radius: 50%;
   border: 1px solid transparent;
-  border-top-color: #fff7d6b0;
-  border-right-color: #d2ecff50;
+  border-top-color: #ffd261b0;
+  border-right-color: #6fb89850;
   animation: optical-orbit 18s linear infinite;
   pointer-events: none;
 }
@@ -596,7 +597,7 @@ html[data-ambient-motion='paused'] [data-material]::after {
   .mobile-dock {
     background: #080b10;
     backdrop-filter: none;
-    border-color: #e9dbb0;
+    border-color: #e6c77a;
   }
   .living-atmosphere {
     display: none;
@@ -623,9 +624,9 @@ html[data-ambient-motion='paused'] [data-material]::after {
 
 .cs-empty {
   background:
-    radial-gradient(ellipse at 50% 32%, #f2daa014, transparent 55%),
-    radial-gradient(ellipse at 100% 100%, #c0eaff0a, transparent 60%), #080d14;
-  border-color: #fff0c52c;
+    radial-gradient(ellipse at 50% 32%, #ecca7414, transparent 55%),
+    radial-gradient(ellipse at 100% 100%, #6fb8980a, transparent 60%), #09130e;
+  border-color: #ffd2612c;
 }
 .vd-is-thinking .core-fluid {
   animation-duration: 8s;
@@ -635,4 +636,42 @@ html[data-ambient-motion='paused'] [data-material]::after {
 .cs-generate:disabled::after {
   animation: none;
   opacity: 0;
+}
+
+/* Forest is a supporting material, concentrated in depth and intelligence. */
+:root,
+.dark {
+  --gold: #dba82f;
+  --gold-light: #f0c45d;
+  --primary: #dba82f;
+  --forest: #0c1d16;
+}
+.vd-cassius,
+.ps-atlas,
+.intelligence-stage {
+  background:
+    radial-gradient(ellipse at 0 0, #d5a52e1c, transparent 48%),
+    radial-gradient(ellipse at 100% 100%, #234f3936, transparent 65%), #090f0d;
+}
+.ambient-platinum {
+  background: radial-gradient(
+    ellipse,
+    #28513b25,
+    #183c280e 45%,
+    transparent 65%
+  );
+}
+.club-sidebar [data-slot='sidebar-inner'] {
+  background: linear-gradient(125deg, #ffffff09, #0a100eed 50%, #1b39241a);
+}
+.mobile-dock {
+  background: linear-gradient(120deg, #d8ad3616, #0b1510f2 45%, #254c311c);
+}
+.vd-command-wide {
+  background: linear-gradient(110deg, #d5a52e16, #102018 85%);
+}
+.cs-empty {
+  background:
+    radial-gradient(ellipse at 50% 32%, #d5a52e12, transparent 55%),
+    radial-gradient(ellipse at 100% 100%, #28513b22, transparent 60%), #080e0b;
 }
