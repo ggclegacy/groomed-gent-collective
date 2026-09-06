@@ -1,45 +1,45 @@
-/* Canonical GGC materials, sampled from live homepage CSS on 2026-09-05.
-   Keep brand values here; living-materials.css owns decorative motion. */
+/* GGC materials: obsidian, metallic gold, and forest green.
+   Legacy purple-named tokens are compatibility aliases for forest green. Keep brand values here; living-materials.css owns decorative motion. */
 :root,
 .dark {
   --background: #0a0a0a;
   --foreground: #f2f0eb;
   --sidebar: #0a0a0a;
-  --gold: #c4912f;
-  --gold-light: #d9b66b;
+  --gold: #c9a45c;
+  --gold-light: #e0bf7a;
   --gold-dim: #7b5218;
-  --primary: #c4912f;
-  --purple: #6c3fc7;
-  --purple-light: #d9b66b;
-  --amethyst: #1a0930;
-  --violet: #6c3fc7;
-  --border: #c4912f40;
-  --muted: #141118;
-  --muted-foreground: #b9b3bf;
-  --glass-edge: #c4912f55;
-  --gold-metal: linear-gradient(145deg, #6f4915 0%, #8a5e1b 16%, #a87522 32%, #c4912f 50%, #a77220 66%, #7b5218 82%, #4a300e 100%);
+  --primary: #c9a45c;
+  --purple: #6b9b85;
+  --purple-light: #e0bf7a;
+  --amethyst: #12271e;
+  --violet: #6b9b85;
+  --border: #c9a45c40;
+  --muted: #111815;
+  --muted-foreground: #b3bfba;
+  --glass-edge: #c9a45c55;
+  --gold-metal: linear-gradient(145deg, #6f4915 0%, #8a5e1b 16%, #a87522 32%, #c9a45c 50%, #a77220 66%, #7b5218 82%, #4a300e 100%);
   --brand-gold-panel:
     radial-gradient(circle at 18% 12%, #debe643d 0%, transparent 54%),
     radial-gradient(circle at 82% 90%, #5030086b 0%, transparent 50%),
-    radial-gradient(circle at 62% 30%, #6c3fc70d 0%, transparent 40%),
+    radial-gradient(circle at 62% 30%, #6b9b850d 0%, transparent 40%),
     var(--gold-metal);
   --brand-purple-panel:
-    radial-gradient(ellipse at 85% 90%, #6c3fc73d, transparent 65%),
-    linear-gradient(145deg, #130622 0%, #220b3c 28%, #2a0f4a 52%, #3d1f6b 72%, #180730 100%);
-  --brand-purple-quiet: linear-gradient(145deg, #1a0930, #141118 75%);
+    radial-gradient(ellipse at 85% 90%, #6b9b853d, transparent 65%),
+    linear-gradient(145deg, #0c1c15 0%, #163125 28%, #1c3d2e 52%, #2b5f48 72%, #11261d 100%);
+  --brand-purple-quiet: linear-gradient(145deg, #12271e, #111815 75%);
   --brand-bevel: inset 0 1px #e8c67070, inset 0 -1px #462a068a, 0 20px 50px #0009;
   --glass: var(--brand-purple-quiet);
   --glass-signature: var(--brand-purple-panel);
   --glass-shadow: var(--brand-bevel);
 }
-.visual-dashboard { --vd-gold: var(--gold); --vd-muted: #b9b3bf; --vd-edge: #c4912f40; }
-.product-studio { --ps-gold: var(--gold); --ps-muted: #b9b3bf; --ps-amethyst: #1a0930; }
-.creative-studio { --cs-gold: var(--gold); --cs-dim: #b9b3bf; }
+.visual-dashboard { --vd-gold: var(--gold); --vd-muted: #b3bfba; --vd-edge: #c9a45c40; }
+.product-studio { --ps-gold: var(--gold); --ps-muted: #b3bfba; --ps-amethyst: #12271e; }
+.creative-studio { --cs-gold: var(--gold); --cs-dim: #b3bfba; }
 body::before {
-  background: radial-gradient(ellipse at 14% 28%, #4b2e833d, transparent 56%), radial-gradient(ellipse at 86% 68%, #2a0f4a2e, transparent 50%), linear-gradient(160deg, #0a0a0a, #100820 38%, #0d0518 65%, #070310);
+  background: radial-gradient(ellipse at 14% 28%, #377a5c3d, transparent 56%), radial-gradient(ellipse at 86% 68%, #1c3d2e2e, transparent 50%), linear-gradient(160deg, #0a0a0a, #0c1c15 38%, #09140f 65%, #060d0a);
 }
-.ambient-gold { background: radial-gradient(ellipse, #c4912f26, #d9b66b0d 40%, transparent 68%); }
-.ambient-platinum { background: radial-gradient(ellipse, #6c3fc738, #2a0f4a2e 45%, transparent 65%); }
+.ambient-gold { background: radial-gradient(ellipse, #c9a45c26, #e0bf7a0d 40%, transparent 68%); }
+.ambient-platinum { background: radial-gradient(ellipse, #6b9b8538, #1c3d2e2e 45%, transparent 65%); }
 .vd-glass, .ps-glass, .panel, .pending-panel, .membership-record,
 .member-door, .draft-library, .studio-editor, .cs-director, .cs-canvas-panel {
   background: var(--brand-purple-quiet);
@@ -48,17 +48,17 @@ body::before {
 }
 .vd-cassius, .ps-atlas, .intelligence-stage, .cs-director, .cs-empty {
   background: var(--brand-purple-panel);
-  border-color: #c4912f80;
+  border-color: #c9a45c80;
 }
 /* Full metal planes: financial identity and product display cases. */
 .vd-earnings, .membership, .status-hero, .ps-product {
   background: var(--brand-gold-panel);
-  border-color: #d9b66b80;
-  box-shadow: var(--brand-bevel), 0 0 48px #2a0f4a24;
+  border-color: #e0bf7a80;
+  box-shadow: var(--brand-bevel), 0 0 48px #1c3d2e24;
 }
 .vd-earnings {
   --vd-muted: #f2f0eb;
-  --vd-edge: #1a09304d;
+  --vd-edge: #12271e4d;
   color: #f2f0eb;
 }
 .vd-earnings .vd-module-header > .vd-overline,
@@ -67,35 +67,35 @@ body::before {
   color: #f2f0eb;
   background: none;
   -webkit-text-fill-color: currentColor;
-  text-shadow: 0 2px 12px #1a093080;
+  text-shadow: 0 2px 12px #12271e80;
 }
 .vd-earnings-main {
   padding: 16px;
-  border: 1px solid #d9b66b55;
+  border: 1px solid #e0bf7a55;
   border-radius: 16px;
-  background: #1a0930ed;
-  box-shadow: inset 0 1px #d9b66b33;
+  background: #12271eed;
+  box-shadow: inset 0 1px #e0bf7a33;
 }
-.vd-earnings .vd-balances { padding: 16px; border-radius: 12px; background: #1a0930ed; }
-.vd-earnings .vd-balances span { color: #d9cde3; }
-.vd-metric { background: var(--brand-purple-quiet); border-color: #d9b66b55; }
-.vd-metric-label, .vd-metric-detail { color: #c5bdcd; }
+.vd-earnings .vd-balances { padding: 16px; border-radius: 12px; background: #12271eed; }
+.vd-earnings .vd-balances span { color: #d1dfd9; }
+.vd-metric { background: var(--brand-purple-quiet); border-color: #e0bf7a55; }
+.vd-metric-label, .vd-metric-detail { color: #bdcdc6; }
 .vd-metric-label svg, .vd-hero-spark { color: var(--gold-light); }
 .vd-section-title h2, .cs-section-title, .ps-section-heading h2,
 .section-title h2, .brand-sub, .vd-cassius-wordmark { color: var(--gold-light); }
-.vd-command, .vd-command-wide { background: var(--brand-purple-panel); border-color: #c4912f80; }
+.vd-command, .vd-command-wide { background: var(--brand-purple-panel); border-color: #c9a45c80; }
 .vd-command-icon, .vd-command:nth-child(even) .vd-command-icon,
 .vd-pulse-icon, .ps-product-mark, .membership-seal {
   background: var(--brand-gold-panel);
   color: #f2f0eb;
-  border-color: #d9b66b80;
-  box-shadow: inset 0 1px #d9b66b80, 0 5px 18px #0006;
+  border-color: #e0bf7a80;
+  box-shadow: inset 0 1px #e0bf7a80, 0 5px 18px #0006;
 }
 .vd-command-wide { background: var(--brand-gold-panel); color: #f2f0eb; }
 .vd-command-wide :is(span, small, strong, svg) { color: #f2f0eb; }
 .ps-product .ps-product-copy {
-  background: #1a0930ed;
-  border: 1px solid #d9b66b55;
+  background: #12271eed;
+  border: 1px solid #e0bf7a55;
   border-radius: 16px;
   padding: 20px;
 }
@@ -108,13 +108,13 @@ body::before {
 .status-hero :is(.eyebrow, p, span) { color: #f2f0eb; }
 /* Gold controls retain a dark, stable text bed through the metallic range. */
 .vd-gold-button, .gold-button, .cs-generate, .member-door .gold-button {
-  background: linear-gradient(145deg, #d9b66b, #c4912f 55%, #d9b66b);
-  color: #1a0930;
-  border-color: #d9b66b;
-  box-shadow: inset 0 1px #d9b66b, inset 0 -2px #7b5218, 0 7px 24px #c4912f26;
+  background: linear-gradient(145deg, #e0bf7a, #c9a45c 55%, #e0bf7a);
+  color: #12271e;
+  border-color: #e0bf7a;
+  box-shadow: inset 0 1px #e0bf7a, inset 0 -2px #7b5218, 0 7px 24px #c9a45c26;
 }
 .vd-gold-button:hover:not(:disabled), .gold-button:hover:not(:disabled), .cs-generate:hover:not(:disabled) {
-  box-shadow: inset 0 1px #d9b66b, 0 10px 30px #c4912f40;
+  box-shadow: inset 0 1px #e0bf7a, 0 10px 30px #c9a45c40;
 }
 .collective-nav a[aria-current], .mobile-dock a[aria-current],
 .vd-periods button[aria-pressed='true'], .vd-chart-switch button[aria-pressed='true'],
@@ -123,24 +123,24 @@ body::before {
   color: var(--gold-light);
   background: var(--brand-purple-panel);
   border-color: var(--gold);
-  box-shadow: inset 0 1px #d9b66b66, inset 3px 0 var(--gold), 0 3px 12px #0005;
+  box-shadow: inset 0 1px #e0bf7a66, inset 3px 0 var(--gold), 0 3px 12px #0005;
 }
 .cs-tabs button[aria-current], .ps-room-nav button[aria-pressed='true'] { color: var(--gold-light); border-color: var(--gold); }
-.club-sidebar [data-slot='sidebar-inner'], .mobile-dock { background: #0a0a0af5; border-color: #c4912f66; }
-.vd-chip-gold, .vd-chip-green { color: #d9b66b; background: #1a0930; border-color: #c4912f80; }
-.vd-command:hover, .ps-product:hover, .ps-daily:hover { border-color: var(--gold-light); box-shadow: var(--brand-bevel), 0 0 26px #c4912f26; }
+.club-sidebar [data-slot='sidebar-inner'], .mobile-dock { background: #0a0a0af5; border-color: #c9a45c66; }
+.vd-chip-gold, .vd-chip-green { color: #e0bf7a; background: #12271e; border-color: #c9a45c80; }
+.vd-command:hover, .ps-product:hover, .ps-daily:hover { border-color: var(--gold-light); box-shadow: var(--brand-bevel), 0 0 26px #c9a45c26; }
 .vd-bar > span { background: var(--gold-metal); }
 .vd-chart-legend i:first-child { background: var(--gold); }
 .vd-chart-legend span:nth-child(2) i { background: var(--purple); }
-.vd-channel-donut > div { background: #1a0930; }
-.core-gold-bezel { background: conic-gradient(from -28deg, #7b5218, #c4912f 15%, #d9b66b 25%, #7b5218 38%, #c4912f 55%, #d9b66b 72%, #4a300e 90%, #7b5218); }
-.core-heart { background: radial-gradient(circle, #d9b66b, #c4912f 20%, #6c3fc766 48%, transparent 72%); }
-.core-aura { background: radial-gradient(circle, #6c3fc74d, #2a0f4a33 45%, transparent 70%); }
-.core-filaments path:nth-child(2) { stroke: #6c3fc7b3; }
+.vd-channel-donut > div { background: #12271e; }
+.core-gold-bezel { background: conic-gradient(from -28deg, #7b5218, #c9a45c 15%, #e0bf7a 25%, #7b5218 38%, #c9a45c 55%, #e0bf7a 72%, #4a300e 90%, #7b5218); }
+.core-heart { background: radial-gradient(circle, #e0bf7a, #c9a45c 20%, #6b9b8566 48%, transparent 72%); }
+.core-aura { background: radial-gradient(circle, #6b9b854d, #1c3d2e33 45%, transparent 70%); }
+.core-filaments path:nth-child(2) { stroke: #6b9b85b3; }
 .core-network circle { fill: var(--gold-light); }
-.cs-sigil, .cs-orbit, .ps-atlas-orbit { color: var(--gold-light); background: var(--brand-purple-panel); border-color: #c4912f80; }
+.cs-sigil, .cs-orbit, .ps-atlas-orbit { color: var(--gold-light); background: var(--brand-purple-panel); border-color: #c9a45c80; }
 :where(button, a, input, textarea, select):focus-visible { outline: 2px solid var(--gold-light); outline-offset: 4px; }
-::selection { background: #4a1a78; color: #f2f0eb; }
+::selection { background: #2d654c; color: #f2f0eb; }
 @media (max-width: 767px) {
   .vd-earnings-main { padding: 12px; gap: 10px; }
   .vd-earnings .vd-balances { padding: 12px; }
@@ -149,7 +149,7 @@ body::before {
 @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
   .vd-glass, .ps-glass, .panel, .cs-director, .cs-canvas-panel, .member-door,
   .membership, .status-hero, .ps-product, .vd-command, .mobile-dock {
-    background: #1a0930; color: #f2f0eb; border-color: #d9b66b; backdrop-filter: none;
+    background: #12271e; color: #f2f0eb; border-color: #e0bf7a; backdrop-filter: none;
   }
 }
 @media (forced-colors: active) {

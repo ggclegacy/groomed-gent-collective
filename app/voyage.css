@@ -15,7 +15,7 @@
   display: none !important;
 }
 .voyage-mode {
-  --v-gold: #c4912f;
+  --v-gold: #c9a45c;
   --v-text: #eeede6;
   --v-muted: #acae9f;
   position: relative;
@@ -86,8 +86,8 @@
   border-radius: 50%;
   transform: perspective(900px) rotateX(56deg) rotateZ(-20deg);
   background:
-    repeating-linear-gradient(0deg, transparent 0 59px, #c4912f0b 59px 60px),
-    repeating-linear-gradient(90deg, transparent 0 59px, #c4912f0b 59px 60px);
+    repeating-linear-gradient(0deg, transparent 0 59px, #c9a45c0b 59px 60px),
+    repeating-linear-gradient(90deg, transparent 0 59px, #c9a45c0b 59px 60px);
   box-shadow:
     0 0 150px #18715219,
     inset 0 0 150px #225f4520;
@@ -112,7 +112,7 @@
   display: grid;
   place-items: center;
   font: italic 60px Georgia;
-  color: #c4912f;
+  color: #c9a45c;
 }
 .voyage-mode:after {
   content: '';
@@ -128,12 +128,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 22px 36px;
-  border-bottom: 1px solid #c4912f20;
+  border-bottom: 1px solid #c9a45c20;
 }
 .voyage-top > button,
 .voyage-map-tools > button {
   background: #08140edb;
-  border: 1px solid #c4912f3b;
+  border: 1px solid #c9a45c3b;
   border-radius: 50px;
   padding: 10px 14px;
   backdrop-filter: blur(20px);
@@ -366,7 +366,7 @@
   align-items: center;
   margin-top: 20px;
   background: linear-gradient(105deg, #14261eeb, #07110ff5);
-  border: 1px solid #c4912f9a;
+  border: 1px solid #c9a45c9a;
   box-shadow:
     0 0 35px #a67e2212,
     inset 0 1px #c9b87822;
@@ -392,7 +392,7 @@
   padding: 10px;
 }
 .voyage-command .voyage-submit {
-  background: #c4912f;
+  background: #c9a45c;
   color: #071009;
   border-radius: 11px;
 }
@@ -504,7 +504,7 @@
   color: #d4dac8;
 }
 .voyage-settings input[type='checkbox'] {
-  accent-color: #c4912f;
+  accent-color: #c9a45c;
   margin-right: 10px;
 }
 .voyage-settings select {
@@ -532,7 +532,7 @@
   font-size: 15px;
 }
 .voyage-world-marker.selected {
-  background: #c4912f;
+  background: #c9a45c;
   color: #030907;
 }
 .voyage-journeys-overlay {
@@ -764,7 +764,7 @@ body:has(.voyage-journeys-overlay) > .gent-memory-bar {
 }
 .voyage-city-results {
   display: grid;
-  border-bottom: 1px solid #c4912f40;
+  border-bottom: 1px solid #c9a45c40;
   padding-bottom: 12px;
 }
 .voyage-city-results button {
@@ -777,7 +777,7 @@ body:has(.voyage-journeys-overlay) > .gent-memory-bar {
 }
 .voyage-taste-categories {
   margin-top: 20px;
-  border-top: 1px solid #c4912f40;
+  border-top: 1px solid #c9a45c40;
   padding-top: 14px;
 }
 .voyage-taste-categories legend {

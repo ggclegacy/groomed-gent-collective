@@ -1,7 +1,7 @@
 /* Optical material layer shared by every Collective workspace.
    Rich metallic gold with deep amethyst reflections; preserve the optical depth and motion. */
 body::before {
-  background: radial-gradient(ellipse at 65% 0%, #6c3fc70a, transparent 60%);
+  background: radial-gradient(ellipse at 65% 0%, #6b9b850a, transparent 60%);
 }
 .living-atmosphere {
   position: fixed;
@@ -23,7 +23,7 @@ body::before {
   left: 5vw;
   background: radial-gradient(
     ellipse,
-    #c4912f24,
+    #c9a45c24,
     #e9c8770b 40%,
     transparent 68%
   );
@@ -34,8 +34,8 @@ body::before {
   right: -40vw;
   background: radial-gradient(
     ellipse,
-    #6c3fc716,
-    #6c3fc706 45%,
+    #6b9b8516,
+    #6b9b8506 45%,
     transparent 65%
   );
   animation: ambient-drift 30s ease-in-out -12s infinite alternate-reverse;
@@ -49,12 +49,12 @@ body::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #c4912f2b,
-    #6c3fc718,
+    #c9a45c2b,
+    #6b9b8518,
     transparent
   );
   transform: rotate(-24deg);
-  box-shadow: 0 0 40px 10px #c4912f05;
+  box-shadow: 0 0 40px 10px #c9a45c05;
 }
 .ambient-toggle {
   position: fixed;
@@ -66,10 +66,10 @@ body::before {
   gap: 7px;
   min-height: 44px;
   padding: 0 13px;
-  border: 1px solid #c4912f38;
+  border: 1px solid #c9a45c38;
   border-radius: 22px;
-  color: #d9b66b;
-  background: #090c12e8;
+  color: #e0bf7a;
+  background: #09120ee8;
   backdrop-filter: blur(16px);
   box-shadow:
     0 5px 20px #0008,
@@ -77,24 +77,24 @@ body::before {
   font-size: 12px;
 }
 .ambient-toggle:focus-visible {
-  outline: 2px solid #c4912f;
+  outline: 2px solid #c9a45c;
   outline-offset: 3px;
 }
 /* One coherent surface treatment from finance through product and creative work. */
 .vd-root {
-  --vd-gold: #c4912f;
+  --vd-gold: #c9a45c;
   --vd-white: #f5f5f2;
-  --vd-muted: #aeb2b8;
+  --vd-muted: #aeb8b3;
   --vd-edge: #e8c8772e;
 }
 .product-studio {
-  --ps-gold: #c4912f;
-  --ps-muted: #95899f;
-  --ps-amethyst: #130f1a;
+  --ps-gold: #c9a45c;
+  --ps-muted: #899f95;
+  --ps-amethyst: #0f1a15;
 }
 .creative-studio {
-  --cs-gold: #c4912f;
-  --cs-dim: #958a9e;
+  --cs-gold: #c9a45c;
+  --cs-dim: #8a9e95;
 }
 .vd-glass,
 .ps-glass,
@@ -111,13 +111,13 @@ body::before {
 .draft-library {
   position: relative;
   isolation: isolate;
-  border-color: #d9b66b30;
+  border-color: #e0bf7a30;
   background:
-    linear-gradient(135deg, #ffffff0b, transparent 36%, #6c3fc705 100%), #0b0e13;
+    linear-gradient(135deg, #ffffff0b, transparent 36%, #6b9b8505 100%), #0b130f;
   box-shadow:
     0 20px 50px #0008,
-    inset 0 1px #c4912f2d,
-    inset 0 -1px #6c3fc714;
+    inset 0 1px #c9a45c2d,
+    inset 0 -1px #6b9b8514;
 }
 [data-material]::after {
   content: '';
@@ -129,9 +129,9 @@ body::before {
   background: linear-gradient(
     115deg,
     transparent 10%,
-    #c4912f03 27%,
-    #c4912f11 44%,
-    #6c3fc708 47%,
+    #c9a45c03 27%,
+    #c9a45c11 44%,
+    #6b9b8508 47%,
     transparent 65%
   );
   transform: translateX(var(--reflection-x, 0%));
@@ -153,36 +153,36 @@ body::before {
 .intelligence-stage {
   background:
     radial-gradient(ellipse at 0 0, #f4ce6c17, transparent 46%),
-    radial-gradient(ellipse at 100% 80%, #6c3fc70b, transparent 50%), #080b10;
+    radial-gradient(ellipse at 100% 80%, #6b9b850b, transparent 50%), #08100c;
   border-color: #f2cc6e65;
   box-shadow:
-    inset 0 1px #c4912fa6,
-    inset 1px 0 #c4912f20,
+    inset 0 1px #c9a45ca6,
+    inset 1px 0 #c9a45c20,
     0 22px 65px #000a,
-    0 0 28px #c4912f06;
+    0 0 28px #c9a45c06;
 }
 .vd-earnings::before,
 .vd-cassius::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #c4912f 32%,
+    #c9a45c 32%,
     #eecb72 65%,
     transparent
   );
-  box-shadow: 0 0 12px #c4912f33;
+  box-shadow: 0 0 12px #c9a45c33;
 }
 .vd-earnings-number,
 .membership .card-wordmark,
 .monogram,
 .cs-header em,
 .ps-intro em {
-  color: #c4912f;
+  color: #c9a45c;
   background: var(--gold-metal);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 32px #c4912f14;
+  text-shadow: 0 0 32px #c9a45c14;
 }
 .vd-gold-button,
 .gold-button,
@@ -191,11 +191,11 @@ body::before {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  color: #181b22;
+  color: #18221e;
   background: var(--gold-metal);
-  border: 1px solid #c4912fd9;
+  border: 1px solid #c9a45cd9;
   box-shadow:
-    inset 0 2px #d9b66bd0,
+    inset 0 2px #e0bf7ad0,
     inset 0 -2px #ab832070,
     0 8px 26px #f5ce6b1a,
     0 2px 3px #0007;
@@ -213,7 +213,7 @@ body::before {
   background: linear-gradient(
     110deg,
     transparent 40%,
-    #d9b66b8c 49%,
+    #e0bf7a8c 49%,
     transparent 57%
   );
   transform: translateX(-75%);
@@ -225,8 +225,8 @@ body::before {
 .cs-generate:hover {
   transform: translateY(-2px);
   box-shadow:
-    inset 0 2px #d9b66b,
-    0 9px 35px #c4912f35;
+    inset 0 2px #e0bf7a,
+    0 9px 35px #c9a45c35;
   filter: none;
 }
 .vd-command,
@@ -240,27 +240,27 @@ body::before {
     box-shadow 0.3s;
 }
 .vd-command {
-  background: linear-gradient(125deg, #c4912f0c, #130f1a);
-  border-color: #d9b66b40;
+  background: linear-gradient(125deg, #c9a45c0c, #0f1a15);
+  border-color: #e0bf7a40;
 }
 .vd-command:hover,
 .ps-product:hover,
 .ps-daily:hover,
 .cs-starters button:hover {
   transform: translateY(-3px);
-  border-color: #c4912fa0;
+  border-color: #c9a45ca0;
   box-shadow:
     0 12px 32px #0008,
-    inset 0 1px #c4912f60;
+    inset 0 1px #c9a45c60;
 }
 .vd-command-icon,
 .vd-pulse-icon,
 .ps-product-mark {
-  background: linear-gradient(140deg, #c4912f28, #17121f 55%, #6c3fc712);
-  color: #c4912f;
-  border-color: #c4912f65;
+  background: linear-gradient(140deg, #c9a45c28, #121f19 55%, #6b9b8512);
+  color: #c9a45c;
+  border-color: #c9a45c65;
   box-shadow:
-    inset 0 1px #c4912f4a,
+    inset 0 1px #c9a45c4a,
     0 4px 12px #0006;
 }
 .vd-chip-gold,
@@ -273,64 +273,64 @@ body::before {
 .vd-module-header > .vd-overline,
 .vd-welcome .vd-overline,
 .vd-section-title h2 > span {
-  color: #d9b66b;
+  color: #e0bf7a;
 }
 .vd-chip-gold {
   background: #efcb710b;
-  border-color: #d9b66b3f;
+  border-color: #e0bf7a3f;
 }
 .vd-metric {
-  background: linear-gradient(130deg, #ffffff08, #06090e);
-  border-color: #c4912f21;
-  box-shadow: inset 0 1px #c4912f17;
+  background: linear-gradient(130deg, #ffffff08, #060e0a);
+  border-color: #c9a45c21;
+  box-shadow: inset 0 1px #c9a45c17;
 }
 .vd-metric-label svg,
 .vd-section-title > svg {
-  color: #d9b66b;
+  color: #e0bf7a;
 }
 .vd-command-wide {
-  background: linear-gradient(110deg, #f6ce6a15, #0f0a15 70%);
+  background: linear-gradient(110deg, #f6ce6a15, #0a1510 70%);
 }
 .vd-tooltip {
-  background: #120e19f5;
-  border-color: #c4912f6b;
+  background: #0e1914f5;
+  border-color: #c9a45c6b;
   box-shadow: 0 15px 30px #000b;
 }
 .vd-bar > span {
   background: var(--gold-metal);
 }
 .vd-channel-donut > div {
-  background: #0a0e14;
+  background: #0a1410;
 }
 /* Floating navigation picks up highlights from the luminous environment. */
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff0c, #0c0910ed 50%, #6c3fc70a);
-  border-color: #d9b66b46;
+  background: linear-gradient(125deg, #ffffff0c, #09100ded 50%, #6b9b850a);
+  border-color: #e0bf7a46;
   box-shadow:
-    inset 0 1px #c4912f65,
+    inset 0 1px #c9a45c65,
     0 15px 55px #0008;
 }
 .collective-nav a[aria-current],
 .mobile-dock a[aria-current] {
-  color: #c4912f;
+  color: #c9a45c;
   border-color: #f0cc6f75;
-  background: linear-gradient(115deg, #c4912f22, #1b142599);
+  background: linear-gradient(115deg, #c9a45c22, #14251d99);
   box-shadow:
-    inset 0 1px #c4912f78,
+    inset 0 1px #c9a45c78,
     inset 3px 0 #f8cf68,
-    0 0 20px #c4912f0c;
+    0 0 20px #c9a45c0c;
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #c4912f16, #0e0914f2 45%, #6c3fc70d);
-  border-color: #c4912f6b;
+  background: linear-gradient(120deg, #c9a45c16, #09140ff2 45%, #6b9b850d);
+  border-color: #c9a45c6b;
   box-shadow:
-    inset 0 1px #c4912f80,
+    inset 0 1px #c9a45c80,
     0 10px 40px #000c;
 }
 .nav-dot,
 .cs-kicker > span {
   background: #f2cc6e;
-  box-shadow: 0 0 12px #c4912f8c;
+  box-shadow: 0 0 12px #c9a45c8c;
 }
 /* Existing Cassius geometry becomes the active optical focal point. */
 .vd-cassius-glyph {
@@ -355,15 +355,15 @@ body::before {
   background: conic-gradient(
     from -28deg,
     #deb651,
-    #c4912f 9%,
-    #d9b66b 19%,
+    #c9a45c 9%,
+    #e0bf7a 19%,
     #7e7b81 24%,
-    #c4912f 34%,
-    #d9b66b 40%,
+    #c9a45c 34%,
+    #e0bf7a 40%,
     #e5c574 50%,
-    #d9b66b 60%,
-    #958a9e 66%,
-    #c4912f 80%,
+    #e0bf7a 60%,
+    #8a9e95 66%,
+    #c9a45c 80%,
     #e4c472 92%,
     #deb651
   );
@@ -371,8 +371,8 @@ body::before {
 .core-aura {
   background: radial-gradient(
     circle,
-    #d9b66b26,
-    #6c3fc712 45%,
+    #e0bf7a26,
+    #6b9b8512 45%,
     transparent 70%
   );
 }
@@ -380,11 +380,11 @@ body::before {
   background: conic-gradient(
     from 40deg,
     transparent 8%,
-    #c4912f36 19%,
-    #c4912f80 24%,
+    #c9a45c36 19%,
+    #c9a45c80 24%,
     transparent 34%,
-    #6c3fc720 57%,
-    #6c3fc755 66%,
+    #6b9b8520 57%,
+    #6b9b8555 66%,
     transparent 77%
   );
 }
@@ -392,21 +392,21 @@ body::before {
   background: conic-gradient(
     from 160deg,
     transparent 12%,
-    #6c3fc760 26%,
+    #6b9b8560 26%,
     transparent 36%,
-    #c4912f4d 48%,
+    #c9a45c4d 48%,
     transparent 62%,
-    #d9b66b55 74%,
+    #e0bf7a55 74%,
     transparent 90%
   );
 }
 .core-heart {
   background: radial-gradient(
     circle,
-    #d9b66b 0,
-    #c4912f 10%,
-    #d9b66b 25%,
-    #6c3fc745 50%,
+    #e0bf7a 0,
+    #c9a45c 10%,
+    #e0bf7a 25%,
+    #6b9b8545 50%,
     transparent 72%
   );
 }
@@ -414,16 +414,16 @@ body::before {
   stroke: #ebc97550;
 }
 .core-network circle {
-  fill: #c4912f;
+  fill: #c9a45c;
 }
 .core-filaments path {
-  stroke: #c4912f84;
+  stroke: #c9a45c84;
 }
 .core-filaments path:nth-child(2) {
-  stroke: #6c3fc785;
+  stroke: #6b9b8585;
 }
 .core-filaments .filament-signal {
-  stroke: #c4912f;
+  stroke: #c9a45c;
 }
 .cs-sigil,
 .cs-orbit,
@@ -431,13 +431,13 @@ body::before {
   position: relative;
   background: radial-gradient(
     circle,
-    #c4912f1c,
-    #6c3fc70b 50%,
+    #c9a45c1c,
+    #6b9b850b 50%,
     transparent 70%
   );
-  color: #c4912f;
+  color: #c9a45c;
   box-shadow:
-    inset 0 1px #c4912f5c,
+    inset 0 1px #c9a45c5c,
     0 0 55px #e8c87818;
   border-color: #f7cf696b;
 }
@@ -449,8 +449,8 @@ body::before {
   inset: -8px;
   border-radius: 50%;
   border: 1px solid transparent;
-  border-top-color: #c4912fb0;
-  border-right-color: #6c3fc750;
+  border-top-color: #c9a45cb0;
+  border-right-color: #6b9b8550;
   animation: optical-orbit 18s linear infinite;
   pointer-events: none;
 }
@@ -570,9 +570,9 @@ html[data-ambient-motion='paused'] [data-material]::after {
   .cs-director,
   .cs-canvas-panel,
   .mobile-dock {
-    background: #080b10;
+    background: #08100c;
     backdrop-filter: none;
-    border-color: #d9b66b;
+    border-color: #e0bf7a;
   }
   .living-atmosphere {
     display: none;
@@ -599,9 +599,9 @@ html[data-ambient-motion='paused'] [data-material]::after {
 
 .cs-empty {
   background:
-    radial-gradient(ellipse at 50% 32%, #c4912f14, transparent 55%),
-    radial-gradient(ellipse at 100% 100%, #6c3fc70a, transparent 60%), #0b0810;
-  border-color: #c4912f2c;
+    radial-gradient(ellipse at 50% 32%, #c9a45c14, transparent 55%),
+    radial-gradient(ellipse at 100% 100%, #6b9b850a, transparent 60%), #08100c;
+  border-color: #c9a45c2c;
 }
 .vd-is-thinking .core-fluid {
   animation-duration: 8s;

@@ -1,32 +1,35 @@
 /* The Living Instrument — one material hierarchy, above legacy workspace themes. */
 :root,
 .dark {
-  --background: #070c0b;
+  --background: #060908;
   --foreground: #eeeae0;
   --sidebar: #080e0d;
-  --gold: #d7bd80;
-  --gold-light: #ead5a1;
+  --gold: #c9a45c;
+  --gold-light: #e7ce94;
   --gold-dim: #8b7648;
-  --primary: #d7bd80;
+  --primary: #c9a45c;
   --muted: #14201b;
   --muted-foreground: #aebbb4;
-  --border: #d7bd802d;
+  --border: #c9a45c2d;
   --purple: #355d4b;
   --violet: #355d4b;
   --amethyst: #0e2019;
   --purple-light: #bbd3c5;
-  --glass-edge: #d7bd803d;
-  --gold-metal: linear-gradient(120deg, #b39962, #e7d4a5 45%, #c6ab72 85%);
-  --glass: linear-gradient(135deg, #18251eea, #0b1310f5);
-  --glass-signature: linear-gradient(130deg, #1c382b, #0a1712);
+  --glass-edge: #c9a45c3d;
+  --gold-metal: linear-gradient(118deg, #b18b43 0%, #d1af68 24%, #ead39d 46%, #c6a059 67%, #b18b43 100%);
+  --glass: linear-gradient(135deg, #14251eea, #090f0cf5);
+  --glass-signature: linear-gradient(130deg, #173b2b, #081710);
   --brand-purple-quiet: var(--glass);
   --brand-purple-panel: var(--glass-signature);
   --brand-gold-panel: linear-gradient(130deg, #26382a, #111c15 60%, #0b120f);
   --brand-bevel: inset 0 1px #f7e3b627, inset 0 -1px #0008, 0 18px 40px #0005;
+  --forest: #173b2b;
+  --forest-light: #789c86;
+  --obsidian: #060908;
   --font-display: ui-serif, Georgia, 'Times New Roman', serif;
 }
 body {
-  background: #070c0b;
+  background: #060908;
   color: #eeeae0;
   isolation: isolate;
 }
@@ -36,7 +39,7 @@ body::before {
     linear-gradient(155deg, #080d0b, #060908);
 }
 ::selection {
-  background: #d7bd80;
+  background: #c9a45c;
   color: #0b120e;
 }
 .living-atmosphere {
@@ -88,7 +91,7 @@ body::before {
 }
 .club-sidebar [data-slot='sidebar-inner'] {
   background: linear-gradient(110deg, #131c17ed, #080e0df5);
-  border-right: 1px solid #d7bd8027;
+  border-right: 1px solid #c9a45c27;
   box-shadow: 15px 0 50px #0003;
 }
 .collective-nav a {
@@ -103,14 +106,14 @@ body::before {
 .collective-nav a[aria-current='page'] {
   color: #f0ddb0;
   background: linear-gradient(110deg, #b99e5f20, #b99e5f06);
-  border-color: #d7bd8040;
+  border-color: #c9a45c40;
   box-shadow:
-    inset 2px 0 #d7bd80,
-    inset 0 1px #d7bd8020;
+    inset 2px 0 #c9a45c,
+    inset 0 1px #c9a45c20;
 }
 .collective-nav a:hover {
   color: #f4ead3;
-  background: #d7bd8010;
+  background: #c9a45c10;
 }
 .brand-sub,
 .nav-label {
@@ -123,7 +126,7 @@ body::before {
 }
 .topbar {
   min-height: 72px;
-  border-bottom: 1px solid #d7bd8018;
+  border-bottom: 1px solid #c9a45c18;
 }
 .top-title {
   font-size: 12px;
@@ -131,13 +134,13 @@ body::before {
   color: #c6cfc6;
 }
 .preview-badge {
-  background: #d7bd8009;
-  border-color: #d7bd802d;
+  background: #c9a45c09;
+  border-color: #c9a45c2d;
   color: #c2c8bd;
 }
 .gent-memory-bar {
   background: #0b120f;
-  border-color: #d7bd8022;
+  border-color: #c9a45c22;
   font-size: 12px;
   padding: 9px 22px;
   min-height: 42px;
@@ -339,8 +342,8 @@ main {
   grid-template-columns: 180px minmax(0, 1fr);
   gap: 25px;
   padding: 22px 0;
-  border-top: 1px solid #d7bd802e;
-  border-bottom: 1px solid #d7bd802e;
+  border-top: 1px solid #c9a45c2e;
+  border-bottom: 1px solid #c9a45c2e;
 }
 .spatial-next h2 {
   font-size: 23px;
@@ -363,7 +366,7 @@ main {
   transition: background 0.2s;
 }
 .spatial-priority-list > a:hover {
-  background: #d7bd8010;
+  background: #c9a45c10;
 }
 .spatial-index {
   font-size: 12px;
@@ -383,7 +386,7 @@ main {
 .spatial-priority-list svg {
   margin-left: auto;
   flex-shrink: 0;
-  color: #d7bd80;
+  color: #c9a45c;
 }
 .spatial-worlds {
   display: grid;
@@ -401,7 +404,7 @@ main {
   padding: 22px;
   overflow: hidden;
   isolation: isolate;
-  border: 1px solid #d7bd8040;
+  border: 1px solid #c9a45c40;
   background: linear-gradient(145deg, #1b2c22, #0b1510 70%);
   box-shadow:
     inset 0 1px #f2e8c72e,
@@ -426,7 +429,7 @@ main {
   z-index: -1;
 }
 .spatial-card:hover {
-  border-color: #d7bd807d;
+  border-color: #c9a45c7d;
 }
 .spatial-card-head {
   display: flex;
@@ -469,7 +472,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding-top: 17px;
-  border-top: 1px solid #d7bd8028;
+  border-top: 1px solid #c9a45c28;
   margin-top: 20px;
   font-size: 12px;
   color: #dac899;
@@ -572,7 +575,7 @@ main {
 .cs-director,
 .cs-canvas-panel {
   background: var(--glass);
-  border-color: #d7bd8035;
+  border-color: #c9a45c35;
   box-shadow: var(--brand-bevel);
 }
 .vd-command,
@@ -582,35 +585,35 @@ main {
 .intelligence-stage,
 .cs-empty {
   background: var(--glass-signature);
-  border-color: #d7bd804d;
+  border-color: #c9a45c4d;
 }
 .vd-earnings,
 .membership,
 .status-hero,
 .ps-product {
   background: var(--brand-gold-panel);
-  border-color: #d7bd8060;
+  border-color: #c9a45c60;
   box-shadow: var(--brand-bevel);
 }
 .vd-earnings-main,
 .vd-earnings .vd-balances {
   background: #0a1510dd;
-  border-color: #d7bd8029;
+  border-color: #c9a45c29;
 }
 .vd-metric {
   background: #0d1712;
-  border-color: #d7bd8026;
+  border-color: #c9a45c26;
 }
 .visual-dashboard,
 .product-studio,
 .creative-studio {
-  --vd-gold: #d7bd80;
+  --vd-gold: #c9a45c;
   --vd-muted: #aebbb4;
-  --vd-edge: #d7bd8035;
-  --ps-gold: #d7bd80;
+  --vd-edge: #c9a45c35;
+  --ps-gold: #c9a45c;
   --ps-muted: #aebbb4;
   --ps-amethyst: #123121;
-  --cs-gold: #d7bd80;
+  --cs-gold: #c9a45c;
   --cs-dim: #aebbb4;
 }
 .vd-metric-label,
@@ -639,7 +642,7 @@ main {
 .gent-editor select,
 .gent-dialog textarea {
   background: #080f0c;
-  border-color: #d7bd803a;
+  border-color: #c9a45c3a;
   color: #eeeae0;
   border-radius: 9px;
 }
@@ -666,7 +669,7 @@ main {
 }
 .gent-invoke {
   background: linear-gradient(140deg, #223b2beb, #08140fef);
-  border: 1px solid #d7bd8066;
+  border: 1px solid #c9a45c66;
   color: #f0deae;
   box-shadow:
     inset 0 1px #f6e4b442,
@@ -675,7 +678,7 @@ main {
 }
 .gent-dialog {
   background: linear-gradient(140deg, #15281fec, #080e0bf7);
-  border: 1px solid #d7bd8070;
+  border: 1px solid #c9a45c70;
   box-shadow:
     0 35px 110px #000b,
     inset 0 1px #f1e2ba50;
@@ -687,7 +690,7 @@ main {
 .ambient-toggle {
   background: #101c15ed;
   color: #d9c591;
-  border-color: #d7bd8048;
+  border-color: #c9a45c48;
 }
 .membership .card-wordmark {
   color: #e0cb96;
@@ -850,7 +853,7 @@ main {
     display: none;
   }
   .spatial-card {
-    border-color: #d7bd80;
+    border-color: #c9a45c;
   }
 }
 @media (forced-colors: active) {
@@ -896,12 +899,12 @@ main {
 }
 .mobile-dock {
   background: linear-gradient(120deg, #203b25eb, #09170fee);
-  border-color: #d7bd8055;
+  border-color: #c9a45c55;
 }
 .mobile-dock a[aria-current] {
-  background: #d7bd801a;
+  background: #c9a45c1a;
   color: #eddaa7;
-  border-color: #d7bd8060;
+  border-color: #c9a45c60;
 }
 .spatial-instrument[data-material-visible='false'] .instrument-body {
   animation-play-state: paused !important;

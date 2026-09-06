@@ -3,7 +3,7 @@
   --vd-gold: #d9a844;
   --vd-white: #f2efe6;
   --vd-muted: #a4a4a3;
-  --vd-edge: #c4912f38;
+  --vd-edge: #c9a45c38;
   --vd-inset: inset 0 1px 0 #f3e6bd12, inset 0 -1px 0 #0009;
   color: var(--vd-white);
   padding: 0 0 28px;
@@ -845,7 +845,7 @@ main[data-view='home'] > .page-heading {
   width: 100%;
   height: 100%;
   overflow: visible;
-  filter: drop-shadow(0 0 7px #c4912f11);
+  filter: drop-shadow(0 0 7px #c9a45c11);
 }
 .vd-ring-value {
   transition: stroke-dasharray 0.7s ease;
@@ -1319,7 +1319,7 @@ main[data-view='home'] > .page-heading {
 }
 .command-handoff {
   padding: 24px;
-  border: 1px solid #c4912f55;
+  border: 1px solid #c9a45c55;
   border-radius: 18px;
   background: #1e1e1d;
   margin-bottom: 24px;
@@ -2104,7 +2104,7 @@ main[data-view='home'] > .page-heading {
 
 /* Signature materials: black titanium, machined gold edges, warm optical light. */
 .vd-glass {
-  background: linear-gradient(135deg, #ffffff06, transparent 45%), #0d0d0e;
+  background: linear-gradient(135deg, #ffffff06, transparent 45%), #0d0e0e;
   box-shadow:
     inset 0 1px #f4d59b19,
     inset 0 -1px #000c,
@@ -2112,12 +2112,12 @@ main[data-view='home'] > .page-heading {
 }
 .vd-earnings {
   background:
-    radial-gradient(ellipse at 100% 0, #c4912f1b, transparent 58%),
-    linear-gradient(125deg, #181715, #09090a 72%);
-  border-color: #c4912f70;
+    radial-gradient(ellipse at 100% 0, #c9a45c1b, transparent 58%),
+    linear-gradient(125deg, #181715, #090a0a 72%);
+  border-color: #c9a45c70;
   box-shadow:
     inset 0 1px #f7db9e5c,
-    inset 0 -1px #c4912f25,
+    inset 0 -1px #c9a45c25,
     0 22px 55px #0009;
 }
 .vd-earnings::before,
@@ -2132,7 +2132,7 @@ main[data-view='home'] > .page-heading {
     90deg,
     transparent,
     #f4d798 30%,
-    #c4912f 65%,
+    #c9a45c 65%,
     transparent
   );
   pointer-events: none;
@@ -2143,23 +2143,23 @@ main[data-view='home'] > .page-heading {
     110deg,
     #fff0c8 5%,
     #e4b95e 48%,
-    #c4912f 80%,
+    #c9a45c 80%,
     #f2d59b
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 430;
-  text-shadow: 0 8px 36px #c4912f12;
+  text-shadow: 0 8px 36px #c9a45c12;
 }
 .vd-cassius {
   background:
-    radial-gradient(ellipse at 0 0, #c4912f22, transparent 55%),
-    linear-gradient(145deg, #191714, #0a0a0b 75%);
-  border-color: #c4912f80;
+    radial-gradient(ellipse at 0 0, #c9a45c22, transparent 55%),
+    linear-gradient(145deg, #191714, #0a0b0b 75%);
+  border-color: #c9a45c80;
   box-shadow:
     inset 0 1px #f1d89e40,
-    0 0 36px #c4912f08,
+    0 0 36px #c9a45c08,
     0 20px 45px #0008;
 }
 .vd-cassius-wordmark {
@@ -2173,11 +2173,11 @@ main[data-view='home'] > .page-heading {
   line-height: 1.12;
 }
 .vd-cassius-glyph > div {
-  background: linear-gradient(135deg, #c4912f40, #171410);
+  background: linear-gradient(135deg, #c9a45c40, #171410);
   border-color: #deb667a0;
   box-shadow:
     inset 1px 1px #ffe4ad50,
-    0 0 28px #c4912f1a;
+    0 0 28px #c9a45c1a;
 }
 .vd-metric {
   background: linear-gradient(145deg, #ffffff05, #0003);
@@ -2199,31 +2199,31 @@ main[data-view='home'] > .page-heading {
   color: #e6bc6c;
 }
 .vd-gold-button {
-  background: linear-gradient(112deg, #f0d391, #c4912f 52%, #e2b85e);
+  background: linear-gradient(112deg, #f0d391, #c9a45c 52%, #e2b85e);
   border-color: #f4dba0b0;
   border-radius: 8px;
   box-shadow:
     inset 0 1px #fff6,
     inset 0 -2px #80541970,
-    0 5px 24px #c4912f1a;
+    0 5px 24px #c9a45c1a;
 }
 .vd-command {
-  border-color: #c4912f45;
-  background: linear-gradient(130deg, #c4912f0c, #101011 65%);
+  border-color: #c9a45c45;
+  background: linear-gradient(130deg, #c9a45c0c, #101011 65%);
 }
 .vd-command:hover {
   border-color: #d9b269a0;
-  background: linear-gradient(130deg, #c4912f22, #111112 70%);
+  background: linear-gradient(130deg, #c9a45c22, #111112 70%);
 }
 .vd-command-icon,
 .vd-pulse-icon {
-  background: linear-gradient(135deg, #c4912f25, #111112);
+  background: linear-gradient(135deg, #c9a45c25, #111112);
   color: #e2b65d;
-  border-color: #c4912f4a;
+  border-color: #c9a45c4a;
   border-radius: 8px;
 }
 .vd-command-wide {
-  background: linear-gradient(100deg, #c4912f20, #111112 75%);
+  background: linear-gradient(100deg, #c9a45c20, #111112 75%);
 }
 .vd-preview-toggle,
 .vd-trend:not(.vd-trend-down):not(.vd-trend-empty) {
@@ -2231,17 +2231,17 @@ main[data-view='home'] > .page-heading {
 }
 .vd-chart-switch button[aria-pressed='true'] {
   color: #efd294;
-  background: #c4912f20;
+  background: #c9a45c20;
 }
 .vd-periods button[aria-pressed='true'] {
-  border-color: #c4912f80;
+  border-color: #c9a45c80;
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #242019f5, #09090af5 65%);
+  background: linear-gradient(120deg, #242019f5, #090a0af5 65%);
 }
 .mobile-dock a[aria-current] {
   color: #f3d394;
-  background: linear-gradient(140deg, #c4912f45, #c4912f15);
+  background: linear-gradient(140deg, #c9a45c45, #c9a45c15);
 }
 @media (forced-colors: active) {
   .vd-earnings-number {
