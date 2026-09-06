@@ -959,15 +959,10 @@ export function ProductStudio() {
     <div className="product-studio">
       <div className="ps-intro">
         <div>
-          <span className="eyebrow gold">THE PRODUCT INTELLIGENCE ATELIER</span>
-          <h2>
-            Know it deeply.
-            <br />
-            <em>Represent it well.</em>
-          </h2>
+          <span className="eyebrow gold">PRODUCT KNOWLEDGE & TRAINING</span>
+          <h2>Product intelligence</h2>
           <p>
-            Explore the details. Sharpen your judgment. Build lasting
-            confidence.
+            Review product evidence, build your knowledge, and prepare informed recommendations.
           </p>
         </div>
         <button

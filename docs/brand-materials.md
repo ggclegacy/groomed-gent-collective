@@ -1,5 +1,7 @@
 # Groomed Gent Co. brand materials
 
+The website palette below records the original source. The app now intentionally uses deeper purple and a more restrained interface as requested by the user; see [interface-refinement.md](interface-refinement.md) for the current direction.
+
 Source: inline CSS on https://groomedgentco.com/, inspected September 5, 2026. The Four Pillars and Barber's Blend sections are the reference for gold card surfaces; their deep purple badges supply the purple material.
 
 ## Canonical palette

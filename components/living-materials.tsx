@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useSyncExternalStore } from 'react';
-import { Pause, Sparkles } from 'lucide-react';
+import { Pause, Play } from 'lucide-react';
 const key = 'ggc-ambient-motion';
 const eventName = 'ggc-motion-preference';
 let memoryPaused = false;
@@ -134,7 +134,7 @@ export function LivingMaterials() {
         }}
         title="Ambient motion follows your device’s reduced-motion preference"
       >
-        {paused ? <Sparkles size={15} /> : <Pause size={15} />}
+        {paused ? <Play size={15} /> : <Pause size={15} />}
         <span>{paused ? 'Motion off' : 'Motion on'}</span>
       </button>
     </>

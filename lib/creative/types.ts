@@ -34,7 +34,7 @@ export const defaultKit: BrandKit = {
   name: 'Groomed Gent Collective',
   voice: 'Quiet confidence. Considered, precise, refined. No hype.',
   palette:
-    'Obsidian black #0A0A0A, brushed gold #C4912F with #D9B66B highlights, deep purple #1A0930 and #2A0F4A, royal purple #6C3FC7 accents',
+    'Obsidian black #0A0A0A, brushed gold #C4912F with #D9B66B highlights, deep purple #1A0930 and #2A0F4A, deep imperial purple #21112F accents; restrained editorial layouts, precise typography, no neon, lavender, gamified badges, or decorative sci-fi motifs',
   audience: 'Men who approach grooming as a considered daily ritual',
   ambassador: '',
   disclosure: '',

@@ -424,18 +424,7 @@ export function CreativeStudio({ scope = 'device' }: { scope?: string }) {
           <span className="cs-kicker">
             <span /> CASSIUS / CREATIVE INTELLIGENCE
           </span>
-          <h2>
-            Your vision.
-            <br />
-            <em>Exceptionally realized.</em>
-          </h2>
-          <p>
-            A considered idea. A distinctive image. An entire world of your
-            brand.
-          </p>
-        </div>
-        <div className="cs-sigil" aria-hidden="true">
-          <Sparkles size={34} />
+          <p>Develop your brief. Create and review assets. Manage your brand.</p>
         </div>
       </header>
       <nav className="cs-tabs" aria-label="Creative workspace">

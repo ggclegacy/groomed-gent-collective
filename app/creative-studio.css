@@ -22,9 +22,9 @@
 .cs-kicker > span {
   width: 5px;
   height: 5px;
-  background: #b58dd8;
+  background: #2a0f4a;
   border-radius: 50%;
-  box-shadow: 0 0 14px #b58dd8;
+  box-shadow: 0 0 14px #2a0f4a;
 }
 .cs-header h2 {
   font-size: clamp(35px, 4vw, 64px);
@@ -52,9 +52,9 @@
   border: 1px solid #dcb96c44;
   border-radius: 50%;
   color: var(--cs-gold);
-  background: radial-gradient(circle, #35234480, transparent 68%);
+  background: radial-gradient(circle, #2a0f4a80, transparent 68%);
   box-shadow:
-    0 0 70px #583a722b,
+    0 0 70px #2a0f4a2b,
     inset 0 0 28px #ac853310;
   margin-right: 30px;
 }
@@ -192,7 +192,7 @@
   display: flex;
   align-items: center;
   gap: 7px;
-  border: 1px dashed #b5aabf40;
+  border: 1px dashed #b9b3bf40;
   padding: 10px;
   border-radius: 8px;
   font-size: 10px;
@@ -249,7 +249,7 @@
   align-items: center;
   gap: 8px;
   width: 100%;
-  border: 1px solid #a796b630;
+  border: 1px solid #2a0f4a30;
   border-radius: 9px;
   padding: 12px;
   margin-top: 10px;
@@ -268,10 +268,10 @@
   justify-content: center;
   min-height: 620px;
   text-align: center;
-  border: 1px solid #a794b816;
+  border: 1px solid #2a0f4a16;
   border-radius: 14px;
   background:
-    radial-gradient(ellipse at 50% 32%, #38254945, transparent 55%),
+    radial-gradient(ellipse at 50% 32%, #2a0f4a45, transparent 55%),
     linear-gradient(145deg, #141018, #0a080b);
   padding: 30px;
 }
@@ -286,7 +286,7 @@
   display: grid;
   place-items: center;
   margin: 35px auto 55px;
-  box-shadow: 0 0 80px #9f8ab117;
+  box-shadow: 0 0 80px #2a0f4a17;
 }
 .cs-empty h3,
 .cs-brands h3 {
@@ -314,9 +314,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 15px;
-  border: 1px solid #a895b924;
+  border: 1px solid #2a0f4a24;
   border-radius: 8px;
-  color: #c6bdcd;
+  color: #b9b3bf;
   font-size: 11px;
   text-align: left;
   background: #ffffff03;
@@ -366,7 +366,7 @@
   align-items: center;
   gap: 7px;
   padding: 9px 11px;
-  border: 1px solid #b5a7c129;
+  border: 1px solid #b9b3bf29;
   border-radius: 8px;
   font-size: 10px;
   color: #cdc6d3;
