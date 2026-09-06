@@ -1,5 +1,5 @@
 /* Optical material layer shared by every Collective workspace.
-   Rich metallic gold with deep forest reflections; preserve the optical depth and motion. */
+   Rich metallic gold with deep amethyst reflections; preserve the optical depth and motion. */
 :root,
 .dark {
   --gold: #e5c678;
@@ -7,7 +7,7 @@
   --primary: #e5c678;
   --glass-edge: #e7c87938;
   --glass:
-    linear-gradient(135deg, #ffffff0d, #ffffff02 32%, #6fb89808 85%), #0a0c10;
+    linear-gradient(135deg, #ffffff0d, #ffffff02 32%, #966fb808 85%), #0a0c10;
   --glass-signature:
     radial-gradient(ellipse at 20% 0, #f9d06717, transparent 55%),
     linear-gradient(140deg, #15171d, #07090d);
@@ -23,10 +23,10 @@
     #f8d26d
   );
   --glass-shadow:
-    0 22px 55px #0009, inset 0 1px #ffd26138, inset 0 -1px #7cac9619;
+    0 22px 55px #0009, inset 0 1px #ffd26138, inset 0 -1px #967cac19;
 }
 body::before {
-  background: radial-gradient(ellipse at 65% 0%, #6fb8980a, transparent 60%);
+  background: radial-gradient(ellipse at 65% 0%, #966fb80a, transparent 60%);
 }
 .living-atmosphere {
   position: fixed;
@@ -59,8 +59,8 @@ body::before {
   right: -40vw;
   background: radial-gradient(
     ellipse,
-    #6fb89816,
-    #6fb89806 45%,
+    #966fb816,
+    #966fb806 45%,
     transparent 65%
   );
   animation: ambient-drift 30s ease-in-out -12s infinite alternate-reverse;
@@ -75,7 +75,7 @@ body::before {
     90deg,
     transparent,
     #ffd2612b,
-    #6fb89818,
+    #966fb818,
     transparent
   );
   transform: rotate(-24deg);
@@ -114,12 +114,12 @@ body::before {
 }
 .product-studio {
   --ps-gold: #ecca74;
-  --ps-muted: #899f95;
-  --ps-forest: #111e18;
+  --ps-muted: #95899f;
+  --ps-amethyst: #18111e;
 }
 .creative-studio {
   --cs-gold: #edca73;
-  --cs-dim: #8a9e95;
+  --cs-dim: #958a9e;
 }
 .vd-glass,
 .ps-glass,
@@ -138,11 +138,11 @@ body::before {
   isolation: isolate;
   border-color: #e7c87930;
   background:
-    linear-gradient(135deg, #ffffff0b, transparent 36%, #6fb89805 100%), #0b0e13;
+    linear-gradient(135deg, #ffffff0b, transparent 36%, #966fb805 100%), #0b0e13;
   box-shadow:
     0 20px 50px #0008,
     inset 0 1px #ffd2612d,
-    inset 0 -1px #6fb89814;
+    inset 0 -1px #966fb814;
 }
 [data-material]::after {
   content: '';
@@ -156,7 +156,7 @@ body::before {
     transparent 10%,
     #ffd26103 27%,
     #ffd26111 44%,
-    #6fb89808 47%,
+    #966fb808 47%,
     transparent 65%
   );
   transform: translateX(var(--reflection-x, 0%));
@@ -178,7 +178,7 @@ body::before {
 .intelligence-stage {
   background:
     radial-gradient(ellipse at 0 0, #f4ce6c17, transparent 46%),
-    radial-gradient(ellipse at 100% 80%, #6fb8980b, transparent 50%), #080b10;
+    radial-gradient(ellipse at 100% 80%, #966fb80b, transparent 50%), #080b10;
   border-color: #f2cc6e65;
   box-shadow:
     inset 0 1px #ffd261a6,
@@ -265,7 +265,7 @@ body::before {
     box-shadow 0.3s;
 }
 .vd-command {
-  background: linear-gradient(125deg, #ffd2610c, #111e18);
+  background: linear-gradient(125deg, #ffd2610c, #18111e);
   border-color: #e6c77a40;
 }
 .vd-command:hover,
@@ -281,7 +281,7 @@ body::before {
 .vd-command-icon,
 .vd-pulse-icon,
 .ps-product-mark {
-  background: linear-gradient(140deg, #ffd26128, #15241d 55%, #6fb89812);
+  background: linear-gradient(140deg, #ffd26128, #1d1524 55%, #966fb812);
   color: #ffd261;
   border-color: #ffd26165;
   box-shadow:
@@ -314,10 +314,10 @@ body::before {
   color: #e6c77a;
 }
 .vd-command-wide {
-  background: linear-gradient(110deg, #f6ce6a15, #0c1913 70%);
+  background: linear-gradient(110deg, #f6ce6a15, #130c19 70%);
 }
 .vd-tooltip {
-  background: #101d17f5;
+  background: #17101df5;
   border-color: #ffd2616b;
   box-shadow: 0 15px 30px #000b;
 }
@@ -329,7 +329,7 @@ body::before {
 }
 /* Floating navigation picks up highlights from the luminous environment. */
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff0c, #0a130fed 50%, #6fb8980a);
+  background: linear-gradient(125deg, #ffffff0c, #0f0a13ed 50%, #966fb80a);
   border-color: #e6c77a46;
   box-shadow:
     inset 0 1px #ffd26165,
@@ -339,14 +339,14 @@ body::before {
 .mobile-dock a[aria-current] {
   color: #ffd261;
   border-color: #f0cc6f75;
-  background: linear-gradient(115deg, #ffd26122, #172b2299);
+  background: linear-gradient(115deg, #ffd26122, #22172b99);
   box-shadow:
     inset 0 1px #ffd26178,
     inset 3px 0 #f8cf68,
     0 0 20px #ffd2610c;
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #ffd26116, #0b1712f2 45%, #6fb8980d);
+  background: linear-gradient(120deg, #ffd26116, #110b17f2 45%, #966fb80d);
   border-color: #ffd2616b;
   box-shadow:
     inset 0 1px #ffd26180,
@@ -382,12 +382,12 @@ body::before {
     #deb651,
     #ffd261 9%,
     #e6c77a 19%,
-    #7b817f 24%,
+    #7e7b81 24%,
     #ffd261 34%,
     #fffef3 40%,
     #e5c574 50%,
     #f2cd6e 60%,
-    #8a9e95 66%,
+    #958a9e 66%,
     #ffd261 80%,
     #e4c472 92%,
     #deb651
@@ -397,7 +397,7 @@ body::before {
   background: radial-gradient(
     circle,
     #e6c77a26,
-    #6fb89812 45%,
+    #966fb812 45%,
     transparent 70%
   );
 }
@@ -408,8 +408,8 @@ body::before {
     #ffd26136 19%,
     #edca7380 24%,
     transparent 34%,
-    #6fb89820 57%,
-    #6fb89855 66%,
+    #966fb820 57%,
+    #966fb855 66%,
     transparent 77%
   );
 }
@@ -417,7 +417,7 @@ body::before {
   background: conic-gradient(
     from 160deg,
     transparent 12%,
-    #6fb89860 26%,
+    #966fb860 26%,
     transparent 36%,
     #ffd2614d 48%,
     transparent 62%,
@@ -431,7 +431,7 @@ body::before {
     #fffefa 0,
     #ffd261 10%,
     #e6c77a 25%,
-    #6fb89845 50%,
+    #966fb845 50%,
     transparent 72%
   );
 }
@@ -445,7 +445,7 @@ body::before {
   stroke: #ffd26184;
 }
 .core-filaments path:nth-child(2) {
-  stroke: #6fb89885;
+  stroke: #966fb885;
 }
 .core-filaments .filament-signal {
   stroke: #ffd261;
@@ -457,7 +457,7 @@ body::before {
   background: radial-gradient(
     circle,
     #ffd2611c,
-    #6fb8980b 50%,
+    #966fb80b 50%,
     transparent 70%
   );
   color: #ffd261;
@@ -475,7 +475,7 @@ body::before {
   border-radius: 50%;
   border: 1px solid transparent;
   border-top-color: #ffd261b0;
-  border-right-color: #6fb89850;
+  border-right-color: #966fb850;
   animation: optical-orbit 18s linear infinite;
   pointer-events: none;
 }
@@ -625,7 +625,7 @@ html[data-ambient-motion='paused'] [data-material]::after {
 .cs-empty {
   background:
     radial-gradient(ellipse at 50% 32%, #ecca7414, transparent 55%),
-    radial-gradient(ellipse at 100% 100%, #6fb8980a, transparent 60%), #09130e;
+    radial-gradient(ellipse at 100% 100%, #966fb80a, transparent 60%), #0e0913;
   border-color: #ffd2612c;
 }
 .vd-is-thinking .core-fluid {
@@ -638,40 +638,200 @@ html[data-ambient-motion='paused'] [data-material]::after {
   opacity: 0;
 }
 
-/* Forest is a supporting material, concentrated in depth and intelligence. */
+/* Amethyst is a supporting material, concentrated in depth and intelligence. */
 :root,
 .dark {
   --gold: #dba82f;
   --gold-light: #f0c45d;
   --primary: #dba82f;
-  --forest: #0c1d16;
+  --amethyst: #150c1d;
 }
 .vd-cassius,
 .ps-atlas,
 .intelligence-stage {
   background:
     radial-gradient(ellipse at 0 0, #d5a52e1c, transparent 48%),
-    radial-gradient(ellipse at 100% 100%, #234f3936, transparent 65%), #090f0d;
+    radial-gradient(ellipse at 100% 100%, #3a234f36, transparent 65%), #0c090f;
 }
 .ambient-platinum {
   background: radial-gradient(
     ellipse,
-    #28513b25,
-    #183c280e 45%,
+    #3e285125,
+    #2b183c0e 45%,
     transparent 65%
   );
 }
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff09, #0a100eed 50%, #1b39241a);
+  background: linear-gradient(125deg, #ffffff09, #0d0a10ed 50%, #2b1b391a);
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #d8ad3616, #0b1510f2 45%, #254c311c);
+  background: linear-gradient(120deg, #d8ad3616, #100b15f2 45%, #3a254c1c);
 }
 .vd-command-wide {
-  background: linear-gradient(110deg, #d5a52e16, #102018 85%);
+  background: linear-gradient(110deg, #d5a52e16, #191020 85%);
 }
 .cs-empty {
   background:
     radial-gradient(ellipse at 50% 32%, #d5a52e12, transparent 55%),
-    radial-gradient(ellipse at 100% 100%, #28513b22, transparent 60%), #080e0b;
+    radial-gradient(ellipse at 100% 100%, #3e285122, transparent 60%), #0b080e;
 }
+
+/* Black / gold / purple: reference-led brand identity. Gold defines authority;
+   purple carries intelligence, optical energy, and analytical signals. */
+:root,
+.dark {
+  --background: #050506;
+  --sidebar: #080709;
+  --purple: #a66be8;
+  --purple-light: #d2a2ff;
+  --amethyst: #1b1027;
+  --violet: #b47cec;
+  --gold: #dba83c;
+  --gold-light: #f1cc78;
+}
+body::before {
+  background: radial-gradient(ellipse at 70% 8%, #6b369b14, transparent 60%);
+}
+.ambient-platinum {
+  background: radial-gradient(
+    ellipse,
+    #8b3fd43a,
+    #50217617 45%,
+    transparent 65%
+  );
+}
+.ambient-gold {
+  background: radial-gradient(
+    ellipse,
+    #e9bd4521,
+    #d49a3009 40%,
+    transparent 68%
+  );
+}
+.vd-cassius,
+.ps-atlas,
+.intelligence-stage {
+  background:
+    radial-gradient(ellipse at 0 0, #d5a52e12, transparent 48%),
+    radial-gradient(ellipse at 100% 90%, #713ca035, transparent 65%), #09070d;
+}
+.vd-glass,
+.ps-glass,
+.ps-product,
+.cs-director,
+.cs-canvas-panel,
+.panel,
+.pending-panel,
+.status-hero,
+.member-door,
+.membership-record {
+  background-color: #09080d;
+}
+.club-sidebar [data-slot='sidebar-inner'] {
+  background: linear-gradient(125deg, #ffffff07, #08070bed 55%, #5825751a);
+}
+.mobile-dock {
+  background: linear-gradient(120deg, #d8ad3610, #0d0913f5 45%, #54257922);
+}
+.collective-nav a[aria-current],
+.mobile-dock a[aria-current] {
+  background: linear-gradient(115deg, #ad70ed20, #121017);
+  border-color: #d4ad665a;
+}
+.vd-command-wide {
+  background: linear-gradient(110deg, #9749d420, #0b0812 85%);
+}
+.vd-command:nth-child(even) .vd-command-icon,
+.vd-pulse-icon,
+.ps-atlas-orbit,
+.cs-sigil,
+.cs-orbit {
+  color: #cb95ff;
+  border-color: #a55bde6b;
+  background: radial-gradient(circle, #8b3fd428, #0b0811 75%);
+  box-shadow:
+    inset 0 1px #dcacff45,
+    0 0 35px #8745bc16;
+}
+.cs-sigil::before,
+.cs-orbit::before,
+.ps-atlas-orbit::before {
+  border-top-color: #c790ffb0;
+  border-right-color: #ab66e65c;
+}
+.vd-hero-spark {
+  color: #bc81ed;
+}
+.vd-bar > span {
+  background: linear-gradient(90deg, #5c267e, #aa62e0 68%, #d5a0ff);
+  box-shadow: 0 0 9px #a45adb2b;
+}
+.vd-chart-legend i:first-child {
+  background: #bc81ed;
+}
+.core-sphere {
+  background: radial-gradient(circle at 40% 35%, #251231, #07050c 70%);
+}
+.core-aura {
+  background: radial-gradient(
+    circle,
+    #9b52e12b,
+    #58208614 45%,
+    transparent 70%
+  );
+}
+.fluid-one {
+  background: conic-gradient(
+    from 40deg,
+    transparent 8%,
+    #b359f04a 19%,
+    #c68affaa 24%,
+    transparent 34%,
+    #934ee536 57%,
+    #d7a5ff77 66%,
+    transparent 77%
+  );
+}
+.fluid-two {
+  background: conic-gradient(
+    from 160deg,
+    transparent 12%,
+    #bc74ff80 26%,
+    transparent 36%,
+    #f1ce884d 48%,
+    transparent 62%,
+    #8744c277 74%,
+    transparent 90%
+  );
+}
+.core-heart {
+  background: radial-gradient(
+    circle,
+    #fff1d5 0,
+    #d3a1ff 10%,
+    #ad5ee8 25%,
+    #5d287d55 50%,
+    transparent 72%
+  );
+}
+.core-filaments path {
+  stroke: #c486f9ac;
+}
+.core-filaments path:nth-child(2) {
+  stroke: #e4bd7785;
+}
+.core-filaments .filament-signal {
+  stroke: #e5c0ff;
+}
+.core-network path {
+  stroke: #ab69dc50;
+}
+.core-network circle {
+  fill: #e5c0ff;
+}
+.cs-empty {
+  background:
+    radial-gradient(ellipse at 50% 32%, #9545ca20, transparent 55%),
+    radial-gradient(ellipse at 100% 100%, #60307a1c, transparent 60%), #09060d;
+}
+.vd-chart-legend span:nth-child(2) i { background: #d4b16b; }

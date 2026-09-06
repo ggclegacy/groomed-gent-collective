@@ -36,7 +36,7 @@ import {
 const starters = [
   [
     'The hero shot',
-    'A sculptural product portrait on black stone, brushed gold light and deep green shadows.',
+    'A sculptural product portrait on black stone, metallic gold light and deep amethyst shadows.',
   ],
   [
     'A ritual, elevated',
@@ -557,7 +557,7 @@ export function CreativeStudio({ scope = 'device' }: { scope?: string }) {
               value={prompt}
               disabled={!!busy}
               onChange={(e) => setPrompt(e.target.value)}
-              placeholder="A cinematic hero shot for Barber’s Blend. Black marble, warm gold light, a touch of forest green…"
+              placeholder="A cinematic hero shot for Barber’s Blend. Black marble, warm gold light, luminous amethyst accents…"
               rows={5}
             />
             <button

@@ -12,14 +12,14 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-primary: var(--primary);
-  --color-primary-foreground: #090b09;
+  --color-primary-foreground: #0a090b;
   --color-accent: #242119;
   --color-accent-foreground: var(--foreground);
-  --color-ring: #8dc5a5;
+  --color-ring: #ab8dc5;
   --color-popover: #131313;
   --color-popover-foreground: var(--foreground);
 }
-/* GGC material vocabulary: obsidian environment, smoked optical glass, gold authority; near-black forest is a supporting tone. */
+/* GGC material vocabulary: obsidian environment, smoked optical glass, gold authority; near-black amethyst is a supporting tone. */
 :root,
 .dark {
   --background: #080808;
@@ -31,13 +31,13 @@
   --primary: #c4912f;
   --gold-light: #e7c681;
   --gold: #c4912f;
-  --forest: #0e1210;
-  --emerald: #cfab66;
+  --amethyst: #100e12;
+  --violet: #cfab66;
   --glass:
-    linear-gradient(135deg, #ffffff0c, #ffffff02 40%, #c4912f0d), #101211;
+    linear-gradient(135deg, #ffffff0c, #ffffff02 40%, #c4912f0d), #111012;
   --glass-signature:
     radial-gradient(ellipse at 95% 90%, #c4912f18, transparent 65%),
-    linear-gradient(130deg, #c4912f10, transparent 38%), #0c100e;
+    linear-gradient(130deg, #c4912f10, transparent 38%), #0e0c10;
   --gold-rim:
     0 22px 50px #0006, inset 0 1px 0 #f3d49245, inset 1px 0 0 #c4912f18,
     inset 0 -1px 0 #c4912f25;
@@ -148,7 +148,7 @@ em {
 .club-sidebar [data-slot='sidebar-inner'] {
   border: 1px solid var(--glass-edge);
   border-radius: 25px;
-  background: linear-gradient(155deg, #25251f90, #0b0d0ce8 52%, #101011aa);
+  background: linear-gradient(155deg, #25251f90, #0c0b0de8 52%, #101011aa);
   box-shadow: var(--glass-shadow);
   backdrop-filter: blur(24px);
 }
@@ -230,7 +230,7 @@ em {
 }
 .nav-dot {
   margin-left: auto;
-  background: #7e9e86;
+  background: #8f7e9e;
 }
 .sidebar-note {
   display: flex;
@@ -441,7 +441,7 @@ main {
   font-size: 13px;
   margin: 7px 0 0;
 }
-/* CASSIUS — gold instrument chassis around a living emerald optical chamber. */
+/* CASSIUS — gold instrument chassis around a living violet optical chamber. */
 .cassius-core {
   position: relative;
   width: min(100%, 380px);
@@ -464,7 +464,7 @@ main {
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    #173c2835,
+    #2b173c35,
     #c4912f0c 55%,
     transparent 73%
   );
@@ -508,14 +508,14 @@ main {
   border-radius: 50%;
   background: conic-gradient(
     from 10deg,
-    #11130f,
-    #42433b 12%,
-    #10110f 24%,
+    #110f13,
+    #3f3b43 12%,
+    #100f11 24%,
     #77766a 35%,
-    #141511 46%,
-    #090c09 62%,
-    #6a6c60 78%,
-    #11130f 94%
+    #131115 46%,
+    #0b090c 62%,
+    #66606c 78%,
+    #110f13 94%
   );
   box-shadow:
     inset 0 1px #fff3,
@@ -550,7 +550,7 @@ main {
   border-radius: 50%;
   background: repeating-conic-gradient(
     from 43deg,
-    #0a0c0b 0deg 5deg,
+    #0b0a0c 0deg 5deg,
     transparent 5deg 90deg
   );
   mask-image: radial-gradient(circle, transparent 62%, #000 63%);
@@ -560,9 +560,9 @@ main {
   inset: 17%;
   border-radius: 50%;
   border: 1px solid #e1bd6980;
-  background: radial-gradient(circle, #020705 56%, #172418 66%, #0a0f0b 70%);
+  background: radial-gradient(circle, #050207 56%, #1e1724 66%, #0d0a0f 70%);
   box-shadow:
-    0 0 0 3px #050805,
+    0 0 0 3px #070508,
     0 0 0 5px #c4912f45,
     inset 0 0 0 3px #c4912f20,
     inset 0 0 25px #000;
@@ -574,15 +574,15 @@ main {
   overflow: hidden;
   background: radial-gradient(
     circle at 35% 27%,
-    #112a1d,
-    #060e09 43%,
-    #020504 78%
+    #1e112a,
+    #0a060e 43%,
+    #040205 78%
   );
-  border: 1px solid #709e6d30;
+  border: 1px solid #876d9e30;
   box-shadow:
     inset -12px -17px 25px #000c,
-    inset 1px 2px 10px #a3c59515,
-    0 0 14px #72a25016;
+    inset 1px 2px 10px #af95c515,
+    0 0 14px #7c50a216;
   transform: translateZ(6px);
 }
 .core-fluid {
@@ -597,11 +597,11 @@ main {
   background: conic-gradient(
     from 40deg,
     transparent 8%,
-    #1f764929 19%,
-    #75c08f55 24%,
+    #4d1f7629 19%,
+    #9d75c055 24%,
     transparent 34%,
-    #1d5e3910 57%,
-    #559a5b40 66%,
+    #401d5e10 57%,
+    #7a559a40 66%,
     transparent 77%
   );
 }
@@ -610,11 +610,11 @@ main {
   background: conic-gradient(
     from 160deg,
     transparent 12%,
-    #78b69330 26%,
+    #9978b630 26%,
     transparent 36%,
     #c4912f20 48%,
     transparent 62%,
-    #2c7c5735 74%,
+    #572c7c35 74%,
     transparent 90%
   );
 }
@@ -627,14 +627,14 @@ main {
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    #e2f2cf 0,
-    #9bdfad 8%,
-    #46b476 24%,
-    #23734760 48%,
+    #e2cff2 0,
+    #bf9bdf 8%,
+    #8146b4 24%,
+    #4e237360 48%,
     transparent 72%
   );
   filter: blur(5px);
-  box-shadow: 0 0 22px #71ba7920;
+  box-shadow: 0 0 22px #9871ba20;
 }
 .core-network,
 .core-filaments {
@@ -644,29 +644,29 @@ main {
   height: 100%;
 }
 .core-network {
-  stroke: #7bb38c;
+  stroke: #997bb3;
   stroke-width: 0.4;
   opacity: 0.23;
 }
 .core-network circle {
-  fill: #a4cc9b;
+  fill: #b59bcc;
   stroke: none;
 }
 .core-network circle:nth-of-type(4n) {
   fill: #ddbc74;
 }
 .core-filaments {
-  stroke: #8fd5a5;
+  stroke: #b48fd5;
   stroke-width: 0.65;
   opacity: 0.65;
-  filter: drop-shadow(0 0 2px #43976455);
+  filter: drop-shadow(0 0 2px #70439755);
 }
 .core-filaments path:nth-child(2) {
   stroke: #c4912f;
   opacity: 0.4;
 }
 .core-filaments .filament-signal {
-  stroke: #d9efc4;
+  stroke: #dbc4ef;
   stroke-width: 1;
   stroke-dasharray: 2 42 6 97;
 }
@@ -687,7 +687,7 @@ main {
   top: 10%;
   border-radius: 50%;
   transform: rotate(-35deg);
-  background: linear-gradient(#efffe125, #d0efc000);
+  background: linear-gradient(#f1e6fa25, #d9c0ef00);
   filter: blur(6px);
 }
 .core-signal-track {
@@ -715,7 +715,7 @@ main {
   place-items: center;
   border: 1px solid #e9c979;
   border-radius: 38% 38% 45% 45%;
-  background: linear-gradient(140deg, #b48a354d, #0b100deb 65%, #c4912f45);
+  background: linear-gradient(140deg, #b48a354d, #0e0b10eb 65%, #c4912f45);
   box-shadow:
     inset 0 0 0 3px #c4912f24,
     0 4px 12px #0009;
@@ -740,7 +740,7 @@ main {
   content: '';
   position: absolute;
   inset: 2px;
-  background: linear-gradient(130deg, #3b3c2d, #10160f);
+  background: linear-gradient(130deg, #352d3c, #130f16);
   clip-path: inherit;
 }
 .core-lock span {
@@ -851,7 +851,7 @@ main {
   padding: 25px;
   background:
     linear-gradient(120deg, #d9b56317, transparent 48%),
-    linear-gradient(145deg, #302919, #0b0d0b 55%, #203420);
+    linear-gradient(145deg, #302919, #0c0b0d 55%, #2b2034);
   box-shadow: var(--glass-shadow);
   display: flex;
   flex-direction: column;
@@ -1101,7 +1101,7 @@ main {
   left: 16px;
   z-index: 100;
   background: var(--gold-light);
-  color: #080b0a;
+  color: #0a080b;
   padding: 14px;
   border-radius: 12px;
 }
@@ -1165,7 +1165,7 @@ main {
 }
 .connection-banner strong {
   font-size: 14px;
-  color: #e4e5d8;
+  color: #dfd8e5;
   font-weight: 500;
 }
 .connection-banner p {
@@ -1211,7 +1211,7 @@ main {
   gap: 24px 40px;
   align-items: start;
   background:
-    radial-gradient(ellipse at 18% 25%, #203e2a75, transparent 45%),
+    radial-gradient(ellipse at 18% 25%, #30203e75, transparent 45%),
     var(--glass);
 }
 .intelligence-presence {
@@ -2168,7 +2168,7 @@ main {
     padding: 7px;
     border: 1px solid #c4912f55;
     border-radius: 24px;
-    background: linear-gradient(150deg, #29261edd, #0a0d0bf5 55%, #172418ed);
+    background: linear-gradient(150deg, #29261edd, #0c0a0df5 55%, #1e1724ed);
     box-shadow:
       0 12px 35px #000a,
       inset 0 1px #fff2;
@@ -2189,7 +2189,7 @@ main {
   .mobile-dock a[aria-current] {
     color: var(--gold-light);
     border-color: #c4912f40;
-    background: linear-gradient(145deg, #c4912f35, #172418b0);
+    background: linear-gradient(145deg, #c4912f35, #1e1724b0);
     box-shadow: inset 0 1px #f2dc9d20;
   }
   [data-mobile='true'][data-slot='sidebar'] {
@@ -2294,7 +2294,7 @@ main {
   }
 }
 
-/* Signature materials: selective forest depth, machined gold rims and light-catching controls. */
+/* Signature materials: selective amethyst depth, machined gold rims and light-catching controls. */
 .membership,
 .status-hero {
   border-color: #c4912f85;
@@ -2310,7 +2310,7 @@ main {
 .destinations > a > svg {
   color: #f0d497;
   border-color: #c4912f85;
-  background: linear-gradient(140deg, #c4912f50, #181b13 50%, #203420);
+  background: linear-gradient(140deg, #c4912f50, #17131b 50%, #2b2034);
   box-shadow:
     inset 0 1px #ffe6af70,
     inset 0 -1px #c4912f45,

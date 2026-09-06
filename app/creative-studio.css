@@ -1,6 +1,6 @@
 .creative-studio {
   --cs-gold: #e4c184;
-  --cs-dim: #a9b0a9;
+  --cs-dim: #ada9b0;
   margin-top: 26px;
   color: #f3f1e9;
 }
@@ -22,9 +22,9 @@
 .cs-kicker > span {
   width: 5px;
   height: 5px;
-  background: #8dd8ad;
+  background: #b58dd8;
   border-radius: 50%;
-  box-shadow: 0 0 14px #8dd8ad;
+  box-shadow: 0 0 14px #b58dd8;
 }
 .cs-header h2 {
   font-size: clamp(35px, 4vw, 64px);
@@ -52,9 +52,9 @@
   border: 1px solid #dcb96c44;
   border-radius: 50%;
   color: var(--cs-gold);
-  background: radial-gradient(circle, #23443480, transparent 68%);
+  background: radial-gradient(circle, #35234480, transparent 68%);
   box-shadow:
-    0 0 70px #3a72592b,
+    0 0 70px #583a722b,
     inset 0 0 28px #ac853310;
   margin-right: 30px;
 }
@@ -85,7 +85,7 @@
 }
 .cs-tabs button {
   padding: 15px 0;
-  color: #a4aaa3;
+  color: #a7a3aa;
   font-size: 13px;
   border-bottom: 2px solid transparent;
 }
@@ -96,7 +96,7 @@
 .cs-tabs > span {
   margin-left: auto;
   font-size: 10px;
-  color: #9ca99f;
+  color: #a39ca9;
 }
 .cs-workspace {
   display: grid;
@@ -107,7 +107,7 @@
 .cs-director,
 .cs-canvas-panel,
 .cs-brands form {
-  background: linear-gradient(145deg, #ffffff06, #ffffff00 42%), #0d1310;
+  background: linear-gradient(145deg, #ffffff06, #ffffff00 42%), #100d13;
   border: 1px solid #bfb39224;
   border-radius: 22px;
   padding: 24px;
@@ -126,7 +126,7 @@
 }
 .cs-section-title > span:last-child {
   margin-left: auto;
-  color: #7a8b7f;
+  color: #837a8b;
   font-size: 8px;
 }
 .cs-modes {
@@ -140,7 +140,7 @@
   border-radius: 7px;
   padding: 8px 10px;
   font-size: 11px;
-  color: #b1b8b0;
+  color: #b4b0b8;
 }
 .cs-modes button[aria-pressed='true'] {
   background: #c5a0601c;
@@ -150,7 +150,7 @@
 .cs-label {
   display: block;
   font-size: 11px;
-  color: #b7beb6;
+  color: #bab6be;
   line-height: 1.4;
   margin: 16px 0 7px;
 }
@@ -160,7 +160,7 @@
   width: 100%;
   border: 1px solid #ffffff18;
   border-radius: 9px;
-  background: #060c09;
+  background: #09060c;
   color: #ecece5;
   padding: 12px;
   font: inherit;
@@ -175,7 +175,7 @@
   line-height: 1.7;
 }
 .creative-studio textarea::placeholder {
-  color: #738074;
+  color: #7a7380;
 }
 .cs-two {
   display: grid;
@@ -192,12 +192,12 @@
   display: flex;
   align-items: center;
   gap: 7px;
-  border: 1px dashed #b6bfaa40;
+  border: 1px dashed #b5aabf40;
   padding: 10px;
   border-radius: 8px;
   font-size: 10px;
   position: relative;
-  color: #bbc6b9;
+  color: #c0b9c6;
   cursor: pointer;
 }
 .cs-upload input {
@@ -222,7 +222,7 @@
 }
 .cs-fine {
   font-size: 10px;
-  color: #87958a;
+  color: #8e8795;
   line-height: 1.7;
   margin: 12px 0;
 }
@@ -249,16 +249,16 @@
   align-items: center;
   gap: 8px;
   width: 100%;
-  border: 1px solid #a3b69630;
+  border: 1px solid #a796b630;
   border-radius: 9px;
   padding: 12px;
   margin-top: 10px;
   font-size: 11px;
-  color: #c3cbbf;
+  color: #c5bfcb;
 }
 .cs-campaign span {
   margin-left: auto;
-  color: #7f9785;
+  color: #8c7f97;
   font-size: 9px;
 }
 .cs-empty {
@@ -268,11 +268,11 @@
   justify-content: center;
   min-height: 620px;
   text-align: center;
-  border: 1px solid #a5b89416;
+  border: 1px solid #a794b816;
   border-radius: 14px;
   background:
-    radial-gradient(ellipse at 50% 32%, #25493245, transparent 55%),
-    linear-gradient(145deg, #101812, #080b09);
+    radial-gradient(ellipse at 50% 32%, #38254945, transparent 55%),
+    linear-gradient(145deg, #141018, #0a080b);
   padding: 30px;
 }
 .cs-orbit {
@@ -286,7 +286,7 @@
   display: grid;
   place-items: center;
   margin: 35px auto 55px;
-  box-shadow: 0 0 80px #8ab18c17;
+  box-shadow: 0 0 80px #9f8ab117;
 }
 .cs-empty h3,
 .cs-brands h3 {
@@ -299,7 +299,7 @@
 .cs-empty > p {
   font-size: 12px;
   max-width: 310px;
-  color: #8fa192;
+  color: #998fa1;
   line-height: 1.8;
 }
 .cs-starters {
@@ -314,9 +314,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 15px;
-  border: 1px solid #aeb99524;
+  border: 1px solid #a895b924;
   border-radius: 8px;
-  color: #c6cdbd;
+  color: #c6bdcd;
   font-size: 11px;
   text-align: left;
   background: #ffffff03;
@@ -329,7 +329,7 @@
   width: 100%;
   max-height: 780px;
   overflow: hidden;
-  background: #040704;
+  background: #060407;
   border-radius: 12px;
 }
 .cs-canvas > img:first-child {
@@ -366,10 +366,10 @@
   align-items: center;
   gap: 7px;
   padding: 9px 11px;
-  border: 1px solid #b8c1a729;
+  border: 1px solid #b5a7c129;
   border-radius: 8px;
   font-size: 10px;
-  color: #ccd3c6;
+  color: #cdc6d3;
 }
 .cs-asset-actions button[aria-pressed='true'] {
   color: var(--cs-gold);
@@ -380,7 +380,7 @@
   border-top: 1px solid #ffffff12;
   font-size: 13px;
   line-height: 1.8;
-  color: #c8d0c4;
+  color: #cac4d0;
 }
 .cs-copy p {
   margin: 12px 0;
@@ -401,7 +401,7 @@
 .cs-copy details {
   margin-top: 20px;
   font-size: 11px;
-  color: #8ca18e;
+  color: #978ca1;
 }
 .cs-copy summary {
   cursor: pointer;
@@ -429,7 +429,7 @@
 }
 .cs-filmstrip span {
   font-size: 8px;
-  color: #c2cabb;
+  color: #c3bbca;
   display: block;
   padding: 4px;
 }
@@ -438,7 +438,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  background: #243322;
+  background: #2b2233;
   color: #e0dfc5;
   border: 1px solid #d5c18433;
   border-radius: 10px;
@@ -460,7 +460,7 @@
 }
 .cs-thumbs img {
   object-fit: contain;
-  background: #20291e;
+  background: #241e29;
   border-radius: 5px;
 }
 .cs-thumbs button {
@@ -477,10 +477,10 @@
   padding: 12px;
   border-left: 1px solid #c0a36d44;
   background: #ffffff03;
-  color: #b7c2b5;
+  color: #bcb5c2;
 }
 .cs-conversation p.user {
-  border-color: #748b7844;
+  border-color: #80748b44;
 }
 .cs-conversation b {
   display: block;
@@ -503,7 +503,7 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
-  background: #071008cc;
+  background: #0c0710cc;
   backdrop-filter: blur(8px);
   font-size: 12px;
 }
@@ -521,7 +521,7 @@
   font-weight: 400;
 }
 .cs-library p {
-  color: #92a18f;
+  color: #998fa1;
   font-size: 12px;
 }
 .cs-library input {
@@ -536,7 +536,7 @@
   border: 1px solid #ffffff16;
   border-radius: 15px;
   overflow: hidden;
-  background: #0d130f;
+  background: #100d13;
 }
 .cs-gallery article > div {
   padding: 15px;
