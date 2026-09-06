@@ -684,19 +684,19 @@ html[data-ambient-motion='paused'] [data-material]::after {
   --sidebar: #080709;
   --purple: #a66be8;
   --purple-light: #d2a2ff;
-  --amethyst: #1b1027;
+  --amethyst: #32174d;
   --violet: #b47cec;
   --gold: #dba83c;
   --gold-light: #f1cc78;
 }
 body::before {
-  background: radial-gradient(ellipse at 70% 8%, #6b369b14, transparent 60%);
+  background: radial-gradient(ellipse at 70% 8%, #8246be27, transparent 65%);
 }
 .ambient-platinum {
   background: radial-gradient(
     ellipse,
-    #8b3fd43a,
-    #50217617 45%,
+    #a454ef6b,
+    #7334a638 45%,
     transparent 65%
   );
 }
@@ -713,7 +713,8 @@ body::before {
 .intelligence-stage {
   background:
     radial-gradient(ellipse at 0 0, #d5a52e12, transparent 48%),
-    radial-gradient(ellipse at 100% 90%, #713ca035, transparent 65%), #09070d;
+    radial-gradient(ellipse at 100% 90%, #9850d967, transparent 72%),
+    linear-gradient(135deg, #301841, #190e29 60%, #110a1c);
 }
 .vd-glass,
 .ps-glass,
@@ -728,18 +729,18 @@ body::before {
   background-color: #09080d;
 }
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff07, #08070bed 55%, #5825751a);
+  background: linear-gradient(145deg, #301a408c, #100b19ed 55%, #45205a70);
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #d8ad3610, #0d0913f5 45%, #54257922);
+  background: linear-gradient(120deg, #392144f5, #1b102af5 45%, #4a2364ed);
 }
 .collective-nav a[aria-current],
 .mobile-dock a[aria-current] {
-  background: linear-gradient(115deg, #ad70ed20, #121017);
+  background: linear-gradient(115deg, #8e45ca70, #321b48);
   border-color: #d4ad665a;
 }
 .vd-command-wide {
-  background: linear-gradient(110deg, #9749d420, #0b0812 85%);
+  background: linear-gradient(110deg, #65318f, #29163d 75%, #1b1028);
 }
 .vd-command:nth-child(even) .vd-command-icon,
 .vd-pulse-icon,
@@ -748,10 +749,15 @@ body::before {
 .cs-orbit {
   color: #cb95ff;
   border-color: #a55bde6b;
-  background: radial-gradient(circle, #8b3fd428, #0b0811 75%);
+  background: radial-gradient(
+    circle at 30% 20%,
+    #a75bea80,
+    #462061 70%,
+    #241233
+  );
   box-shadow:
     inset 0 1px #dcacff45,
-    0 0 35px #8745bc16;
+    0 0 28px #a65bea32;
 }
 .cs-sigil::before,
 .cs-orbit::before,
@@ -775,8 +781,8 @@ body::before {
 .core-aura {
   background: radial-gradient(
     circle,
-    #9b52e12b,
-    #58208614 45%,
+    #b76bff55,
+    #7933b133 45%,
     transparent 70%
   );
 }
@@ -831,7 +837,98 @@ body::before {
 }
 .cs-empty {
   background:
-    radial-gradient(ellipse at 50% 32%, #9545ca20, transparent 55%),
-    radial-gradient(ellipse at 100% 100%, #60307a1c, transparent 60%), #09060d;
+    radial-gradient(ellipse at 50% 32%, #a454e952, transparent 60%),
+    radial-gradient(ellipse at 100% 100%, #75339735, transparent 65%), #180d25;
 }
-.vd-chart-legend span:nth-child(2) i { background: #d4b16b; }
+.vd-chart-legend span:nth-child(2) i {
+  background: #d4b16b;
+}
+
+/* Balanced roles: black foundation, violet material planes, gold authority. */
+.vd-chart-panel,
+.vd-momentum,
+.vd-products,
+.vd-channels,
+.ps-glass,
+.ps-product,
+.cs-director,
+.panel,
+.pending-panel,
+.membership-record,
+.member-door,
+.draft-library,
+.studio-editor {
+  background: linear-gradient(145deg, #2d193b, #170f23 48%, #0d0b13);
+  border-color: #ac78df4d;
+  box-shadow:
+    inset 0 1px #d7a2fa42,
+    inset 0 -1px #b075de15,
+    0 20px 45px #0008;
+}
+.vd-earnings,
+.membership,
+.status-hero {
+  background:
+    radial-gradient(ellipse at 100% 0, #8641bd38, transparent 62%),
+    linear-gradient(130deg, #201925, #0c0b10 65%);
+  border-color: #d9b35d70;
+}
+.vd-metric {
+  background: linear-gradient(140deg, #38204770, #100d18);
+  border-color: #bc85e833;
+}
+.vd-command {
+  background: linear-gradient(130deg, #372046, #171020 80%);
+  border-color: #bb80e756;
+}
+.vd-command:hover,
+.ps-product:hover,
+.ps-daily:hover {
+  border-color: #d2a2ffae;
+  box-shadow:
+    inset 0 1px #e4baf975,
+    0 10px 30px #6c2d9836;
+}
+.vd-pulse {
+  background: linear-gradient(135deg, #24172e, #100d18);
+}
+.vd-pulse-row:hover {
+  background: #9d57d012;
+}
+.cs-canvas-panel {
+  background: linear-gradient(145deg, #2b1839, #140e1e 65%);
+  border-color: #d4ad665a;
+}
+.vd-chip-green,
+.ps-chips button[aria-pressed='true'],
+.ps-destinations button[aria-pressed='true'],
+.cs-modes button[aria-pressed='true'] {
+  color: #e0baff;
+  background: #713ba654;
+  border-color: #c089ed75;
+}
+.vd-periods button[aria-pressed='true'],
+.vd-chart-switch button[aria-pressed='true'] {
+  color: #f1cc78;
+  background: linear-gradient(135deg, #563078, #291a3b);
+  border-color: #cba85875;
+}
+.vd-channel-donut > div {
+  background: #1b1028;
+}
+.cs-tabs button[aria-current],
+.ps-room-nav button[aria-pressed='true'] {
+  color: #e0b6ff;
+  border-color: #b970ed;
+}
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+  .vd-glass,
+  .ps-glass,
+  .panel,
+  .cs-director,
+  .cs-canvas-panel,
+  .mobile-dock {
+    background: #100a19;
+    border-color: #e9dbb0;
+  }
+}
