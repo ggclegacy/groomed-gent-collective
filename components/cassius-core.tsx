@@ -40,7 +40,12 @@ export function CassiusCore({ compact = false }: { compact?: boolean }) {
       element.style.setProperty('--core-y', '0deg');
     };
     const move = (event: PointerEvent) => {
-      if (motion.matches || event.pointerType !== 'mouse') return;
+      if (
+        motion.matches ||
+        document.documentElement.dataset.ambientMotion === 'paused' ||
+        event.pointerType !== 'mouse'
+      )
+        return;
       cancelAnimationFrame(frame);
       frame = requestAnimationFrame(() => {
         const box = element.getBoundingClientRect();

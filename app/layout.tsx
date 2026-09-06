@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 import './creative-studio.css';
 import './command-dashboard.css';
+import './living-materials.css';
+import { LivingMaterials } from '@/components/living-materials';
 export const metadata: Metadata = {
   title: 'The Collective | Groomed Gent Co.',
   description:
@@ -14,7 +16,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className="dark">
-      <body>{children}</body>
+      <body>
+        {children}
+        <LivingMaterials />
+      </body>
     </html>
   );
 }

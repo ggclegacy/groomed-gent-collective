@@ -1,0 +1,638 @@
+/* Optical material layer shared by every Collective workspace.
+   Champagne highlights + platinum reflections; gold is light, never a brown wash. */
+:root,
+.dark {
+  --gold: #e5c578;
+  --gold-light: #fff0c5;
+  --primary: #e5c578;
+  --glass-edge: #f3e5bc38;
+  --glass:
+    linear-gradient(135deg, #ffffff0d, #ffffff02 32%, #a7d6e608 85%), #0a0c10;
+  --glass-signature:
+    radial-gradient(ellipse at 20% 0, #fce5ae17, transparent 55%),
+    linear-gradient(140deg, #15171d, #07090d);
+  --gold-metal: linear-gradient(
+    115deg,
+    #fffdf0 0%,
+    #f9e5ae 21%,
+    #d7b96f 38%,
+    #fff9de 49%,
+    #f0d393 58%,
+    #e6c57f 79%,
+    #fff5d6
+  );
+  --glass-shadow:
+    0 22px 55px #0009, inset 0 1px #fff8dc38, inset 0 -1px #8bacb619;
+}
+body::before {
+  background: radial-gradient(ellipse at 65% 0%, #c9dcff0a, transparent 60%);
+}
+.living-atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  contain: strict;
+}
+.living-atmosphere i {
+  position: absolute;
+  display: block;
+  width: 90vw;
+  height: 80vh;
+  border-radius: 50%;
+}
+.ambient-gold {
+  top: -30vh;
+  left: 5vw;
+  background: radial-gradient(
+    ellipse,
+    #fff0bf24,
+    #eac7800b 40%,
+    transparent 68%
+  );
+  animation: ambient-drift 24s ease-in-out infinite alternate;
+}
+.ambient-platinum {
+  top: 5vh;
+  right: -40vw;
+  background: radial-gradient(
+    ellipse,
+    #93d9ef16,
+    #b1cfff06 45%,
+    transparent 65%
+  );
+  animation: ambient-drift 30s ease-in-out -12s infinite alternate-reverse;
+}
+.ambient-horizon {
+  position: absolute;
+  top: 25vh;
+  left: -15%;
+  width: 130%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #ffedb22b,
+    #d5efff18,
+    transparent
+  );
+  transform: rotate(-24deg);
+  box-shadow: 0 0 40px 10px #ffe6a505;
+}
+.ambient-toggle {
+  position: fixed;
+  bottom: 18px;
+  right: 20px;
+  z-index: 40;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 0 13px;
+  border: 1px solid #fff0c538;
+  border-radius: 22px;
+  color: #e9dfc6;
+  background: #090c12e8;
+  backdrop-filter: blur(16px);
+  box-shadow:
+    0 5px 20px #0008,
+    inset 0 1px #fff4;
+  font-size: 12px;
+}
+.ambient-toggle:focus-visible {
+  outline: 2px solid #fff1cb;
+  outline-offset: 3px;
+}
+/* One coherent surface treatment from finance through product and creative work. */
+.vd-root {
+  --vd-gold: #f1d697;
+  --vd-white: #f5f5f2;
+  --vd-muted: #aeb2b8;
+  --vd-edge: #f4e5bd2e;
+}
+.product-studio {
+  --ps-gold: #f1d697;
+  --ps-muted: #b7bec4;
+  --ps-forest: #11191e;
+}
+.creative-studio {
+  --cs-gold: #f2da9c;
+  --cs-dim: #b5bac2;
+}
+.vd-glass,
+.ps-glass,
+.ps-product,
+.cs-director,
+.cs-canvas-panel,
+.panel,
+.pending-panel,
+.status-hero,
+.intelligence-stage,
+.member-door,
+.membership-record,
+.studio-editor,
+.draft-library {
+  position: relative;
+  isolation: isolate;
+  border-color: #f3e5bc30;
+  background:
+    linear-gradient(135deg, #ffffff0b, transparent 36%, #a9dfff05 100%), #0b0e13;
+  box-shadow:
+    0 20px 50px #0008,
+    inset 0 1px #fff9e42d,
+    inset 0 -1px #b6d5e314;
+}
+[data-material]::after {
+  content: '';
+  position: absolute;
+  inset: 0 20%;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: -1;
+  background: linear-gradient(
+    115deg,
+    transparent 10%,
+    #fff4cf03 27%,
+    #fff9e811 44%,
+    #def4ff08 47%,
+    transparent 65%
+  );
+  transform: translateX(var(--reflection-x, 0%));
+  opacity: 0.35;
+  transition:
+    transform 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.4s;
+  clip-path: inset(0 round 16px);
+}
+[data-material]:hover::after {
+  opacity: 0.85;
+}
+/* Gold appears as a polished edge and pale specular crest, not a tinted whole card. */
+.vd-earnings,
+.vd-cassius,
+.ps-atlas,
+.membership,
+.cs-canvas-panel,
+.intelligence-stage {
+  background:
+    radial-gradient(ellipse at 0 0, #f9e4ac17, transparent 46%),
+    radial-gradient(ellipse at 100% 80%, #afd6ea0b, transparent 50%), #080b10;
+  border-color: #f6df9e65;
+  box-shadow:
+    inset 0 1px #fffbeaa6,
+    inset 1px 0 #ffedbe20,
+    0 22px 65px #000a,
+    0 0 28px #f1d39106;
+}
+.vd-earnings::before,
+.vd-cassius::before {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #fffbea 32%,
+    #f1d48e 65%,
+    transparent
+  );
+  box-shadow: 0 0 12px #ffedb933;
+}
+.vd-earnings-number,
+.membership .card-wordmark,
+.monogram,
+.cs-header em,
+.ps-intro em {
+  color: #fff0c5;
+  background: var(--gold-metal);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 32px #ffe6a514;
+}
+.vd-gold-button,
+.gold-button,
+.cs-generate,
+.member-door .gold-button {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  color: #181b22;
+  background: var(--gold-metal);
+  border: 1px solid #fff9e0d9;
+  box-shadow:
+    inset 0 2px #fffdf1d0,
+    inset 0 -2px #8f763c70,
+    0 8px 26px #f7d68a1a,
+    0 2px 3px #0007;
+  transition:
+    transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 0.25s;
+}
+.vd-gold-button::after,
+.gold-button::after,
+.cs-generate::after {
+  content: '';
+  position: absolute;
+  inset: -80% -40%;
+  pointer-events: none;
+  background: linear-gradient(
+    110deg,
+    transparent 40%,
+    #ffffffc4 49%,
+    transparent 57%
+  );
+  transform: translateX(-75%);
+  opacity: 0;
+  animation: metal-pass 9s ease-in-out infinite;
+}
+.vd-gold-button:hover,
+.gold-button:hover,
+.cs-generate:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 2px #fff,
+    0 9px 35px #ffe2a135;
+  filter: none;
+}
+.vd-command,
+.ps-daily,
+.ps-product,
+.cs-starters button,
+.prompt-options button {
+  transition:
+    transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
+    border-color 0.3s,
+    box-shadow 0.3s;
+}
+.vd-command {
+  background: linear-gradient(125deg, #fff3c10c, #11161e);
+  border-color: #eadcba40;
+}
+.vd-command:hover,
+.ps-product:hover,
+.ps-daily:hover,
+.cs-starters button:hover {
+  transform: translateY(-3px);
+  border-color: #fff1c5a0;
+  box-shadow:
+    0 12px 32px #0008,
+    inset 0 1px #fff8dd60;
+}
+.vd-command-icon,
+.vd-pulse-icon,
+.ps-product-mark {
+  background: linear-gradient(140deg, #fff0c528, #151b24 55%, #c8edff12);
+  color: #fff0c5;
+  border-color: #fff2ce65;
+  box-shadow:
+    inset 0 1px #fff8d74a,
+    0 4px 12px #0006;
+}
+.vd-chip-gold,
+.vd-preview-toggle,
+.vd-cassius-wordmark,
+.vd-opportunity strong,
+.vd-ring-center > strong,
+.vd-channel-donut strong,
+.eyebrow.gold,
+.vd-module-header > .vd-overline,
+.vd-welcome .vd-overline,
+.vd-section-title h2 > span {
+  color: #f8e3b0;
+}
+.vd-chip-gold {
+  background: #f6e6b00b;
+  border-color: #f8e3b03f;
+}
+.vd-metric {
+  background: linear-gradient(130deg, #ffffff08, #06090e);
+  border-color: #fff0c521;
+  box-shadow: inset 0 1px #fff7d917;
+}
+.vd-metric-label svg,
+.vd-section-title > svg {
+  color: #e9d3a1;
+}
+.vd-command-wide {
+  background: linear-gradient(110deg, #fae6ac15, #0c1019 70%);
+}
+.vd-tooltip {
+  background: #10151df5;
+  border-color: #fff0c56b;
+  box-shadow: 0 15px 30px #000b;
+}
+.vd-bar > span {
+  background: var(--gold-metal);
+}
+.vd-channel-donut > div {
+  background: #0a0e14;
+}
+/* Floating navigation picks up highlights from the luminous environment. */
+.club-sidebar [data-slot='sidebar-inner'] {
+  background: linear-gradient(125deg, #ffffff0c, #090d14ed 50%, #aec6e30a);
+  border-color: #f4e9c846;
+  box-shadow:
+    inset 0 1px #fff7d965,
+    0 15px 55px #0008;
+}
+.collective-nav a[aria-current],
+.mobile-dock a[aria-current] {
+  color: #fff2cc;
+  border-color: #f5dc9c75;
+  background: linear-gradient(115deg, #ffedb322, #171e2b99);
+  box-shadow:
+    inset 0 1px #fffae478,
+    inset 3px 0 #fbe2a5,
+    0 0 20px #ffe5a90c;
+}
+.mobile-dock {
+  background: linear-gradient(120deg, #fff0c516, #0a0f18f2 45%, #c4e4ff0d);
+  border-color: #fff0c56b;
+  box-shadow:
+    inset 0 1px #fffbea80,
+    0 10px 40px #000c;
+}
+.nav-dot,
+.cs-kicker > span {
+  background: #f8e4b4;
+  box-shadow: 0 0 12px #ffe7a78c;
+}
+/* Existing Cassius geometry becomes the active optical focal point. */
+.vd-cassius-glyph {
+  width: 104px;
+  height: 104px;
+  flex: 0 0 104px;
+}
+.vd-cassius-glyph > .cassius-core {
+  width: 100%;
+  height: 100%;
+  transform: none;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  display: block;
+}
+.vd-cassius-glyph .core-crest {
+  display: none;
+}
+.core-gold-bezel {
+  background: conic-gradient(
+    from -28deg,
+    #b4a27b,
+    #fffbea 9%,
+    #e9cf8f 19%,
+    #7b817f 24%,
+    #fff1c2 34%,
+    #fffef3 40%,
+    #d5bd84 50%,
+    #f8e5af 60%,
+    #8d9ba0 66%,
+    #fff7d3 80%,
+    #cab78c 92%,
+    #b4a27b
+  );
+}
+.core-aura {
+  background: radial-gradient(
+    circle,
+    #e6cc8826,
+    #9fcfe512 45%,
+    transparent 70%
+  );
+}
+.fluid-one {
+  background: conic-gradient(
+    from 40deg,
+    transparent 8%,
+    #fff1bb36 19%,
+    #f1d69180 24%,
+    transparent 34%,
+    #a5e4ff20 57%,
+    #d4ecff55 66%,
+    transparent 77%
+  );
+}
+.fluid-two {
+  background: conic-gradient(
+    from 160deg,
+    transparent 12%,
+    #c7eaff60 26%,
+    transparent 36%,
+    #fff0b34d 48%,
+    transparent 62%,
+    #e1c78655 74%,
+    transparent 90%
+  );
+}
+.core-heart {
+  background: radial-gradient(
+    circle,
+    #fffefa 0,
+    #fff1c0 10%,
+    #e8d18c 25%,
+    #a9dfee45 50%,
+    transparent 72%
+  );
+}
+.core-network path {
+  stroke: #f2daa650;
+}
+.core-network circle {
+  fill: #fff3cf;
+}
+.core-filaments path {
+  stroke: #ffe6a884;
+}
+.core-filaments path:nth-child(2) {
+  stroke: #d5efff85;
+}
+.core-filaments .filament-signal {
+  stroke: #fffbed;
+}
+.cs-sigil,
+.cs-orbit,
+.ps-atlas-orbit {
+  position: relative;
+  background: radial-gradient(
+    circle,
+    #fff1bd1c,
+    #b6e0ff0b 50%,
+    transparent 70%
+  );
+  color: #ffedbe;
+  box-shadow:
+    inset 0 1px #fff5cf5c,
+    0 0 55px #efdca018;
+  border-color: #fbe6b66b;
+}
+.cs-sigil::before,
+.cs-orbit::before,
+.ps-atlas-orbit::before {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  border-top-color: #fff7d6b0;
+  border-right-color: #d2ecff50;
+  animation: optical-orbit 18s linear infinite;
+  pointer-events: none;
+}
+/* Motion is concentrated in light and optical identity; content stays stable. */
+[data-material-visible='true'].vd-earnings::after,
+[data-material-visible='true'].membership::after {
+  animation: surface-breathe 13s ease-in-out infinite alternate;
+}
+[data-material-visible='false'] *,
+[data-material-visible='false']::after {
+  animation-play-state: paused !important;
+}
+html[data-ambient-motion='paused'] *,
+html[data-ambient-motion='paused'] *::before,
+html[data-ambient-motion='paused'] *::after,
+html[data-ambient-page='hidden'] *,
+html[data-ambient-page='hidden'] *::before,
+html[data-ambient-page='hidden'] *::after {
+  animation-play-state: paused !important;
+}
+html[data-ambient-motion='paused'] [data-material]::after {
+  transform: none;
+  transition: none;
+}
+@keyframes ambient-drift {
+  from {
+    transform: translate3d(-5%, 0, 0) scale(0.95);
+    opacity: 0.6;
+  }
+  to {
+    transform: translate3d(12%, 15%, 0) scale(1.08);
+    opacity: 1;
+  }
+}
+@keyframes metal-pass {
+  0%,
+  65%,
+  100% {
+    transform: translateX(-75%);
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  85% {
+    transform: translateX(75%);
+    opacity: 0;
+  }
+}
+@keyframes surface-breathe {
+  from {
+    transform: translateX(-16%);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateX(12%);
+    opacity: 0.65;
+  }
+}
+@keyframes optical-orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 767px) {
+  .ambient-toggle {
+    position: relative;
+    float: right;
+    margin: 0 18px 110px;
+    bottom: auto;
+    right: auto;
+  }
+  .ambient-gold {
+    width: 150vw;
+    left: -30vw;
+    top: -25vh;
+    opacity: 0.8;
+  }
+  .ambient-platinum {
+    width: 140vw;
+    right: -85vw;
+  }
+  .vd-cassius-glyph {
+    width: 88px;
+    height: 88px;
+    flex-basis: 88px;
+  }
+  .vd-cassius .vd-intelligence-body {
+    gap: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+  [data-material]::after,
+  .core-assembly {
+    transform: none !important;
+    transition: none !important;
+  }
+  .vd-command:hover,
+  .ps-product:hover,
+  .ps-daily:hover,
+  .cs-starters button:hover,
+  .gold-button:hover,
+  .vd-gold-button:hover {
+    transform: none;
+  }
+}
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+  .vd-glass,
+  .ps-glass,
+  .panel,
+  .cs-director,
+  .cs-canvas-panel,
+  .mobile-dock {
+    background: #080b10;
+    backdrop-filter: none;
+    border-color: #e9dbb0;
+  }
+  .living-atmosphere {
+    display: none;
+  }
+}
+@media (forced-colors: active) {
+  .living-atmosphere,
+  [data-material]::after {
+    display: none;
+  }
+  .vd-earnings-number,
+  .membership .card-wordmark,
+  .monogram,
+  .cs-header em,
+  .ps-intro em {
+    background: none;
+    -webkit-text-fill-color: currentColor;
+  }
+}
+
+.vd-cassius-glyph svg {
+  transform: none;
+}
+
+.cs-empty {
+  background:
+    radial-gradient(ellipse at 50% 32%, #f2daa014, transparent 55%),
+    radial-gradient(ellipse at 100% 100%, #c0eaff0a, transparent 60%), #080d14;
+  border-color: #fff0c52c;
+}
+.vd-is-thinking .core-fluid {
+  animation-duration: 8s;
+}
+.vd-gold-button:disabled::after,
+.gold-button:disabled::after,
+.cs-generate:disabled::after {
+  animation: none;
+  opacity: 0;
+}

@@ -1,5 +1,6 @@
 'use client';
 import { useId, type ReactNode } from 'react';
+import { CassiusCore } from '@/components/cassius-core';
 import {
   ArrowDownRight,
   ArrowUpRight,
@@ -268,12 +269,7 @@ export function CassiusGlyph({ active = false }: { active?: boolean }) {
       className={`vd-cassius-glyph ${active ? 'vd-is-thinking' : ''}`}
       aria-hidden="true"
     >
-      <span />
-      <span />
-      <div>
-        <Sparkles size={25} strokeWidth={1.2} />
-      </div>
-      <i />
+      <CassiusCore compact />
     </div>
   );
 }
