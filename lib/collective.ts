@@ -63,6 +63,7 @@ export interface ProductKnowledge {
   sourceUrl: string;
   approvedAt: string;
 }
+export interface ConversationTurn { role: 'user' | 'assistant'; content: string }
 export interface IntelligenceAnswer {
   text: string;
   citations: { title: string; url: string }[];
@@ -73,6 +74,7 @@ export interface CollectiveGateway {
   getProducts(): Promise<IntegrationResult<ProductKnowledge[]>>;
   askIntelligence(
     question: string,
+    history?: ConversationTurn[],
   ): Promise<IntegrationResult<IntelligenceAnswer>>;
 }
 export const demoAmbassador: Ambassador = {
@@ -243,5 +245,5 @@ export interface ContentAsset {
 
 /** Cassius uses the server endpoint; commerce remains independently configured. */
 export const cassiusGateway: Pick<CollectiveGateway, 'askIntelligence'> = {
-  askIntelligence: askCassius,
+  askIntelligence: (question, history) => askCassius(question, fetch, history),
 };

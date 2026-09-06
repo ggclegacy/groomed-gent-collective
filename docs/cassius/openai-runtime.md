@@ -1,3 +1,7 @@
+# Current conversation behavior
+
+See [open conversation](open-conversation.md) for the current two-layer prompt, scoped evidence, and session history. The original integration notes below describe the earlier evidence-only conversation policy where they differ.
+
 # Cassius OpenAI runtime
 
 The existing Intelligence workspace calls `cassiusGateway.askIntelligence`, which POSTs a single question to `/api/cassius`. The Node.js route is marked server-only and reads credentials at request time. `lib/cassius/server.ts` sends an HTTPS request to the OpenAI Responses API; no SDK or package changes are required. The browser receives answer text and server-selected reference citations, never credentials. Commerce and account services remain independent.

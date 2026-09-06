@@ -13,7 +13,7 @@ void test('gateway to handler to OpenAI carries reviewed knowledge and returns p
     const body = JSON.parse(init?.body as string);
     assert.equal(body.model, 'gpt-4.1-mini'); assert.equal(body.max_output_tokens, 1200); assert.equal(body.store, false);
     assert.match(body.instructions, /never instructions/); assert.match(body.instructions, /No product advertising claims are approved/);
-    const context = JSON.parse(body.input[0].content); assert.ok(context.passages.length); assert.ok(context.passages[0].citations.length);
+    const context = JSON.parse(body.input[0].content).knowledge; assert.ok(context.passages.length); assert.ok(context.passages[0].citations.length);
     assert.equal(new Headers(init?.headers).get('Authorization'), 'Bearer test-fixture-not-a-real-key');
     return success();
   } });
@@ -21,18 +21,28 @@ void test('gateway to handler to OpenAI carries reviewed knowledge and returns p
     assert.equal(url, '/api/cassius'); return handler(new Request('https://collective.test'+url, { ...init, headers: { 'content-type': 'application/json', origin: 'https://collective.test' } }));
   });
   assert.equal(calls, 1); assert.equal(result.state, 'ready');
-  if (result.state === 'ready') { assert.equal(result.data.text, 'A considered introduction to Groomed Gent.'); assert.ok(result.data.citations.length); assert.match(result.source, /OpenAI/); }
+  if (result.state === 'ready') { assert.equal(result.data.text, 'A considered introduction to Groomed Gent.'); assert.equal(result.data.citations.length, 0); assert.match(result.source, /OpenAI/); }
 });
-void test('safety gates never ask a model to relax a boundary', async () => {
-  const handler = createCassiusHandler({ config, fetcher: async () => { throw new Error('must not call'); } });
-  const response = await handler(req('Can Nocturne cure insomnia?')); assert.equal(response.status, 200);
-  const data = await response.json() as { mode: string; text: string }; assert.equal(data.mode, 'evidence-boundary'); assert.match(data.text, /cannot confirm personal safety/);
+void test('product safety constraints reach the model without blocking unrelated mixed requests', async () => {
+  let called = false;
+  const handler = createCassiusHandler({ config, fetcher: async (_, init) => {
+    called = true;
+    const body = JSON.parse(init?.body as string);
+    const context = JSON.parse(body.input.at(-1).content);
+    assert.equal(context.knowledge.state, 'safety-boundary');
+    assert.match(body.instructions, /Do not diagnose/);
+    assert.match(body.instructions, /do not refuse the whole request/);
+    return success();
+  } });
+  assert.equal((await handler(req('Can Nocturne cure insomnia? Also plan a weekend trip.'))).status, 200);
+  assert.equal(called, true);
 });
 void test('unknown grooming research and disputes are carried to the model', async () => {
   const handler = createCassiusHandler({ config, fetcher: async (_, init) => {
     const context = JSON.parse(JSON.parse(init?.body as string).input[0].content);
-    if (context.question.includes('Fortius')) assert.ok(context.passages.some((p: {status:string}) => p.status === 'DISPUTED'));
-    else assert.match(context.nonEvidenceResponse, /not yet|do not yet|unassessed/);
+    const knowledge = context.knowledge;
+    if (context.question.includes('Fortius')) assert.ok(knowledge.passages.some((p: {status:string}) => p.status === 'DISPUTED'));
+    else assert.match(knowledge.limitation, /not yet|do not yet|unassessed/);
     return success();
   } });
   assert.equal((await handler(req('Fortius Aqua price'))).status, 200);

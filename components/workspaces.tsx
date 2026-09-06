@@ -198,7 +198,7 @@ function IntelligenceWorkspace({ initialQuestion }: { initialQuestion?: string }
   const [edited, setQuestion] = useState<string | null>(null);
   const question = edited ?? (initialQuestion || brief || saved).slice(0, 10000);
   const [pending, setPending] = useState(false);
-  const [answer, setAnswer] = useState<IntelligenceAnswer | null>(null);
+  const [conversation, setConversation] = useState<{ question: string; answer: IntelligenceAnswer }[]>([]);
   const [message, setMessage] = useState('');
   return (
     <>
@@ -211,17 +211,17 @@ function IntelligenceWorkspace({ initialQuestion }: { initialQuestion?: string }
           <span className="eyebrow gold">CASSIUS</span>
           <h2>Bring a better question.</h2>
           <p>
-            Product details. A thoughtful recommendation. A story that feels
-            like you. Explore the sources behind the standard.
+            A business idea. Your next journey. A thoughtful recommendation.
+            Whatever is on your mind, let’s work through it.
           </p>
         </div>
         <div className="intelligence-console">
           <div className="connection-banner">
-            <span className="eyebrow">SOURCED KNOWLEDGE</span>
+            <span className="eyebrow">YOUR GENTLEMAN ADVISOR</span>
             <p>
-              Search the Groomed Gent knowledge reviewed September 5, 2026.
-              Explore product evidence, grooming and health curricula, and consultation questions.
-              Responses are generated with OpenAI using this knowledge. Product claims still require approval.
+              Talk travel, business, everyday life, or Groomed Gent. Cassius brings
+              broad intelligence to the conversation and consults company sources
+              when the details matter.
             </p>
           </div>
           <p className="small-note">
@@ -258,8 +258,8 @@ function IntelligenceWorkspace({ initialQuestion }: { initialQuestion?: string }
             {[
               'Help me introduce the brand at the chair.',
               'What should I verify before recommending a product?',
-              'Show the Cassius grooming curriculum.',
-              'Show the Cassius health and wellness curriculum.',
+              'Help me plan a relaxed weekend in Chicago.',
+              'Brainstorm three ways to grow my business.',
               'What should I use on my beard?',
             ].map((prompt) => (
               <button
@@ -280,12 +280,18 @@ function IntelligenceWorkspace({ initialQuestion }: { initialQuestion?: string }
               if (!question.trim() || pending) return;
               setPending(true);
               setMessage("Cassius is considering your question…");
-              setAnswer(null);
+
               const storageNote = 'This submission was not saved to this device.';
               try {
-                const result = await cassiusGateway.askIntelligence(question);
+                const history = conversation.flatMap(turn => [
+                  { role: 'user' as const, content: turn.question },
+                  { role: 'assistant' as const, content: turn.answer.text },
+                ]).slice(-12);
+                while (history.reduce((n, turn) => n + turn.content.length, 0) > 24000 || history.some(turn => turn.content.length > 10000)) history.splice(0, 2);
+                const result = await cassiusGateway.askIntelligence(question, history);
                 if (result.state === 'ready') {
-                  setAnswer(result.data);
+                  setConversation(previous => [...previous, { question, answer: result.data }]);
+                  setQuestion('');
                   setMessage(storageNote);
                 } else setMessage(result.message);
               } catch {
@@ -315,19 +321,22 @@ function IntelligenceWorkspace({ initialQuestion }: { initialQuestion?: string }
             </button>
             <output className="form-status">{message}</output>
           </form>
-          {answer && (
-            <section aria-label="Cassius sourced answer" aria-live="polite" className="pending-panel">
+          {conversation.length > 0 && <button className="outline-button" disabled={pending} onClick={() => { setConversation([]); setQuestion(''); setMessage(''); }}>New conversation</button>}
+          {conversation.map(({ question: asked, answer }, index) => (
+            <section key={index} aria-label="Cassius conversation" aria-live="polite" className="pending-panel">
+              <h3>You</h3>
+              <p style={{ whiteSpace: 'pre-wrap', overflowWrap: 'anywhere' }}>{asked}</p>
               <h3>Cassius</h3>
               <p style={{ whiteSpace: 'pre-wrap', overflowWrap: 'anywhere' }}>{answer.text}</p>
-              <h4>{answer.citations.length ? 'Reference sources supplied to Cassius' : 'Evidence status'}</h4>
+              {answer.citations.length > 0 && <details><summary>Sources</summary>
               <ul>
                 {answer.citations.filter((c, i, all) => all.findIndex(x => x.url === c.url) === i).map(c => (
                   <li key={c.url}>{c.url.startsWith('https://') ? <a href={c.url} target="_blank" rel="noreferrer">{c.title}</a> : c.title}</li>
                 ))}
               </ul>
-              <p className="small-note">{answer.citations.length ? 'Source observations are dated September 5, 2026. Website facts are not manufacturer certification or approved advertising claims.' : 'Curriculum and consultation guidance are editorial. Scientific grooming and health sources are awaiting ingestion and review.'}</p>
+              <p className="small-note">Dated source observations; product claims still require approval.</p></details>}
             </section>
-          )}
+          ))}
         </div>
       </div>
     </>

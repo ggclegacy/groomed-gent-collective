@@ -75,14 +75,14 @@ const request=(question:string)=>new Request('http://localhost/api/cassius',{met
 void test('existing answer service receives the health map, version and policy without real provider calls',async()=>{
   let calls=0;
   const handler=createCassiusHandler({config:()=>({apiKey:'synthetic-test-only'}),fetcher:async(_url,init)=>{
-    calls++;if(typeof init?.body !== 'string')throw new Error('Expected serialized context');const body=JSON.parse(init.body);assert.match(body.instructions,/health curriculum/);assert.equal(body.store,false);
-    const context=JSON.parse(body.input[0].content);assert.equal(context.healthCurriculumVersion,'1.0.0');assert.match(context.nonEvidenceResponse,/1,152/);assert.deepEqual(context.passages,[]);
+    calls++;if(typeof init?.body !== 'string')throw new Error('Expected serialized context');const body=JSON.parse(init.body);assert.match(body.instructions,/curriculum/);assert.equal(body.store,false);
+    const context=JSON.parse(body.input[0].content).knowledge;assert.equal(context.healthCurriculumVersion,'1.0.0');assert.match(context.limitation,/1,152/);assert.deepEqual(context.passages,[]);
     return Response.json({status:'completed',output:[{type:'message',role:'assistant',content:[{type:'output_text',text:'Synthetic curriculum response.'}]}]});
   }});
   const r=await handler(request('Show the health curriculum'));assert.equal(r.status,200);assert.equal(calls,1);
   assert.equal(buildKnowledgeContext('Show the health curriculum',200).state,'clarify');
 });
-void test('existing answer service returns medical boundaries without asking a model to enforce them',async()=>{
+void test('immediate medical danger retains a deterministic urgent handoff',async()=>{
   const handler=createCassiusHandler({config:()=>({apiKey:'synthetic-test-only'}),fetcher:async()=>{throw new Error('Provider must not be called');}});
-  const r=await handler(request('Give me a testosterone dose'));assert.equal(r.status,200);const body=await r.json() as {mode:string;text:string};assert.equal(body.mode,'evidence-boundary');assert.match(body.text,/cannot diagnose/);
+  const r=await handler(request('I have severe chest pain'));assert.equal(r.status,200);const body=await r.json() as {mode:string;text:string};assert.equal(body.mode,'evidence-boundary');assert.match(body.text,/urgent medical assessment/);
 });
