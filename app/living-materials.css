@@ -67,7 +67,7 @@ body::before {
   min-height: 44px;
   padding: 0 13px;
   border: 1px solid #93795438;
-  border-radius: 6px;
+  border-radius: 22px;
   color: #a78c67;
   background: #0c0c0be8;
   backdrop-filter: blur(16px);

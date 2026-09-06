@@ -46,7 +46,7 @@ export function SpatialCommand() {
           <i className="command-orbit command-orbit-one" />
           <i className="command-orbit command-orbit-two" />
           <i className="command-stars" />
-          <i className="command-horizon" />
+          <i className="command-horizon" /><i className="cockpit-grid" />
         </div>
         <div className="spatial-introduction">
           <span className="spatial-kicker">
@@ -88,10 +88,10 @@ export function SpatialCommand() {
           aria-label="Open Cassius to prepare your day"
         >
           <span className="instrument-stage" aria-hidden="true">
-            <svg className="instrument-chassis" viewBox="0 0 300 290" fill="none" aria-hidden="true">
-              <path d="M78 18h144l59 59v136l-59 59H78l-59-59V77Z" />
-              <path d="M88 35h124l51 51v118l-51 51H88l-51-51V86Z" />
-              <path d="M150 18v14M150 258v14M19 145h14M267 145h14M61 59l10 10M229 221l10 10M61 231l10-10M229 69l10-10" />
+            <svg className="instrument-chassis cockpit-reticle" viewBox="0 0 300 290" fill="none" aria-hidden="true">
+              <circle cx="150" cy="145" r="126" strokeDasharray="100 24 8 24" />
+              <circle cx="150" cy="145" r="113" strokeDasharray="1 10" />
+              <path d="M150 5v18M150 267v18M10 145h18M272 145h18" />
             </svg>
             <i className="instrument-shadow" />
             <span className="instrument-body">
@@ -106,6 +106,11 @@ export function SpatialCommand() {
             CASSIUS <span>YOUR PERSONAL INTELLIGENCE</span>
           </span>
         </button>
+        <nav className="cockpit-readout" aria-label="Your daily overview">
+          <a href="#desk"><span>FOCUS</span><strong>{context.priorities.length}<small> priorities</small></strong><ArrowUpRight size={16} /></a>
+          <a href="#life"><span>RITUAL</span><strong>{context.ritualsRecorded}<small> / {context.rituals} recorded</small></strong><ArrowUpRight size={16} /></a>
+          <a href="#voyage"><span>VOYAGE</span><strong className="cockpit-trip">{context.trip?.title || 'Plan your next move'}</strong><ArrowUpRight size={16} /></a>
+        </nav>
       </div>
       <div className="spatial-next">
         <div className="spatial-next-heading">

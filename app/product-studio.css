@@ -60,7 +60,7 @@
   background: linear-gradient(135deg, #26242277, #0e0d0cee 60%), #0c0c0b;
   border: 1px solid #7f6c8e40;
   border-top-color: #9983ab66;
-  border-radius: 6px;
+  border-radius: 18px;
   box-shadow:
     inset 0 1px 0 #d9d1e00a,
     0 16px 38px #0003;
@@ -99,7 +99,7 @@
   padding: 6px;
   border: 1px solid #72608044;
   background: #0a0909;
-  border-radius: 6px;
+  border-radius: 12px;
 }
 .ps-destinations button {
   flex: 1 0 auto;
@@ -192,7 +192,7 @@
   position: relative;
   overflow: hidden;
   border: 1px solid #5a496888;
-  border-radius: 6px;
+  border-radius: 17px;
   background:
     radial-gradient(ellipse at 60% 35%, #2e1a3f66, transparent 65%),
     linear-gradient(140deg, #1b1a18, #090908 70%);
@@ -339,7 +339,7 @@
   padding: 22px;
   margin: 20px 0;
   border: 1px solid #856e4d44;
-  border-radius: 6px;
+  border-radius: 12px;
   background: #7c664710;
 }
 .ps-pending svg {
@@ -425,7 +425,7 @@
   padding: 18px;
   background: #07070799;
   border: 1px solid #70598255;
-  border-radius: 6px;
+  border-radius: 12px;
   overflow-wrap: anywhere;
 }
 .ps-transcript {

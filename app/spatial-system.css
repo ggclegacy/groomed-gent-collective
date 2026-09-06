@@ -95,7 +95,7 @@ body::before {
 .collective-nav a {
   min-height: 46px;
   margin: 4px 10px;
-  border-radius: 6px;
+  border-radius: 10px;
   color: #bdb7c2;
   transition:
     background 0.2s,
@@ -217,7 +217,7 @@ main {
   min-height: 280px;
   width: 100%;
   position: relative;
-  border-radius: 6px;
+  border-radius: 24px;
   display: grid;
   place-items: center;
   cursor: pointer;
@@ -358,7 +358,7 @@ main {
   align-items: center;
   gap: 18px;
   padding: 12px 16px;
-  border-radius: 6px;
+  border-radius: 10px;
   background: #b3a2c106;
   min-height: 68px;
   transition: background 0.2s;
@@ -398,7 +398,7 @@ main {
   flex-direction: column;
   position: relative;
   min-height: 282px;
-  border-radius: 6px;
+  border-radius: 17px;
   padding: 22px;
   overflow: hidden;
   isolation: isolate;
@@ -642,7 +642,7 @@ main {
   background: #0a0a09;
   border-color: #9379543a;
   color: #a78c67;
-  border-radius: 6px;
+  border-radius: 9px;
 }
 .gold-button,
 .vd-gold-button,
