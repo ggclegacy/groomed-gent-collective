@@ -1,32 +1,7 @@
 /* Optical material layer shared by every Collective workspace.
    Rich metallic gold with deep amethyst reflections; preserve the optical depth and motion. */
-:root,
-.dark {
-  --gold: #e5c678;
-  --gold-light: #ffd261;
-  --primary: #e5c678;
-  --glass-edge: #e7c87938;
-  --glass:
-    linear-gradient(135deg, #ffffff0d, #ffffff02 32%, #7854aa08 85%), #0a0c10;
-  --glass-signature:
-    radial-gradient(ellipse at 20% 0, #f9d06717, transparent 55%),
-    linear-gradient(140deg, #15171d, #07090d);
-  --gold-metal: linear-gradient(
-    115deg,
-    #efbe48 0%,
-    #d49b22 22%,
-    #b57f18 38%,
-    #ffdf80 47%,
-    #f5c64d 54%,
-    #cc941d 76%,
-    #ebbc48 90%,
-    #f8d26d
-  );
-  --glass-shadow:
-    0 22px 55px #0009, inset 0 1px #ffd26138, inset 0 -1px #7b639c19;
-}
 body::before {
-  background: radial-gradient(ellipse at 65% 0%, #7854aa0a, transparent 60%);
+  background: radial-gradient(ellipse at 65% 0%, #6c3fc70a, transparent 60%);
 }
 .living-atmosphere {
   position: fixed;
@@ -48,7 +23,7 @@ body::before {
   left: 5vw;
   background: radial-gradient(
     ellipse,
-    #ffd26124,
+    #c4912f24,
     #e9c8770b 40%,
     transparent 68%
   );
@@ -59,8 +34,8 @@ body::before {
   right: -40vw;
   background: radial-gradient(
     ellipse,
-    #7854aa16,
-    #7854aa06 45%,
+    #6c3fc716,
+    #6c3fc706 45%,
     transparent 65%
   );
   animation: ambient-drift 30s ease-in-out -12s infinite alternate-reverse;
@@ -74,12 +49,12 @@ body::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #ffd2612b,
-    #7854aa18,
+    #c4912f2b,
+    #6c3fc718,
     transparent
   );
   transform: rotate(-24deg);
-  box-shadow: 0 0 40px 10px #ffd26105;
+  box-shadow: 0 0 40px 10px #c4912f05;
 }
 .ambient-toggle {
   position: fixed;
@@ -91,9 +66,9 @@ body::before {
   gap: 7px;
   min-height: 44px;
   padding: 0 13px;
-  border: 1px solid #ffd26138;
+  border: 1px solid #c4912f38;
   border-radius: 22px;
-  color: #e6c77a;
+  color: #d9b66b;
   background: #090c12e8;
   backdrop-filter: blur(16px);
   box-shadow:
@@ -102,23 +77,23 @@ body::before {
   font-size: 12px;
 }
 .ambient-toggle:focus-visible {
-  outline: 2px solid #ffd261;
+  outline: 2px solid #c4912f;
   outline-offset: 3px;
 }
 /* One coherent surface treatment from finance through product and creative work. */
 .vd-root {
-  --vd-gold: #ecca74;
+  --vd-gold: #c4912f;
   --vd-white: #f5f5f2;
   --vd-muted: #aeb2b8;
   --vd-edge: #e8c8772e;
 }
 .product-studio {
-  --ps-gold: #ecca74;
+  --ps-gold: #c4912f;
   --ps-muted: #95899f;
   --ps-amethyst: #130f1a;
 }
 .creative-studio {
-  --cs-gold: #edca73;
+  --cs-gold: #c4912f;
   --cs-dim: #958a9e;
 }
 .vd-glass,
@@ -136,13 +111,13 @@ body::before {
 .draft-library {
   position: relative;
   isolation: isolate;
-  border-color: #e7c87930;
+  border-color: #d9b66b30;
   background:
-    linear-gradient(135deg, #ffffff0b, transparent 36%, #7854aa05 100%), #0b0e13;
+    linear-gradient(135deg, #ffffff0b, transparent 36%, #6c3fc705 100%), #0b0e13;
   box-shadow:
     0 20px 50px #0008,
-    inset 0 1px #ffd2612d,
-    inset 0 -1px #7854aa14;
+    inset 0 1px #c4912f2d,
+    inset 0 -1px #6c3fc714;
 }
 [data-material]::after {
   content: '';
@@ -154,9 +129,9 @@ body::before {
   background: linear-gradient(
     115deg,
     transparent 10%,
-    #ffd26103 27%,
-    #ffd26111 44%,
-    #7854aa08 47%,
+    #c4912f03 27%,
+    #c4912f11 44%,
+    #6c3fc708 47%,
     transparent 65%
   );
   transform: translateX(var(--reflection-x, 0%));
@@ -178,36 +153,36 @@ body::before {
 .intelligence-stage {
   background:
     radial-gradient(ellipse at 0 0, #f4ce6c17, transparent 46%),
-    radial-gradient(ellipse at 100% 80%, #7854aa0b, transparent 50%), #080b10;
+    radial-gradient(ellipse at 100% 80%, #6c3fc70b, transparent 50%), #080b10;
   border-color: #f2cc6e65;
   box-shadow:
-    inset 0 1px #ffd261a6,
-    inset 1px 0 #ffd26120,
+    inset 0 1px #c4912fa6,
+    inset 1px 0 #c4912f20,
     0 22px 65px #000a,
-    0 0 28px #edca7306;
+    0 0 28px #c4912f06;
 }
 .vd-earnings::before,
 .vd-cassius::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #ffd261 32%,
+    #c4912f 32%,
     #eecb72 65%,
     transparent
   );
-  box-shadow: 0 0 12px #ffd26133;
+  box-shadow: 0 0 12px #c4912f33;
 }
 .vd-earnings-number,
 .membership .card-wordmark,
 .monogram,
 .cs-header em,
 .ps-intro em {
-  color: #ffd261;
+  color: #c4912f;
   background: var(--gold-metal);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 32px #ffd26114;
+  text-shadow: 0 0 32px #c4912f14;
 }
 .vd-gold-button,
 .gold-button,
@@ -218,9 +193,9 @@ body::before {
   overflow: hidden;
   color: #181b22;
   background: var(--gold-metal);
-  border: 1px solid #ffd261d9;
+  border: 1px solid #c4912fd9;
   box-shadow:
-    inset 0 2px #fffdf1d0,
+    inset 0 2px #d9b66bd0,
     inset 0 -2px #ab832070,
     0 8px 26px #f5ce6b1a,
     0 2px 3px #0007;
@@ -238,7 +213,7 @@ body::before {
   background: linear-gradient(
     110deg,
     transparent 40%,
-    #ffe3a08c 49%,
+    #d9b66b8c 49%,
     transparent 57%
   );
   transform: translateX(-75%);
@@ -250,8 +225,8 @@ body::before {
 .cs-generate:hover {
   transform: translateY(-2px);
   box-shadow:
-    inset 0 2px #ffe09a,
-    0 9px 35px #ffd26135;
+    inset 0 2px #d9b66b,
+    0 9px 35px #c4912f35;
   filter: none;
 }
 .vd-command,
@@ -265,27 +240,27 @@ body::before {
     box-shadow 0.3s;
 }
 .vd-command {
-  background: linear-gradient(125deg, #ffd2610c, #130f1a);
-  border-color: #e6c77a40;
+  background: linear-gradient(125deg, #c4912f0c, #130f1a);
+  border-color: #d9b66b40;
 }
 .vd-command:hover,
 .ps-product:hover,
 .ps-daily:hover,
 .cs-starters button:hover {
   transform: translateY(-3px);
-  border-color: #ffd261a0;
+  border-color: #c4912fa0;
   box-shadow:
     0 12px 32px #0008,
-    inset 0 1px #ffd26160;
+    inset 0 1px #c4912f60;
 }
 .vd-command-icon,
 .vd-pulse-icon,
 .ps-product-mark {
-  background: linear-gradient(140deg, #ffd26128, #17121f 55%, #7854aa12);
-  color: #ffd261;
-  border-color: #ffd26165;
+  background: linear-gradient(140deg, #c4912f28, #17121f 55%, #6c3fc712);
+  color: #c4912f;
+  border-color: #c4912f65;
   box-shadow:
-    inset 0 1px #ffd2614a,
+    inset 0 1px #c4912f4a,
     0 4px 12px #0006;
 }
 .vd-chip-gold,
@@ -298,27 +273,27 @@ body::before {
 .vd-module-header > .vd-overline,
 .vd-welcome .vd-overline,
 .vd-section-title h2 > span {
-  color: #f2cd6e;
+  color: #d9b66b;
 }
 .vd-chip-gold {
   background: #efcb710b;
-  border-color: #f2cd6e3f;
+  border-color: #d9b66b3f;
 }
 .vd-metric {
   background: linear-gradient(130deg, #ffffff08, #06090e);
-  border-color: #ffd26121;
-  box-shadow: inset 0 1px #ffd26117;
+  border-color: #c4912f21;
+  box-shadow: inset 0 1px #c4912f17;
 }
 .vd-metric-label svg,
 .vd-section-title > svg {
-  color: #e6c77a;
+  color: #d9b66b;
 }
 .vd-command-wide {
   background: linear-gradient(110deg, #f6ce6a15, #0f0a15 70%);
 }
 .vd-tooltip {
   background: #120e19f5;
-  border-color: #ffd2616b;
+  border-color: #c4912f6b;
   box-shadow: 0 15px 30px #000b;
 }
 .vd-bar > span {
@@ -329,33 +304,33 @@ body::before {
 }
 /* Floating navigation picks up highlights from the luminous environment. */
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff0c, #0c0910ed 50%, #7854aa0a);
-  border-color: #e6c77a46;
+  background: linear-gradient(125deg, #ffffff0c, #0c0910ed 50%, #6c3fc70a);
+  border-color: #d9b66b46;
   box-shadow:
-    inset 0 1px #ffd26165,
+    inset 0 1px #c4912f65,
     0 15px 55px #0008;
 }
 .collective-nav a[aria-current],
 .mobile-dock a[aria-current] {
-  color: #ffd261;
+  color: #c4912f;
   border-color: #f0cc6f75;
-  background: linear-gradient(115deg, #ffd26122, #1b142599);
+  background: linear-gradient(115deg, #c4912f22, #1b142599);
   box-shadow:
-    inset 0 1px #ffd26178,
+    inset 0 1px #c4912f78,
     inset 3px 0 #f8cf68,
-    0 0 20px #ffd2610c;
+    0 0 20px #c4912f0c;
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #ffd26116, #0e0914f2 45%, #7854aa0d);
-  border-color: #ffd2616b;
+  background: linear-gradient(120deg, #c4912f16, #0e0914f2 45%, #6c3fc70d);
+  border-color: #c4912f6b;
   box-shadow:
-    inset 0 1px #ffd26180,
+    inset 0 1px #c4912f80,
     0 10px 40px #000c;
 }
 .nav-dot,
 .cs-kicker > span {
   background: #f2cc6e;
-  box-shadow: 0 0 12px #ffd2618c;
+  box-shadow: 0 0 12px #c4912f8c;
 }
 /* Existing Cassius geometry becomes the active optical focal point. */
 .vd-cassius-glyph {
@@ -380,15 +355,15 @@ body::before {
   background: conic-gradient(
     from -28deg,
     #deb651,
-    #ffd261 9%,
-    #e6c77a 19%,
+    #c4912f 9%,
+    #d9b66b 19%,
     #7e7b81 24%,
-    #ffd261 34%,
-    #fffef3 40%,
+    #c4912f 34%,
+    #d9b66b 40%,
     #e5c574 50%,
-    #f2cd6e 60%,
+    #d9b66b 60%,
     #958a9e 66%,
-    #ffd261 80%,
+    #c4912f 80%,
     #e4c472 92%,
     #deb651
   );
@@ -396,8 +371,8 @@ body::before {
 .core-aura {
   background: radial-gradient(
     circle,
-    #e6c77a26,
-    #7854aa12 45%,
+    #d9b66b26,
+    #6c3fc712 45%,
     transparent 70%
   );
 }
@@ -405,11 +380,11 @@ body::before {
   background: conic-gradient(
     from 40deg,
     transparent 8%,
-    #ffd26136 19%,
-    #edca7380 24%,
+    #c4912f36 19%,
+    #c4912f80 24%,
     transparent 34%,
-    #7854aa20 57%,
-    #7854aa55 66%,
+    #6c3fc720 57%,
+    #6c3fc755 66%,
     transparent 77%
   );
 }
@@ -417,21 +392,21 @@ body::before {
   background: conic-gradient(
     from 160deg,
     transparent 12%,
-    #7854aa60 26%,
+    #6c3fc760 26%,
     transparent 36%,
-    #ffd2614d 48%,
+    #c4912f4d 48%,
     transparent 62%,
-    #e6c77a55 74%,
+    #d9b66b55 74%,
     transparent 90%
   );
 }
 .core-heart {
   background: radial-gradient(
     circle,
-    #fffefa 0,
-    #ffd261 10%,
-    #e6c77a 25%,
-    #7854aa45 50%,
+    #d9b66b 0,
+    #c4912f 10%,
+    #d9b66b 25%,
+    #6c3fc745 50%,
     transparent 72%
   );
 }
@@ -439,16 +414,16 @@ body::before {
   stroke: #ebc97550;
 }
 .core-network circle {
-  fill: #ffd261;
+  fill: #c4912f;
 }
 .core-filaments path {
-  stroke: #ffd26184;
+  stroke: #c4912f84;
 }
 .core-filaments path:nth-child(2) {
-  stroke: #7854aa85;
+  stroke: #6c3fc785;
 }
 .core-filaments .filament-signal {
-  stroke: #ffd261;
+  stroke: #c4912f;
 }
 .cs-sigil,
 .cs-orbit,
@@ -456,13 +431,13 @@ body::before {
   position: relative;
   background: radial-gradient(
     circle,
-    #ffd2611c,
-    #7854aa0b 50%,
+    #c4912f1c,
+    #6c3fc70b 50%,
     transparent 70%
   );
-  color: #ffd261;
+  color: #c4912f;
   box-shadow:
-    inset 0 1px #ffd2615c,
+    inset 0 1px #c4912f5c,
     0 0 55px #e8c87818;
   border-color: #f7cf696b;
 }
@@ -474,8 +449,8 @@ body::before {
   inset: -8px;
   border-radius: 50%;
   border: 1px solid transparent;
-  border-top-color: #ffd261b0;
-  border-right-color: #7854aa50;
+  border-top-color: #c4912fb0;
+  border-right-color: #6c3fc750;
   animation: optical-orbit 18s linear infinite;
   pointer-events: none;
 }
@@ -597,7 +572,7 @@ html[data-ambient-motion='paused'] [data-material]::after {
   .mobile-dock {
     background: #080b10;
     backdrop-filter: none;
-    border-color: #e6c77a;
+    border-color: #d9b66b;
   }
   .living-atmosphere {
     display: none;
@@ -624,9 +599,9 @@ html[data-ambient-motion='paused'] [data-material]::after {
 
 .cs-empty {
   background:
-    radial-gradient(ellipse at 50% 32%, #ecca7414, transparent 55%),
-    radial-gradient(ellipse at 100% 100%, #7854aa0a, transparent 60%), #0b0810;
-  border-color: #ffd2612c;
+    radial-gradient(ellipse at 50% 32%, #c4912f14, transparent 55%),
+    radial-gradient(ellipse at 100% 100%, #6c3fc70a, transparent 60%), #0b0810;
+  border-color: #c4912f2c;
 }
 .vd-is-thinking .core-fluid {
   animation-duration: 8s;
@@ -636,423 +611,4 @@ html[data-ambient-motion='paused'] [data-material]::after {
 .cs-generate:disabled::after {
   animation: none;
   opacity: 0;
-}
-
-/* Amethyst is a supporting material, concentrated in depth and intelligence. */
-:root,
-.dark {
-  --gold: #dba82f;
-  --gold-light: #f0c45d;
-  --primary: #dba82f;
-  --amethyst: #100a19;
-}
-.vd-cassius,
-.ps-atlas,
-.intelligence-stage {
-  background:
-    radial-gradient(ellipse at 0 0, #d5a52e1c, transparent 48%),
-    radial-gradient(ellipse at 100% 100%, #2e1e4436, transparent 65%), #0a080d;
-}
-.ambient-platinum {
-  background: radial-gradient(
-    ellipse,
-    #31224625,
-    #2215340e 45%,
-    transparent 65%
-  );
-}
-.club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff09, #0b090eed 50%, #2217311a);
-}
-.mobile-dock {
-  background: linear-gradient(120deg, #d8ad3616, #0d0912f2 45%, #2e20411c);
-}
-.vd-command-wide {
-  background: linear-gradient(110deg, #d5a52e16, #130e1c 85%);
-}
-.cs-empty {
-  background:
-    radial-gradient(ellipse at 50% 32%, #d5a52e12, transparent 55%),
-    radial-gradient(ellipse at 100% 100%, #31224622, transparent 60%), #09070c;
-}
-
-/* Black / gold / purple: reference-led brand identity. Gold defines authority;
-   purple carries intelligence, optical energy, and analytical signals. */
-:root,
-.dark {
-  --background: #050506;
-  --sidebar: #080709;
-  --purple: #9772cb;
-  --purple-light: #b69ddb;
-  --amethyst: #28173f;
-  --violet: #9b77cd;
-  --gold: #dba83c;
-  --gold-light: #f1cc78;
-}
-body::before {
-  background: radial-gradient(ellipse at 70% 8%, #673ca327, transparent 65%);
-}
-.ambient-platinum {
-  background: radial-gradient(
-    ellipse,
-    #8255c06b,
-    #57338938 45%,
-    transparent 65%
-  );
-}
-.ambient-gold {
-  background: radial-gradient(
-    ellipse,
-    #e9bd4521,
-    #d49a3009 40%,
-    transparent 68%
-  );
-}
-.vd-cassius,
-.ps-atlas,
-.intelligence-stage {
-  background:
-    radial-gradient(ellipse at 0 0, #d5a52e12, transparent 48%),
-    radial-gradient(ellipse at 100% 90%, #7645ba67, transparent 72%),
-    linear-gradient(135deg, #231538, #160d23 60%, #0f0918);
-}
-.vd-glass,
-.ps-glass,
-.ps-product,
-.cs-director,
-.cs-canvas-panel,
-.panel,
-.pending-panel,
-.status-hero,
-.member-door,
-.membership-record {
-  background-color: #09070b;
-}
-.club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(145deg, #2416378c, #0e0915ed 55%, #301c4d70);
-}
-.mobile-dock {
-  background: linear-gradient(120deg, #291c3af5, #170e24f5 45%, #361f55ed);
-}
-.collective-nav a[aria-current],
-.mobile-dock a[aria-current] {
-  background: linear-gradient(115deg, #6c3faa70, #27173e);
-  border-color: #d4ad665a;
-}
-.vd-command-wide {
-  background: linear-gradient(110deg, #4c2d79, #211334 75%, #160e22);
-}
-.vd-command:nth-child(even) .vd-command-icon,
-.vd-pulse-icon,
-.ps-atlas-orbit,
-.cs-sigil,
-.cs-orbit {
-  color: #b094d7;
-  border-color: #7d4fbe6b;
-  background: radial-gradient(
-    circle at 30% 20%,
-    #8357c180,
-    #331e51 70%,
-    #1b102b
-  );
-  box-shadow:
-    inset 0 1px #bba3dd45,
-    0 0 28px #8357c132;
-}
-.cs-sigil::before,
-.cs-orbit::before,
-.ps-atlas-orbit::before {
-  border-top-color: #ae91d6b0;
-  border-right-color: #9772cb5c;
-}
-.vd-hero-spark {
-  color: #9e7bce;
-}
-.vd-bar > span {
-  background: linear-gradient(90deg, #412667, #8255c0 68%, #b69bda);
-  box-shadow: 0 0 9px #7c4dbd2b;
-}
-.vd-chart-legend i:first-child {
-  background: #9e7bce;
-}
-.core-sphere {
-  background: radial-gradient(circle at 40% 35%, #1b102a, #07040a 70%);
-}
-.core-aura {
-  background: radial-gradient(
-    circle,
-    #9c79cd55,
-    #5b358f33 45%,
-    transparent 70%
-  );
-}
-.fluid-one {
-  background: conic-gradient(
-    from 40deg,
-    transparent 8%,
-    #8559c24a 19%,
-    #ab8dd5aa 24%,
-    transparent 34%,
-    #7b4bbd36 57%,
-    #b89fdb77 66%,
-    transparent 77%
-  );
-}
-.fluid-two {
-  background: conic-gradient(
-    from 160deg,
-    transparent 12%,
-    #a07ecf80 26%,
-    transparent 36%,
-    #f1ce884d 48%,
-    transparent 62%,
-    #683da477 74%,
-    transparent 90%
-  );
-}
-.core-heart {
-  background: radial-gradient(
-    circle,
-    #fff1d5 0,
-    #b69cda 10%,
-    #8357c1 25%,
-    #42266855 50%,
-    transparent 72%
-  );
-}
-.core-filaments path {
-  stroke: #a686d2ac;
-}
-.core-filaments path:nth-child(2) {
-  stroke: #e4bd7785;
-}
-.core-filaments .filament-signal {
-  stroke: #c5b0e2;
-}
-.core-network path {
-  stroke: #8357c150;
-}
-.core-network circle {
-  fill: #c5b0e2;
-}
-.cs-empty {
-  background:
-    radial-gradient(ellipse at 50% 32%, #7f52bf52, transparent 60%),
-    radial-gradient(ellipse at 100% 100%, #502f7f35, transparent 65%), #140c1f;
-}
-.vd-chart-legend span:nth-child(2) i {
-  background: #d4b16b;
-}
-
-/* Balanced roles: black foundation, violet material planes, gold authority. */
-.vd-chart-panel,
-.vd-momentum,
-.vd-products,
-.vd-channels,
-.ps-glass,
-.ps-product,
-.cs-director,
-.panel,
-.pending-panel,
-.membership-record,
-.member-door,
-.draft-library,
-.studio-editor {
-  background: linear-gradient(145deg, #221533, #140d1e 48%, #0c0910);
-  border-color: #9772cb4d;
-  box-shadow:
-    inset 0 1px #b499d942,
-    inset 0 -1px #9772cb15,
-    0 20px 45px #0008;
-}
-.vd-earnings,
-.membership,
-.status-hero {
-  background:
-    radial-gradient(ellipse at 100% 0, #653b9f38, transparent 62%),
-    linear-gradient(130deg, #1a1620, #0b090e 65%);
-  border-color: #d9b35d70;
-}
-.vd-metric {
-  background: linear-gradient(140deg, #291c3d70, #0f0b15);
-  border-color: #9d7bce33;
-}
-.vd-command {
-  background: linear-gradient(130deg, #291c3c, #130e1c 80%);
-  border-color: #9a77cd56;
-}
-.vd-command:hover,
-.ps-product:hover,
-.ps-daily:hover {
-  border-color: #b69ddbae;
-  box-shadow:
-    inset 0 1px #bfa8df75,
-    0 10px 30px #4e2e7c36;
-}
-.vd-pulse {
-  background: linear-gradient(135deg, #1c1428, #0f0b15);
-}
-.vd-pulse-row:hover {
-  background: #7544b912;
-}
-.cs-canvas-panel {
-  background: linear-gradient(145deg, #201531, #120c1a 65%);
-  border-color: #d4ad665a;
-}
-.vd-chip-green,
-.ps-chips button[aria-pressed='true'],
-.ps-destinations button[aria-pressed='true'],
-.cs-modes button[aria-pressed='true'] {
-  color: #c2ace0;
-  background: #59348d54;
-  border-color: #a280d075;
-}
-.vd-periods button[aria-pressed='true'],
-.vd-chart-switch button[aria-pressed='true'] {
-  color: #f1cc78;
-  background: linear-gradient(135deg, #432967, #221633);
-  border-color: #cba85875;
-}
-.vd-channel-donut > div {
-  background: #160e22;
-}
-.cs-tabs button[aria-current],
-.ps-room-nav button[aria-pressed='true'] {
-  color: #c0aadf;
-  border-color: #9772cb;
-}
-@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
-  .vd-glass,
-  .ps-glass,
-  .panel,
-  .cs-director,
-  .cs-canvas-panel,
-  .mobile-dock {
-    background: #0e0916;
-    border-color: #e9dbb0;
-  }
-}
-
-/* Royal purple and gold: dark tailored surfaces, brighter metal craftsmanship. */
-:root,
-.dark {
-  --purple: #765699;
-  --purple-light: #b6a0cd;
-  --amethyst: #261835;
-  --violet: #876ba7;
-}
-.vd-cassius,
-.ps-atlas,
-.intelligence-stage {
-  background:
-    radial-gradient(ellipse at 0 0, #d7a74124, transparent 53%),
-    radial-gradient(ellipse at 100% 90%, #55377365, transparent 70%),
-    linear-gradient(135deg, #2a1b39, #180f25 65%, #0e0a15);
-  border-color: #cfa74e87;
-}
-.vd-glass,
-.ps-glass,
-.ps-product,
-.panel,
-.cs-director,
-.cs-canvas-panel,
-.membership-record,
-.member-door,
-.draft-library,
-.studio-editor {
-  border-color: #c9a2504f;
-  box-shadow:
-    inset 0 1px #e4c57943,
-    inset 0 -1px #8c672721,
-    0 20px 45px #0008;
-}
-.vd-command,
-.vd-command-wide {
-  background: linear-gradient(135deg, #352542, #1a1225 75%);
-  border-color: #d5ad596e;
-}
-.vd-command-icon,
-.vd-command:nth-child(even) .vd-command-icon,
-.vd-pulse-icon,
-.ps-product-mark,
-.ps-atlas-orbit,
-.cs-sigil,
-.cs-orbit {
-  color: #e8bd61;
-  border-color: #d7ad568a;
-  background: linear-gradient(135deg, #c89b3436, #2a1d37 55%, #141019);
-  box-shadow:
-    inset 0 1px #f6d99d60,
-    0 0 24px #c3942d14;
-}
-.vd-command:hover,
-.ps-product:hover,
-.ps-daily:hover {
-  border-color: #f0c975b5;
-  box-shadow:
-    inset 0 1px #ffe0a18c,
-    0 10px 30px #b7832423;
-}
-.vd-section-title h2,
-.cs-section-title,
-.ps-section-heading h2,
-.section-title h2 {
-  color: #e2c184;
-}
-.vd-section-title h2 > span,
-.vd-section-title > svg,
-.vd-metric-label svg,
-.vd-cassius-wordmark,
-.brand-sub {
-  color: #e6b957;
-}
-.collective-nav a[aria-current],
-.mobile-dock a[aria-current] {
-  color: #f2cf80;
-  background: linear-gradient(115deg, #b5862d42, #30213f);
-  border-color: #e1b65b8a;
-  box-shadow:
-    inset 0 1px #f8dc9b70,
-    inset 3px 0 #ddb155,
-    0 5px 18px #0006;
-}
-.vd-periods button[aria-pressed='true'],
-.vd-chart-switch button[aria-pressed='true'],
-.ps-chips button[aria-pressed='true'],
-.ps-destinations button[aria-pressed='true'],
-.cs-modes button[aria-pressed='true'] {
-  color: #f4d591;
-  background: linear-gradient(135deg, #b3883245, #31253c);
-  border-color: #d4ae6380;
-}
-.cs-tabs button[aria-current],
-.ps-room-nav button[aria-pressed='true'] {
-  color: #eac878;
-  border-color: #cda349;
-}
-.vd-bar > span {
-  background: var(--gold-metal);
-  box-shadow: 0 0 10px #d2a7462c;
-}
-.vd-hero-spark {
-  color: #dbb564;
-}
-.vd-chart-legend i:first-child {
-  background: #dbb564;
-}
-.vd-chart-legend span:nth-child(2) i {
-  background: #937bb0;
-}
-.cs-sigil::before,
-.cs-orbit::before,
-.ps-atlas-orbit::before {
-  border-top-color: #f1ca78b0;
-  border-right-color: #80659c60;
-}
-.core-filaments path:nth-child(2),
-.core-filaments .filament-signal {
-  stroke: #f1cd82b0;
-}
-.core-network circle {
-  fill: #e5be70;
 }

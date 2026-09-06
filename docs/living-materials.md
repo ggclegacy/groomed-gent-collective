@@ -1,5 +1,7 @@
 # Living materials — design research and implementation
 
+> Historical motion research. The current palette and surface roles are defined in [brand-materials.md](brand-materials.md), which supersedes the champagne/platinum color direction below.
+
 ## Research translated into design
 
 Apple's [Meet Liquid Glass](https://developer.apple.com/videos/play/wwdc2025/219/) treats material, lighting, elevation, and interaction as one system. Its optical highlights provide separation; interaction temporarily energizes otherwise quiet controls. This informed brighter champagne crests, platinum reflections, dark neutral glass, and light concentrated at edges rather than brown fills. This is a CSS interpretation, not native Liquid Glass or physical refraction.
