@@ -60,7 +60,7 @@
   position: absolute;
   left: 24px;
   top: 48%;
-  color: #a3b0a4;
+  color: #aaa3b0;
   font-size: 12px;
   letter-spacing: 0.04em;
   padding: 5px 10px;
@@ -72,7 +72,7 @@
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 62% 30%, #25433277, transparent 50%),
+    radial-gradient(ellipse at 62% 30%, #35254377, transparent 50%),
     radial-gradient(ellipse at 10% 90%, #17161580, transparent 55%),
     linear-gradient(145deg, #050504, #181816 55%, #040403);
 }
@@ -89,8 +89,8 @@
     repeating-linear-gradient(0deg, transparent 0 59px, #c9a45c0b 59px 60px),
     repeating-linear-gradient(90deg, transparent 0 59px, #c9a45c0b 59px 60px);
   box-shadow:
-    0 0 150px #18715219,
-    inset 0 0 150px #225f4520;
+    0 0 150px #47296019,
+    inset 0 0 150px #43275a20;
 }
 .voyage-radar i {
   position: absolute;
@@ -180,12 +180,12 @@
   height: 5px;
   width: 5px;
   border-radius: 100%;
-  background: #90c4a4;
-  box-shadow: 0 0 9px #62cf9777;
+  background: #ac99bb;
+  box-shadow: 0 0 9px #9b84ad77;
 }
 .voyage-kicker b {
   font-weight: 400;
-  color: #68766a;
+  color: #706876;
   margin: 0 5px;
 }
 .voyage-context h1 {
@@ -209,7 +209,7 @@
 }
 .voyage-location-note {
   display: block;
-  color: #9eac9f;
+  color: #a69eac;
   font-size: 12px;
 }
 .voyage-map-tools {
@@ -238,7 +238,7 @@
   border: 1px solid #b0b69b29;
   background: #0b0b0ad1;
   padding: 8px 18px;
-  color: #b5c0b2;
+  color: #bab2c0;
   font-size: 14px;
   backdrop-filter: blur(20px);
 }
@@ -261,7 +261,7 @@
   align-items: center;
 }
 .voyage-results-heading small {
-  color: #a6af9b;
+  color: #a69baf;
   font-size: 11px;
   letter-spacing: 0.11em;
 }
@@ -320,7 +320,7 @@
 }
 .voyage-card p {
   font-size: 13px;
-  color: #aeb9aa;
+  color: #b2aab9;
 }
 .voyage-match {
   display: flex;
@@ -385,7 +385,7 @@
   font-size: 16px;
 }
 .voyage-command input::placeholder {
-  color: #9da994;
+  color: #a094a9;
 }
 .voyage-command button {
   flex-shrink: 0;
@@ -401,7 +401,7 @@
   justify-content: space-between;
   gap: 15px;
   padding: 12px 3px;
-  color: #a0aa93;
+  color: #a093aa;
   font-size: 10px;
   letter-spacing: 0.08em;
 }
@@ -416,7 +416,7 @@
   min-height: 150px;
   display: grid;
   place-items: center;
-  color: #b8c3b5;
+  color: #bdb5c3;
   border: 1px solid #aa965a30;
   border-radius: 14px;
   background: #0b0b0ac9;
@@ -474,7 +474,7 @@
   padding: 15px 0;
 }
 .voyage-glass dd {
-  color: #b6c1b2;
+  color: #bab2c1;
 }
 .voyage-glass summary {
   cursor: pointer;
@@ -730,10 +730,10 @@ body:has(.voyage-journeys-overlay) > .gent-memory-bar {
   height: 20px;
   border: 3px solid #e9d6a5;
   border-radius: 50%;
-  background: #65a583;
+  background: #876d9d;
   box-shadow:
-    0 0 0 10px #78b18a22,
-    0 0 35px #78b18a66;
+    0 0 0 10px #977faa22,
+    0 0 35px #977faa66;
 }
 .voyage-city-search > div {
   display: flex;
@@ -759,7 +759,7 @@ body:has(.voyage-journeys-overlay) > .gent-memory-bar {
 .voyage-city-search output {
   display: block;
   font-size: 12px;
-  color: #aab69f;
+  color: #ac9fb6;
   margin: 10px 0;
 }
 .voyage-city-results {

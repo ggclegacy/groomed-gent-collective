@@ -1,41 +1,39 @@
 /* The Living Instrument — one material hierarchy, above legacy workspace themes. */
 :root,
 .dark {
-  --background: #070706;
+  --background: #080809;
   --foreground: #eeeae0;
-  --sidebar: #0a0a09;
+  --sidebar: #0b0a0d;
   --gold: #c9a45c;
   --gold-light: #e7ce94;
   --gold-dim: #8b7648;
   --primary: #c9a45c;
-  --muted: #181715;
-  --muted-foreground: #aebbb4;
+  --muted: #21172b;
+  --muted-foreground: #bfb5c9;
   --border: #c9a45c2d;
-  --purple: #355d4b;
-  --violet: #355d4b;
-  --amethyst: #151413;
-  --purple-light: #bbd3c5;
+  --purple: #785594;
+  --violet: #785594;
+  --amethyst: #24122f;
+  --purple-light: #c2a8d5;
   --glass-edge: #c9a45c3d;
   --gold-metal: linear-gradient(118deg, #b18b43 0%, #d1af68 24%, #ead39d 46%, #c6a059 67%, #b18b43 100%);
-  --glass: linear-gradient(135deg, #232018eb, #0b0b0af5);
-  --glass-signature: radial-gradient(ellipse at 12% 0%, #49795b45, transparent 65%), linear-gradient(130deg, #214c37, #102b20);
+  --glass: linear-gradient(135deg, #302039ed, #1a1024f5);
+  --glass-signature: radial-gradient(ellipse at 12% 0%, #8350a32e, transparent 65%), linear-gradient(130deg, #3a214b, #21132f);
   --brand-purple-quiet: var(--glass);
   --brand-purple-panel: var(--glass-signature);
-  --brand-gold-panel: linear-gradient(125deg, #766039, #564426 48%, #392d1b);
+  --brand-gold-panel: linear-gradient(130deg, #402650, #271633 60%, #1a1024);
   --brand-bevel: inset 0 1px #f7e3b627, inset 0 -1px #0008, 0 18px 40px #0005;
-  --forest: #173b2b;
-  --forest-light: #789c86;
-  --obsidian: #070706;
+  --obsidian: #080809;
   --font-display: ui-serif, Georgia, 'Times New Roman', serif;
 }
 body {
-  background: #070706;
+  background: #080809;
   color: #eeeae0;
   isolation: isolate;
 }
 body::before {
   background:
-    radial-gradient(ellipse at 78% 2%, #c9a45c30, transparent 55%),
+    radial-gradient(ellipse at 78% 2%, #75449216, transparent 55%),
     linear-gradient(155deg, #0a0909, #070706);
 }
 ::selection {
@@ -46,7 +44,7 @@ body::before {
   z-index: -1;
 }
 .ambient-gold {
-  background: radial-gradient(ellipse, #c9a45c45, transparent 65%);
+  background: radial-gradient(ellipse, #c9a45c25, transparent 65%);
   width: 70vw !important;
   height: 60vh !important;
   left: 30vw;
@@ -56,7 +54,7 @@ body::before {
 .ambient-platinum {
   background: radial-gradient(
     ellipse,
-    #256d4e38,
+    #4c2c6638,
     #26252225 40%,
     transparent 68%
   );
@@ -84,7 +82,7 @@ body::before {
   background: repeating-linear-gradient(
     115deg,
     transparent 0 130px,
-    #b7cbb415 131px,
+    #c1b4cb15 131px,
     transparent 132px 260px
   );
   mask-image: linear-gradient(transparent, #000, transparent);
@@ -98,7 +96,7 @@ body::before {
   min-height: 46px;
   margin: 4px 10px;
   border-radius: 10px;
-  color: #b7c2b9;
+  color: #bdb7c2;
   transition:
     background 0.2s,
     color 0.2s;
@@ -131,12 +129,12 @@ body::before {
 .top-title {
   font-size: 12px;
   letter-spacing: 0.14em;
-  color: #c6cfc6;
+  color: #cbc6cf;
 }
 .preview-badge {
   background: #c9a45c09;
   border-color: #c9a45c2d;
-  color: #c2c8bd;
+  color: #c3bdc8;
 }
 .gent-memory-bar {
   background: #0d0d0c;
@@ -195,7 +193,7 @@ main {
   color: #d6c497;
 }
 .spatial-introduction p {
-  color: #aebbb4;
+  color: #b5aebb;
   font-size: 16px;
   line-height: 1.7;
   max-width: 47ch;
@@ -281,7 +279,7 @@ main {
   box-shadow:
     inset 2px 2px 5px #d8d29d75,
     10px 10px 22px #000b,
-    0 0 30px #407b4735;
+    0 0 30px #60407b35;
   transform: translateZ(18px);
 }
 .instrument-plinth {
@@ -321,7 +319,7 @@ main {
   margin-top: 8px;
   font-size: 12px;
   letter-spacing: 0.18em;
-  color: #a8b5aa;
+  color: #afa8b5;
 }
 .spatial-instrument:hover .instrument-center {
   box-shadow:
@@ -361,7 +359,7 @@ main {
   gap: 18px;
   padding: 12px 16px;
   border-radius: 10px;
-  background: #a1c2a306;
+  background: #b3a2c106;
   min-height: 68px;
   transition: background 0.2s;
 }
@@ -379,7 +377,7 @@ main {
 }
 .spatial-priority-list small {
   display: block;
-  color: #a9b6ac;
+  color: #b0a9b6;
   font-size: 12px;
   margin-top: 5px;
 }
@@ -405,7 +403,7 @@ main {
   overflow: hidden;
   isolation: isolate;
   border: 1px solid #c9a45c65;
-  background: linear-gradient(145deg, #201f1d, #0f0e0d 70%);
+  background: var(--glass-signature);
   box-shadow:
     inset 0 1px #f2e8c72e,
     inset 0 -2px #0009,
@@ -452,7 +450,7 @@ main {
 .spatial-card-body small {
   font-size: 12px;
   letter-spacing: 0.14em;
-  color: #aebcae;
+  color: #b6aebc;
 }
 .spatial-card-body strong {
   font-family: var(--font-display);
@@ -465,7 +463,7 @@ main {
 .spatial-card-body > span {
   font-size: 14px;
   line-height: 1.5;
-  color: #b2beb2;
+  color: #b9b2be;
 }
 .spatial-card-foot {
   display: flex;
@@ -502,7 +500,7 @@ main {
   inset: 40px;
 }
 .world-circle {
-  background: linear-gradient(135deg, #28563e, #173c2b 55%, #10281e);
+  background: linear-gradient(135deg, #382146, #261631 55%, #1a1024);
 }
 .world-nodes {
   position: absolute;
@@ -523,7 +521,7 @@ main {
   width: 39px;
   height: 39px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 20%, #789c86, #292825 50%, #0b0b0a);
+  background: radial-gradient(circle at 30% 20%, #8c789c, #292825 50%, #0b0b0a);
   border: 1px solid #c5b07d60;
   box-shadow: 8px 8px 15px #0008;
 }
@@ -540,7 +538,7 @@ main {
   height: 18px;
 }
 .world-life {
-  background: var(--gold-metal);
+  background: linear-gradient(125deg, #382642, #261b31 55%, #1a1024);
 }
 .world-monolith {
   position: absolute;
@@ -608,18 +606,18 @@ main {
 .product-studio,
 .creative-studio {
   --vd-gold: #c9a45c;
-  --vd-muted: #aebbb4;
+  --vd-muted: #b5aebb;
   --vd-edge: #c9a45c35;
   --ps-gold: #c9a45c;
-  --ps-muted: #aebbb4;
+  --ps-muted: #b5aebb;
   --ps-amethyst: #1e1d1b;
   --cs-gold: #c9a45c;
-  --cs-dim: #aebbb4;
+  --cs-dim: #b5aebb;
 }
 .vd-metric-label,
 .vd-metric-detail,
 .vd-earnings .vd-balances span {
-  color: #b7c3b8;
+  color: #beb7c3;
 }
 .gent-space h1,
 .detail-page > h1 {
@@ -634,7 +632,7 @@ main {
 }
 .gent-record-detail,
 .lede {
-  color: #bbc5bc;
+  color: #c0bbc5;
   line-height: 1.7;
 }
 .gent-editor input,
@@ -707,30 +705,20 @@ main {
   outline: 2px solid #ead7a0;
   outline-offset: 4px;
 }
-/* 40/40/20 visual allocation: obsidian frame, two gold destination planes,
-   one forest plane; green signature panels carry the tertiary color throughout. */
-.spatial-card:not(.world-circle) {
-  background: var(--gold-metal);
-  border-color: #ead39d;
-  color: #17160f;
-}
-.spatial-card:not(.world-circle) :is(.spatial-card-head, .spatial-card-body small,
-.spatial-card-body strong, .spatial-card-body > span, .spatial-card-foot) {
-  color: #17160f;
-}
-.spatial-card:not(.world-circle) .spatial-card-foot { border-color: #30271955; }
-.spatial-card:not(.world-circle) .world-contours i { border-color: #514023; }
-.spatial-card:not(.world-circle)::before {
-  background: linear-gradient(transparent, #fff3d94a, transparent);
-}
-.gent-invoke {
-  background: linear-gradient(135deg, #28543b, #132f22);
-  border-color: #c9a45c88;
-}
-.life-pulse, .life-preparation, .desk-focus {
+/* Permanent brand roles: obsidian environment, amethyst content, gold action. */
+.gent-invoke, .gent-dialog, .life-pulse, .life-preparation, .desk-focus,
+.vd-metric, .ps-daily, .cs-director, .cs-canvas-panel {
   background: var(--glass-signature);
-  border-color: #c9a45c65;
+  border-color: #c9a45c50;
 }
+.spatial-card-head, .spatial-card-foot, .gent-space h1,
+.ps-section-heading h2, .cs-section-title { color: var(--gold-light); }
+.spatial-card {
+  box-shadow: inset 0 1px #ead39d45, inset 1px 0 #c9a45c18,
+    inset 0 -2px #0009, 0 20px 40px #0008, 0 3px 0 #100b17;
+}
+.gent-editor input, .gent-editor textarea, .gent-editor select,
+.gent-dialog textarea { background: #110d17; }
 @media (min-width: 900px) {
   main {
     padding-left: 36px;
@@ -881,13 +869,6 @@ main {
   }
 }
 @media (forced-colors: active) {
-  .spatial-card:not(.world-circle),
-  .spatial-card:not(.world-circle) :is(.spatial-card-head, .spatial-card-body small,
-  .spatial-card-body strong, .spatial-card-body > span, .spatial-card-foot) {
-    color: CanvasText;
-    background: Canvas;
-    border-color: CanvasText;
-  }
 
   .instrument-stage,
   .world-contours,
@@ -917,7 +898,7 @@ main {
   background: radial-gradient(
     circle,
     #c9a45c44,
-    #204c322b 45%,
+    #38204c2b 45%,
     transparent 70%
   );
 }
@@ -927,7 +908,7 @@ main {
     radial-gradient(ellipse at 70% 70%, #c9a45c70, transparent 63%), #121110;
 }
 .core-filaments path:nth-child(2) {
-  stroke: #7aa58bb3;
+  stroke: #927aa5b3;
 }
 .mobile-dock {
   background: linear-gradient(120deg, #292825eb, #0f0e0dee);

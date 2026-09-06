@@ -7,7 +7,7 @@
   align-items: center;
   padding: 10px 24px;
   background: #0f0e0d;
-  color: #b7c7be;
+  color: #c0b7c7;
   border-bottom: 1px solid #bca36730;
   font-size: 13px;
 }
@@ -57,7 +57,7 @@
   margin: 16px 0;
 }
 .gent-command p {
-  color: #b4c0b9;
+  color: #bbb4c0;
   margin-bottom: 22px;
 }
 .gent-priorities {
@@ -116,7 +116,7 @@
   display: grid;
   gap: 9px;
   font-size: 14px;
-  color: #d4dacf;
+  color: #d5cfda;
   margin-bottom: 18px;
 }
 .gent-editor input,
@@ -126,7 +126,7 @@
   width: 100%;
   padding: 12px 14px;
   border-radius: 9px;
-  border: 1px solid #b1bfad40;
+  border: 1px solid #b7adbf40;
   background: #080807;
   color: #eef0e8;
   font: inherit;
@@ -180,7 +180,7 @@
 .gent-record-detail {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-  color: #c3cec5;
+  color: #c9c3ce;
   line-height: 1.75;
   max-height: 420px;
   overflow: auto;
@@ -212,7 +212,7 @@
   margin: 22px 0 12px;
 }
 .gent-empty p {
-  color: #aebfb3;
+  color: #b7aebf;
 }
 .gent-orbit {
   display: inline-flex;
@@ -221,8 +221,8 @@
   padding: 24px;
   color: #ccb879;
   box-shadow:
-    0 0 50px #4eaf7620,
-    inset 0 0 24px #28563b44;
+    0 0 50px #81659820,
+    inset 0 0 24px #41285644;
 }
 .gent-hub {
   display: grid;
@@ -243,7 +243,7 @@
   font-weight: 400;
 }
 .gent-hub p {
-  color: #b8c3ba;
+  color: #beb8c3;
 }
 .gent-hub svg {
   color: #c6ae70;
@@ -259,7 +259,7 @@
   padding: 15px 23px;
   border-radius: 40px;
   border: 1px solid #d0b66c88;
-  background: linear-gradient(145deg, #204b37, #11110f);
+  background: linear-gradient(145deg, #38204b, #11110f);
   color: #e7d6a4;
   box-shadow:
     0 6px 30px #0008,
@@ -270,7 +270,7 @@
 .gent-invoke small {
   font-size: 11px;
   letter-spacing: 0;
-  color: #b1bfaf;
+  color: #b8afbf;
 }
 .gent-dialog {
   position: fixed;
@@ -306,7 +306,7 @@
   margin-bottom: 14px;
 }
 .gent-dialog p {
-  color: #b4c6b9;
+  color: #beb4c6;
   line-height: 1.6;
   margin-bottom: 24px;
 }
@@ -324,7 +324,7 @@
   overflow-wrap: anywhere;
   max-height: 200px;
   overflow: auto;
-  color: #bacabc;
+  color: #c3baca;
 }
 .gent-answer,
 .gent-generated p {
@@ -395,7 +395,7 @@
   margin: 25px 0;
 }
 .voyage-heading p {
-  color: #b8c4bb;
+  color: #bfb8c4;
 }
 .voyage-journeys {
   display: grid;
@@ -411,7 +411,7 @@
   border-radius: 22px;
   border: 1px solid #bda96f44;
   background:
-    radial-gradient(ellipse at top right, #24503999, transparent), #0d0d0c;
+    radial-gradient(ellipse at top right, #3c245099, transparent), #0d0d0c;
   box-shadow: inset 0 1px #ffffff18;
 }
 .voyage-journey h2 {
@@ -424,7 +424,7 @@
 }
 .voyage-journey p,
 .voyage-journey > span:last-of-type {
-  color: #b9c4bb;
+  color: #bfb9c4;
 }
 .voyage-pulse {
   display: flex;
@@ -452,7 +452,7 @@
   color: #c6b17c;
 }
 .voyage-pulse p {
-  color: #bac6bd;
+  color: #c1bac6;
 }
 .voyage-tools {
   display: flex;
@@ -473,7 +473,7 @@
 }
 .voyage-tools details p {
   margin: 15px 0;
-  color: #bcc9be;
+  color: #c3bcc9;
 }
 .voyage-grid {
   display: grid;
@@ -527,7 +527,7 @@
 .voyage-time small {
   display: block;
   font-size: 12px;
-  color: #a8b6aa;
+  color: #b0a8b6;
   margin-top: 8px;
 }
 .voyage-event h3 {
@@ -538,7 +538,7 @@
 .voyage-event p {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-  color: #bdc8c0;
+  color: #c3bdc8;
   margin: 12px 0;
   line-height: 1.65;
 }
@@ -567,7 +567,7 @@
   margin: 15px 0 20px;
 }
 .voyage-aside p {
-  color: #bac5bc;
+  color: #c0bac5;
   line-height: 1.7;
   margin: 15px 0;
 }
@@ -600,7 +600,7 @@
 }
 .circle-brief p {
   margin: 14px 0;
-  color: #bfcac0;
+  color: #c5bfca;
   line-height: 1.6;
 }
 .circle-brief h3 {
@@ -692,7 +692,7 @@
 }
 .life-pulse small {
   font-size: 20px;
-  color: #a8b5ac;
+  color: #afa8b5;
 }
 .life-pulse p {
   font-size: 21px;
@@ -717,7 +717,7 @@
 .life-preparation > p {
   margin: 18px 0;
   line-height: 1.7;
-  color: #b1bbb4;
+  color: #b6b1bb;
 }
 .life-fields {
   display: grid;
@@ -760,7 +760,7 @@
 }
 .life-choices small {
   display: block;
-  color: #acb5ad;
+  color: #b1acb5;
   margin-top: 5px;
 }
 .life-choices input,
@@ -926,7 +926,7 @@
 }
 .desk-buckets article small {
   display: block;
-  color: #a8b5ab;
+  color: #afa8b5;
   margin: 8px 0;
 }
 @media (max-width: 750px) {

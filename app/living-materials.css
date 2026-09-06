@@ -1,7 +1,7 @@
 /* Optical material layer shared by every Collective workspace.
    Rich metallic gold with deep amethyst reflections; preserve the optical depth and motion. */
 body::before {
-  background: radial-gradient(ellipse at 65% 0%, #6b9b850a, transparent 60%);
+  background: radial-gradient(ellipse at 65% 0%, #856b9b0a, transparent 60%);
 }
 .living-atmosphere {
   position: fixed;
@@ -34,8 +34,8 @@ body::before {
   right: -40vw;
   background: radial-gradient(
     ellipse,
-    #6b9b8516,
-    #6b9b8506 45%,
+    #856b9b16,
+    #856b9b06 45%,
     transparent 65%
   );
   animation: ambient-drift 30s ease-in-out -12s infinite alternate-reverse;
@@ -50,7 +50,7 @@ body::before {
     90deg,
     transparent,
     #c9a45c2b,
-    #6b9b8518,
+    #856b9b18,
     transparent
   );
   transform: rotate(-24deg);
@@ -84,17 +84,17 @@ body::before {
 .vd-root {
   --vd-gold: #c9a45c;
   --vd-white: #f5f5f2;
-  --vd-muted: #aeb8b3;
+  --vd-muted: #b3aeb8;
   --vd-edge: #e8c8772e;
 }
 .product-studio {
   --ps-gold: #c9a45c;
-  --ps-muted: #899f95;
+  --ps-muted: #95899f;
   --ps-amethyst: #131211;
 }
 .creative-studio {
   --cs-gold: #c9a45c;
-  --cs-dim: #8a9e95;
+  --cs-dim: #958a9e;
 }
 .vd-glass,
 .ps-glass,
@@ -113,11 +113,11 @@ body::before {
   isolation: isolate;
   border-color: #e0bf7a30;
   background:
-    linear-gradient(135deg, #ffffff0b, transparent 36%, #6b9b8505 100%), #0e0d0c;
+    linear-gradient(135deg, #ffffff0b, transparent 36%, #856b9b05 100%), #0e0d0c;
   box-shadow:
     0 20px 50px #0008,
     inset 0 1px #c9a45c2d,
-    inset 0 -1px #6b9b8514;
+    inset 0 -1px #856b9b14;
 }
 [data-material]::after {
   content: '';
@@ -131,7 +131,7 @@ body::before {
     transparent 10%,
     #c9a45c03 27%,
     #c9a45c11 44%,
-    #6b9b8508 47%,
+    #856b9b08 47%,
     transparent 65%
   );
   transform: translateX(var(--reflection-x, 0%));
@@ -153,7 +153,7 @@ body::before {
 .intelligence-stage {
   background:
     radial-gradient(ellipse at 0 0, #f4ce6c17, transparent 46%),
-    radial-gradient(ellipse at 100% 80%, #6b9b850b, transparent 50%), #0b0b0a;
+    radial-gradient(ellipse at 100% 80%, #856b9b0b, transparent 50%), #0b0b0a;
   border-color: #f2cc6e65;
   box-shadow:
     inset 0 1px #c9a45ca6,
@@ -256,7 +256,7 @@ body::before {
 .vd-command-icon,
 .vd-pulse-icon,
 .ps-product-mark {
-  background: linear-gradient(140deg, #c9a45c28, #161514 55%, #6b9b8512);
+  background: linear-gradient(140deg, #c9a45c28, #161514 55%, #856b9b12);
   color: #c9a45c;
   border-color: #c9a45c65;
   box-shadow:
@@ -304,7 +304,7 @@ body::before {
 }
 /* Floating navigation picks up highlights from the luminous environment. */
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(125deg, #ffffff0c, #0b0b0aed 50%, #6b9b850a);
+  background: linear-gradient(125deg, #ffffff0c, #0b0b0aed 50%, #856b9b0a);
   border-color: #e0bf7a46;
   box-shadow:
     inset 0 1px #c9a45c65,
@@ -321,7 +321,7 @@ body::before {
     0 0 20px #c9a45c0c;
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #c9a45c16, #0d0d0cf2 45%, #6b9b850d);
+  background: linear-gradient(120deg, #c9a45c16, #0d0d0cf2 45%, #856b9b0d);
   border-color: #c9a45c6b;
   box-shadow:
     inset 0 1px #c9a45c80,
@@ -362,7 +362,7 @@ body::before {
     #e0bf7a 40%,
     #e5c574 50%,
     #e0bf7a 60%,
-    #8a9e95 66%,
+    #958a9e 66%,
     #c9a45c 80%,
     #e4c472 92%,
     #deb651
@@ -372,7 +372,7 @@ body::before {
   background: radial-gradient(
     circle,
     #e0bf7a26,
-    #6b9b8512 45%,
+    #856b9b12 45%,
     transparent 70%
   );
 }
@@ -383,8 +383,8 @@ body::before {
     #c9a45c36 19%,
     #c9a45c80 24%,
     transparent 34%,
-    #6b9b8520 57%,
-    #6b9b8555 66%,
+    #856b9b20 57%,
+    #856b9b55 66%,
     transparent 77%
   );
 }
@@ -392,7 +392,7 @@ body::before {
   background: conic-gradient(
     from 160deg,
     transparent 12%,
-    #6b9b8560 26%,
+    #856b9b60 26%,
     transparent 36%,
     #c9a45c4d 48%,
     transparent 62%,
@@ -406,7 +406,7 @@ body::before {
     #e0bf7a 0,
     #c9a45c 10%,
     #e0bf7a 25%,
-    #6b9b8545 50%,
+    #856b9b45 50%,
     transparent 72%
   );
 }
@@ -420,7 +420,7 @@ body::before {
   stroke: #c9a45c84;
 }
 .core-filaments path:nth-child(2) {
-  stroke: #6b9b8585;
+  stroke: #856b9b85;
 }
 .core-filaments .filament-signal {
   stroke: #c9a45c;
@@ -432,7 +432,7 @@ body::before {
   background: radial-gradient(
     circle,
     #c9a45c1c,
-    #6b9b850b 50%,
+    #856b9b0b 50%,
     transparent 70%
   );
   color: #c9a45c;
@@ -450,7 +450,7 @@ body::before {
   border-radius: 50%;
   border: 1px solid transparent;
   border-top-color: #c9a45cb0;
-  border-right-color: #6b9b8550;
+  border-right-color: #856b9b50;
   animation: optical-orbit 18s linear infinite;
   pointer-events: none;
 }
@@ -600,7 +600,7 @@ html[data-ambient-motion='paused'] [data-material]::after {
 .cs-empty {
   background:
     radial-gradient(ellipse at 50% 32%, #c9a45c14, transparent 55%),
-    radial-gradient(ellipse at 100% 100%, #6b9b850a, transparent 60%), #0b0b0a;
+    radial-gradient(ellipse at 100% 100%, #856b9b0a, transparent 60%), #0b0b0a;
   border-color: #c9a45c2c;
 }
 .vd-is-thinking .core-fluid {

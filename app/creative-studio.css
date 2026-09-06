@@ -22,9 +22,9 @@
 .cs-kicker > span {
   width: 5px;
   height: 5px;
-  background: #a4c1b4;
+  background: #b4a4c1;
   border-radius: 50%;
-  box-shadow: 0 0 14px #a4c1b4;
+  box-shadow: 0 0 14px #b4a4c1;
 }
 .cs-header h2 {
   font-size: clamp(35px, 4vw, 64px);
@@ -52,9 +52,9 @@
   border: 1px solid #dcb96c44;
   border-radius: 50%;
   color: var(--cs-gold);
-  background: radial-gradient(circle, #23443580, transparent 68%);
+  background: radial-gradient(circle, #35234480, transparent 68%);
   box-shadow:
-    0 0 70px #3a72592b,
+    0 0 70px #593a722b,
     inset 0 0 28px #ac853310;
   margin-right: 30px;
 }
@@ -96,7 +96,7 @@
 .cs-tabs > span {
   margin-left: auto;
   font-size: 10px;
-  color: #9ca9a3;
+  color: #a39ca9;
 }
 .cs-workspace {
   display: grid;
@@ -126,7 +126,7 @@
 }
 .cs-section-title > span:last-child {
   margin-left: auto;
-  color: #7a8b83;
+  color: #837a8b;
   font-size: 8px;
 }
 .cs-modes {
@@ -140,7 +140,7 @@
   border-radius: 7px;
   padding: 8px 10px;
   font-size: 11px;
-  color: #b0b8b4;
+  color: #b4b0b8;
 }
 .cs-modes button[aria-pressed='true'] {
   background: #c5a0601c;
@@ -150,7 +150,7 @@
 .cs-label {
   display: block;
   font-size: 11px;
-  color: #b6beba;
+  color: #bab6be;
   line-height: 1.4;
   margin: 16px 0 7px;
 }
@@ -175,7 +175,7 @@
   line-height: 1.7;
 }
 .creative-studio textarea::placeholder {
-  color: #73807a;
+  color: #7a7380;
 }
 .cs-two {
   display: grid;
@@ -192,12 +192,12 @@
   display: flex;
   align-items: center;
   gap: 7px;
-  border: 1px dashed #aabfb640;
+  border: 1px dashed #b6aabf40;
   padding: 10px;
   border-radius: 8px;
   font-size: 10px;
   position: relative;
-  color: #b9c6c0;
+  color: #c0b9c6;
   cursor: pointer;
 }
 .cs-upload input {
@@ -222,7 +222,7 @@
 }
 .cs-fine {
   font-size: 10px;
-  color: #87958f;
+  color: #8f8795;
   line-height: 1.7;
   margin: 12px 0;
 }
@@ -249,16 +249,16 @@
   align-items: center;
   gap: 8px;
   width: 100%;
-  border: 1px solid #96b6a830;
+  border: 1px solid #a896b630;
   border-radius: 9px;
   padding: 12px;
   margin-top: 10px;
   font-size: 11px;
-  color: #bfcbc6;
+  color: #c6bfcb;
 }
 .cs-campaign span {
   margin-left: auto;
-  color: #7f978c;
+  color: #8c7f97;
   font-size: 9px;
 }
 .cs-empty {
@@ -268,10 +268,10 @@
   justify-content: center;
   min-height: 620px;
   text-align: center;
-  border: 1px solid #95b7a816;
+  border: 1px solid #a895b716;
   border-radius: 14px;
   background:
-    radial-gradient(ellipse at 50% 32%, #25493945, transparent 55%),
+    radial-gradient(ellipse at 50% 32%, #39254945, transparent 55%),
     linear-gradient(145deg, #121210, #090808);
   padding: 30px;
 }
@@ -286,7 +286,7 @@
   display: grid;
   place-items: center;
   margin: 35px auto 55px;
-  box-shadow: 0 0 80px #8bb09f17;
+  box-shadow: 0 0 80px #9f8bb017;
 }
 .cs-empty h3,
 .cs-brands h3 {
@@ -299,7 +299,7 @@
 .cs-empty > p {
   font-size: 12px;
   max-width: 310px;
-  color: #8fa199;
+  color: #998fa1;
   line-height: 1.8;
 }
 .cs-starters {
@@ -314,9 +314,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 15px;
-  border: 1px solid #96b8a924;
+  border: 1px solid #a996b824;
   border-radius: 8px;
-  color: #bdcdc6;
+  color: #c6bdcd;
   font-size: 11px;
   text-align: left;
   background: #ffffff03;
@@ -366,10 +366,10 @@
   align-items: center;
   gap: 7px;
   padding: 9px 11px;
-  border: 1px solid #a7c1b529;
+  border: 1px solid #b5a7c129;
   border-radius: 8px;
   font-size: 10px;
-  color: #c6d3cd;
+  color: #cdc6d3;
 }
 .cs-asset-actions button[aria-pressed='true'] {
   color: var(--cs-gold);
@@ -380,7 +380,7 @@
   border-top: 1px solid #ffffff12;
   font-size: 13px;
   line-height: 1.8;
-  color: #c4d0cb;
+  color: #cbc4d0;
 }
 .cs-copy p {
   margin: 12px 0;
@@ -401,7 +401,7 @@
 .cs-copy details {
   margin-top: 20px;
   font-size: 11px;
-  color: #8ca198;
+  color: #988ca1;
 }
 .cs-copy summary {
   cursor: pointer;
@@ -429,7 +429,7 @@
 }
 .cs-filmstrip span {
   font-size: 8px;
-  color: #bbcac3;
+  color: #c3bbca;
   display: block;
   padding: 4px;
 }
@@ -477,10 +477,10 @@
   padding: 12px;
   border-left: 1px solid #c0a36d44;
   background: #ffffff03;
-  color: #b5c2bc;
+  color: #bcb5c2;
 }
 .cs-conversation p.user {
-  border-color: #748b8144;
+  border-color: #81748b44;
 }
 .cs-conversation b {
   display: block;
@@ -521,7 +521,7 @@
   font-weight: 400;
 }
 .cs-library p {
-  color: #8fa199;
+  color: #998fa1;
   font-size: 12px;
 }
 .cs-library input {
