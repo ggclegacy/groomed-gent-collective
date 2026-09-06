@@ -38,7 +38,15 @@ export function SpatialCommand() {
   const context = commandContext(memory, day);
   return (
     <section className="spatial-command" aria-label="Personal command center">
-      <div className="spatial-arrival">
+      <div className="spatial-arrival command-theatre">
+        <div className="command-scenery" aria-hidden="true">
+          <i className="command-light command-light-purple" />
+          <i className="command-light command-light-gold" />
+          <i className="command-orbit command-orbit-one" />
+          <i className="command-orbit command-orbit-two" />
+          <i className="command-stars" />
+          <i className="command-horizon" />
+        </div>
         <div className="spatial-introduction">
           <span className="spatial-kicker">
             YOUR PRIVATE COMMAND / {day || 'TODAY'}
@@ -46,7 +54,7 @@ export function SpatialCommand() {
           <h1>
             {greeting}
             {memory.profile.name ? `, ${memory.profile.name}` : ''}.
-            <span>In good order.</span>
+            <span>The day is yours.</span>
           </h1>
           <p>
             {context.priorities.length
@@ -84,7 +92,7 @@ export function SpatialCommand() {
               <i className="instrument-ring ring-one" />
               <i className="instrument-ring ring-two" />
               <i className="instrument-ring ring-three" />
-              <i className="instrument-center">C</i>
+              <i className="instrument-center"><span className="orb-current" /><span className="orb-mark">C</span></i>
             </span>
             <i className="instrument-plinth" />
           </span>

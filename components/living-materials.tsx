@@ -21,7 +21,7 @@ function subscribe(callback: () => void) {
   };
 }
 const surfaces =
-  '.spatial-card,.spatial-instrument,.gent-record,.life-pulse,.desk-focus,.gent-dialog,.vd-glass,.vd-command,.ps-glass,.ps-product,.cs-director,.cs-canvas-panel,.panel,.membership,.status-hero,.intelligence-stage,.member-door,.membership-record';
+  '.command-theatre,.spatial-card,.spatial-instrument,.gent-record,.life-pulse,.desk-focus,.gent-dialog,.vd-glass,.vd-command,.ps-glass,.ps-product,.cs-director,.cs-canvas-panel,.panel,.membership,.status-hero,.intelligence-stage,.member-door,.membership-record';
 /** Decorative light only. Never represents account activity or service connectivity. */
 export function LivingMaterials() {
   const paused = useSyncExternalStore(subscribe, snapshot, () => false);

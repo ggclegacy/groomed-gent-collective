@@ -1,0 +1,86 @@
+/* Command: a lit obsidian stage, with all motion decorative and interruptible. */
+.command-theatre {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 440px;
+  padding: clamp(28px, 4vw, 64px);
+  gap: 30px;
+  border: 1px solid #a58b644a;
+  border-radius: 26px;
+  background: linear-gradient(105deg, #09080df5 0%, #100b17ed 43%, #180b25 100%);
+  box-shadow: inset 0 1px #bca17a50, inset 0 -1px #000, 0 28px 70px #0008;
+}
+.command-scenery { position:absolute; inset:0; z-index:-1; pointer-events:none; overflow:hidden; }
+.command-light { position:absolute; width:72%; height:140%; right:-10%; top:-20%; border-radius:50%; }
+.command-light-purple {
+  background:radial-gradient(ellipse, #65268d75, #35174b35 43%, transparent 68%);
+  animation:command-drift 19s ease-in-out infinite alternate;
+}
+.command-light-gold {
+  width:50%; height:95%; top:15%; right:5%;
+  background:radial-gradient(ellipse, #a58b6440, transparent 66%);
+  animation:command-drift 27s ease-in-out infinite alternate-reverse;
+}
+.command-orbit {
+  position:absolute; width:720px; height:360px; right:-180px; top:25%;
+  border:1px solid #a58b6442; border-radius:50%;
+  box-shadow:0 0 20px #a58b640e, inset 0 1px #bca17a20;
+  transform:rotate(-28deg); animation:command-orbit 32s ease-in-out infinite alternate;
+}
+.command-orbit-two { width:830px; height:440px; right:-245px; top:15%; border-color:#8957a43b; animation-direction:alternate-reverse; animation-duration:39s; }
+.command-stars {
+  position:absolute; inset:0 0 0 42%; opacity:.6;
+  background:radial-gradient(circle at 20% 18%, #bca17aaa 0 1px, transparent 2px),radial-gradient(circle at 82% 35%, #bca17a99 0 1px, transparent 2px),radial-gradient(circle at 30% 74%, #8957a4 0 1px, transparent 2px),radial-gradient(circle at 68% 85%, #bca17a 0 1px, transparent 2px);
+  animation:command-breathe 9s ease-in-out infinite alternate;
+}
+.command-horizon { position:absolute; bottom:0; left:0; right:0; height:1px; background:linear-gradient(90deg, transparent, #a58b64aa, #72429499, transparent); }
+.command-theatre .spatial-introduction { position:relative; z-index:2; }
+.command-theatre .spatial-introduction h1 { font-size:clamp(32px, 3.6vw, 56px); max-width:17ch; }
+.command-theatre .spatial-introduction h1 > span { color:var(--gold-light); }
+.command-theatre .spatial-introduction p { color:#c2b7cd; max-width:38ch; }
+.command-theatre .spatial-instrument { min-height:340px; background:transparent; border:0; box-shadow:none; }
+.command-theatre .instrument-stage { width:300px; height:290px; }
+.command-theatre .instrument-body { inset:35px; }
+.command-theatre .instrument-center {
+  inset:37px; overflow:hidden; isolation:isolate;
+  background:radial-gradient(circle at 28% 23%, #81519d, #3c1957 35%, #1c0b2d 67%, #090610 95%);
+  box-shadow:inset 3px 3px 15px #bca17a70, inset -12px -15px 25px #000a, 0 0 32px #7233a480, 0 0 75px #69279855;
+  border:1px solid #aa87bc60;
+}
+.command-theatre .instrument-center::before { content:''; position:absolute; inset:-15%; z-index:-1; border-radius:50%; background:conic-gradient(from 30deg, transparent 10%, #a58b6444 23%, transparent 34%, #8747b775 48%, transparent 64%, #a58b6444 80%, transparent); animation:orb-current-turn 15s linear infinite; }
+.orb-current { position:absolute; inset:8%; border:1px solid #bca17a65; border-radius:44% 56% 38% 62%; transform:rotate(-30deg); animation:orb-current-turn 23s linear infinite reverse; box-shadow:0 0 14px #a58b6440; }
+.orb-mark { position:relative; z-index:2; color:#bca17a; text-shadow:0 0 22px #a58b64aa; }
+.command-theatre .instrument-ring { border-width:2px; border-color:#a58b64a8; box-shadow:inset 1px 1px 2px #bca17a80, 0 0 16px #a58b6425; }
+.command-theatre .ring-two { border-color:#7d4a9fa0; }
+.command-theatre .instrument-stage::before { content:''; position:absolute; inset:4%; border-radius:50%; background:radial-gradient(circle, #7433a54d, #a58b6415 45%, transparent 69%); animation:command-breathe 7s ease-in-out infinite alternate; }
+.command-theatre .instrument-plinth { opacity:.45; }
+.command-theatre .instrument-caption { color:var(--gold-light); font-size:17px; }
+.command-theatre .instrument-caption > span { color:#b5a5c2; font-size:11px; }
+@keyframes command-drift { from { transform:translate3d(-5%,-3%,0) scale(.95); } to { transform:translate3d(7%,5%,0) scale(1.08); } }
+@keyframes command-orbit { from { transform:rotate(-28deg) translateX(-12px); } to { transform:rotate(-12deg) translateX(16px); } }
+@keyframes command-breathe { from { opacity:.4; transform:scale(.95); } to { opacity:.9; transform:scale(1.06); } }
+@keyframes orb-current-turn { to { transform:rotate(360deg); } }
+@media(max-width:900px) {
+ .command-theatre { grid-template-columns:minmax(0,1fr) minmax(230px,.7fr); padding:30px; gap:12px; }
+ .command-theatre .instrument-stage { width:260px; height:260px; }
+ .command-theatre .instrument-center { inset:29px; }
+}
+@media(max-width:640px) {
+ .command-theatre { grid-template-columns:1fr; padding:26px 22px; gap:10px; }
+ .command-theatre .spatial-introduction h1 { font-size:36px; }
+ .command-theatre .spatial-instrument { min-height:290px; display:grid; grid-template-columns:1fr; }
+ .command-theatre .instrument-stage { width:260px; height:245px; }
+ .command-light { width:120%; height:80%; top:35%; right:-10%; }
+ .command-stars { inset:35% 0 0; }
+ .command-orbit { top:55%; right:-320px; }
+}
+:root[data-ambient-motion='paused'] .command-theatre *,
+:root[data-ambient-motion='paused'] .command-theatre *::before,
+:root[data-ambient-page='hidden'] .command-theatre *,
+:root[data-ambient-page='hidden'] .command-theatre *::before,
+.command-theatre[data-material-visible='false'] *,
+.command-theatre[data-material-visible='false'] *::before { animation-play-state:paused !important; }
+@media(prefers-reduced-motion:reduce) { .command-theatre *, .command-theatre *::before { animation:none !important; } }
+@media(prefers-contrast:more), (prefers-reduced-transparency:reduce) { .command-theatre { background:#0d0913; } .command-scenery { opacity:.25; } }
+@media(forced-colors:active) { .command-scenery, .command-theatre .instrument-stage { display:none; } .command-theatre { background:Canvas; border-color:CanvasText; box-shadow:none; } .command-theatre :is(.spatial-introduction h1 > span,.spatial-introduction p,.instrument-caption,.instrument-caption > span) { color:CanvasText; } }

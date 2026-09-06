@@ -2,33 +2,33 @@
 :root,
 .dark {
   --background: #080809;
-  --foreground: #d19d3d;
+  --foreground: #a78c67;
   --sidebar: #0b0a0d;
-  --gold: #b98a32;
-  --gold-light: #c99a3e;
-  --gold-dim: #80571e;
-  --primary: #b98a32;
+  --gold: #a58b64;
+  --gold-light: #bca17a;
+  --gold-dim: #68523a;
+  --primary: #a58b64;
   --muted: #170f1f;
   --muted-foreground: #bfb5c9;
-  --border: #bb892c2d;
+  --border: #9379542d;
   --purple: #785594;
   --violet: #785594;
   --amethyst: #190c22;
   --purple-light: #c2a8d5;
-  --glass-edge: #bb892c3d;
-  --gold-metal: linear-gradient(118deg, #ac7e2e 0%, #bb8c34 26%, #c99a3e 46%, #b3832c 69%, #ac7e2e 100%);
+  --glass-edge: #9379543d;
+  --gold-metal: linear-gradient(118deg, #a58b64, #bca17a 46%, #a58b64 75%, #9c825e);
   --glass: linear-gradient(135deg, #201329f5, #100b17fa);
   --glass-signature: radial-gradient(ellipse at 12% 0%, #51266824, transparent 65%), linear-gradient(130deg, #291435, #150c20);
   --brand-purple-quiet: var(--glass);
   --brand-purple-panel: var(--glass-signature);
   --brand-gold-panel: linear-gradient(130deg, #2b1537, #1c1027 60%, #110b19);
-  --brand-bevel: inset 0 1px #d19d3d27, inset 0 -1px #0008, 0 18px 40px #0005;
+  --brand-bevel: inset 0 1px #a78c6727, inset 0 -1px #0008, 0 18px 40px #0005;
   --obsidian: #080809;
   --font-display: ui-serif, Georgia, 'Times New Roman', serif;
 }
 body {
   background: #080809;
-  color: #d19d3d;
+  color: #a78c67;
   isolation: isolate;
 }
 body::before {
@@ -37,14 +37,14 @@ body::before {
     linear-gradient(155deg, #0a0909, #070706);
 }
 ::selection {
-  background: #bb892c;
+  background: #937954;
   color: #0d0d0c;
 }
 .living-atmosphere {
   z-index: -1;
 }
 .ambient-gold {
-  background: radial-gradient(ellipse, #bb892c25, transparent 65%);
+  background: radial-gradient(ellipse, #93795425, transparent 65%);
   width: 70vw !important;
   height: 60vh !important;
   left: 30vw;
@@ -69,8 +69,8 @@ body::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #c4902e40,
-    #bb892c30,
+    #9a7e5840,
+    #93795430,
     transparent
   );
 }
@@ -89,7 +89,7 @@ body::before {
 }
 .club-sidebar [data-slot='sidebar-inner'] {
   background: linear-gradient(110deg, #151513ed, #0a0a09f5);
-  border-right: 1px solid #bb892c27;
+  border-right: 1px solid #93795427;
   box-shadow: 15px 0 50px #0003;
 }
 .collective-nav a {
@@ -102,29 +102,29 @@ body::before {
     color 0.2s;
 }
 .collective-nav a[aria-current='page'] {
-  color: #d19d3d;
-  background: linear-gradient(110deg, #b3832a20, #b3832a06);
-  border-color: #bb892c40;
+  color: #a78c67;
+  background: linear-gradient(110deg, #8c735120, #8c735106);
+  border-color: #93795440;
   box-shadow:
-    inset 2px 0 #bb892c,
-    inset 0 1px #bb892c20;
+    inset 2px 0 #937954,
+    inset 0 1px #93795420;
 }
 .collective-nav a:hover {
-  color: #d19d3d;
-  background: #bb892c10;
+  color: #a78c67;
+  background: #93795410;
 }
 .brand-sub,
 .nav-label {
   letter-spacing: 0.17em;
 }
 .monogram {
-  color: #d19d3d;
+  color: #a78c67;
   background: none;
   -webkit-text-fill-color: currentColor;
 }
 .topbar {
   min-height: 72px;
-  border-bottom: 1px solid #bb892c18;
+  border-bottom: 1px solid #93795418;
 }
 .top-title {
   font-size: 12px;
@@ -132,13 +132,13 @@ body::before {
   color: #cbc6cf;
 }
 .preview-badge {
-  background: #bb892c09;
-  border-color: #bb892c2d;
+  background: #93795409;
+  border-color: #9379542d;
   color: #c3bdc8;
 }
 .gent-memory-bar {
   background: #0d0d0c;
-  border-color: #bb892c22;
+  border-color: #93795422;
   font-size: 12px;
   padding: 9px 22px;
   min-height: 42px;
@@ -170,7 +170,7 @@ main {
 }
 .spatial-kicker {
   font-size: 12px;
-  color: #cf9731;
+  color: #a2865e;
   letter-spacing: 0.16em;
   line-height: 1.6;
 }
@@ -190,7 +190,7 @@ main {
   font-family: var(--font-display);
   font-weight: 400;
   font-style: italic;
-  color: #d19d3d;
+  color: #a78c67;
 }
 .spatial-introduction p {
   color: #b5aebb;
@@ -221,7 +221,7 @@ main {
   display: grid;
   place-items: center;
   cursor: pointer;
-  background: radial-gradient(ellipse at 50% 48%, #bb892c36, transparent 65%);
+  background: radial-gradient(ellipse at 50% 48%, #93795436, transparent 65%);
 }
 .instrument-stage {
   display: block;
@@ -242,20 +242,20 @@ main {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  border: 3px solid #c4902e;
+  border: 3px solid #9a7e58;
   background: transparent;
   box-shadow:
-    inset 1px 1px 2px #d19d3dbd,
+    inset 1px 1px 2px #a78c67bd,
     inset -2px -2px 4px #0e0d0ccf,
     1px 2px 2px #3c3421,
-    0 0 18px #ca942f16;
+    0 0 18px #9e825b16;
 }
 .ring-one {
   transform: rotateY(65deg);
 }
 .ring-two {
   transform: rotateX(65deg) rotateZ(-25deg);
-  border-color: #d19d3d;
+  border-color: #a78c67;
 }
 .ring-three {
   transform: rotateY(-40deg) rotateX(-35deg);
@@ -268,16 +268,16 @@ main {
   border-radius: 50%;
   background: radial-gradient(
     circle at 30% 20%,
-    #9f7525,
+    #7c6648,
     #1f1e1c 47%,
     #0a0a09 85%
   );
-  color: #d19d3d;
+  color: #a78c67;
   font-family: var(--font-display);
   font-style: normal;
   font-size: 52px;
   box-shadow:
-    inset 2px 2px 5px #d19d3d75,
+    inset 2px 2px 5px #a78c6775,
     10px 10px 22px #000b,
     0 0 30px #60407b35;
   transform: translateZ(18px);
@@ -290,10 +290,10 @@ main {
   height: 45px;
   border-radius: 50%;
   background: linear-gradient(#242321, #0a0a09);
-  border: 1px solid #c38f2e50;
+  border: 1px solid #997e5850;
   box-shadow:
     0 7px 0 #080707,
-    0 8px 1px #b2822a30,
+    0 8px 1px #8c735030,
     0 20px 30px #000a;
 }
 .instrument-shadow {
@@ -311,7 +311,7 @@ main {
   display: block;
   font-size: 15px;
   letter-spacing: 0.32em;
-  color: #d19d3d;
+  color: #a78c67;
   margin-top: 0;
 }
 .instrument-caption > span {
@@ -323,9 +323,9 @@ main {
 }
 .spatial-instrument:hover .instrument-center {
   box-shadow:
-    inset 2px 2px 5px #d19d3d99,
+    inset 2px 2px 5px #a78c6799,
     10px 10px 22px #000b,
-    0 0 35px #bb892c40;
+    0 0 35px #93795440;
 }
 @keyframes instrument-breathe {
   from {
@@ -340,8 +340,8 @@ main {
   grid-template-columns: 180px minmax(0, 1fr);
   gap: 25px;
   padding: 22px 0;
-  border-top: 1px solid #bb892c2e;
-  border-bottom: 1px solid #bb892c2e;
+  border-top: 1px solid #9379542e;
+  border-bottom: 1px solid #9379542e;
 }
 .spatial-next h2 {
   font-size: 23px;
@@ -364,12 +364,12 @@ main {
   transition: background 0.2s;
 }
 .spatial-priority-list > a:hover {
-  background: #bb892c10;
+  background: #93795410;
 }
 .spatial-index {
   font-size: 12px;
   font-variant-numeric: tabular-nums;
-  color: #ca942f;
+  color: #9e825b;
 }
 .spatial-priority-list strong {
   font-weight: 400;
@@ -384,7 +384,7 @@ main {
 .spatial-priority-list svg {
   margin-left: auto;
   flex-shrink: 0;
-  color: #bb892c;
+  color: #937954;
 }
 .spatial-worlds {
   display: grid;
@@ -402,10 +402,10 @@ main {
   padding: 22px;
   overflow: hidden;
   isolation: isolate;
-  border: 1px solid #bb892c65;
+  border: 1px solid #93795465;
   background: var(--glass-signature);
   box-shadow:
-    inset 0 1px #d19d3d2e,
+    inset 0 1px #a78c672e,
     inset 0 -2px #0009,
     0 15px 30px #0006;
   transform: perspective(1100px) rotateX(var(--tilt-x, 0deg))
@@ -422,18 +422,18 @@ main {
   left: -40%;
   top: -80%;
   transform: translateX(var(--reflection-x, 0%)) rotate(-22deg);
-  background: linear-gradient(transparent, #d19d3d1c, transparent);
+  background: linear-gradient(transparent, #a78c671c, transparent);
   pointer-events: none;
   z-index: -1;
 }
 .spatial-card:hover {
-  border-color: #bb892c7d;
+  border-color: #9379547d;
 }
 .spatial-card-head {
   display: flex;
   align-items: center;
   gap: 9px;
-  color: #d19d3d;
+  color: #a78c67;
   font-size: 12px;
   letter-spacing: 0.13em;
   z-index: 2;
@@ -457,7 +457,7 @@ main {
   font-weight: 400;
   line-height: 1.22;
   font-size: 25px;
-  color: #d19d3d;
+  color: #a78c67;
   overflow-wrap: anywhere;
 }
 .spatial-card-body > span {
@@ -470,10 +470,10 @@ main {
   justify-content: space-between;
   align-items: center;
   padding-top: 17px;
-  border-top: 1px solid #bb892c28;
+  border-top: 1px solid #93795428;
   margin-top: 20px;
   font-size: 12px;
-  color: #d19d3d;
+  color: #a78c67;
   gap: 8px;
 }
 .world-contours {
@@ -513,7 +513,7 @@ main {
   content: '';
   position: absolute;
   inset: 20px 24px;
-  border-top: 1px solid #c8922f3f;
+  border-top: 1px solid #9d815a3f;
   transform: rotate(28deg);
 }
 .world-nodes i {
@@ -522,7 +522,7 @@ main {
   height: 39px;
   border-radius: 50%;
   background: radial-gradient(circle at 30% 20%, #8c789c, #292825 50%, #0b0b0a);
-  border: 1px solid #ce973060;
+  border: 1px solid #a1855d60;
   box-shadow: 8px 8px 15px #0008;
 }
 .world-nodes i:nth-child(2) {
@@ -547,13 +547,13 @@ main {
   width: 42px;
   height: 67px;
   border-radius: 6px;
-  background: linear-gradient(110deg, #d19d3d73, #76856133 20%, #21201e 70%);
-  border: 1px solid #d19d3d65;
+  background: linear-gradient(110deg, #a78c6773, #76856133 20%, #21201e 70%);
+  border: 1px solid #a78c6765;
   transform: perspective(400px) rotateY(-25deg) rotateZ(12deg);
   box-shadow:
     7px 5px 0 #090808,
     12px 14px 20px #0008,
-    inset 1px 1px #c99a3e55;
+    inset 1px 1px #a5896255;
 }
 /* Workspace surfaces form a stable reading plane; gold identifies edges and actions. */
 .vd-glass,
@@ -573,7 +573,7 @@ main {
 .cs-director,
 .cs-canvas-panel {
   background: var(--glass);
-  border-color: #bb892c50;
+  border-color: #93795450;
   box-shadow: var(--brand-bevel);
 }
 .vd-command,
@@ -583,35 +583,35 @@ main {
 .intelligence-stage,
 .cs-empty {
   background: var(--glass-signature);
-  border-color: #bb892c4d;
+  border-color: #9379544d;
 }
 .vd-earnings,
 .membership,
 .status-hero,
 .ps-product {
   background: var(--brand-gold-panel);
-  border-color: #bb892c60;
+  border-color: #93795460;
   box-shadow: var(--brand-bevel);
 }
 .vd-earnings-main,
 .vd-earnings .vd-balances {
   background: #0e0e0ddd;
-  border-color: #bb892c29;
+  border-color: #93795429;
 }
 .vd-metric {
   background: #10100f;
-  border-color: #bb892c26;
+  border-color: #93795426;
 }
 .visual-dashboard,
 .product-studio,
 .creative-studio {
-  --vd-gold: #bb892c;
+  --vd-gold: #937954;
   --vd-muted: #b5aebb;
-  --vd-edge: #bb892c35;
-  --ps-gold: #bb892c;
+  --vd-edge: #93795435;
+  --ps-gold: #937954;
   --ps-muted: #b5aebb;
   --ps-amethyst: #1e1d1b;
-  --cs-gold: #bb892c;
+  --cs-gold: #937954;
   --cs-dim: #b5aebb;
 }
 .vd-metric-label,
@@ -624,7 +624,7 @@ main {
   font-family: var(--font-display);
   font-weight: 400;
   letter-spacing: -0.035em;
-  color: #d19d3d;
+  color: #a78c67;
 }
 .gent-record h2 {
   font-weight: 400;
@@ -640,8 +640,8 @@ main {
 .gent-editor select,
 .gent-dialog textarea {
   background: #0a0a09;
-  border-color: #bb892c3a;
-  color: #d19d3d;
+  border-color: #9379543a;
+  color: #a78c67;
   border-radius: 9px;
 }
 .gold-button,
@@ -649,9 +649,9 @@ main {
 .cs-generate {
   background: var(--gold-metal);
   color: #121210;
-  border-color: #d19d3d;
+  border-color: #a78c67;
   box-shadow:
-    inset 0 1px #c99a3e77,
+    inset 0 1px #a5896277,
     0 5px 12px #0006;
   min-height: 44px;
 }
@@ -667,19 +667,19 @@ main {
 }
 .gent-invoke {
   background: linear-gradient(140deg, #2a2926eb, #0d0c0bef);
-  border: 1px solid #bb892c66;
-  color: #d19d3d;
+  border: 1px solid #93795466;
+  color: #a78c67;
   box-shadow:
-    inset 0 1px #d19d3d42,
+    inset 0 1px #a78c6742,
     0 12px 30px #0009;
   backdrop-filter: blur(16px);
 }
 .gent-dialog {
   background: linear-gradient(140deg, #1c1b19ec, #0a0a09f7);
-  border: 1px solid #bb892c70;
+  border: 1px solid #93795470;
   box-shadow:
     0 35px 110px #000b,
-    inset 0 1px #d19d3d50;
+    inset 0 1px #a78c6750;
 }
 .gent-dialog::backdrop {
   background: #040404b8;
@@ -687,11 +687,11 @@ main {
 }
 .ambient-toggle {
   background: #141312ed;
-  color: #d19d3d;
-  border-color: #bb892c48;
+  color: #a78c67;
+  border-color: #93795448;
 }
 .membership .card-wordmark {
-  color: #d19d3d;
+  color: #a78c67;
   background: none;
   -webkit-text-fill-color: currentColor;
   text-shadow: 0 2px 10px #0007;
@@ -702,19 +702,19 @@ main {
   transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 :where(a, button, input, textarea, select, summary):focus-visible {
-  outline: 2px solid #d19d3d;
+  outline: 2px solid #a78c67;
   outline-offset: 4px;
 }
 /* Permanent brand roles: obsidian environment, amethyst content, gold action. */
 .gent-invoke, .gent-dialog, .life-pulse, .life-preparation, .desk-focus,
 .vd-metric, .ps-daily, .cs-director, .cs-canvas-panel {
   background: var(--glass-signature);
-  border-color: #bb892c50;
+  border-color: #93795450;
 }
 .spatial-card-head, .spatial-card-foot, .gent-space h1,
 .ps-section-heading h2, .cs-section-title { color: var(--gold-light); }
 .spatial-card {
-  box-shadow: inset 0 1px #d19d3d45, inset 1px 0 #bb892c18,
+  box-shadow: inset 0 1px #a78c6745, inset 1px 0 #93795418,
     inset 0 -2px #0009, 0 20px 40px #0008, 0 3px 0 #0b0711;
 }
 .gent-editor input, .gent-editor textarea, .gent-editor select,
@@ -865,7 +865,7 @@ main {
     display: none;
   }
   .spatial-card {
-    border-color: #bb892c;
+    border-color: #937954;
   }
 }
 @media (forced-colors: active) {
@@ -897,27 +897,27 @@ main {
 .core-aura {
   background: radial-gradient(
     circle,
-    #bb892c44,
+    #93795444,
     #2715372b 45%,
     transparent 70%
   );
 }
 .core-fluid {
   background:
-    radial-gradient(ellipse at 30% 20%, #d19d3d6b, transparent 52%),
-    radial-gradient(ellipse at 70% 70%, #bb892c70, transparent 63%), #121110;
+    radial-gradient(ellipse at 30% 20%, #a78c676b, transparent 52%),
+    radial-gradient(ellipse at 70% 70%, #93795470, transparent 63%), #121110;
 }
 .core-filaments path:nth-child(2) {
   stroke: #927aa5b3;
 }
 .mobile-dock {
   background: linear-gradient(120deg, #292825eb, #0f0e0dee);
-  border-color: #bb892c55;
+  border-color: #93795455;
 }
 .mobile-dock a[aria-current] {
-  background: #bb892c1a;
-  color: #d19d3d;
-  border-color: #bb892c60;
+  background: #9379541a;
+  color: #a78c67;
+  border-color: #93795460;
 }
 .spatial-instrument[data-material-visible='false'] .instrument-body {
   animation-play-state: paused !important;

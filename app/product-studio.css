@@ -1,7 +1,7 @@
 /* Product Studio extends the Collective's obsidian, amethyst and gold tokens. */
 .product-studio {
   --ps-amethyst: #1a1918;
-  --ps-gold: #d19c3a;
+  --ps-gold: #a68b65;
   --ps-muted: #b8b2bd;
   font-size: 16px;
 }
@@ -80,7 +80,7 @@
 .ps-daily strong {
   display: block;
   font-family: Georgia, serif;
-  color: #d19d3d;
+  color: #a78c67;
   font-size: 22px;
   line-height: 1.35;
   font-weight: 400;
@@ -109,9 +109,9 @@
   font-size: 14px;
 }
 .ps-destinations button[aria-pressed='true'] {
-  color: #d19d3d;
+  color: #a78c67;
   background: linear-gradient(120deg, #28222d, #1e1d1b);
-  box-shadow: inset 0 1px 0 #d19d3d35;
+  box-shadow: inset 0 1px 0 #a78c6735;
 }
 .ps-context {
   display: flex;
@@ -133,7 +133,7 @@
   display: inline-block;
   width: 6px;
   height: 6px;
-  background: #ce9730;
+  background: #a1855d;
   border-radius: 50%;
   margin-right: 6px;
 }
@@ -178,8 +178,8 @@
 .ps-chips button[aria-pressed='true'],
 .ps-chips button:hover {
   background: #231a2a;
-  color: #d19d3d;
-  border-color: #ae7f29;
+  color: #a78c67;
+  border-color: #89704e;
 }
 .ps-vault {
   display: grid;
@@ -206,12 +206,12 @@
 }
 .ps-product:hover {
   transform: translateY(-3px);
-  border-color: #bb892c;
+  border-color: #937954;
 }
 .ps-product-top {
   display: flex;
   justify-content: space-between;
-  color: #d19c3a;
+  color: #a68b65;
   font-size: 12px;
   letter-spacing: 2px;
 }
@@ -226,7 +226,7 @@
 .ps-product-mark span {
   font-family: Georgia, serif;
   font-size: 70px;
-  color: #d19d3d;
+  color: #a78c67;
   letter-spacing: -6px;
   text-shadow:
     0 5px 0 #0003,
@@ -246,7 +246,7 @@
   margin-bottom: 20px;
 }
 .ps-product-action {
-  color: #d19c3a;
+  color: #a68b65;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -269,13 +269,13 @@
   width: 76px;
   height: 76px;
   margin-bottom: 28px;
-  border: 1px solid #bf8c2d80;
+  border: 1px solid #967b5680;
   border-radius: 50%;
   box-shadow:
     0 0 0 9px #957ea710,
     0 0 45px #37244633,
     inset 0 0 30px #755d8811;
-  color: #d19d3d;
+  color: #a78c67;
 }
 .ps-atlas h3 {
   font-family: Georgia, serif;
@@ -292,7 +292,7 @@
   font-size: 14px;
 }
 .ps-atlas-context small {
-  color: #d19d3d;
+  color: #a78c67;
   font-size: 12px;
 }
 .ps-prompts {
@@ -318,7 +318,7 @@
   gap: 8px;
   align-items: center;
   font-size: 12px;
-  color: #cf9933;
+  color: #a3875f;
   margin-top: 24px;
 }
 .ps-atlas-toggle {
@@ -338,12 +338,12 @@
   gap: 14px;
   padding: 22px;
   margin: 20px 0;
-  border: 1px solid #aa7d2844;
+  border: 1px solid #856e4d44;
   border-radius: 12px;
-  background: #a0822310;
+  background: #7c664710;
 }
 .ps-pending svg {
-  color: #d19d3d;
+  color: #a78c67;
 }
 .ps-pending p {
   margin-bottom: 0;
@@ -358,7 +358,7 @@
 .ps-ingredient summary {
   cursor: pointer;
   min-height: 44px;
-  color: #d19d3d;
+  color: #a78c67;
   font-size: 14px;
 }
 .ps-evidence p {
@@ -380,7 +380,7 @@
 .ps-stamp {
   font-size: 12px;
   line-height: 1.8;
-  color: #d09a36;
+  color: #a48962;
   text-align: right;
 }
 .ps-room-layout {
@@ -402,11 +402,11 @@
 }
 .ps-room-nav button span {
   font-size: 12px;
-  color: #b8862b;
+  color: #907753;
 }
 .ps-room-nav button[aria-pressed='true'] {
   background: #292825;
-  color: #d19d3d;
+  color: #a78c67;
   border-radius: 5px;
 }
 .ps-room-body {
@@ -433,13 +433,13 @@
   padding: 10px 0;
 }
 .ps-transcript strong {
-  color: #d19c3a;
+  color: #a68b65;
   display: block;
 }
 .product-studio blockquote {
   margin: 24px 0;
   padding: 0 0 0 18px;
-  border-left: 2px solid #d19c3a;
+  border-left: 2px solid #a68b65;
   font-family: Georgia, serif;
   font-size: 24px;
   line-height: 1.5;
@@ -466,7 +466,7 @@
   border-bottom: 1px solid #3d314766;
 }
 .product-studio th {
-  color: #d19c3a;
+  color: #a68b65;
   font-weight: 400;
 }
 .product-studio caption {
@@ -494,7 +494,7 @@
 .ps-question input {
   width: 18px;
   height: 18px;
-  accent-color: #d19c3a;
+  accent-color: #a68b65;
   flex-shrink: 0;
 }
 .ps-progression {
@@ -508,7 +508,7 @@
   padding: 20px 0;
 }
 .ps-progression li > span {
-  color: #d19c3a;
+  color: #a68b65;
   font-family: Georgia, serif;
   font-size: 28px;
 }
@@ -551,10 +551,10 @@
   margin-top: 12px;
 }
 .ps-gold {
-  border-left-color: #d19c3a;
+  border-left-color: #a68b65;
 }
 .ps-gold > span {
-  color: #d19c3a;
+  color: #a68b65;
 }
 .ps-red {
   border-left-color: #db9690;
@@ -597,7 +597,7 @@
     gap: 12px;
     width: 100%;
     padding: 18px 24px;
-    color: #d19d3d;
+    color: #a78c67;
   }
   .ps-atlas-toggle span {
     margin-left: auto;
