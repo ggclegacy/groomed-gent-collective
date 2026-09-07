@@ -1,50 +1,24 @@
 /* The Living Instrument — one material hierarchy, above legacy workspace themes. */
-:root,
-.dark {
-  --background: #080809;
-  --foreground: #b99258;
-  --sidebar: #0b0a0d;
-  --gold: #a37a40;
-  --gold-light: #c8a166;
-  --gold-dim: #684e30;
-  --primary: #a37a40;
-  --muted: #170f1f;
-  --muted-foreground: #bfb5c9;
-  --border: #a37a402d;
-  --purple: #785594;
-  --violet: #785594;
-  --amethyst: #190c22;
-  --purple-light: #c2a8d5;
-  --glass-edge: #a37a403d;
-  --gold-metal: linear-gradient(118deg, #a37a40, #c8a166 46%, #a37a40 75%, #9c7850);
-  --glass: linear-gradient(135deg, #201329f5, #100b17fa);
-  --glass-signature: radial-gradient(ellipse at 12% 0%, #51266824, transparent 65%), linear-gradient(130deg, #291435, #150c20);
-  --brand-purple-quiet: var(--glass);
-  --brand-purple-panel: var(--glass-signature);
-  --brand-gold-panel: linear-gradient(130deg, #2b1537, #1c1027 60%, #110b19);
-  --brand-bevel: inset 0 1px #b9925827, inset 0 -1px #0008, 0 18px 40px #0005;
-  --obsidian: #080809;
-  --font-display: ui-serif, Arial, 'Times New Roman', serif;
-}
+
 body {
-  background: #080809;
-  color: #b99258;
+  background: var(--brand-obsidian);
+  color: var(--brand-gold);
   isolation: isolate;
 }
 body::before {
   background:
-    radial-gradient(ellipse at 78% 2%, #75449216, transparent 55%),
-    linear-gradient(155deg, #0a0909, #070706);
+    radial-gradient(ellipse at 78% 2%, color-mix(in srgb, var(--brand-green) 8.63%, transparent), transparent 55%),
+    linear-gradient(155deg, var(--brand-obsidian), var(--brand-obsidian));
 }
 ::selection {
-  background: #a37a40;
-  color: #0d0d0c;
+  background: var(--brand-gold);
+  color: var(--brand-surface-inset);
 }
 .living-atmosphere {
   z-index: -1;
 }
 .ambient-gold {
-  background: radial-gradient(ellipse, #a37a4025, transparent 65%);
+  background: radial-gradient(ellipse, color-mix(in srgb, var(--brand-gold) 14.51%, transparent), transparent 65%);
   width: 70vw !important;
   height: 60vh !important;
   left: 30vw;
@@ -54,8 +28,8 @@ body::before {
 .ambient-platinum {
   background: radial-gradient(
     ellipse,
-    #351d4938,
-    #26252225 40%,
+    color-mix(in srgb, var(--brand-green) 21.96%, transparent),
+    color-mix(in srgb, var(--brand-surface-raised) 14.51%, transparent) 40%,
     transparent 68%
   );
   top: 15vh;
@@ -69,8 +43,8 @@ body::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #9a774f40,
-    #a37a4030,
+    color-mix(in srgb, var(--brand-gold) 25.1%, transparent),
+    color-mix(in srgb, var(--brand-gold) 18.82%, transparent),
     transparent
   );
 }
@@ -82,63 +56,63 @@ body::before {
   background: repeating-linear-gradient(
     115deg,
     transparent 0 130px,
-    #c1b4cb15 131px,
+    color-mix(in srgb, var(--brand-green) 8.24%, transparent) 131px,
     transparent 132px 260px
   );
-  mask-image: linear-gradient(transparent, #000, transparent);
+  mask-image: linear-gradient(transparent, var(--brand-black), transparent);
 }
 .club-sidebar [data-slot='sidebar-inner'] {
-  background: linear-gradient(110deg, #151513ed, #0a0a09f5);
-  border-right: 1px solid #a37a4027;
-  box-shadow: 15px 0 50px #0003;
+  background: linear-gradient(110deg, color-mix(in srgb, var(--brand-surface) 92.94%, transparent), color-mix(in srgb, var(--brand-obsidian) 96.08%, transparent));
+  border-right: 1px solid color-mix(in srgb, var(--brand-gold) 15.29%, transparent);
+  box-shadow: 15px 0 50px color-mix(in srgb, var(--brand-black) 20%, transparent);
 }
 .collective-nav a {
   min-height: 46px;
   margin: 4px 10px;
   border-radius: 10px;
-  color: #bdb7c2;
+  color: var(--brand-text-muted);
   transition:
     background 0.2s,
     color 0.2s;
 }
 .collective-nav a[aria-current='page'] {
-  color: #b99258;
-  background: linear-gradient(110deg, #8c694020, #8c694006);
-  border-color: #a37a4040;
+  color: var(--brand-gold);
+  background: linear-gradient(110deg, color-mix(in srgb, var(--brand-gold) 12.55%, transparent), color-mix(in srgb, var(--brand-gold) 2.35%, transparent));
+  border-color: color-mix(in srgb, var(--brand-gold) 25.1%, transparent);
   box-shadow:
-    inset 2px 0 #a37a40,
-    inset 0 1px #a37a4020;
+    inset 2px 0 var(--brand-gold),
+    inset 0 1px color-mix(in srgb, var(--brand-gold) 12.55%, transparent);
 }
 .collective-nav a:hover {
-  color: #b99258;
-  background: #a37a4010;
+  color: var(--brand-gold);
+  background: color-mix(in srgb, var(--brand-gold) 6.27%, transparent);
 }
 .brand-sub,
 .nav-label {
   letter-spacing: 0.17em;
 }
 .monogram {
-  color: #b99258;
+  color: var(--brand-gold);
   background: none;
   -webkit-text-fill-color: currentColor;
 }
 .topbar {
   min-height: 72px;
-  border-bottom: 1px solid #a37a4018;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-gold) 9.41%, transparent);
 }
 .top-title {
   font-size: 12px;
   letter-spacing: 0.14em;
-  color: #cbc6cf;
+  color: var(--brand-text-muted);
 }
 .preview-badge {
-  background: #a37a4009;
-  border-color: #a37a402d;
-  color: #c3bdc8;
+  background: color-mix(in srgb, var(--brand-gold) 3.53%, transparent);
+  border-color: color-mix(in srgb, var(--brand-gold) 17.65%, transparent);
+  color: var(--brand-text-muted);
 }
 .gent-memory-bar {
-  background: #0d0d0c;
-  border-color: #a37a4022;
+  background: var(--brand-surface-inset);
+  border-color: color-mix(in srgb, var(--brand-gold) 13.33%, transparent);
   font-size: 12px;
   padding: 9px 22px;
   min-height: 42px;
@@ -170,7 +144,7 @@ main {
 }
 .spatial-kicker {
   font-size: 12px;
-  color: #a27d53;
+  color: var(--brand-gold);
   letter-spacing: 0.16em;
   line-height: 1.6;
 }
@@ -190,10 +164,10 @@ main {
   font-family: var(--font-display);
   font-weight: 400;
   font-style: italic;
-  color: #b99258;
+  color: var(--brand-gold);
 }
 .spatial-introduction p {
-  color: #b5aebb;
+  color: var(--brand-text-muted);
   font-size: 16px;
   line-height: 1.7;
   max-width: 47ch;
@@ -209,7 +183,7 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  color: #dedbcf;
+  color: var(--brand-text);
   font-size: 14px;
   min-height: 44px;
 }
@@ -221,7 +195,7 @@ main {
   display: grid;
   place-items: center;
   cursor: pointer;
-  background: radial-gradient(ellipse at 50% 48%, #a37a4036, transparent 65%);
+  background: radial-gradient(ellipse at 50% 48%, color-mix(in srgb, var(--brand-gold) 21.18%, transparent), transparent 65%);
 }
 .instrument-stage {
   display: block;
@@ -242,20 +216,20 @@ main {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  border: 3px solid #9a774f;
+  border: 3px solid var(--brand-gold);
   background: transparent;
   box-shadow:
-    inset 1px 1px 2px #b99258bd,
-    inset -2px -2px 4px #0e0d0ccf,
-    1px 2px 2px #3c2d1c,
-    0 0 18px #9e7a5116;
+    inset 1px 1px 2px color-mix(in srgb, var(--brand-gold) 74.12%, transparent),
+    inset -2px -2px 4px color-mix(in srgb, var(--brand-surface-inset) 81.18%, transparent),
+    1px 2px 2px var(--brand-surface-raised),
+    0 0 18px color-mix(in srgb, var(--brand-gold) 8.63%, transparent);
 }
 .ring-one {
   transform: rotateY(65deg);
 }
 .ring-two {
   transform: rotateX(65deg) rotateZ(-25deg);
-  border-color: #b99258;
+  border-color: var(--brand-gold);
 }
 .ring-three {
   transform: rotateY(-40deg) rotateX(-35deg);
@@ -268,18 +242,18 @@ main {
   border-radius: 50%;
   background: radial-gradient(
     circle at 30% 20%,
-    #7c5d39,
-    #1f1e1c 47%,
-    #0a0a09 85%
+    var(--brand-gold),
+    var(--brand-surface-raised) 47%,
+    var(--brand-obsidian) 85%
   );
-  color: #b99258;
+  color: var(--brand-gold);
   font-family: var(--font-display);
   font-style: normal;
   font-size: 52px;
   box-shadow:
-    inset 2px 2px 5px #b9925875,
-    10px 10px 22px #000b,
-    0 0 30px #60407b35;
+    inset 2px 2px 5px color-mix(in srgb, var(--brand-gold) 45.88%, transparent),
+    10px 10px 22px color-mix(in srgb, var(--brand-black) 73.33%, transparent),
+    0 0 30px color-mix(in srgb, var(--brand-green) 20.78%, transparent);
   transform: translateZ(18px);
 }
 .instrument-plinth {
@@ -289,12 +263,12 @@ main {
   width: 190px;
   height: 45px;
   border-radius: 50%;
-  background: linear-gradient(#242321, #0a0a09);
-  border: 1px solid #99724650;
+  background: linear-gradient(var(--brand-surface-raised), var(--brand-obsidian));
+  border: 1px solid color-mix(in srgb, var(--brand-gold) 31.37%, transparent);
   box-shadow:
-    0 7px 0 #080707,
-    0 8px 1px #8c694030,
-    0 20px 30px #000a;
+    0 7px 0 var(--brand-obsidian),
+    0 8px 1px color-mix(in srgb, var(--brand-gold) 18.82%, transparent),
+    0 20px 30px color-mix(in srgb, var(--brand-black) 66.67%, transparent);
 }
 .instrument-shadow {
   position: absolute;
@@ -303,7 +277,7 @@ main {
   width: 135px;
   height: 28px;
   border-radius: 50%;
-  background: #0008;
+  background: color-mix(in srgb, var(--brand-black) 53.33%, transparent);
   filter: blur(8px);
   z-index: 2;
 }
@@ -311,7 +285,7 @@ main {
   display: block;
   font-size: 15px;
   letter-spacing: 0.32em;
-  color: #b99258;
+  color: var(--brand-gold);
   margin-top: 0;
 }
 .instrument-caption > span {
@@ -319,13 +293,13 @@ main {
   margin-top: 8px;
   font-size: 12px;
   letter-spacing: 0.18em;
-  color: #afa8b5;
+  color: var(--brand-text-muted);
 }
 .spatial-instrument:hover .instrument-center {
   box-shadow:
-    inset 2px 2px 5px #b9925899,
-    10px 10px 22px #000b,
-    0 0 35px #a37a4040;
+    inset 2px 2px 5px color-mix(in srgb, var(--brand-gold) 60%, transparent),
+    10px 10px 22px color-mix(in srgb, var(--brand-black) 73.33%, transparent),
+    0 0 35px color-mix(in srgb, var(--brand-gold) 25.1%, transparent);
 }
 @keyframes instrument-breathe {
   from {
@@ -340,8 +314,8 @@ main {
   grid-template-columns: 180px minmax(0, 1fr);
   gap: 25px;
   padding: 22px 0;
-  border-top: 1px solid #a37a402e;
-  border-bottom: 1px solid #a37a402e;
+  border-top: 1px solid color-mix(in srgb, var(--brand-gold) 18.04%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-gold) 18.04%, transparent);
 }
 .spatial-next h2 {
   font-size: 23px;
@@ -359,17 +333,17 @@ main {
   gap: 18px;
   padding: 12px 16px;
   border-radius: 10px;
-  background: #b3a2c106;
+  background: color-mix(in srgb, var(--brand-green) 2.35%, transparent);
   min-height: 68px;
   transition: background 0.2s;
 }
 .spatial-priority-list > a:hover {
-  background: #a37a4010;
+  background: color-mix(in srgb, var(--brand-gold) 6.27%, transparent);
 }
 .spatial-index {
   font-size: 12px;
   font-variant-numeric: tabular-nums;
-  color: #9e7a51;
+  color: var(--brand-gold);
 }
 .spatial-priority-list strong {
   font-weight: 400;
@@ -377,14 +351,14 @@ main {
 }
 .spatial-priority-list small {
   display: block;
-  color: #b0a9b6;
+  color: var(--brand-text-muted);
   font-size: 12px;
   margin-top: 5px;
 }
 .spatial-priority-list svg {
   margin-left: auto;
   flex-shrink: 0;
-  color: #a37a40;
+  color: var(--brand-gold);
 }
 .spatial-worlds {
   display: grid;
@@ -402,12 +376,12 @@ main {
   padding: 22px;
   overflow: hidden;
   isolation: isolate;
-  border: 1px solid #a37a4065;
+  border: 1px solid color-mix(in srgb, var(--brand-gold) 39.61%, transparent);
   background: var(--glass-signature);
   box-shadow:
-    inset 0 1px #b992582e,
-    inset 0 -2px #0009,
-    0 15px 30px #0006;
+    inset 0 1px color-mix(in srgb, var(--brand-gold) 18.04%, transparent),
+    inset 0 -2px color-mix(in srgb, var(--brand-black) 60%, transparent),
+    0 15px 30px color-mix(in srgb, var(--brand-black) 40%, transparent);
   transform: perspective(1100px) rotateX(var(--tilt-x, 0deg))
     rotateY(var(--tilt-y, 0deg));
   transition:
@@ -422,18 +396,18 @@ main {
   left: -40%;
   top: -80%;
   transform: translateX(var(--reflection-x, 0%)) rotate(-22deg);
-  background: linear-gradient(transparent, #b992581c, transparent);
+  background: linear-gradient(transparent, color-mix(in srgb, var(--brand-gold) 10.98%, transparent), transparent);
   pointer-events: none;
   z-index: -1;
 }
 .spatial-card:hover {
-  border-color: #a37a407d;
+  border-color: color-mix(in srgb, var(--brand-gold) 49.02%, transparent);
 }
 .spatial-card-head {
   display: flex;
   align-items: center;
   gap: 9px;
-  color: #b99258;
+  color: var(--brand-gold);
   font-size: 12px;
   letter-spacing: 0.13em;
   z-index: 2;
@@ -450,30 +424,30 @@ main {
 .spatial-card-body small {
   font-size: 12px;
   letter-spacing: 0.14em;
-  color: #b6aebc;
+  color: var(--brand-text-muted);
 }
 .spatial-card-body strong {
   font-family: var(--font-display);
   font-weight: 400;
   line-height: 1.22;
   font-size: 25px;
-  color: #b99258;
+  color: var(--brand-gold);
   overflow-wrap: anywhere;
 }
 .spatial-card-body > span {
   font-size: 14px;
   line-height: 1.5;
-  color: #b9b2be;
+  color: var(--brand-text-muted);
 }
 .spatial-card-foot {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 17px;
-  border-top: 1px solid #a37a4028;
+  border-top: 1px solid color-mix(in srgb, var(--brand-gold) 15.69%, transparent);
   margin-top: 20px;
   font-size: 12px;
-  color: #b99258;
+  color: var(--brand-gold);
   gap: 8px;
 }
 .world-contours {
@@ -489,7 +463,7 @@ main {
   display: block;
   position: absolute;
   inset: 0;
-  border: 1px solid #b5c58b;
+  border: 1px solid var(--brand-green);
   border-radius: 48%;
   transform: scaleY(0.55);
 }
@@ -500,7 +474,7 @@ main {
   inset: 40px;
 }
 .world-circle {
-  background: linear-gradient(135deg, #281632, #1b0e23 55%, #120a1a);
+  background: linear-gradient(135deg, var(--brand-green), var(--brand-green) 55%, var(--brand-green));
 }
 .world-nodes {
   position: absolute;
@@ -513,7 +487,7 @@ main {
   content: '';
   position: absolute;
   inset: 20px 24px;
-  border-top: 1px solid #9d79503f;
+  border-top: 1px solid color-mix(in srgb, var(--brand-gold) 24.71%, transparent);
   transform: rotate(28deg);
 }
 .world-nodes i {
@@ -521,9 +495,9 @@ main {
   width: 39px;
   height: 39px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 20%, #8c789c, #292825 50%, #0b0b0a);
-  border: 1px solid #a17c5260;
-  box-shadow: 8px 8px 15px #0008;
+  background: radial-gradient(circle at 30% 20%, var(--brand-green), var(--brand-surface-raised) 50%, var(--brand-surface-inset));
+  border: 1px solid color-mix(in srgb, var(--brand-gold) 37.65%, transparent);
+  box-shadow: 8px 8px 15px color-mix(in srgb, var(--brand-black) 53.33%, transparent);
 }
 .world-nodes i:nth-child(2) {
   left: 52px;
@@ -538,7 +512,7 @@ main {
   height: 18px;
 }
 .world-life {
-  background: linear-gradient(125deg, #271a2f, #1b1223 55%, #120a1a);
+  background: linear-gradient(125deg, var(--brand-green), var(--brand-green) 55%, var(--brand-green));
 }
 .world-monolith {
   position: absolute;
@@ -547,13 +521,13 @@ main {
   width: 42px;
   height: 67px;
   border-radius: 6px;
-  background: linear-gradient(110deg, #b9925873, #76856133 20%, #21201e 70%);
-  border: 1px solid #b9925865;
+  background: linear-gradient(110deg, color-mix(in srgb, var(--brand-gold) 45.1%, transparent), color-mix(in srgb, var(--brand-green) 20%, transparent) 20%, var(--brand-surface-raised) 70%);
+  border: 1px solid color-mix(in srgb, var(--brand-gold) 39.61%, transparent);
   transform: perspective(400px) rotateY(-25deg) rotateZ(12deg);
   box-shadow:
-    7px 5px 0 #090808,
-    12px 14px 20px #0008,
-    inset 1px 1px #a57f5455;
+    7px 5px 0 var(--brand-obsidian),
+    12px 14px 20px color-mix(in srgb, var(--brand-black) 53.33%, transparent),
+    inset 1px 1px color-mix(in srgb, var(--brand-gold) 33.33%, transparent);
 }
 /* Workspace surfaces form a stable reading plane; gold identifies edges and actions. */
 .vd-glass,
@@ -573,7 +547,7 @@ main {
 .cs-director,
 .cs-canvas-panel {
   background: var(--glass);
-  border-color: #a37a4050;
+  border-color: color-mix(in srgb, var(--brand-gold) 31.37%, transparent);
   box-shadow: var(--brand-bevel);
 }
 .vd-command,
@@ -583,48 +557,48 @@ main {
 .intelligence-stage,
 .cs-empty {
   background: var(--glass-signature);
-  border-color: #a37a404d;
+  border-color: color-mix(in srgb, var(--brand-gold) 30.2%, transparent);
 }
 .vd-earnings,
 .membership,
 .status-hero,
 .ps-product {
   background: var(--brand-gold-panel);
-  border-color: #a37a4060;
+  border-color: color-mix(in srgb, var(--brand-gold) 37.65%, transparent);
   box-shadow: var(--brand-bevel);
 }
 .vd-earnings-main,
 .vd-earnings .vd-balances {
-  background: #0e0e0ddd;
-  border-color: #a37a4029;
+  background: color-mix(in srgb, var(--brand-surface-inset) 86.67%, transparent);
+  border-color: color-mix(in srgb, var(--brand-gold) 16.08%, transparent);
 }
 .vd-metric {
-  background: #10100f;
-  border-color: #a37a4026;
+  background: var(--brand-surface-inset);
+  border-color: color-mix(in srgb, var(--brand-gold) 14.9%, transparent);
 }
 .visual-dashboard,
 .product-studio,
 .creative-studio {
-  --vd-gold: #a37a40;
-  --vd-muted: #b5aebb;
-  --vd-edge: #a37a4035;
-  --ps-gold: #a37a40;
-  --ps-muted: #b5aebb;
-  --ps-amethyst: #1e1d1b;
-  --cs-gold: #a37a40;
-  --cs-dim: #b5aebb;
+  --vd-gold: var(--brand-gold);
+  --vd-muted: var(--brand-text-muted);
+  --vd-edge: color-mix(in srgb, var(--brand-gold) 20.78%, transparent);
+  --ps-gold: var(--brand-gold);
+  --ps-muted: var(--brand-text-muted);
+  --ps-depth: var(--brand-surface-raised);
+  --cs-gold: var(--brand-gold);
+  --cs-dim: var(--brand-text-muted);
 }
 .vd-metric-label,
 .vd-metric-detail,
 .vd-earnings .vd-balances span {
-  color: #beb7c3;
+  color: var(--brand-text-muted);
 }
 .gent-space h1,
 .detail-page > h1 {
   font-family: var(--font-display);
   font-weight: 400;
   letter-spacing: -0.035em;
-  color: #b99258;
+  color: var(--brand-gold);
 }
 .gent-record h2 {
   font-weight: 400;
@@ -632,27 +606,27 @@ main {
 }
 .gent-record-detail,
 .lede {
-  color: #c0bbc5;
+  color: var(--brand-text-muted);
   line-height: 1.7;
 }
 .gent-editor input,
 .gent-editor textarea,
 .gent-editor select,
 .gent-dialog textarea {
-  background: #0a0a09;
-  border-color: #a37a403a;
-  color: #b99258;
+  background: var(--brand-obsidian);
+  border-color: color-mix(in srgb, var(--brand-gold) 22.75%, transparent);
+  color: var(--brand-gold);
   border-radius: 9px;
 }
 .gold-button,
 .vd-gold-button,
 .cs-generate {
   background: var(--gold-metal);
-  color: #121210;
-  border-color: #b99258;
+  color: var(--brand-surface);
+  border-color: var(--brand-gold);
   box-shadow:
-    inset 0 1px #a57f5477,
-    0 5px 12px #0006;
+    inset 0 1px color-mix(in srgb, var(--brand-gold) 46.67%, transparent),
+    0 5px 12px color-mix(in srgb, var(--brand-black) 40%, transparent);
   min-height: 44px;
 }
 .gold-button::after,
@@ -666,35 +640,35 @@ main {
   animation: metal-pass 0.8s ease-out 1;
 }
 .gent-invoke {
-  background: linear-gradient(140deg, #2a2926eb, #0d0c0bef);
-  border: 1px solid #a37a4066;
-  color: #b99258;
+  background: linear-gradient(140deg, color-mix(in srgb, var(--brand-surface-raised) 92.16%, transparent), color-mix(in srgb, var(--brand-surface-inset) 93.73%, transparent));
+  border: 1px solid color-mix(in srgb, var(--brand-gold) 40%, transparent);
+  color: var(--brand-gold);
   box-shadow:
-    inset 0 1px #b9925842,
-    0 12px 30px #0009;
+    inset 0 1px color-mix(in srgb, var(--brand-gold) 25.88%, transparent),
+    0 12px 30px color-mix(in srgb, var(--brand-black) 60%, transparent);
   backdrop-filter: blur(16px);
 }
 .gent-dialog {
-  background: linear-gradient(140deg, #1c1b19ec, #0a0a09f7);
-  border: 1px solid #a37a4070;
+  background: linear-gradient(140deg, color-mix(in srgb, var(--brand-surface-raised) 92.55%, transparent), color-mix(in srgb, var(--brand-obsidian) 96.86%, transparent));
+  border: 1px solid color-mix(in srgb, var(--brand-gold) 43.92%, transparent);
   box-shadow:
-    0 35px 110px #000b,
-    inset 0 1px #b9925850;
+    0 35px 110px color-mix(in srgb, var(--brand-black) 73.33%, transparent),
+    inset 0 1px color-mix(in srgb, var(--brand-gold) 31.37%, transparent);
 }
 .gent-dialog::backdrop {
-  background: #040404b8;
+  background: color-mix(in srgb, var(--brand-black) 72.16%, transparent);
   backdrop-filter: blur(9px);
 }
 .ambient-toggle {
-  background: #141312ed;
-  color: #b99258;
-  border-color: #a37a4048;
+  background: color-mix(in srgb, var(--brand-surface) 92.94%, transparent);
+  color: var(--brand-gold);
+  border-color: color-mix(in srgb, var(--brand-gold) 28.24%, transparent);
 }
 .membership .card-wordmark {
-  color: #b99258;
+  color: var(--brand-gold);
   background: none;
   -webkit-text-fill-color: currentColor;
-  text-shadow: 0 2px 10px #0007;
+  text-shadow: 0 2px 10px color-mix(in srgb, var(--brand-black) 46.67%, transparent);
 }
 [data-spatial='true'] {
   transform: perspective(1100px) rotateX(var(--tilt-x, 0deg))
@@ -702,23 +676,23 @@ main {
   transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 :where(a, button, input, textarea, select, summary):focus-visible {
-  outline: 2px solid #b99258;
+  outline: 2px solid var(--brand-gold);
   outline-offset: 4px;
 }
-/* Permanent brand roles: obsidian environment, amethyst content, gold action. */
+/* Permanent brand roles: obsidian environment, forest green content, gold action. */
 .gent-invoke, .gent-dialog, .life-pulse, .life-preparation, .desk-focus,
 .vd-metric, .ps-daily, .cs-director, .cs-canvas-panel {
   background: var(--glass-signature);
-  border-color: #a37a4050;
+  border-color: color-mix(in srgb, var(--brand-gold) 31.37%, transparent);
 }
 .spatial-card-head, .spatial-card-foot, .gent-space h1,
 .ps-section-heading h2, .cs-section-title { color: var(--gold-light); }
 .spatial-card {
-  box-shadow: inset 0 1px #b9925845, inset 1px 0 #a37a4018,
-    inset 0 -2px #0009, 0 20px 40px #0008, 0 3px 0 #0b0711;
+  box-shadow: inset 0 1px color-mix(in srgb, var(--brand-gold) 27.06%, transparent), inset 1px 0 color-mix(in srgb, var(--brand-gold) 9.41%, transparent),
+    inset 0 -2px color-mix(in srgb, var(--brand-black) 60%, transparent), 0 20px 40px color-mix(in srgb, var(--brand-black) 53.33%, transparent), 0 3px 0 var(--brand-surface-inset);
 }
 .gent-editor input, .gent-editor textarea, .gent-editor select,
-.gent-dialog textarea { background: #0c0910; }
+.gent-dialog textarea { background: var(--brand-surface-inset); }
 @media (min-width: 900px) {
   main {
     padding-left: 36px;
@@ -858,14 +832,14 @@ main {
   .ps-glass,
   .panel,
   .gent-record {
-    background: #0c0c0b;
+    background: var(--brand-surface-inset);
     backdrop-filter: none;
   }
   .living-atmosphere {
     display: none;
   }
   .spatial-card {
-    border-color: #a37a40;
+    border-color: var(--brand-gold);
   }
 }
 @media (forced-colors: active) {
@@ -897,27 +871,27 @@ main {
 .core-aura {
   background: radial-gradient(
     circle,
-    #a37a4044,
-    #2715372b 45%,
+    color-mix(in srgb, var(--brand-gold) 26.67%, transparent),
+    color-mix(in srgb, var(--brand-green) 16.86%, transparent) 45%,
     transparent 70%
   );
 }
 .core-fluid {
   background:
-    radial-gradient(ellipse at 30% 20%, #b992586b, transparent 52%),
-    radial-gradient(ellipse at 70% 70%, #a37a4070, transparent 63%), #121110;
+    radial-gradient(ellipse at 30% 20%, color-mix(in srgb, var(--brand-gold) 41.96%, transparent), transparent 52%),
+    radial-gradient(ellipse at 70% 70%, color-mix(in srgb, var(--brand-gold) 43.92%, transparent), transparent 63%), var(--brand-surface);
 }
 .core-filaments path:nth-child(2) {
-  stroke: #927aa5b3;
+  stroke: color-mix(in srgb, var(--brand-text-muted) 70.2%, transparent);
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #292825eb, #0f0e0dee);
-  border-color: #a37a4055;
+  background: linear-gradient(120deg, color-mix(in srgb, var(--brand-surface-raised) 92.16%, transparent), color-mix(in srgb, var(--brand-surface-inset) 93.33%, transparent));
+  border-color: color-mix(in srgb, var(--brand-gold) 33.33%, transparent);
 }
 .mobile-dock a[aria-current] {
-  background: #a37a401a;
-  color: #b99258;
-  border-color: #a37a4060;
+  background: color-mix(in srgb, var(--brand-gold) 10.2%, transparent);
+  color: var(--brand-gold);
+  border-color: color-mix(in srgb, var(--brand-gold) 37.65%, transparent);
 }
 .spatial-instrument[data-material-visible='false'] .instrument-body {
   animation-play-state: paused !important;

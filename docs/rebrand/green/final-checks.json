@@ -1,0 +1,51 @@
+{
+  "rows": [
+    {
+      "view": "home",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "view": "intelligence",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "view": "knowledge",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "view": "studio",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "view": "profile",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "view": "profile-200-percent",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "view": "cassius-send",
+      "color": "rgb(8, 8, 8)"
+    }
+  ],
+  "accountButton": [
+    {
+      "state": "base",
+      "color": "rgb(8, 8, 8)",
+      "background": "rgb(184, 137, 46)"
+    },
+    {
+      "state": "hover",
+      "color": "rgb(8, 8, 8)",
+      "background": "rgb(210, 180, 119)"
+    }
+  ],
+  "errors": []
+}

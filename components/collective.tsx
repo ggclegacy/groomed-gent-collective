@@ -1,4 +1,5 @@
 'use client';
+import { useMaterialScope } from '@/components/living-materials';
 import Link from 'next/link';
 import { GentlemanProvider, PersonalCommand, GentlemanWorkspace, GentlemanProfileEditor, CollectiveHub } from '@/components/gentleman-os';
 import { CommandDashboard, type CommandHandoff } from '@/components/command-dashboard';
@@ -105,6 +106,7 @@ function Navigation({
   );
 }
 export default function Collective({ initialView = 'home' }: { initialView?: Section }) {
+  useMaterialScope();
   const [view, setView] = useState<Section>(initialView);
   const [notice, setNotice] = useState('');
   const [handoff, setHandoff] = useState<CommandHandoff | null>(null);

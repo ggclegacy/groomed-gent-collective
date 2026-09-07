@@ -1,0 +1,486 @@
+{
+  "pairs": [
+    {
+      "foreground": "text",
+      "background": "obsidian",
+      "ratio": 17.585107338578513,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textMuted",
+      "background": "obsidian",
+      "ratio": 10.49935229923476,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textDim",
+      "background": "obsidian",
+      "ratio": 8.050732864915329,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "goldLight",
+      "background": "obsidian",
+      "ratio": 10.047273782705435,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "obsidian",
+      "ratio": 8.885611160940517,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "obsidian",
+      "ratio": 10.047273782705435,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "obsidian",
+      "ratio": 9.434543761782898,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "obsidian",
+      "ratio": 9.681976398111432,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "text",
+      "background": "surfaceInset",
+      "ratio": 16.94194450845585,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textMuted",
+      "background": "surfaceInset",
+      "ratio": 10.115345934689215,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textDim",
+      "background": "surfaceInset",
+      "ratio": 7.7562830196988,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "goldLight",
+      "background": "surfaceInset",
+      "ratio": 9.67980186930258,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "surfaceInset",
+      "ratio": 8.560626234115386,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "surfaceInset",
+      "ratio": 9.67980186930258,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "surfaceInset",
+      "ratio": 9.089482014367093,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "surfaceInset",
+      "ratio": 9.327864977493084,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "text",
+      "background": "surface",
+      "ratio": 16.270287818806434,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textMuted",
+      "background": "surface",
+      "ratio": 9.714327045637779,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textDim",
+      "background": "surface",
+      "ratio": 7.4487882469237645,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "goldLight",
+      "background": "surface",
+      "ratio": 9.296049952469593,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "surface",
+      "ratio": 8.221243592715389,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "surface",
+      "ratio": 9.296049952469593,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "surface",
+      "ratio": 8.729133094716774,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "surface",
+      "ratio": 8.958065459547976,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "text",
+      "background": "surfaceRaised",
+      "ratio": 14.403168319559244,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textMuted",
+      "background": "surfaceRaised",
+      "ratio": 8.599545939675437,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textDim",
+      "background": "surfaceRaised",
+      "ratio": 6.593992195589075,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "goldLight",
+      "background": "surfaceRaised",
+      "ratio": 8.229268815864897,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "surfaceRaised",
+      "ratio": 7.2778033542288165,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "surfaceRaised",
+      "ratio": 8.229268815864897,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "surfaceRaised",
+      "ratio": 7.7274092903086675,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "surfaceRaised",
+      "ratio": 7.930070203328731,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "text",
+      "background": "green",
+      "ratio": 13.397441653237165,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textMuted",
+      "background": "green",
+      "ratio": 7.999067456198406,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textDim",
+      "background": "green",
+      "ratio": 6.133555044436865,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "goldLight",
+      "background": "green",
+      "ratio": 7.654645586529385,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "green",
+      "ratio": 6.769617881199492,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "green",
+      "ratio": 7.654645586529385,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "green",
+      "ratio": 7.187829288713142,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "green",
+      "ratio": 7.3763390455484465,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "text",
+      "background": "greenRaised",
+      "ratio": 10.532511266263684,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textMuted",
+      "background": "greenRaised",
+      "ratio": 6.288534056176007,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "textDim",
+      "background": "greenRaised",
+      "ratio": 4.821945807255694,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "goldLight",
+      "background": "greenRaised",
+      "ratio": 6.017763910910248,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "greenRaised",
+      "ratio": 5.321991947978036,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "greenRaised",
+      "ratio": 6.017763910910248,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "greenRaised",
+      "ratio": 5.650772358098591,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "greenRaised",
+      "ratio": 5.798970886523511,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "gold",
+      "background": "obsidian",
+      "ratio": 6.347521826373657,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "borderControl",
+      "background": "obsidian",
+      "ratio": 4.3422224726278245,
+      "minimum": 3
+    },
+    {
+      "foreground": "greenEdge",
+      "background": "obsidian",
+      "ratio": 4.397496906625543,
+      "minimum": 3
+    },
+    {
+      "foreground": "gold",
+      "background": "surfaceInset",
+      "ratio": 6.11536571702995,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "borderControl",
+      "background": "surfaceInset",
+      "ratio": 4.183408765054328,
+      "minimum": 3
+    },
+    {
+      "foreground": "greenEdge",
+      "background": "surfaceInset",
+      "ratio": 4.23666157582741,
+      "minimum": 3
+    },
+    {
+      "foreground": "gold",
+      "background": "surface",
+      "ratio": 5.872924461751029,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "borderControl",
+      "background": "surface",
+      "ratio": 4.017559179064695,
+      "minimum": 3
+    },
+    {
+      "foreground": "greenEdge",
+      "background": "surface",
+      "ratio": 4.068700803215691,
+      "minimum": 3
+    },
+    {
+      "foreground": "gold",
+      "background": "surfaceRaised",
+      "ratio": 5.198968850009087,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "borderControl",
+      "background": "surfaceRaised",
+      "ratio": 3.556518589853932,
+      "minimum": 3
+    },
+    {
+      "foreground": "greenEdge",
+      "background": "surfaceRaised",
+      "ratio": 3.6017913858232204,
+      "minimum": 3
+    },
+    {
+      "foreground": "gold",
+      "background": "green",
+      "ratio": 4.835941667806999,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "borderControl",
+      "background": "green",
+      "ratio": 3.3081783979095696,
+      "minimum": 3
+    },
+    {
+      "foreground": "greenEdge",
+      "background": "green",
+      "ratio": 3.3502899409409586,
+      "minimum": 3
+    },
+    {
+      "foreground": "obsidian",
+      "background": "gold",
+      "ratio": 6.347521826373657,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "obsidian",
+      "background": "goldLight",
+      "ratio": 10.047273782705435,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "obsidian",
+      "background": "goldPressed",
+      "ratio": 5.411851958743211,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "gold",
+      "background": "surface",
+      "ratio": 5.872924461751029,
+      "minimum": 3
+    },
+    {
+      "foreground": "chartComparison",
+      "background": "surface",
+      "ratio": 8.221243592715389,
+      "minimum": 3
+    },
+    {
+      "foreground": "chartThird",
+      "background": "surface",
+      "ratio": 8.958065459547976,
+      "minimum": 3
+    },
+    {
+      "foreground": "chartFourth",
+      "background": "surface",
+      "ratio": 7.940848188268649,
+      "minimum": 3
+    },
+    {
+      "foreground": "gold",
+      "background": "surfaceRaised",
+      "ratio": 5.198968850009087,
+      "minimum": 3
+    },
+    {
+      "foreground": "chartComparison",
+      "background": "surfaceRaised",
+      "ratio": 7.2778033542288165,
+      "minimum": 3
+    },
+    {
+      "foreground": "chartThird",
+      "background": "surfaceRaised",
+      "ratio": 7.930070203328731,
+      "minimum": 3
+    },
+    {
+      "foreground": "chartFourth",
+      "background": "surfaceRaised",
+      "ratio": 7.029585114253417,
+      "minimum": 3
+    },
+    {
+      "foreground": "gold",
+      "background": "green",
+      "ratio": 4.835941667806999,
+      "minimum": 3
+    },
+    {
+      "foreground": "chartComparison",
+      "background": "green",
+      "ratio": 6.769617881199492,
+      "minimum": 3
+    },
+    {
+      "foreground": "chartThird",
+      "background": "green",
+      "ratio": 7.3763390455484465,
+      "minimum": 3
+    },
+    {
+      "foreground": "chartFourth",
+      "background": "green",
+      "ratio": 6.538731918225382,
+      "minimum": 3
+    }
+  ],
+  "comparisons": [
+    {
+      "hex": "#B8892E",
+      "onObsidian": 6.347521826373657,
+      "onGreen": 4.835941667806999,
+      "onGreenRaised": 3.8018161539717625
+    },
+    {
+      "hex": "#C4912F",
+      "onObsidian": 7.093851221312157,
+      "onGreen": 5.404542378070995,
+      "onGreenRaised": 4.2488263774060275
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import brand from '@/lib/brand.json';
 import type { MetadataRoute } from 'next';
 export default function manifest(): MetadataRoute.Manifest {
   return {
@@ -8,8 +9,8 @@ export default function manifest(): MetadataRoute.Manifest {
     start_url: '/auth/continue',
     scope: '/',
     display: 'standalone',
-    background_color: '#090f0d',
-    theme_color: '#0b1512',
+    background_color: brand.obsidian,
+    theme_color: brand.obsidian,
     icons: [
       { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
       {

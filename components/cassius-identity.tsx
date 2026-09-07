@@ -1,4 +1,5 @@
 'use client';
+import { useMaterialScope } from '@/components/living-materials';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import type { OnboardingDraft } from '@/lib/profile';
@@ -70,6 +71,7 @@ export function CassiusIdentity({
 }: {
   onboarding?: boolean;
 }) {
+  useMaterialScope();
   const router = useRouter();
   const [access, setAccess] = useState<AccountAccess | null>(null),
     [state, setState] = useState<Intelligence | null>(null),

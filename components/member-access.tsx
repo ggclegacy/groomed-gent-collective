@@ -1,4 +1,5 @@
 'use client';
+import { useMaterialScope } from '@/components/living-materials';
 /* oxlint-disable next/no-html-link-for-pages -- Full document navigation is intentional: Sites owns sign-in/out, and leaving the member editor must trigger its unsaved-work warning. */
 import { useCallback, useEffect, useState } from 'react';
 import { ArrowRight, ShieldCheck } from 'lucide-react';
@@ -24,6 +25,7 @@ interface ManagedMember {
   track: string;
 }
 export function MemberAccess({ studio = false }: { studio?: boolean }) {
+  useMaterialScope();
   const [state, setState] = useState<AccountAccess | null>(null);
   const [library, setLibrary] = useState<AccountLibrary | null>(null);
   const [message, setMessage] = useState('');

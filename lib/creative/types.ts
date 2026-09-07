@@ -1,3 +1,4 @@
+import brand from '../brand.json' with { type: 'json' };
 export const modes = [
   'Product',
   'Lifestyle',
@@ -34,7 +35,7 @@ export const defaultKit: BrandKit = {
   name: 'Groomed Gent Collective',
   voice: 'Quiet confidence. Considered, precise, refined. No hype.',
   palette:
-    'Obsidian black #0A0A0A, brushed gold #C4912F with #D9B66B highlights, deep purple #1A0930 and #2A0F4A, royal purple #6C3FC7 accents',
+    `Obsidian Black ${brand.obsidian} environment, Luxury Gold ${brand.gold} for restrained primary accents, Deep Masculine Green ${brand.green} for subtle dimensional lighting beneath black. Neutral readable typography. No neon, olive, yellow, or excessive gold.`,
   audience: 'Men who approach grooming as a considered daily ritual',
   ambassador: '',
   disclosure: '',

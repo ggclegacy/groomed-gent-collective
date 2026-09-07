@@ -2,6 +2,8 @@ import { ClerkProvider } from '@clerk/nextjs';
 import { SessionBoundary } from '@/components/account-session';
 import { accountsConfigured } from '@/lib/auth-config';
 import type { Metadata, Viewport } from 'next';
+import brand from '@/lib/brand.json';
+import './brand-tokens.css';
 import './globals.css';
 import './cassius-identity.css';
 import './gentleman.css';
@@ -9,19 +11,20 @@ import './voyage.css';
 import './creative-studio.css';
 import './command-dashboard.css';
 import './living-materials.css';
-import './brand-materials.css';
+
 import './spatial-system.css';
 import './command-theatre.css';
 import './architectural-form.css';
 import './spatial-cockpit.css';
-import './rich-gold.css';
-import './luminous-depth.css';
+import './brand-materials.css';
+
+
 import { LivingMaterials } from '@/components/living-materials';
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   viewportFit: 'cover',
-  themeColor: '#0b1512',
+  themeColor: brand.obsidian,
 };
 export const metadata: Metadata = {
   title: 'The Collective | Groomed Gent Co.',
@@ -50,13 +53,13 @@ export default function RootLayout({
             signUpForceRedirectUrl="/auth/continue"
             appearance={{
               variables: {
-                colorPrimary: '#c8a65c',
-                colorBackground: '#0b1512',
-                colorForeground: '#eee9df',
-                colorMutedForeground: '#b6beb7',
-                colorInput: '#090f0d',
-                colorInputForeground: '#eee9df',
-                borderRadius: '14px',
+                colorPrimary: brand.gold,
+                colorBackground: brand.surface,
+                colorForeground: brand.text,
+                colorMutedForeground: brand.textMuted,
+                colorInput: brand.surfaceInset,
+                colorInputForeground: brand.text,
+                borderRadius: '10px',
               },
             }}
           >

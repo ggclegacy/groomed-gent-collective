@@ -1,8 +1,8 @@
-/* Product Studio extends the Collective's obsidian, amethyst and gold tokens. */
+/* Product Studio extends the Collective's obsidian, forest green and gold tokens. */
 .product-studio {
-  --ps-amethyst: #1a1918;
-  --ps-gold: #a68055;
-  --ps-muted: #b8b2bd;
+  --ps-depth: var(--brand-surface);
+  --ps-gold: var(--brand-gold);
+  --ps-muted: var(--brand-text-muted);
   font-size: 16px;
 }
 .product-studio h2 {
@@ -57,13 +57,13 @@
   margin: 0;
 }
 .ps-glass {
-  background: linear-gradient(135deg, #26242277, #0e0d0cee 60%), #0c0c0b;
-  border: 1px solid #7f6c8e40;
-  border-top-color: #9983ab66;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--brand-surface-raised) 46.67%, transparent), color-mix(in srgb, var(--brand-surface-inset) 93.33%, transparent) 60%), var(--brand-surface-inset);
+  border: 1px solid color-mix(in srgb, var(--brand-text-muted) 25.1%, transparent);
+  border-top-color: color-mix(in srgb, var(--brand-green) 40%, transparent);
   border-radius: 18px;
   box-shadow:
-    inset 0 1px 0 #d9d1e00a,
-    0 16px 38px #0003;
+    inset 0 1px 0 color-mix(in srgb, var(--brand-green) 3.92%, transparent),
+    0 16px 38px color-mix(in srgb, var(--brand-black) 20%, transparent);
 }
 .ps-daily {
   text-align: left;
@@ -80,7 +80,7 @@
 .ps-daily strong {
   display: block;
   font-family: var(--font-display);
-  color: #b99258;
+  color: var(--brand-gold);
   font-size: 22px;
   line-height: 1.35;
   font-weight: 400;
@@ -97,21 +97,21 @@
   gap: 4px;
   overflow-x: auto;
   padding: 6px;
-  border: 1px solid #72608044;
-  background: #0a0909;
+  border: 1px solid color-mix(in srgb, var(--brand-green) 26.67%, transparent);
+  background: var(--brand-obsidian);
   border-radius: 12px;
 }
 .ps-destinations button {
   flex: 1 0 auto;
   padding: 10px 16px;
   border-radius: 8px;
-  color: #bab5be;
+  color: var(--brand-text-muted);
   font-size: 14px;
 }
 .ps-destinations button[aria-pressed='true'] {
-  color: #b99258;
-  background: linear-gradient(120deg, #28222d, #1e1d1b);
-  box-shadow: inset 0 1px 0 #b9925835;
+  color: var(--brand-gold);
+  background: linear-gradient(120deg, var(--brand-surface-raised), var(--brand-surface-raised));
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--brand-gold) 20.78%, transparent);
 }
 .ps-context {
   display: flex;
@@ -133,7 +133,7 @@
   display: inline-block;
   width: 6px;
   height: 6px;
-  background: #a17c52;
+  background: var(--brand-gold);
   border-radius: 50%;
   margin-right: 6px;
 }
@@ -166,20 +166,20 @@
   margin: 14px 0 22px;
 }
 .ps-chips button {
-  border: 1px solid #372f3d;
+  border: 1px solid var(--brand-surface-raised);
   border-radius: 8px;
   padding: 8px 12px;
   font-size: 14px;
-  color: #c9c4cd;
+  color: var(--brand-text-muted);
   display: inline-flex;
   gap: 8px;
   align-items: center;
 }
 .ps-chips button[aria-pressed='true'],
 .ps-chips button:hover {
-  background: #231a2a;
-  color: #b99258;
-  border-color: #89663f;
+  background: var(--brand-green);
+  color: var(--brand-gold);
+  border-color: var(--brand-gold);
 }
 .ps-vault {
   display: grid;
@@ -191,14 +191,14 @@
   text-align: left;
   position: relative;
   overflow: hidden;
-  border: 1px solid #5a496888;
+  border: 1px solid color-mix(in srgb, var(--brand-green) 53.33%, transparent);
   border-radius: 17px;
   background:
-    radial-gradient(ellipse at 60% 35%, #2e1a3f66, transparent 65%),
-    linear-gradient(140deg, #1b1a18, #090908 70%);
+    radial-gradient(ellipse at 60% 35%, color-mix(in srgb, var(--brand-green) 40%, transparent), transparent 65%),
+    linear-gradient(140deg, var(--brand-surface-raised), var(--brand-obsidian) 70%);
   box-shadow:
-    inset 0 1px 0 #c8bcd12b,
-    0 16px 28px #0004;
+    inset 0 1px 0 color-mix(in srgb, var(--brand-green) 16.86%, transparent),
+    0 16px 28px color-mix(in srgb, var(--brand-black) 26.67%, transparent);
   padding: 22px;
   transition:
     transform 0.2s,
@@ -206,12 +206,12 @@
 }
 .ps-product:hover {
   transform: translateY(-3px);
-  border-color: #a37a40;
+  border-color: var(--brand-gold);
 }
 .ps-product-top {
   display: flex;
   justify-content: space-between;
-  color: #a68055;
+  color: var(--brand-gold);
   font-size: 12px;
   letter-spacing: 2px;
 }
@@ -221,19 +221,19 @@
   justify-content: center;
   gap: 12px;
   min-height: 155px;
-  color: #ab9bb9;
+  color: var(--brand-text-muted);
 }
 .ps-product-mark span {
   font-family: var(--font-display);
   font-size: 70px;
-  color: #b99258;
+  color: var(--brand-gold);
   letter-spacing: -6px;
   text-shadow:
-    0 5px 0 #0003,
-    0 20px 35px #ab99ba22;
+    0 5px 0 color-mix(in srgb, var(--brand-black) 20%, transparent),
+    0 20px 35px color-mix(in srgb, var(--brand-green) 13.33%, transparent);
 }
 .ps-product-copy {
-  border-top: 1px solid #76678244;
+  border-top: 1px solid color-mix(in srgb, var(--brand-text-muted) 26.67%, transparent);
   padding-top: 18px;
 }
 .ps-product h3 {
@@ -246,14 +246,14 @@
   margin-bottom: 20px;
 }
 .ps-product-action {
-  color: #a68055;
+  color: var(--brand-gold);
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
 }
 .ps-meta {
-  color: #b8b2bd;
+  color: var(--brand-text-muted);
 }
 .ps-atlas {
   position: sticky;
@@ -269,13 +269,13 @@
   width: 76px;
   height: 76px;
   margin-bottom: 28px;
-  border: 1px solid #96704580;
+  border: 1px solid color-mix(in srgb, var(--brand-gold) 50.2%, transparent);
   border-radius: 50%;
   box-shadow:
-    0 0 0 9px #957ea710,
-    0 0 45px #37244633,
-    inset 0 0 30px #755d8811;
-  color: #b99258;
+    0 0 0 9px color-mix(in srgb, var(--brand-green) 6.27%, transparent),
+    0 0 45px color-mix(in srgb, var(--brand-green) 20%, transparent),
+    inset 0 0 30px color-mix(in srgb, var(--brand-green) 6.67%, transparent);
+  color: var(--brand-gold);
 }
 .ps-atlas h3 {
   font-family: var(--font-display);
@@ -288,11 +288,11 @@
   display: grid;
   gap: 8px;
   padding: 15px 0;
-  border-block: 1px solid #382d413f;
+  border-block: 1px solid color-mix(in srgb, var(--brand-green) 24.71%, transparent);
   font-size: 14px;
 }
 .ps-atlas-context small {
-  color: #b99258;
+  color: var(--brand-gold);
   font-size: 12px;
 }
 .ps-prompts {
@@ -307,7 +307,7 @@
   font-size: 14px;
   text-align: left;
   padding: 9px 0;
-  border-bottom: 1px solid #382d413f;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-green) 24.71%, transparent);
 }
 .ps-atlas .gold-button {
   width: 100%;
@@ -318,7 +318,7 @@
   gap: 8px;
   align-items: center;
   font-size: 12px;
-  color: #a37e53;
+  color: var(--brand-gold);
   margin-top: 24px;
 }
 .ps-atlas-toggle {
@@ -338,18 +338,18 @@
   gap: 14px;
   padding: 22px;
   margin: 20px 0;
-  border: 1px solid #85633d44;
+  border: 1px solid color-mix(in srgb, var(--brand-gold) 26.67%, transparent);
   border-radius: 12px;
-  background: #7c5d3910;
+  background: color-mix(in srgb, var(--brand-gold) 6.27%, transparent);
 }
 .ps-pending svg {
-  color: #b99258;
+  color: var(--brand-gold);
 }
 .ps-pending p {
   margin-bottom: 0;
 }
 .ps-evidence {
-  border-top: 1px solid #60516c4d;
+  border-top: 1px solid color-mix(in srgb, var(--brand-green) 30.2%, transparent);
   margin-top: 20px;
   padding: 16px 0;
   overflow-wrap: anywhere;
@@ -358,14 +358,14 @@
 .ps-ingredient summary {
   cursor: pointer;
   min-height: 44px;
-  color: #b99258;
+  color: var(--brand-gold);
   font-size: 14px;
 }
 .ps-evidence p {
   margin-bottom: 8px;
 }
 .ps-evidence small {
-  color: #bfb6c6;
+  color: var(--brand-text-muted);
 }
 .ps-room-heading {
   display: flex;
@@ -380,7 +380,7 @@
 .ps-stamp {
   font-size: 12px;
   line-height: 1.8;
-  color: #a47e54;
+  color: var(--brand-gold);
   text-align: right;
 }
 .ps-room-layout {
@@ -397,16 +397,16 @@
   text-align: left;
   padding: 9px 7px;
   font-size: 14px;
-  color: #bbb4c1;
-  border-bottom: 1px solid #2f293466;
+  color: var(--brand-text-muted);
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-surface-raised) 40%, transparent);
 }
 .ps-room-nav button span {
   font-size: 12px;
-  color: #906c42;
+  color: var(--brand-gold);
 }
 .ps-room-nav button[aria-pressed='true'] {
-  background: #292825;
-  color: #b99258;
+  background: var(--brand-surface-raised);
+  color: var(--brand-gold);
   border-radius: 5px;
 }
 .ps-room-body {
@@ -418,28 +418,28 @@
 }
 .ps-ingredient details {
   padding-top: 12px;
-  border-top: 1px solid #3c2f4755;
+  border-top: 1px solid color-mix(in srgb, var(--brand-green) 33.33%, transparent);
 }
 .ps-result {
   margin-top: 22px;
   padding: 18px;
-  background: #07070799;
-  border: 1px solid #70598255;
+  background: color-mix(in srgb, var(--brand-obsidian) 60%, transparent);
+  border: 1px solid color-mix(in srgb, var(--brand-green) 33.33%, transparent);
   border-radius: 12px;
   overflow-wrap: anywhere;
 }
 .ps-transcript {
-  border-bottom: 1px solid #3d314766;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-green) 40%, transparent);
   padding: 10px 0;
 }
 .ps-transcript strong {
-  color: #a68055;
+  color: var(--brand-gold);
   display: block;
 }
 .product-studio blockquote {
   margin: 24px 0;
   padding: 0 0 0 18px;
-  border-left: 2px solid #a68055;
+  border-left: 2px solid var(--brand-gold);
   font-family: var(--font-display);
   font-size: 24px;
   line-height: 1.5;
@@ -449,7 +449,7 @@
 }
 .ps-report-row {
   padding: 15px 0;
-  border-bottom: 1px solid #3d314766;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-green) 40%, transparent);
 }
 .ps-table-wrap {
   overflow-x: auto;
@@ -463,22 +463,22 @@
 .product-studio td {
   text-align: left;
   padding: 16px 12px;
-  border-bottom: 1px solid #3d314766;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-green) 40%, transparent);
 }
 .product-studio th {
-  color: #a68055;
+  color: var(--brand-gold);
   font-weight: 400;
 }
 .product-studio caption {
   text-align: left;
   padding: 18px 0;
-  color: #beb5c5;
+  color: var(--brand-text-muted);
 }
 .ps-question {
   padding: 18px 0;
   margin: 22px 0;
   border: 0;
-  border-bottom: 1px solid #3c2f4755;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-green) 33.33%, transparent);
 }
 .ps-question legend {
   line-height: 1.6;
@@ -494,7 +494,7 @@
 .ps-question input {
   width: 18px;
   height: 18px;
-  accent-color: #a68055;
+  accent-color: var(--brand-gold);
   flex-shrink: 0;
 }
 .ps-progression {
@@ -504,11 +504,11 @@
 .ps-progression li {
   display: flex;
   gap: 22px;
-  border-bottom: 1px solid #3c2f4755;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-green) 33.33%, transparent);
   padding: 20px 0;
 }
 .ps-progression li > span {
-  color: #a68055;
+  color: var(--brand-gold);
   font-family: var(--font-display);
   font-size: 28px;
 }
@@ -527,7 +527,7 @@
 }
 .ps-mastery > span {
   margin-left: auto;
-  color: #b9b0c0;
+  color: var(--brand-text-muted);
 }
 .ps-mastery [data-slot='progress'] {
   width: 100%;
@@ -538,29 +538,29 @@
 }
 .ps-policy {
   padding: 20px;
-  border: 1px solid #66517755;
-  border-left: 3px solid #8f77a3;
+  border: 1px solid color-mix(in srgb, var(--brand-green) 33.33%, transparent);
+  border-left: 3px solid var(--brand-green);
   border-radius: 8px;
 }
 .ps-policy > span {
   font-size: 12px;
   letter-spacing: 2px;
-  color: #ab99ba;
+  color: var(--brand-text-muted);
 }
 .ps-policy h3 {
   margin-top: 12px;
 }
 .ps-gold {
-  border-left-color: #a68055;
+  border-left-color: var(--brand-gold);
 }
 .ps-gold > span {
-  color: #a68055;
+  color: var(--brand-gold);
 }
 .ps-red {
-  border-left-color: #db9690;
+  border-left-color: var(--brand-text-muted);
 }
 .ps-red > span {
-  color: #db9690;
+  color: var(--brand-text-muted);
 }
 .ps-record {
   display: grid;
@@ -570,7 +570,7 @@
 }
 .ps-record dd {
   margin: 0;
-  color: #cac3d0;
+  color: var(--brand-text-muted);
   overflow-wrap: anywhere;
 }
 @media (min-width: 1500px) {
@@ -597,7 +597,7 @@
     gap: 12px;
     width: 100%;
     padding: 18px 24px;
-    color: #b99258;
+    color: var(--brand-gold);
   }
   .ps-atlas-toggle span {
     margin-left: auto;

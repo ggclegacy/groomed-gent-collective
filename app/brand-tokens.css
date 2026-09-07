@@ -1,0 +1,31 @@
+/* Generated from lib/brand.json. Run node scripts/brand-tokens.mjs after palette edits. */
+:root, .dark {
+  --brand-obsidian: #080808;
+  --brand-gold: #B8892E;
+  --brand-gold-light: #D2B477;
+  --brand-surface: #111413;
+  --brand-surface-raised: #1A211E;
+  --brand-surface-inset: #0B0F0D;
+  --brand-text: #F2F0EB;
+  --brand-text-muted: #B8BDB8;
+  --brand-text-dim: #9CA79F;
+  --brand-success: #90B5A2;
+  --brand-warning: #D2B477;
+  --brand-danger: #E7A09A;
+  --brand-chart-comparison: #90B5A2;
+  --brand-chart-third: #9DB8CB;
+  --brand-chart-fourth: #C2A39A;
+  --brand-black: #000000;
+  --brand-white: #FFFFFF;
+  --brand-gold-pressed: #AA7D29;
+  --brand-green: #102A22;
+  --brand-green-deep: #0B1B16;
+  --brand-green-raised: #183D31;
+  --brand-green-edge: #527F6C;
+  --brand-green-light: #90B5A2;
+  --brand-info: #9DB8CB;
+  --brand-border: #303D36;
+  --brand-border-control: #68796F;
+  --brand-disabled: #242D28;
+  --brand-text-disabled: #9CA79F;
+}

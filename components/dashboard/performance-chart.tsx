@@ -103,24 +103,24 @@ export function PerformanceChart({
               >
                 <defs>
                   <linearGradient id={id} x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#a37a40" stopOpacity={0.25} />
-                    <stop offset="100%" stopColor="#a37a40" stopOpacity={0} />
+                    <stop offset="0%" stopColor="var(--chart-1)" stopOpacity={0.25} />
+                    <stop offset="100%" stopColor="var(--chart-1)" stopOpacity={0} />
                   </linearGradient>
                 </defs>
-                <CartesianGrid vertical={false} stroke="#d9ceaa12" />
+                <CartesianGrid vertical={false} stroke="var(--border)" />
                 <XAxis
                   dataKey="label"
                   axisLine={false}
                   tickLine={false}
                   minTickGap={42}
-                  tick={{ fill: '#a4a09a', fontSize: 12 }}
+                  tick={{ fill: 'var(--muted-foreground)', fontSize: 12 }}
                   tickMargin={12}
                 />
                 <YAxis
                   axisLine={false}
                   tickLine={false}
                   tickCount={4}
-                  tick={{ fill: '#a4a09a', fontSize: 12 }}
+                  tick={{ fill: 'var(--muted-foreground)', fontSize: 12 }}
                   tickFormatter={(value) =>
                     new Intl.NumberFormat('en-US', {
                       notation: 'compact',
@@ -132,7 +132,7 @@ export function PerformanceChart({
                   width={58}
                 />
                 <Tooltip
-                  cursor={{ stroke: '#b88e5e50', strokeDasharray: '3 5' }}
+                  cursor={{ stroke: 'var(--edge-active)', strokeDasharray: '3 5' }}
                   content={({ active, payload, label }) =>
                     active && payload?.length ? (
                       <div className="vd-tooltip">
@@ -166,7 +166,7 @@ export function PerformanceChart({
                     dataKey="previous"
                     type="monotone"
                     fill="none"
-                    stroke="#856b9b"
+                    stroke="var(--chart-2)"
                     strokeDasharray="4 6"
                     strokeWidth={1.4}
                     isAnimationActive={false}
@@ -178,14 +178,14 @@ export function PerformanceChart({
                   dataKey="amount"
                   type="monotone"
                   fill={`url(#${id})`}
-                  stroke="#a37a40"
+                  stroke="var(--chart-1)"
                   strokeWidth={2.2}
                   dot={false}
                   activeDot={{
                     r: 5,
-                    stroke: '#c8a166',
+                    stroke: 'var(--chart-3)',
                     strokeWidth: 2,
-                    fill: '#a37a40',
+                    fill: 'var(--chart-1)',
                   }}
                   isAnimationActive={false}
                 />

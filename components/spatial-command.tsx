@@ -41,7 +41,7 @@ export function SpatialCommand() {
     <section className="spatial-command" aria-label="Personal command center">
       <div className="spatial-arrival command-theatre">
         <div className="command-scenery" aria-hidden="true">
-          <i className="command-light command-light-purple" />
+          <i className="command-light command-light-green" />
           <i className="command-light command-light-gold" />
           <i className="command-orbit command-orbit-one" />
           <i className="command-orbit command-orbit-two" />

@@ -1,161 +1,284 @@
-/* GGC materials: obsidian, metallic gold, and deep amethyst.
-   Keep brand values here; living-materials.css owns decorative motion. */
-:root,
-.dark {
-  --background: #0a0a0a;
-  --foreground: #f2f0eb;
-  --sidebar: #0a0a0a;
-  --gold: #a37a40;
-  --gold-light: #b99258;
-  --gold-dim: #5d462b;
-  --primary: #a37a40;
-  --purple: #856b9b;
-  --purple-light: #b99258;
-  --amethyst: #1a1917;
-  --violet: #856b9b;
-  --border: #a37a4040;
-  --muted: #131211;
-  --muted-foreground: #bab3bf;
-  --glass-edge: #a37a4055;
-  --gold-metal: linear-gradient(145deg, #543f27 0%, #694f30 16%, #80603b 32%, #a37a40 50%, #7e5e3a 66%, #5d462b 82%, #382e20 100%);
-  --brand-gold-panel:
-    radial-gradient(circle at 18% 12%, #a17c523d 0%, transparent 54%),
-    radial-gradient(circle at 82% 90%, #382e206b 0%, transparent 50%),
-    radial-gradient(circle at 62% 30%, #856b9b0d 0%, transparent 40%),
-    var(--gold-metal);
-  --brand-purple-panel:
-    radial-gradient(ellipse at 85% 90%, #856b9b3d, transparent 65%),
-    linear-gradient(145deg, #121210 0%, #201f1d 28%, #282724 52%, #331c44 72%, #191816 100%);
-  --brand-purple-quiet: linear-gradient(145deg, #1a1917, #131211 75%);
-  --brand-bevel: inset 0 1px #b9925870, inset 0 -1px #30281c8a, 0 20px 50px #0009;
-  --glass: var(--brand-purple-quiet);
-  --glass-signature: var(--brand-purple-panel);
+/* Collective design system. Palette source: lib/brand.json.
+   Environment → dimensional surfaces → gold authority. */
+:root, .dark {
+  --background: var(--brand-obsidian);
+  --obsidian: var(--brand-obsidian);
+  --foreground: var(--brand-text);
+  --sidebar: var(--brand-surface-inset);
+  --primary: var(--brand-gold);
+  --primary-foreground: var(--brand-obsidian);
+  --gold: var(--brand-gold);
+  --gold-light: var(--brand-gold-light);
+  --gold-dim: color-mix(in srgb, var(--brand-gold) 42%, var(--brand-obsidian));
+  --green: var(--brand-green);
+  --depth: var(--brand-green);
+  --depth-accent: var(--brand-green);
+  --depth-surface: var(--brand-surface-raised);
+  --depth-text: var(--brand-text-muted);
+  --muted: var(--brand-surface-raised);
+  --muted-foreground: var(--brand-text-muted);
+  --border: var(--brand-border);
+  --input: var(--brand-border-control);
+  --ring: var(--brand-gold-light);
+  --accent: var(--brand-surface-raised);
+  --accent-foreground: var(--foreground);
+  --card: var(--brand-surface);
+  --card-foreground: var(--foreground);
+  --popover: var(--brand-surface-raised);
+  --popover-foreground: var(--foreground);
+  --secondary: var(--brand-green);
+  --secondary-foreground: var(--foreground);
+  --destructive: var(--brand-danger);
+  --destructive-foreground: var(--brand-obsidian);
+  --sidebar-accent: var(--brand-surface-raised);
+  --sidebar-accent-foreground: var(--foreground);
+  --sidebar-primary: var(--gold);
+  --sidebar-primary-foreground: var(--background);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--ring);
+  --chart-1: var(--gold);
+  --chart-2: var(--brand-chart-comparison);
+  --chart-3: var(--brand-chart-third);
+  --chart-4: var(--brand-chart-fourth);
+  --chart-5: var(--brand-text);
+  --glass-edge: var(--border);
+  --edge-active: var(--brand-green-edge);
+  --environment: radial-gradient(ellipse at 85% 0%, color-mix(in srgb, var(--brand-green-raised) 52%, transparent), transparent 55%), var(--background);
+  --glass: linear-gradient(145deg, color-mix(in srgb, var(--green) 16%, var(--brand-surface)), var(--brand-surface) 62%);
+  --glass-signature: radial-gradient(ellipse at 95% 0%, color-mix(in srgb, var(--green) 66%, transparent), transparent 70%), var(--brand-surface);
+  --brand-depth-quiet: var(--glass);
+  --brand-depth-panel: var(--glass-signature);
+  --brand-gold-panel: var(--glass-signature);
+  --brand-bevel: inset 0 1px color-mix(in srgb, var(--brand-white) 5%, transparent), 0 18px 45px color-mix(in srgb, var(--brand-black) 30%, transparent);
   --glass-shadow: var(--brand-bevel);
+  --gold-metal: linear-gradient(115deg, var(--gold) 0%, var(--gold-light) 48%, var(--gold) 100%);
+  --action-primary: var(--gold);
+  --action-hover: var(--gold-light);
+  --action-pressed: var(--brand-gold-pressed);
+  --action-secondary: var(--brand-green);
+  --action-secondary-hover: var(--brand-green-raised);
+  --state-success: var(--brand-success);
+  --state-warning: var(--brand-warning);
+  --state-error: var(--brand-danger);
+  --state-info: var(--brand-info);
+  --focus: var(--gold-light);
+  --shadow-modal: 0 24px 80px color-mix(in srgb, var(--brand-black) 65%, transparent);
+  --glow-intelligence: 0 0 65px color-mix(in srgb, var(--brand-green-raised) 40%, transparent);
+  --gold-rim: inset 0 1px color-mix(in srgb, var(--brand-white) 16%, transparent);
+  --radius: .625rem;
+  --radius-panel: 18px;
+  --font-display: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color-scheme: dark;
 }
-.visual-dashboard { --vd-gold: var(--gold); --vd-muted: #bab3bf; --vd-edge: #a37a4040; }
-.product-studio { --ps-gold: var(--gold); --ps-muted: #bab3bf; --ps-amethyst: #1a1917; }
-.creative-studio { --cs-gold: var(--gold); --cs-dim: #bab3bf; }
-body::before {
-  background: radial-gradient(ellipse at 14% 28%, #5c377a3d, transparent 56%), radial-gradient(ellipse at 86% 68%, #2827242e, transparent 50%), linear-gradient(160deg, #0a0a0a, #121210 38%, #0d0d0c 65%, #090808);
+body { background: var(--background); color: var(--foreground); }
+body::before { background: var(--environment); }
+::selection { background: var(--green); color: var(--foreground); }
+.visual-dashboard, .vd-root { --vd-gold: var(--gold); --vd-white: var(--foreground); --vd-muted: var(--muted-foreground); --vd-edge: var(--border); color: var(--foreground); }
+.product-studio { --ps-gold: var(--gold); --ps-muted: var(--muted-foreground); --ps-depth: var(--green); color: var(--foreground); }
+.creative-studio { --cs-gold: var(--gold); --cs-dim: var(--muted-foreground); color: var(--foreground); }
+.pm-studio { --pm-line: var(--border); --pm-muted: var(--muted-foreground); color: var(--foreground); }
+.ci-page { --ci-gold: var(--gold); --ci-text: var(--foreground); --ci-muted: var(--muted-foreground); background: var(--environment); font-family: var(--font-display); }
+.voyage { --v-gold: var(--gold); --v-text: var(--foreground); --v-muted: var(--muted-foreground); }
+/* Spatial depth belongs to the environment; everyday reading surfaces stay quiet. */
+.spatial-card, .gent-record, .vd-glass, .ps-glass, .panel, .pending-panel,
+.membership-record, .member-door, .draft-library, .studio-editor, .cs-director,
+.cs-canvas-panel, .pm-panel, .life-pulse, .desk-focus, .spatial-next, .ci-panel,
+.ci-section, .ci-path, .ci-connect, .voyage-card {
+  background: var(--glass); border-color: var(--border); box-shadow: var(--glass-shadow); border-radius: var(--radius-panel);
 }
-.ambient-gold { background: radial-gradient(ellipse, #a37a4026, #b992580d 40%, transparent 68%); }
-.ambient-platinum { background: radial-gradient(ellipse, #856b9b38, #2827242e 45%, transparent 65%); }
-.vd-glass, .ps-glass, .panel, .pending-panel, .membership-record,
-.member-door, .draft-library, .studio-editor, .cs-director, .cs-canvas-panel {
-  background: var(--brand-purple-quiet);
-  border-color: var(--glass-edge);
-  box-shadow: var(--brand-bevel);
+.membership, .status-hero, .vd-cassius, .ps-atlas, .intelligence-stage,
+.vd-earnings, .ps-product, .command-theatre {
+  background: var(--glass-signature); border-color: var(--border); box-shadow: var(--glass-shadow);
 }
-.vd-cassius, .ps-atlas, .intelligence-stage, .cs-director, .cs-empty {
-  background: var(--brand-purple-panel);
-  border-color: #a37a4080;
+.pm-hero { background: transparent; box-shadow: none; border-radius: 0; }
+.club-sidebar [data-slot='sidebar-inner'] {
+  background: linear-gradient(180deg, var(--brand-surface), var(--brand-surface-inset));
+  border: 1px solid var(--border); border-radius: 18px; box-shadow: var(--glass-shadow);
 }
-/* Full metal planes: financial identity and product display cases. */
-.vd-earnings, .membership, .status-hero, .ps-product {
-  background: var(--brand-gold-panel);
-  border-color: #b9925880;
-  box-shadow: var(--brand-bevel), 0 0 48px #28272424;
+.topbar { border-color: var(--border); background: color-mix(in srgb, var(--background) 88%, transparent); }
+.collective-nav a { font-size: .8125rem; letter-spacing: .05em; color: var(--muted-foreground); border-radius: 8px; }
+.collective-nav a[aria-current='page'], .mobile-dock a[aria-current='page'] {
+  color: var(--gold-light); background: var(--brand-green);
+  border-color: transparent; box-shadow: inset 2px 0 var(--brand-green-light);
 }
-.vd-earnings {
-  --vd-muted: #f2f0eb;
-  --vd-edge: #1a19174d;
-  color: #f2f0eb;
+.collective-nav a:hover { color: var(--foreground); background: var(--brand-surface-raised); }
+.mobile-dock { background: color-mix(in srgb, var(--brand-surface-inset) 95%, transparent); border: 1px solid var(--border); box-shadow: var(--glass-shadow); border-radius: 18px; }
+.brand-sub, .nav-label, .top-title, .page-heading, .preview-badge, .sidebar-note { color: var(--muted-foreground); }
+.brand-sub { font-size: .75rem; letter-spacing: .12em; }
+.monogram { color: var(--gold); }
+/* Neutral typography restores hierarchy: actions and key status carry the gold. */
+.spatial-introduction h1, .command-theatre .spatial-introduction h1 > span,
+.spatial-card-body strong, .gent-space h1, .detail-page > h1, .vd-welcome h1,
+.vd-section-title h2, .section-title h2, .ps-section-heading h2, .cs-section-title,
+.cs-header h2, .pm-studio h2, .ci-page h1, .ci-page h2, .vd-earnings-number {
+  color: var(--foreground); background: none; -webkit-text-fill-color: currentColor; text-shadow: none; filter: none;
+  font-family: var(--font-display); font-weight: 500; letter-spacing: -.035em;
 }
-.vd-earnings .vd-module-header > .vd-overline,
-.vd-earnings .vd-ledger-link { color: #f2f0eb; }
-.vd-earnings-number {
-  color: #f2f0eb;
-  background: none;
-  -webkit-text-fill-color: currentColor;
-  text-shadow: 0 2px 12px #1a191780;
+.command-theatre .spatial-introduction h1 { font-size: clamp(2rem, 3.5vw, 3.5rem); line-height: 1.12; }
+.command-theatre .spatial-introduction p, .spatial-card-body p { color: var(--muted-foreground); }
+.eyebrow, .vd-overline, .ci-eyebrow, .spatial-kicker, .cs-kicker, .ps-kicker { font-size: .75rem; letter-spacing: .13em; }
+.spatial-card { padding: 24px; min-height: 260px; border-radius: var(--radius-panel); }
+.spatial-card-head { color: var(--muted-foreground); font-size: .75rem; border-bottom: 1px solid var(--border); padding-bottom: 14px; }
+.spatial-card-body { margin-top: 62px; }
+.spatial-card-body strong { font-size: 1.5rem; }
+.spatial-card-foot { font-size: .875rem; color: var(--gold-light); }
+.module-sculpture { width: 135px; height: 82px; top: 62px; right: 24px; color: var(--gold); opacity: .7; filter: none; }
+.sculpture-face { fill: color-mix(in srgb, var(--green) 48%, transparent); }
+.spatial-card::before { opacity: .12; }
+.spatial-card:hover, .gent-record:hover, .vd-glass:hover, .ps-glass:hover { border-color: var(--edge-active); box-shadow: var(--glass-shadow); }
+/* Solid primary controls have a stable dark text bed. */
+.gold-button, .vd-gold-button, .cs-generate, .pm-primary, .ci-primary,
+.member-door .gold-button {
+  background: var(--gold); color: var(--background); border: 1px solid var(--gold);
+  border-radius: 10px; min-height: 44px; font-weight: 600; text-shadow: none; box-shadow: var(--gold-rim);
 }
-.vd-earnings-main {
-  padding: 16px;
-  border: 1px solid #b9925855;
-  border-radius: 16px;
-  background: #1a1917ed;
-  box-shadow: inset 0 1px #b9925833;
+.gold-button:hover:not(:disabled), .vd-gold-button:hover:not(:disabled), .cs-generate:hover:not(:disabled),
+.pm-primary:hover:not(:disabled), .ci-primary:hover:not(:disabled) { background: var(--gold-light); color: var(--background); filter: none; box-shadow: var(--gold-rim); }
+.outline-button, .ghost-button, .ci-secondary { color: var(--foreground); background: var(--brand-surface); border: 1px solid var(--input); border-radius: 10px; min-height: 44px; }
+:where(button, a) { transition-duration: 180ms; }
+:where(button, a):active:not(:disabled) { transition-duration: 80ms; }
+:root :is(input:not([type='checkbox']):not([type='radio']):not([type='range']), textarea, select) {
+  background: var(--brand-surface-inset); color: var(--foreground); border-color: var(--input); caret-color: var(--gold-light); font-size: 1rem;
 }
-.vd-earnings .vd-balances { padding: 16px; border-radius: 12px; background: #1a1917ed; }
-.vd-earnings .vd-balances span { color: #d9d1df; }
-.vd-metric { background: var(--brand-purple-quiet); border-color: #b9925855; }
-.vd-metric-label, .vd-metric-detail { color: #c6bdcd; }
-.vd-metric-label svg, .vd-hero-spark { color: var(--gold-light); }
-.vd-section-title h2, .cs-section-title, .ps-section-heading h2,
-.section-title h2, .brand-sub, .vd-cassius-wordmark { color: var(--gold-light); }
-.vd-command, .vd-command-wide { background: var(--brand-purple-panel); border-color: #a37a4080; }
-.vd-command-icon, .vd-command:nth-child(even) .vd-command-icon,
-.vd-pulse-icon, .ps-product-mark, .membership-seal {
-  background: var(--brand-gold-panel);
-  color: #f2f0eb;
-  border-color: #b9925880;
-  box-shadow: inset 0 1px #b9925880, 0 5px 18px #0006;
+:where(input, textarea)::placeholder { color: var(--brand-text-dim); opacity: 1; }
+:where(input, textarea, select)[aria-invalid='true'] { border-color: var(--brand-danger); }
+:where(input, textarea, select) { accent-color: var(--gold); }
+:where(button, a, input, textarea, select, summary, [tabindex]):focus-visible { outline: 2px solid var(--gold-light); outline-offset: 4px; }
+:where(dialog, [role='dialog'], [data-slot='popover-content'], [data-slot='select-content'], [data-slot='dropdown-menu-content']) {
+  background: var(--brand-surface-raised); color: var(--foreground); border-color: var(--input); box-shadow: var(--shadow-modal);
 }
-.vd-command-wide { background: var(--brand-gold-panel); color: #f2f0eb; }
-.vd-command-wide :is(span, small, strong, svg) { color: #f2f0eb; }
-.ps-product .ps-product-copy {
-  background: #1a1917ed;
-  border: 1px solid #b9925855;
-  border-radius: 16px;
-  padding: 20px;
+::backdrop { background: color-mix(in srgb, var(--background) 82%, transparent); backdrop-filter: blur(8px); }
+.vd-periods button[aria-pressed='true'], .vd-chart-switch button[aria-pressed='true'], .ps-chips button[aria-pressed='true'],
+.ps-destinations button[aria-pressed='true'], .cs-modes button[aria-pressed='true'] { color: var(--gold-light); background: var(--brand-green); border-color: var(--brand-green-edge); box-shadow: inset 0 -2px var(--brand-green-light); }
+.vd-tooltip, .vd-channel-donut > div { background: var(--brand-surface-raised); color: var(--foreground); border-color: var(--input); }
+.vd-chip { color: var(--muted-foreground); background: var(--brand-surface-inset); border-color: var(--border); }
+.vd-chip-gold { color: var(--gold-light); }
+.vd-chip-green, .ci-status { color: var(--brand-success); }
+.cassius-error, .vd-error { color: var(--brand-danger); }
+.notice, .cs-notice, .voyage-notice, .ci-message { color: var(--foreground); background: var(--brand-surface-raised); border-color: var(--edge-active); }
+.vd-chart-legend i:first-child { background: var(--chart-1); }
+.vd-chart-legend span:nth-child(2) i { background: var(--chart-2); }
+.vd-command, .vd-command-wide { background: var(--glass); border-color: var(--border); }
+.vd-command-icon, .vd-command:nth-child(even) .vd-command-icon, .vd-pulse-icon, .ps-product-mark, .membership-seal {
+  background: var(--brand-surface-raised); color: var(--gold); border-color: var(--border); box-shadow: none;
 }
-.ps-product .ps-product-top { color: #f2f0eb; }
-.ps-product .ps-product-copy :is(h3, p) { color: #f2f0eb; }
-.ps-product .ps-meta, .ps-product .ps-product-action { color: var(--gold-light); }
-.ps-product-mark { background: var(--brand-purple-panel); }
-.membership .card-wordmark { color: #f2f0eb; background: none; -webkit-text-fill-color: currentColor; }
-.membership :is(.eyebrow, .small-note, .card-meta, .card-footer),
-.status-hero :is(.eyebrow, p, span) { color: #f2f0eb; }
-/* Gold controls retain a dark, stable text bed through the metallic range. */
-.vd-gold-button, .gold-button, .cs-generate, .member-door .gold-button {
-  background: linear-gradient(145deg, #b99258, #a37a40 55%, #b99258);
-  color: #1a1917;
-  border-color: #b99258;
-  box-shadow: inset 0 1px #b99258, inset 0 -2px #5d462b, 0 7px 24px #a37a4026;
+.vd-command-wide :is(span, small) { color: var(--muted-foreground); }
+.vd-command-wide strong { color: var(--foreground); }
+.vd-earnings-main, .vd-earnings .vd-balances, .ps-product .ps-product-copy { background: var(--brand-surface-inset); border-color: var(--border); }
+/* Restrained light and reflection, respecting the existing motion controller. */
+.command-theatre { border-radius: 20px; }
+.command-light-green { background: radial-gradient(ellipse, color-mix(in srgb, var(--green) 65%, transparent), transparent 68%); }
+.command-light-gold { opacity: .25; background: radial-gradient(ellipse, color-mix(in srgb, var(--gold) 16%, transparent), transparent 66%); }
+.command-orbit, .command-theatre .instrument-ring { border-color: color-mix(in srgb, var(--gold) 32%, transparent); box-shadow: none; }
+.command-orbit-two, .command-theatre .ring-two { border-color: color-mix(in srgb, var(--green) 85%, transparent); }
+.command-theatre .instrument-center, .ci-core {
+  background: radial-gradient(circle at 30% 20%, color-mix(in srgb, var(--gold) 25%, var(--green)), var(--green) 40%, var(--background) 85%);
+  box-shadow: inset 1px 2px 12px color-mix(in srgb, var(--gold) 25%, transparent), inset -12px -15px 26px var(--background), 0 0 65px color-mix(in srgb, var(--green) 40%, transparent); border-color: var(--edge-active);
 }
-.vd-gold-button:hover:not(:disabled), .gold-button:hover:not(:disabled), .cs-generate:hover:not(:disabled) {
-  box-shadow: inset 0 1px #b99258, 0 10px 30px #a37a4040;
-}
-.collective-nav a[aria-current], .mobile-dock a[aria-current],
-.vd-periods button[aria-pressed='true'], .vd-chart-switch button[aria-pressed='true'],
-.ps-chips button[aria-pressed='true'], .ps-destinations button[aria-pressed='true'],
-.cs-modes button[aria-pressed='true'] {
-  color: var(--gold-light);
-  background: var(--brand-purple-panel);
-  border-color: var(--gold);
-  box-shadow: inset 0 1px #b9925866, inset 3px 0 var(--gold), 0 3px 12px #0005;
-}
-.cs-tabs button[aria-current], .ps-room-nav button[aria-pressed='true'] { color: var(--gold-light); border-color: var(--gold); }
-.club-sidebar [data-slot='sidebar-inner'], .mobile-dock { background: #0a0a0af5; border-color: #a37a4066; }
-.vd-chip-gold, .vd-chip-green { color: #b99258; background: #1a1917; border-color: #a37a4080; }
-.vd-command:hover, .ps-product:hover, .ps-daily:hover { border-color: var(--gold-light); box-shadow: var(--brand-bevel), 0 0 26px #a37a4026; }
-.vd-bar > span { background: var(--gold-metal); }
-.vd-chart-legend i:first-child { background: var(--gold); }
-.vd-chart-legend span:nth-child(2) i { background: var(--purple); }
-.vd-channel-donut > div { background: #1a1917; }
-.core-gold-bezel { background: conic-gradient(from -28deg, #5d462b, #a37a40 15%, #b99258 25%, #5d462b 38%, #a37a40 55%, #b99258 72%, #382e20 90%, #5d462b); }
-.core-heart { background: radial-gradient(circle, #b99258, #a37a40 20%, #856b9b66 48%, transparent 72%); }
-.core-aura { background: radial-gradient(circle, #856b9b4d, #28272433 45%, transparent 70%); }
-.core-filaments path:nth-child(2) { stroke: #856b9bb3; }
-.core-network circle { fill: var(--gold-light); }
-.cs-sigil, .cs-orbit, .ps-atlas-orbit { color: var(--gold-light); background: var(--brand-purple-panel); border-color: #a37a4080; }
-:where(button, a, input, textarea, select):focus-visible { outline: 2px solid var(--gold-light); outline-offset: 4px; }
-::selection { background: #351e49; color: #f2f0eb; }
+.command-theatre .instrument-stage::before, .core-aura, .ci-ambient { background: radial-gradient(ellipse, color-mix(in srgb, var(--green) 65%, transparent), transparent 70%); }
+.command-theatre .instrument-center::before { opacity: .2; }
+.orb-mark { color: var(--gold-light); text-shadow: none; }
+.orb-current { border-color: var(--edge-active); box-shadow: none; }
+.command-theatre .instrument-caption { color: var(--gold-light); }
+.command-theatre .instrument-caption > span { font-size: .75rem; color: var(--muted-foreground); }
+.ambient-gold { opacity: .18; background: radial-gradient(ellipse, var(--gold), transparent 68%); }
+.ambient-platinum { background: radial-gradient(ellipse, color-mix(in srgb, var(--green) 35%, transparent), transparent 65%); }
+.ambient-horizon, .cockpit-grid { opacity: .15; }
+[data-material]::after { background: linear-gradient(115deg, transparent 25%, color-mix(in srgb, var(--brand-white) 4%, transparent) 45%, transparent 60%); opacity: .25; }
+[data-material]:hover::after { opacity: .45; }
+.cockpit-readout a { background: var(--brand-surface-inset); border-color: var(--border); box-shadow: none; border-radius: 10px; }
+.cockpit-readout a:hover { background: var(--brand-surface-raised); border-color: var(--edge-active); }
+.cockpit-readout a > span { color: var(--muted-foreground); font-size: .75rem; }
+.cockpit-readout strong { color: var(--foreground); }
+.cockpit-readout small { color: var(--muted-foreground); }
+.ci-page .ci-field :is(input, textarea, select) { border-color: var(--input); }
+.ci-page .ci-wordmark span { font-size: .75rem; }
+.ci-header nav, .ci-field > span, .ci-page label, .ci-secondary { font-size: .875rem; }
 @media (max-width: 767px) {
-  .vd-earnings-main { padding: 12px; gap: 10px; }
-  .vd-earnings .vd-balances { padding: 12px; }
-  .ps-product .ps-product-copy { padding: 16px; }
+  .spatial-card { min-height: 246px; padding: 20px; }
+  .command-theatre { border-radius: 16px; padding: 24px 20px; }
+  .command-theatre .spatial-instrument { min-height: 230px; }
+  .command-theatre .instrument-stage { width: 230px; height: 230px; }
+  .ci-header { flex-wrap: wrap; padding: 22px 5%; }
+  .ci-header nav { flex-wrap: wrap; gap: 16px; }
+  .ci-page :is(input, textarea, select), .gent-editor :is(input, textarea, select) { font-size: 1rem; }
+  .topbar { gap: 10px; }
+  .membership-entry { font-size: .75rem; }
 }
-@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
-  .vd-glass, .ps-glass, .panel, .cs-director, .cs-canvas-panel, .member-door,
-  .membership, .status-hero, .ps-product, .vd-command, .mobile-dock {
-    background: #1a1917; color: #f2f0eb; border-color: #b99258; backdrop-filter: none;
-  }
+/* Material roles: green carries intelligence and selection; gold remains the action metal. */
+.vd-cassius, .ps-atlas, .intelligence-stage, .ci-connect {
+  background: radial-gradient(ellipse at 100% 0%, var(--brand-green-raised), transparent 70%), var(--brand-green-deep);
+}
+.command-theatre .instrument-center, .ci-core {
+  background: radial-gradient(circle at 30% 20%, var(--brand-green-edge), var(--brand-green) 42%, var(--background) 85%);
+  box-shadow: inset 1px 2px 12px color-mix(in srgb, var(--gold-light) 18%, transparent), inset -12px -15px 26px var(--background), var(--glow-intelligence);
+}
+.command-light-green { background: radial-gradient(ellipse, var(--brand-green-raised), transparent 68%); }
+.command-theatre .ring-two { border-color: var(--brand-green-edge); }
+.nav-dot, .preview-badge > span, .v-status-dot { background: var(--brand-success); box-shadow: none; }
+.ci-status, .vd-chip-green { background: var(--brand-green); color: var(--state-success); border-color: var(--brand-green-edge); }
+.vd-chip-amber { color: var(--state-warning); }
+.vd-chip-red, .cassius-error, .vd-error { color: var(--state-error); }
+.ps-atlas p, .vd-cassius p, .intelligence-stage p { color: var(--brand-text-muted); }
+.gold-button:active:not(:disabled), .vd-gold-button:active:not(:disabled), .cs-generate:active:not(:disabled),
+.pm-primary:active:not(:disabled), .ci-primary:active:not(:disabled) { background: var(--action-pressed); color: var(--background); }
+.outline-button:hover:not(:disabled), .ghost-button:hover:not(:disabled), .ci-secondary:hover:not(:disabled) {
+  background: var(--action-secondary-hover); border-color: var(--brand-green-edge); color: var(--foreground);
+}
+.outline-button:active:not(:disabled), .ghost-button:active:not(:disabled), .ci-secondary:active:not(:disabled) { background: var(--action-secondary); }
+:root button:disabled, :root [aria-disabled='true'] { opacity: 1; color: var(--brand-text-disabled); cursor: not-allowed; }
+:root button:disabled { background: var(--brand-disabled); border-color: var(--border); box-shadow: none; }
+input:disabled, textarea:disabled, select:disabled { opacity: 1; color: var(--brand-text-disabled); background: var(--brand-disabled); }
+:where(input, textarea, select):focus-visible { border-color: var(--focus); }
+:where(input, textarea, select):autofill { box-shadow: inset 0 0 0 100px var(--brand-surface-inset); -webkit-text-fill-color: var(--foreground); }
+:where(input[type='checkbox'], input[type='radio'], input[type='range']) { accent-color: var(--brand-green-light); }
+.system-state { background: var(--glass-signature); border: 1px solid var(--border); border-radius: var(--radius-panel); }
+.loading-surface { color: var(--brand-text-muted); }
+.notice:empty, .cs-notice:empty, .voyage-notice:empty { display: none; }
+.collective-nav a { font-size: .875rem; }
+:where(.gent-editor, .ci-field, .ps-search, .cs-field) label { font-size: .875rem; }
+@media (max-width: 767px) {
+  .topbar { flex-wrap: wrap; height: auto; min-height: 64px; }
+  .top-title { min-width: 0; }
+  .app-main, main, .gent-space, .detail-page, .ps-layout, .cs-layout { min-width: 0; }
+  .button-row { flex-wrap: wrap; }
+  :where(.gold-button, .outline-button, .ghost-button, .ci-primary, .ci-secondary) { max-width: 100%; white-space: normal; }
+}
+
+/* Individual screen corrections from browser review. */
+.ci-page .ci-primary { background: var(--action-primary); color: var(--brand-obsidian); }
+.ci-page .ci-primary:hover { background: var(--action-hover); color: var(--brand-obsidian); }
+.ci-page .ci-primary:active { background: var(--action-pressed); color: var(--brand-obsidian); }
+.choice { max-width: 100%; min-width: 0; }
+.choice [data-slot="select-value"] { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+#main:focus-visible { outline: none; }
+.gent-editor :is(input, textarea, select), .gent-dialog :is(input, textarea, select),
+.cs-field :is(input, textarea, select), .ci-field :is(input, textarea, select), .ps-search input {
+  border-color: var(--input); background: var(--brand-surface-inset); color: var(--foreground);
+}
+.gent-editor, .gent-dialog, .ci-dialog { border-color: var(--border); background: var(--glass); }
+.cassius-composer { border-color: var(--input); }
+.core-sphere { background: radial-gradient(circle at 35% 27%, var(--brand-green-raised), var(--brand-green-deep) 43%, var(--brand-obsidian) 78%); }
+.core-fluid { background: radial-gradient(ellipse at 30% 20%, var(--brand-green-edge), transparent 52%), radial-gradient(ellipse at 70% 70%, var(--brand-green), transparent 63%); }
+.core-heart { background: radial-gradient(circle, var(--brand-green-light), var(--brand-green-edge) 25%, transparent 72%); }
+.voyage-kicker i { background: var(--brand-success); box-shadow: none; }
+.voyage-card h2, .voyage-card h3 { color: var(--foreground); }
+.cassius-brief { color: var(--state-info); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
+@media (prefers-contrast: more), (prefers-reduced-transparency: reduce) {
+  :root, .dark { --glass: var(--brand-surface); --glass-signature: var(--brand-surface); --border: var(--brand-text-dim); --input: var(--brand-text-muted); }
+  [data-material]::after, .command-scenery, .living-atmosphere, .ci-ambient { display: none; }
+  .mobile-dock, .topbar { background: var(--background); backdrop-filter: none; }
 }
 @media (forced-colors: active) {
-  .vd-glass, .ps-glass, .panel, .membership, .status-hero, .ps-product,
-  .vd-command, .vd-gold-button, .gold-button, .cs-generate {
-    background: Canvas; color: CanvasText; border-color: ButtonText; box-shadow: none;
+  .command-scenery, .living-atmosphere, .module-sculpture, [data-material]::after { display: none; }
+  .spatial-card, .gent-record, .vd-glass, .ps-glass, .panel, .command-theatre, .mobile-dock,
+  .ci-page, .ci-panel, .membership, .status-hero, .gold-button, .vd-gold-button, .cs-generate,
+  .pm-primary, .ci-primary, .cockpit-readout a, .vd-command, .vd-command-wide {
+    background: Canvas; color: CanvasText; border: 1px solid CanvasText; box-shadow: none;
   }
-  .vd-earnings-number { color: CanvasText; text-shadow: none; }
+  .command-theatre .spatial-introduction h1 > span, .spatial-card-body strong { color: CanvasText; }
 }

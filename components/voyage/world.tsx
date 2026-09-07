@@ -21,7 +21,7 @@ export function VoyageWorld({
   preset: string;
   recenter: number;
 }) {
-  const container = useRef<HTMLDivElement>(null),
+  const container = useRef<HTMLElement>(null),
     adapter = useRef<WorldAdapter | null>(null);
   const [state, setState] = useState('Atmospheric preview');
   const [ready, setReady] = useState(0);
@@ -77,7 +77,7 @@ export function VoyageWorld({
           <span>V</span>
         </div>
       </div>
-      <div
+      <section
         ref={container}
         className="voyage-map"
         aria-label="Interactive world map"

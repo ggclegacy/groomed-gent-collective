@@ -1,0 +1,773 @@
+{
+  "reports": [
+    {
+      "name": "1440-home",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Good morning.The day is yours.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "count": 143
+        }
+      ]
+    },
+    {
+      "name": "1440-collective",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Your place in the Collective.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "name": "1440-intelligence",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "CASSIUS",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 29
+        }
+      ]
+    },
+    {
+      "name": "1440-voyage",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Good morning.Where will you find yourself?",
+      "overflow": [
+        "",
+        "",
+        ""
+      ],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "name": "1440-circle",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "name": "1440-life",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "count": 36
+        }
+      ]
+    },
+    {
+      "name": "1440-desk",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "name": "1440-vault",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "name": "1440-logbook",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "name": "1440-profile",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Known on your terms.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "name": "1440-identity",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Your identity",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 41
+        }
+      ]
+    },
+    {
+      "name": "1440-performance",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Your impact",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 34
+        }
+      ]
+    },
+    {
+      "name": "1440-knowledge",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Product Studio",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "name": "1440-studio",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 60
+        }
+      ]
+    },
+    {
+      "name": "1440-status",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Status & privileges",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 36
+        }
+      ]
+    },
+    {
+      "name": "1440-membership",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "A place ingood company.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "1440-onboarding",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Meet the intelligencebuilt around you.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "name": "1440-my-cassius",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Meet the intelligencebuilt around you.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "name": "1440-sign-in",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Good to have you back.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "name": "1440-sign-up",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Welcome to the Collective.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "name": "1440-member-session",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Your account.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "name": "1440-members-studio",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "A place ingood company.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "1440-auth-continue",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Your account needs a moment.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "1440-voyage",
+      "width": 1440,
+      "scroll": 1440,
+      "background": "rgb(8, 8, 8)",
+      "title": "Good morning.Where will you find yourself?",
+      "overflow": [
+        "",
+        "",
+        ""
+      ],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "name": "390-home",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Good morning.The day is yours.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "count": 125
+        }
+      ]
+    },
+    {
+      "name": "390-collective",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Your place in the Collective.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "name": "390-intelligence",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "CASSIUS",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "name": "390-voyage",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Good morning.Where will you find yourself?",
+      "overflow": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 37
+        }
+      ]
+    },
+    {
+      "name": "390-circle",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "name": "390-life",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "name": "390-desk",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "name": "390-vault",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "name": "390-logbook",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "name": "390-profile",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Known on your terms.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "name": "390-identity",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Your identity",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "name": "390-performance",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Your impact",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "name": "390-knowledge",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Product Studio",
+      "overflow": [
+        "",
+        ""
+      ],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "name": "390-studio",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Remember what matters.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 41
+        }
+      ]
+    },
+    {
+      "name": "390-status",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Status & privileges",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "name": "390-membership",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "A place ingood company.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "390-onboarding",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Meet the intelligencebuilt around you.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "name": "390-my-cassius",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Meet the intelligencebuilt around you.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "name": "390-sign-in",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Good to have you back.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "name": "390-sign-up",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Welcome to the Collective.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "name": "390-member-session",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Your account.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "390-members-studio",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "A place ingood company.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "390-auth-continue",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Your account needs a moment.",
+      "overflow": [],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "390-voyage",
+      "width": 390,
+      "scroll": 390,
+      "background": "rgb(8, 8, 8)",
+      "title": "Good morning.Where will you find yourself?",
+      "overflow": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 37
+        }
+      ]
+    }
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+  ]
+}

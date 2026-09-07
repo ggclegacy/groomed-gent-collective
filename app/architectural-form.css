@@ -1,9 +1,5 @@
 /* Form-only layer: existing brand colors and material gradients remain unchanged. */
-:root, .dark {
-  --radius: 1rem;
-  --radius-panel: 22px;
-  --font-display: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-}
+
 :where(h1,h2,h3,h4) { text-wrap:balance; }
 :where(h1,h2,h3,h4) em,
 .creative-studio em, .ps-header em, .spatial-introduction h1 > span {
@@ -39,7 +35,7 @@
 .membership, .status-hero, .member-door {
   border-radius:22px;
   box-shadow:inset 0 1px color-mix(in srgb,var(--gold-light) 28%,transparent),
-    inset 0 -1px #0008, 0 24px 56px #0006;
+    inset 0 -1px color-mix(in srgb, var(--brand-black) 53.33%, transparent), 0 24px 56px color-mix(in srgb, var(--brand-black) 40%, transparent);
 }
 .spatial-card { min-height:300px; padding:24px; }
 .spatial-card::before { top:-92%; opacity:.65; }
@@ -51,7 +47,7 @@
   position:absolute; width:190px; height:112px; right:18px; top:68px;
   color:var(--gold); stroke:currentColor; stroke-width:1.2;
   stroke-linecap:square; stroke-linejoin:miter;
-  filter:drop-shadow(6px 10px 5px #0006); pointer-events:none;
+  filter:drop-shadow(6px 10px 5px color-mix(in srgb, var(--brand-black) 40%, transparent)); pointer-events:none;
 }
 .sculpture-face { fill:color-mix(in srgb,var(--gold) 9%,transparent); }
 .sculpture-ground { opacity:.3; }
@@ -59,7 +55,7 @@
 .instrument-chassis {
   position:absolute; inset:0; width:100%; height:100%;
   stroke:var(--gold); stroke-width:1; opacity:.62;
-  filter:drop-shadow(0 3px 3px #0009);
+  filter:drop-shadow(0 3px 3px color-mix(in srgb, var(--brand-black) 60%, transparent));
 }
 .instrument-chassis path:nth-child(2) { opacity:.38; }
 .command-theatre .instrument-body { animation-duration:24s; }

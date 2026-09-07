@@ -22,6 +22,14 @@ function subscribe(callback: () => void) {
 }
 const surfaces =
   '.command-theatre,.spatial-card,.spatial-instrument,.gent-record,.life-pulse,.desk-focus,.gent-dialog,.vd-glass,.vd-command,.ps-glass,.ps-product,.cs-director,.cs-canvas-panel,.panel,.membership,.status-hero,.intelligence-stage,.member-door,.membership-record,.pm-panel,.pm-hero,.spatial-next';
+/** Delay decorative DOM annotations until the route's client boundary has hydrated. */
+export function useMaterialScope() {
+  useEffect(() => {
+    document.body.dataset.materialReady = 'true';
+    window.dispatchEvent(new Event('ggc-material-ready'));
+    return () => { delete document.body.dataset.materialReady; };
+  }, []);
+}
 /** Decorative light only. Never represents account activity or service connectivity. */
 export function LivingMaterials() {
   const paused = useSyncExternalStore(subscribe, snapshot, () => false);
@@ -49,6 +57,7 @@ export function LivingMaterials() {
       { threshold: 0.05 },
     );
     const scan = () => {
+      if (document.body.dataset.materialReady !== 'true') return;
       for (const node of observed)
         if (!node.isConnected) {
           observer.unobserve(node);
@@ -121,6 +130,7 @@ export function LivingMaterials() {
       });
     };
     scan();
+    window.addEventListener('ggc-material-ready', scan);
     visibility();
     mutations.observe(document.body, { childList: true, subtree: true });
     document.addEventListener('visibilitychange', visibility);
@@ -133,6 +143,7 @@ export function LivingMaterials() {
     media.addEventListener('change', clear);
     pointer.addEventListener('change', clear);
     return () => {
+      window.removeEventListener('ggc-material-ready', scan);
       observer.disconnect();
       mutations.disconnect();
       cancelAnimationFrame(frame);

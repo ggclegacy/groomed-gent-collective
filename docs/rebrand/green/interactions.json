@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Desk draft creation",
+    "Draft completion",
+    "Cassius dialog focus and Escape dismissal",
+    "Mobile drawer navigation and Logbook capture",
+    "Ambient motion control",
+    "Sample chart, metric switch and accessible exact-value table",
+    "Tablet reflow",
+    "Forced colors rendered"
+  ],
+  "errors": []
+}

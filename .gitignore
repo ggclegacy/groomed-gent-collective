@@ -43,3 +43,6 @@ next-env.d.ts
 # Checked-in setup templates contain names only.
 !.env.voyage.example
 !.env.accounts.example
+
+# Local visual review captures
+/docs/rebrand/green/screenshots/

@@ -1,9 +1,9 @@
 .pm-studio {
-  --pm-line: rgba(181, 142, 96, 0.17);
-  --pm-muted: #aaa79e;
+  --pm-line: color-mix(in srgb, var(--brand-gold) 17%, transparent);
+  --pm-muted: var(--brand-text-muted);
   max-width: 1360px;
   margin: auto;
-  color: #edeae2;
+  color: var(--brand-gold-light);
 }
 .pm-studio p {
   line-height: 1.7;
@@ -16,7 +16,7 @@
 }
 .pm-studio button:focus-visible,
 .pm-studio a:focus-visible {
-  outline: 2px solid #b99258;
+  outline: 2px solid var(--brand-gold);
 }
 .pm-studio button:disabled {
   opacity: 0.5;
@@ -51,11 +51,11 @@
 .pm-hero h2 em {
   font-family: var(--font-display);
   font-weight: 400;
-  color: #b99258;
+  color: var(--brand-gold);
 }
 .pm-hero p {
   max-width: 580px;
-  color: #b8b5ad;
+  color: var(--brand-text-muted);
 }
 .pm-hero-stat {
   display: flex;
@@ -79,10 +79,10 @@
   border: 1px solid var(--pm-line);
   border-radius: 50%;
   padding: 1.6rem;
-  color: #b99258;
+  color: var(--brand-gold);
   background: radial-gradient(
     circle,
-    rgba(181, 142, 96, 0.1),
+    color-mix(in srgb, var(--brand-gold) 10%, transparent),
     transparent 70%
   );
   margin-bottom: 0.6rem;
@@ -102,8 +102,8 @@
   font-size: 1rem;
 }
 .pm-nav button[aria-current='page'] {
-  color: #b88e5e;
-  border-color: #b99258;
+  color: var(--brand-gold);
+  border-color: var(--brand-gold);
 }
 .pm-account {
   display: flex;
@@ -122,17 +122,17 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #b88e5e;
+  background: var(--brand-gold);
   flex: none;
 }
 .pm-dot.pm-connected {
-  background: #94c4a0;
+  background: var(--brand-green);
 }
 .pm-context {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 1.2rem;
-  background: #11110f;
+  background: var(--brand-surface-inset);
   padding: 1rem 1.2rem;
   border: 1px solid var(--pm-line);
   border-radius: 12px;
@@ -156,7 +156,7 @@
   padding: clamp(1.2rem, 2.7vw, 2rem);
   border: 1px solid var(--pm-line);
   border-radius: 16px;
-  background: linear-gradient(130deg, #171713, #10100f);
+  background: linear-gradient(130deg, var(--brand-surface), var(--brand-surface-inset));
   margin: 1.2rem 0;
   min-width: 0;
 }
@@ -175,7 +175,7 @@
   padding: 0.6rem 0.9rem;
   font-size: 0.75rem;
   white-space: nowrap;
-  color: #b99258;
+  color: var(--brand-gold);
 }
 .pm-mission {
   max-width: 960px;
@@ -205,7 +205,7 @@
   display: flex;
   gap: 0.8rem;
   align-items: flex-start;
-  border: 1px solid #35352c;
+  border: 1px solid var(--brand-surface-raised);
   border-radius: 10px;
   padding: 1rem;
   cursor: pointer;
@@ -214,12 +214,12 @@
 }
 .pm-options input {
   margin-top: 0.35rem;
-  accent-color: #b99258;
+  accent-color: var(--brand-gold);
   flex: none;
 }
 .pm-options label[data-selected='true'] {
-  border-color: #b99258;
-  background: #b992580b;
+  border-color: var(--brand-gold);
+  background: color-mix(in srgb, var(--brand-gold) 4.31%, transparent);
 }
 .pm-confidence {
   display: flex;
@@ -233,19 +233,19 @@
   margin-bottom: 0.65rem;
 }
 .pm-confidence button {
-  border: 1px solid #3c3a31;
+  border: 1px solid var(--brand-surface-raised);
   border-radius: 99px;
   padding: 0.6rem 1rem;
   font-size: 1rem;
 }
 .pm-confidence button[aria-pressed='true'] {
-  color: #b88e5e;
-  background: #b9925810;
-  border-color: #b99258;
+  color: var(--brand-gold);
+  background: color-mix(in srgb, var(--brand-gold) 6.27%, transparent);
+  border-color: var(--brand-gold);
 }
 .pm-callout {
-  border-left: 2px solid #b88e5e;
-  background: #b9925809;
+  border-left: 2px solid var(--brand-gold);
+  background: color-mix(in srgb, var(--brand-gold) 3.53%, transparent);
   padding: 1.2rem;
   margin: 1.4rem 0;
 }
@@ -258,7 +258,7 @@
   font-size: 1rem !important;
 }
 .pm-fact {
-  border-bottom: 1px solid #ffffff0d;
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-white) 5.1%, transparent);
   padding: 1.05rem 0;
 }
 .pm-fact:last-child {
@@ -278,19 +278,19 @@
 }
 .pm-status {
   font-size: 0.75rem;
-  border: 1px solid #ffffff20;
+  border: 1px solid color-mix(in srgb, var(--brand-white) 12.55%, transparent);
   border-radius: 4px;
   padding: 0.2rem 0.4rem;
   flex: none;
-  color: #bbb7aa;
+  color: var(--brand-text-muted);
 }
 .pm-status.pm-verified {
-  color: #a5d6ad;
-  border-color: #a5d6ad40;
+  color: var(--brand-text-muted);
+  border-color: color-mix(in srgb, var(--brand-green) 25.1%, transparent);
 }
 .pm-status.pm-disputed {
-  color: #e5b18a;
-  border-color: #e5b18a40;
+  color: var(--brand-gold-light);
+  border-color: color-mix(in srgb, var(--brand-gold) 25.1%, transparent);
 }
 .pm-source {
   font-size: 0.78rem;
@@ -300,10 +300,10 @@
 .pm-source summary {
   cursor: pointer;
   padding: 0.6rem 0;
-  color: #b88e5e;
+  color: var(--brand-gold);
 }
 .pm-source blockquote {
-  border-left: 1px solid #b9925855;
+  border-left: 1px solid color-mix(in srgb, var(--brand-gold) 33.33%, transparent);
   padding-left: 1rem;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
@@ -311,7 +311,7 @@
 }
 .pm-source a,
 .pm-citations a {
-  color: #b99258;
+  color: var(--brand-gold);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -323,7 +323,7 @@
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  color: #b99258;
+  color: var(--brand-gold);
 }
 .pm-ai-answer {
   margin-top: 1.4rem;
@@ -357,7 +357,7 @@
 .pm-studio output {
   display: block;
   margin: 0.75rem 0;
-  color: #b88e5e;
+  color: var(--brand-gold);
   font-size: 1rem;
 }
 .pm-tabs {
@@ -437,7 +437,7 @@
   border: 1px solid var(--pm-line);
   border-radius: 14px;
   padding: 1.3rem;
-  background: linear-gradient(135deg, #1b1b15, #0e0f0f);
+  background: linear-gradient(135deg, var(--brand-surface), var(--brand-surface-inset));
   display: flex;
   flex-direction: column;
   transition:
@@ -446,7 +446,7 @@
   min-width: 0;
 }
 .pm-product:hover {
-  border-color: #b9925888;
+  border-color: color-mix(in srgb, var(--brand-gold) 53.33%, transparent);
   transform: translateY(-2px);
 }
 .pm-product h3 {
@@ -462,13 +462,13 @@
   justify-content: space-between;
   font-size: 0.75rem;
   letter-spacing: 0.1em;
-  color: #bfb397;
+  color: var(--brand-gold-light);
 }
 .pm-product-symbol {
   height: 100px;
   display: grid;
   place-items: center;
-  color: #b9925899;
+  color: color-mix(in srgb, var(--brand-gold) 60%, transparent);
 }
 .pm-product-footer {
   margin-top: auto;
@@ -477,7 +477,7 @@
   justify-content: space-between;
   gap: 0.5rem;
   font-size: 0.75rem;
-  color: #b99258;
+  color: var(--brand-gold);
 }
 .pm-product-footer span:last-child {
   display: flex;
@@ -495,13 +495,13 @@
   border-radius: 12px;
   max-width: 85%;
   margin: 0.9rem 0;
-  background: #22221b;
+  background: var(--brand-surface-raised);
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
 .pm-turn.pm-user {
   margin-left: auto;
-  background: #b9925812;
+  background: color-mix(in srgb, var(--brand-gold) 7.06%, transparent);
   border: 1px solid var(--pm-line);
 }
 .pm-turn p {
@@ -509,19 +509,19 @@
 }
 .pm-turn .eyebrow {
   font-size: 0.75rem;
-  color: #b88e5e;
+  color: var(--brand-gold);
 }
 .pm-guide {
   list-style: decimal;
   padding-left: 1.25rem;
   display: grid;
   gap: 0.8rem;
-  color: #ded7c8;
+  color: var(--brand-gold-light);
   line-height: 1.6;
 }
 .pm-share-card {
-  background: #eee9df;
-  color: #171713;
+  background: var(--brand-gold);
+  color: var(--brand-surface);
   border-radius: 10px;
   padding: 1.7rem;
   margin: 1rem 0;
@@ -545,7 +545,7 @@
   display: block;
   font-size: 2rem;
   font-weight: 400;
-  color: #b88e5e;
+  color: var(--brand-gold);
 }
 .pm-metrics span {
   font-size: 0.75rem;
@@ -584,7 +584,7 @@
   margin-top: 0.3rem;
 }
 .pm-review-row > span:nth-child(2) {
-  color: #b99258;
+  color: var(--brand-gold);
   font-size: 0.75rem;
 }
 .pm-footer {
