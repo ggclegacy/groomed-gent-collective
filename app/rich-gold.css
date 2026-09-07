@@ -1,12 +1,12 @@
 /* One gold family: warm antique metal, with readable text and no white highlights. */
 :root, .dark {
-  --gold: #b58e60;
-  --gold-light: #bd9465;
+  --gold: #c99b58;
+  --gold-light: #dfb56d;
   --gold-dim: #76512f;
-  --primary: #b58e60;
-  --foreground: #b58e60;
-  --gold-metal: linear-gradient(118deg, #a67e4d 0%, #b58e60 24%, #bd9465 43%, #aa8050 48%, #a67e4d 70%, #b58e60 100%);
-  --gold-rim: inset 0 1px #bd946580, inset 0 -1px #76512f;
+  --primary: #c99b58;
+  --foreground: #c99b58;
+  --gold-metal: linear-gradient(118deg, #b38748 0%, #c99b58 24%, #dfb56d 43%, #bc8c49 48%, #b38748 70%, #c99b58 100%);
+  --gold-rim: inset 0 1px #dfb56d80, inset 0 -1px #76512f;
 }
 .visual-dashboard, .product-studio, .creative-studio {
   --vd-gold: var(--gold);
@@ -17,20 +17,20 @@
 .member-door .gold-button {
   background: var(--gold-metal);
   color: #100c09;
-  border-color: #bd9465;
+  border-color: #dfb56d;
   box-shadow: var(--gold-rim), 0 7px 22px #0006;
   text-shadow: none;
 }
 .gold-button:hover:not(:disabled), .vd-gold-button:hover:not(:disabled),
 .cs-generate:hover:not(:disabled), .pm-primary:hover:not(:disabled) {
   filter: none;
-  box-shadow: var(--gold-rim), 0 10px 28px #0008, 0 0 18px #a67e4d22;
+  box-shadow: var(--gold-rim), 0 10px 28px #0008, 0 0 18px #b3874822;
 }
 /* Large lettering can carry the metal reflection; small type stays solid gold. */
 @supports (background-clip: text) {
   .command-theatre .spatial-introduction h1 > span,
   .spatial-card-body strong {
-    background: linear-gradient(115deg, #b58e60, #bd9465 42%, #aa8050 65%, #b58e60);
+    background: linear-gradient(115deg, #c99b58, #dfb56d 42%, #bc8c49 65%, #c99b58);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;

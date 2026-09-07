@@ -21,7 +21,7 @@ function subscribe(callback: () => void) {
   };
 }
 const surfaces =
-  '.command-theatre,.spatial-card,.spatial-instrument,.gent-record,.life-pulse,.desk-focus,.gent-dialog,.vd-glass,.vd-command,.ps-glass,.ps-product,.cs-director,.cs-canvas-panel,.panel,.membership,.status-hero,.intelligence-stage,.member-door,.membership-record';
+  '.command-theatre,.spatial-card,.spatial-instrument,.gent-record,.life-pulse,.desk-focus,.gent-dialog,.vd-glass,.vd-command,.ps-glass,.ps-product,.cs-director,.cs-canvas-panel,.panel,.membership,.status-hero,.intelligence-stage,.member-door,.membership-record,.pm-panel,.pm-hero,.spatial-next';
 /** Decorative light only. Never represents account activity or service connectivity. */
 export function LivingMaterials() {
   const paused = useSyncExternalStore(subscribe, snapshot, () => false);
@@ -58,7 +58,7 @@ export function LivingMaterials() {
         if (!observed.has(node)) {
           observed.add(node);
           node.dataset.material = '';
-          if (node.matches('.spatial-card,.membership,.vd-command,.ps-product'))
+          if (node.matches('.spatial-card,.membership,.vd-command,.ps-product,.gent-record,.vd-glass,.ps-glass,.pm-panel'))
             node.dataset.spatial = 'true';
           observer.observe(node);
         }

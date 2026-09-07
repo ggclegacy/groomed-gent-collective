@@ -6,10 +6,10 @@
   min-height: 440px;
   padding: clamp(28px, 4vw, 64px);
   gap: 30px;
-  border: 1px solid #a67e4d4a;
+  border: 1px solid #b387484a;
   border-radius: 26px;
   background: linear-gradient(105deg, #09080df5 0%, #100b17ed 43%, #180b25 100%);
-  box-shadow: inset 0 1px #bd946550, inset 0 -1px #000, 0 28px 70px #0008;
+  box-shadow: inset 0 1px #dfb56d50, inset 0 -1px #000, 0 28px 70px #0008;
 }
 .command-scenery { position:absolute; inset:0; z-index:-1; pointer-events:none; overflow:hidden; }
 .command-light { position:absolute; width:72%; height:140%; right:-10%; top:-20%; border-radius:50%; }
@@ -19,22 +19,22 @@
 }
 .command-light-gold {
   width:50%; height:95%; top:15%; right:5%;
-  background:radial-gradient(ellipse, #a67e4d40, transparent 66%);
+  background:radial-gradient(ellipse, #b3874840, transparent 66%);
   animation:command-drift 27s ease-in-out infinite alternate-reverse;
 }
 .command-orbit {
   position:absolute; width:720px; height:360px; right:-180px; top:25%;
-  border:1px solid #a67e4d42; border-radius:50%;
-  box-shadow:0 0 20px #a67e4d0e, inset 0 1px #bd946520;
+  border:1px solid #b3874842; border-radius:50%;
+  box-shadow:0 0 20px #b387480e, inset 0 1px #dfb56d20;
   transform:rotate(-28deg); animation:command-orbit 32s ease-in-out infinite alternate;
 }
 .command-orbit-two { width:830px; height:440px; right:-245px; top:15%; border-color:#8957a43b; animation-direction:alternate-reverse; animation-duration:39s; }
 .command-stars {
   position:absolute; inset:0 0 0 42%; opacity:.6;
-  background:radial-gradient(circle at 20% 18%, #bd9465aa 0 1px, transparent 2px),radial-gradient(circle at 82% 35%, #bd946599 0 1px, transparent 2px),radial-gradient(circle at 30% 74%, #8957a4 0 1px, transparent 2px),radial-gradient(circle at 68% 85%, #bd9465 0 1px, transparent 2px);
+  background:radial-gradient(circle at 20% 18%, #dfb56daa 0 1px, transparent 2px),radial-gradient(circle at 82% 35%, #dfb56d99 0 1px, transparent 2px),radial-gradient(circle at 30% 74%, #8957a4 0 1px, transparent 2px),radial-gradient(circle at 68% 85%, #dfb56d 0 1px, transparent 2px);
   animation:command-breathe 9s ease-in-out infinite alternate;
 }
-.command-horizon { position:absolute; bottom:0; left:0; right:0; height:1px; background:linear-gradient(90deg, transparent, #a67e4daa, #72429499, transparent); }
+.command-horizon { position:absolute; bottom:0; left:0; right:0; height:1px; background:linear-gradient(90deg, transparent, #b38748aa, #72429499, transparent); }
 .command-theatre .spatial-introduction { position:relative; z-index:2; }
 .command-theatre .spatial-introduction h1 { font-size:clamp(32px, 3.6vw, 56px); max-width:17ch; }
 .command-theatre .spatial-introduction h1 > span { color:var(--gold-light); }
@@ -45,15 +45,15 @@
 .command-theatre .instrument-center {
   inset:37px; overflow:hidden; isolation:isolate;
   background:radial-gradient(circle at 28% 23%, #81519d, #3c1957 35%, #1c0b2d 67%, #090610 95%);
-  box-shadow:inset 3px 3px 15px #bd946570, inset -12px -15px 25px #000a, 0 0 32px #7233a480, 0 0 75px #69279855;
+  box-shadow:inset 3px 3px 15px #dfb56d70, inset -12px -15px 25px #000a, 0 0 32px #7233a480, 0 0 75px #69279855;
   border:1px solid #aa87bc60;
 }
-.command-theatre .instrument-center::before { content:''; position:absolute; inset:-15%; z-index:-1; border-radius:50%; background:conic-gradient(from 30deg, transparent 10%, #a67e4d44 23%, transparent 34%, #8747b775 48%, transparent 64%, #a67e4d44 80%, transparent); animation:orb-current-turn 15s linear infinite; }
-.orb-current { position:absolute; inset:8%; border:1px solid #bd946565; border-radius:44% 56% 38% 62%; transform:rotate(-30deg); animation:orb-current-turn 23s linear infinite reverse; box-shadow:0 0 14px #a67e4d40; }
-.orb-mark { position:relative; z-index:2; color:#bd9465; text-shadow:0 0 22px #a67e4daa; }
-.command-theatre .instrument-ring { border-width:2px; border-color:#a67e4da8; box-shadow:inset 1px 1px 2px #bd946580, 0 0 16px #a67e4d25; }
+.command-theatre .instrument-center::before { content:''; position:absolute; inset:-15%; z-index:-1; border-radius:50%; background:conic-gradient(from 30deg, transparent 10%, #b3874844 23%, transparent 34%, #8747b775 48%, transparent 64%, #b3874844 80%, transparent); animation:orb-current-turn 15s linear infinite; }
+.orb-current { position:absolute; inset:8%; border:1px solid #dfb56d65; border-radius:44% 56% 38% 62%; transform:rotate(-30deg); animation:orb-current-turn 23s linear infinite reverse; box-shadow:0 0 14px #b3874840; }
+.orb-mark { position:relative; z-index:2; color:#dfb56d; text-shadow:0 0 22px #b38748aa; }
+.command-theatre .instrument-ring { border-width:2px; border-color:#b38748a8; box-shadow:inset 1px 1px 2px #dfb56d80, 0 0 16px #b3874825; }
 .command-theatre .ring-two { border-color:#7d4a9fa0; }
-.command-theatre .instrument-stage::before { content:''; position:absolute; inset:4%; border-radius:50%; background:radial-gradient(circle, #7433a54d, #a67e4d15 45%, transparent 69%); animation:command-breathe 7s ease-in-out infinite alternate; }
+.command-theatre .instrument-stage::before { content:''; position:absolute; inset:4%; border-radius:50%; background:radial-gradient(circle, #7433a54d, #b3874815 45%, transparent 69%); animation:command-breathe 7s ease-in-out infinite alternate; }
 .command-theatre .instrument-plinth { opacity:.45; }
 .command-theatre .instrument-caption { color:var(--gold-light); font-size:17px; }
 .command-theatre .instrument-caption > span { color:#b5a5c2; font-size:11px; }

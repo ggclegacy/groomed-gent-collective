@@ -1,8 +1,8 @@
 .creative-studio {
-  --cs-gold: #b58e60;
+  --cs-gold: #c99b58;
   --cs-dim: #a9b0ad;
   margin-top: 26px;
-  color: #b58e60;
+  color: #c99b58;
 }
 .cs-header {
   display: flex;
@@ -36,7 +36,7 @@
 .creative-studio em {
   font-family: var(--font-display);
   font-weight: 400;
-  color: #b58e60;
+  color: #c99b58;
 }
 .cs-header p,
 .cs-brands p {
@@ -121,7 +121,7 @@
   gap: 8px;
   font-size: 9px;
   letter-spacing: 1.8px;
-  color: #b58e60;
+  color: #c99b58;
   margin-bottom: 23px;
 }
 .cs-section-title > span:last-child {
@@ -143,9 +143,9 @@
   color: #b4b0b8;
 }
 .cs-modes button[aria-pressed='true'] {
-  background: #a67e4d1c;
-  border-color: #a67e4d77;
-  color: #b58e60;
+  background: #b387481c;
+  border-color: #b3874877;
+  color: #c99b58;
 }
 .cs-label {
   display: block;
@@ -232,7 +232,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background: linear-gradient(110deg, #b58e60, #7e5e3a);
+  background: linear-gradient(110deg, #c99b58, #7e5e3a);
   color: #17170f;
   padding: 14px 12px;
   border-radius: 9px;
@@ -276,9 +276,9 @@
   padding: 30px;
 }
 .cs-orbit {
-  color: #b58e60;
-  border: 1px solid #a67e4d44;
-  outline: 1px solid #a67e4d18;
+  color: #c99b58;
+  border: 1px solid #b3874844;
+  outline: 1px solid #b3874818;
   outline-offset: 19px;
   border-radius: 50%;
   width: 90px;
@@ -388,7 +388,7 @@
 .cs-copy strong {
   display: block;
   font-weight: 400;
-  color: #b58e60;
+  color: #c99b58;
 }
 .cs-copy > button,
 .cs-text-button {
@@ -440,7 +440,7 @@
   gap: 12px;
   background: #272523;
   color: #dfd5c6;
-  border: 1px solid #b58e6033;
+  border: 1px solid #c99b5833;
   border-radius: 10px;
   padding: 15px;
   font-size: 12px;
