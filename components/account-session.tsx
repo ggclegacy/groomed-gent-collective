@@ -32,6 +32,7 @@ export function SessionBoundary({ children }: { children: React.ReactNode }) {
         document.documentElement.dataset.accountMotion = settings.reducedMotion
           ? 'reduce'
           : 'system';
+      if (current) window.dispatchEvent(new Event('ggc-account-motion'));
     };
     void fetch('/api/account/settings', { cache: 'no-store' })
       .then(async (r) => {
