@@ -55,5 +55,9 @@ export default function proxy(request: NextRequest, event: NextFetchEvent) {
 // Evaluate every application URL, including catch-all routes with extensions.
 // Only Next's static files and image optimizer bypass the server gate.
 export const config = {
-  matcher: ['/((?!_next/static|_next/image).*)'],
+  matcher: [
+    '/((?!_next/static|_next/image).*)',
+    '/(api|trpc)(.*)',
+    '/__clerk/:path*',
+  ],
 };

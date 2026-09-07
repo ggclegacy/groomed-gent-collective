@@ -1,4 +1,6 @@
 import { ClerkProvider } from '@clerk/nextjs';
+import { ui } from '@clerk/ui';
+import { shadcn } from '@clerk/ui/themes';
 import { SessionBoundary, AccountShortcut } from '@/components/account-session';
 import { accountsConfigured } from '@/lib/auth-config';
 import type { Metadata, Viewport } from 'next';
@@ -47,12 +49,14 @@ export default function RootLayout({
       <body>
         {accountsConfigured() ? (
           <ClerkProvider
+            ui={ui}
             dynamic
             signInUrl="/sign-in"
             signUpUrl="/sign-up"
             signInForceRedirectUrl="/auth/continue"
             signUpForceRedirectUrl="/auth/continue"
             appearance={{
+              theme: shadcn,
               variables: {
                 colorPrimary: brand.gold,
                 colorBackground: brand.surface,
