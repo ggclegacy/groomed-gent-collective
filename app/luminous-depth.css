@@ -9,8 +9,8 @@
   --brand-purple-panel: var(--glass-signature);
   --brand-gold-panel: var(--glass-signature);
   --border: #b9925855;
-  --glass-edge: #c8a16666;
-  --brand-bevel: inset 0 1px #e0b978a0, inset 1px 0 #843baa45, inset 0 -2px #09050eaa, 0 8px 14px #0005, 0 25px 55px #0007;
+  --glass-edge: #c8a16645;
+  --brand-bevel: inset 0 1px #c8a16655, inset 1px 0 #843baa30, inset 0 -2px #09050eaa, 0 8px 14px #0005, 0 25px 55px #0007;
   --glass-shadow: var(--brand-bevel);
 }
 .spatial-card, .gent-record, .vd-glass, .ps-glass, .panel,
@@ -24,19 +24,19 @@
 .spatial-card:nth-child(2), .vd-cassius, .ps-atlas, .intelligence-stage,
 .membership, .status-hero, .ps-product, .pm-hero, .vd-earnings {
   background: var(--glass-signature);
-  border-color: #c8a16680;
+  border-color: #c8a16655;
   box-shadow: var(--brand-bevel), 0 0 38px #74379520;
 }
 /* Reflection follows the existing pointer controller; no extra render loop. */
 [data-material]::after {
-  background: linear-gradient(115deg, transparent 20%, #b9925805 35%, #c8a16618 43%, #e0b97870 44%, #c8a16615 45%, transparent 49%, #813cac18 57%, transparent 65%);
-  opacity: .72;
+  background: linear-gradient(115deg, transparent 20%, #b9925805 35%, #c8a1660d 41%, #c8a16624 44%, #c8a1660c 47%, transparent 49%, #813cac18 57%, transparent 65%);
+  opacity: .40;
 }
-[data-material]:hover::after { opacity: 1; }
-.spatial-card::before { opacity: 1; }
+[data-material]:hover::after { opacity: .62; }
+.spatial-card::before { opacity: .45; }
 .spatial-card:hover, .gent-record:hover, .vd-glass:hover, .ps-glass:hover {
-  border-color: #c8a166a0;
-  box-shadow: var(--brand-bevel), 0 0 30px #8e45b52a;
+  border-color: #c8a16670;
+  box-shadow: var(--brand-bevel), 0 0 30px #8e45b518;
 }
 .command-theatre {
   background: radial-gradient(ellipse at 82% 34%, #62208745, transparent 55%), linear-gradient(108deg, #100a16, #170a24 46%, #2c0e42);
