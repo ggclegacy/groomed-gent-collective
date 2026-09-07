@@ -1,10 +1,8 @@
+import { accountsConfigured } from '@/lib/auth-config';
 import Link from 'next/link';
-import { ClerkProvider, SignIn, SignUp } from '@clerk/nextjs';
+import { SignIn, SignUp } from '@clerk/nextjs';
 export function AccountEntry({ signup = false }: { signup?: boolean }) {
-  const configured =
-    process.env.GGC_ACCOUNT_PROVIDER === 'clerk-neon' &&
-    process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY &&
-    process.env.CLERK_SECRET_KEY;
+  const configured = accountsConfigured();
   return (
     <main className="ci-page">
       <header className="ci-header">
@@ -24,37 +22,23 @@ export function AccountEntry({ signup = false }: { signup?: boolean }) {
             : 'Your space is ready when you are.'}
         </p>
         {configured ? (
-          <ClerkProvider
-            signInUrl="/sign-in"
-            signUpUrl="/sign-up"
-            appearance={{
-              variables: {
-                colorPrimary: '#c8a65c',
-                colorBackground: '#0b1512',
-                colorForeground: '#eee9df',
-                colorMutedForeground: '#b6beb7',
-                colorInput: '#090f0d',
-                colorInputForeground: '#eee9df',
-                borderRadius: '14px',
-              },
-            }}
-          >
+          <>
             {signup ? (
               <SignUp
                 routing="path"
                 path="/sign-up"
                 signInUrl="/sign-in"
-                forceRedirectUrl="/onboarding"
+                forceRedirectUrl="/auth/continue"
               />
             ) : (
               <SignIn
                 routing="path"
                 path="/sign-in"
                 signUpUrl="/sign-up"
-                forceRedirectUrl="/onboarding"
+                forceRedirectUrl="/auth/continue"
               />
             )}
-          </ClerkProvider>
+          </>
         ) : (
           <div className="ci-panel">
             <p>

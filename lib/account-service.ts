@@ -1,4 +1,8 @@
-import { readIntelligence, changeIntelligence } from './intelligence/service.ts';
+import { ensureProfile, parseOnboarding } from './profile.ts';
+import {
+  readIntelligence,
+  changeIntelligence,
+} from './intelligence/service.ts';
 import type { AccountDatabase } from './account-database.ts';
 import { emptyMemory, parseMemory } from './gentleman/model.ts';
 import {
@@ -31,8 +35,18 @@ export function getIdentity(
 ): Identity | null {
   if (config.mode === 'verified-provider') {
     const identity = config.verifiedIdentity;
-    if (!identity || typeof identity.id !== 'string' || !identity.id || identity.id.length > 256) return null;
-    try { return { id: identity.id, email: normalizeEmail(identity.email) }; } catch { return null; }
+    if (
+      !identity ||
+      typeof identity.id !== 'string' ||
+      !identity.id ||
+      identity.id.length > 256
+    )
+      return null;
+    try {
+      return { id: identity.id, email: normalizeEmail(identity.email) };
+    } catch {
+      return null;
+    }
   }
   // Header authentication is allowed only behind the configured Sites dispatcher.
   // Local Vite middleware strips client identity headers and supplies its mock user.
@@ -58,7 +72,10 @@ export async function access(
   config: IdentityConfig,
 ): Promise<AccountAccess> {
   const configured = Boolean(
-    db && ['sites-local', 'sites-dispatch', 'verified-provider'].includes(config.mode ?? ''),
+    db &&
+    ['sites-local', 'sites-dispatch', 'verified-provider'].includes(
+      config.mode ?? '',
+    ),
   );
   const user = configured ? getIdentity(request, config) : null;
   const member =
@@ -68,12 +85,19 @@ export async function access(
           .bind(user.id)
           .first<Member>()
       : null;
+  const profile =
+    user && db ? await ensureProfile(db, user, config.ownerId) : null;
   return {
+    ...(profile ? { profile } : {}),
     configured,
-    ...(config.mode === 'verified-provider' ? { signInPath: '/sign-in', signOutPath: '/member-session' } : {}),
+    ...(config.mode === 'verified-provider'
+      ? { signInPath: '/sign-in', signOutPath: '/member-session' }
+      : {}),
     local: config.mode === 'sites-local',
     signedIn: Boolean(user),
-    owner: Boolean(user && config.ownerId && user.id === config.ownerId),
+    owner:
+      Boolean(user && config.ownerId && user.id === config.ownerId) ||
+      Boolean(profile && ['founder', 'admin'].includes(profile.role)),
     email: user?.email ?? null,
     member,
   };
@@ -98,7 +122,10 @@ function json(data: unknown, status = 200) {
     },
   });
 }
-async function body(request: Request, maximum = 4_000_000): Promise<Record<string, unknown>> {
+async function body(
+  request: Request,
+  maximum = 4_000_000,
+): Promise<Record<string, unknown>> {
   if (
     request.headers.get('origin') !== new URL(request.url).origin ||
     request.headers.get('sec-fetch-site') === 'cross-site'
@@ -151,10 +178,59 @@ export async function accountApi(
       throw new AccountError(503, 'Member services are not configured.');
     const user = getIdentity(request, config);
     if (!user) throw new AccountError(401, 'Sign in to continue.');
+    if (state.member?.status === 'suspended')
+      throw new AccountError(
+        403,
+        'Your membership is suspended. Contact the Collective for access.',
+      );
+    if (path === '/api/account/onboarding') {
+      if (request.method === 'GET') {
+        const row = await db
+          .prepare(
+            'SELECT revision,document FROM onboarding_drafts WHERE owner_id=?',
+          )
+          .bind(user.id)
+          .first<{ revision: number; document: string }>();
+        return json({
+          revision: row?.revision ?? 0,
+          draft: row ? JSON.parse(row.document) : null,
+        });
+      }
+      if (request.method !== 'PUT')
+        throw new AccountError(405, 'Use GET or PUT for onboarding.');
+      const data = await body(request, 20000);
+      const draft = parseOnboarding(data.draft);
+      if (!Number.isSafeInteger(data.revision) || Number(data.revision) < 0)
+        throw new AccountError(400, 'Invalid saved revision.');
+      const now = new Date().toISOString();
+      let row = await db
+        .prepare(
+          'INSERT INTO onboarding_drafts (owner_id,revision,document,saved_at) SELECT ?,1,?,? WHERE ?=0 ON CONFLICT(owner_id) DO NOTHING RETURNING revision',
+        )
+        .bind(user.id, JSON.stringify(draft), now, data.revision)
+        .first<{ revision: number }>();
+      if (!row)
+        row = await db
+          .prepare(
+            'UPDATE onboarding_drafts SET document=?,saved_at=?,revision=revision+1 WHERE owner_id=? AND revision=? RETURNING revision',
+          )
+          .bind(JSON.stringify(draft), now, user.id, data.revision)
+          .first<{ revision: number }>();
+      if (!row)
+        throw new AccountError(
+          409,
+          'Onboarding changed in another window. Reload your saved answers before continuing.',
+        );
+      return json({ revision: row.revision, draft });
+    }
     if (path === '/api/account/intelligence') {
-      if (request.method === 'GET') return json(await readIntelligence(db,user.id));
-      if (request.method === 'POST') return json(await changeIntelligence(db,user.id,await body(request,120000)));
-      throw new AccountError(405,'Use GET or POST for your Cassius profile.');
+      if (request.method === 'GET')
+        return json(await readIntelligence(db, user.id));
+      if (request.method === 'POST')
+        return json(
+          await changeIntelligence(db, user.id, await body(request, 120000)),
+        );
+      throw new AccountError(405, 'Use GET or POST for your Cassius profile.');
     }
     const owner = () => {
       if (!state.owner)
@@ -217,23 +293,60 @@ export async function accountApi(
       });
     }
     if (path === '/api/account/memory' && request.method === 'GET') {
-      active();
-      const row = await db.prepare("SELECT revision,document FROM gentleman_memories WHERE owner_id=? AND EXISTS (SELECT 1 FROM members WHERE user_id=? AND status='active')").bind(user.id,user.id).first<{revision:number;document:string}>();
-      return json(row ? {revision:row.revision,memory:parseMemory(JSON.parse(row.document))} : {revision:0,memory:emptyMemory()});
+      const row = await db
+        .prepare(
+          'SELECT revision,document FROM gentleman_memories WHERE owner_id=? AND EXISTS (SELECT 1 FROM account_profiles WHERE user_id=?)',
+        )
+        .bind(user.id, user.id)
+        .first<{ revision: number; document: string }>();
+      return json(
+        row
+          ? {
+              revision: row.revision,
+              memory: parseMemory(JSON.parse(row.document)),
+            }
+          : { revision: 0, memory: emptyMemory() },
+      );
     }
     const data = await body(request);
     const now = new Date().toISOString();
     if (path === '/api/account/memory' && request.method === 'PUT') {
-      active();
-      if (!Number.isSafeInteger(data.revision) || (data.revision as number) < 0) throw new AccountError(400,'A valid memory revision is required.');
+      if (!Number.isSafeInteger(data.revision) || (data.revision as number) < 0)
+        throw new AccountError(400, 'A valid memory revision is required.');
       let memory;
-      try { memory = parseMemory(data.memory); if (new TextEncoder().encode(JSON.stringify(memory)).byteLength > 1_500_000) throw new Error(); }
-      catch { throw new AccountError(400,'The memory document is invalid or too large.'); }
+      try {
+        memory = parseMemory(data.memory);
+        if (
+          new TextEncoder().encode(JSON.stringify(memory)).byteLength >
+          1_500_000
+        )
+          throw new Error();
+      } catch {
+        throw new AccountError(
+          400,
+          'The memory document is invalid or too large.',
+        );
+      }
       const document = JSON.stringify(memory);
-      let result = await db.prepare("INSERT INTO gentleman_memories (owner_id,revision,document,saved_at) SELECT ?,1,?,? WHERE ?=0 AND EXISTS (SELECT 1 FROM members WHERE user_id=? AND status='active') ON CONFLICT(owner_id) DO NOTHING RETURNING revision").bind(user.id,document,now,data.revision,user.id).first<{revision:number}>();
-      if (!result) result = await db.prepare("UPDATE gentleman_memories SET document=?,revision=revision+1,saved_at=? WHERE owner_id=? AND revision=? AND EXISTS (SELECT 1 FROM members WHERE user_id=? AND status='active') RETURNING revision").bind(document,now,user.id,data.revision,user.id).first<{revision:number}>();
-      if (!result) throw new AccountError(409,'Memory changed or access was withdrawn. Export your working copy and reload before saving again.');
-      return json({revision:result.revision,memory});
+      let result = await db
+        .prepare(
+          'INSERT INTO gentleman_memories (owner_id,revision,document,saved_at) SELECT ?,1,?,? WHERE ?=0 AND EXISTS (SELECT 1 FROM account_profiles WHERE user_id=?) ON CONFLICT(owner_id) DO NOTHING RETURNING revision',
+        )
+        .bind(user.id, document, now, data.revision, user.id)
+        .first<{ revision: number }>();
+      if (!result)
+        result = await db
+          .prepare(
+            'UPDATE gentleman_memories SET document=?,revision=revision+1,saved_at=? WHERE owner_id=? AND revision=? AND EXISTS (SELECT 1 FROM account_profiles WHERE user_id=?) RETURNING revision',
+          )
+          .bind(document, now, user.id, data.revision, user.id)
+          .first<{ revision: number }>();
+      if (!result)
+        throw new AccountError(
+          409,
+          'Memory changed or access was withdrawn. Export your working copy and reload before saving again.',
+        );
+      return json({ revision: result.revision, memory });
     }
 
     if (path === '/api/account/learning' && request.method === 'POST') {
@@ -383,6 +496,12 @@ export async function accountApi(
           403,
           'This invitation is unavailable or belongs to another email.',
         );
+      await db
+        .prepare(
+          "UPDATE account_profiles SET role='ambassador',name=(SELECT name FROM members WHERE user_id=?),updated_at=? WHERE user_id=? AND role='member'",
+        )
+        .bind(user.id, now, user.id)
+        .run();
       return json(await access(request, db, config));
     }
     if (path === '/api/account/members/status' && request.method === 'POST') {

@@ -139,3 +139,7 @@ Cassius now answers from a dated, structured local registry of 18 website-listed
 ## Meet Cassius and personal intelligence
 
 Account creation and login now lead to `/onboarding`. Members can review optional AI context imports, approve their foundation, and manage individual knowledge records at `/my-cassius`. Public accounts remain separate from invitation-only partner privileges. Personalization is off until the member opts in. See [architecture, privacy model, migration and auth setup](docs/cassius/personal-intelligence.md) before enabling live accounts.
+
+## Persistent accounts
+
+Clerk + Neon setup, Apple/Google connections, roles, migrations, recovery and phone testing: [Account authentication](docs/account-authentication.md). Real provider activation requires deployment credentials; local database tests are not live sign-in verification.

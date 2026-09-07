@@ -64,11 +64,18 @@ export const libraries = sqliteTable(
   (table) => [check('positive_revision', sql`${table.revision} >= 0`)],
 );
 
-export const gentlemanMemories = sqliteTable('gentleman_memories', {
-  ownerId: text('owner_id').primaryKey().references(() => members.userId),
-  revision: integer('revision').notNull().default(0),
-  document: text('document').notNull(), savedAt: text('saved_at').notNull(),
-}, table => [check('memory_positive_revision', sql`${table.revision} >= 0`)]);
+export const gentlemanMemories = sqliteTable(
+  'gentleman_memories',
+  {
+    ownerId: text('owner_id')
+      .primaryKey()
+      .references(() => accountProfiles.userId),
+    revision: integer('revision').notNull().default(0),
+    document: text('document').notNull(),
+    savedAt: text('saved_at').notNull(),
+  },
+  (table) => [check('memory_positive_revision', sql`${table.revision} >= 0`)],
+);
 
 export const productLearning = sqliteTable(
   'product_learning',
@@ -84,3 +91,33 @@ export const productLearning = sqliteTable(
 );
 
 export * from './intelligence.sqlite';
+
+export const accountProfiles = sqliteTable(
+  'account_profiles',
+  {
+    userId: text('user_id').primaryKey(),
+    email: text('email').notNull(),
+    name: text('name').notNull().default(''),
+    role: text('role').notNull().default('member'),
+    createdAt: text('created_at').notNull(),
+    updatedAt: text('updated_at').notNull(),
+  },
+  (t) => [
+    check(
+      'account_role',
+      sql`${t.role} IN ('member','ambassador','admin','founder')`,
+    ),
+  ],
+);
+export const onboardingDrafts = sqliteTable(
+  'onboarding_drafts',
+  {
+    ownerId: text('owner_id')
+      .primaryKey()
+      .references(() => accountProfiles.userId, { onDelete: 'cascade' }),
+    revision: integer('revision').notNull().default(0),
+    document: text('document').notNull(),
+    savedAt: text('saved_at').notNull(),
+  },
+  (t) => [check('onboarding_revision', sql`${t.revision} >= 0`)],
+);

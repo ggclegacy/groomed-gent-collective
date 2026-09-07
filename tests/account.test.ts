@@ -346,16 +346,19 @@ void test('suspension blocks reads/writes and invitation replay cannot restore a
       ).status,
       403,
     );
-    const replay = (await (
-      await f.call(
-        '/accept',
-        'POST',
-        { token: invite.token },
-        'a',
-        'a@example.test',
-      )
-    ).json()) as { member: { status: string } };
-    assert.equal(replay.member.status, 'suspended');
+    const replay = await f.call(
+      '/accept',
+      'POST',
+      { token: invite.token },
+      'a',
+      'a@example.test',
+    );
+    assert.equal(replay.status, 403);
+    assert.equal(
+      f.sql.prepare('SELECT status FROM members WHERE user_id=?').get('a')
+        ?.status,
+      'suspended',
+    );
     assert.equal(
       (
         await f.call(

@@ -11,6 +11,7 @@ export interface Member {
   joined_at: string;
 }
 export interface AccountAccess {
+  profile?: import('./profile.ts').Profile;
   signInPath?: string;
   signOutPath?: string;
   configured: boolean;

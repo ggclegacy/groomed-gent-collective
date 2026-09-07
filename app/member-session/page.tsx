@@ -1,27 +1,32 @@
 import Link from 'next/link';
-import { ClerkProvider, UserButton } from '@clerk/nextjs';
+import { UserProfile } from '@clerk/nextjs';
+import { LogoutButton } from '@/components/account-session';
+import { accountsConfigured } from '@/lib/auth-config';
+export const dynamic = 'force-dynamic';
 export default function Page() {
-  if (
-    process.env.GGC_ACCOUNT_PROVIDER !== 'clerk-neon' ||
-    !process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY ||
-    !process.env.CLERK_SECRET_KEY
-  )
-    return (
-      <main className="member-page">
-        <Link href="/membership">Return to membership</Link>
-      </main>
-    );
   return (
-    <main className="member-page">
-      <h1>Your member session.</h1>
-      <p>
-        Use your account menu to sign out. Unsaved working memory is cleared
-        when you leave the app.
-      </p>
-      <ClerkProvider afterSignOutUrl="/membership">
-        <UserButton />
-      </ClerkProvider>
-      <Link href="/membership">Return to membership</Link>
+    <main className="ci-page">
+      <header className="ci-header">
+        <Link className="ci-wordmark" href="/">
+          GROOMED GENT <span>COLLECTIVE</span>
+        </Link>
+        <Link href="/my-cassius">My Cassius</Link>
+      </header>
+      <section className="ci-settings">
+        <h1>Your account.</h1>
+        {accountsConfigured() ? (
+          <>
+            <p>
+              Manage your email, password, connected accounts and active
+              sessions.
+            </p>
+            <LogoutButton />
+            <UserProfile routing="hash" />
+          </>
+        ) : (
+          <p>Account services are being connected.</p>
+        )}
+      </section>
     </main>
   );
 }

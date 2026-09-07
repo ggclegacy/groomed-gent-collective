@@ -1,5 +1,7 @@
 'use client';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import type { OnboardingDraft } from '@/lib/profile';
 import { VoiceInput } from '@/components/browser-voice-input';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import {
@@ -68,6 +70,7 @@ export function CassiusIdentity({
 }: {
   onboarding?: boolean;
 }) {
+  const router = useRouter();
   const [access, setAccess] = useState<AccountAccess | null>(null),
     [state, setState] = useState<Intelligence | null>(null),
     [error, setError] = useState(''),
@@ -132,6 +135,8 @@ export function CassiusIdentity({
         }),
       );
       setNotice('Your Cassius profile is saved.');
+      if (onboarding && (data.action === 'approve' || data.action === 'skip'))
+        router.replace('/');
       return true;
     } catch (e) {
       setError(
@@ -240,7 +245,7 @@ export function CassiusIdentity({
             <h1>Loading your private profile.</h1>
           </section>
         ) : onboarding && !state.completed ? (
-          <Meet state={state} busy={busy} mutate={mutate} />
+          <ResumableMeet state={state} busy={busy} mutate={mutate} />
         ) : (
           <KnowledgeSpace
             state={state}
@@ -282,25 +287,100 @@ function Choices({
     </div>
   );
 }
-function Meet({
-  state,
-  busy,
-  mutate,
-}: {
+function ResumableMeet(props: {
   state: Intelligence;
   busy: boolean;
   mutate: (d: Record<string, unknown>) => Promise<boolean>;
 }) {
-  const [step, setStep] = useState(0),
-    [name, setName] = useState(''),
-    [role, setRole] = useState<string[]>([]),
-    [improve, setImprove] = useState<string[]>([]),
-    [style, setStyle] = useState<string[]>([]),
-    [goal, setGoal] = useState(''),
-    [business, setBusiness] = useState(''),
-    [other, setOther] = useState(''),
+  const [saved, setSaved] = useState<{
+    revision: number;
+    draft: OnboardingDraft | null;
+  } | null>(null);
+  const [error, setError] = useState('');
+  const load = useCallback(() => {
+    accountRequest<{ revision: number; draft: OnboardingDraft | null }>(
+      '/onboarding',
+    )
+      .then((value) => {
+        setSaved(value);
+        setError('');
+      })
+      .catch(() => setError('Your saved answers could not be opened.'));
+  }, []);
+  useEffect(load, [load]);
+  if (!saved)
+    return (
+      <section className="ci-meet">
+        {error ? (
+          <>
+            <p role="alert">{error}</p>
+            <button onClick={load}>Try again</button>
+          </>
+        ) : (
+          <output>Opening your saved answers…</output>
+        )}
+      </section>
+    );
+  return <Meet {...props} initial={saved} />;
+}
+function Meet({
+  initial,
+  state,
+  busy,
+  mutate,
+}: {
+  initial: { revision: number; draft: OnboardingDraft | null };
+  state: Intelligence;
+  busy: boolean;
+  mutate: (d: Record<string, unknown>) => Promise<boolean>;
+}) {
+  const [step, setStep] = useState(initial.draft?.step ?? 0),
+    [name, setName] = useState(initial.draft?.name ?? ''),
+    [role, setRole] = useState<string[]>(initial.draft?.role ?? []),
+    [improve, setImprove] = useState<string[]>(initial.draft?.improve ?? []),
+    [style, setStyle] = useState<string[]>(initial.draft?.style ?? []),
+    [goal, setGoal] = useState(initial.draft?.goal ?? ''),
+    [business, setBusiness] = useState(initial.draft?.business ?? ''),
+    [other, setOther] = useState(initial.draft?.other ?? ''),
     [items, setItems] = useState<Proposal[] | null>(null),
     [importing, setImporting] = useState(false);
+  const revision = useRef(initial.revision);
+  const [saving, setSaving] = useState(false),
+    [saveError, setSaveError] = useState('');
+  const saveStep = async (nextStep: number) => {
+    setSaving(true);
+    setSaveError('');
+    try {
+      const saved = await accountRequest<{ revision: number }>(
+        '/onboarding',
+        'PUT',
+        {
+          revision: revision.current,
+          draft: {
+            step: nextStep,
+            name,
+            role,
+            improve,
+            style,
+            goal,
+            business,
+            other,
+          },
+        },
+      );
+      revision.current = saved.revision;
+      setStep(nextStep);
+      return true;
+    } catch (e) {
+      setSaveError(
+        e instanceof Error ? e.message : 'Your answers could not be saved.',
+      );
+      return false;
+    } finally {
+      setSaving(false);
+    }
+  };
+  busy = busy || saving;
   const businessOwner = role.includes(roles[0]);
   const steps = businessOwner
     ? ['name', 'roles', 'improve', 'goal', 'business', 'style', 'context']
@@ -336,6 +416,12 @@ function Meet({
           <span key={s} className={i <= step ? 'is-lit' : ''} />
         ))}
       </div>
+      <output className="ci-save-status">
+        {saving
+          ? 'Saving your answers…'
+          : 'Continue saves this step to your account.'}
+      </output>
+      {saveError && <p role="alert">{saveError}</p>}
       {items ? (
         <>
           <h1>
@@ -535,21 +621,33 @@ function Meet({
             <button
               className="ci-secondary"
               disabled={step === 0 || busy}
-              onClick={() => setStep((v) => v - 1)}
+              onClick={() => void saveStep(step - 1)}
             >
               <ArrowLeft size={16} /> Back
             </button>
             <button
               className="ci-primary"
               disabled={busy}
-              onClick={() =>
-                current === 'context' ? review() : setStep((v) => v + 1)
-              }
+              onClick={async () => {
+                if (await saveStep(current === 'context' ? step : step + 1)) {
+                  if (current === 'context') review();
+                }
+              }}
             >
               {current === 'context' ? 'Review my foundation' : 'Continue'}
               <ArrowRight size={17} />
             </button>
           </div>
+          <button
+            className="ci-secondary"
+            disabled={busy}
+            onClick={async () => {
+              if (await saveStep(step))
+                window.location.assign('/member-session');
+            }}
+          >
+            Save and finish later
+          </button>
           <button
             className="ci-text-link"
             disabled={busy}

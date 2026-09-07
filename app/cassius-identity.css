@@ -788,3 +788,45 @@
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+
+.ci-page {
+  padding-top: max(16px, env(safe-area-inset-top));
+  padding-bottom: max(24px, env(safe-area-inset-bottom));
+}
+.ci-settings {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+.ci-settings > p {
+  margin: 16px 0;
+}
+.ci-settings .cl-rootBox {
+  margin-top: 24px;
+  max-width: 100%;
+}
+.ci-auth .cl-rootBox,
+.ci-auth .cl-cardBox {
+  width: 100%;
+  max-width: 420px;
+}
+.ci-auth .cl-card {
+  box-shadow: none;
+}
+.ci-save-status {
+  font-size: 14px;
+  color: #b6beb7;
+  margin: 12px 0;
+}
+@media (max-width: 600px) {
+  .ci-page input,
+  .ci-page textarea {
+    font-size: 16px;
+  }
+  .ci-page button {
+    min-height: 44px;
+  }
+  .ci-settings .cl-navbar {
+    max-width: 100%;
+  }
+}

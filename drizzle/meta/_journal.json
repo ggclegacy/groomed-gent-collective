@@ -29,6 +29,20 @@
       "when": 1788738069467,
       "tag": "0003_broken_the_twelve",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1788741189248,
+      "tag": "0004_stormy_sinister_six",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1788741345924,
+      "tag": "0005_medical_omega_red",
+      "breakpoints": true
     }
   ]
 }

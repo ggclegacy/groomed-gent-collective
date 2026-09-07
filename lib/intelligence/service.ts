@@ -114,6 +114,20 @@ export async function changeIntelligence(
         400,
         'Add at least one useful detail, or choose to start without a profile.',
       );
+    const preferredName = items.find(
+      (p) =>
+        p.category === 'identity' &&
+        p.decision === 'confirm' &&
+        p.text.startsWith('Preferred name: '),
+    );
+    if (preferredName)
+      statements.push(
+        db
+          .prepare(
+            'UPDATE account_profiles SET name=?,updated_at=? WHERE user_id=?',
+          )
+          .bind(preferredName.text.slice(16, 116), now, userId),
+      );
     for (const p of items)
       save({
         ...p,
@@ -261,6 +275,10 @@ export async function changeIntelligence(
         .bind(userId),
     );
   } else throw new AccountError(400, 'Unknown profile action.');
+  if (['approve', 'skip', 'erase'].includes(String(data.action)))
+    statements.push(
+      db.prepare('DELETE FROM onboarding_drafts WHERE owner_id=?').bind(userId),
+    );
   try {
     await db.batch(statements);
   } catch (error) {

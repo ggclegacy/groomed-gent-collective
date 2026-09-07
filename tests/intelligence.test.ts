@@ -443,3 +443,168 @@ void test('removed empty proposals are discarded and approval limits apply to re
     await f.close();
   }
 });
+
+for (const kind of ['sqlite', 'postgres'] as const)
+  void test(`${kind}: new accounts persist resumable onboarding, isolate memory and cannot grant themselves privileges`, async () => {
+    const f = await fixture(kind);
+    const call = (
+      path: string,
+      method = 'GET',
+      data?: unknown,
+      id: string | null = 'new-user',
+      origin = 'https://collective.test',
+    ) =>
+      accountApi(
+        new Request(`https://collective.test/api/account${path}`, {
+          method,
+          headers: { origin, 'content-type': 'application/json' },
+          ...(data ? { body: JSON.stringify(data) } : {}),
+        }),
+        f.db,
+        {
+          mode: 'verified-provider',
+          verifiedIdentity: id ? { id, email: `${id}@example.test` } : null,
+          ownerId: 'founder',
+        },
+      );
+    try {
+      const first = (await (await call('')).json()) as {
+        profile: { user_id: string; role: string; created_at: string };
+      };
+      assert.equal(first.profile.user_id, 'new-user');
+      assert.equal(first.profile.role, 'member');
+      assert.deepEqual(
+        ((await (await call('')).json()) as typeof first).profile,
+        first.profile,
+      );
+      assert.equal((await call('/invitations', 'GET')).status, 403);
+      assert.equal(
+        (
+          await call('/members/status', 'POST', {
+            id: 'new-user',
+            status: 'active',
+            role: 'founder',
+          })
+        ).status,
+        403,
+      );
+      const draft = {
+        step: 2,
+        name: 'Test Member',
+        role: ['Professional'],
+        improve: ['Fitness'],
+        style: [],
+        goal: 'Stay consistent',
+        business: '',
+        other: '',
+      };
+      assert.equal(
+        (await call('/onboarding', 'PUT', { revision: 0, draft }, null)).status,
+        401,
+      );
+      assert.equal(
+        (
+          await call(
+            '/onboarding',
+            'PUT',
+            { revision: 0, draft },
+            'new-user',
+            'https://evil.test',
+          )
+        ).status,
+        403,
+      );
+      assert.equal(
+        (await call('/onboarding', 'PUT', { revision: 0, draft })).status,
+        200,
+      );
+      assert.deepEqual(await (await call('/onboarding')).json(), {
+        revision: 1,
+        draft,
+      });
+      assert.deepEqual(
+        await (
+          await call('/onboarding', 'GET', undefined, 'other-user')
+        ).json(),
+        { revision: 0, draft: null },
+      );
+      assert.equal(
+        (
+          await call('/onboarding', 'PUT', {
+            revision: 0,
+            draft: { ...draft, name: 'stale' },
+          })
+        ).status,
+        409,
+      );
+      assert.deepEqual(await (await call('/onboarding')).json(), {
+        revision: 1,
+        draft,
+      });
+      const { emptyMemory } = await import('../lib/gentleman/model.ts');
+      const memory = emptyMemory();
+      memory.profile.name = 'Private tester';
+      assert.equal(
+        (
+          await call('/memory', 'PUT', {
+            revision: 0,
+            memory,
+            user_id: 'other-user',
+          })
+        ).status,
+        200,
+      );
+      assert.deepEqual(
+        ((await (await call('/memory')).json()) as { memory: unknown }).memory,
+        memory,
+      );
+      assert.notDeepEqual(
+        (
+          (await (
+            await call('/memory', 'GET', undefined, 'other-user')
+          ).json()) as { memory: unknown }
+        ).memory,
+        memory,
+      );
+      assert.equal(
+        (
+          await call('/intelligence', 'POST', {
+            action: 'approve',
+            revision: 0,
+            approved: true,
+            items: [
+              {
+                ...item,
+                category: 'identity',
+                source: 'You',
+                certainty: 'known',
+                decision: 'confirm',
+                text: 'Preferred name: Test Member',
+              },
+            ],
+          })
+        ).status,
+        200,
+      );
+      assert.equal(
+        ((await (await call('')).json()) as { profile: { name: string } })
+          .profile.name,
+        'Test Member',
+      );
+      assert.equal(
+        ((await (await call('/intelligence')).json()) as Intelligence)
+          .completed,
+        true,
+      );
+      assert.deepEqual(await (await call('/onboarding')).json(), {
+        revision: 0,
+        draft: null,
+      });
+      assert.equal(
+        (await call('/intelligence', 'GET', undefined, null)).status,
+        401,
+      );
+    } finally {
+      await f.close();
+    }
+  });

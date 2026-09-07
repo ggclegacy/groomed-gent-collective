@@ -1,5 +1,7 @@
 # Next.js / Vercel handoff — September 5, 2026
 
+> Historical migration notes. Persistent Clerk/Neon accounts and onboarding are now implemented in source. See [current account setup](account-authentication.md) for required activation and verification; the unconfigured production status still applies until that setup is completed.
+
 ## Import settings
 
 | Setting | Value |

@@ -98,12 +98,34 @@ void test('production SQL migrates and supports invitations, membership, isolate
       const { token } = (await invite.json()) as { token: string };
       assert.equal((await call('/accept', 'POST', { token }, id)).status, 200);
     }
-    const learning = await call('/learning', 'POST', { revision: 0, command: { action: 'goal', goal: 5 } }, 'alice');
-    assert.equal(learning.status, 200, JSON.stringify(await learning.clone().json()));
+    const learning = await call(
+      '/learning',
+      'POST',
+      { revision: 0, command: { action: 'goal', goal: 5 } },
+      'alice',
+    );
+    assert.equal(
+      learning.status,
+      200,
+      JSON.stringify(await learning.clone().json()),
+    );
     assert.equal(((await learning.json()) as { revision: number }).revision, 1);
-    assert.equal((await call('/learning', 'POST', { revision: 0, command: { action: 'goal', goal: 3 } }, 'alice')).status, 409);
+    assert.equal(
+      (
+        await call(
+          '/learning',
+          'POST',
+          { revision: 0, command: { action: 'goal', goal: 3 } },
+          'alice',
+        )
+      ).status,
+      409,
+    );
     const bobLearning = await call('/learning', 'GET', undefined, 'bob');
-    assert.equal(((await bobLearning.json()) as { revision: number }).revision, 0);
+    assert.equal(
+      ((await bobLearning.json()) as { revision: number }).revision,
+      0,
+    );
     assert.equal((await call('/learning', 'GET', undefined, null)).status, 401);
     const m = emptyMemory();
     m.profile.name = 'Only Alice';
@@ -162,6 +184,36 @@ void test('production SQL migrates and supports invitations, membership, isolate
         .status,
       403,
     );
+  } finally {
+    await pg.close();
+  }
+});
+
+void test('account migration preserves an existing member and their private memory', async () => {
+  const pg = new PGlite();
+  try {
+    const dir = new URL('../migrations/postgres/', import.meta.url);
+    const files = readdirSync(dir)
+      .filter((f) => f.endsWith('.sql'))
+      .sort();
+    for (const file of files.filter((f) => f < '0004'))
+      await pg.exec(readFileSync(new URL(file, dir), 'utf8'));
+    await pg.exec(`INSERT INTO invitations (id,token_hash,email,name,track,expires_at,created_at,created_by) VALUES ('legacy-invite','legacy-hash','legacy@example.test','Legacy tester','ambassador','2030-01-01','2026-01-01','founder');
+    INSERT INTO members (user_id,email,name,track,status,wholesale_status,joined_at,invitation_id) VALUES ('legacy','legacy@example.test','Legacy tester','ambassador','active','not_reviewed','2026-01-01','legacy-invite');`);
+    const memory = JSON.stringify(emptyMemory());
+    await pg.query(
+      'INSERT INTO gentleman_memories (owner_id,revision,document,saved_at) VALUES ($1,4,$2,$3)',
+      ['legacy', memory, '2026-01-01'],
+    );
+    for (const file of files.filter((f) => f >= '0004'))
+      await pg.exec(readFileSync(new URL(file, dir), 'utf8'));
+    const result = await pg.query(
+      'SELECT p.role,m.revision,m.document FROM account_profiles p JOIN gentleman_memories m ON p.user_id=m.owner_id WHERE p.user_id=$1',
+      ['legacy'],
+    );
+    assert.deepEqual(result.rows, [
+      { role: 'ambassador', revision: 4, document: memory },
+    ]);
   } finally {
     await pg.close();
   }
