@@ -1,12 +1,12 @@
 /* Product Studio extends the Collective's obsidian, amethyst and gold tokens. */
 .product-studio {
   --ps-amethyst: #1a1918;
-  --ps-gold: #a68b65;
+  --ps-gold: #a68055;
   --ps-muted: #b8b2bd;
   font-size: 16px;
 }
 .product-studio h2 {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: var(--font-display);
   font-size: clamp(1.7rem, 2.8vw, 2.5rem);
   line-height: 1.18;
 }
@@ -79,8 +79,8 @@
 }
 .ps-daily strong {
   display: block;
-  font-family: Georgia, serif;
-  color: #a78c67;
+  font-family: var(--font-display);
+  color: #b99258;
   font-size: 22px;
   line-height: 1.35;
   font-weight: 400;
@@ -109,9 +109,9 @@
   font-size: 14px;
 }
 .ps-destinations button[aria-pressed='true'] {
-  color: #a78c67;
+  color: #b99258;
   background: linear-gradient(120deg, #28222d, #1e1d1b);
-  box-shadow: inset 0 1px 0 #a78c6735;
+  box-shadow: inset 0 1px 0 #b9925835;
 }
 .ps-context {
   display: flex;
@@ -133,7 +133,7 @@
   display: inline-block;
   width: 6px;
   height: 6px;
-  background: #a1855d;
+  background: #a17c52;
   border-radius: 50%;
   margin-right: 6px;
 }
@@ -178,8 +178,8 @@
 .ps-chips button[aria-pressed='true'],
 .ps-chips button:hover {
   background: #231a2a;
-  color: #a78c67;
-  border-color: #89704e;
+  color: #b99258;
+  border-color: #89663f;
 }
 .ps-vault {
   display: grid;
@@ -206,12 +206,12 @@
 }
 .ps-product:hover {
   transform: translateY(-3px);
-  border-color: #937954;
+  border-color: #a37a40;
 }
 .ps-product-top {
   display: flex;
   justify-content: space-between;
-  color: #a68b65;
+  color: #a68055;
   font-size: 12px;
   letter-spacing: 2px;
 }
@@ -224,9 +224,9 @@
   color: #ab9bb9;
 }
 .ps-product-mark span {
-  font-family: Georgia, serif;
+  font-family: var(--font-display);
   font-size: 70px;
-  color: #a78c67;
+  color: #b99258;
   letter-spacing: -6px;
   text-shadow:
     0 5px 0 #0003,
@@ -246,7 +246,7 @@
   margin-bottom: 20px;
 }
 .ps-product-action {
-  color: #a68b65;
+  color: #a68055;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -269,16 +269,16 @@
   width: 76px;
   height: 76px;
   margin-bottom: 28px;
-  border: 1px solid #967b5680;
+  border: 1px solid #96704580;
   border-radius: 50%;
   box-shadow:
     0 0 0 9px #957ea710,
     0 0 45px #37244633,
     inset 0 0 30px #755d8811;
-  color: #a78c67;
+  color: #b99258;
 }
 .ps-atlas h3 {
-  font-family: Georgia, serif;
+  font-family: var(--font-display);
   font-size: 26px;
 }
 .ps-atlas p {
@@ -292,7 +292,7 @@
   font-size: 14px;
 }
 .ps-atlas-context small {
-  color: #a78c67;
+  color: #b99258;
   font-size: 12px;
 }
 .ps-prompts {
@@ -318,7 +318,7 @@
   gap: 8px;
   align-items: center;
   font-size: 12px;
-  color: #a3875f;
+  color: #a37e53;
   margin-top: 24px;
 }
 .ps-atlas-toggle {
@@ -338,12 +338,12 @@
   gap: 14px;
   padding: 22px;
   margin: 20px 0;
-  border: 1px solid #856e4d44;
+  border: 1px solid #85633d44;
   border-radius: 12px;
-  background: #7c664710;
+  background: #7c5d3910;
 }
 .ps-pending svg {
-  color: #a78c67;
+  color: #b99258;
 }
 .ps-pending p {
   margin-bottom: 0;
@@ -358,7 +358,7 @@
 .ps-ingredient summary {
   cursor: pointer;
   min-height: 44px;
-  color: #a78c67;
+  color: #b99258;
   font-size: 14px;
 }
 .ps-evidence p {
@@ -380,7 +380,7 @@
 .ps-stamp {
   font-size: 12px;
   line-height: 1.8;
-  color: #a48962;
+  color: #a47e54;
   text-align: right;
 }
 .ps-room-layout {
@@ -402,11 +402,11 @@
 }
 .ps-room-nav button span {
   font-size: 12px;
-  color: #907753;
+  color: #906c42;
 }
 .ps-room-nav button[aria-pressed='true'] {
   background: #292825;
-  color: #a78c67;
+  color: #b99258;
   border-radius: 5px;
 }
 .ps-room-body {
@@ -433,14 +433,14 @@
   padding: 10px 0;
 }
 .ps-transcript strong {
-  color: #a68b65;
+  color: #a68055;
   display: block;
 }
 .product-studio blockquote {
   margin: 24px 0;
   padding: 0 0 0 18px;
-  border-left: 2px solid #a68b65;
-  font-family: Georgia, serif;
+  border-left: 2px solid #a68055;
+  font-family: var(--font-display);
   font-size: 24px;
   line-height: 1.5;
 }
@@ -466,7 +466,7 @@
   border-bottom: 1px solid #3d314766;
 }
 .product-studio th {
-  color: #a68b65;
+  color: #a68055;
   font-weight: 400;
 }
 .product-studio caption {
@@ -494,7 +494,7 @@
 .ps-question input {
   width: 18px;
   height: 18px;
-  accent-color: #a68b65;
+  accent-color: #a68055;
   flex-shrink: 0;
 }
 .ps-progression {
@@ -508,8 +508,8 @@
   padding: 20px 0;
 }
 .ps-progression li > span {
-  color: #a68b65;
-  font-family: Georgia, serif;
+  color: #a68055;
+  font-family: var(--font-display);
   font-size: 28px;
 }
 .ps-progression h3 {
@@ -551,10 +551,10 @@
   margin-top: 12px;
 }
 .ps-gold {
-  border-left-color: #a68b65;
+  border-left-color: #a68055;
 }
 .ps-gold > span {
-  color: #a68b65;
+  color: #a68055;
 }
 .ps-red {
   border-left-color: #db9690;
@@ -597,7 +597,7 @@
     gap: 12px;
     width: 100%;
     padding: 18px 24px;
-    color: #a78c67;
+    color: #b99258;
   }
   .ps-atlas-toggle span {
     margin-left: auto;

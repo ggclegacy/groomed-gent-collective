@@ -103,8 +103,8 @@ export function PerformanceChart({
               >
                 <defs>
                   <linearGradient id={id} x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#a58b64" stopOpacity={0.25} />
-                    <stop offset="100%" stopColor="#a58b64" stopOpacity={0} />
+                    <stop offset="0%" stopColor="#a37a40" stopOpacity={0.25} />
+                    <stop offset="100%" stopColor="#a37a40" stopOpacity={0} />
                   </linearGradient>
                 </defs>
                 <CartesianGrid vertical={false} stroke="#d9ceaa12" />
@@ -132,7 +132,7 @@ export function PerformanceChart({
                   width={58}
                 />
                 <Tooltip
-                  cursor={{ stroke: '#d6b77450', strokeDasharray: '3 5' }}
+                  cursor={{ stroke: '#b88e5e50', strokeDasharray: '3 5' }}
                   content={({ active, payload, label }) =>
                     active && payload?.length ? (
                       <div className="vd-tooltip">
@@ -178,14 +178,14 @@ export function PerformanceChart({
                   dataKey="amount"
                   type="monotone"
                   fill={`url(#${id})`}
-                  stroke="#a58b64"
+                  stroke="#a37a40"
                   strokeWidth={2.2}
                   dot={false}
                   activeDot={{
                     r: 5,
-                    stroke: '#bca17a',
+                    stroke: '#c8a166',
                     strokeWidth: 2,
-                    fill: '#a58b64',
+                    fill: '#a37a40',
                   }}
                   isAnimationActive={false}
                 />

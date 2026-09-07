@@ -259,7 +259,7 @@ function CommandDashboardEditor({
         acc.end +
         (totalChannelOrders ? (c.orders / totalChannelOrders) * 100 : 0);
       acc.stops.push(
-        `${['#a58b64', '#856b9b', '#bca17a', '#4c2d65'][i % 4]} ${acc.end}% ${next}%`,
+        `${['#a37a40', '#856b9b', '#c8a166', '#4c2d65'][i % 4]} ${acc.end}% ${next}%`,
       );
       acc.end = next;
       return acc;
@@ -889,9 +889,9 @@ function CommandDashboardEditor({
                           <i
                             style={{
                               background: [
-                                '#a58b64',
+                                '#a37a40',
                                 '#856b9b',
-                                '#bca17a',
+                                '#c8a166',
                                 '#4c2d65',
                               ][i % 4],
                             }}

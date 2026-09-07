@@ -1,0 +1,87 @@
+/* Form-only layer: existing brand colors and material gradients remain unchanged. */
+:root, .dark {
+  --radius: 1rem;
+  --radius-panel: 22px;
+  --font-display: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+:where(h1,h2,h3,h4) { text-wrap:balance; }
+:where(h1,h2,h3,h4) em,
+.creative-studio em, .ps-header em, .spatial-introduction h1 > span {
+  font-style:normal;
+  font-family:var(--font-display);
+}
+.command-theatre .spatial-introduction h1 {
+  font-family:var(--font-display); font-weight:550; letter-spacing:-.045em;
+  line-height:1.03;
+}
+.command-theatre .spatial-introduction h1 > span { font-weight:550; letter-spacing:-.035em; }
+.spatial-card-body strong, .gent-space h1, .detail-page > h1,
+.ps-header h2, .cs-header h2, .pm-studio h2 {
+  font-family:var(--font-display); font-weight:500; font-style:normal;
+  letter-spacing:-.025em;
+}
+.spatial-kicker, .eyebrow, .vd-overline, .spatial-card-head,
+.ps-kicker, .cs-kicker, .nav-label { font-weight:550; letter-spacing:.14em; }
+.spatial-index, .vd-metric-value, .vd-earnings-number {
+  font-variant-numeric:tabular-nums lining-nums;
+  font-feature-settings:'tnum';
+}
+:where(.gold-button,.vd-gold-button,.cs-generate,.pm-primary,.outline-button,.ghost-button),
+.collective-nav a, .mobile-dock a, .ps-chips button, .cs-modes button,
+.gent-editor :is(input,textarea,select), .gent-dialog textarea {
+  border-radius:12px;
+}
+:where(.gold-button,.vd-gold-button,.cs-generate,.pm-primary) {
+  font-weight:550; letter-spacing:.035em;
+}
+.command-theatre, .spatial-card, .vd-glass, .ps-glass,
+.gent-record, .panel, .cs-director, .cs-canvas-panel, .pm-panel,
+.membership, .status-hero, .member-door {
+  border-radius:22px;
+  box-shadow:inset 0 1px color-mix(in srgb,var(--gold-light) 28%,transparent),
+    inset 0 -1px #0008, 0 24px 56px #0006;
+}
+.spatial-card { min-height:300px; padding:24px; }
+.spatial-card::before { top:-92%; opacity:.65; }
+.spatial-card-head { padding-bottom:14px; border-bottom:1px solid var(--border); }
+.spatial-card-body { margin-top:92px; gap:10px; }
+.spatial-card-body strong { font-size:24px; line-height:1.16; }
+.spatial-card-foot { font-weight:550; padding-top:18px; }
+.module-sculpture {
+  position:absolute; width:190px; height:112px; right:18px; top:68px;
+  color:var(--gold); stroke:currentColor; stroke-width:1.2;
+  stroke-linecap:square; stroke-linejoin:miter;
+  filter:drop-shadow(6px 10px 5px #0006); pointer-events:none;
+}
+.sculpture-face { fill:color-mix(in srgb,var(--gold) 9%,transparent); }
+.sculpture-ground { opacity:.3; }
+.sculpture-route { stroke:var(--gold-light); stroke-width:1.8; }
+.instrument-chassis {
+  position:absolute; inset:0; width:100%; height:100%;
+  stroke:var(--gold); stroke-width:1; opacity:.62;
+  filter:drop-shadow(0 3px 3px #0009);
+}
+.instrument-chassis path:nth-child(2) { opacity:.38; }
+.command-theatre .instrument-body { animation-duration:24s; }
+.command-theatre .instrument-caption { font-family:var(--font-display); font-weight:550; letter-spacing:.25em; }
+.command-theatre .instrument-caption > span { font-weight:550; }
+.command-orbit { border-radius:50%; }
+.command-stars { display:none; }
+.command-theatre .orb-current { border-radius:50%; }
+.command-theatre .instrument-plinth { border-radius:3px; }
+.club-sidebar .monogram { font-family:var(--font-display); font-style:normal; font-weight:550; }
+@media(max-width:640px) {
+ .command-theatre { padding:26px 22px; }
+ .spatial-card { min-height:300px; }
+ .module-sculpture { width:180px; }
+}
+@media(prefers-contrast:more) {
+ .module-sculpture { stroke-width:1.6; }
+}
+@media(forced-colors:active) {
+ .module-sculpture,.instrument-chassis { display:none; }
+ .command-theatre,.spatial-card,.vd-glass,.ps-glass,.gent-record,.panel,
+ .cs-director,.cs-canvas-panel,.pm-panel,.membership,.status-hero,.member-door {
+  box-shadow:none; border:1px solid CanvasText;
+ }
+}

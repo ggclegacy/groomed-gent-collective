@@ -9,6 +9,7 @@ import {
   ArrowRight,
 } from 'lucide-react';
 import { useGentleman } from '@/components/gentleman-context';
+import { ModuleSculpture } from '@/components/module-sculpture';
 import { commandContext } from '@/lib/spatial/model';
 export function SpatialCommand() {
   const { memory, ask } = useGentleman();
@@ -45,7 +46,7 @@ export function SpatialCommand() {
           <i className="command-orbit command-orbit-one" />
           <i className="command-orbit command-orbit-two" />
           <i className="command-stars" />
-          <i className="command-horizon" />
+          <i className="command-horizon" /><i className="cockpit-grid" />
         </div>
         <div className="spatial-introduction">
           <span className="spatial-kicker">
@@ -87,6 +88,11 @@ export function SpatialCommand() {
           aria-label="Open Cassius to prepare your day"
         >
           <span className="instrument-stage" aria-hidden="true">
+            <svg className="instrument-chassis cockpit-reticle" viewBox="0 0 300 290" fill="none" aria-hidden="true">
+              <circle cx="150" cy="145" r="126" strokeDasharray="100 24 8 24" />
+              <circle cx="150" cy="145" r="113" strokeDasharray="1 10" />
+              <path d="M150 5v18M150 267v18M10 145h18M272 145h18" />
+            </svg>
             <i className="instrument-shadow" />
             <span className="instrument-body">
               <i className="instrument-ring ring-one" />
@@ -100,6 +106,11 @@ export function SpatialCommand() {
             CASSIUS <span>YOUR PERSONAL INTELLIGENCE</span>
           </span>
         </button>
+        <nav className="cockpit-readout" aria-label="Your daily overview">
+          <a href="#desk"><span>FOCUS</span><strong>{context.priorities.length}<small> priorities</small></strong><ArrowUpRight size={16} /></a>
+          <a href="#life"><span>RITUAL</span><strong>{context.ritualsRecorded}<small> / {context.rituals} recorded</small></strong><ArrowUpRight size={16} /></a>
+          <a href="#voyage"><span>VOYAGE</span><strong className="cockpit-trip">{context.trip?.title || 'Plan your next move'}</strong><ArrowUpRight size={16} /></a>
+        </nav>
       </div>
       <div className="spatial-next">
         <div className="spatial-next-heading">
@@ -142,11 +153,7 @@ export function SpatialCommand() {
             <span>01 / VOYAGE</span>
             <ArrowUpRight size={17} />
           </span>
-          <div className="world-contours" aria-hidden="true">
-            <i />
-            <i />
-            <i />
-          </div>
+          <ModuleSculpture variant="voyage" />
           <span className="spatial-card-body">
             <small>
               {context.trip ? 'YOUR NEXT DEPARTURE' : 'THE WORLD, CONSIDERED'}
@@ -166,11 +173,7 @@ export function SpatialCommand() {
             <span>02 / CIRCLE</span>
             <ArrowUpRight size={17} />
           </span>
-          <span className="world-nodes" aria-hidden="true">
-            <i />
-            <i />
-            <i />
-          </span>
+          <ModuleSculpture variant="circle" />
           <span className="spatial-card-body">
             <small>PEOPLE WORTH REMEMBERING</small>
             <strong>
@@ -190,7 +193,7 @@ export function SpatialCommand() {
             <span>03 / LIFE</span>
             <ArrowUpRight size={17} />
           </span>
-          <span className="world-monolith" aria-hidden="true" />
+          <ModuleSculpture variant="life" />
           <span className="spatial-card-body">
             <small>THE DETAILS THAT DEFINE YOU</small>
             <strong>
