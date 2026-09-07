@@ -19,6 +19,8 @@ export const config = {
     '/api/account/:path*',
     '/api/voyage/:path*',
     '/sign-in/:path*',
+    '/sign-up/:path*',
+    '/api/cassius',
     '/member-session',
   ],
 };

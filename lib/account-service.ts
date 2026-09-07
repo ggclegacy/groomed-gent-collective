@@ -1,3 +1,4 @@
+import { readIntelligence, changeIntelligence } from './intelligence/service.ts';
 import type { AccountDatabase } from './account-database.ts';
 import { emptyMemory, parseMemory } from './gentleman/model.ts';
 import {
@@ -97,7 +98,7 @@ function json(data: unknown, status = 200) {
     },
   });
 }
-async function body(request: Request): Promise<Record<string, unknown>> {
+async function body(request: Request, maximum = 4_000_000): Promise<Record<string, unknown>> {
   if (
     request.headers.get('origin') !== new URL(request.url).origin ||
     request.headers.get('sec-fetch-site') === 'cross-site'
@@ -116,7 +117,7 @@ async function body(request: Request): Promise<Record<string, unknown>> {
     const { done, value } = await reader.read();
     if (done) break;
     size += value.byteLength;
-    if (size > 4_000_000) {
+    if (size > maximum) {
       await reader.cancel();
       throw new AccountError(413, 'The request is too large.');
     }
@@ -150,6 +151,11 @@ export async function accountApi(
       throw new AccountError(503, 'Member services are not configured.');
     const user = getIdentity(request, config);
     if (!user) throw new AccountError(401, 'Sign in to continue.');
+    if (path === '/api/account/intelligence') {
+      if (request.method === 'GET') return json(await readIntelligence(db,user.id));
+      if (request.method === 'POST') return json(await changeIntelligence(db,user.id,await body(request,120000)));
+      throw new AccountError(405,'Use GET or POST for your Cassius profile.');
+    }
     const owner = () => {
       if (!state.owner)
         throw new AccountError(403, 'Founder access is required.');

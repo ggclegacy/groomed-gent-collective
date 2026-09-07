@@ -135,3 +135,7 @@ See [Product Studio implementation and next-phase handoff](docs/product-studio.m
 ## Cassius sourced Groomed Gent knowledge
 
 Cassius now answers from a dated, structured local registry of 18 website-listed products and 12 brand/education topics, preserving 11 open issues and field-level source metadata. See [coverage and gaps](docs/cassius/coverage.md), [architecture](docs/cassius/architecture.md), [maintenance](docs/cassius/maintenance.md), and [verification](docs/cassius/verification.md). Generative AI remains disconnected; website evidence does not approve advertising claims. Nothing deployed.
+
+## Meet Cassius and personal intelligence
+
+Account creation and login now lead to `/onboarding`. Members can review optional AI context imports, approve their foundation, and manage individual knowledge records at `/my-cassius`. Public accounts remain separate from invitation-only partner privileges. Personalization is off until the member opts in. See [architecture, privacy model, migration and auth setup](docs/cassius/personal-intelligence.md) before enabling live accounts.

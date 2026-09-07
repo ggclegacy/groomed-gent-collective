@@ -22,6 +22,13 @@
       "when": 1788717272701,
       "tag": "0002_lyrical_moonstone",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788738071318,
+      "tag": "0003_military_titania",
+      "breakpoints": true
     }
   ]
 }

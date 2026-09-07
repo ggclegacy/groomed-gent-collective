@@ -89,3 +89,5 @@ export const productLearning = pgTable(
   },
   (table) => [check('learning_positive_revision', sql`${table.revision} >= 0`)],
 );
+
+export * from './intelligence.postgres';

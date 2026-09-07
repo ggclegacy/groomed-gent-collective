@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import './cassius-identity.css';
 import './gentleman.css';
 import './voyage.css';
 import './creative-studio.css';

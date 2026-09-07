@@ -155,8 +155,8 @@ export default function Collective({ initialView = 'home' }: { initialView?: Sec
             <SidebarTrigger />
             <span>THE GROOMED GENT COLLECTIVE</span>
           </div>
-          <Link className="membership-entry" href="/membership">
-            Membership access
+          <Link className="membership-entry" href="/onboarding">
+            My Cassius · Account
           </Link>
           <span className="preview-badge">
             <span /> DEMO EXPERIENCE

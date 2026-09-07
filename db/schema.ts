@@ -82,3 +82,5 @@ export const productLearning = sqliteTable(
   },
   (table) => [check('learning_positive_revision', sql`${table.revision} >= 0`)],
 );
+
+export * from './intelligence.sqlite';
