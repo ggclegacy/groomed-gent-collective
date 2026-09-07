@@ -3,17 +3,23 @@ import { useClerk, useUser } from '@clerk/nextjs';
 import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import { protectedPage } from '@/lib/auth-config';
 import { UserRound } from 'lucide-react';
 export function SessionBoundary({ children }: { children: React.ReactNode }) {
   const { isLoaded, user } = useUser();
+  const path = usePathname();
+  const privatePage = protectedPage(path);
   const identity = useRef<string | null | undefined>(undefined);
   useEffect(() => {
     if (!isLoaded) return;
     const next = user?.id ?? null;
-    if (identity.current !== undefined && identity.current !== next)
+    if (
+      (privatePage && !next) ||
+      (identity.current !== undefined && identity.current !== next)
+    )
       window.location.replace(next ? '/auth/continue' : '/sign-in');
     identity.current = next;
-  }, [isLoaded, user?.id]);
+  }, [isLoaded, user?.id, privatePage]);
   useEffect(() => {
     const restore = (event: PageTransitionEvent) => {
       if (event.persisted) window.location.reload();
@@ -51,6 +57,12 @@ export function SessionBoundary({ children }: { children: React.ReactNode }) {
       window.removeEventListener('ggc:settings', changed);
     };
   }, [isLoaded, user?.id]);
+  if (privatePage && (!isLoaded || !user))
+    return (
+      <main className="ci-page">
+        <output>Opening your secure session…</output>
+      </main>
+    );
   return (
     <div key={isLoaded ? (user?.id ?? 'signed-out') : 'loading'}>
       {children}

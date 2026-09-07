@@ -19,7 +19,6 @@ import './architectural-form.css';
 import './spatial-cockpit.css';
 import './brand-materials.css';
 
-
 import { LivingMaterials } from '@/components/living-materials';
 export const viewport: Viewport = {
   width: 'device-width',
@@ -48,6 +47,7 @@ export default function RootLayout({
       <body>
         {accountsConfigured() ? (
           <ClerkProvider
+            dynamic
             signInUrl="/sign-in"
             signUpUrl="/sign-up"
             signInForceRedirectUrl="/auth/continue"
@@ -64,7 +64,10 @@ export default function RootLayout({
               },
             }}
           >
-            <SessionBoundary>{children}<AccountShortcut /></SessionBoundary>
+            <SessionBoundary>
+              {children}
+              <AccountShortcut />
+            </SessionBoundary>
           </ClerkProvider>
         ) : (
           children

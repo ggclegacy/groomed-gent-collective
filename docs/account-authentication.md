@@ -33,7 +33,7 @@ A founder/admin uses `/membership` to issue an invitation to the tester's verifi
 
 `/auth/continue` opens onboarding for a new account and Command for a completed account. Each Continue/Back action saves the answers and next step before advancing; Save and finish later saves the current step before leaving. Text not yet saved with one of these controls remains an unsaved edit. Drafts are private account data and are not supplied to Cassius. Completing/erasing onboarding clears the draft. Approved knowledge uses the existing versioned intelligence store, conflict detection, per-detail review and optional personalization consent. Only eligible confirmed context reaches Cassius through its server adapter.
 
-`/my-cassius`, `/onboarding`, Command, Voyage, member studio and account settings are protected by Clerk proxy checks when accounts are configured. API handlers independently verify identity and permissions. In a deliberately unconfigured public preview, the shell remains explorable and private APIs fail closed. Partial Clerk configuration redirects protected pages to the setup state.
+All application pages are protected by the server proxy by default; only sign-in/sign-up and static assets are public. Private APIs require authentication, with account handlers independently verifying identity and permissions. Missing or incomplete configuration redirects pages to sign-in and denies private APIs. A visual demo requires explicit GGC_DEMO_MODE=true on a local development server; production and Vercel previews cannot opt into it. See docs/production-auth/audit.md.
 
 Account settings at `/member-session` exposes Clerk's UserProfile, including password/email management, connected accounts and active sessions, plus explicit logout. The SDK provides verified-email linking where supported. For an Apple relay email differing from an existing account, sign in to the existing account and connect the provider through settings; never merge local records based on an unverified email. Account deletion is not implemented as an application data-erasure workflow; disable provider-side self-service deletion until a separate retention/deletion workflow is implemented.
 
@@ -64,7 +64,7 @@ Automated Postgres and SQLite tests exercise migrations, real database persisten
 - [Apple connection and production credentials](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/apple)
 - [Verified account linking](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/account-linking)
 
-### Results for this implementation
+### Historical results for the initial account implementation
 
 - Full automated suite: 194/194 passed. One additional Postgres upgrade test subsequently passed (195 distinct tests verified in total), proving that an existing member's private-memory document and revision survive the new foreign-key migration.
 - Next.js production build and TypeScript: passed. Application lint: passed.

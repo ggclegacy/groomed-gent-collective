@@ -9,7 +9,9 @@ export function AccountEntry({ signup = false }: { signup?: boolean }) {
         <Link className="ci-wordmark" href="/">
           GROOMED GENT <span>COLLECTIVE</span>
         </Link>
-        <Link href="/onboarding">Meet Cassius</Link>
+        <Link href={signup ? '/sign-in' : '/sign-up'}>
+          {signup ? 'Sign in' : 'Create account'}
+        </Link>
       </header>
       <section className="ci-auth">
         <span className="ci-eyebrow">YOUR NEXT CHAPTER</span>
@@ -42,10 +44,10 @@ export function AccountEntry({ signup = false }: { signup?: boolean }) {
         ) : (
           <div className="ci-panel">
             <p>
-              Account services are being connected. Personal information can be
-              saved once secure sign-in is available.
+              Secure sign-in is temporarily unavailable. Please try again later.
+              Your private workspace requires a verified account.
             </p>
-            <Link href="/onboarding">Check account access</Link>
+            <a href={signup ? '/sign-up' : '/sign-in'}>Try again</a>
           </div>
         )}
         <small>

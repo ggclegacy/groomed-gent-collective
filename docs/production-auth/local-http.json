@@ -1,0 +1,120 @@
+{
+  "base": "http://127.0.0.1:4337",
+  "checkedAt": "2026-09-07T16:29:04.289Z",
+  "account": {
+    "configured": false,
+    "local": false,
+    "signedIn": false,
+    "owner": false,
+    "email": null,
+    "member": null
+  },
+  "results": [
+    {
+      "path": "/",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/account",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/account/security",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/account/security/session.js",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/onboarding",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/my-cassius",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/membership",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/members/studio",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/voyage",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/auth/continue",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/field",
+      "status": 307,
+      "destination": "/sign-in"
+    },
+    {
+      "path": "/api/account/settings",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/account/memory",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/account/onboarding",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/dashboard",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/cassius",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/api/creative",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/api/voyage/plan",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/sign-in",
+      "status": 200
+    },
+    {
+      "path": "/sign-up",
+      "status": 200
+    },
+    {
+      "path": "/manifest.webmanifest",
+      "status": 200
+    },
+    {
+      "path": "/icons/icon-192.png",
+      "status": 200
+    }
+  ]
+}
