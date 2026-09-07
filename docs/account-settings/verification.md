@@ -4,6 +4,7 @@
 - Application lint and focused new-component lint: passed. The React review caught and fixed an invalid effect placement in the initial draft before final verification.
 - Next.js production build: successful, including TypeScript and route generation. All 78 brand contrast/token checks pass.
 - Isolated browser: 320px/390px phone and 1440px desktop; no horizontal document overflow or browser errors. Actual Account UI, session boundary and database API with an explicitly simulated Clerk provider. Preferred name/contact/business/motion/communication save, refresh, Cassius consent save/refresh, JSON export, failed-save retention and retry, simulated logout/API denial/login persistence all pass. The test provider is isolated to `scripts/qa/`; no production authentication bypass exists.
+- Actual Next production browser: mobile dock and desktop navigation reach Account; legacy `/member-session` redirects to Security; unconfigured private APIs reject access; sign-in setup screen loads with no browser errors.
 - Live Vercel readiness: `/api/account` returns `configured:false`. Environment-name inspection confirms `GGC_ACCOUNT_PROVIDER`, `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY` and `DATABASE_URL` are absent. No real database migration or credentials were changed.
 - Live Clerk signup, verified email delivery, password recovery, provider linking, real cookie termination, active-session revocation and physical PWA installation remain **unverified pending provider/database configuration**. They cannot be inferred from simulated-session testing.
 

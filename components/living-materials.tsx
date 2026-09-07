@@ -91,6 +91,7 @@ export function LivingMaterials() {
     const move = (event: PointerEvent) => {
       if (
         media.matches ||
+        root.dataset.accountMotion === 'reduce' ||
         !pointer.matches ||
         snapshot() ||
         document.hidden ||
@@ -139,6 +140,7 @@ export function LivingMaterials() {
     window.addEventListener('blur', clear);
     document.addEventListener('focusin', clear);
     window.addEventListener(eventName, clear);
+    window.addEventListener('ggc-account-motion', clear);
     window.addEventListener('storage', clear);
     media.addEventListener('change', clear);
     pointer.addEventListener('change', clear);
@@ -154,6 +156,7 @@ export function LivingMaterials() {
       window.removeEventListener('blur', clear);
       document.removeEventListener('focusin', clear);
       window.removeEventListener(eventName, clear);
+      window.removeEventListener('ggc-account-motion', clear);
       window.removeEventListener('storage', clear);
       media.removeEventListener('change', clear);
       pointer.removeEventListener('change', clear);

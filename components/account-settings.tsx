@@ -323,8 +323,10 @@ export function AccountSettings() {
                   window.confirm(
                     'Discard unsaved edits and reload the saved account details?',
                   )
-                )
+                ) {
+                  setBusy('load');
                   void load();
+                }
               }}
             >
               Reload saved details
