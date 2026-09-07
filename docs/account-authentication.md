@@ -71,3 +71,7 @@ Automated Postgres and SQLite tests exercise migrations, real database persisten
 - Production runtime: seven private-page paths redirect to sign-in when Clerk mode is selected with incomplete configuration; three private APIs deny access with forged identity headers; readiness uses no-store; sign-in/sign-up/manifest and phone icons return 200.
 - Browser: inspected the unconfigured sign-in screen at 390 × 844; controls fit the viewport and no browser errors were reported. Provider forms, live signup/recovery/OAuth, actual logout/cookie persistence, and physical phone installation could not be exercised without a configured Clerk instance.
 - No live database migration, provider credential change, or production deployment was performed. The existing production app remains unconfigured for accounts until activation.
+
+## September 7 follow-up
+
+See [Katie readiness and activation checklist](auth-readiness/katie-checklist.md) and [pre-change audit](auth-readiness/audit.md). The live app still reports accounts unconfigured. This follow-up broadens Clerk middleware coverage, protects membership, provides a verified-email recovery route, prevents completed onboarding from accepting stale drafts, and adds salon-owner context. Email signup is the preferred first activation; Google and Apple are optional unless already configured.

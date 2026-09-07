@@ -27,20 +27,11 @@ export default function proxy(request: NextRequest, event: NextFetchEvent) {
     return NextResponse.redirect(new URL('/sign-in', request.url));
   return NextResponse.next();
 }
+// ClerkProvider wraps all pages: the SDK must receive middleware context on
+// public pages as well as protected pages. Static assets remain cacheable.
 export const config = {
   matcher: [
-    '/',
-    '/onboarding/:path*',
-    '/my-cassius/:path*',
-    '/account/:path*',
-    '/auth/continue',
-    '/members/:path*',
-    '/voyage/:path*',
-    '/api/account/:path*',
-    '/api/voyage/:path*',
-    '/sign-in/:path*',
-    '/sign-up/:path*',
-    '/api/cassius',
-    '/member-session',
+    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
+    '/(api|trpc)(.*)',
   ],
 };

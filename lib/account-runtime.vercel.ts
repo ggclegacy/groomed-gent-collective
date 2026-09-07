@@ -11,6 +11,18 @@ export async function handleVercelAccount(request: Request) {
       e.id === user.primaryEmailAddressId &&
       e.verification?.status === 'verified',
   );
+  if (user && userId === user.id && !email)
+    return Response.json(
+      {
+        error:
+          'Verify your primary email in Account settings, then return to your saved profile.',
+        code: 'email_verification_required',
+      },
+      {
+        status: 403,
+        headers: { 'Cache-Control': 'private, no-store', Vary: 'Cookie' },
+      },
+    );
   // Identity comes exclusively from the verified SDK session and verified primary email.
   const verifiedIdentity =
     user && userId === user.id && email

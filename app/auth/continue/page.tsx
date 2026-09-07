@@ -7,13 +7,21 @@ export default async function Page() {
     new Request('https://account.internal/api/account/intelligence'),
   );
   if (response.status === 401) redirect('/sign-in');
-  if (!response.ok)
+  if (!response.ok) {
+    const failure = await response.json().catch(() => null);
+    const needsVerification =
+      failure !== null &&
+      typeof failure === 'object' &&
+      'code' in failure &&
+      failure.code === 'email_verification_required';
     return (
       <main className="ci-page">
         <section className="ci-auth">
           <h1>Your account needs a moment.</h1>
           <p role="alert">
-            We couldn’t open your saved profile. Please try again.
+            {needsVerification
+              ? 'Verify your primary email in Account settings, then try again. Your account is already created.'
+              : 'We couldn’t open your saved profile. Please try again.'}
           </p>
           <Link className="ci-primary" href="/auth/continue">
             Try again
@@ -22,6 +30,7 @@ export default async function Page() {
         </section>
       </main>
     );
+  }
   const state = (await response.json()) as { completed: boolean };
   redirect(state.completed ? '/' : '/onboarding');
 }

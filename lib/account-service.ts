@@ -205,21 +205,21 @@ export async function accountApi(
       const now = new Date().toISOString();
       let row = await db
         .prepare(
-          'INSERT INTO onboarding_drafts (owner_id,revision,document,saved_at) SELECT ?,1,?,? WHERE ?=0 ON CONFLICT(owner_id) DO NOTHING RETURNING revision',
+          'INSERT INTO onboarding_drafts (owner_id,revision,document,saved_at) SELECT ?,1,?,? WHERE ?=0 AND NOT EXISTS (SELECT 1 FROM intelligence_accounts WHERE owner_id=? AND completed=1) ON CONFLICT(owner_id) DO NOTHING RETURNING revision',
         )
-        .bind(user.id, JSON.stringify(draft), now, data.revision)
+        .bind(user.id, JSON.stringify(draft), now, data.revision, user.id)
         .first<{ revision: number }>();
       if (!row)
         row = await db
           .prepare(
-            'UPDATE onboarding_drafts SET document=?,saved_at=?,revision=revision+1 WHERE owner_id=? AND revision=? RETURNING revision',
+            'UPDATE onboarding_drafts SET document=?,saved_at=?,revision=revision+1 WHERE owner_id=? AND revision=? AND NOT EXISTS (SELECT 1 FROM intelligence_accounts WHERE owner_id=? AND completed=1) RETURNING revision',
           )
-          .bind(JSON.stringify(draft), now, user.id, data.revision)
+          .bind(JSON.stringify(draft), now, user.id, data.revision, user.id)
           .first<{ revision: number }>();
       if (!row)
         throw new AccountError(
           409,
-          'Onboarding changed in another window. Reload your saved answers before continuing.',
+          'Onboarding changed or was completed in another window. Reopen your saved profile before continuing.',
         );
       return json({ revision: row.revision, draft });
     }

@@ -600,6 +600,16 @@ for (const kind of ['sqlite', 'postgres'] as const)
         revision: 0,
         draft: null,
       });
+      // A stale tab must not resurrect a draft after onboarding completed.
+      for (const revision of [0, 1])
+        assert.equal(
+          (await call('/onboarding', 'PUT', { revision, draft })).status,
+          409,
+        );
+      assert.deepEqual(await (await call('/onboarding')).json(), {
+        revision: 0,
+        draft: null,
+      });
       assert.equal(
         (await call('/intelligence', 'GET', undefined, null)).status,
         401,

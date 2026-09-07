@@ -13,6 +13,7 @@ export function accountsConfigured(
 export function protectedPage(path: string) {
   return [
     '/',
+    '/membership',
     '/onboarding',
     '/my-cassius',
     '/member-session',

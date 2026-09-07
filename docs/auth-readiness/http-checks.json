@@ -1,0 +1,74 @@
+[
+  {
+    "path": "/",
+    "status": 307,
+    "location": "/sign-in",
+    "cache": null
+  },
+  {
+    "path": "/membership",
+    "status": 307,
+    "location": "/sign-in",
+    "cache": null
+  },
+  {
+    "path": "/onboarding",
+    "status": 307,
+    "location": "/sign-in",
+    "cache": null
+  },
+  {
+    "path": "/my-cassius",
+    "status": 307,
+    "location": "/sign-in",
+    "cache": null
+  },
+  {
+    "path": "/voyage",
+    "status": 307,
+    "location": "/sign-in",
+    "cache": null
+  },
+  {
+    "path": "/members/studio",
+    "status": 307,
+    "location": "/sign-in",
+    "cache": null
+  },
+  {
+    "path": "/member-session",
+    "status": 307,
+    "location": "/sign-in",
+    "cache": null
+  },
+  {
+    "path": "/auth/continue",
+    "status": 307,
+    "location": "/sign-in",
+    "cache": null
+  },
+  {
+    "path": "/api/account",
+    "status": 200,
+    "location": null,
+    "cache": "private, no-store"
+  },
+  {
+    "path": "/api/account/onboarding",
+    "status": 503,
+    "location": null,
+    "cache": "private, no-store"
+  },
+  {
+    "path": "/api/account/memory",
+    "status": 503,
+    "location": null,
+    "cache": "private, no-store"
+  },
+  {
+    "path": "/manifest.webmanifest",
+    "status": 200,
+    "location": null,
+    "cache": "public, max-age=0, must-revalidate"
+  }
+]

@@ -31,6 +31,7 @@ const roles = [
   'Founder / Business Owner',
   'Professional',
   'Barber / Grooming Professional',
+  'Salon / Barbershop Owner',
   'Creator',
   'Fitness / Wellness Professional',
   'Student',
@@ -383,7 +384,8 @@ function Meet({
     }
   };
   busy = busy || saving;
-  const businessOwner = role.includes(roles[0]);
+  const businessOwner =
+    role.includes(roles[0]) || role.includes('Salon / Barbershop Owner');
   const steps = businessOwner
     ? ['name', 'roles', 'improve', 'goal', 'business', 'style', 'context']
     : ['name', 'roles', 'improve', 'goal', 'style', 'context'];
@@ -474,6 +476,7 @@ function Meet({
                 <input
                   type="text"
                   name="preferredName"
+                  autoComplete="name"
                   maxLength={80}
                   value={name}
                   onChange={(e) => setName(e.target.value)}
@@ -573,7 +576,7 @@ function Meet({
                   maxLength={1200}
                   value={business}
                   onChange={(e) => setBusiness(e.target.value)}
-                  placeholder="My business is…"
+                  placeholder="Business name, what you offer, and what you’re working toward…"
                 />
               </label>
               <VoiceInput

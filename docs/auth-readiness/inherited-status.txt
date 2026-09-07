@@ -1,0 +1,12 @@
+ M .gitignore
+?? .env.commerce.example
+?? docs/auth-readiness/
+?? docs/commerce/
+?? docs/economics/
+?? docs/rebrand/baseline.json
+?? docs/rebrand/color-migration.json
+?? lib/commerce/
+?? lib/economics/
+?? tests/commerce-config.test.ts
+?? tests/commerce.test.ts
+?? tests/economics.test.ts

@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-07",
+  "base": "gentleman-publish at 882f6d6 plus preserved existing working changes",
+  "reused_from": "shopify-work/app",
+  "files": {
+    "lib/commerce/model.ts": "f8f852ce2083c9c4d7d3fad4c72019a76c3f22ef26b06cfe11705d5bb1d83d31",
+    "lib/commerce/shopify.ts": "345f93c140418934f163db84134f489115479c4984dc6b48e1e869c147e1c61d",
+    "lib/commerce/webhook.ts": "91b44209e6d87b9606d49e9ff8b9c9f85fa9633d5367d13ef7b52c55e6bc981d",
+    "lib/commerce/worker.ts": "b78d7111a30b7898156ca9cb3331b18f8111b06bd6cea58714afc1c455d889ef",
+    "lib/commerce/service.ts": "411401eda3edb34c727230fa0d9318489bce0bb26d1d46b42a0f10323440d5ba",
+    "docs/commerce/prepared/0006_commerce.sql": "8f22539ed8a62e1bcf9be7de43a28f316472e4f1f0fd5a777cfb7b464ccff188",
+    "tests/commerce.test.ts": "10c8a4ef936c54d8849f1b1fababa82008dd80b6624ee3325471140296ea07b1",
+    "lib/commerce/config.ts": "d06ba741ff41e5b9957afd5f1dc7a0faefdd9aefa3bcfd412d768e48729ff3e3",
+    ".env.commerce.example": "b1cbd9c811220382edb7745adc49531882c9d9598f4034cdcea81030b08650da",
+    "tests/commerce-config.test.ts": "26af1c63f221052ed149988301fb699ae5dcb7070b549c20a0cd1966591195eb",
+    "docs/commerce/README.md": "813b4f3f71824126e9c76f37dcc5b03348837a6a5aebe33417154d6784b61454",
+    "docs/commerce/validation.md": "2b5e9f5b556f5df9fb2871a1499930e2b82a1728f60152f9e9d956120c01c8dd"
+  },
+  "activation": "No runtime routes or migrations activated",
+  "modified_existing": {
+    ".gitignore": "Added only !.env.commerce.example; preserved prior changes."
+  },
+  "verified_remote_main": "882f6d6fd22b168e35b8c99d8a400bfef0d52f32",
+  "verification": {
+    "full_tests": 212,
+    "commerce_tests_included": 17,
+    "typecheck": "passed",
+    "application_lint": "passed",
+    "live_shopify": "not tested",
+    "remote_mutations": false,
+    "production_build": "passed: isolated webpack build"
+  }
+}

@@ -7,6 +7,7 @@ void test('private page routes include nested routes and never match a public lo
     '/',
     '/my-cassius',
     '/my-cassius/export',
+    '/membership',
     '/onboarding',
     '/members/studio',
     '/voyage',
@@ -17,7 +18,6 @@ void test('private page routes include nested routes and never match a public lo
   for (const path of [
     '/sign-in',
     '/sign-up',
-    '/membership',
     '/my-cassius-public',
     '/manifest.webmanifest',
     '/icons/icon-192.png',
