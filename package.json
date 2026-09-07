@@ -21,7 +21,7 @@
     "start:sites": "wrangler dev --config dist/server/wrangler.json",
     "db:generate:postgres": "drizzle-kit generate --config drizzle.postgres.config.ts",
     "product:brain": "node scripts/product-brain.mjs",
-    "prebuild": "node scripts/product-brain.mjs check",
+    "prebuild": "node scripts/product-brain.mjs check && node scripts/clean-build-cache.mjs",
     "prebuild:sites": "node scripts/product-brain.mjs check"
   },
   "dependencies": {
