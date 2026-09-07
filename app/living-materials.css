@@ -23,8 +23,8 @@ body::before {
   left: 5vw;
   background: radial-gradient(
     ellipse,
-    #b3874824,
-    #c99b580b 40%,
+    #a37a4024,
+    #b992580b 40%,
     transparent 68%
   );
   animation: ambient-drift 24s ease-in-out infinite alternate;
@@ -49,12 +49,12 @@ body::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #b387482b,
+    #a37a402b,
     #856b9b18,
     transparent
   );
   transform: rotate(-24deg);
-  box-shadow: 0 0 40px 10px #b3874805;
+  box-shadow: 0 0 40px 10px #a37a4005;
 }
 .ambient-toggle {
   position: fixed;
@@ -66,9 +66,9 @@ body::before {
   gap: 7px;
   min-height: 44px;
   padding: 0 13px;
-  border: 1px solid #b3874838;
+  border: 1px solid #a37a4038;
   border-radius: 22px;
-  color: #c99b58;
+  color: #b99258;
   background: #0c0c0be8;
   backdrop-filter: blur(16px);
   box-shadow:
@@ -77,23 +77,23 @@ body::before {
   font-size: 12px;
 }
 .ambient-toggle:focus-visible {
-  outline: 2px solid #b38748;
+  outline: 2px solid #a37a40;
   outline-offset: 3px;
 }
 /* One coherent surface treatment from finance through product and creative work. */
 .vd-root {
-  --vd-gold: #b38748;
+  --vd-gold: #a37a40;
   --vd-white: #f5f5f2;
   --vd-muted: #b3aeb8;
-  --vd-edge: #c99b582e;
+  --vd-edge: #b992582e;
 }
 .product-studio {
-  --ps-gold: #b38748;
+  --ps-gold: #a37a40;
   --ps-muted: #95899f;
   --ps-amethyst: #131211;
 }
 .creative-studio {
-  --cs-gold: #b38748;
+  --cs-gold: #a37a40;
   --cs-dim: #958a9e;
 }
 .vd-glass,
@@ -111,12 +111,12 @@ body::before {
 .draft-library {
   position: relative;
   isolation: isolate;
-  border-color: #c99b5830;
+  border-color: #b9925830;
   background:
     linear-gradient(135deg, #a57f540b, transparent 36%, #856b9b05 100%), #0e0d0c;
   box-shadow:
     0 20px 50px #0008,
-    inset 0 1px #b387482d,
+    inset 0 1px #a37a402d,
     inset 0 -1px #856b9b14;
 }
 [data-material]::after {
@@ -129,8 +129,8 @@ body::before {
   background: linear-gradient(
     115deg,
     transparent 10%,
-    #b3874803 27%,
-    #b3874811 44%,
+    #a37a4003 27%,
+    #a37a4011 44%,
     #856b9b08 47%,
     transparent 65%
   );
@@ -152,37 +152,37 @@ body::before {
 .cs-canvas-panel,
 .intelligence-stage {
   background:
-    radial-gradient(ellipse at 0 0, #c99b5817, transparent 46%),
+    radial-gradient(ellipse at 0 0, #b9925817, transparent 46%),
     radial-gradient(ellipse at 100% 80%, #856b9b0b, transparent 50%), #0b0b0a;
-  border-color: #c99b5865;
+  border-color: #b9925865;
   box-shadow:
-    inset 0 1px #b38748a6,
-    inset 1px 0 #b3874820,
+    inset 0 1px #a37a40a6,
+    inset 1px 0 #a37a4020,
     0 22px 65px #000a,
-    0 0 28px #b3874806;
+    0 0 28px #a37a4006;
 }
 .vd-earnings::before,
 .vd-cassius::before {
   background: linear-gradient(
     90deg,
     transparent,
-    #b38748 32%,
-    #c99b58 65%,
+    #a37a40 32%,
+    #b99258 65%,
     transparent
   );
-  box-shadow: 0 0 12px #b3874833;
+  box-shadow: 0 0 12px #a37a4033;
 }
 .vd-earnings-number,
 .membership .card-wordmark,
 .monogram,
 .cs-header em,
 .ps-intro em {
-  color: #b38748;
+  color: #a37a40;
   background: var(--gold-metal);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 32px #b3874814;
+  text-shadow: 0 0 32px #a37a4014;
 }
 .vd-gold-button,
 .gold-button,
@@ -193,11 +193,11 @@ body::before {
   overflow: hidden;
   color: #1a1918;
   background: var(--gold-metal);
-  border: 1px solid #b38748d9;
+  border: 1px solid #a37a40d9;
   box-shadow:
-    inset 0 2px #c99b58d0,
+    inset 0 2px #b99258d0,
     inset 0 -2px #81603b70,
-    0 8px 26px #c99b581a,
+    0 8px 26px #b992581a,
     0 2px 3px #0007;
   transition:
     transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
@@ -213,7 +213,7 @@ body::before {
   background: linear-gradient(
     110deg,
     transparent 40%,
-    #c99b588c 49%,
+    #b992588c 49%,
     transparent 57%
   );
   transform: translateX(-75%);
@@ -225,8 +225,8 @@ body::before {
 .cs-generate:hover {
   transform: translateY(-2px);
   box-shadow:
-    inset 0 2px #c99b58,
-    0 9px 35px #b3874835;
+    inset 0 2px #b99258,
+    0 9px 35px #a37a4035;
   filter: none;
 }
 .vd-command,
@@ -240,27 +240,27 @@ body::before {
     box-shadow 0.3s;
 }
 .vd-command {
-  background: linear-gradient(125deg, #b387480c, #131211);
-  border-color: #c99b5840;
+  background: linear-gradient(125deg, #a37a400c, #131211);
+  border-color: #b9925840;
 }
 .vd-command:hover,
 .ps-product:hover,
 .ps-daily:hover,
 .cs-starters button:hover {
   transform: translateY(-3px);
-  border-color: #b38748a0;
+  border-color: #a37a40a0;
   box-shadow:
     0 12px 32px #0008,
-    inset 0 1px #b3874860;
+    inset 0 1px #a37a4060;
 }
 .vd-command-icon,
 .vd-pulse-icon,
 .ps-product-mark {
-  background: linear-gradient(140deg, #b3874828, #161514 55%, #856b9b12);
-  color: #b38748;
-  border-color: #b3874865;
+  background: linear-gradient(140deg, #a37a4028, #161514 55%, #856b9b12);
+  color: #a37a40;
+  border-color: #a37a4065;
   box-shadow:
-    inset 0 1px #b387484a,
+    inset 0 1px #a37a404a,
     0 4px 12px #0006;
 }
 .vd-chip-gold,
@@ -273,27 +273,27 @@ body::before {
 .vd-module-header > .vd-overline,
 .vd-welcome .vd-overline,
 .vd-section-title h2 > span {
-  color: #c99b58;
+  color: #b99258;
 }
 .vd-chip-gold {
-  background: #c99b580b;
-  border-color: #c99b583f;
+  background: #b992580b;
+  border-color: #b992583f;
 }
 .vd-metric {
   background: linear-gradient(130deg, #a57f5408, #090908);
-  border-color: #b3874821;
-  box-shadow: inset 0 1px #b3874817;
+  border-color: #a37a4021;
+  box-shadow: inset 0 1px #a37a4017;
 }
 .vd-metric-label svg,
 .vd-section-title > svg {
-  color: #c99b58;
+  color: #b99258;
 }
 .vd-command-wide {
-  background: linear-gradient(110deg, #c99b5815, #0e0e0d 70%);
+  background: linear-gradient(110deg, #b9925815, #0e0e0d 70%);
 }
 .vd-tooltip {
   background: #121110f5;
-  border-color: #b387486b;
+  border-color: #a37a406b;
   box-shadow: 0 15px 30px #000b;
 }
 .vd-bar > span {
@@ -305,32 +305,32 @@ body::before {
 /* Floating navigation picks up highlights from the luminous environment. */
 .club-sidebar [data-slot='sidebar-inner'] {
   background: linear-gradient(125deg, #a57f540c, #0b0b0aed 50%, #856b9b0a);
-  border-color: #c99b5846;
+  border-color: #b9925846;
   box-shadow:
-    inset 0 1px #b3874865,
+    inset 0 1px #a37a4065,
     0 15px 55px #0008;
 }
 .collective-nav a[aria-current],
 .mobile-dock a[aria-current] {
-  color: #b38748;
-  border-color: #c99b5875;
-  background: linear-gradient(115deg, #b3874822, #1a191799);
+  color: #a37a40;
+  border-color: #b9925875;
+  background: linear-gradient(115deg, #a37a4022, #1a191799);
   box-shadow:
-    inset 0 1px #b3874878,
-    inset 3px 0 #c99b58,
-    0 0 20px #b387480c;
+    inset 0 1px #a37a4078,
+    inset 3px 0 #b99258,
+    0 0 20px #a37a400c;
 }
 .mobile-dock {
-  background: linear-gradient(120deg, #b3874816, #0d0d0cf2 45%, #856b9b0d);
-  border-color: #b387486b;
+  background: linear-gradient(120deg, #a37a4016, #0d0d0cf2 45%, #856b9b0d);
+  border-color: #a37a406b;
   box-shadow:
-    inset 0 1px #b3874880,
+    inset 0 1px #a37a4080,
     0 10px 40px #000c;
 }
 .nav-dot,
 .cs-kicker > span {
-  background: #c99b58;
-  box-shadow: 0 0 12px #b387488c;
+  background: #b99258;
+  box-shadow: 0 0 12px #a37a408c;
 }
 /* Existing Cassius geometry becomes the active optical focal point. */
 .vd-cassius-glyph {
@@ -355,23 +355,23 @@ body::before {
   background: conic-gradient(
     from -28deg,
     #987246,
-    #b38748 9%,
-    #c99b58 19%,
+    #a37a40 9%,
+    #b99258 19%,
     #7e7b81 24%,
-    #b38748 34%,
-    #c99b58 40%,
-    #c99b58 50%,
-    #c99b58 60%,
+    #a37a40 34%,
+    #b99258 40%,
+    #b99258 50%,
+    #b99258 60%,
     #958a9e 66%,
-    #b38748 80%,
-    #c99b58 92%,
+    #a37a40 80%,
+    #b99258 92%,
     #987246
   );
 }
 .core-aura {
   background: radial-gradient(
     circle,
-    #c99b5826,
+    #b9925826,
     #856b9b12 45%,
     transparent 70%
   );
@@ -380,8 +380,8 @@ body::before {
   background: conic-gradient(
     from 40deg,
     transparent 8%,
-    #b3874836 19%,
-    #b3874880 24%,
+    #a37a4036 19%,
+    #a37a4080 24%,
     transparent 34%,
     #856b9b20 57%,
     #856b9b55 66%,
@@ -394,36 +394,36 @@ body::before {
     transparent 12%,
     #856b9b60 26%,
     transparent 36%,
-    #b387484d 48%,
+    #a37a404d 48%,
     transparent 62%,
-    #c99b5855 74%,
+    #b9925855 74%,
     transparent 90%
   );
 }
 .core-heart {
   background: radial-gradient(
     circle,
-    #c99b58 0,
-    #b38748 10%,
-    #c99b58 25%,
+    #b99258 0,
+    #a37a40 10%,
+    #b99258 25%,
     #856b9b45 50%,
     transparent 72%
   );
 }
 .core-network path {
-  stroke: #c99b5850;
+  stroke: #b9925850;
 }
 .core-network circle {
-  fill: #b38748;
+  fill: #a37a40;
 }
 .core-filaments path {
-  stroke: #b3874884;
+  stroke: #a37a4084;
 }
 .core-filaments path:nth-child(2) {
   stroke: #856b9b85;
 }
 .core-filaments .filament-signal {
-  stroke: #b38748;
+  stroke: #a37a40;
 }
 .cs-sigil,
 .cs-orbit,
@@ -431,15 +431,15 @@ body::before {
   position: relative;
   background: radial-gradient(
     circle,
-    #b387481c,
+    #a37a401c,
     #856b9b0b 50%,
     transparent 70%
   );
-  color: #b38748;
+  color: #a37a40;
   box-shadow:
-    inset 0 1px #b387485c,
-    0 0 55px #c99b5818;
-  border-color: #c99b586b;
+    inset 0 1px #a37a405c,
+    0 0 55px #b9925818;
+  border-color: #b992586b;
 }
 .cs-sigil::before,
 .cs-orbit::before,
@@ -449,7 +449,7 @@ body::before {
   inset: -8px;
   border-radius: 50%;
   border: 1px solid transparent;
-  border-top-color: #b38748b0;
+  border-top-color: #a37a40b0;
   border-right-color: #856b9b50;
   animation: optical-orbit 18s linear infinite;
   pointer-events: none;
@@ -572,7 +572,7 @@ html[data-ambient-motion='paused'] [data-material]::after {
   .mobile-dock {
     background: #0b0b0a;
     backdrop-filter: none;
-    border-color: #c99b58;
+    border-color: #b99258;
   }
   .living-atmosphere {
     display: none;
@@ -599,9 +599,9 @@ html[data-ambient-motion='paused'] [data-material]::after {
 
 .cs-empty {
   background:
-    radial-gradient(ellipse at 50% 32%, #b3874814, transparent 55%),
+    radial-gradient(ellipse at 50% 32%, #a37a4014, transparent 55%),
     radial-gradient(ellipse at 100% 100%, #856b9b0a, transparent 60%), #0b0b0a;
-  border-color: #b387482c;
+  border-color: #a37a402c;
 }
 .vd-is-thinking .core-fluid {
   animation-duration: 8s;

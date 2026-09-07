@@ -103,8 +103,8 @@ export function PerformanceChart({
               >
                 <defs>
                   <linearGradient id={id} x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#b38748" stopOpacity={0.25} />
-                    <stop offset="100%" stopColor="#b38748" stopOpacity={0} />
+                    <stop offset="0%" stopColor="#a37a40" stopOpacity={0.25} />
+                    <stop offset="100%" stopColor="#a37a40" stopOpacity={0} />
                   </linearGradient>
                 </defs>
                 <CartesianGrid vertical={false} stroke="#d9ceaa12" />
@@ -178,14 +178,14 @@ export function PerformanceChart({
                   dataKey="amount"
                   type="monotone"
                   fill={`url(#${id})`}
-                  stroke="#b38748"
+                  stroke="#a37a40"
                   strokeWidth={2.2}
                   dot={false}
                   activeDot={{
                     r: 5,
-                    stroke: '#dfb56d',
+                    stroke: '#c8a166',
                     strokeWidth: 2,
-                    fill: '#b38748',
+                    fill: '#a37a40',
                   }}
                   isAnimationActive={false}
                 />

@@ -1,16 +1,16 @@
 /* Illuminated amethyst surfaces against an obsidian frame. */
 :root, .dark {
-  --purple: #9958ca;
-  --violet: #9958ca;
-  --amethyst: #371649;
-  --glass: radial-gradient(ellipse at 12% 0%, #9450ba45, transparent 62%), linear-gradient(135deg, #3d1c50, #251130 65%, #180d22);
-  --glass-signature: radial-gradient(ellipse at 80% 18%, #aa60d41a, transparent 55%), linear-gradient(135deg, #48215c, #351743 65%, #21102d);
+  --purple: #67268b;
+  --violet: #67268b;
+  --amethyst: #260e36;
+  --glass: radial-gradient(ellipse at 12% 0%, #68299326, transparent 62%), linear-gradient(135deg, #2c103e, #1d0b2b 65%, #13091e);
+  --glass-signature: radial-gradient(ellipse at 80% 18%, #7835a322, transparent 55%), linear-gradient(135deg, #371348, #250e35 65%, #170a24);
   --brand-purple-quiet: var(--glass);
   --brand-purple-panel: var(--glass-signature);
   --brand-gold-panel: var(--glass-signature);
-  --border: #c99b5855;
-  --glass-edge: #dfb56d66;
-  --brand-bevel: inset 0 1px #dfb56d85, inset 1px 0 #bb78df35, inset 0 -2px #09050eaa, 0 8px 14px #0005, 0 25px 55px #0007;
+  --border: #b9925855;
+  --glass-edge: #c8a16666;
+  --brand-bevel: inset 0 1px #e0b978a0, inset 1px 0 #843baa45, inset 0 -2px #09050eaa, 0 8px 14px #0005, 0 25px 55px #0007;
   --glass-shadow: var(--brand-bevel);
 }
 .spatial-card, .gent-record, .vd-glass, .ps-glass, .panel,
@@ -24,37 +24,37 @@
 .spatial-card:nth-child(2), .vd-cassius, .ps-atlas, .intelligence-stage,
 .membership, .status-hero, .ps-product, .pm-hero, .vd-earnings {
   background: var(--glass-signature);
-  border-color: #dfb56d80;
+  border-color: #c8a16680;
   box-shadow: var(--brand-bevel), 0 0 38px #74379520;
 }
 /* Reflection follows the existing pointer controller; no extra render loop. */
 [data-material]::after {
-  background: linear-gradient(115deg, transparent 10%, #d9a75e10 28%, #dfb56d30 43%, #b975de22 48%, transparent 68%);
-  opacity: .58;
+  background: linear-gradient(115deg, transparent 20%, #b9925805 35%, #c8a16618 43%, #e0b97870 44%, #c8a16615 45%, transparent 49%, #813cac18 57%, transparent 65%);
+  opacity: .72;
 }
 [data-material]:hover::after { opacity: 1; }
 .spatial-card::before { opacity: 1; }
 .spatial-card:hover, .gent-record:hover, .vd-glass:hover, .ps-glass:hover {
-  border-color: #dfb56da0;
+  border-color: #c8a166a0;
   box-shadow: var(--brand-bevel), 0 0 30px #8e45b52a;
 }
 .command-theatre {
-  background: radial-gradient(ellipse at 82% 34%, #75339a55, transparent 55%), linear-gradient(108deg, #100a16, #21102d 46%, #3d1953);
-  border-color: #dfb56d75;
+  background: radial-gradient(ellipse at 82% 34%, #62208745, transparent 55%), linear-gradient(108deg, #100a16, #170a24 46%, #2c0e42);
+  border-color: #c8a16675;
   box-shadow: var(--brand-bevel), 0 0 65px #73359020;
 }
-.command-light-purple { background: radial-gradient(ellipse, #a44bd695, #66288955 43%, transparent 68%); }
+.command-light-purple { background: radial-gradient(ellipse, #7928ad80, #40136555 43%, transparent 68%); }
 .command-light-gold { background: radial-gradient(ellipse, #d5a25860, transparent 66%); }
 .command-theatre .instrument-center {
-  background: radial-gradient(circle at 28% 23%, #b77ad4, #733795 32%, #351347 66%, #13081d 95%);
-  box-shadow: inset 3px 3px 16px #dfb56d85, inset -12px -15px 26px #140520bb, 0 0 40px #a346d7a0, 0 0 95px #8135b375;
+  background: radial-gradient(circle at 28% 23%, #9651bc, #582078 32%, #2b0d3e 66%, #13081d 95%);
+  box-shadow: inset 3px 3px 16px #c8a16685, inset -12px -15px 26px #140520bb, 0 0 40px #8b32c4a0, 0 0 95px #65239775;
 }
-.cockpit-readout a { background: linear-gradient(125deg, #4c245caa, #22112fcf); border-color: #dfb56d55; box-shadow: inset 0 1px #dfb56d50, 0 7px 16px #0004; }
-.cockpit-readout a:hover { background: #4b235c; }
+.cockpit-readout a { background: linear-gradient(125deg, #351444bb, #1b0a2bcf); border-color: #c8a16655; box-shadow: inset 0 1px #c8a16650, 0 7px 16px #0004; }
+.cockpit-readout a:hover { background: #351444; }
 .module-sculpture { filter: drop-shadow(0 2px 2px #0008) drop-shadow(0 0 12px #cf9e5855); }
-.sculpture-face { fill: #af6cd329; }
-.ambient-gold { background: radial-gradient(ellipse, #c99b5833, #c99b580c 40%, transparent 68%); }
-.ambient-platinum { background: radial-gradient(ellipse, #914bc04d, #5b287b20 45%, transparent 65%); }
+.sculpture-face { fill: #71359929; }
+.ambient-gold { background: radial-gradient(ellipse, #b9925833, #b992580c 40%, transparent 68%); }
+.ambient-platinum { background: radial-gradient(ellipse, #6b268e40, #5b287b20 45%, transparent 65%); }
 @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
   .cockpit-readout a { background: #281335; }
   [data-material]::after { display: none; }

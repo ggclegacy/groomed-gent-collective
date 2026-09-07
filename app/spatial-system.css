@@ -2,33 +2,33 @@
 :root,
 .dark {
   --background: #080809;
-  --foreground: #c99b58;
+  --foreground: #b99258;
   --sidebar: #0b0a0d;
-  --gold: #b38748;
-  --gold-light: #dfb56d;
+  --gold: #a37a40;
+  --gold-light: #c8a166;
   --gold-dim: #684e30;
-  --primary: #b38748;
+  --primary: #a37a40;
   --muted: #170f1f;
   --muted-foreground: #bfb5c9;
-  --border: #b387482d;
+  --border: #a37a402d;
   --purple: #785594;
   --violet: #785594;
   --amethyst: #190c22;
   --purple-light: #c2a8d5;
-  --glass-edge: #b387483d;
-  --gold-metal: linear-gradient(118deg, #b38748, #dfb56d 46%, #b38748 75%, #9c7850);
+  --glass-edge: #a37a403d;
+  --gold-metal: linear-gradient(118deg, #a37a40, #c8a166 46%, #a37a40 75%, #9c7850);
   --glass: linear-gradient(135deg, #201329f5, #100b17fa);
   --glass-signature: radial-gradient(ellipse at 12% 0%, #51266824, transparent 65%), linear-gradient(130deg, #291435, #150c20);
   --brand-purple-quiet: var(--glass);
   --brand-purple-panel: var(--glass-signature);
   --brand-gold-panel: linear-gradient(130deg, #2b1537, #1c1027 60%, #110b19);
-  --brand-bevel: inset 0 1px #c99b5827, inset 0 -1px #0008, 0 18px 40px #0005;
+  --brand-bevel: inset 0 1px #b9925827, inset 0 -1px #0008, 0 18px 40px #0005;
   --obsidian: #080809;
   --font-display: ui-serif, Arial, 'Times New Roman', serif;
 }
 body {
   background: #080809;
-  color: #c99b58;
+  color: #b99258;
   isolation: isolate;
 }
 body::before {
@@ -37,14 +37,14 @@ body::before {
     linear-gradient(155deg, #0a0909, #070706);
 }
 ::selection {
-  background: #b38748;
+  background: #a37a40;
   color: #0d0d0c;
 }
 .living-atmosphere {
   z-index: -1;
 }
 .ambient-gold {
-  background: radial-gradient(ellipse, #b3874825, transparent 65%);
+  background: radial-gradient(ellipse, #a37a4025, transparent 65%);
   width: 70vw !important;
   height: 60vh !important;
   left: 30vw;
@@ -70,7 +70,7 @@ body::before {
     90deg,
     transparent,
     #9a774f40,
-    #b3874830,
+    #a37a4030,
     transparent
   );
 }
@@ -89,7 +89,7 @@ body::before {
 }
 .club-sidebar [data-slot='sidebar-inner'] {
   background: linear-gradient(110deg, #151513ed, #0a0a09f5);
-  border-right: 1px solid #b3874827;
+  border-right: 1px solid #a37a4027;
   box-shadow: 15px 0 50px #0003;
 }
 .collective-nav a {
@@ -102,29 +102,29 @@ body::before {
     color 0.2s;
 }
 .collective-nav a[aria-current='page'] {
-  color: #c99b58;
+  color: #b99258;
   background: linear-gradient(110deg, #8c694020, #8c694006);
-  border-color: #b3874840;
+  border-color: #a37a4040;
   box-shadow:
-    inset 2px 0 #b38748,
-    inset 0 1px #b3874820;
+    inset 2px 0 #a37a40,
+    inset 0 1px #a37a4020;
 }
 .collective-nav a:hover {
-  color: #c99b58;
-  background: #b3874810;
+  color: #b99258;
+  background: #a37a4010;
 }
 .brand-sub,
 .nav-label {
   letter-spacing: 0.17em;
 }
 .monogram {
-  color: #c99b58;
+  color: #b99258;
   background: none;
   -webkit-text-fill-color: currentColor;
 }
 .topbar {
   min-height: 72px;
-  border-bottom: 1px solid #b3874818;
+  border-bottom: 1px solid #a37a4018;
 }
 .top-title {
   font-size: 12px;
@@ -132,13 +132,13 @@ body::before {
   color: #cbc6cf;
 }
 .preview-badge {
-  background: #b3874809;
-  border-color: #b387482d;
+  background: #a37a4009;
+  border-color: #a37a402d;
   color: #c3bdc8;
 }
 .gent-memory-bar {
   background: #0d0d0c;
-  border-color: #b3874822;
+  border-color: #a37a4022;
   font-size: 12px;
   padding: 9px 22px;
   min-height: 42px;
@@ -190,7 +190,7 @@ main {
   font-family: var(--font-display);
   font-weight: 400;
   font-style: italic;
-  color: #c99b58;
+  color: #b99258;
 }
 .spatial-introduction p {
   color: #b5aebb;
@@ -221,7 +221,7 @@ main {
   display: grid;
   place-items: center;
   cursor: pointer;
-  background: radial-gradient(ellipse at 50% 48%, #b3874836, transparent 65%);
+  background: radial-gradient(ellipse at 50% 48%, #a37a4036, transparent 65%);
 }
 .instrument-stage {
   display: block;
@@ -245,7 +245,7 @@ main {
   border: 3px solid #9a774f;
   background: transparent;
   box-shadow:
-    inset 1px 1px 2px #c99b58bd,
+    inset 1px 1px 2px #b99258bd,
     inset -2px -2px 4px #0e0d0ccf,
     1px 2px 2px #3c2d1c,
     0 0 18px #9e7a5116;
@@ -255,7 +255,7 @@ main {
 }
 .ring-two {
   transform: rotateX(65deg) rotateZ(-25deg);
-  border-color: #c99b58;
+  border-color: #b99258;
 }
 .ring-three {
   transform: rotateY(-40deg) rotateX(-35deg);
@@ -272,12 +272,12 @@ main {
     #1f1e1c 47%,
     #0a0a09 85%
   );
-  color: #c99b58;
+  color: #b99258;
   font-family: var(--font-display);
   font-style: normal;
   font-size: 52px;
   box-shadow:
-    inset 2px 2px 5px #c99b5875,
+    inset 2px 2px 5px #b9925875,
     10px 10px 22px #000b,
     0 0 30px #60407b35;
   transform: translateZ(18px);
@@ -311,7 +311,7 @@ main {
   display: block;
   font-size: 15px;
   letter-spacing: 0.32em;
-  color: #c99b58;
+  color: #b99258;
   margin-top: 0;
 }
 .instrument-caption > span {
@@ -323,9 +323,9 @@ main {
 }
 .spatial-instrument:hover .instrument-center {
   box-shadow:
-    inset 2px 2px 5px #c99b5899,
+    inset 2px 2px 5px #b9925899,
     10px 10px 22px #000b,
-    0 0 35px #b3874840;
+    0 0 35px #a37a4040;
 }
 @keyframes instrument-breathe {
   from {
@@ -340,8 +340,8 @@ main {
   grid-template-columns: 180px minmax(0, 1fr);
   gap: 25px;
   padding: 22px 0;
-  border-top: 1px solid #b387482e;
-  border-bottom: 1px solid #b387482e;
+  border-top: 1px solid #a37a402e;
+  border-bottom: 1px solid #a37a402e;
 }
 .spatial-next h2 {
   font-size: 23px;
@@ -364,7 +364,7 @@ main {
   transition: background 0.2s;
 }
 .spatial-priority-list > a:hover {
-  background: #b3874810;
+  background: #a37a4010;
 }
 .spatial-index {
   font-size: 12px;
@@ -384,7 +384,7 @@ main {
 .spatial-priority-list svg {
   margin-left: auto;
   flex-shrink: 0;
-  color: #b38748;
+  color: #a37a40;
 }
 .spatial-worlds {
   display: grid;
@@ -402,10 +402,10 @@ main {
   padding: 22px;
   overflow: hidden;
   isolation: isolate;
-  border: 1px solid #b3874865;
+  border: 1px solid #a37a4065;
   background: var(--glass-signature);
   box-shadow:
-    inset 0 1px #c99b582e,
+    inset 0 1px #b992582e,
     inset 0 -2px #0009,
     0 15px 30px #0006;
   transform: perspective(1100px) rotateX(var(--tilt-x, 0deg))
@@ -422,18 +422,18 @@ main {
   left: -40%;
   top: -80%;
   transform: translateX(var(--reflection-x, 0%)) rotate(-22deg);
-  background: linear-gradient(transparent, #c99b581c, transparent);
+  background: linear-gradient(transparent, #b992581c, transparent);
   pointer-events: none;
   z-index: -1;
 }
 .spatial-card:hover {
-  border-color: #b387487d;
+  border-color: #a37a407d;
 }
 .spatial-card-head {
   display: flex;
   align-items: center;
   gap: 9px;
-  color: #c99b58;
+  color: #b99258;
   font-size: 12px;
   letter-spacing: 0.13em;
   z-index: 2;
@@ -457,7 +457,7 @@ main {
   font-weight: 400;
   line-height: 1.22;
   font-size: 25px;
-  color: #c99b58;
+  color: #b99258;
   overflow-wrap: anywhere;
 }
 .spatial-card-body > span {
@@ -470,10 +470,10 @@ main {
   justify-content: space-between;
   align-items: center;
   padding-top: 17px;
-  border-top: 1px solid #b3874828;
+  border-top: 1px solid #a37a4028;
   margin-top: 20px;
   font-size: 12px;
-  color: #c99b58;
+  color: #b99258;
   gap: 8px;
 }
 .world-contours {
@@ -547,8 +547,8 @@ main {
   width: 42px;
   height: 67px;
   border-radius: 6px;
-  background: linear-gradient(110deg, #c99b5873, #76856133 20%, #21201e 70%);
-  border: 1px solid #c99b5865;
+  background: linear-gradient(110deg, #b9925873, #76856133 20%, #21201e 70%);
+  border: 1px solid #b9925865;
   transform: perspective(400px) rotateY(-25deg) rotateZ(12deg);
   box-shadow:
     7px 5px 0 #090808,
@@ -573,7 +573,7 @@ main {
 .cs-director,
 .cs-canvas-panel {
   background: var(--glass);
-  border-color: #b3874850;
+  border-color: #a37a4050;
   box-shadow: var(--brand-bevel);
 }
 .vd-command,
@@ -583,35 +583,35 @@ main {
 .intelligence-stage,
 .cs-empty {
   background: var(--glass-signature);
-  border-color: #b387484d;
+  border-color: #a37a404d;
 }
 .vd-earnings,
 .membership,
 .status-hero,
 .ps-product {
   background: var(--brand-gold-panel);
-  border-color: #b3874860;
+  border-color: #a37a4060;
   box-shadow: var(--brand-bevel);
 }
 .vd-earnings-main,
 .vd-earnings .vd-balances {
   background: #0e0e0ddd;
-  border-color: #b3874829;
+  border-color: #a37a4029;
 }
 .vd-metric {
   background: #10100f;
-  border-color: #b3874826;
+  border-color: #a37a4026;
 }
 .visual-dashboard,
 .product-studio,
 .creative-studio {
-  --vd-gold: #b38748;
+  --vd-gold: #a37a40;
   --vd-muted: #b5aebb;
-  --vd-edge: #b3874835;
-  --ps-gold: #b38748;
+  --vd-edge: #a37a4035;
+  --ps-gold: #a37a40;
   --ps-muted: #b5aebb;
   --ps-amethyst: #1e1d1b;
-  --cs-gold: #b38748;
+  --cs-gold: #a37a40;
   --cs-dim: #b5aebb;
 }
 .vd-metric-label,
@@ -624,7 +624,7 @@ main {
   font-family: var(--font-display);
   font-weight: 400;
   letter-spacing: -0.035em;
-  color: #c99b58;
+  color: #b99258;
 }
 .gent-record h2 {
   font-weight: 400;
@@ -640,8 +640,8 @@ main {
 .gent-editor select,
 .gent-dialog textarea {
   background: #0a0a09;
-  border-color: #b387483a;
-  color: #c99b58;
+  border-color: #a37a403a;
+  color: #b99258;
   border-radius: 9px;
 }
 .gold-button,
@@ -649,7 +649,7 @@ main {
 .cs-generate {
   background: var(--gold-metal);
   color: #121210;
-  border-color: #c99b58;
+  border-color: #b99258;
   box-shadow:
     inset 0 1px #a57f5477,
     0 5px 12px #0006;
@@ -667,19 +667,19 @@ main {
 }
 .gent-invoke {
   background: linear-gradient(140deg, #2a2926eb, #0d0c0bef);
-  border: 1px solid #b3874866;
-  color: #c99b58;
+  border: 1px solid #a37a4066;
+  color: #b99258;
   box-shadow:
-    inset 0 1px #c99b5842,
+    inset 0 1px #b9925842,
     0 12px 30px #0009;
   backdrop-filter: blur(16px);
 }
 .gent-dialog {
   background: linear-gradient(140deg, #1c1b19ec, #0a0a09f7);
-  border: 1px solid #b3874870;
+  border: 1px solid #a37a4070;
   box-shadow:
     0 35px 110px #000b,
-    inset 0 1px #c99b5850;
+    inset 0 1px #b9925850;
 }
 .gent-dialog::backdrop {
   background: #040404b8;
@@ -687,11 +687,11 @@ main {
 }
 .ambient-toggle {
   background: #141312ed;
-  color: #c99b58;
-  border-color: #b3874848;
+  color: #b99258;
+  border-color: #a37a4048;
 }
 .membership .card-wordmark {
-  color: #c99b58;
+  color: #b99258;
   background: none;
   -webkit-text-fill-color: currentColor;
   text-shadow: 0 2px 10px #0007;
@@ -702,19 +702,19 @@ main {
   transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 :where(a, button, input, textarea, select, summary):focus-visible {
-  outline: 2px solid #c99b58;
+  outline: 2px solid #b99258;
   outline-offset: 4px;
 }
 /* Permanent brand roles: obsidian environment, amethyst content, gold action. */
 .gent-invoke, .gent-dialog, .life-pulse, .life-preparation, .desk-focus,
 .vd-metric, .ps-daily, .cs-director, .cs-canvas-panel {
   background: var(--glass-signature);
-  border-color: #b3874850;
+  border-color: #a37a4050;
 }
 .spatial-card-head, .spatial-card-foot, .gent-space h1,
 .ps-section-heading h2, .cs-section-title { color: var(--gold-light); }
 .spatial-card {
-  box-shadow: inset 0 1px #c99b5845, inset 1px 0 #b3874818,
+  box-shadow: inset 0 1px #b9925845, inset 1px 0 #a37a4018,
     inset 0 -2px #0009, 0 20px 40px #0008, 0 3px 0 #0b0711;
 }
 .gent-editor input, .gent-editor textarea, .gent-editor select,
@@ -865,7 +865,7 @@ main {
     display: none;
   }
   .spatial-card {
-    border-color: #b38748;
+    border-color: #a37a40;
   }
 }
 @media (forced-colors: active) {
@@ -897,27 +897,27 @@ main {
 .core-aura {
   background: radial-gradient(
     circle,
-    #b3874844,
+    #a37a4044,
     #2715372b 45%,
     transparent 70%
   );
 }
 .core-fluid {
   background:
-    radial-gradient(ellipse at 30% 20%, #c99b586b, transparent 52%),
-    radial-gradient(ellipse at 70% 70%, #b3874870, transparent 63%), #121110;
+    radial-gradient(ellipse at 30% 20%, #b992586b, transparent 52%),
+    radial-gradient(ellipse at 70% 70%, #a37a4070, transparent 63%), #121110;
 }
 .core-filaments path:nth-child(2) {
   stroke: #927aa5b3;
 }
 .mobile-dock {
   background: linear-gradient(120deg, #292825eb, #0f0e0dee);
-  border-color: #b3874855;
+  border-color: #a37a4055;
 }
 .mobile-dock a[aria-current] {
-  background: #b387481a;
-  color: #c99b58;
-  border-color: #b3874860;
+  background: #a37a401a;
+  color: #b99258;
+  border-color: #a37a4060;
 }
 .spatial-instrument[data-material-visible='false'] .instrument-body {
   animation-play-state: paused !important;

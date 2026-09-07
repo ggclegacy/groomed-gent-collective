@@ -1,12 +1,12 @@
 /* One gold family: warm antique metal, with readable text and no white highlights. */
 :root, .dark {
-  --gold: #c99b58;
-  --gold-light: #dfb56d;
+  --gold: #b99258;
+  --gold-light: #c8a166;
   --gold-dim: #76512f;
-  --primary: #c99b58;
-  --foreground: #c99b58;
-  --gold-metal: linear-gradient(118deg, #b38748 0%, #c99b58 24%, #dfb56d 43%, #bc8c49 48%, #b38748 70%, #c99b58 100%);
-  --gold-rim: inset 0 1px #dfb56d80, inset 0 -1px #76512f;
+  --primary: #b99258;
+  --foreground: #b99258;
+  --gold-metal: linear-gradient(118deg, #a37a40 0%, #b99258 33%, #c8a166 43%, #e0b978 44%, #ac8349 46%, #a37a40 70%, #b99258 100%);
+  --gold-rim: inset 0 1px #c8a16680, inset 0 -1px #76512f;
 }
 .visual-dashboard, .product-studio, .creative-studio {
   --vd-gold: var(--gold);
@@ -17,20 +17,21 @@
 .member-door .gold-button {
   background: var(--gold-metal);
   color: #100c09;
-  border-color: #dfb56d;
+  border-color: #c8a166;
   box-shadow: var(--gold-rim), 0 7px 22px #0006;
   text-shadow: none;
 }
 .gold-button:hover:not(:disabled), .vd-gold-button:hover:not(:disabled),
 .cs-generate:hover:not(:disabled), .pm-primary:hover:not(:disabled) {
   filter: none;
-  box-shadow: var(--gold-rim), 0 10px 28px #0008, 0 0 18px #b3874822;
+  box-shadow: var(--gold-rim), 0 10px 28px #0008, 0 0 22px #b9925850;
 }
 /* Large lettering can carry the metal reflection; small type stays solid gold. */
 @supports (background-clip: text) {
   .command-theatre .spatial-introduction h1 > span,
   .spatial-card-body strong {
-    background: linear-gradient(115deg, #c99b58, #dfb56d 42%, #bc8c49 65%, #c99b58);
+    filter: drop-shadow(0 0 9px #b9925845);
+    background: linear-gradient(115deg, #b99258 20%, #c8a166 43%, #e0b978 45%, #b99258 48%, #ac8349 68%, #c8a166);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -39,7 +40,7 @@
 }
 @media (prefers-contrast: more), (forced-colors: active) {
   .command-theatre .spatial-introduction h1 > span, .spatial-card-body strong {
-    background: none; color: var(--gold-light); -webkit-text-fill-color: currentColor;
+    filter: none; background: none; color: var(--gold-light); -webkit-text-fill-color: currentColor;
   }
 }
 @media (forced-colors: active) {

@@ -5,19 +5,19 @@
   --background: #0a0a0a;
   --foreground: #f2f0eb;
   --sidebar: #0a0a0a;
-  --gold: #b38748;
-  --gold-light: #c99b58;
+  --gold: #a37a40;
+  --gold-light: #b99258;
   --gold-dim: #5d462b;
-  --primary: #b38748;
+  --primary: #a37a40;
   --purple: #856b9b;
-  --purple-light: #c99b58;
+  --purple-light: #b99258;
   --amethyst: #1a1917;
   --violet: #856b9b;
-  --border: #b3874840;
+  --border: #a37a4040;
   --muted: #131211;
   --muted-foreground: #bab3bf;
-  --glass-edge: #b3874855;
-  --gold-metal: linear-gradient(145deg, #543f27 0%, #694f30 16%, #80603b 32%, #b38748 50%, #7e5e3a 66%, #5d462b 82%, #382e20 100%);
+  --glass-edge: #a37a4055;
+  --gold-metal: linear-gradient(145deg, #543f27 0%, #694f30 16%, #80603b 32%, #a37a40 50%, #7e5e3a 66%, #5d462b 82%, #382e20 100%);
   --brand-gold-panel:
     radial-gradient(circle at 18% 12%, #a17c523d 0%, transparent 54%),
     radial-gradient(circle at 82% 90%, #382e206b 0%, transparent 50%),
@@ -27,18 +27,18 @@
     radial-gradient(ellipse at 85% 90%, #856b9b3d, transparent 65%),
     linear-gradient(145deg, #121210 0%, #201f1d 28%, #282724 52%, #331c44 72%, #191816 100%);
   --brand-purple-quiet: linear-gradient(145deg, #1a1917, #131211 75%);
-  --brand-bevel: inset 0 1px #c99b5870, inset 0 -1px #30281c8a, 0 20px 50px #0009;
+  --brand-bevel: inset 0 1px #b9925870, inset 0 -1px #30281c8a, 0 20px 50px #0009;
   --glass: var(--brand-purple-quiet);
   --glass-signature: var(--brand-purple-panel);
   --glass-shadow: var(--brand-bevel);
 }
-.visual-dashboard { --vd-gold: var(--gold); --vd-muted: #bab3bf; --vd-edge: #b3874840; }
+.visual-dashboard { --vd-gold: var(--gold); --vd-muted: #bab3bf; --vd-edge: #a37a4040; }
 .product-studio { --ps-gold: var(--gold); --ps-muted: #bab3bf; --ps-amethyst: #1a1917; }
 .creative-studio { --cs-gold: var(--gold); --cs-dim: #bab3bf; }
 body::before {
   background: radial-gradient(ellipse at 14% 28%, #5c377a3d, transparent 56%), radial-gradient(ellipse at 86% 68%, #2827242e, transparent 50%), linear-gradient(160deg, #0a0a0a, #121210 38%, #0d0d0c 65%, #090808);
 }
-.ambient-gold { background: radial-gradient(ellipse, #b3874826, #c99b580d 40%, transparent 68%); }
+.ambient-gold { background: radial-gradient(ellipse, #a37a4026, #b992580d 40%, transparent 68%); }
 .ambient-platinum { background: radial-gradient(ellipse, #856b9b38, #2827242e 45%, transparent 65%); }
 .vd-glass, .ps-glass, .panel, .pending-panel, .membership-record,
 .member-door, .draft-library, .studio-editor, .cs-director, .cs-canvas-panel {
@@ -48,12 +48,12 @@ body::before {
 }
 .vd-cassius, .ps-atlas, .intelligence-stage, .cs-director, .cs-empty {
   background: var(--brand-purple-panel);
-  border-color: #b3874880;
+  border-color: #a37a4080;
 }
 /* Full metal planes: financial identity and product display cases. */
 .vd-earnings, .membership, .status-hero, .ps-product {
   background: var(--brand-gold-panel);
-  border-color: #c99b5880;
+  border-color: #b9925880;
   box-shadow: var(--brand-bevel), 0 0 48px #28272424;
 }
 .vd-earnings {
@@ -71,31 +71,31 @@ body::before {
 }
 .vd-earnings-main {
   padding: 16px;
-  border: 1px solid #c99b5855;
+  border: 1px solid #b9925855;
   border-radius: 16px;
   background: #1a1917ed;
-  box-shadow: inset 0 1px #c99b5833;
+  box-shadow: inset 0 1px #b9925833;
 }
 .vd-earnings .vd-balances { padding: 16px; border-radius: 12px; background: #1a1917ed; }
 .vd-earnings .vd-balances span { color: #d9d1df; }
-.vd-metric { background: var(--brand-purple-quiet); border-color: #c99b5855; }
+.vd-metric { background: var(--brand-purple-quiet); border-color: #b9925855; }
 .vd-metric-label, .vd-metric-detail { color: #c6bdcd; }
 .vd-metric-label svg, .vd-hero-spark { color: var(--gold-light); }
 .vd-section-title h2, .cs-section-title, .ps-section-heading h2,
 .section-title h2, .brand-sub, .vd-cassius-wordmark { color: var(--gold-light); }
-.vd-command, .vd-command-wide { background: var(--brand-purple-panel); border-color: #b3874880; }
+.vd-command, .vd-command-wide { background: var(--brand-purple-panel); border-color: #a37a4080; }
 .vd-command-icon, .vd-command:nth-child(even) .vd-command-icon,
 .vd-pulse-icon, .ps-product-mark, .membership-seal {
   background: var(--brand-gold-panel);
   color: #f2f0eb;
-  border-color: #c99b5880;
-  box-shadow: inset 0 1px #c99b5880, 0 5px 18px #0006;
+  border-color: #b9925880;
+  box-shadow: inset 0 1px #b9925880, 0 5px 18px #0006;
 }
 .vd-command-wide { background: var(--brand-gold-panel); color: #f2f0eb; }
 .vd-command-wide :is(span, small, strong, svg) { color: #f2f0eb; }
 .ps-product .ps-product-copy {
   background: #1a1917ed;
-  border: 1px solid #c99b5855;
+  border: 1px solid #b9925855;
   border-radius: 16px;
   padding: 20px;
 }
@@ -108,13 +108,13 @@ body::before {
 .status-hero :is(.eyebrow, p, span) { color: #f2f0eb; }
 /* Gold controls retain a dark, stable text bed through the metallic range. */
 .vd-gold-button, .gold-button, .cs-generate, .member-door .gold-button {
-  background: linear-gradient(145deg, #c99b58, #b38748 55%, #c99b58);
+  background: linear-gradient(145deg, #b99258, #a37a40 55%, #b99258);
   color: #1a1917;
-  border-color: #c99b58;
-  box-shadow: inset 0 1px #c99b58, inset 0 -2px #5d462b, 0 7px 24px #b3874826;
+  border-color: #b99258;
+  box-shadow: inset 0 1px #b99258, inset 0 -2px #5d462b, 0 7px 24px #a37a4026;
 }
 .vd-gold-button:hover:not(:disabled), .gold-button:hover:not(:disabled), .cs-generate:hover:not(:disabled) {
-  box-shadow: inset 0 1px #c99b58, 0 10px 30px #b3874840;
+  box-shadow: inset 0 1px #b99258, 0 10px 30px #a37a4040;
 }
 .collective-nav a[aria-current], .mobile-dock a[aria-current],
 .vd-periods button[aria-pressed='true'], .vd-chart-switch button[aria-pressed='true'],
@@ -123,22 +123,22 @@ body::before {
   color: var(--gold-light);
   background: var(--brand-purple-panel);
   border-color: var(--gold);
-  box-shadow: inset 0 1px #c99b5866, inset 3px 0 var(--gold), 0 3px 12px #0005;
+  box-shadow: inset 0 1px #b9925866, inset 3px 0 var(--gold), 0 3px 12px #0005;
 }
 .cs-tabs button[aria-current], .ps-room-nav button[aria-pressed='true'] { color: var(--gold-light); border-color: var(--gold); }
-.club-sidebar [data-slot='sidebar-inner'], .mobile-dock { background: #0a0a0af5; border-color: #b3874866; }
-.vd-chip-gold, .vd-chip-green { color: #c99b58; background: #1a1917; border-color: #b3874880; }
-.vd-command:hover, .ps-product:hover, .ps-daily:hover { border-color: var(--gold-light); box-shadow: var(--brand-bevel), 0 0 26px #b3874826; }
+.club-sidebar [data-slot='sidebar-inner'], .mobile-dock { background: #0a0a0af5; border-color: #a37a4066; }
+.vd-chip-gold, .vd-chip-green { color: #b99258; background: #1a1917; border-color: #a37a4080; }
+.vd-command:hover, .ps-product:hover, .ps-daily:hover { border-color: var(--gold-light); box-shadow: var(--brand-bevel), 0 0 26px #a37a4026; }
 .vd-bar > span { background: var(--gold-metal); }
 .vd-chart-legend i:first-child { background: var(--gold); }
 .vd-chart-legend span:nth-child(2) i { background: var(--purple); }
 .vd-channel-donut > div { background: #1a1917; }
-.core-gold-bezel { background: conic-gradient(from -28deg, #5d462b, #b38748 15%, #c99b58 25%, #5d462b 38%, #b38748 55%, #c99b58 72%, #382e20 90%, #5d462b); }
-.core-heart { background: radial-gradient(circle, #c99b58, #b38748 20%, #856b9b66 48%, transparent 72%); }
+.core-gold-bezel { background: conic-gradient(from -28deg, #5d462b, #a37a40 15%, #b99258 25%, #5d462b 38%, #a37a40 55%, #b99258 72%, #382e20 90%, #5d462b); }
+.core-heart { background: radial-gradient(circle, #b99258, #a37a40 20%, #856b9b66 48%, transparent 72%); }
 .core-aura { background: radial-gradient(circle, #856b9b4d, #28272433 45%, transparent 70%); }
 .core-filaments path:nth-child(2) { stroke: #856b9bb3; }
 .core-network circle { fill: var(--gold-light); }
-.cs-sigil, .cs-orbit, .ps-atlas-orbit { color: var(--gold-light); background: var(--brand-purple-panel); border-color: #b3874880; }
+.cs-sigil, .cs-orbit, .ps-atlas-orbit { color: var(--gold-light); background: var(--brand-purple-panel); border-color: #a37a4080; }
 :where(button, a, input, textarea, select):focus-visible { outline: 2px solid var(--gold-light); outline-offset: 4px; }
 ::selection { background: #351e49; color: #f2f0eb; }
 @media (max-width: 767px) {
@@ -149,7 +149,7 @@ body::before {
 @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
   .vd-glass, .ps-glass, .panel, .cs-director, .cs-canvas-panel, .member-door,
   .membership, .status-hero, .ps-product, .vd-command, .mobile-dock {
-    background: #1a1917; color: #f2f0eb; border-color: #c99b58; backdrop-filter: none;
+    background: #1a1917; color: #f2f0eb; border-color: #b99258; backdrop-filter: none;
   }
 }
 @media (forced-colors: active) {
