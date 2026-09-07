@@ -208,9 +208,9 @@ export function ProgressRing({
       <svg viewBox="0 0 180 180" aria-hidden="true">
         <defs>
           <linearGradient id={id}>
-            <stop stopColor="#695025" />
-            <stop offset=".5" stopColor="#c4912f" />
-            <stop offset="1" stopColor="#f1d99d" />
+            <stop stopColor="#694f30" />
+            <stop offset=".5" stopColor="#b88e5e" />
+            <stop offset="1" stopColor="#b88e5e" />
           </linearGradient>
         </defs>
         <circle
@@ -218,7 +218,7 @@ export function ProgressRing({
           cy="90"
           r="77"
           fill="none"
-          stroke="#d5c5a415"
+          stroke="#b88e5e15"
           strokeWidth="7"
         />
         <circle
@@ -226,7 +226,7 @@ export function ProgressRing({
           cy="90"
           r="64"
           fill="none"
-          stroke="#b7aa8914"
+          stroke="#b78d5d14"
           strokeWidth="1"
           strokeDasharray="1 7"
         />

@@ -8,7 +8,7 @@
   padding: 10px 24px;
   background: #0f0e0d;
   color: #c0b7c7;
-  border-bottom: 1px solid #92785430;
+  border-bottom: 1px solid #926d4330;
   font-size: 13px;
 }
 .gent-memory-bar > span {
@@ -20,7 +20,7 @@
   flex-shrink: 0;
 }
 .gent-memory-bar button {
-  color: #a78c67;
+  color: #b58e60;
 }
 .gent-memory-bar button:disabled {
   opacity: 0.4;
@@ -41,13 +41,13 @@
   gap: 36px;
   margin: 12px 0 38px;
   padding: 32px;
-  border: 1px solid #967c5740;
+  border: 1px solid #96704540;
   border-radius: 22px;
   background:
     radial-gradient(ellipse at top right, #2c2a2785, transparent 75%),
     linear-gradient(130deg, #11110f, #090908);
   box-shadow:
-    inset 0 1px #a5896214,
+    inset 0 1px #a57f5414,
     0 20px 55px #0005;
 }
 .gent-command h2 {
@@ -69,12 +69,12 @@
   grid-template-columns: 1fr auto;
   gap: 7px;
   padding: 16px 0;
-  border-bottom: 1px solid #967c5725;
+  border-bottom: 1px solid #96704525;
 }
 .gent-priorities span {
   grid-column: 1/-1;
   font-size: 12px;
-  color: #967b56;
+  color: #967045;
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
@@ -102,10 +102,10 @@
   max-width: 860px;
   padding: 26px;
   margin: 24px 0;
-  border: 1px solid #977c5740;
+  border: 1px solid #97714540;
   border-radius: 18px;
   background: linear-gradient(130deg, #1d1c1abb, #0c0c0bee);
-  box-shadow: inset 0 1px #a5896213;
+  box-shadow: inset 0 1px #a57f5413;
 }
 .gent-editor h2 {
   font-size: 24px;
@@ -138,7 +138,7 @@
 .gent-editor textarea:focus,
 .gent-editor select:focus,
 .gent-dialog textarea:focus {
-  outline: 2px solid #a1855d;
+  outline: 2px solid #a17c52;
   outline-offset: 2px;
 }
 .gent-fields {
@@ -155,7 +155,7 @@
 .gent-check input {
   width: 18px;
   height: 18px;
-  accent-color: #9b7f59;
+  accent-color: #9b784f;
   flex-shrink: 0;
 }
 .gent-records {
@@ -166,10 +166,10 @@
 .gent-record {
   min-width: 0;
   padding: 26px;
-  border: 1px solid #8f765233;
+  border: 1px solid #8f6b4233;
   border-radius: 18px;
   background: linear-gradient(130deg, #1a191799, #0c0b0be6);
-  box-shadow: inset 0 1px #a589620d;
+  box-shadow: inset 0 1px #a57f540d;
 }
 .gent-record h2 {
   font-size: 25px;
@@ -187,12 +187,12 @@
 }
 .gent-record small,
 .gent-date {
-  color: #9d825b;
+  color: #9d7950;
   font-size: 13px;
 }
 .gent-record .gent-actions {
   font-size: 14px;
-  border-top: 1px solid #8f765225;
+  border-top: 1px solid #8f6b4225;
   padding-top: 16px;
 }
 .gent-record.is-complete {
@@ -201,7 +201,7 @@
 .gent-empty {
   padding: 64px 24px;
   text-align: center;
-  border: 1px solid #947a5528;
+  border: 1px solid #946f4428;
   border-radius: 20px;
   margin-top: 28px;
   background: radial-gradient(ellipse at center, #24232070, transparent);
@@ -216,10 +216,10 @@
 }
 .gent-orbit {
   display: inline-flex;
-  border: 1px solid #a1845c55;
+  border: 1px solid #a17c5255;
   border-radius: 50%;
   padding: 24px;
-  color: #a3865e;
+  color: #a37e53;
   box-shadow:
     0 0 50px #81659820,
     inset 0 0 24px #2e1a3e44;
@@ -232,7 +232,7 @@
 }
 .gent-hub a {
   padding: 26px;
-  border: 1px solid #947a5533;
+  border: 1px solid #946f4433;
   border-radius: 18px;
   background: linear-gradient(120deg, #201f1d80, #0d0c0b);
   display: grid;
@@ -246,7 +246,7 @@
   color: #beb8c3;
 }
 .gent-hub svg {
-  color: #9c8059;
+  color: #9c7850;
 }
 .gent-invoke {
   position: fixed;
@@ -258,12 +258,12 @@
   gap: 12px;
   padding: 15px 23px;
   border-radius: 40px;
-  border: 1px solid #9e825b88;
+  border: 1px solid #9e7a5188;
   background: linear-gradient(145deg, #271536, #11110f);
-  color: #a78c67;
+  color: #b58e60;
   box-shadow:
     0 6px 30px #0008,
-    inset 0 1px #a5896230;
+    inset 0 1px #a57f5430;
   font-size: 14px;
   letter-spacing: 0.1em;
 }
@@ -284,7 +284,7 @@
   background: linear-gradient(160deg, #1b1a18, #0a0a09 65%);
   color: #eef0e8;
   border: 0;
-  border-left: 1px solid #967c5766;
+  border-left: 1px solid #96704566;
   box-shadow: -30px 0 90px #0008;
   overflow: auto;
 }
@@ -316,7 +316,7 @@
 }
 .gent-dialog details {
   margin: 16px 0;
-  color: #a3875f;
+  color: #a37e53;
   font-size: 13px;
 }
 .gent-dialog pre {
@@ -335,14 +335,14 @@
 }
 .gent-generated {
   padding: 22px;
-  border: 1px solid #967c5740;
+  border: 1px solid #96704540;
   border-radius: 12px;
   margin: 20px 0;
 }
 .gent-space button:focus-visible,
 .gent-invoke:focus-visible,
 .gent-dialog button:focus-visible {
-  outline: 2px solid #a78b65;
+  outline: 2px solid #a78155;
   outline-offset: 4px;
 }
 @media (max-width: 760px) {
@@ -385,7 +385,7 @@
   gap: 10px;
   align-items: center;
   margin: 20px 0;
-  color: #a78c67;
+  color: #b58e60;
 }
 .voyage-heading {
   display: flex;
@@ -409,10 +409,10 @@
   text-align: left;
   padding: 30px;
   border-radius: 22px;
-  border: 1px solid #967c5744;
+  border: 1px solid #96704544;
   background:
     radial-gradient(ellipse at top right, #2a183a99, transparent), #0d0d0c;
-  box-shadow: inset 0 1px #a5896218;
+  box-shadow: inset 0 1px #a57f5418;
 }
 .voyage-journey h2 {
   font-size: 30px;
@@ -420,7 +420,7 @@
   letter-spacing: -0.04em;
 }
 .voyage-journey > svg {
-  color: #9b7f59;
+  color: #9b784f;
 }
 .voyage-journey p,
 .voyage-journey > span:last-of-type {
@@ -431,15 +431,15 @@
   gap: 25px;
   align-items: center;
   padding: 28px;
-  border: 1px solid #997e5860;
+  border: 1px solid #99724660;
   border-radius: 20px;
   background: linear-gradient(120deg, #272623, #0f0f0e);
   box-shadow:
     0 15px 40px #0005,
-    inset 0 1px #a5896222;
+    inset 0 1px #a57f5422;
 }
 .voyage-pulse > svg {
-  color: #a1845c;
+  color: #a17c52;
 }
 .voyage-pulse h2 {
   font-size: 27px;
@@ -449,7 +449,7 @@
 .voyage-pulse > span {
   margin-left: auto;
   font-size: 14px;
-  color: #a1855d;
+  color: #a17c52;
 }
 .voyage-pulse p {
   color: #c1bac6;
@@ -462,14 +462,14 @@
 }
 .voyage-tools details {
   flex: 1;
-  border: 1px solid #967c5733;
+  border: 1px solid #96704533;
   border-radius: 14px;
   padding: 18px;
   background: #18181666;
 }
 .voyage-tools summary {
   cursor: pointer;
-  color: #a78c67;
+  color: #b58e60;
 }
 .voyage-tools details p {
   margin: 15px 0;
@@ -484,7 +484,7 @@
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.05em;
-  color: #a78c67;
+  color: #b58e60;
   margin: 28px 0 20px;
 }
 .voyage-event {
@@ -492,7 +492,7 @@
   grid-template-columns: 74px minmax(0, 1fr);
   gap: 18px;
   position: relative;
-  border-left: 1px solid #8e755155;
+  border-left: 1px solid #8e6a4155;
   padding: 6px 0 18px 22px;
   margin-left: 10px;
 }
@@ -504,25 +504,25 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #9d986f;
+  background: #9d7950;
 }
 .voyage-event.next:before {
-  background: #a2865e;
-  box-shadow: 0 0 15px #9c815aaa;
+  background: #a27d53;
+  box-shadow: 0 0 15px #9c7850aa;
 }
 .voyage-event > div:last-child {
   padding: 22px;
   background: linear-gradient(120deg, #191917, #0c0c0b);
-  border: 1px solid #93795433;
+  border: 1px solid #a67e4d33;
   border-radius: 15px;
 }
 .voyage-event.next > div:last-child {
-  border-color: #8f765277;
+  border-color: #8f6b4277;
 }
 .voyage-time {
   font-size: 20px;
   padding-top: 17px;
-  color: #a78c67;
+  color: #b58e60;
 }
 .voyage-time small {
   display: block;
@@ -549,13 +549,13 @@
 .voyage-event a {
   display: block;
   margin: 15px 0;
-  color: #a78c67;
+  color: #b58e60;
 }
 .voyage-event.done {
   opacity: 0.55;
 }
 .voyage-aside > div {
-  border: 1px solid #8f765233;
+  border: 1px solid #8f6b4233;
   border-radius: 16px;
   padding: 25px;
   margin-top: 27px;
@@ -577,7 +577,7 @@
 }
 .voyage-conflicts {
   background: #2e261b88;
-  border: 1px solid #79644677;
+  border: 1px solid #795b3877;
   border-radius: 12px;
   padding: 20px;
   margin: 20px 0;
@@ -586,13 +586,13 @@
   margin-top: 10px;
 }
 .circle-details {
-  border-top: 1px solid #93795433;
+  border-top: 1px solid #a67e4d33;
   margin-top: 20px;
   padding-top: 18px;
 }
 .circle-details summary {
   cursor: pointer;
-  color: #a78c67;
+  color: #b58e60;
   font-size: 15px;
 }
 .circle-brief {
@@ -610,7 +610,7 @@
 .circle-brief a {
   display: block;
   margin: 10px 0;
-  color: #a48962;
+  color: #a47e54;
 }
 .circle-contact {
   margin-top: 25px;
@@ -622,8 +622,8 @@
 }
 .circle-contact input {
   background: #0c0c0b;
-  border: 1px solid #93795455;
-  color: #a78c67;
+  border: 1px solid #a67e4d55;
+  color: #b58e60;
   padding: 12px;
   border-radius: 8px;
   color-scheme: dark;
@@ -672,7 +672,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1.3fr;
   background: linear-gradient(125deg, #1d1c1a99, #0a0909dd);
-  border: 1px solid #997e5840;
+  border: 1px solid #99724640;
   border-radius: 22px;
   overflow: hidden;
 }
@@ -683,12 +683,12 @@
   align-content: start;
 }
 .life-pulse > div + div {
-  border-left: 1px solid #997e5825;
+  border-left: 1px solid #99724625;
 }
 .life-pulse strong {
   font-size: 44px;
   font-weight: 400;
-  color: #a78c67;
+  color: #b58e60;
 }
 .life-pulse small {
   font-size: 20px;
@@ -700,11 +700,11 @@
 }
 .life-pulse a,
 .life-trip-packing a {
-  color: #a78c67;
+  color: #b58e60;
 }
 .life-preparation {
   margin-top: 20px;
-  border: 1px solid #997e5835;
+  border: 1px solid #99724635;
   border-radius: 18px;
   padding: 24px;
   background: #100f0eaa;
@@ -712,7 +712,7 @@
 .life-preparation summary {
   cursor: pointer;
   font-size: 20px;
-  color: #a78c67;
+  color: #b58e60;
 }
 .life-preparation > p {
   margin: 18px 0;
@@ -739,8 +739,8 @@
   width: 100%;
   min-width: 0;
   background: #0a0a09;
-  border: 1px solid #8c73514d;
-  color: #a78c67;
+  border: 1px solid #8c69404d;
+  color: #b58e60;
   border-radius: 8px;
   padding: 12px;
   color-scheme: dark;
@@ -754,7 +754,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  border: 1px solid #997e5830;
+  border: 1px solid #99724630;
   border-radius: 10px;
   padding: 15px;
 }
@@ -765,7 +765,7 @@
 }
 .life-choices input,
 .life-packing-row input {
-  accent-color: #9f835c;
+  accent-color: #9f7b51;
   width: 18px;
   height: 18px;
   flex-shrink: 0;
@@ -783,7 +783,7 @@
   margin: 14px 0;
 }
 .life-record-details {
-  border-top: 1px solid #a3875f30;
+  border-top: 1px solid #a37e5330;
   margin-top: 20px;
   padding-top: 18px;
 }
@@ -797,7 +797,7 @@
   margin-bottom: 18px;
 }
 .life-garment strong {
-  color: #a78c67;
+  color: #b58e60;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -814,11 +814,11 @@
 .life-step button,
 .life-packing-row button {
   font-size: 12px;
-  color: #a78c67;
+  color: #b58e60;
   padding: 8px;
 }
 .life-trip-packing {
-  border: 1px solid #997e5835;
+  border: 1px solid #99724635;
   border-radius: 16px;
   padding: 22px;
 }
@@ -839,7 +839,7 @@
   display: flex;
   align-items: start;
   gap: 10px;
-  border-bottom: 1px solid #997e5820;
+  border-bottom: 1px solid #99724620;
   padding: 14px 0;
 }
 .life-packing-row label {
@@ -858,7 +858,7 @@
   .life-pulse > div:last-child {
     grid-column: 1/-1;
     border-left: 0;
-    border-top: 1px solid #997e5825;
+    border-top: 1px solid #99724625;
   }
   .life-fields,
   .life-choices {
@@ -878,7 +878,7 @@
 }
 .capture-review {
   margin: 20px 0;
-  border-top: 1px solid #a3875f30;
+  border-top: 1px solid #a37e5330;
   padding-top: 20px;
 }
 .capture-review output,
@@ -886,12 +886,12 @@
   display: block;
   line-height: 1.6;
   margin-top: 12px;
-  color: #a78c67;
+  color: #b58e60;
 }
 .desk-focus {
   margin: 32px 0;
   padding: 26px;
-  border: 1px solid #a3875f35;
+  border: 1px solid #a37e5335;
   border-radius: 20px;
   background: linear-gradient(135deg, #1c1b1999, #0a0a09d9);
 }
@@ -906,7 +906,7 @@
   margin-top: 24px;
 }
 .desk-buckets > div {
-  border: 1px solid #a3875f25;
+  border: 1px solid #a37e5325;
   border-radius: 12px;
   padding: 20px;
   min-width: 0;
@@ -917,11 +917,11 @@
   font-size: 18px;
 }
 .desk-buckets h3 span {
-  color: #a78c67;
+  color: #b58e60;
 }
 .desk-buckets article {
   padding: 18px 0;
-  border-bottom: 1px solid #a3875f20;
+  border-bottom: 1px solid #a37e5320;
   overflow-wrap: anywhere;
 }
 .desk-buckets article small {

@@ -24,7 +24,7 @@ export default function Page() {
       <ClerkProvider
         appearance={{
           variables: {
-            colorPrimary: '#bfaa70',
+            colorPrimary: '#b88e5e',
             colorBackground: '#102319',
           },
         }}
