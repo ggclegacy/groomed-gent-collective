@@ -43,6 +43,13 @@
       "when": 1788741345924,
       "tag": "0005_medical_omega_red",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1788795151702,
+      "tag": "0006_boring_starbolt",
+      "breakpoints": true
     }
   ]
 }

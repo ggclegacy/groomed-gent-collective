@@ -121,3 +121,10 @@ export const onboardingDrafts = sqliteTable(
   },
   (t) => [check('onboarding_revision', sql`${t.revision} >= 0`)],
 );
+
+export const accountSettings = sqliteTable('account_settings', {
+  ownerId: text('owner_id').primaryKey().references(() => accountProfiles.userId, { onDelete: 'cascade' }),
+  revision: integer('revision').notNull().default(0),
+  document: text('document').notNull(),
+  savedAt: text('saved_at').notNull(),
+}, (t) => [check('settings_revision', sql`${t.revision} >= 0`)]);

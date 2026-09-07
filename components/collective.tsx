@@ -14,6 +14,7 @@ import {
   Sparkles,
   Award,
   ShieldCheck,
+  UserRound,
 } from 'lucide-react';
 import {
   Sidebar,
@@ -76,7 +77,7 @@ function Navigation({
               {key === 'intelligence' && <span className="nav-dot" />}
             </a>
           ))}
-        </nav>
+        <Link href="/account" onClick={() => setOpenMobile(false)}><UserRound size={18}/><span>Account & Settings</span></Link></nav>
       </SidebarContent>
       <SidebarFooter>
         <div className="sidebar-note">
@@ -87,20 +88,7 @@ function Navigation({
             <span>Represented with intention.</span>
           </p>
         </div>
-        <a
-          className="member-mini"
-          href="#identity"
-          onClick={() => {
-            navigate('identity');
-            setOpenMobile(false);
-          }}
-        >
-          <span className="avatar">GG</span>
-          <span>
-            Demo ambassador<small>Membership preview</small>
-          </span>
-          <ArrowUpRight size={16} />
-        </a>
+        <Link className="member-mini" href="/account" onClick={() => setOpenMobile(false)}><span className="avatar"><UserRound size={20}/></span><span>Your account<small>Profile & settings</small></span><ArrowUpRight size={16}/></Link>
       </SidebarFooter>
     </Sidebar>
   );
@@ -157,8 +145,8 @@ export default function Collective({ initialView = 'home' }: { initialView?: Sec
             <SidebarTrigger />
             <span>THE GROOMED GENT COLLECTIVE</span>
           </div>
-          <Link className="membership-entry" href="/onboarding">
-            My Cassius · Account
+          <Link className="membership-entry" href="/account">
+            Account & Settings
           </Link>
           <span className="preview-badge">
             <span /> DEMO EXPERIENCE
@@ -263,6 +251,7 @@ export default function Collective({ initialView = 'home' }: { initialView?: Sec
             <span>{label}</span>
           </a>
         ))}
+        <Link href="/account"><UserRound size={20} strokeWidth={1.5}/><span>Account</span></Link>
       </nav>
     </SidebarProvider></GentlemanProvider>
   );

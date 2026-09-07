@@ -1,3 +1,4 @@
+import { readSettings, saveSettings, exportAccount } from './account-settings.ts';
 import { ensureProfile, parseOnboarding } from './profile.ts';
 import {
   readIntelligence,
@@ -178,6 +179,17 @@ export async function accountApi(
       throw new AccountError(503, 'Member services are not configured.');
     const user = getIdentity(request, config);
     if (!user) throw new AccountError(401, 'Sign in to continue.');
+    // Account ownership controls remain available even when partner privileges are suspended.
+    if (path === '/api/account/settings') {
+      if (request.method === 'GET') return json(await readSettings(db, user.id));
+      if (request.method === 'PUT') return json(await saveSettings(db, user.id, await body(request, 8000)));
+      throw new AccountError(405, 'Use GET or PUT for settings.');
+    }
+    if (path === '/api/account/export') {
+      if (request.method !== 'POST') throw new AccountError(405, 'Use POST to export your data.');
+      await body(request, 1000);
+      return json({ exportedAt: new Date().toISOString(), profile: state.profile, membership: state.member, data: await exportAccount(db, user.id), scope: 'Collective account data. Sign-in records are managed separately by Clerk. Device-only drafts and external commerce records are not included.' });
+    }
     if (state.member?.status === 'suspended')
       throw new AccountError(
         403,

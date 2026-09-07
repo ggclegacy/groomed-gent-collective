@@ -43,6 +43,13 @@
       "when": 1788741342831,
       "tag": "0005_right_shard",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788795150131,
+      "tag": "0006_whole_fallen_one",
+      "breakpoints": true
     }
   ]
 }

@@ -12,10 +12,14 @@ void test('private page routes include nested routes and never match a public lo
     '/members/studio',
     '/voyage',
     '/member-session',
+    '/account',
+    '/account/security',
+    '/account/security/security',
     '/auth/continue',
   ])
     assert.equal(protectedPage(path), true, path);
   for (const path of [
+    '/account-public',
     '/sign-in',
     '/sign-up',
     '/my-cassius-public',

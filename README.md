@@ -1,3 +1,7 @@
+## Account & Settings · September 7, 2026
+
+Dedicated `/account` member settings, provider-managed security, persisted contact preferences, Cassius controls and account export. See [implementation, migration and activation requirements](docs/account-settings/implementation.md). The historical deployment notes below are superseded by the latest account documentation.
+
 ## Voyage — immersive location intelligence
 
 The existing Voyage entry and `/voyage` now open the full-screen daily discovery mode. Prior trip tools are preserved under **Journeys**. See [Voyage implementation and setup](docs/voyage.md) for providers, credentials, demo boundaries and verification.

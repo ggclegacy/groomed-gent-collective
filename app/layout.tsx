@@ -1,10 +1,11 @@
 import { ClerkProvider } from '@clerk/nextjs';
-import { SessionBoundary } from '@/components/account-session';
+import { SessionBoundary, AccountShortcut } from '@/components/account-session';
 import { accountsConfigured } from '@/lib/auth-config';
 import type { Metadata, Viewport } from 'next';
 import brand from '@/lib/brand.json';
 import './brand-tokens.css';
 import './globals.css';
+import './account.css';
 import './cassius-identity.css';
 import './gentleman.css';
 import './voyage.css';
@@ -63,7 +64,7 @@ export default function RootLayout({
               },
             }}
           >
-            <SessionBoundary>{children}</SessionBoundary>
+            <SessionBoundary>{children}<AccountShortcut /></SessionBoundary>
           </ClerkProvider>
         ) : (
           children

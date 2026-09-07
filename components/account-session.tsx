@@ -1,6 +1,9 @@
 'use client';
 import { useClerk, useUser } from '@clerk/nextjs';
 import { useEffect, useRef, useState } from 'react';
+import { usePathname } from 'next/navigation';
+import Link from 'next/link';
+import { UserRound } from 'lucide-react';
 export function SessionBoundary({ children }: { children: React.ReactNode }) {
   const { isLoaded, user } = useUser();
   const identity = useRef<string | null | undefined>(undefined);
@@ -18,6 +21,35 @@ export function SessionBoundary({ children }: { children: React.ReactNode }) {
     window.addEventListener('pageshow', restore);
     return () => window.removeEventListener('pageshow', restore);
   }, []);
+  useEffect(() => {
+    if (!isLoaded || !user?.id) {
+      delete document.documentElement.dataset.accountMotion;
+      return;
+    }
+    let current = true;
+    const apply = (settings: { reducedMotion?: boolean }) => {
+      if (current)
+        document.documentElement.dataset.accountMotion = settings.reducedMotion
+          ? 'reduce'
+          : 'system';
+    };
+    void fetch('/api/account/settings', { cache: 'no-store' })
+      .then(async (r) => {
+        if (r.ok)
+          apply(
+            ((await r.json()) as { settings: { reducedMotion: boolean } })
+              .settings,
+          );
+      })
+      .catch(() => {});
+    const changed = (event: Event) => apply((event as CustomEvent).detail);
+    window.addEventListener('ggc:settings', changed);
+    return () => {
+      current = false;
+      delete document.documentElement.dataset.accountMotion;
+      window.removeEventListener('ggc:settings', changed);
+    };
+  }, [isLoaded, user?.id]);
   return (
     <div key={isLoaded ? (user?.id ?? 'signed-out') : 'loading'}>
       {children}
@@ -46,9 +78,31 @@ export function LogoutButton() {
           }
         }}
       >
-        {busy ? 'Signing out…' : 'Sign out'}
+        {busy ? 'Signing out…' : 'Log out'}
       </button>
       {error && <p role="alert">{error}</p>}
     </>
+  );
+}
+
+export function AccountShortcut() {
+  const path = usePathname();
+  const [voyage, setVoyage] = useState(false);
+  useEffect(() => {
+    const sync = () => setVoyage(window.location.hash === '#voyage');
+    sync();
+    window.addEventListener('hashchange', sync);
+    return () => window.removeEventListener('hashchange', sync);
+  }, []);
+  if (
+    (path === '/' && !voyage) ||
+    path.startsWith('/account') ||
+    path.startsWith('/sign-')
+  )
+    return null;
+  return (
+    <Link className="account-shortcut" href="/account">
+      <UserRound size={18} /> Account
+    </Link>
   );
 }
